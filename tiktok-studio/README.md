@@ -65,7 +65,11 @@ Szenen: `city oldtown volcano ocean space earth room plant airship mountains mar
 
 ## Hinweise
 
-* **Stimmen:** Erzähler „Thorsten“ (Datensatz CC0) und für Zitate „Ramona“ (M-AILABS-Datensatz),
+* **ElevenLabs (empfohlen):** `ELEVENLABS_API_KEY` setzen und `api.elevenlabs.io` im Netzwerk freigeben.
+  `python3 pipeline/el_voices.py` erzeugt Hörproben, `ELEVENLABS_VOICE_ID=<id>` wählt die Stimme.
+  Mit ElevenLabs sind die Untertitel exakt wortgenau, weil die API Zeitstempel pro Zeichen liefert.
+  Bereits erzeugte Sätze werden in `build/_tts_cache` gespeichert und nicht doppelt bezahlt.
+* **Offline-Stimmen:** Erzähler „Thorsten“ (Datensatz CC0) und für Zitate „Ramona“ (M-AILABS-Datensatz),
   beide aus Piper. Die Stimmen sind „low quality“ (16 kHz). Für einen natürlicheren
   Klang kannst du in `pipeline/voice.py` eine bessere Piper-Stimme (`*-medium`/`-high`)
   oder eine eigene Aufnahme einsetzen; das Timing passt sich automatisch an.

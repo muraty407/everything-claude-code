@@ -21,9 +21,25 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from de_text import normalize  # noqa: E402
 
-# Standard-Engine: Coqui VITS "Thorsten" (22 kHz, deutlich natürlicher).
-# Fallback: Piper (ENGINE=piper), falls coqui-tts nicht installiert ist.
-ENGINE = os.environ.get("TTS_ENGINE", "vits")
+# Engines (Umgebungsvariable TTS_ENGINE):
+#   elevenlabs – Standard, sobald ELEVENLABS_API_KEY gesetzt ist (exakte Wort-Timings per API)
+#   vits       – Coqui VITS "Thorsten" (offline, 22 kHz)
+#   piper      – Piper "low" (offline, Fallback)
+ENGINE = os.environ.get("TTS_ENGINE") or ("elevenlabs" if os.environ.get("ELEVENLABS_API_KEY") else "vits")
+
+# ElevenLabs: Modell + Stimmen. Erzähler = tiefe, ruhige Doku-Stimme ("Brian"),
+# Zitate = zweite Stimme ("Daniel", wirkt wie Archiv/Nachrichten). Per Env-Var tauschbar,
+# z. B. eine native deutsche Stimme aus der Voice Library.
+EL_MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
+EL_VOICES = {
+    "narrator": os.environ.get("ELEVENLABS_VOICE_ID", "nPczCjzI2devNBz1zQrb"),
+    "second": os.environ.get("ELEVENLABS_VOICE_ID_2", "onwK4e9ZLuTAKqWW03F9"),
+}
+EL_SETTINGS = {
+    "narrator": {"stability": 0.42, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True, "speed": 1.08},
+    "second": {"stability": 0.55, "similarity_boost": 0.75, "style": 0.2, "use_speaker_boost": True, "speed": 1.0},
+}
+EL_CACHE = os.path.join(ROOT, "build", "_tts_cache")
 VITS_DIR = os.path.join(ROOT, "assets/voices/coqui/tts_models--de--thorsten--vits")
 VITS_TEMPO = {"narrator": 1.10, "second": 1.0}
 
@@ -56,8 +72,60 @@ def vits():
     return _loaded["vits"]
 
 
+def elevenlabs(text, name, out_mp3):
+    """Ruft ElevenLabs /with-timestamps auf (mit Cache, damit nichts doppelt bezahlt wird).
+    Gibt Wort-Timings (relativ, Sekunden) zurück."""
+    import base64, hashlib, urllib.request
+    os.makedirs(EL_CACHE, exist_ok=True)
+    body = {"text": text, "model_id": EL_MODEL, "language_code": "de", "voice_settings": EL_SETTINGS[name]}
+    if "multilingual" in EL_MODEL:
+        body.pop("language_code")  # v2 erkennt die Sprache selbst
+    key = hashlib.sha1(json.dumps([EL_VOICES[name], body], sort_keys=True).encode()).hexdigest()
+    cache = os.path.join(EL_CACHE, key + ".json")
+    if os.path.exists(cache):
+        data = json.load(open(cache))
+    else:
+        req = urllib.request.Request(
+            f"https://api.elevenlabs.io/v1/text-to-speech/{EL_VOICES[name]}/with-timestamps?output_format=mp3_44100_192",
+            data=json.dumps(body).encode(), method="POST",
+            headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"], "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = json.load(r)
+        json.dump(data, open(cache, "w"))
+    open(out_mp3, "wb").write(base64.b64decode(data["audio_base64"]))
+    al = data.get("alignment") or {}
+    chars, st, en = al.get("characters", []), al.get("character_start_times_seconds", []), al.get("character_end_times_seconds", [])
+    words, cur = [], None
+    for c, a, b in zip(chars, st, en):
+        if c.isspace():
+            if cur:
+                words.append(cur)
+            cur = None
+        elif cur is None:
+            cur = {"w": c, "s": a, "e": b}
+        else:
+            cur["w"] += c
+            cur["e"] = b
+    if cur:
+        words.append(cur)
+    return words
+
+
 def synth(text, name, out_wav):
+    """Erzeugt die Sprachdatei. Rückgabe: (dauer, wort_timings_relativ | None)."""
     raw = out_wav + ".raw.wav"
+    if ENGINE == "elevenlabs":
+        mp3 = out_wav + ".el.mp3"
+        words = elevenlabs(text, name, mp3)
+        # Keine Stille-Trimmung/Tempoänderung → API-Timings bleiben exakt
+        chain = ("highpass=f=60,equalizer=f=3000:t=q:w=1.2:g=2,"
+                 "acompressor=threshold=-20dB:ratio=2.5:attack=5:release=90:makeup=2,")
+        if name == "second":
+            chain = "highpass=f=180,lowpass=f=7000,acompressor=threshold=-22dB:ratio=3:makeup=3,aecho=0.6:0.4:30:0.12,"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", mp3, "-af", chain + f"aresample={SR}",
+                        "-ac", "1", out_wav], check=True)
+        os.remove(mp3)
+        return duration(out_wav), words
     if ENGINE == "vits":
         import contextlib, io
         with contextlib.redirect_stdout(io.StringIO()):
@@ -86,7 +154,7 @@ def synth(text, name, out_wav):
                  f"aresample={SR}")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-af", chain, "-ac", "1", out_wav], check=True)
     os.remove(raw)
-    return duration(out_wav)
+    return duration(out_wav), None
 
 
 def duration(path):
@@ -148,9 +216,13 @@ def build_day(day, outdir, use_whisper=True):
     for i, seg in enumerate(day["segments"]):
         name = seg.get("voice") or "narrator"
         wav = os.path.join(outdir, f"seg{i:02d}.wav")
-        d = synth(seg["text"], name, wav)
-        words = (whisper_words(wav, seg["text"], t) if use_whisper else None) or \
-            proportional_words(seg["text"], t, d)
+        d, rel = synth(seg["text"], name, wav)
+        if rel and len(rel) == len(split_words(seg["text"])):
+            words = [{"w": w, "s": round(t + r["s"], 3), "e": round(t + r["e"], 3)}
+                     for w, r in zip(split_words(seg["text"]), rel)]
+        else:
+            words = (whisper_words(wav, seg["text"], t) if use_whisper else None) or \
+                proportional_words(seg["text"], t, d)
         gap = GAP_AFTER_HOOK if i == 0 else GAP_AFTER
         if i == len(day["segments"]) - 1:
             gap = TAIL
@@ -177,7 +249,8 @@ def build_day(day, outdir, use_whisper=True):
     os.remove(lst)
 
     timeline = {"id": day["id"], "duration": round(t, 3), "segments": segs,
-                "word_source": "whisper" if use_whisper and segs and whisper_words.__dict__.get("model") else "script"}
+                "engine": ENGINE,
+                "word_source": "api" if ENGINE == "elevenlabs" else "whisper" if use_whisper and whisper_words.__dict__.get("model") else "script"}
     with open(os.path.join(outdir, "timeline.json"), "w", encoding="utf-8") as f:
         json.dump(timeline, f, ensure_ascii=False, indent=1)
     return timeline
