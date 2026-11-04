@@ -42,8 +42,32 @@ def year(n: int) -> str:
     return cardinal(n)
 
 
+# Aussprache-Lexikon: Fremdwörter/Namen so schreiben, wie ein deutscher Sprecher sie sagt.
+# (Nur für die Sprachausgabe – Untertitel zeigen weiter die echte Schreibweise.)
+LEXIKON = [
+    ("St.-Paul's-Kathedrale", "Sänt-Pols-Kathedrale"),
+    ("Yellowstone-Nationalpark", "Jellostoun-Nationalpark"), ("Yellowstone", "Jellostoun"),
+    ("Mount St. Helens", "Maunt Sänt Hellens"), ("Mount Everest", "Maunt Everest"),
+    ("Houston", "Hjuhsten"), ("Tranquility", "Tränkwilliti"), ("Eagle", "Iegel"),
+    ("Neil Armstrong", "Niel Armstrong"), ("Jack Swigert", "Dschäck Swiggert"),
+    ("One-Way-Ticket", "Wann-Wäi-Ticket"), ("WhatsApp", "Wotsäpp"), ("TikTok", "Tick-Tock"),
+    ("Mary Shelley", "Märri Schelli"), ("New York", "Nju-Jork"), ("New Jersey", "Nju-Dschörsi"),
+    ("Lakehurst", "Läikhörst"), ("Carpathia", "Karpatia"), ("Pudding Lane", "Pudding Läin"),
+    ("Thomas Bloodworth", "Tommas Bladwörs"), ("Herbert Morrison", "Hörbert Morrisen"),
+    ("Voltaire", "Woltär"), ("Munchs", "Munks"), ("Challengertief", "Tschällendscher-Tief"),
+    ("quaranta giorni", "kwaranta dschorni"), ("Crew", "Kru"), ("Blackouts", "Bläckauts"),
+    ("Shanghai", "Schanghai"), ("Titanic", "Titanik"), ("Schabowski", "Schabofski"),
+    ("DART-Mission", "Dart-Mission"), ("NASA", "Nasa"), ("NATO", "Nato"),
+    ("GPS", "Ge-Pe-Es"), ("UKW", "U-Ka-We"), ("UV-Strahlung", "U-Fau-Strahlung"),
+    ("US-Geologen", "U-Es-Geologen"), ("US-Ostküste", "U-Es-Ostküste"), ("USA", "U-Es-A"),
+    ("Was-wäre-wenn", "Was wäre wenn"), ("Zwölf-null-zwei", "Zwölf null zwei"),
+]
+
+
 def normalize(text: str) -> str:
     t = text
+    for a, b in LEXIKON:
+        t = re.sub(rf"(?<![\w-]){re.escape(a)}(?![\w])", b, t)
     # Uhrzeiten: 10:02 Uhr -> zehn Uhr zwei ; 01:23 Uhr -> ein Uhr dreiundzwanzig
     def _uhr(m):
         h, mi = int(m.group(1)), int(m.group(2))

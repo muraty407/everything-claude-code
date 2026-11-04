@@ -21,6 +21,12 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from de_text import normalize  # noqa: E402
 
+# Standard-Engine: Coqui VITS "Thorsten" (22 kHz, deutlich natürlicher).
+# Fallback: Piper (ENGINE=piper), falls coqui-tts nicht installiert ist.
+ENGINE = os.environ.get("TTS_ENGINE", "vits")
+VITS_DIR = os.path.join(ROOT, "assets/voices/coqui/tts_models--de--thorsten--vits")
+VITS_TEMPO = {"narrator": 1.10, "second": 1.0}
+
 VOICES = {
     "narrator": os.path.join(ROOT, "assets/voices/de-thorsten-low.onnx"),
     "second": os.path.join(ROOT, "assets/voices/de-ramona-low.onnx"),
@@ -42,24 +48,39 @@ def voice(name):
     return _loaded[name]
 
 
+def vits():
+    if "vits" not in _loaded:
+        from TTS.api import TTS
+        _loaded["vits"] = TTS(model_path=os.path.join(VITS_DIR, "model_file.pth"),
+                              config_path=os.path.join(VITS_DIR, "config.json"))
+    return _loaded["vits"]
+
+
 def synth(text, name, out_wav):
-    from piper import SynthesisConfig
     raw = out_wav + ".raw.wav"
-    cfg = SynthesisConfig(length_scale=LENGTH_SCALE[name], noise_scale=0.6, noise_w_scale=0.75)
-    with wave.open(raw, "wb") as wf:
-        voice(name).synthesize_wav(normalize(text), wf, syn_config=cfg)
+    if ENGINE == "vits":
+        import contextlib, io
+        with contextlib.redirect_stdout(io.StringIO()):
+            vits().tts_to_file(text=normalize(text), file_path=raw)
+        tempo = VITS_TEMPO[name]
+    else:
+        from piper import SynthesisConfig
+        cfg = SynthesisConfig(length_scale=LENGTH_SCALE[name], noise_scale=0.6, noise_w_scale=0.75)
+        with wave.open(raw, "wb") as wf:
+            voice(name).synthesize_wav(normalize(text), wf, syn_config=cfg)
+        tempo = 1.02 if name == "narrator" else 1.0
     # Veredelung: Stille trimmen, leicht schneller, Bass/Präsenz, Kompression, 48 kHz
     if name == "narrator":
         chain = ("silenceremove=start_periods=1:start_threshold=-45dB,"
                  "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
-                 "atempo=1.02,highpass=f=70,equalizer=f=180:t=q:w=1:g=3,"
+                 f"atempo={tempo},highpass=f=70,equalizer=f=180:t=q:w=1:g=3,"
                  "equalizer=f=3200:t=q:w=1.2:g=4,equalizer=f=7000:t=q:w=1:g=-2,"
                  "acompressor=threshold=-20dB:ratio=3.5:attack=5:release=80:makeup=4,"
                  f"aresample={SR}")
     else:  # Zitat-Stimme: etwas "Archiv/Funk"-Charakter
         chain = ("silenceremove=start_periods=1:start_threshold=-45dB,"
                  "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
-                 "highpass=f=250,lowpass=f=5500,equalizer=f=1800:t=q:w=1:g=4,"
+                 f"atempo={tempo},highpass=f=250,lowpass=f=5500,equalizer=f=1800:t=q:w=1:g=4,"
                  "acompressor=threshold=-22dB:ratio=4:attack=5:release=60:makeup=5,"
                  "aecho=0.6:0.4:35:0.15,"
                  f"aresample={SR}")

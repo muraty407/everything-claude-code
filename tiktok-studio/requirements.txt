@@ -1,3 +1,6 @@
-piper-tts==1.8.0
+coqui-tts[codec]   # Standard-Stimme Thorsten VITS
+six
+gruut[de]
+piper-tts==1.8.0  # Fallback (TTS_ENGINE=piper)
 faster-whisper>=1.0
 yt-dlp

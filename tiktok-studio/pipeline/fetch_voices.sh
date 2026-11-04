@@ -10,3 +10,10 @@ for v in de-thorsten-low de-ramona-low; do
   rm "/tmp/$v.tar.gz"
 done
 ls -la
+
+# Standard-Stimme: Coqui Thorsten VITS (22 kHz)
+mkdir -p coqui && cd coqui
+if [ ! -f tts_models--de--thorsten--vits/model_file.pth ]; then
+  curl -sSL -o vits.zip https://github.com/coqui-ai/TTS/releases/download/v0.7.0_models/tts_models--de--thorsten--vits.zip
+  unzip -oq vits.zip && rm vits.zip
+fi
