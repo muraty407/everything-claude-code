@@ -30,7 +30,7 @@ def words(seg_list):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--start", default="2026-11-05")
+    ap.add_argument("--start", default="2026-11-04")
     args = ap.parse_args()
     start = dt.date.fromisoformat(args.start)
 

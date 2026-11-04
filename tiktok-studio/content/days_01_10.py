@@ -115,7 +115,7 @@ DAYS = [
     V("mauerfall", "Du bist in Ost-Berlin – 9. November 1989", "#ffd166",
       ("UHRZEIT · BERLIN", None),
       ("DIE MAUER", "FÄLLT HEUTE", "9.11.1989", "DU BIST IN OST-BERLIN", "wall:night"),
-      "Heute vor 37 Jahren: Du bist in Ost-Berlin, 9. November 1989. Wo wärst du in dieser Nacht gewesen? 🧱 #mauerfall",
+      "9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱 #mauerfall",
       ["mauerfall", "berlin", "ddr", "geschichte"],
       [
           S("Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen. Das ändert sich heute Nacht.",
