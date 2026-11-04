@@ -49,6 +49,11 @@ def main():
         d["next"] = days[i + 1]["title"] if i + 1 < len(days) else None
         d["hashtags"] = ["#" + t for t in (d["tags"] + BASE_TAGS)][:9]
         d["word_count"] = words(d["segments"])
+        # Instagram Reels: längere Caption erlaubt, 3–5 Themen-Hashtags (Instagram rät von Hashtag-Spam ab)
+        base = d["caption"].split(" #")[0]
+        ig_tags = ["#" + t for t in d["tags"][:3]] + ["#zeitzeuge", "#geschichte" if "#geschichte" not in ["#" + t for t in d["tags"][:3]] else "#wissen"]
+        d["ig_caption"] = (base + "\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳"
+                           + ("\nMorgen: " + d["next"] if d.get("next") else "") + "\n\n" + " ".join(ig_tags))
         out.append(d)
 
     with open(os.path.join(HERE, "days.json"), "w", encoding="utf-8") as f:
@@ -82,6 +87,12 @@ def main():
             "",
             "```",
             d["caption"].split(" #")[0] + "\n\n" + " ".join(d["hashtags"]),
+            "```",
+            "",
+            "**Instagram Reel:**",
+            "",
+            "```",
+            d["ig_caption"],
             "```",
             "",
             "<details><summary>Sprechertext</summary>",

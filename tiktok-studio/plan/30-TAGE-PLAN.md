@@ -48,6 +48,18 @@ Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? �
 #pompeji #vesuv #geschichte #vulkan #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? 🌋
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn die Sonne verschwindet?
+
+#pompeji #vesuv #geschichte #zeitzeuge #wissen
+```
+
 <details><summary>Sprechertext</summary>
 
 Du bist in Pompeji. Ein ganz normaler Tag im Jahr 79. Und du hast noch etwa achtzehn Stunden. Gegen Mittag hörst du einen gewaltigen Knall. Über dem Vesuv steigt eine Wolke auf – geformt wie eine riesige Pinie. Sie ist über dreißig Kilometer hoch. Höher, als heute jedes Passagierflugzeug fliegt. Dann beginnt es zu regnen. Aber nicht Wasser – sondern Bimsstein. Kleine, leichte Steine. Stundenlang. Und hier machen viele den ersten Fehler: Sie verstecken sich im Haus. Der Bims türmt sich auf den Dächern, bis fast drei Meter hoch. Die Dächer brechen ein. Tausende fliehen. Wer früh die Stadt verlässt, hat eine echte Chance. Am nächsten Morgen bricht die Aschesäule zusammen. Eine Glutwolke rast den Berg hinunter – heißer als ein Backofen, schneller als ein Auto. In wenigen Minuten erreicht sie die Stadt. Für alle, die geblieben sind, ist es vorbei. Fast 1700 Jahre später graben Archäologen Pompeji aus – konserviert unter der Asche. Wärst du rechtzeitig geflohen?
@@ -61,6 +73,18 @@ Du bist in Pompeji. Ein ganz normaler Tag im Jahr 79. Und du hast noch etwa acht
 Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
 
 #sonne #weltall #physik #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist auf der Titanic
+
+#sonne #weltall #physik #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -78,6 +102,18 @@ Was wäre, wenn die Sonne genau jetzt verschwindet? Das Verrückte: Du würdest 
 #titanic #geschichte #schiff #1912 #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+14. April 1912, 23:40 Uhr. Du bist auf der Titanic. Bekommst du einen Platz im Boot? 🚢
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn das Internet 7 Tage ausfällt?
+
+#titanic #geschichte #schiff #zeitzeuge #wissen
+```
+
 <details><summary>Sprechertext</summary>
 
 Du bist auf der Titanic. 14. April 1912, 23:40 Uhr. Du hast noch zwei Stunden und vierzig Minuten. Ein leichtes Ruckeln geht durchs Schiff. Viele merken es kaum. An Deck spielen manche sogar mit Eisbrocken. Doch der Eisberg hat den Rumpf aufgerissen. Fünf Abteilungen laufen voll Wasser. Die Titanic verträgt höchstens vier. Kurz nach Mitternacht ist klar: Das unsinkbare Schiff wird sinken. Das Problem: Es gibt nur zwanzig Rettungsboote. Platz für etwa 1178 Menschen. An Bord sind über 2200. Die ersten Boote legen halb leer ab. Viele glauben noch, auf dem großen Schiff sei es sicherer. Regel Nummer eins, wenn du überleben willst: Geh so früh wie möglich in ein Boot. Egal, wie sicher sich das Schiff noch anfühlt. 2:20 Uhr. Die Titanic bricht auseinander und versinkt. Das Wasser hat etwa minus zwei Grad. In so kaltem Wasser bleiben meist nur Minuten. Das Rettungsschiff Carpathia kommt erst gegen vier Uhr morgens. Rund 1500 Menschen sterben. Nur etwa 700 überleben. Hättest du einen Platz im Boot bekommen?
@@ -91,6 +127,18 @@ Du bist auf der Titanic. 14. April 1912, 23:40 Uhr. Du hast noch zwei Stunden un
 Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵
 
 #internet #blackout #deutschland #vorsorge #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist in Ost-Berlin – 9. November 1989
+
+#internet #blackout #deutschland #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -108,6 +156,18 @@ Was wäre, wenn morgen früh das Internet ausfällt? Weltweit. Nicht für eine S
 #mauerfall #berlin #ddr #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn der Mond verschwindet?
+
+#mauerfall #berlin #ddr #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen. Das ändert sich heute Nacht. Im Fernsehen läuft eine zähe Pressekonferenz. Dann liest Günter Schabowski einen Zettel vor: Privatreisen ins Ausland sind ab jetzt möglich. Ein Journalist fragt: Ab wann gilt das? Schabowski blättert. Und sagt: Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zum Grenzübergang Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Niemand weiß, was passieren wird. Der Druck wird immer größer. Gegen halb zwölf gibt der diensthabende Offizier Harald Jäger nach – und öffnet den Schlagbaum. Fremde fallen sich in die Arme. Menschen tanzen auf der Mauer. Trabis fahren hupend über den Kurfürstendamm. Achtundzwanzig Jahre Teilung enden in einer einzigen Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
@@ -121,6 +181,18 @@ Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen
 Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
 
 #mond #weltall #gezeiten #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist in Hamburg – Sturmflut 1962
+
+#mond #weltall #gezeiten #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -138,6 +210,18 @@ Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du e
 #hamburg #sturmflut #geschichte #norddeutschland #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du es aufs Dach? 🌊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn die Erde aufhört, sich zu drehen?
+
+#hamburg #sturmflut #geschichte #zeitzeuge #wissen
+```
+
 <details><summary>Sprechertext</summary>
 
 Du wohnst in Hamburg-Wilhelmsburg. Freitag, 16. Februar 1962. Draußen tobt ein Orkan. Du gehst schlafen. Die Warnungen im Radio klingen nicht besonders dramatisch. Viele wohnen in Behelfsheimen und Gartenlauben – direkt hinter dem Deich. Mitten in der Nacht drückt der Sturm das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter über Normal. Die Deiche brechen an über sechzig Stellen. Das Wasser kommt in Minuten. Menschen flüchten auf Dächer. Im Dunkeln. Bei eisiger Kälte. Regel Nummer eins bei Hochwasser: nach oben. Niemals in den Keller. Niemals ins Auto. Polizeisenator Helmut Schmidt holt Bundeswehr und Hubschrauber der NATO zu Hilfe. Tausende werden von den Dächern gerettet. In Hamburg sterben 315 Menschen. Danach werden die Deiche massiv erhöht. Wärst du rechtzeitig aufs Dach gekommen?
@@ -151,6 +235,18 @@ Du wohnst in Hamburg-Wilhelmsburg. Freitag, 16. Februar 1962. Draußen tobt ein 
 Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
 
 #erde #physik #wissen #weltall #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist in London – Der große Brand 1666
+
+#erde #physik #wissen #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -168,6 +264,18 @@ London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tag
 #london #feuer #geschichte #1666 #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tage später ist die Stadt weg. 🔥
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn du in ein Schwarzes Loch fällst?
+
+#london #feuer #geschichte #zeitzeuge #wissen
+```
+
 <details><summary>Sprechertext</summary>
 
 Du bist in London. Sonntag, 2. September 1666, ein Uhr nachts. In einer Bäckerei in der Pudding Lane bricht ein Feuer aus. Der Sommer war extrem trocken. Die Häuser: aus Holz, dicht an dicht, mit Pech abgedichtet. Der Bürgermeister wird geweckt. Er schaut sich das Feuer an – und sagt einen Satz, der in die Geschichte eingeht: Pah! Das könnte eine Frau auspinkeln. Dann frischt der Ostwind auf. Das Feuer springt von Dach zu Dach, von Straße zu Straße. Die Lösung damals: Häuser einreißen, um Brandschneisen zu schaffen. Doch man zögert – aus Angst vor den Kosten. Vier Tage lang brennt London. 13.200 Häuser, 87 Kirchen und die alte St.-Paul's-Kathedrale werden zerstört. Offiziell sterben nur sechs Menschen. Historiker vermuten aber deutlich mehr. Danach wird London aus Stein neu gebaut. Hättest du dein Haus gerettet – oder wärst du zur Themse geflohen?
@@ -181,6 +289,18 @@ Du bist in London. Sonntag, 2. September 1666, ein Uhr nachts. In einer Bäckere
 Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghetti zu tun. 🕳️
 
 #schwarzesloch #weltall #physik #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghetti zu tun. 🕳️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist am Krakatau 1883
+
+#schwarzesloch #weltall #physik #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -198,6 +318,18 @@ Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, w
 #krakatau #vulkan #tsunami #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist auf Apollo 13
+
+#krakatau #vulkan #tsunami #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 27. August 1883. Du stehst an der Küste von Java. Gleich hörst du das lauteste Geräusch der Geschichte. Um 10:02 Uhr explodiert die Vulkaninsel Krakatau. Den Knall hört man noch fast fünftausend Kilometer entfernt – auf einer Insel mitten im Indischen Ozean. Die Druckwelle umrundet die Erde mehrmals. Barometer auf der ganzen Welt schlagen tagelang aus. Dann kommen die Tsunamis. Bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Ganze Küstenorte verschwinden von der Landkarte. Regel Nummer eins bei einem Tsunami: Zieht sich das Meer plötzlich zurück – sofort weg vom Strand. Nach oben. Die Asche färbt danach weltweit die Sonnenuntergänge rot. Manche glauben: Daher kommt der glühende Himmel in Munchs Bild Der Schrei. Hättest du den Knall überlebt? Schreib es in die Kommentare.
@@ -211,6 +343,18 @@ Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, w
 330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist auf Apollo 13. 🚀
 
 #apollo13 #nasa #weltall #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist auf Apollo 13. 🚀
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
+
+#apollo13 #nasa #weltall #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -228,6 +372,18 @@ Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
 #asteroid #dinosaurier #weltall #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist an Bord der Hindenburg
+
+#asteroid #dinosaurier #weltall #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Was wäre, wenn heute ein Asteroid einschlägt – so groß wie der, der die Dinosaurier ausgelöscht hat? Er ist rund zehn Kilometer groß – größer als der Mount Everest hoch ist. Und rast mit etwa zwanzig Kilometern pro Sekunde auf uns zu. Damit wäre er von Frankfurt nach München in etwa fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund hundertachtzig Kilometer breit. Glühende Trümmer regnen rund um die Erde herab. Wälder auf mehreren Kontinenten fangen Feuer. Dann wird es dunkel. Ruß und Staub verdecken die Sonne – vielleicht für Jahre. Damals starben etwa drei Viertel aller Tier- und Pflanzenarten. Die gute Nachricht: 2022 hat die NASA mit der DART-Mission gezeigt, dass man einen Asteroiden ablenken kann. Und fast alle großen Brocken in Erdnähe sind bekannt. Keiner davon ist auf Kollisionskurs. Hättest du gedacht, dass wir uns wehren können?
@@ -241,6 +397,18 @@ Was wäre, wenn heute ein Asteroid einschlägt – so groß wie der, der die Din
 6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34 Sekunden. 🎈🔥
 
 #hindenburg #luftschiff #zeppelin #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34 Sekunden. 🎈🔥
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist in Prypjat – Tschernobyl 1986
+
+#hindenburg #luftschiff #zeppelin #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -258,6 +426,18 @@ Du bist an Bord der Hindenburg, des größten Luftschiffs der Welt. 6. Mai 1937.
 #tschernobyl #prypjat #geschichte #1986 #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn alle Menschen verschwinden?
+
+#tschernobyl #prypjat #geschichte #zeitzeuge #wissen
+```
+
 <details><summary>Sprechertext</summary>
 
 Du wohnst in Prypjat in der Sowjetunion. 26. April 1986, mitten in der Nacht. Und niemand wird dir etwas sagen. Um 01:23 Uhr explodiert drei Kilometer entfernt Reaktor vier des Kraftwerks Tschernobyl. Über dem Reaktor sehen Augenzeugen ein seltsames Leuchten. Manche gehen sogar hinaus, um zuzusehen. Am Morgen geht das Leben weiter, als wäre nichts. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: rein ins Haus, Fenster zu, Lüftung aus. Und auf offizielle Anweisungen hören. 27. April, 14 Uhr. Endlich die Evakuierung. Über tausend Busse. Mitnehmen soll man nur Sachen für drei Tage. Sie kommen nie wieder zurück. Prypjat ist bis heute eine Geisterstadt. Das Riesenrad, das am 1. Mai eröffnen sollte, steht noch immer da. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
@@ -271,6 +451,18 @@ Du wohnst in Prypjat in der Sowjetunion. 26. April 1986, mitten in der Nacht. Un
 Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
 
 #erdeohnemenschen #natur #wissen #zukunft #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du bist in Lissabon – Erdbeben 1755
+
+#erdeohnemenschen #natur #wissen #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -288,6 +480,18 @@ Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafe
 #lissabon #erdbeben #tsunami #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn der Yellowstone ausbricht?
+
+#lissabon #erdbeben #tsunami #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Du bist in Lissabon. 1. November 1755, Allerheiligen. Die Kirchen sind voll. Überall brennen Kerzen. Um 9:40 Uhr bebt die Erde. Minutenlang. Kirchen und Häuser stürzen ein. Die umgestürzten Kerzen setzen die Trümmer in Brand. Viele fliehen zum Hafen, auf den großen Platz am Wasser. Dort fühlen sie sich sicher. Dann zieht sich das Meer zurück. Der Hafengrund liegt frei. Manche gehen sogar neugierig hin. Etwa vierzig Minuten nach dem Beben rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Zehntausende sterben. Das Beben erschüttert auch das Denken in Europa. Philosophen wie Voltaire fragen: Wie kann Gott so etwas zulassen? Regel Nummer eins nach einem Beben an der Küste: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
@@ -301,6 +505,18 @@ Du bist in Lissabon. 1. November 1755, Allerheiligen. Die Kirchen sind voll. Üb
 Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
 
 #yellowstone #supervulkan #vulkan #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du lebst im Jahr ohne Sommer – 1816
+
+#yellowstone #supervulkan #vulkan #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -318,6 +534,18 @@ Was wäre, wenn der Supervulkan unter dem Yellowstone-Nationalpark ausbricht? De
 #jahrohnesommer #1816 #tambora #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
+
+#jahrohnesommer #1816 #tambora #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Du lebst im Jahr 1816 in Süddeutschland. Und dieser Sommer wird nie kommen. Ein Jahr zuvor ist in Indonesien der Vulkan Tambora ausgebrochen. Einer der stärksten Ausbrüche seit Tausenden Jahren. Asche und Schwefel verteilen sich in der Atmosphäre und schwächen das Sonnenlicht auf der ganzen Welt. Im Juni schneit es. Im Juli regnet es fast ununterbrochen. Die Ernte verfault auf den Feldern. Die Brotpreise explodieren. Die Menschen hungern. Manche essen Gras und Baumrinde. Tausende wandern aus – nach Amerika oder Russland. Auch Pferde verhungern, weil der Hafer fehlt. Manche Historiker glauben: Deshalb erfand Karl Drais 1817 in Mannheim seine Laufmaschine – den Urahn des Fahrrads. Und am Genfer See schreibt Mary Shelley in diesem düsteren Sommer Frankenstein. Ein Vulkan am anderen Ende der Welt hat dein Leben verändert. Hättest du den Winter überstanden?
@@ -331,6 +559,18 @@ Du lebst im Jahr 1816 in Süddeutschland. Und dieser Sommer wird nie kommen. Ein
 Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
 
 #blackout #stromausfall #vorsorge #deutschland #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
+
+#blackout #stromausfall #vorsorge #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -348,6 +588,18 @@ Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
 #mars #weltall #nasa #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du lebst 1349 – Die Pest kommt
+
+#mars #weltall #nasa #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Was wäre, wenn du auf dem Mars stehst – ohne Raumanzug? Du hast ungefähr fünfzehn Sekunden. Der Luftdruck auf dem Mars liegt bei weniger als einem Prozent des Drucks auf der Erde. Erste Regel: Atme aus! Wenn du die Luft anhältst, können deine Lungen durch den Druckunterschied reißen. Bei so wenig Druck kocht Wasser schon bei Körpertemperatur. Speichel und Tränen beginnen zu sprudeln. Deine Haut schwillt an. Aber sie hält. Du platzt nicht – das ist ein Filmmythos. Nach etwa fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr. Die Kälte – im Schnitt etwa minus sechzig Grad – ist dabei gar nicht dein größtes Problem. Holt dich innerhalb von etwa ein bis zwei Minuten jemand zurück in die Station, könntest du überleben. Würdest du ein One-Way-Ticket zum Mars nehmen?
@@ -361,6 +613,18 @@ Was wäre, wenn du auf dem Mars stehst – ohne Raumanzug? Du hast ungefähr fü
 1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige Wochen später ist sie in deiner Stadt. 🐀
 
 #pest #mittelalter #geschichte #schwarzertod #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige Wochen später ist sie in deiner Stadt. 🐀
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn die Antarktis komplett schmilzt?
+
+#pest #mittelalter #geschichte #zeitzeuge #wissen
 ```
 
 <details><summary>Sprechertext</summary>
@@ -378,6 +642,18 @@ Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschlan
 #antarktis #klima #meeresspiegel #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was passiert mit dir in der Todeszone am Everest?
+
+#antarktis #klima #meeresspiegel #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Was wäre, wenn das gesamte Eis der Antarktis schmilzt? Der Meeresspiegel würde um etwa achtundfünfzig Meter steigen. Hamburg, Bremen, Kiel? Unter Wasser. Die Nordsee würde sich tief ins Land schieben – weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai – weitgehend verschwunden. Hunderte Millionen Menschen müssten umziehen. Die gute Nachricht: Das würde selbst bei starker Erwärmung viele Jahrhunderte bis Jahrtausende dauern. Aber schon ein Meer, das bis 2100 um bis zu einen Meter steigt, würde weltweit Millionen Menschen an den Küsten treffen. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
@@ -391,6 +667,18 @@ Was wäre, wenn das gesamte Eis der Antarktis schmilzt? Der Meeresspiegel würde
 Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone am Mount Everest. 🏔️
 
 #everest #berge #körper #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone am Mount Everest. 🏔️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
+
+#everest #berge #körper #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -408,6 +696,18 @@ Was passiert mit deinem Körper in der Todeszone am Mount Everest? Ab achttausen
 #sonnensturm #polarlichter #weltall #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+1859 sprühten Telegrafen Funken. Was würde ein solcher Sonnensturm heute anrichten? ☀️⚡
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn du in den Marianengraben tauchst?
+
+#sonnensturm #polarlichter #weltall #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Was wäre, wenn heute ein Sonnensturm wie im Jahr 1859 die Erde trifft? Damals sah man Polarlichter bis in die Karibik. Telegrafenleitungen sprühten Funken, Papier fing Feuer. Heute hängt fast alles am Strom. Und genau da wird es gefährlich. Stunde null: Satelliten fallen aus. GPS spinnt. Flugzeuge werden umgeleitet. Starke Ströme in den Stromleitungen können riesige Transformatoren zerstören. Ersatz dauert Monate. In Teilen der Welt drohen Blackouts über Wochen. Und das ist nicht nur Theorie: 2012 hat ein ähnlich starker Sturm die Erde knapp verfehlt. Um etwa neun Tage. Heute beobachten Sonden die Sonne rund um die Uhr. Wir hätten Stunden bis wenige Tage Vorwarnung. Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?
@@ -421,6 +721,18 @@ Was wäre, wenn heute ein Sonnensturm wie im Jahr 1859 die Erde trifft? Damals s
 Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
 
 #marianengraben #ozean #tiefsee #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Du sitzt in der Mondfähre – Apollo 11
+
+#marianengraben #ozean #tiefsee #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -438,6 +750,18 @@ Was wäre, wenn du zum tiefsten Punkt des Ozeans tauchst? Knapp elf Kilometer na
 #mondlandung #apollo11 #nasa #geschichte #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff. Du sitzt in der Mondfähre. 🌕
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn der Golfstrom stoppt?
+
+#mondlandung #apollo11 #nasa #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Du sitzt neben Neil Armstrong in der Mondfähre Eagle. 20. Juli 1969. Noch zwölf Minuten bis zur Landung. Plötzlich ein Alarm. Zwölf-null-zwei. Niemand an Bord weiß sofort, was das bedeutet. Der Bordcomputer ist überlastet. In Houston entscheiden junge Ingenieure in Sekunden: weiterfliegen. Dann sieht Armstrong: Der Autopilot steuert genau auf ein Feld voller Felsbrocken zu. Er übernimmt per Hand und sucht einen neuen Landeplatz. Der Treibstoff wird knapp. Houston meldet: noch sechzig Sekunden. Dann: noch dreißig. Mit nur noch etwa fünfundzwanzig Sekunden Reserve setzt die Eagle auf. Houston, hier Basis Tranquility. Der Adler ist gelandet. Hättest du die Nerven gehabt, das Ding per Hand zu landen?
@@ -451,6 +775,18 @@ Du sitzt neben Neil Armstrong in der Mondfähre Eagle. 20. Juli 1969. Noch zwöl
 Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
 
 #golfstrom #klima #europa #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn dich eine Lawine verschüttet?
+
+#golfstrom #klima #europa #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
@@ -468,6 +804,18 @@ Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
 #lawine #ski #berge #überleben #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
 
+**Instagram Reel:**
+
+```
+Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Morgen: Was wäre, wenn ein Gammablitz die Erde trifft?
+
+#lawine #ski #berge #zeitzeuge #geschichte
+```
+
 <details><summary>Sprechertext</summary>
 
 Was wäre, wenn dich eine Lawine verschüttet? Ab jetzt zählt jede einzelne Minute. Eine Lawine kann über hundert Kilometer pro Stunde schnell werden. Davonfahren klappt fast nie. Regel Nummer eins, solange du rutschst: kämpf dich nach oben. Und kurz bevor es stoppt: Hände vors Gesicht – für eine Atemhöhle. Wenn die Lawine stoppt, wird der Schnee fest wie Beton. Du kannst dich kaum bewegen. Du weißt nicht mal, wo oben ist. Ein bekannter Tipp: Spucke laufen lassen. Sie fließt nach unten. In den ersten fünfzehn Minuten überleben rund neun von zehn Verschütteten. Danach sinkt die Chance dramatisch. Deshalb: Niemals ohne Lawinenpiepser, Sonde und Schaufel. Und niemals allein. Deine Freunde sind deine Rettung. Nicht der Hubschrauber – der kommt meistens zu spät. Würdest du abseits der Piste fahren?
@@ -481,6 +829,17 @@ Was wäre, wenn dich eine Lawine verschüttet? Ab jetzt zählt jede einzelne Min
 Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥
 
 #gammablitz #weltall #physik #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
+```
+
+**Instagram Reel:**
+
+```
+Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+
+#gammablitz #weltall #physik #zeitzeuge #geschichte
 ```
 
 <details><summary>Sprechertext</summary>
