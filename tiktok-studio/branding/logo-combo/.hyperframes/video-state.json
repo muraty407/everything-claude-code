@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "historyId": "fe08d560-fac8-40d8-aeda-e20cb6dc3331",
+  "currentRevision": "fa419077-0d5c-46b3-9ee2-de42dad475c6",
+  "pendingChanges": false,
+  "files": {
+    "assets/fonts/ANTON-LICENSE.txt": {
+      "hash": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a",
+      "content": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/92/9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
+    },
+    "assets/fonts/anton-ext.woff2": {
+      "hash": "4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea",
+      "content": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/4b/4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea"
+    },
+    "assets/fonts/anton.woff2": {
+      "hash": "f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885",
+      "content": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/f9/f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885"
+    },
+    "index.html": {
+      "hash": "4a4f1a9f1c5c9a1f02ad80017c5439492f53f28b1cc288bd4148bac92620a490",
+      "content": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/4a/4a4f1a9f1c5c9a1f02ad80017c5439492f53f28b1cc288bd4148bac92620a490"
+    }
+  },
+  "revisions": {
+    "fa419077-0d5c-46b3-9ee2-de42dad475c6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793792746359,
+      "endedAt": 1793792746360,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/53/533e6a9b37fea4f2638c91068f911a61f89f79460cef3948642fc5445f7ef138",
+          "after": "/root/.cache/hyperframes/history/fe08d560-fac8-40d8-aeda-e20cb6dc3331/blobs/4a/4a4f1a9f1c5c9a1f02ad80017c5439492f53f28b1cc288bd4148bac92620a490"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1243d261-5687-40ed-8ab2-ae44aa3eaa11",
+      "completedAt": 1793792750509,
+      "output": "/tmp/claude-0/-home-user-everything-claude-code/1f5c2938-77c0-599a-8232-5ba7c6e955fa/scratchpad/lc_kombi-blau",
+      "status": "completed",
+      "revision": "fa419077-0d5c-46b3-9ee2-de42dad475c6"
+    },
+    "retainedRevisions": [
+      "fa419077-0d5c-46b3-9ee2-de42dad475c6",
+      "a47f5c9e-7c6f-448c-b4a2-c87cdadae46e"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
