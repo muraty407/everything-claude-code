@@ -1,0 +1,4081 @@
+[
+ {
+  "slug": "pompeji",
+  "title": "Du bist in Pompeji",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "BIS ZUR GLUTWOLKE",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "DU HAST",
+   "bottom": "18 STUNDEN",
+   "tag": "79 N. CHR.",
+   "kicker": "DU BIST IN POMPEJI",
+   "scene": "volcano:plume"
+  },
+  "caption": "Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? 🌋 #waswärewenn",
+  "tags": [
+   "pompeji",
+   "vesuv",
+   "geschichte",
+   "vulkan"
+  ],
+  "segments": [
+   {
+    "text": "Du bist in Pompeji. Ein ganz normaler Tag im Jahr 79. Und du hast noch etwa achtzehn Stunden.",
+    "scene": "oldtown:day",
+    "clock": "18:00:00",
+    "ctx": "POMPEJI · 79 N. CHR. · 13:00 UHR",
+    "you": true
+   },
+   {
+    "text": "Gegen Mittag hörst du einen gewaltigen Knall. Über dem Vesuv steigt eine Wolke auf – geformt wie eine riesige Pinie.",
+    "scene": "volcano:plume",
+    "clock": "17:58:20",
+    "fx": [
+     "shake",
+     "flash"
+    ]
+   },
+   {
+    "text": "Sie ist über dreißig Kilometer hoch. Höher, als heute jedes Passagierflugzeug fliegt.",
+    "scene": "volcano:plume",
+    "clock": "17:41:05",
+    "big": {
+     "value": "30 KM",
+     "sub": "HOCH"
+    }
+   },
+   {
+    "text": "Dann beginnt es zu regnen. Aber nicht Wasser – sondern Bimsstein. Kleine, leichte Steine. Stundenlang.",
+    "scene": "oldtown:dusk",
+    "clock": "15:12:44",
+    "fx": [
+     "ash"
+    ],
+    "you": true
+   },
+   {
+    "text": "Und hier machen viele den ersten Fehler: Sie verstecken sich im Haus.",
+    "scene": "room:dark",
+    "clock": "12:30:10",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "IM HAUS BLEIBEN"
+    },
+    "fx": [
+     "ash"
+    ]
+   },
+   {
+    "text": "Der Bims türmt sich auf den Dächern, bis fast drei Meter hoch. Die Dächer brechen ein.",
+    "scene": "oldtown:dusk",
+    "clock": "08:05:51",
+    "stat": {
+     "title": "BIMS IN DER STADT",
+     "rows": [
+      [
+       "HÖHE",
+       "≈ 2,8 M"
+      ],
+      [
+       "DAUER",
+       "≈ 18 STD"
+      ]
+     ]
+    },
+    "fx": [
+     "ash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Tausende fliehen. Wer früh die Stadt verlässt, hat eine echte Chance.",
+    "scene": "map",
+    "clock": "04:47:02",
+    "map": {
+     "label": "POMPEJI",
+     "sub": "VESUV · 10 KM"
+    }
+   },
+   {
+    "text": "Am nächsten Morgen bricht die Aschesäule zusammen. Eine Glutwolke rast den Berg hinunter – heißer als ein Backofen, schneller als ein Auto.",
+    "scene": "volcano:collapse",
+    "clock": "00:04:30",
+    "stat": {
+     "title": "GLUTWOLKE",
+     "rows": [
+      [
+       "TEMPERATUR",
+       "300 °C+"
+      ],
+      [
+       "TEMPO",
+       "100 KM/H+"
+      ]
+     ]
+    },
+    "fx": [
+     "red",
+     "shake"
+    ]
+   },
+   {
+    "text": "In wenigen Minuten erreicht sie die Stadt. Für alle, die geblieben sind, ist es vorbei.",
+    "scene": "oldtown:ash",
+    "clock": "00:00:00",
+    "fx": [
+     "dark",
+     "ash"
+    ]
+   },
+   {
+    "text": "Fast 1700 Jahre später graben Archäologen Pompeji aus – konserviert unter der Asche. Wärst du rechtzeitig geflohen?",
+    "scene": "oldtown:ruins",
+    "clock": "00:00:00",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÄRST DU GEFLOHEN?"
+    }
+   }
+  ],
+  "day": 1,
+  "id": "tag01-pompeji",
+  "date": "2026-11-05",
+  "weekday": "Do",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 1/30",
+  "next": "Was wäre, wenn die Sonne verschwindet?",
+  "hashtags": [
+   "#pompeji",
+   "#vesuv",
+   "#geschichte",
+   "#vulkan",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 158
+ },
+ {
+  "slug": "sonne-verschwindet",
+  "title": "Was wäre, wenn die Sonne verschwindet?",
+  "accent": "#ffb703",
+  "hud": {
+   "label": "BIS DU ES MERKST",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "DIE SONNE",
+   "bottom": "IST WEG",
+   "tag": "8:20 MIN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:sun"
+  },
+  "caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️ #waswärewenn #weltall",
+  "tags": [
+   "sonne",
+   "weltall",
+   "physik",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn die Sonne genau jetzt verschwindet? Das Verrückte: Du würdest es erst in acht Minuten und zwanzig Sekunden merken.",
+    "scene": "space:sun",
+    "clock": "08:20",
+    "ctx": "JETZT · ÜBERALL AUF DER ERDE"
+   },
+   {
+    "text": "So lange braucht das Licht der Sonne bis zu uns. Und auch die Schwerkraft ist nicht schneller.",
+    "scene": "space:sun",
+    "clock": "07:55",
+    "big": {
+     "value": "8:20",
+     "sub": "MINUTEN LICHTWEG"
+    }
+   },
+   {
+    "text": "Dann: Schwarz. Als hätte jemand das Licht ausgeknipst. Und der Mond verschwindet gleich mit – er leuchtet ja nur durch die Sonne.",
+    "scene": "city:night,blackout",
+    "clock": "00:00",
+    "fx": [
+     "flash",
+     "dark"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Erde fliegt jetzt einfach geradeaus ins All. Keine Umlaufbahn mehr.",
+    "scene": "earth:cold",
+    "clock": "00:00",
+    "card": {
+     "kicker": "UMLAUFBAHN",
+     "title": "GERADEAUS INS ALL"
+    }
+   },
+   {
+    "text": "Nach einer Woche liegt die Temperatur an der Oberfläche im Schnitt unter minus siebzehn Grad. Nach einem Jahr bei minus siebzig.",
+    "scene": "city:night,snow",
+    "clock": "00:00",
+    "stat": {
+     "title": "TEMPERATUR",
+     "rows": [
+      [
+       "NACH 1 WOCHE",
+       "< −17 °C"
+      ],
+      [
+       "NACH 1 JAHR",
+       "≈ −73 °C"
+      ]
+     ]
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Pflanzen können keine Photosynthese mehr machen. Die meisten sterben innerhalb weniger Wochen.",
+    "scene": "mountains:night",
+    "clock": "00:00",
+    "card": {
+     "kicker": "PHOTOSYNTHESE",
+     "title": "AUS"
+    }
+   },
+   {
+    "text": "Die Ozeane frieren von oben zu. Aber das Eis isoliert. Darunter bleibt das Wasser lange flüssig.",
+    "scene": "ocean:night,ice",
+    "clock": "00:00",
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Wo könnte man überleben? Tief im Meer, an heißen Quellen. Oder in Island – mit Erdwärme.",
+    "scene": "map",
+    "clock": "00:00",
+    "map": {
+     "label": "ISLAND",
+     "sub": "ERDWÄRME = ÜBERLEBEN"
+    }
+   },
+   {
+    "text": "Keine Sorge: Die Sonne kann nicht einfach verschwinden. Sie hat noch rund fünf Milliarden Jahre. Was soll als Nächstes verschwinden?",
+    "scene": "space:sun",
+    "clock": "08:20",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS ALS NÄCHSTES?"
+    }
+   }
+  ],
+  "day": 2,
+  "id": "tag02-sonne-verschwindet",
+  "date": "2026-11-06",
+  "weekday": "Fr",
+  "post_time": "19:00",
+  "series": "WAS WÄRE WENN · TAG 2/30",
+  "next": "Du bist auf der Titanic",
+  "hashtags": [
+   "#sonne",
+   "#weltall",
+   "#physik",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 156
+ },
+ {
+  "slug": "titanic",
+  "title": "Du bist auf der Titanic",
+  "accent": "#4cc9f0",
+  "hud": {
+   "label": "UHRZEIT AN BORD",
+   "tick": null
+  },
+  "thumb": {
+   "top": "NOCH 2:40",
+   "bottom": "STUNDEN",
+   "tag": "1912",
+   "kicker": "DU BIST AUF DER TITANIC",
+   "scene": "ocean:night,liner"
+  },
+  "caption": "14. April 1912, 23:40 Uhr. Du bist auf der Titanic. Bekommst du einen Platz im Boot? 🚢 #waswärewenn",
+  "tags": [
+   "titanic",
+   "geschichte",
+   "schiff",
+   "1912"
+  ],
+  "segments": [
+   {
+    "text": "Du bist auf der Titanic. 14. April 1912, 23:40 Uhr. Du hast noch zwei Stunden und vierzig Minuten.",
+    "scene": "ocean:night,liner",
+    "clock": "23:40",
+    "ctx": "NORDATLANTIK · 14. APRIL 1912"
+   },
+   {
+    "text": "Ein leichtes Ruckeln geht durchs Schiff. Viele merken es kaum. An Deck spielen manche sogar mit Eisbrocken.",
+    "scene": "ocean:night,liner,iceberg",
+    "clock": "23:41",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Doch der Eisberg hat den Rumpf aufgerissen. Fünf Abteilungen laufen voll Wasser. Die Titanic verträgt höchstens vier.",
+    "scene": "ocean:night,liner",
+    "clock": "23:55",
+    "stat": {
+     "title": "SCHADEN",
+     "rows": [
+      [
+       "ABTEILUNGEN VOLL",
+       "5+"
+      ],
+      [
+       "MAXIMUM",
+       "4"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Kurz nach Mitternacht ist klar: Das unsinkbare Schiff wird sinken.",
+    "scene": "dark",
+    "clock": "00:05",
+    "card": {
+     "kicker": "00:05 UHR",
+     "title": "DAS SCHIFF SINKT"
+    }
+   },
+   {
+    "text": "Das Problem: Es gibt nur zwanzig Rettungsboote. Platz für etwa 1178 Menschen. An Bord sind über 2200.",
+    "scene": "ocean:night,liner",
+    "clock": "00:15",
+    "stat": {
+     "title": "RETTUNGSBOOTE",
+     "rows": [
+      [
+       "BOOTE",
+       "20"
+      ],
+      [
+       "PLÄTZE",
+       "1.178"
+      ],
+      [
+       "AN BORD",
+       "2.224"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Die ersten Boote legen halb leer ab. Viele glauben noch, auf dem großen Schiff sei es sicherer.",
+    "scene": "ocean:night,liner,boats",
+    "clock": "00:45",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "HALBLEERE BOOTE"
+    }
+   },
+   {
+    "text": "Regel Nummer eins, wenn du überleben willst: Geh so früh wie möglich in ein Boot. Egal, wie sicher sich das Schiff noch anfühlt.",
+    "scene": "ocean:night,liner,boats",
+    "clock": "01:10",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "SOFORT INS BOOT"
+    }
+   },
+   {
+    "text": "2:20 Uhr. Die Titanic bricht auseinander und versinkt. Das Wasser hat etwa minus zwei Grad.",
+    "scene": "ocean:night,sinking",
+    "clock": "02:20",
+    "big": {
+     "value": "−2 °C",
+     "sub": "WASSERTEMPERATUR"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "In so kaltem Wasser bleiben meist nur Minuten. Das Rettungsschiff Carpathia kommt erst gegen vier Uhr morgens.",
+    "scene": "ocean:night",
+    "clock": "04:00",
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Rund 1500 Menschen sterben. Nur etwa 700 überleben. Hättest du einen Platz im Boot bekommen?",
+    "scene": "ocean:dawn,boats",
+    "clock": "04:10",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "day": 3,
+  "id": "tag03-titanic",
+  "date": "2026-11-07",
+  "weekday": "Sa",
+  "post_time": "12:00",
+  "series": "WAS WÄRE WENN · TAG 3/30",
+  "next": "Was wäre, wenn das Internet 7 Tage ausfällt?",
+  "hashtags": [
+   "#titanic",
+   "#geschichte",
+   "#schiff",
+   "#1912",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 166
+ },
+ {
+  "slug": "internet-weg",
+  "title": "Was wäre, wenn das Internet 7 Tage ausfällt?",
+  "accent": "#00e5a0",
+  "hud": {
+   "label": "INTERNET-AUSFALL",
+   "tick": null
+  },
+  "thumb": {
+   "top": "7 TAGE",
+   "bottom": "OHNE INTERNET",
+   "tag": "WELTWEIT",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵 #waswärewenn",
+  "tags": [
+   "internet",
+   "blackout",
+   "deutschland",
+   "vorsorge"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn morgen früh das Internet ausfällt? Weltweit. Nicht für eine Stunde – sondern für sieben Tage.",
+    "scene": "city:day",
+    "clock": "TAG 1 · 07:00",
+    "ctx": "DEUTSCHLAND · MORGEN FRÜH"
+   },
+   {
+    "text": "Dein Handy zeigt: keine Verbindung. Kein WhatsApp, kein TikTok, keine Mails. Du denkst: kurze Störung.",
+    "scene": "room:day",
+    "clock": "TAG 1 · 07:05",
+    "fx": [
+     "glitch"
+    ],
+    "you": true
+   },
+   {
+    "text": "Beim Bäcker dann der Schock: Kartenzahlung geht nicht. Viele Läden nehmen nur noch Bargeld.",
+    "scene": "city:day",
+    "clock": "TAG 1 · 08:30",
+    "card": {
+     "kicker": "PROBLEM #1",
+     "title": "NUR NOCH BARGELD"
+    }
+   },
+   {
+    "text": "Und die Geldautomaten? Hängen auch am Netz. Vor den wenigen, die noch gehen, bilden sich lange Schlangen.",
+    "scene": "city:day",
+    "clock": "TAG 1 · 11:00"
+   },
+   {
+    "text": "Tag zwei. Lieferketten, Bestellungen, Lagerverwaltung – alles läuft digital. Die ersten Regale bleiben leer.",
+    "scene": "city:dusk",
+    "clock": "TAG 2",
+    "stat": {
+     "title": "SUPERMARKT",
+     "rows": [
+      [
+       "FRISCHE WARE",
+       "LEER"
+      ],
+      [
+       "LIEFERUNGEN",
+       "STOPP"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Züge und Flüge fallen aus, weil die Planung online läuft. Viele Firmen schicken alle nach Hause.",
+    "scene": "city:dusk",
+    "clock": "TAG 3",
+    "card": {
+     "kicker": "PROBLEM #2",
+     "title": "VERKEHR STEHT"
+    }
+   },
+   {
+    "text": "Tag vier. Plötzlich ist das Radio wieder das wichtigste Medium. Nachrichten gibt es über UKW.",
+    "scene": "room:night",
+    "clock": "TAG 4",
+    "card": {
+     "kicker": "RETTUNG",
+     "title": "BATTERIE-RADIO"
+    }
+   },
+   {
+    "text": "Regel Nummer eins: Hab immer Bargeld, Wasser und Essen für zehn Tage zu Hause. Das empfiehlt sogar das Bundesamt für Bevölkerungsschutz.",
+    "scene": "room:night",
+    "clock": "TAG 5",
+    "stat": {
+     "title": "VORRAT PRO PERSON",
+     "rows": [
+      [
+       "WASSER",
+       "20 L"
+      ],
+      [
+       "ESSEN",
+       "10 TAGE"
+      ],
+      [
+       "BARGELD",
+       "✓"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Tag sieben. Das Netz ist zurück. Hunderte Nachrichten prasseln rein. Wie lange hättest du durchgehalten?",
+    "scene": "city:day",
+    "clock": "TAG 7",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE HÄLTST DU DURCH?"
+    }
+   }
+  ],
+  "day": 4,
+  "id": "tag04-internet-weg",
+  "date": "2026-11-08",
+  "weekday": "So",
+  "post_time": "17:00",
+  "series": "WAS WÄRE WENN · TAG 4/30",
+  "next": "Du bist in Ost-Berlin – 9. November 1989",
+  "hashtags": [
+   "#internet",
+   "#blackout",
+   "#deutschland",
+   "#vorsorge",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 145
+ },
+ {
+  "slug": "mauerfall",
+  "title": "Du bist in Ost-Berlin – 9. November 1989",
+  "accent": "#ffd166",
+  "hud": {
+   "label": "UHRZEIT · BERLIN",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DIE MAUER",
+   "bottom": "FÄLLT HEUTE",
+   "tag": "9.11.1989",
+   "kicker": "DU BIST IN OST-BERLIN",
+   "scene": "wall:night"
+  },
+  "caption": "Heute vor 37 Jahren: Du bist in Ost-Berlin, 9. November 1989. Wo wärst du in dieser Nacht gewesen? 🧱 #mauerfall",
+  "tags": [
+   "mauerfall",
+   "berlin",
+   "ddr",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen. Das ändert sich heute Nacht.",
+    "scene": "wall:night",
+    "clock": "18:00",
+    "ctx": "OST-BERLIN · 9. NOVEMBER 1989",
+    "you": true
+   },
+   {
+    "text": "Im Fernsehen läuft eine zähe Pressekonferenz. Dann liest Günter Schabowski einen Zettel vor: Privatreisen ins Ausland sind ab jetzt möglich.",
+    "scene": "room:tv",
+    "clock": "18:53",
+    "card": {
+     "kicker": "PRESSEKONFERENZ",
+     "title": "NEUE REISEREGELUNG"
+    }
+   },
+   {
+    "text": "Ein Journalist fragt: Ab wann gilt das? Schabowski blättert. Und sagt:",
+    "scene": "room:tv",
+    "clock": "18:54"
+   },
+   {
+    "text": "Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich.",
+    "scene": "room:tv",
+    "clock": "18:54",
+    "quote": {
+     "text": "Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich.",
+     "who": "Günter Schabowski"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Tausende strömen zum Grenzübergang Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Niemand weiß, was passieren wird.",
+    "scene": "wall:night,crowd",
+    "clock": "21:20",
+    "stat": {
+     "title": "BORNHOLMER STRASSE",
+     "rows": [
+      [
+       "MENSCHEN",
+       "TAUSENDE"
+      ],
+      [
+       "BEFEHL",
+       "KEINER"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Der Druck wird immer größer. Gegen halb zwölf gibt der diensthabende Offizier Harald Jäger nach – und öffnet den Schlagbaum.",
+    "scene": "wall:night,crowd,open",
+    "clock": "23:30",
+    "card": {
+     "kicker": "23:30 UHR",
+     "title": "DER SCHLAGBAUM GEHT AUF"
+    },
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Fremde fallen sich in die Arme. Menschen tanzen auf der Mauer. Trabis fahren hupend über den Kurfürstendamm.",
+    "scene": "wall:night,crowd,open",
+    "clock": "00:40",
+    "you": true
+   },
+   {
+    "text": "Achtundzwanzig Jahre Teilung enden in einer einzigen Nacht.",
+    "scene": "wall:dawn,open",
+    "clock": "05:00",
+    "big": {
+     "value": "28 JAHRE",
+     "sub": "TEILUNG – VORBEI"
+    }
+   },
+   {
+    "text": "Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.",
+    "scene": "wall:dawn,open",
+    "clock": "05:10",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WO WÄRST DU GEWESEN?"
+    }
+   }
+  ],
+  "day": 5,
+  "id": "tag05-mauerfall",
+  "date": "2026-11-09",
+  "weekday": "Mo",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 5/30",
+  "next": "Was wäre, wenn der Mond verschwindet?",
+  "hashtags": [
+   "#mauerfall",
+   "#berlin",
+   "#ddr",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 135
+ },
+ {
+  "slug": "mond-verschwindet",
+  "title": "Was wäre, wenn der Mond verschwindet?",
+  "accent": "#c0c8ff",
+  "hud": {
+   "label": "NACH DEM VERSCHWINDEN",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DER MOND",
+   "bottom": "IST WEG",
+   "tag": "HEUTE NACHT",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:moon"
+  },
+  "caption": "Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕 #waswärewenn",
+  "tags": [
+   "mond",
+   "weltall",
+   "gezeiten",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn heute Nacht der Mond verschwindet? Zuerst merkst du: Die Nächte werden richtig dunkel.",
+    "scene": "city:night,nomoon",
+    "clock": "TAG 0",
+    "ctx": "HEUTE NACHT · ÜBERALL",
+    "you": true
+   },
+   {
+    "text": "Ebbe und Flut werden viel schwächer. Nur noch die Sonne zieht am Meer – die Gezeiten schrumpfen auf etwa ein Drittel.",
+    "scene": "ocean:night",
+    "clock": "TAG 1",
+    "big": {
+     "value": "≈ 1/3",
+     "sub": "DER GEZEITEN BLEIBT"
+    }
+   },
+   {
+    "text": "Für viele Tiere an den Küsten ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten.",
+    "scene": "ocean:dawn",
+    "clock": "WOCHE 1",
+    "card": {
+     "kicker": "FOLGE #1",
+     "title": "KÜSTEN IM CHAOS"
+    }
+   },
+   {
+    "text": "Manche Korallen laichen nur bei bestimmten Mondphasen. Nachtaktive Jäger verlieren ihr Licht.",
+    "scene": "underwater:shallow",
+    "clock": "MONAT 1"
+   },
+   {
+    "text": "Langfristig wird es noch ernster. Der Mond stabilisiert nämlich die Neigung der Erdachse.",
+    "scene": "earth:tilt",
+    "clock": "JAHRTAUSENDE",
+    "stat": {
+     "title": "ERDACHSE",
+     "rows": [
+      [
+       "HEUTE",
+       "23,4°"
+      ],
+      [
+       "OHNE MOND",
+       "CHAOTISCH"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Ohne ihn könnte die Achse über Millionen Jahre stark schwanken. Jahreszeiten würden extrem.",
+    "scene": "earth:tilt",
+    "clock": "MILLIONEN JAHRE",
+    "card": {
+     "kicker": "FOLGE #2",
+     "title": "EXTREME JAHRESZEITEN"
+    }
+   },
+   {
+    "text": "Übrigens: Der Mond entfernt sich wirklich von uns. Etwa 3,8 Zentimeter pro Jahr.",
+    "scene": "space:moon",
+    "clock": "JEDES JAHR",
+    "big": {
+     "value": "3,8 CM",
+     "sub": "PRO JAHR WEITER WEG"
+    }
+   },
+   {
+    "text": "Keine Panik – das dauert Milliarden Jahre. Würdest du den Mond vermissen?",
+    "scene": "space:moon",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU IHN VERMISSEN?"
+    }
+   }
+  ],
+  "day": 6,
+  "id": "tag06-mond-verschwindet",
+  "date": "2026-11-10",
+  "weekday": "Di",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 6/30",
+  "next": "Du bist in Hamburg – Sturmflut 1962",
+  "hashtags": [
+   "#mond",
+   "#weltall",
+   "#gezeiten",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 117
+ },
+ {
+  "slug": "sturmflut-hamburg",
+  "title": "Du bist in Hamburg – Sturmflut 1962",
+  "accent": "#48cae4",
+  "hud": {
+   "label": "UHRZEIT · HAMBURG",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DIE DEICHE",
+   "bottom": "BRECHEN",
+   "tag": "1962",
+   "kicker": "DU BIST IN HAMBURG",
+   "scene": "city:night,flood"
+  },
+  "caption": "Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du es aufs Dach? 🌊 #hamburg",
+  "tags": [
+   "hamburg",
+   "sturmflut",
+   "geschichte",
+   "norddeutschland"
+  ],
+  "segments": [
+   {
+    "text": "Du wohnst in Hamburg-Wilhelmsburg. Freitag, 16. Februar 1962. Draußen tobt ein Orkan. Du gehst schlafen.",
+    "scene": "room:storm",
+    "clock": "22:00",
+    "ctx": "HAMBURG-WILHELMSBURG · 16.02.1962",
+    "fx": [
+     "rain"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Warnungen im Radio klingen nicht besonders dramatisch. Viele wohnen in Behelfsheimen und Gartenlauben – direkt hinter dem Deich.",
+    "scene": "room:storm",
+    "clock": "22:30",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "WARNUNG UNTERSCHÄTZT"
+    },
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Mitten in der Nacht drückt der Sturm das Wasser der Nordsee die Elbe hinauf.",
+    "scene": "map",
+    "clock": "23:30",
+    "map": {
+     "label": "ELBE · HAMBURG",
+     "sub": "NORDSEE → STADT"
+    }
+   },
+   {
+    "text": "Der Pegel steigt auf 5,70 Meter über Normal. Die Deiche brechen an über sechzig Stellen.",
+    "scene": "city:night,flood",
+    "clock": "00:30",
+    "big": {
+     "value": "5,70 M",
+     "sub": "ÜBER NORMAL"
+    },
+    "fx": [
+     "rain",
+     "shake"
+    ]
+   },
+   {
+    "text": "Das Wasser kommt in Minuten. Menschen flüchten auf Dächer. Im Dunkeln. Bei eisiger Kälte.",
+    "scene": "city:night,flood",
+    "clock": "01:15",
+    "fx": [
+     "rain"
+    ],
+    "you": true
+   },
+   {
+    "text": "Regel Nummer eins bei Hochwasser: nach oben. Niemals in den Keller. Niemals ins Auto.",
+    "scene": "city:night,flood",
+    "clock": "02:00",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "NACH OBEN – NIE IN DEN KELLER"
+    },
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Polizeisenator Helmut Schmidt holt Bundeswehr und Hubschrauber der NATO zu Hilfe. Tausende werden von den Dächern gerettet.",
+    "scene": "city:dawn,flood,heli",
+    "clock": "07:00",
+    "card": {
+     "kicker": "RETTUNG",
+     "title": "HUBSCHRAUBER AUS DER LUFT"
+    }
+   },
+   {
+    "text": "In Hamburg sterben 315 Menschen.",
+    "scene": "dark",
+    "clock": "17.02.1962",
+    "big": {
+     "value": "315",
+     "sub": "TOTE IN HAMBURG"
+    }
+   },
+   {
+    "text": "Danach werden die Deiche massiv erhöht. Wärst du rechtzeitig aufs Dach gekommen?",
+    "scene": "city:dawn,flood",
+    "clock": "17.02.1962",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ES GESCHAFFT?"
+    }
+   }
+  ],
+  "day": 7,
+  "id": "tag07-sturmflut-hamburg",
+  "date": "2026-11-11",
+  "weekday": "Mi",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 7/30",
+  "next": "Was wäre, wenn die Erde aufhört, sich zu drehen?",
+  "hashtags": [
+   "#hamburg",
+   "#sturmflut",
+   "#geschichte",
+   "#norddeutschland",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 125
+ },
+ {
+  "slug": "erde-stoppt",
+  "title": "Was wäre, wenn die Erde aufhört, sich zu drehen?",
+  "accent": "#ff006e",
+  "hud": {
+   "label": "NACH DEM STOPP",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DIE ERDE",
+   "bottom": "STOPPT",
+   "tag": "1.670 KM/H",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "earth:day"
+  },
+  "caption": "Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍 #waswärewenn #physik",
+  "tags": [
+   "erde",
+   "physik",
+   "wissen",
+   "weltall"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn die Erde jetzt plötzlich aufhört, sich zu drehen? Du würdest es nicht überleben. Aber nicht so, wie du denkst.",
+    "scene": "earth:day",
+    "clock": "00:00:00",
+    "ctx": "JETZT · AM ÄQUATOR"
+   },
+   {
+    "text": "Am Äquator dreht sich die Erde mit etwa 1670 Kilometern pro Stunde. Und du drehst dich mit.",
+    "scene": "earth:day",
+    "clock": "00:00:00",
+    "big": {
+     "value": "1.670",
+     "sub": "KM/H AM ÄQUATOR"
+    }
+   },
+   {
+    "text": "Die Erde stoppt – aber du nicht. Alles, was nicht fest verankert ist, fliegt einfach weiter. Menschen, Autos, Häuser.",
+    "scene": "city:day",
+    "clock": "00:00:01",
+    "fx": [
+     "shake",
+     "flash"
+    ],
+    "you": true
+   },
+   {
+    "text": "Selbst in Deutschland wären es immer noch über tausend Kilometer pro Stunde.",
+    "scene": "map",
+    "clock": "00:00:02",
+    "map": {
+     "label": "DEUTSCHLAND",
+     "sub": "≈ 1.070 KM/H"
+    }
+   },
+   {
+    "text": "Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen.",
+    "scene": "city:dusk",
+    "clock": "00:01:00",
+    "card": {
+     "kicker": "FOLGE #1",
+     "title": "ÜBERSCHALL-STÜRME"
+    },
+    "fx": [
+     "shake",
+     "ash"
+    ]
+   },
+   {
+    "text": "Langfristig fließen die Ozeane zu den Polen, weil die Fliehkraft am Äquator fehlt. Mitten um die Erde entsteht ein riesiger Kontinent.",
+    "scene": "earth:poles",
+    "clock": "JAHRE SPÄTER",
+    "card": {
+     "kicker": "FOLGE #2",
+     "title": "OZEANE AN DEN POLEN"
+    }
+   },
+   {
+    "text": "Und ein Tag dauert jetzt ein ganzes Jahr. Ein halbes Jahr Tag. Ein halbes Jahr Nacht.",
+    "scene": "earth:half",
+    "clock": "JAHRE SPÄTER",
+    "stat": {
+     "title": "EIN TAG",
+     "rows": [
+      [
+       "HELL",
+       "6 MONATE"
+      ],
+      [
+       "DUNKEL",
+       "6 MONATE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Zum Glück ist ein plötzlicher Stopp physikalisch so gut wie unmöglich. Welches Szenario soll ich als Nächstes zeigen?",
+    "scene": "earth:day",
+    "clock": "00:00:00",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS ALS NÄCHSTES?"
+    }
+   }
+  ],
+  "day": 8,
+  "id": "tag08-erde-stoppt",
+  "date": "2026-11-12",
+  "weekday": "Do",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 8/30",
+  "next": "Du bist in London – Der große Brand 1666",
+  "hashtags": [
+   "#erde",
+   "#physik",
+   "#wissen",
+   "#weltall",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 137
+ },
+ {
+  "slug": "brand-london",
+  "title": "Du bist in London – Der große Brand 1666",
+  "accent": "#ff7b00",
+  "hud": {
+   "label": "UHRZEIT · LONDON",
+   "tick": null
+  },
+  "thumb": {
+   "top": "LONDON",
+   "bottom": "BRENNT",
+   "tag": "1666",
+   "kicker": "DU BIST IN LONDON",
+   "scene": "oldtown:fire"
+  },
+  "caption": "London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tage später ist die Stadt weg. 🔥 #geschichte",
+  "tags": [
+   "london",
+   "feuer",
+   "geschichte",
+   "1666"
+  ],
+  "segments": [
+   {
+    "text": "Du bist in London. Sonntag, 2. September 1666, ein Uhr nachts. In einer Bäckerei in der Pudding Lane bricht ein Feuer aus.",
+    "scene": "oldtown:night,fire",
+    "clock": "01:00",
+    "ctx": "LONDON · PUDDING LANE · 1666",
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Der Sommer war extrem trocken. Die Häuser: aus Holz, dicht an dicht, mit Pech abgedichtet.",
+    "scene": "oldtown:night,fire",
+    "clock": "01:30",
+    "card": {
+     "kicker": "PROBLEM #1",
+     "title": "HOLZ, PECH, DÜRRE"
+    },
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Der Bürgermeister wird geweckt. Er schaut sich das Feuer an – und sagt einen Satz, der in die Geschichte eingeht:",
+    "scene": "oldtown:night,fire",
+    "clock": "03:00",
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Pah! Das könnte eine Frau auspinkeln.",
+    "scene": "oldtown:night,fire",
+    "clock": "03:00",
+    "quote": {
+     "text": "Pah! Das könnte eine Frau auspinkeln.",
+     "who": "Bürgermeister Thomas Bloodworth"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Dann frischt der Ostwind auf. Das Feuer springt von Dach zu Dach, von Straße zu Straße.",
+    "scene": "oldtown:fire",
+    "clock": "08:00",
+    "fx": [
+     "embers",
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Lösung damals: Häuser einreißen, um Brandschneisen zu schaffen. Doch man zögert – aus Angst vor den Kosten.",
+    "scene": "oldtown:fire",
+    "clock": "12:00",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "BRANDSCHNEISEN – SOFORT"
+    },
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Vier Tage lang brennt London. 13.200 Häuser, 87 Kirchen und die alte St.-Paul's-Kathedrale werden zerstört.",
+    "scene": "oldtown:fire",
+    "clock": "TAG 4",
+    "stat": {
+     "title": "ZERSTÖRT",
+     "rows": [
+      [
+       "HÄUSER",
+       "13.200"
+      ],
+      [
+       "KIRCHEN",
+       "87"
+      ],
+      [
+       "KATHEDRALE",
+       "1"
+      ]
+     ]
+    },
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Offiziell sterben nur sechs Menschen. Historiker vermuten aber deutlich mehr.",
+    "scene": "oldtown:ruins",
+    "clock": "TAG 5",
+    "big": {
+     "value": "6 ?",
+     "sub": "OFFIZIELLE TOTE"
+    }
+   },
+   {
+    "text": "Danach wird London aus Stein neu gebaut. Hättest du dein Haus gerettet – oder wärst du zur Themse geflohen?",
+    "scene": "oldtown:ruins",
+    "clock": "TAG 5",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "RETTEN ODER FLIEHEN?"
+    }
+   }
+  ],
+  "day": 9,
+  "id": "tag09-brand-london",
+  "date": "2026-11-13",
+  "weekday": "Fr",
+  "post_time": "19:00",
+  "series": "WAS WÄRE WENN · TAG 9/30",
+  "next": "Was wäre, wenn du in ein Schwarzes Loch fällst?",
+  "hashtags": [
+   "#london",
+   "#feuer",
+   "#geschichte",
+   "#1666",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 141
+ },
+ {
+  "slug": "schwarzes-loch",
+  "title": "Was wäre, wenn du in ein Schwarzes Loch fällst?",
+  "accent": "#9d4edd",
+  "hud": {
+   "label": "ABSTAND ZUM HORIZONT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DU FÄLLST",
+   "bottom": "HINEIN",
+   "tag": "KEIN ZURÜCK",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:blackhole"
+  },
+  "caption": "Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghetti zu tun. 🕳️ #waswärewenn",
+  "tags": [
+   "schwarzesloch",
+   "weltall",
+   "physik",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, wie groß es ist.",
+    "scene": "space:blackhole",
+    "clock": "10.000 KM",
+    "ctx": "IRGENDWO IN DER MILCHSTRASSE",
+    "you": true
+   },
+   {
+    "text": "Bei einem kleinen Schwarzen Loch wirst du in die Länge gezogen wie eine Nudel. Physiker nennen das wirklich so:",
+    "scene": "space:blackhole",
+    "clock": "1.000 KM",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Spaghettifizierung.",
+    "scene": "space:blackhole",
+    "clock": "1.000 KM",
+    "card": {
+     "kicker": "FACHBEGRIFF",
+     "title": "SPAGHETTIFIZIERUNG"
+    }
+   },
+   {
+    "text": "Deine Füße werden viel stärker angezogen als dein Kopf. Der Unterschied zerreißt dich, noch bevor du den Rand erreichst.",
+    "scene": "space:blackhole",
+    "clock": "500 KM",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Bei einem riesigen Schwarzen Loch, wie im Zentrum unserer Milchstraße, merkst du am Rand dagegen erstmal nichts.",
+    "scene": "space:blackhole,big",
+    "clock": "100 KM",
+    "stat": {
+     "title": "SAGITTARIUS A*",
+     "rows": [
+      [
+       "MASSE",
+       "≈ 4 MIO. SONNEN"
+      ],
+      [
+       "ENTFERNUNG",
+       "26.000 LJ"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Jetzt wird es verrückt: Für jemanden, der dir zusieht, wirst du am Rand immer langsamer – und scheinst für immer einzufrieren.",
+    "scene": "space:blackhole,big",
+    "clock": "1 KM",
+    "card": {
+     "kicker": "ZEIT",
+     "title": "FRIERT EIN – FÜR ANDERE"
+    }
+   },
+   {
+    "text": "Du selbst fällst einfach weiter. Über den Ereignishorizont. Ab hier gibt es kein Zurück. Nicht einmal für Licht.",
+    "scene": "space:blackhole,big",
+    "clock": "0 KM",
+    "card": {
+     "kicker": "EREIGNISHORIZONT",
+     "title": "KEIN ZURÜCK"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Was dahinter passiert, weiß niemand. Unsere Physik versagt dort. Würdest du reinschauen, wenn du könntest?",
+    "scene": "dark",
+    "clock": "???",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU REINSCHAUEN?"
+    }
+   }
+  ],
+  "day": 10,
+  "id": "tag10-schwarzes-loch",
+  "date": "2026-11-14",
+  "weekday": "Sa",
+  "post_time": "12:00",
+  "series": "WAS WÄRE WENN · TAG 10/30",
+  "next": "Du bist am Krakatau 1883",
+  "hashtags": [
+   "#schwarzesloch",
+   "#weltall",
+   "#physik",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 128
+ },
+ {
+  "slug": "krakatau",
+  "title": "Du bist am Krakatau 1883",
+  "accent": "#ff4d6d",
+  "hud": {
+   "label": "ORTSZEIT · JAVA",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DER LAUTESTE",
+   "bottom": "KNALL",
+   "tag": "1883",
+   "kicker": "DU BIST AM KRAKATAU",
+   "scene": "ocean:day,island,erupt"
+  },
+  "caption": "27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋 #krakatau #geschichte",
+  "tags": [
+   "krakatau",
+   "vulkan",
+   "tsunami",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "27. August 1883. Du stehst an der Küste von Java. Gleich hörst du das lauteste Geräusch der Geschichte.",
+    "scene": "ocean:day,island",
+    "clock": "09:58",
+    "ctx": "SUNDASTRASSE · NIEDERL.-INDIEN · 1883",
+    "you": true
+   },
+   {
+    "text": "Um 10:02 Uhr explodiert die Vulkaninsel Krakatau.",
+    "scene": "ocean:day,island,erupt",
+    "clock": "10:02",
+    "fx": [
+     "flash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Den Knall hört man noch fast fünftausend Kilometer entfernt – auf einer Insel mitten im Indischen Ozean.",
+    "scene": "map",
+    "clock": "10:06",
+    "big": {
+     "value": "4.800 KM",
+     "sub": "HÖRWEITE"
+    },
+    "map": {
+     "label": "KRAKATAU",
+     "sub": "HÖRBAR BIS 4.800 KM"
+    }
+   },
+   {
+    "text": "Die Druckwelle umrundet die Erde mehrmals. Barometer auf der ganzen Welt schlagen tagelang aus.",
+    "scene": "earth:wave",
+    "clock": "TAG 1–5",
+    "card": {
+     "kicker": "DRUCKWELLE",
+     "title": "MEHRMALS UM DIE ERDE"
+    }
+   },
+   {
+    "text": "Dann kommen die Tsunamis. Bis zu dreißig Meter hoch.",
+    "scene": "ocean:storm,wave",
+    "clock": "10:30",
+    "big": {
+     "value": "30 M",
+     "sub": "WELLENHÖHE"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Über 36.000 Menschen sterben. Ganze Küstenorte verschwinden von der Landkarte.",
+    "scene": "dark",
+    "clock": "28.08.1883",
+    "stat": {
+     "title": "BILANZ",
+     "rows": [
+      [
+       "TOTE",
+       "36.000+"
+      ],
+      [
+       "ORTE ZERSTÖRT",
+       "165+"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Regel Nummer eins bei einem Tsunami: Zieht sich das Meer plötzlich zurück – sofort weg vom Strand. Nach oben.",
+    "scene": "ocean:day,retreat",
+    "clock": "—",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "MEER WEICHT ZURÜCK = RENNEN"
+    }
+   },
+   {
+    "text": "Die Asche färbt danach weltweit die Sonnenuntergänge rot. Manche glauben: Daher kommt der glühende Himmel in Munchs Bild Der Schrei.",
+    "scene": "ocean:sunset",
+    "clock": "1883–1884"
+   },
+   {
+    "text": "Hättest du den Knall überlebt? Schreib es in die Kommentare.",
+    "scene": "ocean:sunset",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "day": 11,
+  "id": "tag11-krakatau",
+  "date": "2026-11-15",
+  "weekday": "So",
+  "post_time": "17:00",
+  "series": "WAS WÄRE WENN · TAG 11/30",
+  "next": "Du bist auf Apollo 13",
+  "hashtags": [
+   "#krakatau",
+   "#vulkan",
+   "#tsunami",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 124
+ },
+ {
+  "slug": "apollo-13",
+  "title": "Du bist auf Apollo 13",
+  "accent": "#f72585",
+  "hud": {
+   "label": "MISSIONSZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "HOUSTON,",
+   "bottom": "PROBLEM",
+   "tag": "1970",
+   "kicker": "DU BIST AUF APOLLO 13",
+   "scene": "space:earth,capsule"
+  },
+  "caption": "330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist auf Apollo 13. 🚀 #apollo13",
+  "tags": [
+   "apollo13",
+   "nasa",
+   "weltall",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist Astronaut auf Apollo 13. Über dreihunderttausend Kilometer von der Erde entfernt. Und plötzlich knallt es.",
+    "scene": "space:earth,capsule",
+    "clock": "55:54:00",
+    "ctx": "APOLLO 13 · 13. APRIL 1970",
+    "fx": [
+     "shake",
+     "flash"
+    ]
+   },
+   {
+    "text": "Houston, wir hatten hier ein Problem.",
+    "scene": "control:alarm",
+    "clock": "55:55:20",
+    "quote": {
+     "text": "Houston, wir hatten hier ein Problem.",
+     "who": "Jack Swigert, Apollo 13"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Ein Sauerstofftank ist explodiert. Das Raumschiff verliert Strom, Wasser und Atemluft.",
+    "scene": "control:alarm",
+    "clock": "55:58:00",
+    "stat": {
+     "title": "STATUS",
+     "rows": [
+      [
+       "SAUERSTOFF",
+       "SINKT"
+      ],
+      [
+       "STROM",
+       "SINKT"
+      ],
+      [
+       "WASSER",
+       "SINKT"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Die Mondlandung ist abgesagt. Jetzt geht es nur noch um eins: lebend nach Hause kommen.",
+    "scene": "space:moon,capsule",
+    "clock": "56:30:00",
+    "card": {
+     "kicker": "NEUE MISSION",
+     "title": "ÜBERLEBEN"
+    }
+   },
+   {
+    "text": "Die drei klettern in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen sie für drei Männer und vier Tage.",
+    "scene": "control:dim",
+    "clock": "58:40:00",
+    "stat": {
+     "title": "MONDFÄHRE",
+     "rows": [
+      [
+       "GEBAUT FÜR",
+       "2 MANN · 2 TAGE"
+      ],
+      [
+       "NÖTIG",
+       "3 MANN · 4 TAGE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Neues Problem: Das Kohlendioxid steigt. Die Filter aus dem Kommandomodul passen nicht – eckig statt rund.",
+    "scene": "control:dim",
+    "clock": "80:00:00",
+    "card": {
+     "kicker": "PROBLEM",
+     "title": "ECKIG ≠ RUND"
+    }
+   },
+   {
+    "text": "Ingenieure in Houston basteln eine Lösung aus Klebeband, Plastiktüten und Pappe. Die Astronauten bauen sie nach. Es funktioniert.",
+    "scene": "control:dim",
+    "clock": "83:00:00",
+    "card": {
+     "kicker": "LÖSUNG",
+     "title": "KLEBEBAND & PAPPE"
+    }
+   },
+   {
+    "text": "Um Strom zu sparen, ist fast alles aus. In der Kapsel sind es nur wenige Grad über null. Die Crew friert und schläft kaum.",
+    "scene": "control:cold",
+    "clock": "110:00:00",
+    "big": {
+     "value": "≈ 4 °C",
+     "sub": "IN DER KAPSEL"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "17. April 1970. Die Kapsel landet im Pazifik. Alle drei überleben. Hättest du die Nerven behalten?",
+    "scene": "ocean:day,capsule",
+    "clock": "142:54:41",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU DIE NERVEN BEHALTEN?"
+    }
+   }
+  ],
+  "day": 12,
+  "id": "tag12-apollo-13",
+  "date": "2026-11-16",
+  "weekday": "Mo",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 12/30",
+  "next": "Was wäre, wenn heute ein Dino-Asteroid einschlägt?",
+  "hashtags": [
+   "#apollo13",
+   "#nasa",
+   "#weltall",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 145
+ },
+ {
+  "slug": "asteroid",
+  "title": "Was wäre, wenn heute ein Dino-Asteroid einschlägt?",
+  "accent": "#ff9e00",
+  "hud": {
+   "label": "BIS ZUM EINSCHLAG",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "10 KM",
+   "bottom": "ASTEROID",
+   "tag": "EINSCHLAG",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:asteroid"
+  },
+  "caption": "Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️ #waswärewenn",
+  "tags": [
+   "asteroid",
+   "dinosaurier",
+   "weltall",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn heute ein Asteroid einschlägt – so groß wie der, der die Dinosaurier ausgelöscht hat?",
+    "scene": "space:asteroid",
+    "clock": "00:01:00",
+    "ctx": "ANFLUG · ERDUMLAUFBAHN"
+   },
+   {
+    "text": "Er ist rund zehn Kilometer groß – größer als der Mount Everest hoch ist. Und rast mit etwa zwanzig Kilometern pro Sekunde auf uns zu.",
+    "scene": "space:asteroid",
+    "clock": "00:00:45",
+    "stat": {
+     "title": "ASTEROID",
+     "rows": [
+      [
+       "GRÖSSE",
+       "≈ 10 KM"
+      ],
+      [
+       "TEMPO",
+       "≈ 20 KM/S"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Damit wäre er von Frankfurt nach München in etwa fünfzehn Sekunden.",
+    "scene": "map",
+    "clock": "00:00:30",
+    "map": {
+     "label": "FRANKFURT → MÜNCHEN",
+     "sub": "≈ 15 SEKUNDEN"
+    }
+   },
+   {
+    "text": "Beim Aufprall entsteht ein Krater, rund hundertachtzig Kilometer breit.",
+    "scene": "earth:impact",
+    "clock": "00:00:00",
+    "big": {
+     "value": "180 KM",
+     "sub": "KRATER"
+    },
+    "fx": [
+     "flash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Glühende Trümmer regnen rund um die Erde herab. Wälder auf mehreren Kontinenten fangen Feuer.",
+    "scene": "city:dusk,fire",
+    "clock": "+00:30:00",
+    "fx": [
+     "embers",
+     "red"
+    ],
+    "you": true
+   },
+   {
+    "text": "Dann wird es dunkel. Ruß und Staub verdecken die Sonne – vielleicht für Jahre.",
+    "scene": "city:night,blackout",
+    "clock": "+1 JAHR",
+    "fx": [
+     "dark",
+     "ash"
+    ]
+   },
+   {
+    "text": "Damals starben etwa drei Viertel aller Tier- und Pflanzenarten.",
+    "scene": "dark",
+    "clock": "—",
+    "big": {
+     "value": "75 %",
+     "sub": "ALLER ARTEN"
+    }
+   },
+   {
+    "text": "Die gute Nachricht: 2022 hat die NASA mit der DART-Mission gezeigt, dass man einen Asteroiden ablenken kann.",
+    "scene": "space:asteroid,probe",
+    "clock": "2022",
+    "card": {
+     "kicker": "DART-MISSION",
+     "title": "ASTEROID ABGELENKT"
+    }
+   },
+   {
+    "text": "Und fast alle großen Brocken in Erdnähe sind bekannt. Keiner davon ist auf Kollisionskurs. Hättest du gedacht, dass wir uns wehren können?",
+    "scene": "earth:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WUSSTEST DU DAS?"
+    }
+   }
+  ],
+  "day": 13,
+  "id": "tag13-asteroid",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 13/30",
+  "next": "Du bist an Bord der Hindenburg",
+  "hashtags": [
+   "#asteroid",
+   "#dinosaurier",
+   "#weltall",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 138
+ },
+ {
+  "slug": "hindenburg",
+  "title": "Du bist an Bord der Hindenburg",
+  "accent": "#ff595e",
+  "hud": {
+   "label": "ORTSZEIT · LAKEHURST",
+   "tick": null
+  },
+  "thumb": {
+   "top": "34",
+   "bottom": "SEKUNDEN",
+   "tag": "1937",
+   "kicker": "DU BIST AUF DER HINDENBURG",
+   "scene": "airship:fire"
+  },
+  "caption": "6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34 Sekunden. 🎈🔥 #hindenburg",
+  "tags": [
+   "hindenburg",
+   "luftschiff",
+   "zeppelin",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist an Bord der Hindenburg, des größten Luftschiffs der Welt. 6. Mai 1937. Gleich landest du in Amerika.",
+    "scene": "airship:dusk",
+    "clock": "19:00",
+    "ctx": "LAKEHURST · NEW JERSEY · 6. MAI 1937",
+    "you": true
+   },
+   {
+    "text": "Die Hindenburg ist über 245 Meter lang. Fast so lang wie die Titanic.",
+    "scene": "airship:dusk",
+    "clock": "19:05",
+    "big": {
+     "value": "245 M",
+     "sub": "LÄNGE"
+    }
+   },
+   {
+    "text": "Gefüllt ist sie mit Wasserstoff. Hochentzündlich. Eigentlich wollte man Helium – aber die USA verkauften keins.",
+    "scene": "airship:dusk",
+    "clock": "19:10",
+    "card": {
+     "kicker": "PROBLEM",
+     "title": "WASSERSTOFF"
+    }
+   },
+   {
+    "text": "19:25 Uhr. Kurz vor der Landung sieht jemand eine Flamme am Heck.",
+    "scene": "airship:fire",
+    "clock": "19:25",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "In rund vierunddreißig Sekunden steht das ganze Luftschiff in Flammen.",
+    "scene": "airship:fire",
+    "clock": "19:25:34",
+    "big": {
+     "value": "34 S",
+     "sub": "BIS ALLES BRENNT"
+    },
+    "fx": [
+     "embers",
+     "shake"
+    ]
+   },
+   {
+    "text": "Ein Radioreporter beschreibt alles live. Und schreit:",
+    "scene": "airship:fire",
+    "clock": "19:26",
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Oh, die Menschheit!",
+    "scene": "airship:fire",
+    "clock": "19:26",
+    "quote": {
+     "text": "Oh, die Menschheit!",
+     "who": "Herbert Morrison, Radioreporter"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Von 97 Menschen an Bord überleben 62. Viele, weil sie aus den Fenstern springen, als das Schiff fast am Boden ist.",
+    "scene": "airship:wreck",
+    "clock": "19:30",
+    "stat": {
+     "title": "BILANZ",
+     "rows": [
+      [
+       "AN BORD",
+       "97"
+      ],
+      [
+       "ÜBERLEBT",
+       "62"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Danach ist das Zeitalter der großen Luftschiffe vorbei. Wärst du gesprungen?",
+    "scene": "airship:wreck",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÄRST DU GESPRUNGEN?"
+    }
+   }
+  ],
+  "day": 14,
+  "id": "tag14-hindenburg",
+  "date": "2026-11-18",
+  "weekday": "Mi",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 14/30",
+  "next": "Du bist in Prypjat – Tschernobyl 1986",
+  "hashtags": [
+   "#hindenburg",
+   "#luftschiff",
+   "#zeppelin",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 112
+ },
+ {
+  "slug": "tschernobyl",
+  "title": "Du bist in Prypjat – Tschernobyl 1986",
+  "accent": "#b5e48c",
+  "hud": {
+   "label": "UHRZEIT · PRYPJAT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "NIEMAND",
+   "bottom": "WARNT DICH",
+   "tag": "1986",
+   "kicker": "DU BIST IN PRYPJAT",
+   "scene": "plant:night"
+  },
+  "caption": "26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️",
+  "tags": [
+   "tschernobyl",
+   "prypjat",
+   "geschichte",
+   "1986"
+  ],
+  "segments": [
+   {
+    "text": "Du wohnst in Prypjat in der Sowjetunion. 26. April 1986, mitten in der Nacht. Und niemand wird dir etwas sagen.",
+    "scene": "city:night,blocks",
+    "clock": "01:20",
+    "ctx": "PRYPJAT · UdSSR · 26. APRIL 1986",
+    "you": true
+   },
+   {
+    "text": "Um 01:23 Uhr explodiert drei Kilometer entfernt Reaktor vier des Kraftwerks Tschernobyl.",
+    "scene": "plant:night,explode",
+    "clock": "01:23",
+    "fx": [
+     "flash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Über dem Reaktor sehen Augenzeugen ein seltsames Leuchten. Manche gehen sogar hinaus, um zuzusehen.",
+    "scene": "plant:night,glow",
+    "clock": "02:00"
+   },
+   {
+    "text": "Am Morgen geht das Leben weiter, als wäre nichts. Kinder gehen zur Schule. Paare feiern Hochzeit.",
+    "scene": "city:day,blocks",
+    "clock": "10:00",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "NIEMAND WIRD GEWARNT"
+    }
+   },
+   {
+    "text": "Regel Nummer eins bei radioaktivem Niederschlag: rein ins Haus, Fenster zu, Lüftung aus. Und auf offizielle Anweisungen hören.",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "DRINNEN BLEIBEN · FENSTER ZU"
+    }
+   },
+   {
+    "text": "27. April, 14 Uhr. Endlich die Evakuierung. Über tausend Busse. Mitnehmen soll man nur Sachen für drei Tage.",
+    "scene": "city:day,blocks,buses",
+    "clock": "27.04. · 14:00",
+    "stat": {
+     "title": "EVAKUIERUNG",
+     "rows": [
+      [
+       "EINWOHNER",
+       "≈ 49.000"
+      ],
+      [
+       "BUSSE",
+       "≈ 1.200"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Sie kommen nie wieder zurück.",
+    "scene": "dark",
+    "clock": "—",
+    "big": {
+     "value": "0",
+     "sub": "RÜCKKEHRER"
+    }
+   },
+   {
+    "text": "Prypjat ist bis heute eine Geisterstadt. Das Riesenrad, das am 1. Mai eröffnen sollte, steht noch immer da.",
+    "scene": "city:dusk,blocks,ghost,wheel",
+    "clock": "HEUTE"
+   },
+   {
+    "text": "Hättest du die Gefahr erkannt? Schreib es in die Kommentare.",
+    "scene": "city:dusk,blocks,ghost,wheel",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ES GEMERKT?"
+    }
+   }
+  ],
+  "day": 15,
+  "id": "tag15-tschernobyl",
+  "date": "2026-11-19",
+  "weekday": "Do",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 15/30",
+  "next": "Was wäre, wenn alle Menschen verschwinden?",
+  "hashtags": [
+   "#tschernobyl",
+   "#prypjat",
+   "#geschichte",
+   "#1986",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 131
+ },
+ {
+  "slug": "erde-ohne-menschen",
+  "title": "Was wäre, wenn alle Menschen verschwinden?",
+  "accent": "#80ed99",
+  "hud": {
+   "label": "ZEIT OHNE MENSCHEN",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ALLE",
+   "bottom": "MENSCHEN WEG",
+   "tag": "10.000 JAHRE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:ghost"
+  },
+  "caption": "Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿 #waswärewenn",
+  "tags": [
+   "erdeohnemenschen",
+   "natur",
+   "wissen",
+   "zukunft"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn alle Menschen auf einen Schlag verschwinden? Was passiert mit der Welt, die wir zurücklassen?",
+    "scene": "city:day",
+    "clock": "STUNDE 0",
+    "ctx": "ÜBERALL · JETZT"
+   },
+   {
+    "text": "Schon nach Stunden gehen die ersten Lichter aus. Kraftwerke ohne Personal schalten sich ab.",
+    "scene": "city:night,blackout",
+    "clock": "STUNDE 24",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Ohne Pumpen laufen U-Bahn-Tunnel in Städten wie New York schnell voll Wasser.",
+    "scene": "city:night,flood",
+    "clock": "TAG 2",
+    "card": {
+     "kicker": "TAG 2",
+     "title": "U-BAHN UNTER WASSER"
+    }
+   },
+   {
+    "text": "Nach einem Jahr: Pflanzen sprengen den Asphalt. Viele Haustiere verwildern.",
+    "scene": "city:day,ghost",
+    "clock": "JAHR 1"
+   },
+   {
+    "text": "Nach zwanzig Jahren: Wälder erobern die Städte zurück. So wie heute schon in Prypjat bei Tschernobyl.",
+    "scene": "city:dusk,ghost,forest",
+    "clock": "JAHR 20"
+   },
+   {
+    "text": "Nach hundert Jahren: Holzhäuser sind eingestürzt. Stahlbrücken rosten durch und brechen zusammen.",
+    "scene": "city:dusk,ghost,forest,ruins",
+    "clock": "JAHR 100",
+    "card": {
+     "kicker": "JAHR 100",
+     "title": "BRÜCKEN STÜRZEN EIN"
+    }
+   },
+   {
+    "text": "Nach zehntausend Jahren: Was bleibt? Die Pyramiden. Teile der Chinesischen Mauer. Und jede Menge Plastik.",
+    "scene": "dark",
+    "clock": "JAHR 10.000",
+    "stat": {
+     "title": "WAS BLEIBT",
+     "rows": [
+      [
+       "PYRAMIDEN",
+       "✓"
+      ],
+      [
+       "CHIN. MAUER",
+       "TEILE"
+      ],
+      [
+       "PLASTIK",
+       "✓"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und auf dem Mond? Unsere Fußabdrücke könnten Millionen Jahre überdauern – dort gibt es keinen Wind.",
+    "scene": "space:moon",
+    "clock": "MILLIONEN JAHRE",
+    "card": {
+     "kicker": "FÜR IMMER?",
+     "title": "FUSSABDRÜCKE AUF DEM MOND"
+    }
+   },
+   {
+    "text": "Was glaubst du, bleibt am längsten von uns übrig?",
+    "scene": "space:moon",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS BLEIBT VON UNS?"
+    }
+   }
+  ],
+  "day": 16,
+  "id": "tag16-erde-ohne-menschen",
+  "date": "2026-11-20",
+  "weekday": "Fr",
+  "post_time": "19:00",
+  "series": "WAS WÄRE WENN · TAG 16/30",
+  "next": "Du bist in Lissabon – Erdbeben 1755",
+  "hashtags": [
+   "#erdeohnemenschen",
+   "#natur",
+   "#wissen",
+   "#zukunft",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 121
+ },
+ {
+  "slug": "lissabon-1755",
+  "title": "Du bist in Lissabon – Erdbeben 1755",
+  "accent": "#fb8500",
+  "hud": {
+   "label": "UHRZEIT · LISSABON",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ERDBEBEN",
+   "bottom": "+ TSUNAMI",
+   "tag": "1755",
+   "kicker": "DU BIST IN LISSABON",
+   "scene": "oldtown:quake"
+  },
+  "caption": "Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊 #geschichte",
+  "tags": [
+   "lissabon",
+   "erdbeben",
+   "tsunami",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist in Lissabon. 1. November 1755, Allerheiligen. Die Kirchen sind voll. Überall brennen Kerzen.",
+    "scene": "oldtown:day",
+    "clock": "09:35",
+    "ctx": "LISSABON · 1. NOVEMBER 1755",
+    "you": true
+   },
+   {
+    "text": "Um 9:40 Uhr bebt die Erde. Minutenlang.",
+    "scene": "oldtown:quake",
+    "clock": "09:40",
+    "big": {
+     "value": "≈ 8,5",
+     "sub": "GESCHÄTZTE STÄRKE"
+    },
+    "fx": [
+     "shake",
+     "flash"
+    ]
+   },
+   {
+    "text": "Kirchen und Häuser stürzen ein. Die umgestürzten Kerzen setzen die Trümmer in Brand.",
+    "scene": "oldtown:fire",
+    "clock": "09:50",
+    "fx": [
+     "embers",
+     "shake"
+    ]
+   },
+   {
+    "text": "Viele fliehen zum Hafen, auf den großen Platz am Wasser. Dort fühlen sie sich sicher.",
+    "scene": "ocean:day,harbor",
+    "clock": "10:00",
+    "you": true
+   },
+   {
+    "text": "Dann zieht sich das Meer zurück. Der Hafengrund liegt frei. Manche gehen sogar neugierig hin.",
+    "scene": "ocean:day,retreat",
+    "clock": "10:10",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "ZUM WASSER LAUFEN"
+    }
+   },
+   {
+    "text": "Etwa vierzig Minuten nach dem Beben rollt der Tsunami in die Stadt.",
+    "scene": "ocean:storm,wave",
+    "clock": "10:20",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Danach brennt Lissabon fünf Tage lang. Zehntausende sterben.",
+    "scene": "oldtown:fire",
+    "clock": "TAG 1–5",
+    "stat": {
+     "title": "BILANZ",
+     "rows": [
+      [
+       "FEUER",
+       "5 TAGE"
+      ],
+      [
+       "TOTE",
+       "ZEHNTAUSENDE"
+      ]
+     ]
+    },
+    "fx": [
+     "embers"
+    ]
+   },
+   {
+    "text": "Das Beben erschüttert auch das Denken in Europa. Philosophen wie Voltaire fragen: Wie kann Gott so etwas zulassen?",
+    "scene": "oldtown:ruins",
+    "clock": "1756",
+    "card": {
+     "kicker": "FOLGE",
+     "title": "EUROPA ZWEIFELT"
+    }
+   },
+   {
+    "text": "Regel Nummer eins nach einem Beben an der Küste: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?",
+    "scene": "oldtown:ruins",
+    "clock": "—",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "WEG VOM WASSER – NACH OBEN"
+    }
+   }
+  ],
+  "day": 17,
+  "id": "tag17-lissabon-1755",
+  "date": "2026-11-21",
+  "weekday": "Sa",
+  "post_time": "12:00",
+  "series": "WAS WÄRE WENN · TAG 17/30",
+  "next": "Was wäre, wenn der Yellowstone ausbricht?",
+  "hashtags": [
+   "#lissabon",
+   "#erdbeben",
+   "#tsunami",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 122
+ },
+ {
+  "slug": "yellowstone",
+  "title": "Was wäre, wenn der Yellowstone ausbricht?",
+  "accent": "#e85d04",
+  "hud": {
+   "label": "NACH DEM AUSBRUCH",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SUPER",
+   "bottom": "VULKAN",
+   "tag": "YELLOWSTONE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "volcano:super"
+  },
+  "caption": "Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋 #waswärewenn",
+  "tags": [
+   "yellowstone",
+   "supervulkan",
+   "vulkan",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn der Supervulkan unter dem Yellowstone-Nationalpark ausbricht?",
+    "scene": "volcano:super",
+    "clock": "TAG 0",
+    "ctx": "YELLOWSTONE · WYOMING · USA",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Der letzte große Ausbruch war vor rund 640.000 Jahren.",
+    "scene": "volcano:calm",
+    "clock": "—",
+    "big": {
+     "value": "640.000",
+     "sub": "JAHRE HER"
+    }
+   },
+   {
+    "text": "Die Explosion wäre etwa tausendmal stärker als der Ausbruch des Mount St. Helens 1980.",
+    "scene": "volcano:super",
+    "clock": "STUNDE 1",
+    "fx": [
+     "flash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles.",
+    "scene": "map",
+    "clock": "STUNDE 2",
+    "map": {
+     "label": "YELLOWSTONE",
+     "sub": "≈ 100 KM ZERSTÖRUNG"
+    }
+   },
+   {
+    "text": "Asche regnet über große Teile der USA. Schon wenige Zentimeter können Dächer einstürzen lassen und Felder unbrauchbar machen.",
+    "scene": "city:dusk,ash",
+    "clock": "TAG 3",
+    "fx": [
+     "ash"
+    ],
+    "you": true
+   },
+   {
+    "text": "Schwefel in der Atmosphäre kühlt die ganze Erde ab. Vielleicht um mehrere Grad, für Jahre.",
+    "scene": "earth:haze",
+    "clock": "JAHR 1",
+    "stat": {
+     "title": "WELTWEIT",
+     "rows": [
+      [
+       "TEMPERATUR",
+       "MEHRERE °C ↓"
+      ],
+      [
+       "DAUER",
+       "JAHRE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Auch bei uns in Deutschland: kühlere Sommer, schlechtere Ernten, steigende Preise.",
+    "scene": "map",
+    "clock": "JAHR 1–3",
+    "map": {
+     "label": "DEUTSCHLAND",
+     "sub": "KALTE SOMMER"
+    }
+   },
+   {
+    "text": "Aber: Laut US-Geologen liegt die Wahrscheinlichkeit für so einen Ausbruch bei etwa eins zu 730.000 pro Jahr.",
+    "scene": "volcano:calm",
+    "clock": "—",
+    "big": {
+     "value": "1 : 730.000",
+     "sub": "PRO JAHR"
+    }
+   },
+   {
+    "text": "Würdest du Yellowstone trotzdem besuchen?",
+    "scene": "volcano:calm",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU HINFAHREN?"
+    }
+   }
+  ],
+  "day": 18,
+  "id": "tag18-yellowstone",
+  "date": "2026-11-22",
+  "weekday": "So",
+  "post_time": "17:00",
+  "series": "WAS WÄRE WENN · TAG 18/30",
+  "next": "Du lebst im Jahr ohne Sommer – 1816",
+  "hashtags": [
+   "#yellowstone",
+   "#supervulkan",
+   "#vulkan",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 108
+ },
+ {
+  "slug": "jahr-ohne-sommer",
+  "title": "Du lebst im Jahr ohne Sommer – 1816",
+  "accent": "#90e0ef",
+  "hud": {
+   "label": "WÜRTTEMBERG · 1816",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SCHNEE",
+   "bottom": "IM JUNI",
+   "tag": "1816",
+   "kicker": "DAS JAHR OHNE SOMMER",
+   "scene": "oldtown:snow"
+  },
+  "caption": "1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️ #geschichte",
+  "tags": [
+   "jahrohnesommer",
+   "1816",
+   "tambora",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du lebst im Jahr 1816 in Süddeutschland. Und dieser Sommer wird nie kommen.",
+    "scene": "oldtown:snow",
+    "clock": "JUNI 1816",
+    "ctx": "WÜRTTEMBERG · 1816",
+    "fx": [
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Ein Jahr zuvor ist in Indonesien der Vulkan Tambora ausgebrochen. Einer der stärksten Ausbrüche seit Tausenden Jahren.",
+    "scene": "volcano:plume",
+    "clock": "APRIL 1815",
+    "fx": [
+     "flash",
+     "shake"
+    ]
+   },
+   {
+    "text": "Asche und Schwefel verteilen sich in der Atmosphäre und schwächen das Sonnenlicht auf der ganzen Welt.",
+    "scene": "earth:haze",
+    "clock": "1815–1816"
+   },
+   {
+    "text": "Im Juni schneit es. Im Juli regnet es fast ununterbrochen. Die Ernte verfault auf den Feldern.",
+    "scene": "oldtown:snow",
+    "clock": "JULI 1816",
+    "stat": {
+     "title": "SOMMER 1816",
+     "rows": [
+      [
+       "JUNI",
+       "SCHNEE"
+      ],
+      [
+       "JULI",
+       "DAUERREGEN"
+      ],
+      [
+       "ERNTE",
+       "VERLOREN"
+      ]
+     ]
+    },
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Die Brotpreise explodieren. Die Menschen hungern. Manche essen Gras und Baumrinde.",
+    "scene": "oldtown:dusk",
+    "clock": "WINTER 1816",
+    "card": {
+     "kicker": "HUNGERSNOT",
+     "title": "BROT WIRD UNBEZAHLBAR"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Tausende wandern aus – nach Amerika oder Russland.",
+    "scene": "map",
+    "clock": "1817",
+    "map": {
+     "label": "SÜDDEUTSCHLAND",
+     "sub": "AUSWANDERUNG"
+    }
+   },
+   {
+    "text": "Auch Pferde verhungern, weil der Hafer fehlt. Manche Historiker glauben: Deshalb erfand Karl Drais 1817 in Mannheim seine Laufmaschine – den Urahn des Fahrrads.",
+    "scene": "oldtown:day",
+    "clock": "1817",
+    "card": {
+     "kicker": "ERFINDUNG",
+     "title": "LAUFMASCHINE · 1817"
+    }
+   },
+   {
+    "text": "Und am Genfer See schreibt Mary Shelley in diesem düsteren Sommer Frankenstein.",
+    "scene": "room:storm",
+    "clock": "1816",
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Ein Vulkan am anderen Ende der Welt hat dein Leben verändert. Hättest du den Winter überstanden?",
+    "scene": "oldtown:snow",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    },
+    "fx": [
+     "snow"
+    ]
+   }
+  ],
+  "day": 19,
+  "id": "tag19-jahr-ohne-sommer",
+  "date": "2026-11-23",
+  "weekday": "Mo",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 19/30",
+  "next": "Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?",
+  "hashtags": [
+   "#jahrohnesommer",
+   "#1816",
+   "#tambora",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 133
+ },
+ {
+  "slug": "blackout",
+  "title": "Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?",
+  "accent": "#ffd60a",
+  "hud": {
+   "label": "STROMAUSFALL",
+   "tick": null
+  },
+  "thumb": {
+   "top": "72 STUNDEN",
+   "bottom": "KEIN STROM",
+   "tag": "BLACKOUT",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:night,blackout"
+  },
+  "caption": "Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦 #blackout #waswärewenn",
+  "tags": [
+   "blackout",
+   "stromausfall",
+   "vorsorge",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn in ganz Deutschland der Strom ausfällt? Nicht für eine Stunde. Für drei Tage.",
+    "scene": "city:night,blackout",
+    "clock": "STUNDE 0",
+    "ctx": "GANZ DEUTSCHLAND",
+    "fx": [
+     "flash",
+     "dark"
+    ]
+   },
+   {
+    "text": "Stunde eins. Ampeln aus. Straßenbahnen bleiben stehen. Menschen stecken in Aufzügen fest.",
+    "scene": "city:night,blackout",
+    "clock": "STUNDE 1",
+    "card": {
+     "kicker": "STUNDE 1",
+     "title": "VERKEHR BRICHT ZUSAMMEN"
+    }
+   },
+   {
+    "text": "Das Handynetz hält noch eine Weile. Doch viele Funkmasten haben nur Akkus für ein paar Stunden.",
+    "scene": "city:night,blackout",
+    "clock": "STUNDE 4",
+    "fx": [
+     "glitch"
+    ],
+    "you": true
+   },
+   {
+    "text": "Stunde zwölf. Dein Kühlschrank taut ab. In vielen Hochhäusern kommt kein Wasser mehr – die Pumpen brauchen Strom.",
+    "scene": "room:dark",
+    "clock": "STUNDE 12",
+    "stat": {
+     "title": "ZUHAUSE",
+     "rows": [
+      [
+       "KÜHLSCHRANK",
+       "AUS"
+      ],
+      [
+       "HEIZUNG",
+       "AUS"
+      ],
+      [
+       "WASSER",
+       "?"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Tankstellen können nicht pumpen. Supermarktkassen funktionieren nicht.",
+    "scene": "city:day,blackout",
+    "clock": "STUNDE 18",
+    "card": {
+     "kicker": "PROBLEM",
+     "title": "KEIN SPRIT · KEINE KASSE"
+    }
+   },
+   {
+    "text": "Stunde vierundzwanzig. Krankenhäuser laufen auf Notstrom. Der Diesel reicht oft nur für einige Tage.",
+    "scene": "city:night,blackout",
+    "clock": "STUNDE 24",
+    "card": {
+     "kicker": "KRANKENHÄUSER",
+     "title": "NOTSTROM"
+    }
+   },
+   {
+    "text": "Regel Nummer eins: Kerzen, Taschenlampe, Batterieradio und Wasser. Und zwar, bevor es passiert.",
+    "scene": "room:candle",
+    "clock": "STUNDE 36",
+    "stat": {
+     "title": "NOTFALL-SET",
+     "rows": [
+      [
+       "TASCHENLAMPE",
+       "✓"
+      ],
+      [
+       "RADIO",
+       "✓"
+      ],
+      [
+       "WASSER",
+       "20 L"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Stunde zweiundsiebzig. Das Licht geht wieder an. Wer vorbereitet war, hat es fast entspannt überstanden. Wärst du vorbereitet?",
+    "scene": "city:night",
+    "clock": "STUNDE 72",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÄRST DU VORBEREITET?"
+    },
+    "fx": [
+     "flash"
+    ]
+   }
+  ],
+  "day": 20,
+  "id": "tag20-blackout",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 20/30",
+  "next": "Was wäre, wenn du ohne Anzug auf dem Mars stehst?",
+  "hashtags": [
+   "#blackout",
+   "#stromausfall",
+   "#vorsorge",
+   "#deutschland",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 114
+ },
+ {
+  "slug": "mars-ohne-anzug",
+  "title": "Was wäre, wenn du ohne Anzug auf dem Mars stehst?",
+  "accent": "#e76f51",
+  "hud": {
+   "label": "BEWUSSTSEIN",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "15",
+   "bottom": "SEKUNDEN",
+   "tag": "OHNE ANZUG",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mars:day"
+  },
+  "caption": "Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴 #mars #waswärewenn",
+  "tags": [
+   "mars",
+   "weltall",
+   "nasa",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn du auf dem Mars stehst – ohne Raumanzug? Du hast ungefähr fünfzehn Sekunden.",
+    "scene": "mars:day",
+    "clock": "00:15",
+    "ctx": "MARS · JEZERO-KRATER",
+    "you": true
+   },
+   {
+    "text": "Der Luftdruck auf dem Mars liegt bei weniger als einem Prozent des Drucks auf der Erde.",
+    "scene": "mars:day",
+    "clock": "00:14",
+    "big": {
+     "value": "0,6 %",
+     "sub": "DES ERD-LUFTDRUCKS"
+    }
+   },
+   {
+    "text": "Erste Regel: Atme aus! Wenn du die Luft anhältst, können deine Lungen durch den Druckunterschied reißen.",
+    "scene": "mars:day",
+    "clock": "00:12",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "SOFORT AUSATMEN"
+    }
+   },
+   {
+    "text": "Bei so wenig Druck kocht Wasser schon bei Körpertemperatur. Speichel und Tränen beginnen zu sprudeln.",
+    "scene": "mars:day",
+    "clock": "00:10",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Deine Haut schwillt an. Aber sie hält. Du platzt nicht – das ist ein Filmmythos.",
+    "scene": "mars:dusk",
+    "clock": "00:07",
+    "card": {
+     "kicker": "MYTHOS",
+     "title": "DU PLATZT NICHT"
+    }
+   },
+   {
+    "text": "Nach etwa fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr.",
+    "scene": "mars:dusk",
+    "clock": "00:00",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Die Kälte – im Schnitt etwa minus sechzig Grad – ist dabei gar nicht dein größtes Problem.",
+    "scene": "mars:dusk",
+    "clock": "+00:20",
+    "stat": {
+     "title": "MARS",
+     "rows": [
+      [
+       "TEMPERATUR",
+       "≈ −60 °C"
+      ],
+      [
+       "LUFT",
+       "95 % CO₂"
+      ],
+      [
+       "DRUCK",
+       "0,6 %"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Holt dich innerhalb von etwa ein bis zwei Minuten jemand zurück in die Station, könntest du überleben.",
+    "scene": "mars:base",
+    "clock": "+01:30",
+    "card": {
+     "kicker": "RETTUNG",
+     "title": "1–2 MINUTEN"
+    }
+   },
+   {
+    "text": "Würdest du ein One-Way-Ticket zum Mars nehmen?",
+    "scene": "mars:base",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "ONE-WAY ZUM MARS?"
+    }
+   }
+  ],
+  "day": 21,
+  "id": "tag21-mars-ohne-anzug",
+  "date": "2026-11-25",
+  "weekday": "Mi",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 21/30",
+  "next": "Du lebst 1349 – Die Pest kommt",
+  "hashtags": [
+   "#mars",
+   "#weltall",
+   "#nasa",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 132
+ },
+ {
+  "slug": "pest-1349",
+  "title": "Du lebst 1349 – Die Pest kommt",
+  "accent": "#9ef01a",
+  "hud": {
+   "label": "DEUTSCHE STADT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DIE PEST",
+   "bottom": "KOMMT",
+   "tag": "1349",
+   "kicker": "DU LEBST IM MITTELALTER",
+   "scene": "oldtown:night"
+  },
+  "caption": "1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige Wochen später ist sie in deiner Stadt. 🐀 #mittelalter",
+  "tags": [
+   "pest",
+   "mittelalter",
+   "geschichte",
+   "schwarzertod"
+  ],
+  "segments": [
+   {
+    "text": "Du lebst im Jahr 1349 in einer deutschen Stadt. Händler bringen Nachrichten: Im Süden sterben die Menschen an einer neuen Krankheit.",
+    "scene": "oldtown:day",
+    "clock": "FRÜHJAHR 1349",
+    "ctx": "EINE DEUTSCHE STADT · 1349",
+    "you": true
+   },
+   {
+    "text": "Dann ist sie da. Fieber, Schüttelfrost – und dunkle, schmerzhafte Beulen am Hals und unter den Armen.",
+    "scene": "oldtown:dusk",
+    "clock": "SOMMER 1349",
+    "card": {
+     "kicker": "SYMPTOME",
+     "title": "FIEBER · BEULEN"
+    }
+   },
+   {
+    "text": "Viele sterben innerhalb weniger Tage.",
+    "scene": "oldtown:night",
+    "clock": "SOMMER 1349",
+    "big": {
+     "value": "3–7",
+     "sub": "TAGE"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Niemand kennt die Ursache. Die meisten glauben an giftige Luft – oder an eine Strafe Gottes.",
+    "scene": "oldtown:night",
+    "clock": "SOMMER 1349",
+    "card": {
+     "kicker": "IRRTUM",
+     "title": "GIFTIGE LUFT?"
+    }
+   },
+   {
+    "text": "Durch die Städte ziehen Geißler, die sich öffentlich auspeitschen, um Gott zu besänftigen.",
+    "scene": "oldtown:dusk",
+    "clock": "HERBST 1349"
+   },
+   {
+    "text": "Und es passiert das Schlimmste: In vielen Städten werden Jüdinnen und Juden zu Unrecht beschuldigt und ermordet.",
+    "scene": "dark",
+    "clock": "1349",
+    "card": {
+     "kicker": "DUNKLES KAPITEL",
+     "title": "POGROME"
+    }
+   },
+   {
+    "text": "Heute wissen wir: Es war ein Bakterium. Übertragen unter anderem durch Flöhe von Ratten.",
+    "scene": "oldtown:night",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "URSACHE",
+     "title": "YERSINIA PESTIS"
+    }
+   },
+   {
+    "text": "In nur wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa.",
+    "scene": "dark",
+    "clock": "1347–1352",
+    "big": {
+     "value": "≈ 1/3",
+     "sub": "EUROPAS"
+    }
+   },
+   {
+    "text": "Was viele hätte retten können: Abstand und Quarantäne. Das Wort kommt aus Venedig – quaranta giorni, vierzig Tage. Hättest du überlebt?",
+    "scene": "oldtown:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "day": 22,
+  "id": "tag22-pest-1349",
+  "date": "2026-11-26",
+  "weekday": "Do",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 22/30",
+  "next": "Was wäre, wenn die Antarktis komplett schmilzt?",
+  "hashtags": [
+   "#pest",
+   "#mittelalter",
+   "#geschichte",
+   "#schwarzertod",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 136
+ },
+ {
+  "slug": "antarktis-schmilzt",
+  "title": "Was wäre, wenn die Antarktis komplett schmilzt?",
+  "accent": "#00b4d8",
+  "hud": {
+   "label": "MEERESSPIEGEL",
+   "tick": null
+  },
+  "thumb": {
+   "top": "+58",
+   "bottom": "METER",
+   "tag": "MEERESSPIEGEL",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:ice"
+  },
+  "caption": "Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊 #waswärewenn",
+  "tags": [
+   "antarktis",
+   "klima",
+   "meeresspiegel",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn das gesamte Eis der Antarktis schmilzt?",
+    "scene": "mountains:ice",
+    "clock": "+0 M",
+    "ctx": "ANTARKTIS"
+   },
+   {
+    "text": "Der Meeresspiegel würde um etwa achtundfünfzig Meter steigen.",
+    "scene": "ocean:day",
+    "clock": "+58 M",
+    "big": {
+     "value": "+58 M",
+     "sub": "MEERESSPIEGEL"
+    }
+   },
+   {
+    "text": "Hamburg, Bremen, Kiel? Unter Wasser.",
+    "scene": "city:day,flood",
+    "clock": "+58 M",
+    "stat": {
+     "title": "UNTER WASSER",
+     "rows": [
+      [
+       "HAMBURG",
+       "✓"
+      ],
+      [
+       "BREMEN",
+       "✓"
+      ],
+      [
+       "KIEL",
+       "✓"
+      ]
+     ]
+    },
+    "you": true
+   },
+   {
+    "text": "Die Nordsee würde sich tief ins Land schieben – weit nach Niedersachsen hinein. Münster läge fast am Meer.",
+    "scene": "map",
+    "clock": "+58 M",
+    "map": {
+     "label": "NEUE KÜSTE",
+     "sub": "MÜNSTER AM MEER?"
+    }
+   },
+   {
+    "text": "Venedig, Amsterdam, New York, Shanghai – weitgehend verschwunden.",
+    "scene": "city:dusk,flood",
+    "clock": "+58 M",
+    "card": {
+     "kicker": "WELTWEIT",
+     "title": "MEGASTÄDTE IM MEER"
+    }
+   },
+   {
+    "text": "Hunderte Millionen Menschen müssten umziehen.",
+    "scene": "city:dusk,flood",
+    "clock": "+58 M"
+   },
+   {
+    "text": "Die gute Nachricht: Das würde selbst bei starker Erwärmung viele Jahrhunderte bis Jahrtausende dauern.",
+    "scene": "mountains:ice",
+    "clock": "JAHRTAUSENDE",
+    "card": {
+     "kicker": "ENTWARNUNG",
+     "title": "DAUERT JAHRHUNDERTE+"
+    }
+   },
+   {
+    "text": "Aber schon ein Meer, das bis 2100 um bis zu einen Meter steigt, würde weltweit Millionen Menschen an den Küsten treffen.",
+    "scene": "ocean:storm",
+    "clock": "BIS 2100",
+    "big": {
+     "value": "BIS 1 M",
+     "sub": "BIS 2100 MÖGLICH"
+    }
+   },
+   {
+    "text": "Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE HOCH WOHNST DU?"
+    }
+   }
+  ],
+  "day": 23,
+  "id": "tag23-antarktis-schmilzt",
+  "date": "2026-11-27",
+  "weekday": "Fr",
+  "post_time": "19:00",
+  "series": "WAS WÄRE WENN · TAG 23/30",
+  "next": "Was passiert mit dir in der Todeszone am Everest?",
+  "hashtags": [
+   "#antarktis",
+   "#klima",
+   "#meeresspiegel",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 101
+ },
+ {
+  "slug": "todeszone-everest",
+  "title": "Was passiert mit dir in der Todeszone am Everest?",
+  "accent": "#caf0f8",
+  "hud": {
+   "label": "HÖHE",
+   "tick": null
+  },
+  "thumb": {
+   "top": "TODES",
+   "bottom": "ZONE",
+   "tag": "8.000 M",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:summit"
+  },
+  "caption": "Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone am Mount Everest. 🏔️",
+  "tags": [
+   "everest",
+   "berge",
+   "körper",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was passiert mit deinem Körper in der Todeszone am Mount Everest? Ab achttausend Metern stirbst du. Langsam.",
+    "scene": "mountains:summit",
+    "clock": "8.000 M",
+    "ctx": "MOUNT EVEREST · NEPAL/TIBET",
+    "fx": [
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Hier oben enthält jeder Atemzug nur etwa ein Drittel des Sauerstoffs wie am Meer.",
+    "scene": "mountains:summit",
+    "clock": "8.100 M",
+    "big": {
+     "value": "≈ 33 %",
+     "sub": "SAUERSTOFF PRO ATEMZUG"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Dein Herz rast. Dein Blut wird dicker, weil der Körper mehr rote Blutkörperchen bildet.",
+    "scene": "mountains:summit",
+    "clock": "8.200 M",
+    "stat": {
+     "title": "DEIN KÖRPER",
+     "rows": [
+      [
+       "PULS",
+       "↑↑"
+      ],
+      [
+       "BLUT",
+       "DICKER"
+      ],
+      [
+       "SCHLAF",
+       "KAUM"
+      ]
+     ]
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Ohne zusätzlichen Sauerstoff denkst du langsamer. Einfache Entscheidungen fallen plötzlich schwer.",
+    "scene": "mountains:summit",
+    "clock": "8.300 M",
+    "fx": [
+     "snow",
+     "glitch"
+    ]
+   },
+   {
+    "text": "Richtig gefährlich wird es, wenn Flüssigkeit in Lunge oder Gehirn austritt. Höhenlungenödem. Höhenhirnödem.",
+    "scene": "mountains:summit",
+    "clock": "8.400 M",
+    "card": {
+     "kicker": "LEBENSGEFAHR",
+     "title": "HÖHEN-ÖDEM"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Manche Bergsteiger halluzinieren. Sie sehen Menschen, die gar nicht da sind.",
+    "scene": "mountains:night",
+    "clock": "8.500 M",
+    "fx": [
+     "snow",
+     "glitch"
+    ]
+   },
+   {
+    "text": "Regel Nummer eins: Leg eine Umkehrzeit fest – und halte dich daran. Auch wenn der Gipfel zum Greifen nah ist.",
+    "scene": "mountains:summit",
+    "clock": "8.700 M",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "UMKEHRZEIT EINHALTEN"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Der Gipfel. 8849 Meter. Du hast nur Minuten für das Foto. Denn der Abstieg ist der gefährlichste Teil.",
+    "scene": "mountains:summit,flag",
+    "clock": "8.849 M",
+    "big": {
+     "value": "8.849 M",
+     "sub": "GIPFEL"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Würdest du es versuchen?",
+    "scene": "mountains:summit,flag",
+    "clock": "8.849 M",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU HOCHGEHEN?"
+    }
+   }
+  ],
+  "day": 24,
+  "id": "tag24-todeszone-everest",
+  "date": "2026-11-28",
+  "weekday": "Sa",
+  "post_time": "12:00",
+  "series": "WAS WÄRE WENN · TAG 24/30",
+  "next": "Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?",
+  "hashtags": [
+   "#everest",
+   "#berge",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 122
+ },
+ {
+  "slug": "sonnensturm",
+  "title": "Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?",
+  "accent": "#ffbe0b",
+  "hud": {
+   "label": "NACH DEM EINSCHLAG",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SONNEN",
+   "bottom": "STURM",
+   "tag": "WIE 1859",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "earth:aurora"
+  },
+  "caption": "1859 sprühten Telegrafen Funken. Was würde ein solcher Sonnensturm heute anrichten? ☀️⚡ #waswärewenn",
+  "tags": [
+   "sonnensturm",
+   "polarlichter",
+   "weltall",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn heute ein Sonnensturm wie im Jahr 1859 die Erde trifft?",
+    "scene": "space:sun,flare",
+    "clock": "—",
+    "ctx": "SONNE → ERDE · 150 MIO. KM",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Damals sah man Polarlichter bis in die Karibik. Telegrafenleitungen sprühten Funken, Papier fing Feuer.",
+    "scene": "earth:aurora",
+    "clock": "1859",
+    "card": {
+     "kicker": "CARRINGTON-EREIGNIS",
+     "title": "1859"
+    }
+   },
+   {
+    "text": "Heute hängt fast alles am Strom. Und genau da wird es gefährlich.",
+    "scene": "city:night,aurora",
+    "clock": "STUNDE 0",
+    "you": true
+   },
+   {
+    "text": "Stunde null: Satelliten fallen aus. GPS spinnt. Flugzeuge werden umgeleitet.",
+    "scene": "space:earth,sats",
+    "clock": "STUNDE 0",
+    "card": {
+     "kicker": "STUNDE 0",
+     "title": "GPS & SATELLITEN GESTÖRT"
+    },
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Starke Ströme in den Stromleitungen können riesige Transformatoren zerstören. Ersatz dauert Monate.",
+    "scene": "city:night,blackout,aurora",
+    "clock": "STUNDE 6",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "In Teilen der Welt drohen Blackouts über Wochen.",
+    "scene": "city:night,blackout,aurora",
+    "clock": "TAG 1–30",
+    "stat": {
+     "title": "FOLGEN",
+     "rows": [
+      [
+       "STROM",
+       "WOCHEN WEG"
+      ],
+      [
+       "INTERNET",
+       "GESTÖRT"
+      ],
+      [
+       "POLARLICHT",
+       "ÜBERALL"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und das ist nicht nur Theorie: 2012 hat ein ähnlich starker Sturm die Erde knapp verfehlt. Um etwa neun Tage.",
+    "scene": "space:sun,flare",
+    "clock": "JULI 2012",
+    "big": {
+     "value": "9 TAGE",
+     "sub": "KNAPP VERFEHLT · 2012"
+    }
+   },
+   {
+    "text": "Heute beobachten Sonden die Sonne rund um die Uhr. Wir hätten Stunden bis wenige Tage Vorwarnung.",
+    "scene": "space:sun,probe",
+    "clock": "—",
+    "card": {
+     "kicker": "SCHUTZ",
+     "title": "FRÜHWARNUNG"
+    }
+   },
+   {
+    "text": "Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?",
+    "scene": "earth:aurora",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "POLARLICHT ODER PANIK?"
+    }
+   }
+  ],
+  "day": 25,
+  "id": "tag25-sonnensturm",
+  "date": "2026-11-29",
+  "weekday": "So",
+  "post_time": "17:00",
+  "series": "WAS WÄRE WENN · TAG 25/30",
+  "next": "Was wäre, wenn du in den Marianengraben tauchst?",
+  "hashtags": [
+   "#sonnensturm",
+   "#polarlichter",
+   "#weltall",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 117
+ },
+ {
+  "slug": "marianengraben",
+  "title": "Was wäre, wenn du in den Marianengraben tauchst?",
+  "accent": "#0077b6",
+  "hud": {
+   "label": "TIEFE",
+   "tick": null
+  },
+  "thumb": {
+   "top": "11 KM",
+   "bottom": "TIEFE",
+   "tag": "MARIANENGRABEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "underwater:abyss"
+  },
+  "caption": "Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊 #waswärewenn #ozean",
+  "tags": [
+   "marianengraben",
+   "ozean",
+   "tiefsee",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn du zum tiefsten Punkt des Ozeans tauchst? Knapp elf Kilometer nach unten.",
+    "scene": "underwater:shallow",
+    "clock": "0 M",
+    "ctx": "PAZIFIK · MARIANENGRABEN",
+    "you": true
+   },
+   {
+    "text": "Zweihundert Meter: Das Sonnenlicht ist fast komplett verschwunden.",
+    "scene": "underwater:twilight",
+    "clock": "200 M"
+   },
+   {
+    "text": "Tausend Meter: totale Dunkelheit. Das einzige Licht kommt von Tieren, die selbst leuchten.",
+    "scene": "underwater:dark,glow",
+    "clock": "1.000 M",
+    "card": {
+     "kicker": "1.000 M",
+     "title": "TOTALE DUNKELHEIT"
+    }
+   },
+   {
+    "text": "Dreitausendachthundert Meter: Hier liegt das Wrack der Titanic.",
+    "scene": "underwater:dark,wreck",
+    "clock": "3.800 M"
+   },
+   {
+    "text": "Sechstausend Meter: die Hadal-Zone. Benannt nach Hades, dem Gott der Unterwelt.",
+    "scene": "underwater:abyss",
+    "clock": "6.000 M",
+    "card": {
+     "kicker": "HADAL-ZONE",
+     "title": "DIE UNTERWELT"
+    }
+   },
+   {
+    "text": "Knapp elftausend Meter: das Challengertief. Der Druck ist über tausendmal so hoch wie an der Oberfläche.",
+    "scene": "underwater:abyss",
+    "clock": "10.935 M",
+    "big": {
+     "value": "1.000×",
+     "sub": "DRUCK"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Auf jeden Quadratzentimeter deines Körpers drücken über tausend Kilogramm.",
+    "scene": "underwater:abyss",
+    "clock": "10.935 M",
+    "stat": {
+     "title": "CHALLENGERTIEF",
+     "rows": [
+      [
+       "DRUCK",
+       "≈ 1.100 BAR"
+      ],
+      [
+       "TEMPERATUR",
+       "≈ 1–4 °C"
+      ],
+      [
+       "LICHT",
+       "0"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und trotzdem lebt hier unten etwas: Flohkrebse, Bakterien – und leider auch unser Müll. Sogar eine Plastiktüte wurde hier schon gefunden.",
+    "scene": "underwater:abyss,glow",
+    "clock": "10.935 M",
+    "card": {
+     "kicker": "FUND",
+     "title": "PLASTIKTÜTE"
+    }
+   },
+   {
+    "text": "Würdest du mit runtertauchen?",
+    "scene": "underwater:abyss,glow",
+    "clock": "10.935 M",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU TAUCHEN?"
+    }
+   }
+  ],
+  "day": 26,
+  "id": "tag26-marianengraben",
+  "date": "2026-11-30",
+  "weekday": "Mo",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 26/30",
+  "next": "Du sitzt in der Mondfähre – Apollo 11",
+  "hashtags": [
+   "#marianengraben",
+   "#ozean",
+   "#tiefsee",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 105
+ },
+ {
+  "slug": "mondlandung",
+  "title": "Du sitzt in der Mondfähre – Apollo 11",
+  "accent": "#e9c46a",
+  "hud": {
+   "label": "BIS ZUR LANDUNG",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "25 SEK.",
+   "bottom": "TREIBSTOFF",
+   "tag": "1969",
+   "kicker": "DU LANDEST AUF DEM MOND",
+   "scene": "space:moon,lander"
+  },
+  "caption": "20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff. Du sitzt in der Mondfähre. 🌕 #apollo11",
+  "tags": [
+   "mondlandung",
+   "apollo11",
+   "nasa",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du sitzt neben Neil Armstrong in der Mondfähre Eagle. 20. Juli 1969. Noch zwölf Minuten bis zur Landung.",
+    "scene": "space:moon,lander",
+    "clock": "12:00",
+    "ctx": "APOLLO 11 · MONDFÄHRE EAGLE",
+    "you": true
+   },
+   {
+    "text": "Plötzlich ein Alarm. Zwölf-null-zwei. Niemand an Bord weiß sofort, was das bedeutet.",
+    "scene": "control:alarm",
+    "clock": "07:10",
+    "card": {
+     "kicker": "ALARM",
+     "title": "1202"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Der Bordcomputer ist überlastet. In Houston entscheiden junge Ingenieure in Sekunden: weiterfliegen.",
+    "scene": "control:alarm",
+    "clock": "06:50",
+    "card": {
+     "kicker": "HOUSTON",
+     "title": "WIR SIND GO!"
+    }
+   },
+   {
+    "text": "Dann sieht Armstrong: Der Autopilot steuert genau auf ein Feld voller Felsbrocken zu.",
+    "scene": "space:moonsurface,rocks",
+    "clock": "02:30"
+   },
+   {
+    "text": "Er übernimmt per Hand und sucht einen neuen Landeplatz. Der Treibstoff wird knapp.",
+    "scene": "space:moonsurface",
+    "clock": "01:30",
+    "stat": {
+     "title": "EAGLE",
+     "rows": [
+      [
+       "STEUERUNG",
+       "MANUELL"
+      ],
+      [
+       "TREIBSTOFF",
+       "KNAPP"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Houston meldet: noch sechzig Sekunden. Dann: noch dreißig.",
+    "scene": "control:alarm",
+    "clock": "00:30",
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Mit nur noch etwa fünfundzwanzig Sekunden Reserve setzt die Eagle auf.",
+    "scene": "space:moonsurface,landed",
+    "clock": "00:00",
+    "big": {
+     "value": "≈ 25 S",
+     "sub": "RESERVE"
+    }
+   },
+   {
+    "text": "Houston, hier Basis Tranquility. Der Adler ist gelandet.",
+    "scene": "space:moonsurface,landed",
+    "clock": "00:00",
+    "quote": {
+     "text": "Houston, hier Basis Tranquility. Der Adler ist gelandet.",
+     "who": "Neil Armstrong, 20. Juli 1969"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Hättest du die Nerven gehabt, das Ding per Hand zu landen?",
+    "scene": "space:moonsurface,landed",
+    "clock": "00:00",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ES GESCHAFFT?"
+    }
+   }
+  ],
+  "day": 27,
+  "id": "tag27-mondlandung",
+  "date": "2026-12-01",
+  "weekday": "Di",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 27/30",
+  "next": "Was wäre, wenn der Golfstrom stoppt?",
+  "hashtags": [
+   "#mondlandung",
+   "#apollo11",
+   "#nasa",
+   "#geschichte",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 106
+ },
+ {
+  "slug": "golfstrom",
+  "title": "Was wäre, wenn der Golfstrom stoppt?",
+  "accent": "#3a86ff",
+  "hud": {
+   "label": "NACH DEM STOPP",
+   "tick": null
+  },
+  "thumb": {
+   "top": "GOLFSTROM",
+   "bottom": "STOPPT",
+   "tag": "EUROPA",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "map"
+  },
+  "caption": "Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️ #waswärewenn",
+  "tags": [
+   "golfstrom",
+   "klima",
+   "europa",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn der Golfstrom stoppt?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "ctx": "NORDATLANTIK"
+   },
+   {
+    "text": "Dieses Strömungssystem bringt warmes Wasser aus der Karibik bis vor Europa. Wie eine riesige Fernheizung.",
+    "scene": "map",
+    "clock": "—",
+    "map": {
+     "label": "KARIBIK → EUROPA",
+     "sub": "WARMWASSER-HEIZUNG"
+    }
+   },
+   {
+    "text": "Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe.",
+    "scene": "map",
+    "clock": "—",
+    "map": {
+     "label": "GLEICHE BREITE",
+     "sub": "BERLIN ↔ LABRADOR"
+    }
+   },
+   {
+    "text": "Fällt die Strömung aus, könnten die Winter in Nordeuropa deutlich kälter und stürmischer werden.",
+    "scene": "city:night,snow",
+    "clock": "JAHRZEHNTE",
+    "fx": [
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Gleichzeitig würde der Meeresspiegel an der US-Ostküste stärker steigen. Und Regenzeiten in Afrika und Asien könnten sich verschieben.",
+    "scene": "earth:day",
+    "clock": "JAHRZEHNTE",
+    "stat": {
+     "title": "FOLGEN",
+     "rows": [
+      [
+       "NORDEUROPA",
+       "KÄLTER"
+      ],
+      [
+       "US-KÜSTE",
+       "MEER ↑"
+      ],
+      [
+       "MONSUN",
+       "VERSCHOBEN"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und das ist nicht nur ein Gedankenexperiment: Laut Studien hat sich die Strömung bereits abgeschwächt.",
+    "scene": "ocean:storm",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "FORSCHUNG",
+     "title": "BEREITS SCHWÄCHER"
+    }
+   },
+   {
+    "text": "Wann – und ob – sie kippt, ist unter Forschenden umstritten.",
+    "scene": "ocean:storm",
+    "clock": "?",
+    "card": {
+     "kicker": "UNSICHER",
+     "title": "KIPPPUNKT?"
+    }
+   },
+   {
+    "text": "Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "KANADA ODER SPANIEN?"
+    }
+   }
+  ],
+  "day": 28,
+  "id": "tag28-golfstrom",
+  "date": "2026-12-02",
+  "weekday": "Mi",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 28/30",
+  "next": "Was wäre, wenn dich eine Lawine verschüttet?",
+  "hashtags": [
+   "#golfstrom",
+   "#klima",
+   "#europa",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 105
+ },
+ {
+  "slug": "lawine",
+  "title": "Was wäre, wenn dich eine Lawine verschüttet?",
+  "accent": "#ade8f4",
+  "hud": {
+   "label": "VERSCHÜTTET SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "15",
+   "bottom": "MINUTEN",
+   "tag": "LAWINE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:avalanche"
+  },
+  "caption": "Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️ #waswärewenn #ski",
+  "tags": [
+   "lawine",
+   "ski",
+   "berge",
+   "überleben"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn dich eine Lawine verschüttet? Ab jetzt zählt jede einzelne Minute.",
+    "scene": "mountains:avalanche",
+    "clock": "00:00",
+    "ctx": "ALPEN · ABSEITS DER PISTE",
+    "fx": [
+     "shake",
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Eine Lawine kann über hundert Kilometer pro Stunde schnell werden. Davonfahren klappt fast nie.",
+    "scene": "mountains:avalanche",
+    "clock": "00:00",
+    "big": {
+     "value": "100+",
+     "sub": "KM/H"
+    },
+    "fx": [
+     "shake",
+     "snow"
+    ]
+   },
+   {
+    "text": "Regel Nummer eins, solange du rutschst: kämpf dich nach oben. Und kurz bevor es stoppt: Hände vors Gesicht – für eine Atemhöhle.",
+    "scene": "mountains:avalanche",
+    "clock": "00:00",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "ATEMHÖHLE SCHAFFEN"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Wenn die Lawine stoppt, wird der Schnee fest wie Beton. Du kannst dich kaum bewegen.",
+    "scene": "dark",
+    "clock": "00:30",
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Du weißt nicht mal, wo oben ist. Ein bekannter Tipp: Spucke laufen lassen. Sie fließt nach unten.",
+    "scene": "dark",
+    "clock": "02:00",
+    "card": {
+     "kicker": "TIPP",
+     "title": "WO IST OBEN?"
+    }
+   },
+   {
+    "text": "In den ersten fünfzehn Minuten überleben rund neun von zehn Verschütteten. Danach sinkt die Chance dramatisch.",
+    "scene": "dark",
+    "clock": "15:00",
+    "stat": {
+     "title": "ÜBERLEBENSCHANCE",
+     "rows": [
+      [
+       "BIS 15 MIN",
+       "≈ 90 %"
+      ],
+      [
+       "NACH 35 MIN",
+       "≈ 30 %"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Deshalb: Niemals ohne Lawinenpiepser, Sonde und Schaufel. Und niemals allein.",
+    "scene": "mountains:day",
+    "clock": "—",
+    "stat": {
+     "title": "NOTFALL-AUSRÜSTUNG",
+     "rows": [
+      [
+       "LVS-GERÄT",
+       "✓"
+      ],
+      [
+       "SONDE",
+       "✓"
+      ],
+      [
+       "SCHAUFEL",
+       "✓"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Deine Freunde sind deine Rettung. Nicht der Hubschrauber – der kommt meistens zu spät.",
+    "scene": "mountains:day",
+    "clock": "—",
+    "card": {
+     "kicker": "WICHTIG",
+     "title": "KAMERADENRETTUNG"
+    }
+   },
+   {
+    "text": "Würdest du abseits der Piste fahren?",
+    "scene": "mountains:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "OFF-PISTE – JA ODER NEIN?"
+    }
+   }
+  ],
+  "day": 29,
+  "id": "tag29-lawine",
+  "date": "2026-12-03",
+  "weekday": "Do",
+  "post_time": "18:30",
+  "series": "WAS WÄRE WENN · TAG 29/30",
+  "next": "Was wäre, wenn ein Gammablitz die Erde trifft?",
+  "hashtags": [
+   "#lawine",
+   "#ski",
+   "#berge",
+   "#überleben",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 127
+ },
+ {
+  "slug": "gammablitz",
+  "title": "Was wäre, wenn ein Gammablitz die Erde trifft?",
+  "accent": "#c77dff",
+  "hud": {
+   "label": "NACH DEM BLITZ",
+   "tick": null
+  },
+  "thumb": {
+   "top": "GAMMA",
+   "bottom": "BLITZ",
+   "tag": "FINALE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:grb"
+  },
+  "caption": "Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥 #waswärewenn",
+  "tags": [
+   "gammablitz",
+   "weltall",
+   "physik",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn ein Gammablitz die Erde trifft – die stärkste Art von Explosion im Universum?",
+    "scene": "space:grb",
+    "clock": "00:00",
+    "ctx": "TAG 30 · DAS FINALE",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Gammablitze entstehen, wenn riesige Sterne kollabieren oder Neutronensterne miteinander verschmelzen.",
+    "scene": "space:grb",
+    "clock": "—",
+    "card": {
+     "kicker": "URSPRUNG",
+     "title": "STERNEN-KOLLAPS"
+    }
+   },
+   {
+    "text": "In wenigen Sekunden setzen sie so viel Energie frei wie unsere Sonne in Milliarden Jahren.",
+    "scene": "space:grb",
+    "clock": "00:10",
+    "big": {
+     "value": "SEKUNDEN",
+     "sub": "= MILLIARDEN SONNENJAHRE"
+    }
+   },
+   {
+    "text": "Trifft uns einer aus relativer Nähe, könnte er einen großen Teil der Ozonschicht zerstören.",
+    "scene": "earth:haze",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "FOLGE #1",
+     "title": "OZONSCHICHT WEG"
+    },
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Ungefilterte UV-Strahlung trifft dann Pflanzen, Plankton – und uns.",
+    "scene": "city:day",
+    "clock": "MONAT 1",
+    "fx": [
+     "red"
+    ],
+    "you": true
+   },
+   {
+    "text": "Manche Forscher vermuten sogar: Ein Gammablitz könnte vor rund 440 Millionen Jahren ein Massensterben mit ausgelöst haben.",
+    "scene": "underwater:shallow",
+    "clock": "−440 MIO. J.",
+    "big": {
+     "value": "440 MIO.",
+     "sub": "JAHRE HER"
+    }
+   },
+   {
+    "text": "Aber keine Panik: Es ist kein Stern bekannt, der uns in absehbarer Zeit so gefährlich werden könnte.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "ENTWARNUNG",
+     "title": "KEIN KANDIDAT IN SICHT"
+    }
+   },
+   {
+    "text": "Das war Tag dreißig. Welches Was-wäre-wenn soll ich als Nächstes machen? Schreib es in die Kommentare.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "DANKE!",
+     "title": "DEIN NÄCHSTES SZENARIO?"
+    }
+   }
+  ],
+  "day": 30,
+  "id": "tag30-gammablitz",
+  "date": "2026-12-04",
+  "weekday": "Fr",
+  "post_time": "19:00",
+  "series": "WAS WÄRE WENN · TAG 30/30",
+  "next": null,
+  "hashtags": [
+   "#gammablitz",
+   "#weltall",
+   "#physik",
+   "#wissen",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissen",
+   "#fyp",
+   "#fürdich"
+  ],
+  "word_count": 114
+ }
+]

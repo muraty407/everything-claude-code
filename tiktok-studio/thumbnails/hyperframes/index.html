@@ -1,0 +1,60 @@
+<!doctype html>
+<html
+  data-composition-variables='[
+    {"id":"top","type":"string","label":"Zeile 1","default":"DU HAST"},
+    {"id":"bottom","type":"string","label":"Zeile 2","default":"18 STUNDEN"},
+    {"id":"tag","type":"string","label":"Sticker","default":"79 N. CHR."},
+    {"id":"kicker","type":"string","label":"Kicker","default":"DU BIST IN POMPEJI"},
+    {"id":"day","type":"string","label":"Tag","default":"TAG 1/30"},
+    {"id":"accent","type":"color","label":"Akzentfarbe","default":"#ff5a1f"},
+    {"id":"bg","type":"string","label":"Hintergrund","default":"assets/bg/tag01-pompeji.png"},
+    {"id":"size1","type":"string","label":"Schriftgröße Zeile 1","default":"200px"},
+    {"id":"size2","type":"string","label":"Schriftgröße Zeile 2","default":"220px"},
+    {"id":"badgefg","type":"color","label":"Badge-Textfarbe","default":"#ffffff"}
+  ]'
+>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face { font-family: "Anton"; src: url("assets/fonts/anton.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family: "Anton"; src: url("assets/fonts/anton-ext.woff2") format("woff2"); unicode-range: U+0100-024F, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      html, body { margin: 0; background: #000; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: Inter, sans-serif; }
+      #bg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      #shade { position: absolute; inset: 0; background:
+          linear-gradient(to bottom, rgba(0,0,0,.78) 0%, rgba(0,0,0,.25) 38%, rgba(0,0,0,0) 55%, rgba(0,0,0,.65) 100%),
+          radial-gradient(ellipse at 50% 45%, transparent 50%, rgba(0,0,0,.6) 100%); }
+      #kicker { position: absolute; left: 0; right: 0; top: 300px; text-align: center; }
+      #kicker span { display: inline-block; background: #fff; color: #111; font-weight: 900; font-size: 46px; letter-spacing: 3px; padding: 12px 28px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.6); }
+      #head { position: absolute; left: 40px; right: 40px; top: 400px; text-align: center; transform: rotate(-3deg); }
+      .l1, .l2 { font-family: Anton, "League Gothic", sans-serif; text-transform: uppercase; line-height: .98; -webkit-text-stroke: 16px #000; paint-order: stroke fill; }
+      .l1 { font-size: var(--size1); white-space: nowrap; color: #fff; text-shadow: 0 14px 0 #000; }
+      .l2 { font-size: var(--size2); white-space: nowrap; color: var(--accent); text-shadow: 0 14px 0 #000, 0 0 80px rgba(0,0,0,.6); }
+      #tag { position: absolute; right: 60px; top: 920px; transform: rotate(7deg); background: #ffd60a; color: #111; font-family: Anton, sans-serif; font-size: 78px; padding: 10px 30px; border: 8px solid #111; border-radius: 14px; box-shadow: 0 14px 0 #111; }
+      #arrow { position: absolute; left: 330px; top: 1060px; width: 300px; height: 300px; }
+      #series { position: absolute; left: 50px; bottom: 260px; display: flex; gap: 14px; align-items: center; }
+      #series .day { background: var(--accent); color: var(--badgefg); font-weight: 900; font-size: 40px; letter-spacing: 2px; padding: 12px 22px; border-radius: 12px; }
+      #series .name { color: #fff; font-weight: 900; font-size: 40px; letter-spacing: 3px; text-shadow: 0 4px 12px #000; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1080" data-height="1920" data-no-timeline>
+      <img id="bg" class="clip" data-start="0" data-duration="1" data-track-index="0" data-var-src="bg" src="assets/bg/tag01-pompeji.png" alt="" />
+      <div id="shade" class="clip" data-start="0" data-duration="1" data-track-index="1"></div>
+      <div id="kicker" class="clip" data-start="0" data-duration="1" data-track-index="2"><span data-var-text="kicker">DU BIST IN POMPEJI</span></div>
+      <div id="head" class="clip" data-start="0" data-duration="1" data-track-index="3">
+        <div class="l1" data-var-text="top">DU HAST</div>
+        <div class="l2" data-var-text="bottom">18 STUNDEN</div>
+      </div>
+      <div id="tag" class="clip" data-start="0" data-duration="1" data-track-index="4" data-var-text="tag">79 N. CHR.</div>
+      <svg id="arrow" class="clip" data-start="0" data-duration="1" data-track-index="5" viewBox="0 0 300 300">
+        <path d="M40 30 C 60 150, 140 210, 230 240" stroke="#000" stroke-width="44" fill="none" stroke-linecap="round" />
+        <path d="M40 30 C 60 150, 140 210, 230 240" stroke="var(--accent)" stroke-width="26" fill="none" stroke-linecap="round" />
+        <path d="M190 190 L 262 252 L 168 276 Z" fill="var(--accent)" stroke="#000" stroke-width="10" stroke-linejoin="round" />
+      </svg>
+      <div id="series" class="clip" data-start="0" data-duration="1" data-track-index="6">
+        <span class="day" data-var-text="day">TAG 1/30</span><span class="name">WAS WÄRE WENN?</span>
+      </div>
+    </div>
+  </body>
+</html>

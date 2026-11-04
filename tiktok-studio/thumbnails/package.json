@@ -1,0 +1,1 @@
+{ "name": "thumbnails", "private": true, "type": "module", "dependencies": { "hyperframes": "0.9.10" } }

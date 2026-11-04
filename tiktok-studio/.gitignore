@@ -1,0 +1,10 @@
+node_modules/
+build/
+assets/voices/*.onnx
+assets/voices/*.onnx.json
+assets/sfx/bed.wav
+thumbnails/hyperframes/assets/bg/
+thumbnails/hyperframes/.hyperframes/
+thumbnails/hyperframes/renders/
+__pycache__/
+refs/
