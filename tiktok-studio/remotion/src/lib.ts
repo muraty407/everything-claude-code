@@ -90,6 +90,7 @@ export type Day = {
   next: string | null;
   hud: { label: string; tick: "up" | "down" | null };
   thumb: { top: string; bottom: string; tag: string; kicker: string; scene: string };
+  hook?: boolean; // v2: großer Hook-Titel in den ersten Sekunden (Retention)
   segments: Seg[];
 };
 

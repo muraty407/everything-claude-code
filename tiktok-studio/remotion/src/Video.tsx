@@ -6,6 +6,26 @@ import { renderScene, You } from "./scenes";
 import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, TopShade, Vignette, chunkWords } from "./ui";
 
 const OVERLAP = 0.18; // Sekunden Überblendung zwischen Szenen
+const HOOK_DUR = 2.8; // Sekunden, die der Hook-Titel am Anfang steht
+
+// Großer Hook-Titel ab Frame 0 (wie das Cover) – entscheidet über die ersten 3 Sekunden
+const HookTitle: React.FC<{ top: string; bottom: string; accent: string; time: number }> = ({ top, bottom, accent, time }) => {
+  if (time >= HOOK_DUR) return null;
+  const out = clamp((HOOK_DUR - time) / 0.25);
+  const pop = 1 + 0.12 * (1 - easeOut(time / 0.18));
+  const r = rng(Math.floor(time * FPS) * 7 + 3);
+  const jx = time < 0.6 ? (r() - 0.5) * 10 : 0;
+  const line = (txt: string, size: number, color: string) => (
+    <div style={{ fontFamily: "Anton, sans-serif", fontSize: size, lineHeight: 0.98, color, textTransform: "uppercase", whiteSpace: "nowrap", WebkitTextStroke: "16px #000", paintOrder: "stroke fill", textShadow: "0 12px 0 #000, 0 0 60px #000a" }}>{txt}</div>
+  );
+  const fit = (t: string, max: number) => Math.min(max, Math.floor(940 / Math.max(1, t.length * 0.46)));
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, top: 470, textAlign: "center", opacity: out, transform: `translateX(${jx}px) rotate(-3deg) scale(${pop})` }}>
+      {line(top, fit(top, 190), "#fff")}
+      {line(bottom, fit(bottom, 210), accent)}
+    </div>
+  );
+};
 
 const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   const frame = useCurrentFrame(); // lokal in der Sequence
@@ -31,6 +51,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
     sy = (r() - 0.5) * 36 * k;
   }
   const glitch = fx.includes("glitch") && Math.sin(g * 7.3) > 0.82;
+  const ot = day.hook && i === 0 ? t - HOOK_DUR : t; // Overlays im 1. Segment erst nach dem Hook
   const fadeIn = i === 0 ? 1 : clamp(t / OVERLAP);
 
   return (
@@ -51,10 +72,10 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
       {fx.includes("flash") && <AbsoluteFill style={{ background: "#fff", opacity: Math.max(0, 0.9 - t * 2.2) }} />}
 
       {/* Overlays */}
-      {seg.stat && <Stat title={seg.stat.title} rows={seg.stat.rows} t={t - 0.15} accent={day.accent} />}
-      {seg.card && <Card kicker={seg.card.kicker} title={seg.card.title} t={t - 0.1} accent={day.accent} />}
-      {seg.big && <Big value={seg.big.value} sub={seg.big.sub} t={t - 0.05} accent={day.accent} />}
-      {seg.quote && <Quote text={seg.quote.text} who={seg.quote.who} t={t - 0.05} accent={day.accent} />}
+      {seg.stat && <Stat title={seg.stat.title} rows={seg.stat.rows} t={ot - 0.15} accent={day.accent} />}
+      {seg.card && <Card kicker={seg.card.kicker} title={seg.card.title} t={ot - 0.1} accent={day.accent} />}
+      {seg.big && <Big value={seg.big.value} sub={seg.big.sub} t={ot - 0.05} accent={day.accent} />}
+      {seg.quote && <Quote text={seg.quote.text} who={seg.quote.who} t={ot - 0.05} accent={day.accent} />}
     </AbsoluteFill>
   );
 };
@@ -94,6 +115,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />
       <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />
       {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} />}
+      {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>
   );

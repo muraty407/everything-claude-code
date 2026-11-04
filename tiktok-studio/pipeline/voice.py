@@ -223,7 +223,8 @@ def build_day(day, outdir, use_whisper=True):
         else:
             words = (whisper_words(wav, seg["text"], t) if use_whisper else None) or \
                 proportional_words(seg["text"], t, d)
-        gap = GAP_AFTER_HOOK if i == 0 else GAP_AFTER
+        fast = day.get("hook")  # v2: straffer geschnitten
+        gap = (0.2 if fast else GAP_AFTER_HOOK) if i == 0 else (0.1 if fast else GAP_AFTER)
         if i == len(day["segments"]) - 1:
             gap = TAIL
         segs.append({"i": i, "start": round(t, 3), "end": round(t + d + gap, 3),

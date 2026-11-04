@@ -176,7 +176,7 @@
    "kicker": "WAS WÄRE WENN",
    "scene": "space:sun"
   },
-  "caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️ #waswärewenn #weltall",
+  "caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️ #waswärewenn #weltall",
   "tags": [
    "sonne",
    "weltall",
@@ -185,22 +185,16 @@
   ],
   "segments": [
    {
-    "text": "Was wäre, wenn die Sonne genau jetzt verschwindet? Das Verrückte: Du würdest es erst in acht Minuten und zwanzig Sekunden merken.",
+    "text": "Die Sonne ist gerade verschwunden. Und du merkst es erst in acht Minuten.",
     "scene": "space:sun",
     "clock": "08:20",
-    "ctx": "JETZT · ÜBERALL AUF DER ERDE"
+    "ctx": "JETZT · ÜBERALL AUF DER ERDE",
+    "fx": [
+     "shake"
+    ]
    },
    {
-    "text": "So lange braucht das Licht der Sonne bis zu uns. Und auch die Schwerkraft ist nicht schneller.",
-    "scene": "space:sun",
-    "clock": "07:55",
-    "big": {
-     "value": "8:20",
-     "sub": "MINUTEN LICHTWEG"
-    }
-   },
-   {
-    "text": "Dann: Schwarz. Als hätte jemand das Licht ausgeknipst. Und der Mond verschwindet gleich mit – er leuchtet ja nur durch die Sonne.",
+    "text": "Dann wird es schlagartig schwarz. Auch der Mond erlischt – er leuchtet nur durch die Sonne.",
     "scene": "city:night,blackout",
     "clock": "00:00",
     "fx": [
@@ -210,7 +204,7 @@
     "you": true
    },
    {
-    "text": "Die Erde fliegt jetzt einfach geradeaus ins All. Keine Umlaufbahn mehr.",
+    "text": "Die Erde rast jetzt geradeaus ins All. Keine Umlaufbahn mehr.",
     "scene": "earth:cold",
     "clock": "00:00",
     "card": {
@@ -219,9 +213,9 @@
     }
    },
    {
-    "text": "Nach einer Woche liegt die Temperatur an der Oberfläche im Schnitt unter minus siebzehn Grad. Nach einem Jahr bei minus siebzig.",
+    "text": "Nach einer Woche: unter minus siebzehn Grad. Nach einem Jahr: minus siebzig.",
     "scene": "city:night,snow",
-    "clock": "00:00",
+    "clock": "+1 JAHR",
     "stat": {
      "title": "TEMPERATUR",
      "rows": [
@@ -240,41 +234,25 @@
     ]
    },
    {
-    "text": "Pflanzen können keine Photosynthese mehr machen. Die meisten sterben innerhalb weniger Wochen.",
-    "scene": "mountains:night",
-    "clock": "00:00",
-    "card": {
-     "kicker": "PHOTOSYNTHESE",
-     "title": "AUS"
-    }
-   },
-   {
-    "text": "Die Ozeane frieren von oben zu. Aber das Eis isoliert. Darunter bleibt das Wasser lange flüssig.",
-    "scene": "ocean:night,ice",
-    "clock": "00:00",
-    "fx": [
-     "snow"
-    ]
-   },
-   {
-    "text": "Wo könnte man überleben? Tief im Meer, an heißen Quellen. Oder in Island – mit Erdwärme.",
+    "text": "Überleben könntest du nur tief im Meer – oder in Island, mit Erdwärme.",
     "scene": "map",
-    "clock": "00:00",
+    "clock": "+1 JAHR",
     "map": {
      "label": "ISLAND",
      "sub": "ERDWÄRME = ÜBERLEBEN"
     }
    },
    {
-    "text": "Keine Sorge: Die Sonne kann nicht einfach verschwinden. Sie hat noch rund fünf Milliarden Jahre. Was soll als Nächstes verschwinden?",
+    "text": "Zum Glück hält die Sonne noch Milliarden Jahre. Würdest du überleben?",
     "scene": "space:sun",
     "clock": "08:20",
     "card": {
      "kicker": "FRAGE",
-     "title": "WAS ALS NÄCHSTES?"
+     "title": "WÜRDEST DU ÜBERLEBEN?"
     }
    }
   ],
+  "hook": true,
   "day": 2,
   "id": "tag02-sonne-verschwindet",
   "date": "2026-11-05",
@@ -293,8 +271,8 @@
    "#fyp",
    "#fürdich"
   ],
-  "word_count": 156,
-  "ig_caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist auf der Titanic\n\n#sonne #weltall #physik #zeitzeuge #geschichte"
+  "word_count": 75,
+  "ig_caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist auf der Titanic\n\n#sonne #weltall #physik #zeitzeuge #geschichte"
  },
  {
   "slug": "titanic",

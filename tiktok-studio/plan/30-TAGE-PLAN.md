@@ -70,7 +70,7 @@ Du bist in Pompeji. Ein ganz normaler Tag im Jahr 79. Und du hast noch etwa acht
 **Posten:** Do 05.11.2026, 17:00 Uhr  
 
 ```
-Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
+Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️
 
 #sonne #weltall #physik #wissen #waswärewenn #geschichte #wissen #fyp #fürdich
 ```
@@ -78,7 +78,7 @@ Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
 **Instagram Reel:**
 
 ```
-Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
+Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
@@ -89,7 +89,7 @@ Morgen: Du bist auf der Titanic
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn die Sonne genau jetzt verschwindet? Das Verrückte: Du würdest es erst in acht Minuten und zwanzig Sekunden merken. So lange braucht das Licht der Sonne bis zu uns. Und auch die Schwerkraft ist nicht schneller. Dann: Schwarz. Als hätte jemand das Licht ausgeknipst. Und der Mond verschwindet gleich mit – er leuchtet ja nur durch die Sonne. Die Erde fliegt jetzt einfach geradeaus ins All. Keine Umlaufbahn mehr. Nach einer Woche liegt die Temperatur an der Oberfläche im Schnitt unter minus siebzehn Grad. Nach einem Jahr bei minus siebzig. Pflanzen können keine Photosynthese mehr machen. Die meisten sterben innerhalb weniger Wochen. Die Ozeane frieren von oben zu. Aber das Eis isoliert. Darunter bleibt das Wasser lange flüssig. Wo könnte man überleben? Tief im Meer, an heißen Quellen. Oder in Island – mit Erdwärme. Keine Sorge: Die Sonne kann nicht einfach verschwinden. Sie hat noch rund fünf Milliarden Jahre. Was soll als Nächstes verschwinden?
+Die Sonne ist gerade verschwunden. Und du merkst es erst in acht Minuten. Dann wird es schlagartig schwarz. Auch der Mond erlischt – er leuchtet nur durch die Sonne. Die Erde rast jetzt geradeaus ins All. Keine Umlaufbahn mehr. Nach einer Woche: unter minus siebzehn Grad. Nach einem Jahr: minus siebzig. Überleben könntest du nur tief im Meer – oder in Island, mit Erdwärme. Zum Glück hält die Sonne noch Milliarden Jahre. Würdest du überleben?
 
 </details>
 
