@@ -33,11 +33,12 @@ def sel_days(spec):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", default="1-30")
+    ap.add_argument("--source", default="content/days.json", help="z. B. content/trailer.json (Tag 0)")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--batch", type=int, default=3, help="Videos pro Remotion-Bundle")
     args = ap.parse_args()
 
-    days = json.load(open(os.path.join(ROOT, "content/days.json"), encoding="utf-8"))
+    days = json.load(open(os.path.join(ROOT, args.source), encoding="utf-8"))
     todo = [d for d in days if d["day"] in sel_days(args.days)]
     vids = os.path.join(ROOT, "output", "videos")
     os.makedirs(vids, exist_ok=True)

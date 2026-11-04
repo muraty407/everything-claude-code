@@ -1,0 +1,102 @@
+[
+ {
+  "slug": "trailer-zeitzeuge",
+  "title": "Willkommen bei ZEITZEUGE",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "ZEITZEUGE",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DU WARST",
+   "bottom": "DABEI",
+   "tag": "NEU",
+   "kicker": "WILLKOMMEN BEI ZEITZEUGE",
+   "scene": "wall:night,crowd,open"
+  },
+  "caption": "Willkommen bei Zeitzeuge ⏳ Hier erlebst du Geschichte & Wissenschaft hautnah – aus deiner Perspektive. Folge, damit du kein Szenario verpasst! #zeitzeuge",
+  "tags": [
+   "zeitzeuge",
+   "waswärewenn",
+   "geschichte",
+   "wissenschaft"
+  ],
+  "segments": [
+   {
+    "text": "Was wäre, wenn du dabei gewesen wärst?",
+    "scene": "dark",
+    "ctx": "ZEITZEUGE",
+    "big": {
+     "value": "DU?",
+     "sub": "WARST DABEI"
+    },
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "In Pompeji. Achtzehn Stunden vor der Glutwolke.",
+    "scene": "volcano:plume",
+    "clock": "79 N. CHR.",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Auf der Titanic, kurz vor dem Eisberg.",
+    "scene": "ocean:night,liner,iceberg",
+    "clock": "1912"
+   },
+   {
+    "text": "In Ost-Berlin, in der Nacht, als die Mauer fällt.",
+    "scene": "wall:night,crowd,open",
+    "clock": "1989",
+    "you": true
+   },
+   {
+    "text": "Oder neben Neil Armstrong. Mit fünfundzwanzig Sekunden Treibstoff.",
+    "scene": "space:moonsurface",
+    "clock": "1969",
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Hier erlebst du Geschichte und Wissenschaft hautnah. Aus deiner Perspektive.",
+    "scene": "city:night",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "ZEITZEUGE",
+     "title": "DU WARST DABEI"
+    }
+   },
+   {
+    "text": "Jeden Tag ein neues Szenario. Folge Zeitzeuge, damit du keins verpasst.",
+    "scene": "dark",
+    "clock": "TÄGLICH",
+    "card": {
+     "kicker": "MO–FR 17 UHR · SA/SO 11 UHR",
+     "title": "JETZT FOLGEN"
+    }
+   }
+  ],
+  "day": 0,
+  "id": "trailer-zeitzeuge",
+  "date": null,
+  "weekday": null,
+  "post_time": "sofort",
+  "series": "ZEITZEUGE · TRAILER",
+  "next": "Du bist in Pompeji",
+  "hashtags": [
+   "#zeitzeuge",
+   "#waswärewenn",
+   "#geschichte",
+   "#wissenschaft",
+   "#fyp",
+   "#fürdich",
+   "#lernenmittiktok"
+  ],
+  "word_count": 59
+ }
+]

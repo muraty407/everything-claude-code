@@ -41,12 +41,13 @@ def luminance(hexcol):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", default="1-30")
+    ap.add_argument("--source", default="content/days.json")
     args = ap.parse_args()
     sel = set()
     for part in args.days.split(","):
         a, _, b = part.partition("-")
         sel.update(range(int(a), int(b or a) + 1))
-    days = [d for d in json.load(open(os.path.join(ROOT, "content/days.json"), encoding="utf-8")) if d["day"] in sel]
+    days = [d for d in json.load(open(os.path.join(ROOT, args.source), encoding="utf-8")) if d["day"] in sel]
     os.makedirs(OUT, exist_ok=True)
     os.makedirs(os.path.join(HF, "assets", "bg"), exist_ok=True)
     tmp = tempfile.mkdtemp(prefix="thumbs_")
@@ -67,7 +68,8 @@ def main():
         t = d["thumb"]
         variables = {
             "top": t["top"], "bottom": t["bottom"], "tag": t["tag"], "kicker": t["kicker"],
-            "day": f"TAG {d['day']}/30", "accent": d["accent"], "bg": f"assets/bg/{d['id']}.png",
+            "day": f"TAG {d['day']}/30" if d["day"] else "TRAILER",
+            "brand": "ZEITZEUGE" if not d["day"] else "WAS WÄRE WENN?", "accent": d["accent"], "bg": f"assets/bg/{d['id']}.png",
             "size1": f"{fit(t['top'], 200)}px", "size2": f"{fit(t['bottom'], 220)}px",
             "badgefg": "#111111" if luminance(d["accent"]) > 0.55 else "#ffffff",
         }
