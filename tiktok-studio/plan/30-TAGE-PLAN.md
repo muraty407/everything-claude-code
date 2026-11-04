@@ -6,41 +6,41 @@ Uhrzeiten sind Startwerte für ein deutsches Publikum (Abendpeak). Nach ~14 Tage
 
 | Tag | Datum | Uhrzeit | Thema | Thumbnail-Text | Video | Thumbnail |
 |---:|---|---|---|---|---|---|
-| 1 | Do 05.11. | 18:30 | Du bist in Pompeji | DU HAST 18 STUNDEN | [mp4](../output/videos/tag01-pompeji.mp4) | [png](../output/thumbnails/tag01-pompeji.png) |
-| 2 | Fr 06.11. | 19:00 | Was wäre, wenn die Sonne verschwindet? | DIE SONNE IST WEG | [mp4](../output/videos/tag02-sonne-verschwindet.mp4) | [png](../output/thumbnails/tag02-sonne-verschwindet.png) |
-| 3 | Sa 07.11. | 12:00 | Du bist auf der Titanic | NOCH 2:40 STUNDEN | [mp4](../output/videos/tag03-titanic.mp4) | [png](../output/thumbnails/tag03-titanic.png) |
-| 4 | So 08.11. | 17:00 | Was wäre, wenn das Internet 7 Tage ausfällt? | 7 TAGE OHNE INTERNET | [mp4](../output/videos/tag04-internet-weg.mp4) | [png](../output/thumbnails/tag04-internet-weg.png) |
-| 5 | Mo 09.11. | 18:30 | Du bist in Ost-Berlin – 9. November 1989 | DIE MAUER FÄLLT HEUTE | [mp4](../output/videos/tag05-mauerfall.mp4) | [png](../output/thumbnails/tag05-mauerfall.png) |
-| 6 | Di 10.11. | 18:30 | Was wäre, wenn der Mond verschwindet? | DER MOND IST WEG | [mp4](../output/videos/tag06-mond-verschwindet.mp4) | [png](../output/thumbnails/tag06-mond-verschwindet.png) |
-| 7 | Mi 11.11. | 18:30 | Du bist in Hamburg – Sturmflut 1962 | DIE DEICHE BRECHEN | [mp4](../output/videos/tag07-sturmflut-hamburg.mp4) | [png](../output/thumbnails/tag07-sturmflut-hamburg.png) |
-| 8 | Do 12.11. | 18:30 | Was wäre, wenn die Erde aufhört, sich zu drehen? | DIE ERDE STOPPT | [mp4](../output/videos/tag08-erde-stoppt.mp4) | [png](../output/thumbnails/tag08-erde-stoppt.png) |
-| 9 | Fr 13.11. | 19:00 | Du bist in London – Der große Brand 1666 | LONDON BRENNT | [mp4](../output/videos/tag09-brand-london.mp4) | [png](../output/thumbnails/tag09-brand-london.png) |
-| 10 | Sa 14.11. | 12:00 | Was wäre, wenn du in ein Schwarzes Loch fällst? | DU FÄLLST HINEIN | [mp4](../output/videos/tag10-schwarzes-loch.mp4) | [png](../output/thumbnails/tag10-schwarzes-loch.png) |
-| 11 | So 15.11. | 17:00 | Du bist am Krakatau 1883 | DER LAUTESTE KNALL | [mp4](../output/videos/tag11-krakatau.mp4) | [png](../output/thumbnails/tag11-krakatau.png) |
-| 12 | Mo 16.11. | 18:30 | Du bist auf Apollo 13 | HOUSTON, PROBLEM | [mp4](../output/videos/tag12-apollo-13.mp4) | [png](../output/thumbnails/tag12-apollo-13.png) |
-| 13 | Di 17.11. | 18:30 | Was wäre, wenn heute ein Dino-Asteroid einschlägt? | 10 KM ASTEROID | [mp4](../output/videos/tag13-asteroid.mp4) | [png](../output/thumbnails/tag13-asteroid.png) |
-| 14 | Mi 18.11. | 18:30 | Du bist an Bord der Hindenburg | 34 SEKUNDEN | [mp4](../output/videos/tag14-hindenburg.mp4) | [png](../output/thumbnails/tag14-hindenburg.png) |
-| 15 | Do 19.11. | 18:30 | Du bist in Prypjat – Tschernobyl 1986 | NIEMAND WARNT DICH | [mp4](../output/videos/tag15-tschernobyl.mp4) | [png](../output/thumbnails/tag15-tschernobyl.png) |
-| 16 | Fr 20.11. | 19:00 | Was wäre, wenn alle Menschen verschwinden? | ALLE MENSCHEN WEG | [mp4](../output/videos/tag16-erde-ohne-menschen.mp4) | [png](../output/thumbnails/tag16-erde-ohne-menschen.png) |
-| 17 | Sa 21.11. | 12:00 | Du bist in Lissabon – Erdbeben 1755 | ERDBEBEN + TSUNAMI | [mp4](../output/videos/tag17-lissabon-1755.mp4) | [png](../output/thumbnails/tag17-lissabon-1755.png) |
-| 18 | So 22.11. | 17:00 | Was wäre, wenn der Yellowstone ausbricht? | SUPER VULKAN | [mp4](../output/videos/tag18-yellowstone.mp4) | [png](../output/thumbnails/tag18-yellowstone.png) |
-| 19 | Mo 23.11. | 18:30 | Du lebst im Jahr ohne Sommer – 1816 | SCHNEE IM JUNI | [mp4](../output/videos/tag19-jahr-ohne-sommer.mp4) | [png](../output/thumbnails/tag19-jahr-ohne-sommer.png) |
-| 20 | Di 24.11. | 18:30 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | 72 STUNDEN KEIN STROM | [mp4](../output/videos/tag20-blackout.mp4) | [png](../output/thumbnails/tag20-blackout.png) |
-| 21 | Mi 25.11. | 18:30 | Was wäre, wenn du ohne Anzug auf dem Mars stehst? | 15 SEKUNDEN | [mp4](../output/videos/tag21-mars-ohne-anzug.mp4) | [png](../output/thumbnails/tag21-mars-ohne-anzug.png) |
-| 22 | Do 26.11. | 18:30 | Du lebst 1349 – Die Pest kommt | DIE PEST KOMMT | [mp4](../output/videos/tag22-pest-1349.mp4) | [png](../output/thumbnails/tag22-pest-1349.png) |
-| 23 | Fr 27.11. | 19:00 | Was wäre, wenn die Antarktis komplett schmilzt? | +58 METER | [mp4](../output/videos/tag23-antarktis-schmilzt.mp4) | [png](../output/thumbnails/tag23-antarktis-schmilzt.png) |
-| 24 | Sa 28.11. | 12:00 | Was passiert mit dir in der Todeszone am Everest? | TODES ZONE | [mp4](../output/videos/tag24-todeszone-everest.mp4) | [png](../output/thumbnails/tag24-todeszone-everest.png) |
-| 25 | So 29.11. | 17:00 | Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? | SONNEN STURM | [mp4](../output/videos/tag25-sonnensturm.mp4) | [png](../output/thumbnails/tag25-sonnensturm.png) |
-| 26 | Mo 30.11. | 18:30 | Was wäre, wenn du in den Marianengraben tauchst? | 11 KM TIEFE | [mp4](../output/videos/tag26-marianengraben.mp4) | [png](../output/thumbnails/tag26-marianengraben.png) |
-| 27 | Di 01.12. | 18:30 | Du sitzt in der Mondfähre – Apollo 11 | 25 SEK. TREIBSTOFF | [mp4](../output/videos/tag27-mondlandung.mp4) | [png](../output/thumbnails/tag27-mondlandung.png) |
-| 28 | Mi 02.12. | 18:30 | Was wäre, wenn der Golfstrom stoppt? | GOLFSTROM STOPPT | [mp4](../output/videos/tag28-golfstrom.mp4) | [png](../output/thumbnails/tag28-golfstrom.png) |
-| 29 | Do 03.12. | 18:30 | Was wäre, wenn dich eine Lawine verschüttet? | 15 MINUTEN | [mp4](../output/videos/tag29-lawine.mp4) | [png](../output/thumbnails/tag29-lawine.png) |
-| 30 | Fr 04.12. | 19:00 | Was wäre, wenn ein Gammablitz die Erde trifft? | GAMMA BLITZ | [mp4](../output/videos/tag30-gammablitz.mp4) | [png](../output/thumbnails/tag30-gammablitz.png) |
+| 1 | Do 05.11. | 17:00 | Du bist in Pompeji | DU HAST 18 STUNDEN | [mp4](../output/videos/tag01-pompeji.mp4) | [png](../output/thumbnails/tag01-pompeji.png) |
+| 2 | Fr 06.11. | 17:00 | Was wäre, wenn die Sonne verschwindet? | DIE SONNE IST WEG | [mp4](../output/videos/tag02-sonne-verschwindet.mp4) | [png](../output/thumbnails/tag02-sonne-verschwindet.png) |
+| 3 | Sa 07.11. | 11:00 | Du bist auf der Titanic | NOCH 2:40 STUNDEN | [mp4](../output/videos/tag03-titanic.mp4) | [png](../output/thumbnails/tag03-titanic.png) |
+| 4 | So 08.11. | 11:00 | Was wäre, wenn das Internet 7 Tage ausfällt? | 7 TAGE OHNE INTERNET | [mp4](../output/videos/tag04-internet-weg.mp4) | [png](../output/thumbnails/tag04-internet-weg.png) |
+| 5 | Mo 09.11. | 17:00 | Du bist in Ost-Berlin – 9. November 1989 | DIE MAUER FÄLLT HEUTE | [mp4](../output/videos/tag05-mauerfall.mp4) | [png](../output/thumbnails/tag05-mauerfall.png) |
+| 6 | Di 10.11. | 17:00 | Was wäre, wenn der Mond verschwindet? | DER MOND IST WEG | [mp4](../output/videos/tag06-mond-verschwindet.mp4) | [png](../output/thumbnails/tag06-mond-verschwindet.png) |
+| 7 | Mi 11.11. | 17:00 | Du bist in Hamburg – Sturmflut 1962 | DIE DEICHE BRECHEN | [mp4](../output/videos/tag07-sturmflut-hamburg.mp4) | [png](../output/thumbnails/tag07-sturmflut-hamburg.png) |
+| 8 | Do 12.11. | 17:00 | Was wäre, wenn die Erde aufhört, sich zu drehen? | DIE ERDE STOPPT | [mp4](../output/videos/tag08-erde-stoppt.mp4) | [png](../output/thumbnails/tag08-erde-stoppt.png) |
+| 9 | Fr 13.11. | 17:00 | Du bist in London – Der große Brand 1666 | LONDON BRENNT | [mp4](../output/videos/tag09-brand-london.mp4) | [png](../output/thumbnails/tag09-brand-london.png) |
+| 10 | Sa 14.11. | 11:00 | Was wäre, wenn du in ein Schwarzes Loch fällst? | DU FÄLLST HINEIN | [mp4](../output/videos/tag10-schwarzes-loch.mp4) | [png](../output/thumbnails/tag10-schwarzes-loch.png) |
+| 11 | So 15.11. | 11:00 | Du bist am Krakatau 1883 | DER LAUTESTE KNALL | [mp4](../output/videos/tag11-krakatau.mp4) | [png](../output/thumbnails/tag11-krakatau.png) |
+| 12 | Mo 16.11. | 17:00 | Du bist auf Apollo 13 | HOUSTON, PROBLEM | [mp4](../output/videos/tag12-apollo-13.mp4) | [png](../output/thumbnails/tag12-apollo-13.png) |
+| 13 | Di 17.11. | 17:00 | Was wäre, wenn heute ein Dino-Asteroid einschlägt? | 10 KM ASTEROID | [mp4](../output/videos/tag13-asteroid.mp4) | [png](../output/thumbnails/tag13-asteroid.png) |
+| 14 | Mi 18.11. | 17:00 | Du bist an Bord der Hindenburg | 34 SEKUNDEN | [mp4](../output/videos/tag14-hindenburg.mp4) | [png](../output/thumbnails/tag14-hindenburg.png) |
+| 15 | Do 19.11. | 17:00 | Du bist in Prypjat – Tschernobyl 1986 | NIEMAND WARNT DICH | [mp4](../output/videos/tag15-tschernobyl.mp4) | [png](../output/thumbnails/tag15-tschernobyl.png) |
+| 16 | Fr 20.11. | 17:00 | Was wäre, wenn alle Menschen verschwinden? | ALLE MENSCHEN WEG | [mp4](../output/videos/tag16-erde-ohne-menschen.mp4) | [png](../output/thumbnails/tag16-erde-ohne-menschen.png) |
+| 17 | Sa 21.11. | 11:00 | Du bist in Lissabon – Erdbeben 1755 | ERDBEBEN + TSUNAMI | [mp4](../output/videos/tag17-lissabon-1755.mp4) | [png](../output/thumbnails/tag17-lissabon-1755.png) |
+| 18 | So 22.11. | 11:00 | Was wäre, wenn der Yellowstone ausbricht? | SUPER VULKAN | [mp4](../output/videos/tag18-yellowstone.mp4) | [png](../output/thumbnails/tag18-yellowstone.png) |
+| 19 | Mo 23.11. | 17:00 | Du lebst im Jahr ohne Sommer – 1816 | SCHNEE IM JUNI | [mp4](../output/videos/tag19-jahr-ohne-sommer.mp4) | [png](../output/thumbnails/tag19-jahr-ohne-sommer.png) |
+| 20 | Di 24.11. | 17:00 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | 72 STUNDEN KEIN STROM | [mp4](../output/videos/tag20-blackout.mp4) | [png](../output/thumbnails/tag20-blackout.png) |
+| 21 | Mi 25.11. | 17:00 | Was wäre, wenn du ohne Anzug auf dem Mars stehst? | 15 SEKUNDEN | [mp4](../output/videos/tag21-mars-ohne-anzug.mp4) | [png](../output/thumbnails/tag21-mars-ohne-anzug.png) |
+| 22 | Do 26.11. | 17:00 | Du lebst 1349 – Die Pest kommt | DIE PEST KOMMT | [mp4](../output/videos/tag22-pest-1349.mp4) | [png](../output/thumbnails/tag22-pest-1349.png) |
+| 23 | Fr 27.11. | 17:00 | Was wäre, wenn die Antarktis komplett schmilzt? | +58 METER | [mp4](../output/videos/tag23-antarktis-schmilzt.mp4) | [png](../output/thumbnails/tag23-antarktis-schmilzt.png) |
+| 24 | Sa 28.11. | 11:00 | Was passiert mit dir in der Todeszone am Everest? | TODES ZONE | [mp4](../output/videos/tag24-todeszone-everest.mp4) | [png](../output/thumbnails/tag24-todeszone-everest.png) |
+| 25 | So 29.11. | 11:00 | Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? | SONNEN STURM | [mp4](../output/videos/tag25-sonnensturm.mp4) | [png](../output/thumbnails/tag25-sonnensturm.png) |
+| 26 | Mo 30.11. | 17:00 | Was wäre, wenn du in den Marianengraben tauchst? | 11 KM TIEFE | [mp4](../output/videos/tag26-marianengraben.mp4) | [png](../output/thumbnails/tag26-marianengraben.png) |
+| 27 | Di 01.12. | 17:00 | Du sitzt in der Mondfähre – Apollo 11 | 25 SEK. TREIBSTOFF | [mp4](../output/videos/tag27-mondlandung.mp4) | [png](../output/thumbnails/tag27-mondlandung.png) |
+| 28 | Mi 02.12. | 17:00 | Was wäre, wenn der Golfstrom stoppt? | GOLFSTROM STOPPT | [mp4](../output/videos/tag28-golfstrom.mp4) | [png](../output/thumbnails/tag28-golfstrom.png) |
+| 29 | Do 03.12. | 17:00 | Was wäre, wenn dich eine Lawine verschüttet? | 15 MINUTEN | [mp4](../output/videos/tag29-lawine.mp4) | [png](../output/thumbnails/tag29-lawine.png) |
+| 30 | Fr 04.12. | 17:00 | Was wäre, wenn ein Gammablitz die Erde trifft? | GAMMA BLITZ | [mp4](../output/videos/tag30-gammablitz.mp4) | [png](../output/thumbnails/tag30-gammablitz.png) |
 
 ## Captions & Hashtags zum Kopieren
 
 ### Tag 1 – Du bist in Pompeji
-**Posten:** Do 05.11.2026, 18:30 Uhr  
+**Posten:** Do 05.11.2026, 17:00 Uhr  
 
 ```
 Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? 🌋
@@ -55,7 +55,7 @@ Du bist in Pompeji. Ein ganz normaler Tag im Jahr 79. Und du hast noch etwa acht
 </details>
 
 ### Tag 2 – Was wäre, wenn die Sonne verschwindet?
-**Posten:** Fr 06.11.2026, 19:00 Uhr  
+**Posten:** Fr 06.11.2026, 17:00 Uhr  
 
 ```
 Die Sonne verschwindet – und du merkst es erst 8 Minuten später. ☀️
@@ -70,7 +70,7 @@ Was wäre, wenn die Sonne genau jetzt verschwindet? Das Verrückte: Du würdest 
 </details>
 
 ### Tag 3 – Du bist auf der Titanic
-**Posten:** Sa 07.11.2026, 12:00 Uhr  
+**Posten:** Sa 07.11.2026, 11:00 Uhr  
 
 ```
 14. April 1912, 23:40 Uhr. Du bist auf der Titanic. Bekommst du einen Platz im Boot? 🚢
@@ -85,7 +85,7 @@ Du bist auf der Titanic. 14. April 1912, 23:40 Uhr. Du hast noch zwei Stunden un
 </details>
 
 ### Tag 4 – Was wäre, wenn das Internet 7 Tage ausfällt?
-**Posten:** So 08.11.2026, 17:00 Uhr  
+**Posten:** So 08.11.2026, 11:00 Uhr  
 
 ```
 Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵
@@ -100,7 +100,7 @@ Was wäre, wenn morgen früh das Internet ausfällt? Weltweit. Nicht für eine S
 </details>
 
 ### Tag 5 – Du bist in Ost-Berlin – 9. November 1989
-**Posten:** Mo 09.11.2026, 18:30 Uhr  
+**Posten:** Mo 09.11.2026, 17:00 Uhr  
 
 ```
 Heute vor 37 Jahren: Du bist in Ost-Berlin, 9. November 1989. Wo wärst du in dieser Nacht gewesen? 🧱
@@ -115,7 +115,7 @@ Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen
 </details>
 
 ### Tag 6 – Was wäre, wenn der Mond verschwindet?
-**Posten:** Di 10.11.2026, 18:30 Uhr  
+**Posten:** Di 10.11.2026, 17:00 Uhr  
 
 ```
 Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
@@ -130,7 +130,7 @@ Was wäre, wenn heute Nacht der Mond verschwindet? Zuerst merkst du: Die Nächte
 </details>
 
 ### Tag 7 – Du bist in Hamburg – Sturmflut 1962
-**Posten:** Mi 11.11.2026, 18:30 Uhr  
+**Posten:** Mi 11.11.2026, 17:00 Uhr  
 
 ```
 Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du es aufs Dach? 🌊
@@ -145,7 +145,7 @@ Du wohnst in Hamburg-Wilhelmsburg. Freitag, 16. Februar 1962. Draußen tobt ein 
 </details>
 
 ### Tag 8 – Was wäre, wenn die Erde aufhört, sich zu drehen?
-**Posten:** Do 12.11.2026, 18:30 Uhr  
+**Posten:** Do 12.11.2026, 17:00 Uhr  
 
 ```
 Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
@@ -160,7 +160,7 @@ Was wäre, wenn die Erde jetzt plötzlich aufhört, sich zu drehen? Du würdest 
 </details>
 
 ### Tag 9 – Du bist in London – Der große Brand 1666
-**Posten:** Fr 13.11.2026, 19:00 Uhr  
+**Posten:** Fr 13.11.2026, 17:00 Uhr  
 
 ```
 London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tage später ist die Stadt weg. 🔥
@@ -175,7 +175,7 @@ Du bist in London. Sonntag, 2. September 1666, ein Uhr nachts. In einer Bäckere
 </details>
 
 ### Tag 10 – Was wäre, wenn du in ein Schwarzes Loch fällst?
-**Posten:** Sa 14.11.2026, 12:00 Uhr  
+**Posten:** Sa 14.11.2026, 11:00 Uhr  
 
 ```
 Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghetti zu tun. 🕳️
@@ -190,7 +190,7 @@ Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, w
 </details>
 
 ### Tag 11 – Du bist am Krakatau 1883
-**Posten:** So 15.11.2026, 17:00 Uhr  
+**Posten:** So 15.11.2026, 11:00 Uhr  
 
 ```
 27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋
@@ -205,7 +205,7 @@ Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, w
 </details>
 
 ### Tag 12 – Du bist auf Apollo 13
-**Posten:** Mo 16.11.2026, 18:30 Uhr  
+**Posten:** Mo 16.11.2026, 17:00 Uhr  
 
 ```
 330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist auf Apollo 13. 🚀
@@ -220,7 +220,7 @@ Du bist Astronaut auf Apollo 13. Über dreihunderttausend Kilometer von der Erde
 </details>
 
 ### Tag 13 – Was wäre, wenn heute ein Dino-Asteroid einschlägt?
-**Posten:** Di 17.11.2026, 18:30 Uhr  
+**Posten:** Di 17.11.2026, 17:00 Uhr  
 
 ```
 Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
@@ -235,7 +235,7 @@ Was wäre, wenn heute ein Asteroid einschlägt – so groß wie der, der die Din
 </details>
 
 ### Tag 14 – Du bist an Bord der Hindenburg
-**Posten:** Mi 18.11.2026, 18:30 Uhr  
+**Posten:** Mi 18.11.2026, 17:00 Uhr  
 
 ```
 6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34 Sekunden. 🎈🔥
@@ -250,7 +250,7 @@ Du bist an Bord der Hindenburg, des größten Luftschiffs der Welt. 6. Mai 1937.
 </details>
 
 ### Tag 15 – Du bist in Prypjat – Tschernobyl 1986
-**Posten:** Do 19.11.2026, 18:30 Uhr  
+**Posten:** Do 19.11.2026, 17:00 Uhr  
 
 ```
 26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
@@ -265,7 +265,7 @@ Du wohnst in Prypjat in der Sowjetunion. 26. April 1986, mitten in der Nacht. Un
 </details>
 
 ### Tag 16 – Was wäre, wenn alle Menschen verschwinden?
-**Posten:** Fr 20.11.2026, 19:00 Uhr  
+**Posten:** Fr 20.11.2026, 17:00 Uhr  
 
 ```
 Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
@@ -280,7 +280,7 @@ Was wäre, wenn alle Menschen auf einen Schlag verschwinden? Was passiert mit de
 </details>
 
 ### Tag 17 – Du bist in Lissabon – Erdbeben 1755
-**Posten:** Sa 21.11.2026, 12:00 Uhr  
+**Posten:** Sa 21.11.2026, 11:00 Uhr  
 
 ```
 Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
@@ -295,7 +295,7 @@ Du bist in Lissabon. 1. November 1755, Allerheiligen. Die Kirchen sind voll. Üb
 </details>
 
 ### Tag 18 – Was wäre, wenn der Yellowstone ausbricht?
-**Posten:** So 22.11.2026, 17:00 Uhr  
+**Posten:** So 22.11.2026, 11:00 Uhr  
 
 ```
 Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
@@ -310,7 +310,7 @@ Was wäre, wenn der Supervulkan unter dem Yellowstone-Nationalpark ausbricht? De
 </details>
 
 ### Tag 19 – Du lebst im Jahr ohne Sommer – 1816
-**Posten:** Mo 23.11.2026, 18:30 Uhr  
+**Posten:** Mo 23.11.2026, 17:00 Uhr  
 
 ```
 1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
@@ -325,7 +325,7 @@ Du lebst im Jahr 1816 in Süddeutschland. Und dieser Sommer wird nie kommen. Ein
 </details>
 
 ### Tag 20 – Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
-**Posten:** Di 24.11.2026, 18:30 Uhr  
+**Posten:** Di 24.11.2026, 17:00 Uhr  
 
 ```
 Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
@@ -340,7 +340,7 @@ Was wäre, wenn in ganz Deutschland der Strom ausfällt? Nicht für eine Stunde.
 </details>
 
 ### Tag 21 – Was wäre, wenn du ohne Anzug auf dem Mars stehst?
-**Posten:** Mi 25.11.2026, 18:30 Uhr  
+**Posten:** Mi 25.11.2026, 17:00 Uhr  
 
 ```
 Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
@@ -355,7 +355,7 @@ Was wäre, wenn du auf dem Mars stehst – ohne Raumanzug? Du hast ungefähr fü
 </details>
 
 ### Tag 22 – Du lebst 1349 – Die Pest kommt
-**Posten:** Do 26.11.2026, 18:30 Uhr  
+**Posten:** Do 26.11.2026, 17:00 Uhr  
 
 ```
 1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige Wochen später ist sie in deiner Stadt. 🐀
@@ -370,7 +370,7 @@ Du lebst im Jahr 1349 in einer deutschen Stadt. Händler bringen Nachrichten: Im
 </details>
 
 ### Tag 23 – Was wäre, wenn die Antarktis komplett schmilzt?
-**Posten:** Fr 27.11.2026, 19:00 Uhr  
+**Posten:** Fr 27.11.2026, 17:00 Uhr  
 
 ```
 Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
@@ -385,7 +385,7 @@ Was wäre, wenn das gesamte Eis der Antarktis schmilzt? Der Meeresspiegel würde
 </details>
 
 ### Tag 24 – Was passiert mit dir in der Todeszone am Everest?
-**Posten:** Sa 28.11.2026, 12:00 Uhr  
+**Posten:** Sa 28.11.2026, 11:00 Uhr  
 
 ```
 Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone am Mount Everest. 🏔️
@@ -400,7 +400,7 @@ Was passiert mit deinem Körper in der Todeszone am Mount Everest? Ab achttausen
 </details>
 
 ### Tag 25 – Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
-**Posten:** So 29.11.2026, 17:00 Uhr  
+**Posten:** So 29.11.2026, 11:00 Uhr  
 
 ```
 1859 sprühten Telegrafen Funken. Was würde ein solcher Sonnensturm heute anrichten? ☀️⚡
@@ -415,7 +415,7 @@ Was wäre, wenn heute ein Sonnensturm wie im Jahr 1859 die Erde trifft? Damals s
 </details>
 
 ### Tag 26 – Was wäre, wenn du in den Marianengraben tauchst?
-**Posten:** Mo 30.11.2026, 18:30 Uhr  
+**Posten:** Mo 30.11.2026, 17:00 Uhr  
 
 ```
 Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
@@ -430,7 +430,7 @@ Was wäre, wenn du zum tiefsten Punkt des Ozeans tauchst? Knapp elf Kilometer na
 </details>
 
 ### Tag 27 – Du sitzt in der Mondfähre – Apollo 11
-**Posten:** Di 01.12.2026, 18:30 Uhr  
+**Posten:** Di 01.12.2026, 17:00 Uhr  
 
 ```
 20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff. Du sitzt in der Mondfähre. 🌕
@@ -445,7 +445,7 @@ Du sitzt neben Neil Armstrong in der Mondfähre Eagle. 20. Juli 1969. Noch zwöl
 </details>
 
 ### Tag 28 – Was wäre, wenn der Golfstrom stoppt?
-**Posten:** Mi 02.12.2026, 18:30 Uhr  
+**Posten:** Mi 02.12.2026, 17:00 Uhr  
 
 ```
 Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
@@ -460,7 +460,7 @@ Was wäre, wenn der Golfstrom stoppt? Dieses Strömungssystem bringt warmes Wass
 </details>
 
 ### Tag 29 – Was wäre, wenn dich eine Lawine verschüttet?
-**Posten:** Do 03.12.2026, 18:30 Uhr  
+**Posten:** Do 03.12.2026, 17:00 Uhr  
 
 ```
 Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
@@ -475,7 +475,7 @@ Was wäre, wenn dich eine Lawine verschüttet? Ab jetzt zählt jede einzelne Min
 </details>
 
 ### Tag 30 – Was wäre, wenn ein Gammablitz die Erde trifft?
-**Posten:** Fr 04.12.2026, 19:00 Uhr  
+**Posten:** Fr 04.12.2026, 17:00 Uhr  
 
 ```
 Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥

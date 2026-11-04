@@ -20,8 +20,8 @@ from days_21_30 import DAYS as D3  # noqa: E402
 
 BASE_TAGS = ["waswärewenn", "geschichte", "wissen", "fyp", "fürdich", "lernenmittiktok"]
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
-# Startwerte für DE-Publikum (Abendpeak). Nach 2 Wochen mit TikTok-Analytics anpassen.
-POST_TIME = {0: "18:30", 1: "18:30", 2: "18:30", 3: "18:30", 4: "19:00", 5: "12:00", 6: "17:00"}
+# Posting-Zeiten: Mo–Fr 17:00, Sa/So 11:00 (Wunsch des Kanals). Nach 2 Wochen mit Analytics prüfen.
+POST_TIME = {0: "17:00", 1: "17:00", 2: "17:00", 3: "17:00", 4: "17:00", 5: "11:00", 6: "11:00"}
 
 
 def words(seg_list):

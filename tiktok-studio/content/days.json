@@ -144,7 +144,7 @@
   "id": "tag01-pompeji",
   "date": "2026-11-05",
   "weekday": "Do",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 1/30",
   "next": "Was wäre, wenn die Sonne verschwindet?",
   "hashtags": [
@@ -278,7 +278,7 @@
   "id": "tag02-sonne-verschwindet",
   "date": "2026-11-06",
   "weekday": "Fr",
-  "post_time": "19:00",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 2/30",
   "next": "Du bist auf der Titanic",
   "hashtags": [
@@ -432,7 +432,7 @@
   "id": "tag03-titanic",
   "date": "2026-11-07",
   "weekday": "Sa",
-  "post_time": "12:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 3/30",
   "next": "Was wäre, wenn das Internet 7 Tage ausfällt?",
   "hashtags": [
@@ -572,7 +572,7 @@
   "id": "tag04-internet-weg",
   "date": "2026-11-08",
   "weekday": "So",
-  "post_time": "17:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 4/30",
   "next": "Du bist in Ost-Berlin – 9. November 1989",
   "hashtags": [
@@ -701,7 +701,7 @@
   "id": "tag05-mauerfall",
   "date": "2026-11-09",
   "weekday": "Mo",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 5/30",
   "next": "Was wäre, wenn der Mond verschwindet?",
   "hashtags": [
@@ -820,7 +820,7 @@
   "id": "tag06-mond-verschwindet",
   "date": "2026-11-10",
   "weekday": "Di",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 6/30",
   "next": "Du bist in Hamburg – Sturmflut 1962",
   "hashtags": [
@@ -956,7 +956,7 @@
   "id": "tag07-sturmflut-hamburg",
   "date": "2026-11-11",
   "weekday": "Mi",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 7/30",
   "next": "Was wäre, wenn die Erde aufhört, sich zu drehen?",
   "hashtags": [
@@ -1083,7 +1083,7 @@
   "id": "tag08-erde-stoppt",
   "date": "2026-11-12",
   "weekday": "Do",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 8/30",
   "next": "Du bist in London – Der große Brand 1666",
   "hashtags": [
@@ -1231,7 +1231,7 @@
   "id": "tag09-brand-london",
   "date": "2026-11-13",
   "weekday": "Fr",
-  "post_time": "19:00",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 9/30",
   "next": "Was wäre, wenn du in ein Schwarzes Loch fällst?",
   "hashtags": [
@@ -1355,7 +1355,7 @@
   "id": "tag10-schwarzes-loch",
   "date": "2026-11-14",
   "weekday": "Sa",
-  "post_time": "12:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 10/30",
   "next": "Du bist am Krakatau 1883",
   "hashtags": [
@@ -1490,7 +1490,7 @@
   "id": "tag11-krakatau",
   "date": "2026-11-15",
   "weekday": "So",
-  "post_time": "17:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 11/30",
   "next": "Du bist auf Apollo 13",
   "hashtags": [
@@ -1642,7 +1642,7 @@
   "id": "tag12-apollo-13",
   "date": "2026-11-16",
   "weekday": "Mo",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 12/30",
   "next": "Was wäre, wenn heute ein Dino-Asteroid einschlägt?",
   "hashtags": [
@@ -1778,7 +1778,7 @@
   "id": "tag13-asteroid",
   "date": "2026-11-17",
   "weekday": "Di",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 13/30",
   "next": "Du bist an Bord der Hindenburg",
   "hashtags": [
@@ -1913,7 +1913,7 @@
   "id": "tag14-hindenburg",
   "date": "2026-11-18",
   "weekday": "Mi",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 14/30",
   "next": "Du bist in Prypjat – Tschernobyl 1986",
   "hashtags": [
@@ -2037,7 +2037,7 @@
   "id": "tag15-tschernobyl",
   "date": "2026-11-19",
   "weekday": "Do",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 15/30",
   "next": "Was wäre, wenn alle Menschen verschwinden?",
   "hashtags": [
@@ -2163,7 +2163,7 @@
   "id": "tag16-erde-ohne-menschen",
   "date": "2026-11-20",
   "weekday": "Fr",
-  "post_time": "19:00",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 16/30",
   "next": "Du bist in Lissabon – Erdbeben 1755",
   "hashtags": [
@@ -2298,7 +2298,7 @@
   "id": "tag17-lissabon-1755",
   "date": "2026-11-21",
   "weekday": "Sa",
-  "post_time": "12:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 17/30",
   "next": "Was wäre, wenn der Yellowstone ausbricht?",
   "hashtags": [
@@ -2432,7 +2432,7 @@
   "id": "tag18-yellowstone",
   "date": "2026-11-22",
   "weekday": "So",
-  "post_time": "17:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 18/30",
   "next": "Du lebst im Jahr ohne Sommer – 1816",
   "hashtags": [
@@ -2575,7 +2575,7 @@
   "id": "tag19-jahr-ohne-sommer",
   "date": "2026-11-23",
   "weekday": "Mo",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 19/30",
   "next": "Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?",
   "hashtags": [
@@ -2721,7 +2721,7 @@
   "id": "tag20-blackout",
   "date": "2026-11-24",
   "weekday": "Di",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 20/30",
   "next": "Was wäre, wenn du ohne Anzug auf dem Mars stehst?",
   "hashtags": [
@@ -2855,7 +2855,7 @@
   "id": "tag21-mars-ohne-anzug",
   "date": "2026-11-25",
   "weekday": "Mi",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 21/30",
   "next": "Du lebst 1349 – Die Pest kommt",
   "hashtags": [
@@ -2977,7 +2977,7 @@
   "id": "tag22-pest-1349",
   "date": "2026-11-26",
   "weekday": "Do",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 22/30",
   "next": "Was wäre, wenn die Antarktis komplett schmilzt?",
   "hashtags": [
@@ -3109,7 +3109,7 @@
   "id": "tag23-antarktis-schmilzt",
   "date": "2026-11-27",
   "weekday": "Fr",
-  "post_time": "19:00",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 23/30",
   "next": "Was passiert mit dir in der Todeszone am Everest?",
   "hashtags": [
@@ -3263,7 +3263,7 @@
   "id": "tag24-todeszone-everest",
   "date": "2026-11-28",
   "weekday": "Sa",
-  "post_time": "12:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 24/30",
   "next": "Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?",
   "hashtags": [
@@ -3400,7 +3400,7 @@
   "id": "tag25-sonnensturm",
   "date": "2026-11-29",
   "weekday": "So",
-  "post_time": "17:00",
+  "post_time": "11:00",
   "series": "WAS WÄRE WENN · TAG 25/30",
   "next": "Was wäre, wenn du in den Marianengraben tauchst?",
   "hashtags": [
@@ -3531,7 +3531,7 @@
   "id": "tag26-marianengraben",
   "date": "2026-11-30",
   "weekday": "Mo",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 26/30",
   "next": "Du sitzt in der Mondfähre – Apollo 11",
   "hashtags": [
@@ -3662,7 +3662,7 @@
   "id": "tag27-mondlandung",
   "date": "2026-12-01",
   "weekday": "Di",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 27/30",
   "next": "Was wäre, wenn der Golfstrom stoppt?",
   "hashtags": [
@@ -3788,7 +3788,7 @@
   "id": "tag28-golfstrom",
   "date": "2026-12-02",
   "weekday": "Mi",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 28/30",
   "next": "Was wäre, wenn dich eine Lawine verschüttet?",
   "hashtags": [
@@ -3943,7 +3943,7 @@
   "id": "tag29-lawine",
   "date": "2026-12-03",
   "weekday": "Do",
-  "post_time": "18:30",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 29/30",
   "next": "Was wäre, wenn ein Gammablitz die Erde trifft?",
   "hashtags": [
@@ -4062,7 +4062,7 @@
   "id": "tag30-gammablitz",
   "date": "2026-12-04",
   "weekday": "Fr",
-  "post_time": "19:00",
+  "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 30/30",
   "next": null,
   "hashtags": [
