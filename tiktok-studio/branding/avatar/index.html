@@ -1,0 +1,70 @@
+<!doctype html>
+<html data-composition-variables='[
+  {"id":"accent","type":"color","label":"Akzent","default":"#ff5a1f"},
+  {"id":"bg1","type":"color","label":"Hintergrund innen","default":"#3a1a10"},
+  {"id":"bg2","type":"color","label":"Hintergrund außen","default":"#07080c"},
+  {"id":"wordmark","type":"string","label":"Schriftzug","default":"none"}
+]'>
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face { font-family: "Anton"; src: url("assets/fonts/anton.woff2") format("woff2"); }
+  html, body { margin: 0; background: #000; }
+  #root { position: relative; width: 1080px; height: 1080px; overflow: hidden;
+          background: radial-gradient(circle at 50% 42%, var(--bg1) 0%, var(--bg2) 70%); }
+  #art { position: absolute; inset: 0; }
+  #wm { position: absolute; left: 0; right: 0; bottom: 70px; text-align: center; display: var(--wordmark);
+        font-family: Anton, sans-serif; font-size: 150px; letter-spacing: 6px; color: #fff;
+        -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 10px 0 #000; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1080" data-height="1080" data-no-timeline>
+  <svg id="art" class="clip" data-start="0" data-duration="1" data-track-index="0" viewBox="0 0 1080 1080">
+    <defs>
+      <radialGradient id="glow"><stop offset="0" stop-color="var(--accent)" stop-opacity=".55"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></radialGradient>
+      <clipPath id="inner"><circle cx="540" cy="540" r="392"/></clipPath>
+    </defs>
+    <circle cx="540" cy="540" r="520" fill="url(#glow)"/>
+    <!-- Szene im Kreis: Vulkan-/Abendhimmel, Andeutung Geschichte -->
+    <g clip-path="url(#inner)">
+      <rect x="0" y="0" width="1080" height="1080" fill="#1f1638"/>
+      <rect x="0" y="420" width="1080" height="400" fill="#7a3b5e" opacity=".75"/>
+      <rect x="0" y="600" width="1080" height="300" fill="#f0915a" opacity=".55"/>
+      <g transform="translate(150 20)">
+        <path d="M140 900 L 470 560 Q 540 535 610 560 L 940 900 Z" fill="#2a1d18"/>
+        <path d="M470 560 Q 540 535 610 560 L 585 588 Q 540 572 495 588 Z" fill="var(--accent)"/>
+        <path d="M520 580 C 505 650, 545 700, 500 780" stroke="var(--accent)" stroke-width="12" fill="none"/>
+        <circle cx="540" cy="470" r="60" fill="#4a403b"/><circle cx="575" cy="400" r="85" fill="#5b524b"/>
+        <circle cx="520" cy="330" r="100" fill="#4a403b"/><circle cx="610" cy="280" r="115" fill="#5b524b"/>
+        <circle cx="470" cy="240" r="95" fill="#5b524b"/>
+      </g>
+      <rect x="0" y="880" width="1080" height="200" fill="#120c0a"/>
+      <!-- Figur "DU" (schockiert), wie in den Videos -->
+      <g transform="translate(380 1075) scale(1.62)">
+        <rect x="-52" y="-260" width="104" height="170" rx="40" fill="var(--accent)"/>
+        <g transform="rotate(8 -54 -250)"><rect x="-70" y="-250" width="32" height="130" rx="14" fill="var(--accent)"/><rect x="-70" y="-250" width="32" height="130" rx="14" fill="#000" opacity=".2"/></g>
+        <g transform="rotate(-8 54 -250)"><rect x="38" y="-250" width="32" height="130" rx="14" fill="var(--accent)"/><rect x="38" y="-250" width="32" height="130" rx="14" fill="#000" opacity=".2"/></g>
+        <circle cx="0" cy="-310" r="56" fill="#f2c7a5"/>
+        <path d="M-58 -318 Q-50 -380 0 -378 Q52 -380 58 -318 Q40 -340 0 -342 Q-36 -340 -58 -318 Z" fill="#3b2a20"/>
+        <circle cx="-18" cy="-308" r="11" fill="#fff"/><circle cx="18" cy="-308" r="11" fill="#fff"/>
+        <circle cx="-18" cy="-306" r="5" fill="#1b1b1b"/><circle cx="18" cy="-306" r="5" fill="#1b1b1b"/>
+        <path d="M-32 -332 L -8 -326 M 32 -332 L 8 -326" stroke="#3b2a20" stroke-width="6" stroke-linecap="round"/>
+        <ellipse cx="0" cy="-278" rx="11" ry="15" fill="#5a2020"/>
+      </g>
+    </g>
+    <!-- Countdown-Ring (Zeit) -->
+    <circle cx="540" cy="540" r="420" fill="none" stroke="#0d0f14" stroke-width="56"/>
+    <circle cx="540" cy="540" r="420" fill="none" stroke="var(--accent)" stroke-width="30"
+            stroke-dasharray="2111 2639" transform="rotate(-90 540 540)" stroke-linecap="round"/>
+    <g stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+      <line x1="540" y1="96" x2="540" y2="140"/><line x1="984" y1="540" x2="940" y2="540"/>
+      <line x1="540" y1="984" x2="540" y2="940"/><line x1="96" y1="540" x2="140" y2="540"/>
+    </g>
+    <!-- Uhrzeiger-Spitze am Ringende -->
+    <circle cx="540" cy="120" r="34" fill="#fff" stroke="#0d0f14" stroke-width="10" transform="rotate(-72 540 540)"/>
+  </svg>
+  <div id="wm" class="clip" data-start="0" data-duration="1" data-track-index="1">ZEITZEUGE</div>
+</div>
+</body>
+</html>

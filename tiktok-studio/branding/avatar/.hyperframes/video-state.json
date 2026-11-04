@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "historyId": "245ed9b9-c1f6-4427-8bd7-3dd1e7557114",
+  "currentRevision": "e1eb2d39-400d-4a46-893d-cf4415b21027",
+  "pendingChanges": false,
+  "files": {
+    "assets/fonts/ANTON-LICENSE.txt": {
+      "hash": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a",
+      "content": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/92/9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
+    },
+    "assets/fonts/anton-ext.woff2": {
+      "hash": "4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea",
+      "content": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/4b/4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea"
+    },
+    "assets/fonts/anton.woff2": {
+      "hash": "f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885",
+      "content": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/f9/f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885"
+    },
+    "index.html": {
+      "hash": "dbf0fdff2b5edfbecde164eef5332c2ba642e13e1aa262e67cd64ca262a49fdd",
+      "content": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/db/dbf0fdff2b5edfbecde164eef5332c2ba642e13e1aa262e67cd64ca262a49fdd"
+    }
+  },
+  "revisions": {
+    "e1eb2d39-400d-4a46-893d-cf4415b21027": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793792473467,
+      "endedAt": 1793792473468,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/f7/f77c2085bbc59e3a7ceff43a18fc13d456bbcb5126d21ab2a2768fe746dcfb5b",
+          "after": "/root/.cache/hyperframes/history/245ed9b9-c1f6-4427-8bd7-3dd1e7557114/blobs/db/dbf0fdff2b5edfbecde164eef5332c2ba642e13e1aa262e67cd64ca262a49fdd"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "19e819ee-01de-471d-871c-ae0b1f32b34f",
+      "completedAt": 1793792480132,
+      "output": "/tmp/claude-0/-home-user-everything-claude-code/1f5c2938-77c0-599a-8232-5ba7c6e955fa/scratchpad/av_blau",
+      "status": "completed",
+      "revision": "e1eb2d39-400d-4a46-893d-cf4415b21027"
+    },
+    "retainedRevisions": [
+      "e1eb2d39-400d-4a46-893d-cf4415b21027"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
