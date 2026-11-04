@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "historyId": "18d846e5-dd89-436e-bcdf-a22478b36576",
+  "currentRevision": "a47f5c9e-7c6f-448c-b4a2-c87cdadae46e",
+  "pendingChanges": false,
+  "files": {
+    "assets/fonts/ANTON-LICENSE.txt": {
+      "hash": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a",
+      "content": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/92/9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
+    },
+    "assets/fonts/anton-ext.woff2": {
+      "hash": "4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea",
+      "content": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/4b/4bdafd944408a41c747677fe400829de545a27c26c77d44a3ff73643057c6fea"
+    },
+    "assets/fonts/anton.woff2": {
+      "hash": "f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885",
+      "content": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/f9/f9ad420bf51c2930fc2a49d44209d202cb18acb2d8b82853a01023e69eab6885"
+    },
+    "index.html": {
+      "hash": "7c1136b87be479ebc6c4a8e367b73982cc23c54818b169323064d8d87598f6cb",
+      "content": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/7c/7c1136b87be479ebc6c4a8e367b73982cc23c54818b169323064d8d87598f6cb"
+    }
+  },
+  "revisions": {
+    "a47f5c9e-7c6f-448c-b4a2-c87cdadae46e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793792667421,
+      "endedAt": 1793792667422,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/66/66c68d944fd65a76b8ee792a8ae9af79e22f72f43d34768eb832bd49368c2b22",
+          "after": "/root/.cache/hyperframes/history/18d846e5-dd89-436e-bcdf-a22478b36576/blobs/7c/7c1136b87be479ebc6c4a8e367b73982cc23c54818b169323064d8d87598f6cb"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e1f9cb72-8da4-4f9b-a665-bab311b87493",
+      "completedAt": 1793792669129,
+      "output": "/tmp/claude-0/-home-user-everything-claude-code/1f5c2938-77c0-599a-8232-5ba7c6e955fa/scratchpad/lg_b",
+      "status": "completed",
+      "revision": "a47f5c9e-7c6f-448c-b4a2-c87cdadae46e"
+    },
+    "retainedRevisions": [
+      "a47f5c9e-7c6f-448c-b4a2-c87cdadae46e"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
