@@ -169,13 +169,13 @@ export const Quote: React.FC<{ text: string; who: string; t: number; accent: str
   );
 };
 
-export const EndCard: React.FC<{ next: string | null; t: number; accent: string; day: number }> = ({ next, t, accent, day }) => {
+export const EndCard: React.FC<{ next: string | null; t: number; accent: string; day: number; label?: string }> = ({ next, t, accent, day, label }) => {
   const a = easeOut(t / 0.35);
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top: 1380, display: "flex", flexDirection: "column", alignItems: "center", gap: 14, opacity: a, transform: `translateY(${(1 - a) * 40}px)` }}>
       {next ? (
         <>
-          <div style={{ fontFamily: INTER, fontWeight: 900, fontSize: 28, letterSpacing: 4, color: "#fff", background: "#000a", padding: "6px 16px", borderRadius: 8 }}>MORGEN · TAG {day + 1}</div>
+          <div style={{ fontFamily: INTER, fontWeight: 900, fontSize: 28, letterSpacing: 4, color: "#fff", background: "#000a", padding: "6px 16px", borderRadius: 8 }}>{label ? `${label} ${day + 1}` : `MORGEN · TAG ${day + 1}`}</div>
           <div style={{ fontFamily: ANTON, fontSize: 58, color: "#fff", textAlign: "center", maxWidth: 900, textTransform: "uppercase", WebkitTextStroke: "6px #000", paintOrder: "stroke fill" }}>{next}</div>
         </>
       ) : null}

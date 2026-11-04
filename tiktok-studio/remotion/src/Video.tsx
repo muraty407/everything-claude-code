@@ -114,7 +114,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       <Vignette />
       <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />
       <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />
-      {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} />}
+      {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
       {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>

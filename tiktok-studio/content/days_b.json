@@ -1,0 +1,3055 @@
+[
+ {
+  "slug": "gladiator",
+  "title": "Du bist Gladiator im Kolosseum",
+  "accent": "#e63946",
+  "hud": {
+   "label": "BIS ZUM KAMPF",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "50.000",
+   "bottom": "SCHAUEN ZU",
+   "tag": "80 N. CHR.",
+   "kicker": "DU BIST GLADIATOR",
+   "scene": "oldtown:day"
+  },
+  "caption": "Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du überleben? ⚔️",
+  "tags": [
+   "kolosseum",
+   "gladiator",
+   "rom",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst in der Arena des Kolosseums. Und fünfzigtausend Menschen wollen dich kämpfen sehen.",
+    "scene": "oldtown:day",
+    "clock": "00:01:00",
+    "ctx": "ROM · KOLOSSEUM · 80 N. CHR.",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die meisten Gladiatoren sind Sklaven oder Kriegsgefangene. Manche kämpfen aber freiwillig, für Ruhm und Geld.",
+    "scene": "oldtown:day",
+    "clock": "00:00:50",
+    "card": {
+     "kicker": "WER KÄMPFT?",
+     "title": "SKLAVEN & FREIWILLIGE"
+    }
+   },
+   {
+    "text": "Zur Eröffnung gibt es Spiele, die hundert Tage dauern.",
+    "scene": "oldtown:dusk",
+    "clock": "00:00:40",
+    "big": {
+     "value": "100",
+     "sub": "TAGE SPIELE"
+    }
+   },
+   {
+    "text": "Die gute Nachricht: Nicht jeder Kampf endet tödlich. Gut ausgebildete Gladiatoren sind teuer.",
+    "scene": "oldtown:day",
+    "clock": "00:00:20",
+    "card": {
+     "kicker": "ÜBERRASCHUNG",
+     "title": "NICHT JEDER STIRBT"
+    }
+   },
+   {
+    "text": "Ob der Daumen nach oben oder unten das Urteil war, wissen Historiker übrigens bis heute nicht sicher.",
+    "scene": "oldtown:ruins",
+    "clock": "00:00:05",
+    "card": {
+     "kicker": "MYTHOS?",
+     "title": "DER DAUMEN"
+    }
+   },
+   {
+    "text": "Hättest du dich in die Arena getraut?",
+    "scene": "oldtown:ruins",
+    "clock": "00:00:00",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU KÄMPFEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 1,
+  "id": "extra01-gladiator",
+  "date": "2026-11-05",
+  "weekday": "Do",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 1/30",
+  "next": "Was wäre, wenn du nie mehr schläfst?",
+  "word_count": 75,
+  "badge": "EXTRA 1/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#kolosseum",
+   "#gladiator",
+   "#rom",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du überleben? ⚔️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn du nie mehr schläfst?\n\n#kolosseum #gladiator #rom #zeitzeuge #geschichte",
+  "yt_title": "Du bist Gladiator im Kolosseum #shorts",
+  "yt_description": "Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du überleben? ⚔️\n\n#kolosseum #gladiator #rom #zeitzeuge #shorts"
+ },
+ {
+  "slug": "nie-mehr-schlafen",
+  "title": "Was wäre, wenn du nie mehr schläfst?",
+  "accent": "#8e7dff",
+  "hud": {
+   "label": "WACH SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "11 TAGE",
+   "bottom": "OHNE SCHLAF",
+   "tag": "REKORD",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "room:night"
+  },
+  "caption": "11 Tage ohne Schlaf – so sieht das in deinem Körper aus. 😵 Wie lange hast du schon mal durchgemacht?",
+  "tags": [
+   "schlaf",
+   "körper",
+   "wissen",
+   "gesundheit"
+  ],
+  "segments": [
+   {
+    "text": "Du hast seit vierundzwanzig Stunden nicht geschlafen. Dein Gehirn arbeitet jetzt wie mit einem Promille im Blut.",
+    "scene": "room:night",
+    "clock": "24:00:00",
+    "ctx": "DEIN KÖRPER · OHNE SCHLAF",
+    "fx": [
+     "glitch"
+    ],
+    "you": true
+   },
+   {
+    "text": "Du bekommst Sekundenschlaf. Für ein paar Sekunden schaltet dein Gehirn einfach ab, ohne dass du es merkst.",
+    "scene": "room:dark",
+    "clock": "30:00:00",
+    "card": {
+     "kicker": "GEFAHR",
+     "title": "SEKUNDENSCHLAF"
+    }
+   },
+   {
+    "text": "Nach drei Tagen: Du siehst Dinge, die gar nicht da sind.",
+    "scene": "city:night",
+    "clock": "72:00:00",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "1964 blieb der Schüler Randy Gardner elf Tage wach. Am Ende konnte er kaum noch sprechen oder sich konzentrieren.",
+    "scene": "room:dark",
+    "clock": "264:00:00",
+    "big": {
+     "value": "11 TAGE",
+     "sub": "REKORD-VERSUCH 1964"
+    }
+   },
+   {
+    "text": "Heute erkennt das Guinness-Buch solche Rekorde nicht mehr an. Es ist zu gefährlich.",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "GUINNESS",
+     "title": "KEINE REKORDE MEHR"
+    }
+   },
+   {
+    "text": "Wie lange hast du schon mal durchgemacht? Schreib es in die Kommentare.",
+    "scene": "room:night",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE WARST DU WACH?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 2,
+  "id": "extra02-nie-mehr-schlafen",
+  "date": "2026-11-06",
+  "weekday": "Fr",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 2/30",
+  "next": "Flight 19 – Teil 1",
+  "word_count": 89,
+  "badge": "EXTRA 2/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#schlaf",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "11 Tage ohne Schlaf – so sieht das in deinem Körper aus. 😵 Wie lange hast du schon mal durchgemacht?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Flight 19 – Teil 1\n\n#schlaf #körper #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du nie mehr schläfst? #shorts",
+  "yt_description": "11 Tage ohne Schlaf – so sieht das in deinem Körper aus. 😵 Wie lange hast du schon mal durchgemacht?\n\n#schlaf #körper #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "flight-19-teil-1",
+  "title": "Flight 19 – Teil 1",
+  "accent": "#2ec4b6",
+  "hud": {
+   "label": "FLUGZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "5 BOMBER",
+   "bottom": "VERSCHWINDEN",
+   "tag": "TEIL 1",
+   "kicker": "BERMUDA-DREIECK",
+   "scene": "ocean:day"
+  },
+  "caption": "5 Militärflugzeuge starten zum Training – und keines kommt zurück. Teil 1 ✈️ #bermudadreieck",
+  "tags": [
+   "bermudadreieck",
+   "flight19",
+   "mystery",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Fünf Militärflugzeuge starten zu einem Trainingsflug. Keines davon kommt zurück.",
+    "scene": "ocean:day",
+    "clock": "00:00:00",
+    "ctx": "FLORIDA · 5. DEZEMBER 1945",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Flight 19. Vierzehn Männer, fünf Bomber, ein Routineflug über dem Atlantik.",
+    "scene": "map",
+    "clock": "00:30:00",
+    "map": {
+     "label": "FORT LAUDERDALE",
+     "sub": "BERMUDA-DREIECK"
+    }
+   },
+   {
+    "text": "Nach gut einer Stunde meldet der Staffelführer: Beide Kompasse sind ausgefallen.",
+    "scene": "ocean:storm",
+    "clock": "01:40:00",
+    "card": {
+     "kicker": "FUNKSPRUCH",
+     "title": "KOMPASSE AUSGEFALLEN"
+    }
+   },
+   {
+    "text": "Er glaubt, sie fliegen über dem Golf von Mexiko. Tatsächlich sind sie über dem offenen Atlantik.",
+    "scene": "map",
+    "clock": "02:30:00",
+    "map": {
+     "label": "ATLANTIK",
+     "sub": "FALSCHE RICHTUNG"
+    }
+   },
+   {
+    "text": "Der Sprit wird knapp. Es wird dunkel. Der Funkkontakt bricht ab.",
+    "scene": "ocean:night",
+    "clock": "04:00:00",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Und dann passiert etwas, das alles noch rätselhafter macht. Das siehst du in Teil zwei.",
+    "scene": "ocean:night",
+    "clock": "04:30:00",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 3,
+  "id": "extra03-flight-19-teil-1",
+  "date": "2026-11-07",
+  "weekday": "Sa",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 3/30",
+  "next": "Flight 19 – Teil 2",
+  "word_count": 74,
+  "badge": "EXTRA 3/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#bermudadreieck",
+   "#flight19",
+   "#mystery",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "5 Militärflugzeuge starten zum Training – und keines kommt zurück. Teil 1 ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Flight 19 – Teil 2\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #geschichte",
+  "yt_title": "Flight 19 – Teil 1 #shorts",
+  "yt_description": "5 Militärflugzeuge starten zum Training – und keines kommt zurück. Teil 1 ✈️\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #shorts"
+ },
+ {
+  "slug": "flight-19-teil-2",
+  "title": "Flight 19 – Teil 2",
+  "accent": "#2ec4b6",
+  "hud": {
+   "label": "FLUGZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "AUCH DIE",
+   "bottom": "RETTER WEG",
+   "tag": "TEIL 2",
+   "kicker": "BERMUDA-DREIECK",
+   "scene": "ocean:storm"
+  },
+  "caption": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️ #bermudadreieck",
+  "tags": [
+   "bermudadreieck",
+   "flight19",
+   "mystery",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Ein Rettungsflugzeug startet, um Flight 19 zu suchen. Und auch das verschwindet.",
+    "scene": "ocean:storm",
+    "clock": "04:30:00",
+    "ctx": "TEIL 2 · 5. DEZEMBER 1945",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Ein Tanker meldet später Flammen über dem Meer. Das Rettungsflugzeug ist vermutlich explodiert.",
+    "scene": "ocean:night",
+    "clock": "05:00:00",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Insgesamt sind siebenundzwanzig Männer verschwunden. Es werden nie Wrackteile gefunden.",
+    "scene": "dark",
+    "clock": "—",
+    "big": {
+     "value": "27",
+     "sub": "MÄNNER VERSCHWUNDEN"
+    }
+   },
+   {
+    "text": "Seitdem gilt das Bermuda-Dreieck als verflucht.",
+    "scene": "ocean:storm",
+    "clock": "—",
+    "card": {
+     "kicker": "LEGENDE",
+     "title": "DAS VERFLUCHTE DREIECK"
+    }
+   },
+   {
+    "text": "Aber: Versicherer sehen dort kein erhöhtes Risiko. Es ist einfach eines der meistbefahrenen Meeresgebiete der Welt.",
+    "scene": "map",
+    "clock": "HEUTE",
+    "map": {
+     "label": "BERMUDA-DREIECK",
+     "sub": "VIEL VERKEHR = VIELE UNFÄLLE"
+    }
+   },
+   {
+    "text": "Fluch oder Zufall? Was glaubst du?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "FLUCH ODER ZUFALL?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 4,
+  "id": "extra04-flight-19-teil-2",
+  "date": "2026-11-08",
+  "weekday": "So",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 4/30",
+  "next": "Was wäre, wenn du in Treibsand gerätst?",
+  "word_count": 63,
+  "badge": "EXTRA 4/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#bermudadreieck",
+   "#flight19",
+   "#mystery",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn du in Treibsand gerätst?\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #geschichte",
+  "yt_title": "Flight 19 – Teil 2 #shorts",
+  "yt_description": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #shorts"
+ },
+ {
+  "slug": "treibsand",
+  "title": "Was wäre, wenn du in Treibsand gerätst?",
+  "accent": "#c08552",
+  "hud": {
+   "label": "IM TREIBSAND SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "DU SINKST",
+   "bottom": "EIN",
+   "tag": "TREIBSAND",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "ocean:day,retreat"
+  },
+  "caption": "Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?",
+  "tags": [
+   "treibsand",
+   "überleben",
+   "wissen",
+   "natur"
+  ],
+  "segments": [
+   {
+    "text": "Du steckst im Treibsand. Und jede Bewegung zieht dich tiefer.",
+    "scene": "ocean:day,retreat",
+    "clock": "00:00",
+    "ctx": "WATT · TREIBSAND",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die gute Nachricht: Ganz untergehen kannst du nicht. Treibsand ist dichter als dein Körper.",
+    "scene": "ocean:day,retreat",
+    "clock": "00:20",
+    "card": {
+     "kicker": "MYTHOS",
+     "title": "DU VERSINKST NICHT GANZ"
+    }
+   },
+   {
+    "text": "Meistens sinkst du nur bis zur Hüfte ein.",
+    "scene": "ocean:day,retreat",
+    "clock": "00:40",
+    "big": {
+     "value": "HÜFTE",
+     "sub": "WEITER GEHT ES MEIST NICHT"
+    }
+   },
+   {
+    "text": "Das Problem: Ziehen bringt nichts. Um ein Bein zu befreien, bräuchte man enorme Kraft.",
+    "scene": "ocean:day,retreat",
+    "clock": "01:00",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "STARK ZIEHEN"
+    }
+   },
+   {
+    "text": "Regel Nummer eins: Leg dich zurück, verteil dein Gewicht und wackle langsam mit den Beinen.",
+    "scene": "ocean:day,retreat",
+    "clock": "02:00",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "ZURÜCKLEHNEN & LANGSAM"
+    }
+   },
+   {
+    "text": "Gefährlich wird es vor allem, wenn die Flut kommt. Wusstest du das?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WUSSTEST DU DAS?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 5,
+  "id": "extra05-treibsand",
+  "date": "2026-11-09",
+  "weekday": "Mo",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 5/30",
+  "next": "Du bist beim ersten Motorflug 1903",
+  "word_count": 73,
+  "badge": "EXTRA 5/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#treibsand",
+   "#überleben",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist beim ersten Motorflug 1903\n\n#treibsand #überleben #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du in Treibsand gerätst? #shorts",
+  "yt_description": "Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?\n\n#treibsand #überleben #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "brueder-wright",
+  "title": "Du bist beim ersten Motorflug 1903",
+  "accent": "#f4a261",
+  "hud": {
+   "label": "FLUGDAUER",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "12",
+   "bottom": "SEKUNDEN",
+   "tag": "1903",
+   "kicker": "DU BIST DABEI",
+   "scene": "ocean:day,retreat"
+  },
+  "caption": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️",
+  "tags": [
+   "gebrüderwright",
+   "luftfahrt",
+   "erfindung",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben.",
+    "scene": "ocean:day,retreat",
+    "clock": "00:00",
+    "ctx": "KITTY HAWK · 17. DEZEMBER 1903",
+    "you": true
+   },
+   {
+    "text": "Die Brüder Orville und Wilbur Wright sind Fahrradmechaniker. Kein Studium, keine Fabrik.",
+    "scene": "ocean:day,retreat",
+    "clock": "00:00",
+    "card": {
+     "kicker": "WER?",
+     "title": "FAHRRADMECHANIKER"
+    }
+   },
+   {
+    "text": "Orville liegt auf dem Flügel. Der Motor knattert. Und das Flugzeug hebt ab.",
+    "scene": "ocean:day",
+    "clock": "00:06",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Zwölf Sekunden, rund siebenunddreißig Meter. Kürzer als die Spannweite eines heutigen Jumbojets.",
+    "scene": "ocean:day",
+    "clock": "00:12",
+    "big": {
+     "value": "37 M",
+     "sub": "DER ERSTE FLUG"
+    }
+   },
+   {
+    "text": "Nur sechsundsechzig Jahre später landen Menschen auf dem Mond.",
+    "scene": "space:moonsurface,landed",
+    "clock": "1969",
+    "big": {
+     "value": "66",
+     "sub": "JAHRE BIS ZUM MOND"
+    }
+   },
+   {
+    "text": "Was glaubst du: Welche Erfindung kommt als Nächstes so überraschend?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS KOMMT ALS NÄCHSTES?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 6,
+  "id": "extra06-brueder-wright",
+  "date": "2026-11-10",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 6/30",
+  "next": "Du bist Juri Gagarin – Teil 1",
+  "word_count": 69,
+  "badge": "EXTRA 6/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#gebrüderwright",
+   "#luftfahrt",
+   "#erfindung",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist Juri Gagarin – Teil 1\n\n#gebrüderwright #luftfahrt #erfindung #zeitzeuge #geschichte",
+  "yt_title": "Du bist beim ersten Motorflug 1903 #shorts",
+  "yt_description": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️\n\n#gebrüderwright #luftfahrt #erfindung #zeitzeuge #shorts"
+ },
+ {
+  "slug": "gagarin-teil-1",
+  "title": "Du bist Juri Gagarin – Teil 1",
+  "accent": "#e76f51",
+  "hud": {
+   "label": "MISSIONSZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "ALS ERSTER",
+   "bottom": "INS ALL",
+   "tag": "TEIL 1",
+   "kicker": "DU BIST GAGARIN",
+   "scene": "space:earth,capsule"
+  },
+  "caption": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀",
+  "tags": [
+   "gagarin",
+   "weltall",
+   "raumfahrt",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist gleich der erste Mensch im Weltall. Und niemand weiß, ob du zurückkommst.",
+    "scene": "control:dim",
+    "clock": "00:00:00",
+    "ctx": "BAIKONUR · 12. APRIL 1961",
+    "you": true
+   },
+   {
+    "text": "Juri Gagarin, siebenundzwanzig Jahre alt, sitzt in der winzigen Kapsel Wostok eins.",
+    "scene": "control:dim",
+    "clock": "00:00:00",
+    "card": {
+     "kicker": "WOSTOK 1",
+     "title": "JURI GAGARIN, 27"
+    }
+   },
+   {
+    "text": "Beim Start ruft er nur ein Wort:",
+    "scene": "control:alarm",
+    "clock": "00:00:05",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Pojechali! Los geht's!",
+    "scene": "control:alarm",
+    "clock": "00:00:06",
+    "quote": {
+     "text": "Pojechali! – Los geht's!",
+     "who": "Juri Gagarin, 1961"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Minuten später sieht er als erster Mensch die Erde von oben. Er umrundet sie einmal.",
+    "scene": "space:earth,capsule",
+    "clock": "00:15:00",
+    "big": {
+     "value": "108",
+     "sub": "MINUTEN IM ALL"
+    }
+   },
+   {
+    "text": "Aber die Landung wird ganz anders als geplant. Das siehst du in Teil zwei.",
+    "scene": "space:earth,capsule",
+    "clock": "01:40:00",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 7,
+  "id": "extra07-gagarin-teil-1",
+  "date": "2026-11-11",
+  "weekday": "Mi",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 7/30",
+  "next": "Du bist Juri Gagarin – Teil 2",
+  "word_count": 65,
+  "badge": "EXTRA 7/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#gagarin",
+   "#weltall",
+   "#raumfahrt",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist Juri Gagarin – Teil 2\n\n#gagarin #weltall #raumfahrt #zeitzeuge #geschichte",
+  "yt_title": "Du bist Juri Gagarin – Teil 1 #shorts",
+  "yt_description": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀\n\n#gagarin #weltall #raumfahrt #zeitzeuge #shorts"
+ },
+ {
+  "slug": "gagarin-teil-2",
+  "title": "Du bist Juri Gagarin – Teil 2",
+  "accent": "#e76f51",
+  "hud": {
+   "label": "MISSIONSZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "DAS GEHEIMNIS",
+   "bottom": "DER LANDUNG",
+   "tag": "TEIL 2",
+   "kicker": "DU BIST GAGARIN",
+   "scene": "mountains:day"
+  },
+  "caption": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀",
+  "tags": [
+   "gagarin",
+   "weltall",
+   "raumfahrt",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Gagarin landet nicht in seiner Kapsel. Er springt in sieben Kilometern Höhe heraus.",
+    "scene": "mountains:day",
+    "clock": "01:48:00",
+    "ctx": "TEIL 2 · 12. APRIL 1961",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Kapsel ist zu hart für eine Landung mit Menschen. Also wird er per Schleudersitz ausgeworfen.",
+    "scene": "space:earth,capsule",
+    "clock": "01:45:00",
+    "card": {
+     "kicker": "DER PLAN",
+     "title": "SCHLEUDERSITZ"
+    }
+   },
+   {
+    "text": "Er schwebt am Fallschirm auf ein Feld. Eine Bäuerin und ihre Enkelin sehen ihn im orangen Anzug kommen.",
+    "scene": "mountains:day",
+    "clock": "01:48:00",
+    "you": true
+   },
+   {
+    "text": "Er sagt zu ihnen: Keine Angst, ich bin Sowjetbürger.",
+    "scene": "mountains:day",
+    "clock": "01:50:00",
+    "card": {
+     "kicker": "ERSTE WORTE",
+     "title": "„KEINE ANGST“"
+    }
+   },
+   {
+    "text": "Dass er nicht in der Kapsel landete, hält die Sowjetunion jahrelang geheim.",
+    "scene": "dark",
+    "clock": "—",
+    "card": {
+     "kicker": "GEHEIM",
+     "title": "JAHRELANG VERSCHWIEGEN"
+    }
+   },
+   {
+    "text": "Hättest du dich in diese Kapsel gesetzt?",
+    "scene": "space:earth,capsule",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÄRST DU EINGESTIEGEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 8,
+  "id": "extra08-gagarin-teil-2",
+  "date": "2026-11-12",
+  "weekday": "Do",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 8/30",
+  "next": "Was wäre, wenn dich ein Blitz trifft?",
+  "word_count": 75,
+  "badge": "EXTRA 8/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#gagarin",
+   "#weltall",
+   "#raumfahrt",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn dich ein Blitz trifft?\n\n#gagarin #weltall #raumfahrt #zeitzeuge #geschichte",
+  "yt_title": "Du bist Juri Gagarin – Teil 2 #shorts",
+  "yt_description": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀\n\n#gagarin #weltall #raumfahrt #zeitzeuge #shorts"
+ },
+ {
+  "slug": "blitzschlag",
+  "title": "Was wäre, wenn dich ein Blitz trifft?",
+  "accent": "#ffd60a",
+  "hud": {
+   "label": "NACH DEM EINSCHLAG",
+   "tick": null
+  },
+  "thumb": {
+   "top": "30.000",
+   "bottom": "GRAD",
+   "tag": "BLITZ",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "ocean:storm"
+  },
+  "caption": "Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn er dich trifft? ⚡",
+  "tags": [
+   "blitz",
+   "gewitter",
+   "wissen",
+   "überleben"
+  ],
+  "segments": [
+   {
+    "text": "Ein Blitz hat dich gerade getroffen. Er ist fünfmal heißer als die Oberfläche der Sonne.",
+    "scene": "ocean:storm",
+    "clock": "0,001 S",
+    "ctx": "GEWITTER · DRAUSSEN",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Rund dreißigtausend Grad, für den Bruchteil einer Sekunde.",
+    "scene": "ocean:storm",
+    "clock": "0,001 S",
+    "big": {
+     "value": "30.000 °C",
+     "sub": "BLITZTEMPERATUR"
+    }
+   },
+   {
+    "text": "Die überraschende Nachricht: Rund neun von zehn Menschen überleben einen Blitzschlag.",
+    "scene": "ocean:storm",
+    "clock": "—",
+    "big": {
+     "value": "≈ 90 %",
+     "sub": "ÜBERLEBEN"
+    }
+   },
+   {
+    "text": "Viele haben danach Verbrennungen in Form von Farnmustern auf der Haut. Sie heißen Lichtenberg-Figuren.",
+    "scene": "dark",
+    "clock": "—",
+    "card": {
+     "kicker": "PHÄNOMEN",
+     "title": "LICHTENBERG-FIGUREN"
+    }
+   },
+   {
+    "text": "Regel Nummer eins: Kein Baum, kein offenes Feld. Am sichersten bist du im Auto oder im Haus.",
+    "scene": "room:storm",
+    "clock": "—",
+    "card": {
+     "kicker": "REGEL #1",
+     "title": "AUTO ODER HAUS"
+    },
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Wusstest du, dass man einen Blitz überleben kann?",
+    "scene": "ocean:storm",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WUSSTEST DU DAS?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 9,
+  "id": "extra09-blitzschlag",
+  "date": "2026-11-13",
+  "weekday": "Fr",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 9/30",
+  "next": "Was wäre, wenn du auf der Venus landest?",
+  "word_count": 73,
+  "badge": "EXTRA 9/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#blitz",
+   "#gewitter",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn er dich trifft? ⚡\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn du auf der Venus landest?\n\n#blitz #gewitter #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn dich ein Blitz trifft? #shorts",
+  "yt_description": "Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn er dich trifft? ⚡\n\n#blitz #gewitter #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "venus-landung",
+  "title": "Was wäre, wenn du auf der Venus landest?",
+  "accent": "#ff7b00",
+  "hud": {
+   "label": "AUF DER VENUS",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "465",
+   "bottom": "GRAD",
+   "tag": "VENUS",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "volcano:super"
+  },
+  "caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥",
+  "tags": [
+   "venus",
+   "weltall",
+   "planeten",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen.",
+    "scene": "volcano:super",
+    "clock": "00:00",
+    "ctx": "VENUS · OBERFLÄCHE",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen.",
+    "scene": "volcano:super",
+    "clock": "00:10",
+    "big": {
+     "value": "465 °C",
+     "sub": "OBERFLÄCHE"
+    }
+   },
+   {
+    "text": "Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer.",
+    "scene": "underwater:abyss",
+    "clock": "00:20",
+    "big": {
+     "value": "90×",
+     "sub": "LUFTDRUCK"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Und die Wolken bestehen aus Schwefelsäure.",
+    "scene": "earth:haze",
+    "clock": "00:30",
+    "card": {
+     "kicker": "WOLKEN",
+     "title": "SCHWEFELSÄURE"
+    }
+   },
+   {
+    "text": "Die sowjetische Sonde Venera dreizehn hielt 1982 nur gut zwei Stunden durch. Dann war sie zerstört.",
+    "scene": "space:sun,probe",
+    "clock": "02:07",
+    "big": {
+     "value": "127 MIN",
+     "sub": "VENERA 13"
+    }
+   },
+   {
+    "text": "Würdest du lieber zum Mars oder zur Venus fliegen?",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "MARS ODER VENUS?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 10,
+  "id": "extra10-venus-landung",
+  "date": "2026-11-14",
+  "weekday": "Sa",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 10/30",
+  "next": "Das Grab des Tutanchamun – Teil 1",
+  "word_count": 75,
+  "badge": "EXTRA 10/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#venus",
+   "#weltall",
+   "#planeten",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Das Grab des Tutanchamun – Teil 1\n\n#venus #weltall #planeten #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du auf der Venus landest? #shorts",
+  "yt_description": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥\n\n#venus #weltall #planeten #zeitzeuge #shorts"
+ },
+ {
+  "slug": "tutanchamun-teil-1",
+  "title": "Das Grab des Tutanchamun – Teil 1",
+  "accent": "#d4a017",
+  "hud": {
+   "label": "SUCHE SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "WUNDERBARE",
+   "bottom": "DINGE",
+   "tag": "TEIL 1",
+   "kicker": "DU ÖFFNEST DAS GRAB",
+   "scene": "mars:day"
+  },
+  "caption": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺",
+  "tags": [
+   "tutanchamun",
+   "ägypten",
+   "pharao",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet hat.",
+    "scene": "mars:day",
+    "clock": "NOV. 1922",
+    "ctx": "TAL DER KÖNIGE · ÄGYPTEN",
+    "you": true
+   },
+   {
+    "text": "Howard Carter sucht seit Jahren nach Tutanchamun. Das Geld seines Förderers ist fast aufgebraucht.",
+    "scene": "mars:day",
+    "clock": "1917–1922",
+    "card": {
+     "kicker": "LETZTE CHANCE",
+     "title": "DAS GELD GEHT AUS"
+    }
+   },
+   {
+    "text": "Am vierten November 1922 finden Arbeiter eine Stufe im Sand. Dann eine Treppe.",
+    "scene": "mars:day",
+    "clock": "04.11.1922",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Carter bohrt ein Loch in die versiegelte Tür und hält eine Kerze hinein.",
+    "scene": "room:candle",
+    "clock": "26.11.1922"
+   },
+   {
+    "text": "Jemand fragt: Können Sie etwas sehen? Carter antwortet:",
+    "scene": "room:candle",
+    "clock": "26.11.1922"
+   },
+   {
+    "text": "Ja, wunderbare Dinge. Was er dort findet und was danach passiert, siehst du in Teil zwei.",
+    "scene": "room:candle",
+    "clock": "26.11.1922",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 11,
+  "id": "extra11-tutanchamun-teil-1",
+  "date": "2026-11-15",
+  "weekday": "So",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 11/30",
+  "next": "Der Fluch des Pharao – Teil 2",
+  "word_count": 77,
+  "badge": "EXTRA 11/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#tutanchamun",
+   "#ägypten",
+   "#pharao",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Der Fluch des Pharao – Teil 2\n\n#tutanchamun #ägypten #pharao #zeitzeuge #geschichte",
+  "yt_title": "Das Grab des Tutanchamun – Teil 1 #shorts",
+  "yt_description": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺\n\n#tutanchamun #ägypten #pharao #zeitzeuge #shorts"
+ },
+ {
+  "slug": "tutanchamun-teil-2",
+  "title": "Der Fluch des Pharao – Teil 2",
+  "accent": "#d4a017",
+  "hud": {
+   "label": "NACH DER ÖFFNUNG",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DER FLUCH",
+   "bottom": "DES PHARAO",
+   "tag": "TEIL 2",
+   "kicker": "TUTANCHAMUN",
+   "scene": "room:candle"
+  },
+  "caption": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺",
+  "tags": [
+   "tutanchamun",
+   "ägypten",
+   "fluchdespharao",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot. Der Fluch des Pharao beginnt.",
+    "scene": "room:candle",
+    "clock": "APRIL 1923",
+    "ctx": "TEIL 2 · TUTANCHAMUN",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Im Grab liegen über fünftausend Gegenstände. Und die berühmte goldene Totenmaske.",
+    "scene": "room:candle",
+    "clock": "1922–1932",
+    "big": {
+     "value": "5.000+",
+     "sub": "GEGENSTÄNDE"
+    }
+   },
+   {
+    "text": "Lord Carnarvon stirbt 1923 an einer Blutvergiftung nach einem infizierten Insektenstich. Die Zeitungen schreiben: der Fluch.",
+    "scene": "dark",
+    "clock": "APRIL 1923",
+    "card": {
+     "kicker": "SCHLAGZEILE",
+     "title": "DER FLUCH DES PHARAO"
+    }
+   },
+   {
+    "text": "Doch Howard Carter, der das Grab als Erster betrat, lebte noch sechzehn Jahre.",
+    "scene": "mars:day",
+    "clock": "1939",
+    "big": {
+     "value": "16",
+     "sub": "JAHRE DANACH"
+    }
+   },
+   {
+    "text": "Historiker sind sich einig: Den Fluch haben Journalisten erfunden, um Zeitungen zu verkaufen.",
+    "scene": "dark",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "AUFGEKLÄRT",
+     "title": "EINE ZEITUNGSERFINDUNG"
+    }
+   },
+   {
+    "text": "Hättest du das Grab trotzdem betreten?",
+    "scene": "room:candle",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ES BETRETEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 12,
+  "id": "extra12-tutanchamun-teil-2",
+  "date": "2026-11-16",
+  "weekday": "Mo",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 12/30",
+  "next": "Was wäre, wenn in der Eifel ein Vulkan ausbricht?",
+  "word_count": 77,
+  "badge": "EXTRA 12/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#tutanchamun",
+   "#ägypten",
+   "#fluchdespharao",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn in der Eifel ein Vulkan ausbricht?\n\n#tutanchamun #ägypten #fluchdespharao #zeitzeuge #geschichte",
+  "yt_title": "Der Fluch des Pharao – Teil 2 #shorts",
+  "yt_description": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺\n\n#tutanchamun #ägypten #fluchdespharao #zeitzeuge #shorts"
+ },
+ {
+  "slug": "eifel-vulkan",
+  "title": "Was wäre, wenn in der Eifel ein Vulkan ausbricht?",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "NACH DEM AUSBRUCH",
+   "tick": null
+  },
+  "thumb": {
+   "top": "VULKAN IN",
+   "bottom": "DEUTSCHLAND",
+   "tag": "EIFEL",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "volcano:plume"
+  },
+  "caption": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋",
+  "tags": [
+   "eifel",
+   "vulkan",
+   "deutschland",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland.",
+    "scene": "volcano:plume",
+    "clock": "TAG 0",
+    "ctx": "EIFEL · RHEINLAND-PFALZ",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See.",
+    "scene": "map",
+    "clock": "VOR 13.000 J.",
+    "map": {
+     "label": "LAACHER SEE",
+     "sub": "EIN ALTER VULKANKRATER"
+    }
+   },
+   {
+    "text": "Seine Asche fand man bis nach Schweden und Italien.",
+    "scene": "map",
+    "clock": "VOR 13.000 J.",
+    "map": {
+     "label": "ASCHE",
+     "sub": "BIS SCHWEDEN & ITALIEN"
+    }
+   },
+   {
+    "text": "Passiert so etwas heute, würde Asche auf Köln, Koblenz und Bonn regnen. Flughäfen müssten schließen.",
+    "scene": "city:dusk,ash",
+    "clock": "TAG 1",
+    "fx": [
+     "ash"
+    ],
+    "you": true
+   },
+   {
+    "text": "Forscher beobachten die Eifel genau. Ein Ausbruch in naher Zukunft gilt aber als unwahrscheinlich.",
+    "scene": "volcano:calm",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "ENTWARNUNG",
+     "title": "UNWAHRSCHEINLICH"
+    }
+   },
+   {
+    "text": "Wusstest du, dass Deutschland Vulkane hat?",
+    "scene": "volcano:calm",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WUSSTEST DU DAS?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 13,
+  "id": "extra13-eifel-vulkan",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 13/30",
+  "next": "33 Bergleute unter Tage – Teil 1",
+  "word_count": 69,
+  "badge": "EXTRA 13/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#eifel",
+   "#vulkan",
+   "#deutschland",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: 33 Bergleute unter Tage – Teil 1\n\n#eifel #vulkan #deutschland #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn in der Eifel ein Vulkan ausbricht? #shorts",
+  "yt_description": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋\n\n#eifel #vulkan #deutschland #zeitzeuge #shorts"
+ },
+ {
+  "slug": "chile-bergleute-teil-1",
+  "title": "33 Bergleute unter Tage – Teil 1",
+  "accent": "#f77f00",
+  "hud": {
+   "label": "VERSCHÜTTET SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "700 METER",
+   "bottom": "UNTER TAGE",
+   "tag": "TEIL 1",
+   "kicker": "DU BIST VERSCHÜTTET",
+   "scene": "dark"
+  },
+  "caption": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️",
+  "tags": [
+   "chile",
+   "bergleute",
+   "rettung",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist siebenhundert Meter unter der Erde eingeschlossen. Und oben glaubt fast niemand, dass du noch lebst.",
+    "scene": "dark",
+    "clock": "TAG 1",
+    "ctx": "SAN-JOSÉ-MINE · CHILE · 5. AUGUST 2010",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Ein Einsturz schließt dreiunddreißig Bergleute in einem Schutzraum ein.",
+    "scene": "dark",
+    "clock": "TAG 1",
+    "big": {
+     "value": "33",
+     "sub": "BERGLEUTE"
+    }
+   },
+   {
+    "text": "Die Vorräte reichen eigentlich nur für wenige Tage. Sie teilen alles streng auf.",
+    "scene": "room:candle",
+    "clock": "TAG 5",
+    "card": {
+     "kicker": "RATIONEN",
+     "title": "WINZIGE PORTIONEN"
+    }
+   },
+   {
+    "text": "Oben bohren Retter Suchlöcher in die Tiefe. Tag für Tag. Ohne Lebenszeichen.",
+    "scene": "mountains:day",
+    "clock": "TAG 10"
+   },
+   {
+    "text": "Nach siebzehn Tagen kommt ein Bohrer wieder hoch. Daran hängt ein Zettel.",
+    "scene": "mountains:day",
+    "clock": "TAG 17",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Was auf dem Zettel steht, siehst du in Teil zwei.",
+    "scene": "mountains:day",
+    "clock": "TAG 17",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 14,
+  "id": "extra14-chile-bergleute-teil-1",
+  "date": "2026-11-18",
+  "weekday": "Mi",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 14/30",
+  "next": "33 Bergleute unter Tage – Teil 2",
+  "word_count": 73,
+  "badge": "EXTRA 14/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#chile",
+   "#bergleute",
+   "#rettung",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: 33 Bergleute unter Tage – Teil 2\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
+  "yt_title": "33 Bergleute unter Tage – Teil 1 #shorts",
+  "yt_description": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️\n\n#chile #bergleute #rettung #zeitzeuge #shorts"
+ },
+ {
+  "slug": "chile-bergleute-teil-2",
+  "title": "33 Bergleute unter Tage – Teil 2",
+  "accent": "#f77f00",
+  "hud": {
+   "label": "VERSCHÜTTET SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "WIR 33",
+   "bottom": "LEBEN",
+   "tag": "TEIL 2",
+   "kicker": "DIE RETTUNG",
+   "scene": "mountains:day"
+  },
+  "caption": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️",
+  "tags": [
+   "chile",
+   "bergleute",
+   "rettung",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig.",
+    "scene": "mountains:day",
+    "clock": "TAG 17",
+    "ctx": "TEIL 2 · AUGUST 2010",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen.",
+    "scene": "mountains:day",
+    "clock": "TAG 17",
+    "card": {
+     "kicker": "ALLE LEBEN",
+     "title": "DIE RETTUNG BEGINNT"
+    }
+   },
+   {
+    "text": "Durch ein schmales Loch bekommen sie Essen, Wasser und Briefe von ihren Familien.",
+    "scene": "dark",
+    "clock": "TAG 30"
+   },
+   {
+    "text": "Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben.",
+    "scene": "mountains:night",
+    "clock": "TAG 69",
+    "big": {
+     "value": "69",
+     "sub": "TAGE UNTER TAGE"
+    }
+   },
+   {
+    "text": "Über eine Milliarde Menschen sehen live zu, wie alle dreiunddreißig gerettet werden.",
+    "scene": "mountains:night",
+    "clock": "13.10.2010",
+    "card": {
+     "kicker": "LIVE",
+     "title": "DIE WELT SCHAUT ZU"
+    }
+   },
+   {
+    "text": "Hättest du neunundsechzig Tage unter der Erde durchgehalten?",
+    "scene": "dark",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU DURCHGEHALTEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 15,
+  "id": "extra15-chile-bergleute-teil-2",
+  "date": "2026-11-19",
+  "weekday": "Do",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 15/30",
+  "next": "Was wäre, wenn alle Bienen verschwinden?",
+  "word_count": 73,
+  "badge": "EXTRA 15/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#chile",
+   "#bergleute",
+   "#rettung",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn alle Bienen verschwinden?\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
+  "yt_title": "33 Bergleute unter Tage – Teil 2 #shorts",
+  "yt_description": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️\n\n#chile #bergleute #rettung #zeitzeuge #shorts"
+ },
+ {
+  "slug": "keine-bienen",
+  "title": "Was wäre, wenn alle Bienen verschwinden?",
+  "accent": "#ffb703",
+  "hud": {
+   "label": "OHNE BIENEN SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ALLE",
+   "bottom": "BIENEN WEG",
+   "tag": "WAS WÄRE WENN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:day"
+  },
+  "caption": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest du am meisten vermissen?",
+  "tags": [
+   "bienen",
+   "natur",
+   "umwelt",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller.",
+    "scene": "mountains:day",
+    "clock": "TAG 0",
+    "ctx": "WELTWEIT",
+    "you": true
+   },
+   {
+    "text": "Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen.",
+    "scene": "mountains:day",
+    "clock": "TAG 1",
+    "big": {
+     "value": "≈ 75 %",
+     "sub": "DER NUTZPFLANZEN"
+    }
+   },
+   {
+    "text": "Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer.",
+    "scene": "city:day",
+    "clock": "JAHR 1",
+    "stat": {
+     "title": "WIRD KNAPP",
+     "rows": [
+      [
+       "ÄPFEL",
+       "↓"
+      ],
+      [
+       "MANDELN",
+       "↓↓"
+      ],
+      [
+       "KAFFEE",
+       "↓"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Reis, Weizen und Mais würden bleiben. Sie werden vom Wind bestäubt.",
+    "scene": "mountains:day",
+    "clock": "JAHR 1",
+    "card": {
+     "kicker": "BLEIBT",
+     "title": "GETREIDE"
+    }
+   },
+   {
+    "text": "In Teilen Chinas bestäuben Menschen Obstbäume schon heute von Hand. Mit Pinseln.",
+    "scene": "mountains:day",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "SCHON HEUTE",
+     "title": "BESTÄUBUNG PER HAND"
+    }
+   },
+   {
+    "text": "Was würdest du am meisten vermissen?",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS WÜRDEST DU VERMISSEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 16,
+  "id": "extra16-keine-bienen",
+  "date": "2026-11-20",
+  "weekday": "Fr",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 16/30",
+  "next": "Du bist bei der Erstbesteigung des Everest",
+  "word_count": 67,
+  "badge": "EXTRA 16/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#bienen",
+   "#natur",
+   "#umwelt",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest du am meisten vermissen?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist bei der Erstbesteigung des Everest\n\n#bienen #natur #umwelt #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn alle Bienen verschwinden? #shorts",
+  "yt_description": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest du am meisten vermissen?\n\n#bienen #natur #umwelt #zeitzeuge #shorts"
+ },
+ {
+  "slug": "everest-1953",
+  "title": "Du bist bei der Erstbesteigung des Everest",
+  "accent": "#caf0f8",
+  "hud": {
+   "label": "HÖHE",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ALS ERSTE",
+   "bottom": "GANZ OBEN",
+   "tag": "1953",
+   "kicker": "DU BIST DABEI",
+   "scene": "mountains:summit,flag"
+  },
+  "caption": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten Punkt der Erde. 🏔️",
+  "tags": [
+   "everest",
+   "berge",
+   "hillary",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Noch nie hat ein Mensch hier oben gestanden. Und du bist gleich als Erster da.",
+    "scene": "mountains:summit",
+    "clock": "8.800 M",
+    "ctx": "MOUNT EVEREST · 29. MAI 1953",
+    "fx": [
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Edmund Hillary aus Neuseeland und der Sherpa Tenzing Norgay kämpfen sich die letzten Meter hoch.",
+    "scene": "mountains:summit",
+    "clock": "8.820 M",
+    "card": {
+     "kicker": "DAS TEAM",
+     "title": "HILLARY & TENZING"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Kurz vor dem Gipfel versperrt eine steile Felsstufe den Weg. Hillary klettert durch einen schmalen Riss.",
+    "scene": "mountains:summit",
+    "clock": "8.790 M",
+    "fx": [
+     "snow",
+     "shake"
+    ]
+   },
+   {
+    "text": "11:30 Uhr. Sie stehen auf dem höchsten Punkt der Erde.",
+    "scene": "mountains:summit,flag",
+    "clock": "8.849 M",
+    "big": {
+     "value": "11:30",
+     "sub": "GIPFEL!"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Sie bleiben nur etwa fünfzehn Minuten. Der Sauerstoff reicht nicht für mehr.",
+    "scene": "mountains:summit,flag",
+    "clock": "8.849 M",
+    "big": {
+     "value": "15 MIN",
+     "sub": "AUF DEM GIPFEL"
+    }
+   },
+   {
+    "text": "Wer war deiner Meinung nach wirklich zuerst oben? Hillary oder Tenzing?",
+    "scene": "mountains:summit,flag",
+    "clock": "8.849 M",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WER WAR ZUERST OBEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 17,
+  "id": "extra17-everest-1953",
+  "date": "2026-11-21",
+  "weekday": "Sa",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 17/30",
+  "next": "Shackleton im Eis – Teil 1",
+  "word_count": 79,
+  "badge": "EXTRA 17/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#everest",
+   "#berge",
+   "#hillary",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten Punkt der Erde. 🏔️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Shackleton im Eis – Teil 1\n\n#everest #berge #hillary #zeitzeuge #geschichte",
+  "yt_title": "Du bist bei der Erstbesteigung des Everest #shorts",
+  "yt_description": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten Punkt der Erde. 🏔️\n\n#everest #berge #hillary #zeitzeuge #shorts"
+ },
+ {
+  "slug": "shackleton-teil-1",
+  "title": "Shackleton im Eis – Teil 1",
+  "accent": "#48cae4",
+  "hud": {
+   "label": "IM EIS SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SCHIFF IM",
+   "bottom": "EIS ZERDRÜCKT",
+   "tag": "TEIL 1",
+   "kicker": "DU BIST AUF DER ENDURANCE",
+   "scene": "ocean:night,ice"
+  },
+  "caption": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊",
+  "tags": [
+   "shackleton",
+   "antarktis",
+   "endurance",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner weiß, wo du bist.",
+    "scene": "ocean:night,ice",
+    "clock": "1915",
+    "ctx": "WEDDELLMEER · ANTARKTIS",
+    "fx": [
+     "shake",
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Ernest Shackleton will die Antarktis zu Fuß durchqueren. Mit achtundzwanzig Männern auf der Endurance.",
+    "scene": "ocean:night,ice",
+    "clock": "1914",
+    "big": {
+     "value": "28",
+     "sub": "MÄNNER AN BORD"
+    }
+   },
+   {
+    "text": "Doch das Packeis schließt das Schiff ein. Monatelang treibt es fest im Eis.",
+    "scene": "mountains:ice",
+    "clock": "1915",
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Dann bricht das Eis die Endurance auseinander. Sie sinkt.",
+    "scene": "ocean:night,ice",
+    "clock": "NOV. 1915",
+    "fx": [
+     "shake",
+     "dark"
+    ]
+   },
+   {
+    "text": "Achtundzwanzig Männer, drei Rettungsboote und keine Funkverbindung zur Welt.",
+    "scene": "mountains:ice",
+    "clock": "1915",
+    "stat": {
+     "title": "LAGE",
+     "rows": [
+      [
+       "MÄNNER",
+       "28"
+      ],
+      [
+       "BOOTE",
+       "3"
+      ],
+      [
+       "FUNK",
+       "KEINER"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Wie sie überleben, ist eine der unglaublichsten Rettungen der Geschichte. Teil zwei kommt morgen.",
+    "scene": "mountains:ice",
+    "clock": "1916",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 18,
+  "id": "extra18-shackleton-teil-1",
+  "date": "2026-11-22",
+  "weekday": "So",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 18/30",
+  "next": "Shackleton im Eis – Teil 2",
+  "word_count": 76,
+  "badge": "EXTRA 18/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#shackleton",
+   "#antarktis",
+   "#endurance",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Shackleton im Eis – Teil 2\n\n#shackleton #antarktis #endurance #zeitzeuge #geschichte",
+  "yt_title": "Shackleton im Eis – Teil 1 #shorts",
+  "yt_description": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊\n\n#shackleton #antarktis #endurance #zeitzeuge #shorts"
+ },
+ {
+  "slug": "shackleton-teil-2",
+  "title": "Shackleton im Eis – Teil 2",
+  "accent": "#48cae4",
+  "hud": {
+   "label": "AUF DEM MEER",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ALLE 28",
+   "bottom": "ÜBERLEBEN",
+   "tag": "TEIL 2",
+   "kicker": "DIE RETTUNG",
+   "scene": "ocean:storm"
+  },
+  "caption": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊",
+  "tags": [
+   "shackleton",
+   "antarktis",
+   "endurance",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Ein kleines Rettungsboot, sechs Männer und das wildeste Meer der Welt. Das ist ihre einzige Chance.",
+    "scene": "ocean:storm",
+    "clock": "APRIL 1916",
+    "ctx": "TEIL 2 · SÜDPOLARMEER",
+    "fx": [
+     "shake",
+     "rain"
+    ]
+   },
+   {
+    "text": "Shackleton segelt rund 1300 Kilometer nach Südgeorgien, um Hilfe zu holen.",
+    "scene": "map",
+    "clock": "16 TAGE",
+    "map": {
+     "label": "SÜDGEORGIEN",
+     "sub": "≈ 1.300 KM"
+    }
+   },
+   {
+    "text": "Dann müssen sie noch zu Fuß über die Berge der Insel bis zu einer Walfangstation.",
+    "scene": "mountains:night",
+    "clock": "MAI 1916",
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Erst Monate später holt er die restlichen Männer von der Eisinsel. Und alle leben.",
+    "scene": "mountains:ice",
+    "clock": "AUG. 1916",
+    "big": {
+     "value": "28 / 28",
+     "sub": "ÜBERLEBT"
+    }
+   },
+   {
+    "text": "2022 finden Forscher die Endurance. In dreitausend Metern Tiefe, fast perfekt erhalten.",
+    "scene": "underwater:dark,wreck",
+    "clock": "2022",
+    "big": {
+     "value": "3.000 M",
+     "sub": "TIEFE"
+    }
+   },
+   {
+    "text": "Hättest du so eine Reise überlebt?",
+    "scene": "ocean:storm",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 19,
+  "id": "extra19-shackleton-teil-2",
+  "date": "2026-11-23",
+  "weekday": "Mo",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 19/30",
+  "next": "Was wäre, wenn du auf dem Jupiter landen willst?",
+  "word_count": 74,
+  "badge": "EXTRA 19/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#shackleton",
+   "#antarktis",
+   "#endurance",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn du auf dem Jupiter landen willst?\n\n#shackleton #antarktis #endurance #zeitzeuge #geschichte",
+  "yt_title": "Shackleton im Eis – Teil 2 #shorts",
+  "yt_description": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊\n\n#shackleton #antarktis #endurance #zeitzeuge #shorts"
+ },
+ {
+  "slug": "jupiter-landung",
+  "title": "Was wäre, wenn du auf dem Jupiter landen willst?",
+  "accent": "#c77dff",
+  "hud": {
+   "label": "SINKFLUG SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "KEIN",
+   "bottom": "BODEN",
+   "tag": "JUPITER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:stars"
+  },
+  "caption": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem. 🪐",
+  "tags": [
+   "jupiter",
+   "weltall",
+   "planeten",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden.",
+    "scene": "space:stars",
+    "clock": "00:00",
+    "ctx": "JUPITER · OBERE ATMOSPHÄRE",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken.",
+    "scene": "earth:haze",
+    "clock": "00:30",
+    "card": {
+     "kicker": "GASRIESE",
+     "title": "KEIN FESTER BODEN"
+    }
+   },
+   {
+    "text": "Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde.",
+    "scene": "ocean:storm",
+    "clock": "01:00",
+    "big": {
+     "value": "600+",
+     "sub": "KM/H WIND"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Je tiefer du sinkst, desto heißer und dichter wird es. Irgendwann zerquetscht dich der Druck.",
+    "scene": "underwater:abyss",
+    "clock": "10:00",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Und in Jupiters Großem Roten Fleck tobt ein Sturm, größer als die ganze Erde. Seit Jahrhunderten.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "GROSSER ROTER FLECK",
+     "title": "STURM > ERDE"
+    }
+   },
+   {
+    "text": "Welchen Planeten soll ich als Nächstes besuchen?",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WELCHER PLANET NOCH?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 20,
+  "id": "extra20-jupiter-landung",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 20/30",
+  "next": "Du bist auf der Vasa – 1628",
+  "word_count": 78,
+  "badge": "EXTRA 20/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#jupiter",
+   "#weltall",
+   "#planeten",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem. 🪐\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du bist auf der Vasa – 1628\n\n#jupiter #weltall #planeten #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du auf dem Jupiter landen willst? #shorts",
+  "yt_description": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem. 🪐\n\n#jupiter #weltall #planeten #zeitzeuge #shorts"
+ },
+ {
+  "slug": "vasa",
+  "title": "Du bist auf der Vasa – 1628",
+  "accent": "#3a86ff",
+  "hud": {
+   "label": "FAHRTZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "NACH 1.300 M",
+   "bottom": "GESUNKEN",
+   "tag": "1628",
+   "kicker": "DU BIST AUF DER VASA",
+   "scene": "ocean:day,harbor"
+  },
+  "caption": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓",
+  "tags": [
+   "vasa",
+   "schweden",
+   "schiff",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Das prächtigste Kriegsschiff Schwedens legt gerade ab. In wenigen Minuten wird es sinken.",
+    "scene": "ocean:day,harbor",
+    "clock": "00:00",
+    "ctx": "STOCKHOLM · 10. AUGUST 1628",
+    "you": true
+   },
+   {
+    "text": "Die Vasa ist riesig, mit vierundsechzig Kanonen und Hunderten Holzfiguren.",
+    "scene": "ocean:day,harbor",
+    "clock": "00:05",
+    "big": {
+     "value": "64",
+     "sub": "KANONEN"
+    }
+   },
+   {
+    "text": "Doch sie ist zu hoch und zu schwer gebaut. Eine Windböe bringt sie in Schieflage.",
+    "scene": "ocean:day",
+    "clock": "00:15",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Wasser strömt durch die offenen Kanonenluken. Nach rund 1300 Metern sinkt sie im Hafen.",
+    "scene": "underwater:shallow",
+    "clock": "00:20",
+    "big": {
+     "value": "1.300 M",
+     "sub": "WEIT GEKOMMEN"
+    }
+   },
+   {
+    "text": "1961 wird das Wrack gehoben, zu großen Teilen original erhalten. Heute steht es in einem Museum.",
+    "scene": "underwater:dark,wreck",
+    "clock": "1961",
+    "card": {
+     "kicker": "1961",
+     "title": "DAS WRACK WIRD GEHOBEN"
+    }
+   },
+   {
+    "text": "Was ist der peinlichste Fehlstart, den du kennst?",
+    "scene": "ocean:day,harbor",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "DEIN PEINLICHSTER FEHLSTART?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 21,
+  "id": "extra21-vasa",
+  "date": "2026-11-25",
+  "weekday": "Mi",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 21/30",
+  "next": "Das U-Boot B-59 – Teil 1",
+  "word_count": 76,
+  "badge": "EXTRA 21/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#vasa",
+   "#schweden",
+   "#schiff",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Das U-Boot B-59 – Teil 1\n\n#vasa #schweden #schiff #zeitzeuge #geschichte",
+  "yt_title": "Du bist auf der Vasa – 1628 #shorts",
+  "yt_description": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓\n\n#vasa #schweden #schiff #zeitzeuge #shorts"
+ },
+ {
+  "slug": "archipow-teil-1",
+  "title": "Das U-Boot B-59 – Teil 1",
+  "accent": "#ff006e",
+  "hud": {
+   "label": "TAUCHZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "ATOM-",
+   "bottom": "TORPEDO",
+   "tag": "TEIL 1",
+   "kicker": "KUBA-KRISE 1962",
+   "scene": "underwater:dark,glow"
+  },
+  "caption": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1",
+  "tags": [
+   "kubakrise",
+   "kalterkrieg",
+   "uboot",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeuern.",
+    "scene": "underwater:dark,glow",
+    "clock": "OKT. 1962",
+    "ctx": "KUBA-KRISE · ATLANTIK",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Oktober 1962. Die Welt steht kurz vor einem Atomkrieg. Die USA blockieren Kuba.",
+    "scene": "map",
+    "clock": "OKT. 1962",
+    "map": {
+     "label": "KUBA",
+     "sub": "SEEBLOCKADE"
+    }
+   },
+   {
+    "text": "Das sowjetische U-Boot B-59 hat seit Tagen keinen Funkkontakt nach Moskau.",
+    "scene": "control:dim",
+    "clock": "TAG 4",
+    "card": {
+     "kicker": "LAGE",
+     "title": "KEIN FUNKKONTAKT"
+    }
+   },
+   {
+    "text": "Amerikanische Schiffe werfen Übungs-Wasserbomben, um es zum Auftauchen zu zwingen. Drinnen ist es fast fünfzig Grad heiß.",
+    "scene": "control:alarm",
+    "clock": "27.10.1962",
+    "fx": [
+     "shake",
+     "red"
+    ]
+   },
+   {
+    "text": "Der Kapitän glaubt, der Krieg hat begonnen. Für den Abschuss braucht er die Zustimmung von drei Offizieren.",
+    "scene": "control:alarm",
+    "clock": "27.10.1962",
+    "stat": {
+     "title": "ABSCHUSS",
+     "rows": [
+      [
+       "NÖTIG",
+       "3 × JA"
+      ],
+      [
+       "KAPITÄN",
+       "JA"
+      ],
+      [
+       "POLITOFFIZIER",
+       "JA"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Alles hängt jetzt am dritten Mann. Was er sagt, siehst du in Teil zwei.",
+    "scene": "control:alarm",
+    "clock": "27.10.1962",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 22,
+  "id": "extra22-archipow-teil-1",
+  "date": "2026-11-26",
+  "weekday": "Do",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 22/30",
+  "next": "Der Mann, der Nein sagte – Teil 2",
+  "word_count": 86,
+  "badge": "EXTRA 22/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#kubakrise",
+   "#kalterkrieg",
+   "#uboot",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Der Mann, der Nein sagte – Teil 2\n\n#kubakrise #kalterkrieg #uboot #zeitzeuge #geschichte",
+  "yt_title": "Das U-Boot B-59 – Teil 1 #shorts",
+  "yt_description": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1\n\n#kubakrise #kalterkrieg #uboot #zeitzeuge #shorts"
+ },
+ {
+  "slug": "archipow-teil-2",
+  "title": "Der Mann, der Nein sagte – Teil 2",
+  "accent": "#ff006e",
+  "hud": {
+   "label": "TAUCHZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "ER SAGTE",
+   "bottom": "NEIN",
+   "tag": "TEIL 2",
+   "kicker": "WASSILI ARCHIPOW",
+   "scene": "control:dim"
+  },
+  "caption": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?",
+  "tags": [
+   "archipow",
+   "kubakrise",
+   "kalterkrieg",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Ein einziges Nein von diesem Mann hat vielleicht die Welt gerettet.",
+    "scene": "control:dim",
+    "clock": "27.10.1962",
+    "ctx": "TEIL 2 · U-BOOT B-59",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Der dritte Offizier heißt Wassili Archipow. Er weigert sich, dem Abschuss zuzustimmen.",
+    "scene": "control:dim",
+    "clock": "27.10.1962",
+    "card": {
+     "kicker": "SEINE ANTWORT",
+     "title": "NEIN"
+    }
+   },
+   {
+    "text": "Er überzeugt den Kapitän, aufzutauchen und auf Befehle aus Moskau zu warten.",
+    "scene": "ocean:night",
+    "clock": "27.10.1962"
+   },
+   {
+    "text": "Einen Tag später endet die Kuba-Krise. Der Atomkrieg bleibt aus.",
+    "scene": "city:dawn,flood",
+    "clock": "28.10.1962",
+    "card": {
+     "kicker": "28.10.1962",
+     "title": "DIE KRISE ENDET"
+    }
+   },
+   {
+    "text": "Erst Jahrzehnte später wird bekannt, wie knapp es war. Viele kennen seinen Namen bis heute nicht.",
+    "scene": "dark",
+    "clock": "2002",
+    "big": {
+     "value": "1",
+     "sub": "MANN · 1 NEIN"
+    }
+   },
+   {
+    "text": "Hättest du in diesem Moment Nein gesagt?",
+    "scene": "control:dim",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU NEIN GESAGT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 23,
+  "id": "extra23-archipow-teil-2",
+  "date": "2026-11-27",
+  "weekday": "Fr",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 23/30",
+  "next": "Was wäre, wenn eine Ameise so groß wäre wie du?",
+  "word_count": 68,
+  "badge": "EXTRA 23/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#archipow",
+   "#kubakrise",
+   "#kalterkrieg",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn eine Ameise so groß wäre wie du?\n\n#archipow #kubakrise #kalterkrieg #zeitzeuge #geschichte",
+  "yt_title": "Der Mann, der Nein sagte – Teil 2 #shorts",
+  "yt_description": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?\n\n#archipow #kubakrise #kalterkrieg #zeitzeuge #shorts"
+ },
+ {
+  "slug": "riesenameise",
+  "title": "Was wäre, wenn eine Ameise so groß wäre wie du?",
+  "accent": "#80ed99",
+  "hud": {
+   "label": "NACH DEM WACHSTUM",
+   "tick": null
+  },
+  "thumb": {
+   "top": "AMEISE IN",
+   "bottom": "MENSCHENGRÖSSE",
+   "tag": "WAS WÄRE WENN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜",
+  "tags": [
+   "ameise",
+   "physik",
+   "natur",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben.",
+    "scene": "city:day",
+    "clock": "00:00",
+    "ctx": "WAS WÄRE WENN · PHYSIK",
+    "you": true
+   },
+   {
+    "text": "Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen.",
+    "scene": "mountains:day",
+    "clock": "—",
+    "big": {
+     "value": "× 10–50",
+     "sub": "IHR GEWICHT"
+    }
+   },
+   {
+    "text": "Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer.",
+    "scene": "city:day",
+    "clock": "00:01",
+    "big": {
+     "value": "8 MIO.×",
+     "sub": "SCHWERER"
+    }
+   },
+   {
+    "text": "Ihre Beine wären viel zu dünn. Ihr Panzer würde unter dem eigenen Gewicht brechen.",
+    "scene": "city:day",
+    "clock": "00:10",
+    "card": {
+     "kicker": "PROBLEM #1",
+     "title": "BEINE BRECHEN"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Und sie würde ersticken. Ameisen atmen durch winzige Röhrchen, die für so einen Körper nicht reichen.",
+    "scene": "city:day",
+    "clock": "00:30",
+    "card": {
+     "kicker": "PROBLEM #2",
+     "title": "SIE ERSTICKT"
+    }
+   },
+   {
+    "text": "Welches Tier wäre in Menschengröße am gruseligsten?",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WELCHES TIER?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 24,
+  "id": "extra24-riesenameise",
+  "date": "2026-11-28",
+  "weekday": "Sa",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 24/30",
+  "next": "Du baust die Pyramiden",
+  "word_count": 74,
+  "badge": "EXTRA 24/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#ameise",
+   "#physik",
+   "#natur",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Du baust die Pyramiden\n\n#ameise #physik #natur #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn eine Ameise so groß wäre wie du? #shorts",
+  "yt_description": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜\n\n#ameise #physik #natur #zeitzeuge #shorts"
+ },
+ {
+  "slug": "pyramiden-bau",
+  "title": "Du baust die Pyramiden",
+  "accent": "#e9c46a",
+  "hud": {
+   "label": "BAUZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "2,3 MIO.",
+   "bottom": "STEINE",
+   "tag": "2560 V. CHR.",
+   "kicker": "DU BAUST MIT",
+   "scene": "mars:day"
+  },
+  "caption": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️",
+  "tags": [
+   "pyramiden",
+   "ägypten",
+   "cheops",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave.",
+    "scene": "mars:day",
+    "clock": "JAHR 1",
+    "ctx": "GIZEH · ÄGYPTEN · UM 2560 V. CHR.",
+    "you": true
+   },
+   {
+    "text": "Archäologen haben die Dörfer der Arbeiter gefunden. Sie bekamen Essen, Bier und medizinische Versorgung.",
+    "scene": "mars:day",
+    "clock": "JAHR 5",
+    "card": {
+     "kicker": "MYTHOS",
+     "title": "KEINE SKLAVEN"
+    }
+   },
+   {
+    "text": "Die Cheops-Pyramide besteht aus rund 2,3 Millionen Steinblöcken.",
+    "scene": "mars:day",
+    "clock": "JAHR 10",
+    "big": {
+     "value": "2,3 MIO.",
+     "sub": "STEINBLÖCKE"
+    }
+   },
+   {
+    "text": "Der Bau dauert etwa zwanzig Jahre. Das wären rechnerisch mehrere Blöcke pro Stunde, Tag und Nacht.",
+    "scene": "mars:dusk",
+    "clock": "JAHR 20",
+    "big": {
+     "value": "≈ 20",
+     "sub": "JAHRE BAUZEIT"
+    }
+   },
+   {
+    "text": "Fast viertausend Jahre lang war sie das höchste Bauwerk der Welt.",
+    "scene": "mars:day",
+    "clock": "BIS 1311",
+    "card": {
+     "kicker": "REKORD",
+     "title": "≈ 3.800 JAHRE HÖCHSTES BAUWERK"
+    }
+   },
+   {
+    "text": "Hättest du mitgebaut?",
+    "scene": "mars:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU MITGEBAUT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 25,
+  "id": "extra25-pyramiden-bau",
+  "date": "2026-11-29",
+  "weekday": "So",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE · EXTRA 25/30",
+  "next": "Gefangen in der Höhle – Teil 1",
+  "word_count": 66,
+  "badge": "EXTRA 25/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#pyramiden",
+   "#ägypten",
+   "#cheops",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Gefangen in der Höhle – Teil 1\n\n#pyramiden #ägypten #cheops #zeitzeuge #geschichte",
+  "yt_title": "Du baust die Pyramiden #shorts",
+  "yt_description": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️\n\n#pyramiden #ägypten #cheops #zeitzeuge #shorts"
+ },
+ {
+  "slug": "thai-hoehle-teil-1",
+  "title": "Gefangen in der Höhle – Teil 1",
+  "accent": "#00b4d8",
+  "hud": {
+   "label": "IN DER HÖHLE SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "12 JUNGS",
+   "bottom": "IN DER HÖHLE",
+   "tag": "TEIL 1",
+   "kicker": "THAILAND 2018",
+   "scene": "underwater:dark"
+  },
+  "caption": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️",
+  "tags": [
+   "thailand",
+   "höhlenrettung",
+   "rettung",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein Licht wird schwächer.",
+    "scene": "dark",
+    "clock": "TAG 1",
+    "ctx": "THAM-LUANG-HÖHLE · THAILAND · 23. JUNI 2018",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Zwölf Jungs aus einem Fußballteam und ihr Trainer gehen nach dem Training in die Höhle.",
+    "scene": "dark",
+    "clock": "TAG 1",
+    "big": {
+     "value": "12 + 1",
+     "sub": "EINGESCHLOSSEN"
+    }
+   },
+   {
+    "text": "Monsunregen flutet die Gänge. Der Rückweg ist abgeschnitten.",
+    "scene": "underwater:dark",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "PROBLEM",
+     "title": "GEFLUTETE GÄNGE"
+    },
+    "fx": [
+     "rain"
+    ]
+   },
+   {
+    "text": "Sie ziehen sich auf einen Felsen zurück, kilometerweit im Berg. Ohne Essen.",
+    "scene": "room:candle",
+    "clock": "TAG 5"
+   },
+   {
+    "text": "Nach neun Tagen tauchen zwei britische Höhlentaucher auf. Mit einer Taschenlampe.",
+    "scene": "underwater:dark,glow",
+    "clock": "TAG 10",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Gefunden, aber noch lange nicht gerettet. Wie man sie herausholt, siehst du in Teil zwei.",
+    "scene": "underwater:dark,glow",
+    "clock": "TAG 10",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN – FOLGEN, UM ES ZU SEHEN"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 26,
+  "id": "extra26-thai-hoehle-teil-1",
+  "date": "2026-11-30",
+  "weekday": "Mo",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 26/30",
+  "next": "Die Höhlenrettung – Teil 2",
+  "word_count": 77,
+  "badge": "EXTRA 26/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#thailand",
+   "#höhlenrettung",
+   "#rettung",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Die Höhlenrettung – Teil 2\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
+  "yt_title": "Gefangen in der Höhle – Teil 1 #shorts",
+  "yt_description": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️\n\n#thailand #höhlenrettung #rettung #zeitzeuge #shorts"
+ },
+ {
+  "slug": "thai-hoehle-teil-2",
+  "title": "Die Höhlenrettung – Teil 2",
+  "accent": "#00b4d8",
+  "hud": {
+   "label": "IN DER HÖHLE SEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "ALLE 13",
+   "bottom": "GERETTET",
+   "tag": "TEIL 2",
+   "kicker": "DIE RETTUNG",
+   "scene": "underwater:dark,glow"
+  },
+  "caption": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️",
+  "tags": [
+   "thailand",
+   "höhlenrettung",
+   "rettung",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Kein einziger der Jungs kann tauchen. Und der Weg nach draußen ist kilometerlang unter Wasser.",
+    "scene": "underwater:dark",
+    "clock": "TAG 10",
+    "ctx": "TEIL 2 · THAILAND · JULI 2018",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Ein früherer Marinetaucher, Saman Kunan, bringt Sauerstoff in die Höhle. Auf dem Rückweg stirbt er.",
+    "scene": "underwater:dark",
+    "clock": "TAG 14",
+    "card": {
+     "kicker": "HELD",
+     "title": "SAMAN KUNAN"
+    }
+   },
+   {
+    "text": "Die Retter entscheiden sich für einen riskanten Plan: Die Jungs werden ruhiggestellt und von Tauchern hinausgezogen.",
+    "scene": "underwater:dark,glow",
+    "clock": "TAG 16",
+    "card": {
+     "kicker": "DER PLAN",
+     "title": "HINAUSTAUCHEN"
+    }
+   },
+   {
+    "text": "In drei Tagen holen sie alle dreizehn heraus. Alle lebend.",
+    "scene": "underwater:dark,glow",
+    "clock": "TAG 18",
+    "big": {
+     "value": "13 / 13",
+     "sub": "GERETTET"
+    }
+   },
+   {
+    "text": "Die ganze Welt hat mitgefiebert. Die Rettung gilt als eine der schwierigsten aller Zeiten.",
+    "scene": "mountains:day",
+    "clock": "10.07.2018"
+   },
+   {
+    "text": "Hättest du dich als Retter in diese Höhle getraut?",
+    "scene": "dark",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU DICH GETRAUT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 27,
+  "id": "extra27-thai-hoehle-teil-2",
+  "date": "2026-12-01",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 27/30",
+  "next": "Was wäre, wenn du so schnell wärst wie das Licht?",
+  "word_count": 79,
+  "badge": "EXTRA 27/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#thailand",
+   "#höhlenrettung",
+   "#rettung",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn du so schnell wärst wie das Licht?\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
+  "yt_title": "Die Höhlenrettung – Teil 2 #shorts",
+  "yt_description": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️\n\n#thailand #höhlenrettung #rettung #zeitzeuge #shorts"
+ },
+ {
+  "slug": "lichtgeschwindigkeit",
+  "title": "Was wäre, wenn du so schnell wärst wie das Licht?",
+  "accent": "#4cc9f0",
+  "hud": {
+   "label": "DEINE BORDZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "SCHNELLER",
+   "bottom": "ALS LICHT?",
+   "tag": "EINSTEIN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:stars"
+  },
+  "caption": "Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit wird komisch. ⚡",
+  "tags": [
+   "lichtgeschwindigkeit",
+   "einstein",
+   "physik",
+   "weltall"
+  ],
+  "segments": [
+   {
+    "text": "Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen.",
+    "scene": "space:stars",
+    "clock": "00:00:00",
+    "ctx": "RAUMSCHIFF · 99 % LICHTGESCHWINDIGKEIT",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde.",
+    "scene": "earth:day",
+    "clock": "00:00:01",
+    "big": {
+     "value": "300.000",
+     "sub": "KM PRO SEKUNDE"
+    }
+   },
+   {
+    "text": "Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben.",
+    "scene": "space:stars",
+    "clock": "1 JAHR",
+    "stat": {
+     "title": "ZEIT",
+     "rows": [
+      [
+       "FÜR DICH",
+       "1 JAHR"
+      ],
+      [
+       "AUF DER ERDE",
+       "≈ 7 JAHRE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Das hat Einstein vorhergesagt. Und Atomuhren in Flugzeugen haben es bestätigt.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "BEWIESEN",
+     "title": "ZEITDILATATION"
+    }
+   },
+   {
+    "text": "Ganz auf Lichtgeschwindigkeit kommst du aber nie. Dafür bräuchtest du unendlich viel Energie.",
+    "scene": "space:grb",
+    "clock": "—",
+    "card": {
+     "kicker": "UNMÖGLICH",
+     "title": "UNENDLICH VIEL ENERGIE"
+    }
+   },
+   {
+    "text": "Würdest du so eine Reise machen, wenn bei deiner Rückkehr alle älter sind als du?",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU FLIEGEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 28,
+  "id": "extra28-lichtgeschwindigkeit",
+  "date": "2026-12-02",
+  "weekday": "Mi",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 28/30",
+  "next": "Die Entdeckung des Penicillins",
+  "word_count": 90,
+  "badge": "EXTRA 28/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#lichtgeschwindigkeit",
+   "#einstein",
+   "#physik",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit wird komisch. ⚡\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Die Entdeckung des Penicillins\n\n#lichtgeschwindigkeit #einstein #physik #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du so schnell wärst wie das Licht? #shorts",
+  "yt_description": "Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit wird komisch. ⚡\n\n#lichtgeschwindigkeit #einstein #physik #zeitzeuge #shorts"
+ },
+ {
+  "slug": "penicillin",
+  "title": "Die Entdeckung des Penicillins",
+  "accent": "#9ef01a",
+  "hud": {
+   "label": "NACH DEM URLAUB",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SCHIMMEL",
+   "bottom": "RETTET LEBEN",
+   "tag": "1928",
+   "kicker": "DU BIST IM LABOR",
+   "scene": "room:day"
+  },
+  "caption": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet Millionen Leben. 🧫",
+  "tags": [
+   "penicillin",
+   "medizin",
+   "fleming",
+   "geschichte"
+  ],
+  "segments": [
+   {
+    "text": "Ein Forscher kommt aus dem Urlaub zurück. Sein Labor ist unordentlich. Und genau das rettet Millionen Leben.",
+    "scene": "room:day",
+    "clock": "SEPT. 1928",
+    "ctx": "LONDON · ST MARY'S HOSPITAL",
+    "you": true
+   },
+   {
+    "text": "Alexander Fleming hatte Schalen mit Bakterien stehen lassen. Auf einer wächst Schimmel.",
+    "scene": "room:day",
+    "clock": "SEPT. 1928",
+    "card": {
+     "kicker": "ZUFALL",
+     "title": "SCHIMMEL IN DER SCHALE"
+    }
+   },
+   {
+    "text": "Und rund um den Schimmel sind die Bakterien verschwunden.",
+    "scene": "room:day",
+    "clock": "SEPT. 1928",
+    "fx": [
+     "flash"
+    ]
+   },
+   {
+    "text": "Er nennt den Stoff Penicillin. Es ist das erste Antibiotikum der Welt.",
+    "scene": "room:day",
+    "clock": "1929",
+    "big": {
+     "value": "1.",
+     "sub": "ANTIBIOTIKUM"
+    }
+   },
+   {
+    "text": "Erst im Zweiten Weltkrieg wird es in großen Mengen hergestellt. Seitdem rettet es unzählige Leben.",
+    "scene": "city:day",
+    "clock": "1940ER",
+    "card": {
+     "kicker": "FOLGE",
+     "title": "MILLIONEN GERETTET"
+    }
+   },
+   {
+    "text": "Welcher glückliche Zufall hat dein Leben verändert?",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "DEIN GLÜCKLICHSTER ZUFALL?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 29,
+  "id": "extra29-penicillin",
+  "date": "2026-12-03",
+  "weekday": "Do",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 29/30",
+  "next": "Was wäre, wenn heute ein Signal von Aliens kommt?",
+  "word_count": 72,
+  "badge": "EXTRA 29/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#penicillin",
+   "#medizin",
+   "#fleming",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet Millionen Leben. 🧫\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nMorgen: Was wäre, wenn heute ein Signal von Aliens kommt?\n\n#penicillin #medizin #fleming #zeitzeuge #geschichte",
+  "yt_title": "Die Entdeckung des Penicillins #shorts",
+  "yt_description": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet Millionen Leben. 🧫\n\n#penicillin #medizin #fleming #zeitzeuge #shorts"
+ },
+ {
+  "slug": "alien-signal",
+  "title": "Was wäre, wenn heute ein Signal von Aliens kommt?",
+  "accent": "#7c5cff",
+  "hud": {
+   "label": "NACH DEM SIGNAL",
+   "tick": null
+  },
+  "thumb": {
+   "top": "SIGNAL VON",
+   "bottom": "ALIENS",
+   "tag": "FINALE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:stars"
+  },
+  "caption": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽",
+  "tags": [
+   "aliens",
+   "weltall",
+   "seti",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Ein Radioteleskop hat gerade ein eindeutiges Signal von Außerirdischen empfangen.",
+    "scene": "space:stars",
+    "clock": "00:00",
+    "ctx": "RADIOTELESKOP · HEUTE NACHT",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Zuerst würden Forscher weltweit prüfen, ob es wirklich kein Fehler ist. Das kann Tage dauern.",
+    "scene": "control:alarm",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "SCHRITT 1",
+     "title": "WELTWEIT PRÜFEN"
+    }
+   },
+   {
+    "text": "Das Verrückte: Kommt das Signal von einem Stern hundert Lichtjahre entfernt, ist es hundert Jahre alt.",
+    "scene": "space:stars",
+    "clock": "—",
+    "big": {
+     "value": "100 J.",
+     "sub": "ALTES SIGNAL"
+    }
+   },
+   {
+    "text": "Eine Antwort würde wieder hundert Jahre brauchen. Ein Gespräch dauert also Jahrhunderte.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "PROBLEM",
+     "title": "200 JAHRE PRO FRAGE"
+    }
+   },
+   {
+    "text": "Bis heute wurde kein solches Signal sicher bestätigt.",
+    "scene": "city:night",
+    "clock": "HEUTE",
+    "card": {
+     "kicker": "STAND HEUTE",
+     "title": "NOCH KEIN SIGNAL"
+    },
+    "you": true
+   },
+   {
+    "text": "Was sollte die Menschheit als Erstes zurückschicken?",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS SCHICKEN WIR ZURÜCK?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 30,
+  "id": "extra30-alien-signal",
+  "date": "2026-12-04",
+  "weekday": "Fr",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · EXTRA 30/30",
+  "next": null,
+  "word_count": 68,
+  "badge": "EXTRA 30/30",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN · EXTRA",
+  "hashtags": [
+   "#aliens",
+   "#weltall",
+   "#seti",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#aliens #weltall #seti #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn heute ein Signal von Aliens kommt? #shorts",
+  "yt_description": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽\n\n#aliens #weltall #seti #zeitzeuge #shorts"
+ }
+]

@@ -68,8 +68,8 @@ def main():
         t = d["thumb"]
         variables = {
             "top": t["top"], "bottom": t["bottom"], "tag": t["tag"], "kicker": t["kicker"],
-            "day": f"TAG {d['day']}/30" if d["day"] else "TRAILER",
-            "brand": "ZEITZEUGE" if not d["day"] else "WAS WÄRE WENN?", "accent": d["accent"], "bg": f"assets/bg/{d['id']}.png",
+            "day": d.get("badge") or (f"TAG {d['day']}/30" if d["day"] else "TRAILER"),
+            "brand": d.get("brand") or ("ZEITZEUGE" if not d["day"] else "WAS WÄRE WENN?"), "accent": d["accent"], "bg": f"assets/bg/{d['id']}.png",
             "size1": f"{fit(t['top'], 200)}px", "size2": f"{fit(t['bottom'], 220)}px",
             "badgefg": "#111111" if luminance(d["accent"]) > 0.55 else "#ffffff",
         }
