@@ -116,7 +116,7 @@ Morgen: Was wäre, wenn das Internet 7 Tage ausfällt?
 
 <details><summary>Sprechertext</summary>
 
-Du bist auf der Titanic. 14. April 1912, 23:40 Uhr. Du hast noch zwei Stunden und vierzig Minuten. Ein leichtes Ruckeln geht durchs Schiff. Viele merken es kaum. An Deck spielen manche sogar mit Eisbrocken. Doch der Eisberg hat den Rumpf aufgerissen. Fünf Abteilungen laufen voll Wasser. Die Titanic verträgt höchstens vier. Kurz nach Mitternacht ist klar: Das unsinkbare Schiff wird sinken. Das Problem: Es gibt nur zwanzig Rettungsboote. Platz für etwa 1178 Menschen. An Bord sind über 2200. Die ersten Boote legen halb leer ab. Viele glauben noch, auf dem großen Schiff sei es sicherer. Regel Nummer eins, wenn du überleben willst: Geh so früh wie möglich in ein Boot. Egal, wie sicher sich das Schiff noch anfühlt. 2:20 Uhr. Die Titanic bricht auseinander und versinkt. Das Wasser hat etwa minus zwei Grad. In so kaltem Wasser bleiben meist nur Minuten. Das Rettungsschiff Carpathia kommt erst gegen vier Uhr morgens. Rund 1500 Menschen sterben. Nur etwa 700 überleben. Hättest du einen Platz im Boot bekommen?
+Die Titanic hat gerade einen Eisberg gerammt. Du hast noch zwei Stunden und vierzig Minuten. Fünf Abteilungen laufen voll Wasser. Das Schiff verträgt höchstens vier. Und es gibt nur zwanzig Rettungsboote. Platz für etwa 1178 Menschen. An Bord sind über 2200. Trotzdem legen die ersten Boote halb leer ab. Viele halten das große Schiff für sicherer. 2:20 Uhr. Die Titanic versinkt. Das Wasser hat minus zwei Grad. Nur etwa 700 Menschen überleben. Hättest du einen Platz im Boot bekommen?
 
 </details>
 
@@ -143,7 +143,7 @@ Morgen: Du bist in Ost-Berlin – 9. November 1989
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn morgen früh das Internet ausfällt? Weltweit. Nicht für eine Stunde – sondern für sieben Tage. Dein Handy zeigt: keine Verbindung. Kein WhatsApp, kein TikTok, keine Mails. Du denkst: kurze Störung. Beim Bäcker dann der Schock: Kartenzahlung geht nicht. Viele Läden nehmen nur noch Bargeld. Und die Geldautomaten? Hängen auch am Netz. Vor den wenigen, die noch gehen, bilden sich lange Schlangen. Tag zwei. Lieferketten, Bestellungen, Lagerverwaltung – alles läuft digital. Die ersten Regale bleiben leer. Züge und Flüge fallen aus, weil die Planung online läuft. Viele Firmen schicken alle nach Hause. Tag vier. Plötzlich ist das Radio wieder das wichtigste Medium. Nachrichten gibt es über UKW. Regel Nummer eins: Hab immer Bargeld, Wasser und Essen für zehn Tage zu Hause. Das empfiehlt sogar das Bundesamt für Bevölkerungsschutz. Tag sieben. Das Netz ist zurück. Hunderte Nachrichten prasseln rein. Wie lange hättest du durchgehalten?
+Das Internet ist gerade weltweit ausgefallen. Für sieben Tage. Kein WhatsApp, kein TikTok. Und beim Bäcker geht keine Kartenzahlung mehr. Auch Geldautomaten hängen am Netz. Vor den wenigen, die noch gehen, stehen lange Schlangen. Tag zwei: Die Lieferketten stehen still. Die ersten Regale bleiben leer. Wer jetzt Bargeld, Wasser und Vorräte für zehn Tage hat, ist klar im Vorteil. Tag sieben: Das Netz ist zurück. Wie lange hättest du durchgehalten?
 
 </details>
 
@@ -170,7 +170,7 @@ Morgen: Was wäre, wenn der Mond verschwindet?
 
 <details><summary>Sprechertext</summary>
 
-Du lebst in Ost-Berlin. Es ist der 9. November 1989. Du warst noch nie im Westen. Das ändert sich heute Nacht. Im Fernsehen läuft eine zähe Pressekonferenz. Dann liest Günter Schabowski einen Zettel vor: Privatreisen ins Ausland sind ab jetzt möglich. Ein Journalist fragt: Ab wann gilt das? Schabowski blättert. Und sagt: Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zum Grenzübergang Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Niemand weiß, was passieren wird. Der Druck wird immer größer. Gegen halb zwölf gibt der diensthabende Offizier Harald Jäger nach – und öffnet den Schlagbaum. Fremde fallen sich in die Arme. Menschen tanzen auf der Mauer. Trabis fahren hupend über den Kurfürstendamm. Achtundzwanzig Jahre Teilung enden in einer einzigen Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
+Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Ein paar Stunden vorher verkündet Günter Schabowski im Fernsehen: Privatreisen sind ab sofort möglich. Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zur Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Gegen halb zwölf öffnet der Offizier Harald Jäger den Schlagbaum. Achtundzwanzig Jahre Teilung enden in einer Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
 
 </details>
 
@@ -197,7 +197,7 @@ Morgen: Du bist in Hamburg – Sturmflut 1962
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn heute Nacht der Mond verschwindet? Zuerst merkst du: Die Nächte werden richtig dunkel. Ebbe und Flut werden viel schwächer. Nur noch die Sonne zieht am Meer – die Gezeiten schrumpfen auf etwa ein Drittel. Für viele Tiere an den Küsten ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten. Manche Korallen laichen nur bei bestimmten Mondphasen. Nachtaktive Jäger verlieren ihr Licht. Langfristig wird es noch ernster. Der Mond stabilisiert nämlich die Neigung der Erdachse. Ohne ihn könnte die Achse über Millionen Jahre stark schwanken. Jahreszeiten würden extrem. Übrigens: Der Mond entfernt sich wirklich von uns. Etwa 3,8 Zentimeter pro Jahr. Keine Panik – das dauert Milliarden Jahre. Würdest du den Mond vermissen?
+Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Für viele Küstentiere ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Übrigens entfernt sich der Mond wirklich von uns. Etwa 3,8 Zentimeter pro Jahr. Keine Sorge, das dauert Milliarden Jahre. Würdest du den Mond vermissen?
 
 </details>
 
@@ -224,7 +224,7 @@ Morgen: Was wäre, wenn die Erde aufhört, sich zu drehen?
 
 <details><summary>Sprechertext</summary>
 
-Du wohnst in Hamburg-Wilhelmsburg. Freitag, 16. Februar 1962. Draußen tobt ein Orkan. Du gehst schlafen. Die Warnungen im Radio klingen nicht besonders dramatisch. Viele wohnen in Behelfsheimen und Gartenlauben – direkt hinter dem Deich. Mitten in der Nacht drückt der Sturm das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter über Normal. Die Deiche brechen an über sechzig Stellen. Das Wasser kommt in Minuten. Menschen flüchten auf Dächer. Im Dunkeln. Bei eisiger Kälte. Regel Nummer eins bei Hochwasser: nach oben. Niemals in den Keller. Niemals ins Auto. Polizeisenator Helmut Schmidt holt Bundeswehr und Hubschrauber der NATO zu Hilfe. Tausende werden von den Dächern gerettet. In Hamburg sterben 315 Menschen. Danach werden die Deiche massiv erhöht. Wärst du rechtzeitig aufs Dach gekommen?
+Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahinter. Ein Orkan drückt das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter. Die Deiche brechen an über sechzig Stellen. Das Wasser kommt in Minuten. Regel Nummer eins: nach oben. Niemals in den Keller. Helmut Schmidt holt Hubschrauber von Bundeswehr und NATO. Tausende werden von den Dächern gerettet. In Hamburg sterben 315 Menschen. Hättest du es rechtzeitig aufs Dach geschafft?
 
 </details>
 
@@ -251,7 +251,7 @@ Morgen: Du bist in London – Der große Brand 1666
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn die Erde jetzt plötzlich aufhört, sich zu drehen? Du würdest es nicht überleben. Aber nicht so, wie du denkst. Am Äquator dreht sich die Erde mit etwa 1670 Kilometern pro Stunde. Und du drehst dich mit. Die Erde stoppt – aber du nicht. Alles, was nicht fest verankert ist, fliegt einfach weiter. Menschen, Autos, Häuser. Selbst in Deutschland wären es immer noch über tausend Kilometer pro Stunde. Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen. Langfristig fließen die Ozeane zu den Polen, weil die Fliehkraft am Äquator fehlt. Mitten um die Erde entsteht ein riesiger Kontinent. Und ein Tag dauert jetzt ein ganzes Jahr. Ein halbes Jahr Tag. Ein halbes Jahr Nacht. Zum Glück ist ein plötzlicher Stopp physikalisch so gut wie unmöglich. Welches Szenario soll ich als Nächstes zeigen?
+Die Erde hat gerade aufgehört, sich zu drehen. Aber du nicht. Am Äquator fliegst du mit 1670 Kilometern pro Stunde weiter. Menschen, Autos, Häuser fliegen mit. Selbst in Deutschland wären es noch über tausend Kilometer pro Stunde. Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen. Und ein Tag dauert jetzt ein ganzes Jahr: sechs Monate hell, sechs Monate dunkel. Zum Glück ist ein plötzlicher Stopp praktisch unmöglich. Welches Szenario soll als Nächstes kommen?
 
 </details>
 
@@ -278,7 +278,7 @@ Morgen: Was wäre, wenn du in ein Schwarzes Loch fällst?
 
 <details><summary>Sprechertext</summary>
 
-Du bist in London. Sonntag, 2. September 1666, ein Uhr nachts. In einer Bäckerei in der Pudding Lane bricht ein Feuer aus. Der Sommer war extrem trocken. Die Häuser: aus Holz, dicht an dicht, mit Pech abgedichtet. Der Bürgermeister wird geweckt. Er schaut sich das Feuer an – und sagt einen Satz, der in die Geschichte eingeht: Pah! Das könnte eine Frau auspinkeln. Dann frischt der Ostwind auf. Das Feuer springt von Dach zu Dach, von Straße zu Straße. Die Lösung damals: Häuser einreißen, um Brandschneisen zu schaffen. Doch man zögert – aus Angst vor den Kosten. Vier Tage lang brennt London. 13.200 Häuser, 87 Kirchen und die alte St.-Paul's-Kathedrale werden zerstört. Offiziell sterben nur sechs Menschen. Historiker vermuten aber deutlich mehr. Danach wird London aus Stein neu gebaut. Hättest du dein Haus gerettet – oder wärst du zur Themse geflohen?
+London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind aus Holz, dicht an dicht, mit Pech abgedichtet. Der Sommer war extrem trocken. Der Bürgermeister schaut sich das Feuer an und sagt nur: Pah! Das könnte eine Frau auspinkeln. Dann dreht der Wind. Vier Tage lang brennt London. 13.200 Häuser werden zerstört. Hättest du dein Haus gerettet, oder wärst du zur Themse geflohen?
 
 </details>
 
@@ -305,7 +305,7 @@ Morgen: Du bist am Krakatau 1883
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn du in ein Schwarzes Loch fällst? Die Antwort hängt davon ab, wie groß es ist. Bei einem kleinen Schwarzen Loch wirst du in die Länge gezogen wie eine Nudel. Physiker nennen das wirklich so: Spaghettifizierung. Deine Füße werden viel stärker angezogen als dein Kopf. Der Unterschied zerreißt dich, noch bevor du den Rand erreichst. Bei einem riesigen Schwarzen Loch, wie im Zentrum unserer Milchstraße, merkst du am Rand dagegen erstmal nichts. Jetzt wird es verrückt: Für jemanden, der dir zusieht, wirst du am Rand immer langsamer – und scheinst für immer einzufrieren. Du selbst fällst einfach weiter. Über den Ereignishorizont. Ab hier gibt es kein Zurück. Nicht einmal für Licht. Was dahinter passiert, weiß niemand. Unsere Physik versagt dort. Würdest du reinschauen, wenn du könntest?
+Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei einem kleinen Schwarzen Loch wirst du lang gezogen wie eine Nudel. Physiker nennen das wirklich Spaghettifizierung. Bei einem riesigen, wie im Zentrum unserer Milchstraße, merkst du am Rand erstmal nichts. Für jemanden, der zuschaut, wirst du immer langsamer und scheinst für immer einzufrieren. Du fällst weiter, über den Ereignishorizont. Ab hier entkommt nicht einmal Licht. Was dahinter passiert, weiß niemand. Würdest du reinschauen?
 
 </details>
 
@@ -332,7 +332,7 @@ Morgen: Du bist auf Apollo 13
 
 <details><summary>Sprechertext</summary>
 
-27. August 1883. Du stehst an der Küste von Java. Gleich hörst du das lauteste Geräusch der Geschichte. Um 10:02 Uhr explodiert die Vulkaninsel Krakatau. Den Knall hört man noch fast fünftausend Kilometer entfernt – auf einer Insel mitten im Indischen Ozean. Die Druckwelle umrundet die Erde mehrmals. Barometer auf der ganzen Welt schlagen tagelang aus. Dann kommen die Tsunamis. Bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Ganze Küstenorte verschwinden von der Landkarte. Regel Nummer eins bei einem Tsunami: Zieht sich das Meer plötzlich zurück – sofort weg vom Strand. Nach oben. Die Asche färbt danach weltweit die Sonnenuntergänge rot. Manche glauben: Daher kommt der glühende Himmel in Munchs Bild Der Schrei. Hättest du den Knall überlebt? Schreib es in die Kommentare.
+Gleich hörst du das lauteste Geräusch der Geschichte. 10:02 Uhr. Krakatau explodiert. Den Knall hört man noch fast fünftausend Kilometer entfernt. Die Druckwelle umrundet die Erde mehrmals. Dann kommen Tsunamis, bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Regel Nummer eins: Zieht sich das Meer plötzlich zurück, sofort weg vom Strand. Danach glühen die Sonnenuntergänge weltweit rot. Hättest du überlebt?
 
 </details>
 
@@ -359,7 +359,7 @@ Morgen: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
 
 <details><summary>Sprechertext</summary>
 
-Du bist Astronaut auf Apollo 13. Über dreihunderttausend Kilometer von der Erde entfernt. Und plötzlich knallt es. Houston, wir hatten hier ein Problem. Ein Sauerstofftank ist explodiert. Das Raumschiff verliert Strom, Wasser und Atemluft. Die Mondlandung ist abgesagt. Jetzt geht es nur noch um eins: lebend nach Hause kommen. Die drei klettern in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen sie für drei Männer und vier Tage. Neues Problem: Das Kohlendioxid steigt. Die Filter aus dem Kommandomodul passen nicht – eckig statt rund. Ingenieure in Houston basteln eine Lösung aus Klebeband, Plastiktüten und Pappe. Die Astronauten bauen sie nach. Es funktioniert. Um Strom zu sparen, ist fast alles aus. In der Kapsel sind es nur wenige Grad über null. Die Crew friert und schläft kaum. 17. April 1970. Die Kapsel landet im Pazifik. Alle drei überleben. Hättest du die Nerven behalten?
+Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer von der Erde entfernt. Houston, wir hatten hier ein Problem. Strom, Wasser und Atemluft werden knapp. Die Mondlandung ist abgesagt. Die drei retten sich in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen vier. Als das Kohlendioxid steigt, bauen sie einen Filter aus Klebeband, Plastiktüten und Pappe. Vier Tage später landen alle drei sicher im Pazifik. Hättest du die Nerven behalten?
 
 </details>
 
@@ -386,7 +386,7 @@ Morgen: Du bist an Bord der Hindenburg
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn heute ein Asteroid einschlägt – so groß wie der, der die Dinosaurier ausgelöscht hat? Er ist rund zehn Kilometer groß – größer als der Mount Everest hoch ist. Und rast mit etwa zwanzig Kilometern pro Sekunde auf uns zu. Damit wäre er von Frankfurt nach München in etwa fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund hundertachtzig Kilometer breit. Glühende Trümmer regnen rund um die Erde herab. Wälder auf mehreren Kontinenten fangen Feuer. Dann wird es dunkel. Ruß und Staub verdecken die Sonne – vielleicht für Jahre. Damals starben etwa drei Viertel aller Tier- und Pflanzenarten. Die gute Nachricht: 2022 hat die NASA mit der DART-Mission gezeigt, dass man einen Asteroiden ablenken kann. Und fast alle großen Brocken in Erdnähe sind bekannt. Keiner davon ist auf Kollisionskurs. Hättest du gedacht, dass wir uns wehren können?
+Ein zehn Kilometer großer Asteroid rast auf die Erde zu. Einschlag in einer Minute. Er fliegt mit etwa zwanzig Kilometern pro Sekunde. Von Frankfurt nach München in fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund 180 Kilometer breit. Glühende Trümmer setzen Wälder in Brand. Dann verdunkelt Ruß den Himmel, vielleicht für Jahre. So starben damals etwa drei Viertel aller Arten. Auch die Dinosaurier. Die gute Nachricht: 2022 hat die NASA gezeigt, dass man Asteroiden ablenken kann. Wusstest du das?
 
 </details>
 
@@ -413,7 +413,7 @@ Morgen: Du bist in Prypjat – Tschernobyl 1986
 
 <details><summary>Sprechertext</summary>
 
-Du bist an Bord der Hindenburg, des größten Luftschiffs der Welt. 6. Mai 1937. Gleich landest du in Amerika. Die Hindenburg ist über 245 Meter lang. Fast so lang wie die Titanic. Gefüllt ist sie mit Wasserstoff. Hochentzündlich. Eigentlich wollte man Helium – aber die USA verkauften keins. 19:25 Uhr. Kurz vor der Landung sieht jemand eine Flamme am Heck. In rund vierunddreißig Sekunden steht das ganze Luftschiff in Flammen. Ein Radioreporter beschreibt alles live. Und schreit: Oh, die Menschheit! Von 97 Menschen an Bord überleben 62. Viele, weil sie aus den Fenstern springen, als das Schiff fast am Boden ist. Danach ist das Zeitalter der großen Luftschiffe vorbei. Wärst du gesprungen?
+Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Kurz vorher: Die Hindenburg, über 245 Meter lang, ist mit hochentzündlichem Wasserstoff gefüllt. 19:25 Uhr, kurz vor der Landung, sieht jemand eine Flamme am Heck. Ein Radioreporter schreit live ins Mikrofon: Oh, die Menschheit! Von 97 Menschen an Bord überleben 62. Viele springen kurz vor dem Boden. Wärst du gesprungen?
 
 </details>
 
@@ -440,7 +440,7 @@ Morgen: Was wäre, wenn alle Menschen verschwinden?
 
 <details><summary>Sprechertext</summary>
 
-Du wohnst in Prypjat in der Sowjetunion. 26. April 1986, mitten in der Nacht. Und niemand wird dir etwas sagen. Um 01:23 Uhr explodiert drei Kilometer entfernt Reaktor vier des Kraftwerks Tschernobyl. Über dem Reaktor sehen Augenzeugen ein seltsames Leuchten. Manche gehen sogar hinaus, um zuzusehen. Am Morgen geht das Leben weiter, als wäre nichts. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: rein ins Haus, Fenster zu, Lüftung aus. Und auf offizielle Anweisungen hören. 27. April, 14 Uhr. Endlich die Evakuierung. Über tausend Busse. Mitnehmen soll man nur Sachen für drei Tage. Sie kommen nie wieder zurück. Prypjat ist bis heute eine Geisterstadt. Das Riesenrad, das am 1. Mai eröffnen sollte, steht noch immer da. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
+Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich. Am Morgen geht das Leben weiter. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: drinnen bleiben, Fenster zu, Lüftung aus. Erst nach anderthalb Tagen kommt die Evakuierung. Über tausend Busse. Mitnehmen nur für drei Tage. Sie kommen nie zurück. Prypjat ist bis heute eine Geisterstadt. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
 
 </details>
 
@@ -467,7 +467,7 @@ Morgen: Du bist in Lissabon – Erdbeben 1755
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn alle Menschen auf einen Schlag verschwinden? Was passiert mit der Welt, die wir zurücklassen? Schon nach Stunden gehen die ersten Lichter aus. Kraftwerke ohne Personal schalten sich ab. Ohne Pumpen laufen U-Bahn-Tunnel in Städten wie New York schnell voll Wasser. Nach einem Jahr: Pflanzen sprengen den Asphalt. Viele Haustiere verwildern. Nach zwanzig Jahren: Wälder erobern die Städte zurück. So wie heute schon in Prypjat bei Tschernobyl. Nach hundert Jahren: Holzhäuser sind eingestürzt. Stahlbrücken rosten durch und brechen zusammen. Nach zehntausend Jahren: Was bleibt? Die Pyramiden. Teile der Chinesischen Mauer. Und jede Menge Plastik. Und auf dem Mond? Unsere Fußabdrücke könnten Millionen Jahre überdauern – dort gibt es keinen Wind. Was glaubst du, bleibt am längsten von uns übrig?
+Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Nach zwanzig Jahren erobern Wälder die Städte zurück. Nach hundert Jahren stürzen Stahlbrücken ein. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was bleibt am längsten von uns?
 
 </details>
 
@@ -494,7 +494,7 @@ Morgen: Was wäre, wenn der Yellowstone ausbricht?
 
 <details><summary>Sprechertext</summary>
 
-Du bist in Lissabon. 1. November 1755, Allerheiligen. Die Kirchen sind voll. Überall brennen Kerzen. Um 9:40 Uhr bebt die Erde. Minutenlang. Kirchen und Häuser stürzen ein. Die umgestürzten Kerzen setzen die Trümmer in Brand. Viele fliehen zum Hafen, auf den großen Platz am Wasser. Dort fühlen sie sich sicher. Dann zieht sich das Meer zurück. Der Hafengrund liegt frei. Manche gehen sogar neugierig hin. Etwa vierzig Minuten nach dem Beben rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Zehntausende sterben. Das Beben erschüttert auch das Denken in Europa. Philosophen wie Voltaire fragen: Wie kann Gott so etwas zulassen? Regel Nummer eins nach einem Beben an der Küste: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
+Lissabon bebt. Und in vierzig Minuten kommt auch noch der Tsunami. Es ist Allerheiligen. Die Kirchen sind voll, umgestürzte Kerzen setzen alles in Brand. Viele fliehen zum Hafen, auf den offenen Platz am Wasser. Dann zieht sich das Meer zurück. Manche gehen sogar neugierig hin. Um 10:20 Uhr rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Regel Nummer eins: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
 
 </details>
 
@@ -521,7 +521,7 @@ Morgen: Du lebst im Jahr ohne Sommer – 1816
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn der Supervulkan unter dem Yellowstone-Nationalpark ausbricht? Der letzte große Ausbruch war vor rund 640.000 Jahren. Die Explosion wäre etwa tausendmal stärker als der Ausbruch des Mount St. Helens 1980. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Asche regnet über große Teile der USA. Schon wenige Zentimeter können Dächer einstürzen lassen und Felder unbrauchbar machen. Schwefel in der Atmosphäre kühlt die ganze Erde ab. Vielleicht um mehrere Grad, für Jahre. Auch bei uns in Deutschland: kühlere Sommer, schlechtere Ernten, steigende Preise. Aber: Laut US-Geologen liegt die Wahrscheinlichkeit für so einen Ausbruch bei etwa eins zu 730.000 pro Jahr. Würdest du Yellowstone trotzdem besuchen?
+Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Die Explosion ist etwa tausendmal stärker als der Ausbruch des Mount St. Helens 1980. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Asche regnet über große Teile der USA. Dächer stürzen ein, Felder werden unbrauchbar. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Würdest du Yellowstone trotzdem besuchen?
 
 </details>
 
@@ -548,7 +548,7 @@ Morgen: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
 
 <details><summary>Sprechertext</summary>
 
-Du lebst im Jahr 1816 in Süddeutschland. Und dieser Sommer wird nie kommen. Ein Jahr zuvor ist in Indonesien der Vulkan Tambora ausgebrochen. Einer der stärksten Ausbrüche seit Tausenden Jahren. Asche und Schwefel verteilen sich in der Atmosphäre und schwächen das Sonnenlicht auf der ganzen Welt. Im Juni schneit es. Im Juli regnet es fast ununterbrochen. Die Ernte verfault auf den Feldern. Die Brotpreise explodieren. Die Menschen hungern. Manche essen Gras und Baumrinde. Tausende wandern aus – nach Amerika oder Russland. Auch Pferde verhungern, weil der Hafer fehlt. Manche Historiker glauben: Deshalb erfand Karl Drais 1817 in Mannheim seine Laufmaschine – den Urahn des Fahrrads. Und am Genfer See schreibt Mary Shelley in diesem düsteren Sommer Frankenstein. Ein Vulkan am anderen Ende der Welt hat dein Leben verändert. Hättest du den Winter überstanden?
+Es ist Juni. Und es schneit. Willkommen im Jahr ohne Sommer. Schuld ist ein Vulkan am anderen Ende der Welt: der Tambora in Indonesien. Seine Asche schwächt weltweit das Sonnenlicht. Die Ernte verfault auf den Feldern. Brot wird unbezahlbar. Menschen hungern, Tausende wandern aus. Weil auch Pferde verhungern, erfindet Karl Drais 1817 das Laufrad. So glauben es manche Historiker. Hättest du diesen Winter überstanden?
 
 </details>
 
@@ -575,7 +575,7 @@ Morgen: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn in ganz Deutschland der Strom ausfällt? Nicht für eine Stunde. Für drei Tage. Stunde eins. Ampeln aus. Straßenbahnen bleiben stehen. Menschen stecken in Aufzügen fest. Das Handynetz hält noch eine Weile. Doch viele Funkmasten haben nur Akkus für ein paar Stunden. Stunde zwölf. Dein Kühlschrank taut ab. In vielen Hochhäusern kommt kein Wasser mehr – die Pumpen brauchen Strom. Tankstellen können nicht pumpen. Supermarktkassen funktionieren nicht. Stunde vierundzwanzig. Krankenhäuser laufen auf Notstrom. Der Diesel reicht oft nur für einige Tage. Regel Nummer eins: Kerzen, Taschenlampe, Batterieradio und Wasser. Und zwar, bevor es passiert. Stunde zweiundsiebzig. Das Licht geht wieder an. Wer vorbereitet war, hat es fast entspannt überstanden. Wärst du vorbereitet?
+In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Ampeln aus, Bahnen stehen, Menschen stecken in Aufzügen fest. Nach ein paar Stunden fällt auch das Handynetz aus. Die Funkmasten haben keinen Strom mehr. Kein Wasser in Hochhäusern, kein Sprit an Tankstellen, keine Kasse im Supermarkt. Wer jetzt Kerzen, Taschenlampe, Batterieradio und Wasser hat, ist klar im Vorteil. Stunde zweiundsiebzig: Das Licht ist zurück. Wärst du vorbereitet gewesen?
 
 </details>
 
@@ -602,7 +602,7 @@ Morgen: Du lebst 1349 – Die Pest kommt
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn du auf dem Mars stehst – ohne Raumanzug? Du hast ungefähr fünfzehn Sekunden. Der Luftdruck auf dem Mars liegt bei weniger als einem Prozent des Drucks auf der Erde. Erste Regel: Atme aus! Wenn du die Luft anhältst, können deine Lungen durch den Druckunterschied reißen. Bei so wenig Druck kocht Wasser schon bei Körpertemperatur. Speichel und Tränen beginnen zu sprudeln. Deine Haut schwillt an. Aber sie hält. Du platzt nicht – das ist ein Filmmythos. Nach etwa fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr. Die Kälte – im Schnitt etwa minus sechzig Grad – ist dabei gar nicht dein größtes Problem. Holt dich innerhalb von etwa ein bis zwei Minuten jemand zurück in die Station, könntest du überleben. Würdest du ein One-Way-Ticket zum Mars nehmen?
+Du stehst ohne Raumanzug auf dem Mars. Du hast fünfzehn Sekunden. Erste Regel: Atme aus! Sonst können deine Lungen reißen. Der Luftdruck ist so niedrig, dass Speichel und Tränen zu sprudeln beginnen. Deine Haut schwillt an, aber du platzt nicht. Das ist ein Filmmythos. Nach fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr. Holt dich jemand innerhalb von ein, zwei Minuten zurück, könntest du überleben. Würdest du zum Mars fliegen?
 
 </details>
 
@@ -629,7 +629,7 @@ Morgen: Was wäre, wenn die Antarktis komplett schmilzt?
 
 <details><summary>Sprechertext</summary>
 
-Du lebst im Jahr 1349 in einer deutschen Stadt. Händler bringen Nachrichten: Im Süden sterben die Menschen an einer neuen Krankheit. Dann ist sie da. Fieber, Schüttelfrost – und dunkle, schmerzhafte Beulen am Hals und unter den Armen. Viele sterben innerhalb weniger Tage. Niemand kennt die Ursache. Die meisten glauben an giftige Luft – oder an eine Strafe Gottes. Durch die Städte ziehen Geißler, die sich öffentlich auspeitschen, um Gott zu besänftigen. Und es passiert das Schlimmste: In vielen Städten werden Jüdinnen und Juden zu Unrecht beschuldigt und ermordet. Heute wissen wir: Es war ein Bakterium. Übertragen unter anderem durch Flöhe von Ratten. In nur wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa. Was viele hätte retten können: Abstand und Quarantäne. Das Wort kommt aus Venedig – quaranta giorni, vierzig Tage. Hättest du überlebt?
+Die Pest hat gerade deine Stadt erreicht. Wir schreiben das Jahr 1349. Fieber, Schüttelfrost, dunkle Beulen am Hals. Viele sterben in wenigen Tagen. Niemand kennt die Ursache. Man glaubt an giftige Luft oder eine Strafe Gottes. In vielen Städten werden Jüdinnen und Juden zu Unrecht beschuldigt und ermordet. In wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa. Viele hätten Abstand und Quarantäne gerettet. Hättest du überlebt?
 
 </details>
 
@@ -656,7 +656,7 @@ Morgen: Was passiert mit dir in der Todeszone am Everest?
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn das gesamte Eis der Antarktis schmilzt? Der Meeresspiegel würde um etwa achtundfünfzig Meter steigen. Hamburg, Bremen, Kiel? Unter Wasser. Die Nordsee würde sich tief ins Land schieben – weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai – weitgehend verschwunden. Hunderte Millionen Menschen müssten umziehen. Die gute Nachricht: Das würde selbst bei starker Erwärmung viele Jahrhunderte bis Jahrtausende dauern. Aber schon ein Meer, das bis 2100 um bis zu einen Meter steigt, würde weltweit Millionen Menschen an den Küsten treffen. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
+Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai: weitgehend verschwunden. Zum Glück würde das selbst bei starker Erwärmung Jahrhunderte bis Jahrtausende dauern. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
 
 </details>
 
@@ -683,7 +683,7 @@ Morgen: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
 
 <details><summary>Sprechertext</summary>
 
-Was passiert mit deinem Körper in der Todeszone am Mount Everest? Ab achttausend Metern stirbst du. Langsam. Hier oben enthält jeder Atemzug nur etwa ein Drittel des Sauerstoffs wie am Meer. Dein Herz rast. Dein Blut wird dicker, weil der Körper mehr rote Blutkörperchen bildet. Ohne zusätzlichen Sauerstoff denkst du langsamer. Einfache Entscheidungen fallen plötzlich schwer. Richtig gefährlich wird es, wenn Flüssigkeit in Lunge oder Gehirn austritt. Höhenlungenödem. Höhenhirnödem. Manche Bergsteiger halluzinieren. Sie sehen Menschen, die gar nicht da sind. Regel Nummer eins: Leg eine Umkehrzeit fest – und halte dich daran. Auch wenn der Gipfel zum Greifen nah ist. Der Gipfel. 8849 Meter. Du hast nur Minuten für das Foto. Denn der Abstieg ist der gefährlichste Teil. Würdest du es versuchen?
+Du bist in der Todeszone am Mount Everest. Ab hier stirbt dein Körper langsam. Jeder Atemzug hat nur etwa ein Drittel des Sauerstoffs wie am Meer. Dein Herz rast, dein Blut wird dicker, und du denkst immer langsamer. Manche Bergsteiger halluzinieren. Sie sehen Menschen, die gar nicht da sind. Regel Nummer eins: Halte deine Umkehrzeit ein. Auch kurz vor dem Gipfel. 8849 Meter. Du hast nur Minuten für das Foto. Würdest du es versuchen?
 
 </details>
 
@@ -710,7 +710,7 @@ Morgen: Was wäre, wenn du in den Marianengraben tauchst?
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn heute ein Sonnensturm wie im Jahr 1859 die Erde trifft? Damals sah man Polarlichter bis in die Karibik. Telegrafenleitungen sprühten Funken, Papier fing Feuer. Heute hängt fast alles am Strom. Und genau da wird es gefährlich. Stunde null: Satelliten fallen aus. GPS spinnt. Flugzeuge werden umgeleitet. Starke Ströme in den Stromleitungen können riesige Transformatoren zerstören. Ersatz dauert Monate. In Teilen der Welt drohen Blackouts über Wochen. Und das ist nicht nur Theorie: 2012 hat ein ähnlich starker Sturm die Erde knapp verfehlt. Um etwa neun Tage. Heute beobachten Sonden die Sonne rund um die Uhr. Wir hätten Stunden bis wenige Tage Vorwarnung. Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?
+Ein Sonnensturm wie im Jahr 1859 rast gerade auf die Erde zu. Damals sah man Polarlichter bis in die Karibik. Telegrafen sprühten Funken. Heute fallen zuerst Satelliten aus. GPS spinnt, Flugzeuge werden umgeleitet. Starke Ströme können Transformatoren zerstören. Teile der Welt sind wochenlang ohne Strom. 2012 hat uns ein ähnlich starker Sturm um etwa neun Tage verfehlt. Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?
 
 </details>
 
@@ -737,7 +737,7 @@ Morgen: Du sitzt in der Mondfähre – Apollo 11
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn du zum tiefsten Punkt des Ozeans tauchst? Knapp elf Kilometer nach unten. Zweihundert Meter: Das Sonnenlicht ist fast komplett verschwunden. Tausend Meter: totale Dunkelheit. Das einzige Licht kommt von Tieren, die selbst leuchten. Dreitausendachthundert Meter: Hier liegt das Wrack der Titanic. Sechstausend Meter: die Hadal-Zone. Benannt nach Hades, dem Gott der Unterwelt. Knapp elftausend Meter: das Challengertief. Der Druck ist über tausendmal so hoch wie an der Oberfläche. Auf jeden Quadratzentimeter deines Körpers drücken über tausend Kilogramm. Und trotzdem lebt hier unten etwas: Flohkrebse, Bakterien – und leider auch unser Müll. Sogar eine Plastiktüte wurde hier schon gefunden. Würdest du mit runtertauchen?
+Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend Meter: totale Dunkelheit. Hier leuchten nur noch Tiere selbst. 3800 Meter: Hier liegt das Wrack der Titanic. Knapp elftausend Meter: Der Druck ist über tausendmal so hoch wie an der Oberfläche. Und trotzdem lebt hier unten etwas. Man fand hier sogar schon eine Plastiktüte. Würdest du mit runtertauchen?
 
 </details>
 
@@ -764,7 +764,7 @@ Morgen: Was wäre, wenn der Golfstrom stoppt?
 
 <details><summary>Sprechertext</summary>
 
-Du sitzt neben Neil Armstrong in der Mondfähre Eagle. 20. Juli 1969. Noch zwölf Minuten bis zur Landung. Plötzlich ein Alarm. Zwölf-null-zwei. Niemand an Bord weiß sofort, was das bedeutet. Der Bordcomputer ist überlastet. In Houston entscheiden junge Ingenieure in Sekunden: weiterfliegen. Dann sieht Armstrong: Der Autopilot steuert genau auf ein Feld voller Felsbrocken zu. Er übernimmt per Hand und sucht einen neuen Landeplatz. Der Treibstoff wird knapp. Houston meldet: noch sechzig Sekunden. Dann: noch dreißig. Mit nur noch etwa fünfundzwanzig Sekunden Reserve setzt die Eagle auf. Houston, hier Basis Tranquility. Der Adler ist gelandet. Hättest du die Nerven gehabt, das Ding per Hand zu landen?
+Nur noch etwa dreißig Sekunden Treibstoff. Und ihr seid noch nicht gelandet. Zwölf Minuten vorher: Alarm. Zwölf-null-zwei. Der Bordcomputer ist überlastet. Houston entscheidet in Sekunden: weiterfliegen. Dann steuert der Autopilot auf ein Feld voller Felsbrocken. Armstrong übernimmt per Hand. Houston, hier Basis Tranquility. Der Adler ist gelandet. Hättest du die Nerven gehabt, das Ding per Hand zu landen?
 
 </details>
 
@@ -791,7 +791,7 @@ Morgen: Was wäre, wenn dich eine Lawine verschüttet?
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn der Golfstrom stoppt? Dieses Strömungssystem bringt warmes Wasser aus der Karibik bis vor Europa. Wie eine riesige Fernheizung. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Fällt die Strömung aus, könnten die Winter in Nordeuropa deutlich kälter und stürmischer werden. Gleichzeitig würde der Meeresspiegel an der US-Ostküste stärker steigen. Und Regenzeiten in Afrika und Asien könnten sich verschieben. Und das ist nicht nur ein Gedankenexperiment: Laut Studien hat sich die Strömung bereits abgeschwächt. Wann – und ob – sie kippt, ist unter Forschenden umstritten. Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?
+Der Golfstrom ist gerade stehen geblieben. Europas Heizung ist aus. Diese Strömung bringt warmes Wasser aus der Karibik bis vor Europa. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Fällt sie aus, könnten unsere Winter deutlich kälter und stürmischer werden. Laut Studien hat sich die Strömung bereits abgeschwächt. Ob sie kippt, ist umstritten. Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?
 
 </details>
 
@@ -818,7 +818,7 @@ Morgen: Was wäre, wenn ein Gammablitz die Erde trifft?
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn dich eine Lawine verschüttet? Ab jetzt zählt jede einzelne Minute. Eine Lawine kann über hundert Kilometer pro Stunde schnell werden. Davonfahren klappt fast nie. Regel Nummer eins, solange du rutschst: kämpf dich nach oben. Und kurz bevor es stoppt: Hände vors Gesicht – für eine Atemhöhle. Wenn die Lawine stoppt, wird der Schnee fest wie Beton. Du kannst dich kaum bewegen. Du weißt nicht mal, wo oben ist. Ein bekannter Tipp: Spucke laufen lassen. Sie fließt nach unten. In den ersten fünfzehn Minuten überleben rund neun von zehn Verschütteten. Danach sinkt die Chance dramatisch. Deshalb: Niemals ohne Lawinenpiepser, Sonde und Schaufel. Und niemals allein. Deine Freunde sind deine Rettung. Nicht der Hubschrauber – der kommt meistens zu spät. Würdest du abseits der Piste fahren?
+Eine Lawine hat dich gerade verschüttet. Ab jetzt zählt jede Minute. Solange du rutschst: kämpf dich nach oben. Und Hände vors Gesicht, für eine Atemhöhle. Wenn sie stoppt, wird der Schnee hart wie Beton. Du kannst dich kaum bewegen. In den ersten fünfzehn Minuten überleben rund neun von zehn. Danach sinkt die Chance dramatisch. Deshalb: nie ohne Lawinenpiepser, Sonde und Schaufel. Und nie allein. Würdest du abseits der Piste fahren?
 
 </details>
 
@@ -844,6 +844,6 @@ Folge für jeden Tag ein neues Szenario ⏳
 
 <details><summary>Sprechertext</summary>
 
-Was wäre, wenn ein Gammablitz die Erde trifft – die stärkste Art von Explosion im Universum? Gammablitze entstehen, wenn riesige Sterne kollabieren oder Neutronensterne miteinander verschmelzen. In wenigen Sekunden setzen sie so viel Energie frei wie unsere Sonne in Milliarden Jahren. Trifft uns einer aus relativer Nähe, könnte er einen großen Teil der Ozonschicht zerstören. Ungefilterte UV-Strahlung trifft dann Pflanzen, Plankton – und uns. Manche Forscher vermuten sogar: Ein Gammablitz könnte vor rund 440 Millionen Jahren ein Massensterben mit ausgelöst haben. Aber keine Panik: Es ist kein Stern bekannt, der uns in absehbarer Zeit so gefährlich werden könnte. Das war Tag dreißig. Welches Was-wäre-wenn soll ich als Nächstes machen? Schreib es in die Kommentare.
+Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren. Aus der Nähe könnte er einen großen Teil der Ozonschicht zerstören. Ungefilterte UV-Strahlung trifft dann Pflanzen, Plankton und uns. Manche Forscher vermuten: So etwas könnte vor 440 Millionen Jahren ein Massensterben ausgelöst haben. Das war Tag dreißig. Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.
 
 </details>

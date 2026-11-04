@@ -17,6 +17,7 @@ sys.path.insert(0, HERE)
 from days_01_10 import DAYS as D1  # noqa: E402
 from days_11_20 import DAYS as D2  # noqa: E402
 from days_21_30 import DAYS as D3  # noqa: E402
+from v2_overrides import OVERRIDES  # noqa: E402
 
 BASE_TAGS = ["waswärewenn", "geschichte", "wissen", "fyp", "fürdich", "lernenmittiktok"]
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
@@ -40,6 +41,9 @@ def main():
     for i, d in enumerate(days):
         date = start + dt.timedelta(days=i)
         d = dict(d)
+        if d["slug"] in OVERRIDES:  # v2-Retention-Format (kürzer, Cold Open, Hook-Titel)
+            d["segments"] = OVERRIDES[d["slug"]]
+            d["hook"] = True
         d["day"] = i + 1
         d["id"] = f"tag{i + 1:02d}-{d['slug']}"
         d["date"] = date.isoformat()
