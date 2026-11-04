@@ -54,8 +54,11 @@ def finalize(video_in, audio_in, out_mp4):
     subprocess.run([
         "ffmpeg", "-v", "error", "-y", "-i", video_in, "-i", audio_in,
         "-vf", "format=yuv420p",
-        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-profile:v", "high", "-level", "4.1",
-        "-r", "30", "-g", "60", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+        # Hohe Upload-Qualität: TikTok komprimiert ohnehin neu – je sauberer die Quelle, desto schärfer das Ergebnis.
+        "-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-crf", "16",
+        "-maxrate", "20M", "-bufsize", "40M", "-profile:v", "high", "-level", "4.2",
+        "-r", "30", "-g", "60", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+        "-c:a", "aac", "-b:a", "320k", "-ar", "48000",
         "-movflags", "+faststart", "-shortest", out_mp4], check=True)
 
 

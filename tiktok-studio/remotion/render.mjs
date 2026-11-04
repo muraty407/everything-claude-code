@@ -41,7 +41,7 @@ if (args[0] === "--still") {
     const t0 = Date.now();
     await renderMedia({
       composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable,
-      crf: 16, muted: true, concurrency: 4, imageFormat: "jpeg", jpegQuality: 92,
+      crf: 10, x264Preset: "slow", muted: true, concurrency: 4, imageFormat: "png", // nahezu verlustfreies Zwischenformat
     });
     console.log(`\n${out} fertig in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
   }
