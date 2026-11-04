@@ -29,7 +29,7 @@ export const Hud: React.FC<{ label: string; clock?: string; tick: "up" | "down" 
   const a = easeOut(appear / 0.5);
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
-      <div style={{ position: "absolute", left: 56, top: 150, transform: `translateY(${(1 - a) * -40}px)`, opacity: a }}>
+      <div style={{ position: "absolute", left: 56, top: 260, transform: `translateY(${(1 - a) * -40}px)`, opacity: a }}>
         <div style={{ fontFamily: INTER, fontWeight: 800, fontSize: 24, letterSpacing: 3, color: "#ffffffcc", marginBottom: 8, textShadow: "0 2px 6px #000a" }}>{label}</div>
         {shown && (
           <div style={{ display: "inline-flex", alignItems: "center", gap: 14, background: "#0d0f14e6", border: `4px solid ${urgent ? "#ff3b30" : accent}`, borderRadius: 18, padding: "8px 22px 8px 14px", boxShadow: "0 8px 24px #0008" }}>
@@ -43,7 +43,7 @@ export const Hud: React.FC<{ label: string; clock?: string; tick: "up" | "down" 
         )}
         {ctx && <div style={{ fontFamily: INTER, fontWeight: 700, fontSize: 24, letterSpacing: 2, color: "#e9edf5", marginTop: 12, textShadow: "0 2px 8px #000" }}>{ctx}</div>}
       </div>
-      <div style={{ position: "absolute", right: 48, top: 156, fontFamily: INTER, fontWeight: 900, fontSize: 24, letterSpacing: 2, color: "#fff", background: accent, padding: "8px 16px", borderRadius: 10, opacity: a, boxShadow: "0 6px 18px #0007" }}>{series}</div>
+      <div style={{ position: "absolute", right: 48, top: 266, fontFamily: INTER, fontWeight: 900, fontSize: 24, letterSpacing: 2, color: "#fff", background: accent, padding: "8px 16px", borderRadius: 10, opacity: a, boxShadow: "0 6px 18px #0007" }}>{series}</div>
     </AbsoluteFill>
   );
 };
@@ -104,7 +104,7 @@ export const Captions: React.FC<{ chunks: Chunk[]; time: number; accent: string;
 
 /* ---------------------------------------------------------------- Overlays */
 
-export const Card: React.FC<{ kicker: string; title: string; t: number; accent: string; y?: number }> = ({ kicker, title, t, accent, y = 470 }) => {
+export const Card: React.FC<{ kicker: string; title: string; t: number; accent: string; y?: number }> = ({ kicker, title, t, accent, y = 540 }) => {
   const a = easeOut(t / 0.35);
   const rot = (1 - a) * -8 + -1.5;
   return (
@@ -121,7 +121,7 @@ export const Card: React.FC<{ kicker: string; title: string; t: number; accent: 
 export const Stat: React.FC<{ title: string; rows: [string, string][]; t: number; accent: string }> = ({ title, rows, t, accent }) => {
   const a = easeOut(t / 0.3);
   return (
-    <div style={{ position: "absolute", left: 56, top: 400, opacity: a, transform: `translateX(${(1 - a) * -60}px)` }}>
+    <div style={{ position: "absolute", left: 56, top: 500, opacity: a, transform: `translateX(${(1 - a) * -60}px)` }}>
       <div style={{ background: "#11141ae8", borderRadius: 18, overflow: "hidden", minWidth: 560, boxShadow: "0 16px 40px #0009", border: "3px solid #ffffff1a" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "18px 26px", background: "#ffffff10" }}>
           <div style={{ width: 22, height: 22, borderRadius: 4, background: accent }} />
@@ -145,7 +145,7 @@ export const Big: React.FC<{ value: string; sub: string; t: number; accent: stri
   const a = easeOut(t / 0.25);
   const sc = 1.6 - 0.6 * a;
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, top: 460, textAlign: "center", opacity: a }}>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 540, textAlign: "center", opacity: a }}>
       <div style={{ fontFamily: ANTON, fontSize: value.length > 7 ? 170 : 240, lineHeight: 1, color: "#fff", transform: `scale(${sc})`, WebkitTextStroke: "12px #000", paintOrder: "stroke fill", textShadow: `0 10px 0 #000, 0 0 60px ${accent}aa` }}>{value}</div>
       <div style={{ display: "inline-block", marginTop: 18, background: accent, color: "#fff", fontFamily: INTER, fontWeight: 900, fontSize: 34, letterSpacing: 3, padding: "10px 24px", borderRadius: 10 }}>{sub}</div>
     </div>
@@ -156,7 +156,7 @@ export const Quote: React.FC<{ text: string; who: string; t: number; accent: str
   const a = easeOut(t / 0.4);
   const chars = Math.floor(text.length * clamp(t / Math.max(0.6, text.length * 0.035)));
   return (
-    <div style={{ position: "absolute", left: 70, right: 70, top: 440, opacity: a }}>
+    <div style={{ position: "absolute", left: 70, right: 70, top: 520, opacity: a }}>
       <div style={{ background: "#0b0d12e0", borderLeft: `12px solid ${accent}`, borderRadius: 14, padding: "40px 44px", boxShadow: "0 20px 50px #000a" }}>
         <div style={{ fontFamily: "Georgia, 'DejaVu Serif', serif", fontSize: 140, lineHeight: 0.6, color: accent, height: 60 }}>„</div>
         <div style={{ fontFamily: "Georgia, 'DejaVu Serif', serif", fontStyle: "italic", fontSize: text.length > 50 ? 56 : 72, lineHeight: 1.2, color: "#fff" }}>
