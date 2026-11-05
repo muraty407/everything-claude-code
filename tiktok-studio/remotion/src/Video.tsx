@@ -40,12 +40,13 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   const fx = seg.fx ?? [];
 
   // Kamera: Punch-in beim Schnitt + langsamer Push
-  const punch = i === 0 ? 0 : 0.1 * (1 - easeOut(t / 0.35));
+  const hookOpen = day.hook && i === 0 && t < HOOK_DUR;
+  const punch = i === 0 ? (day.hook ? 0.22 * (1 - easeOut(t / 0.9)) : 0) : 0.1 * (1 - easeOut(t / 0.35));
   const push = 1.02 + 0.06 * clamp(t / Math.max(1, dur));
   const panX = Math.sin(seed) * 30 * clamp(t / Math.max(1, dur));
   let sx = 0, sy = 0;
-  if (fx.includes("shake")) {
-    const k = Math.max(0.15, 1 - t / 1.6);
+  if (fx.includes("shake") || hookOpen) {
+    const k = hookOpen ? Math.max(0.35, 1 - t / 1.2) : Math.max(0.15, 1 - t / 1.6);
     const r = rng(frame * 13 + seed);
     sx = (r() - 0.5) * 36 * k;
     sy = (r() - 0.5) * 36 * k;
@@ -70,6 +71,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
       {fx.includes("red") && <AbsoluteFill style={{ background: "#ff2a00", mixBlendMode: "multiply", opacity: 0.25 + 0.12 * Math.sin(g * 5) }} />}
       {fx.includes("dark") && <AbsoluteFill style={{ background: "#000", opacity: 0.6 * clamp(t / 1.5) }} />}
       {fx.includes("flash") && <AbsoluteFill style={{ background: "#fff", opacity: Math.max(0, 0.9 - t * 2.2) }} />}
+      {hookOpen && <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 40%, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.75) 85%), linear-gradient(${day.accent}33, ${day.accent}33)`, opacity: clamp((HOOK_DUR - t) / 0.3) }} />}
 
       {/* Overlays */}
       {seg.stat && <Stat title={seg.stat.title} rows={seg.stat.rows} t={ot - 0.15} accent={day.accent} />}
@@ -113,7 +115,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       <TopShade />
       <Vignette />
       <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />
-      <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />
+      {!(day.hook && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
       {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
       {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
       <Progress p={time / total} accent={day.accent} />

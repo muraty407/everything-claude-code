@@ -21,8 +21,8 @@ def mix_audio(day, timeline, voice_wav, out_wav):
         fx = seg.get("fx", [])
         if ts["i"] > 0:
             events.append(("whoosh.wav", max(0, ts["start"] - 0.3), 0.35))
-        if "shake" in fx or "flash" in fx:
-            events.append(("boom.wav", ts["start"], 0.8))
+        if "shake" in fx or "flash" in fx or (ts["i"] == 0 and day.get("hook")):
+            events.append(("boom.wav", ts["start"], 0.9 if ts["i"] == 0 else 0.8))
         if seg.get("card") or seg.get("stat") or seg.get("big"):
             events.append(("pop.wav", ts["start"] + 0.15, 0.45))
     if day["hud"].get("tick") == "down":
