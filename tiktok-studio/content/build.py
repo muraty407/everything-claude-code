@@ -44,6 +44,12 @@ def enrich(d, *, day, id_, date, post_time, series, nxt, badge=None, brand=None,
         d["brand"] = brand
     if next_label:
         d["next_label"] = next_label
+    # Plan B: echte Fotos (pipeline/media.py) einhängen + Bildnachweis merken
+    mpath = os.path.join(HERE, "media", id_ + ".json")
+    if os.path.exists(mpath):
+        credits = json.load(open(mpath, encoding="utf-8"))
+        d["segments"] = [dict(s, img=c["file"]) if c else s for s, c in zip(d["segments"], credits + [None] * len(d["segments"]))]
+        d["photo_credits"] = sorted({f"{c['source']}" for c in credits if c})
     base = d["caption"].split(" #")[0]
     topic = ["#" + t for t in d["tags"][:3]]
     # TikTok: 5 passende Hashtags statt #fyp/#fürdich (siehe Analyse Tag 1)

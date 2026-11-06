@@ -300,7 +300,8 @@
     "ctx": "NORDATLANTIK · 14. APRIL 1912",
     "fx": [
      "shake"
-    ]
+    ],
+    "img": "media/tag03-titanic/seg00.jpg"
    },
    {
     "text": "Fünf Abteilungen laufen voll Wasser. Das Schiff verträgt höchstens vier.",
@@ -318,7 +319,8 @@
        "4"
       ]
      ]
-    }
+    },
+    "img": "media/tag03-titanic/seg01.jpg"
    },
    {
     "text": "Und es gibt nur zwanzig Rettungsboote. Platz für etwa 1178 Menschen. An Bord sind über 2200.",
@@ -340,7 +342,8 @@
        "2.224"
       ]
      ]
-    }
+    },
+    "img": "media/tag03-titanic/seg02.jpg"
    },
    {
     "text": "Trotzdem legen die ersten Boote halb leer ab. Viele halten das große Schiff für sicherer.",
@@ -349,7 +352,8 @@
     "card": {
      "kicker": "FEHLER #1",
      "title": "HALBLEERE BOOTE"
-    }
+    },
+    "img": "media/tag03-titanic/seg03.jpg"
    },
    {
     "text": "2:20 Uhr. Die Titanic versinkt. Das Wasser hat minus zwei Grad.",
@@ -361,7 +365,8 @@
     },
     "fx": [
      "dark"
-    ]
+    ],
+    "img": "media/tag03-titanic/seg04.jpg"
    },
    {
     "text": "Nur etwa 700 Menschen überleben. Hättest du einen Platz im Boot bekommen?",
@@ -370,7 +375,8 @@
     "card": {
      "kicker": "FRAGE",
      "title": "HÄTTEST DU ÜBERLEBT?"
-    }
+    },
+    "img": "media/tag03-titanic/seg05.jpg"
    }
   ],
   "hook": true,
@@ -382,6 +388,9 @@
   "series": "WAS WÄRE WENN · TAG 3/30",
   "next": "Was wäre, wenn das Internet 7 Tage ausfällt?",
   "word_count": 79,
+  "photo_credits": [
+   "Wikimedia Commons"
+  ],
   "hashtags": [
    "#titanic",
    "#geschichte",

@@ -1,6 +1,6 @@
 import "@fontsource/anton";
 import React, { useMemo } from "react";
-import { AbsoluteFill, Sequence, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { FPS, H, Props, W, clamp, easeOut, hashStr, parseScene, rng } from "./lib";
 import { renderScene, You } from "./scenes";
 import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, TopShade, Vignette, chunkWords } from "./ui";
@@ -58,11 +58,19 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
       <AbsoluteFill style={{ transform: `translate(${sx + panX + (glitch ? 14 : 0)}px, ${sy}px) scale(${push + punch})`, filter: glitch ? "hue-rotate(40deg) saturate(1.6)" : undefined }}>
-        <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-          {renderScene(preset, { flags, t, g, accent: day.accent, seed, label: seg.map?.label, sub: seg.map?.sub })}
-          {seg.you && <You g={g} accent={day.accent} x={preset === "room" ? 360 : 300} y={1700} s={0.95} />}
-        </svg>
+        {seg.img ? (
+          // Plan B: echtes Foto mit Ken-Burns-Schwenk (Richtung wechselt pro Segment)
+          <Img src={staticFile(seg.img)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, objectFit: "cover",
+            objectPosition: `${i % 2 ? 70 - 40 * clamp(t / Math.max(1, dur)) : 30 + 40 * clamp(t / Math.max(1, dur))}% 50%`,
+            transform: `scale(${1.04 + 0.06 * clamp(t / Math.max(1, dur))})`, filter: "contrast(1.12) saturate(1.08)" }} />
+        ) : (
+          <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+            {renderScene(preset, { flags, t, g, accent: day.accent, seed, label: seg.map?.label, sub: seg.map?.sub })}
+            {seg.you && <You g={g} accent={day.accent} x={preset === "room" ? 360 : 300} y={1700} s={0.95} />}
+          </svg>
+        )}
       </AbsoluteFill>
+      {seg.img && <AbsoluteFill style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 30%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.7) 100%)" }} />}
       {glitch && <AbsoluteFill style={{ background: "linear-gradient(transparent 40%, rgba(255,0,80,0.18) 41%, transparent 44%, transparent 70%, rgba(0,255,220,0.15) 71%, transparent 73%)" }} />}
       {fx.includes("ash") && <Particles kind="ash" g={g} seed={seed} />}
       {fx.includes("snow") && <Particles kind="snow" g={g} seed={seed} />}

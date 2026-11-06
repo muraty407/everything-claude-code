@@ -79,6 +79,7 @@ export type Seg = {
   fx?: string[];
   voice?: string;
   you?: boolean;
+  img?: string; // Plan B: echtes Foto (Pfad in public/), ersetzt die Grafik-Szene
 };
 
 export type Day = {
