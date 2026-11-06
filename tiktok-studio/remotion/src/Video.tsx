@@ -10,13 +10,13 @@ const HOOK_DUR = 2.8; // Sekunden, die der Hook-Titel am Anfang steht
 
 // Folgen-Button: erscheint ab ~45 % des Videos für 2,6 s und zeigt auf TikToks echten
 // Folgen-Knopf (Profilbild mit „+“ rechts, ca. y = 1000 px). Nicht am Anfang → schadet sonst der Retention.
-const FollowButton: React.FC<{ time: number; start: number; accent: string; label: string }> = ({ time, start, accent, label }) => {
+const FollowButton: React.FC<{ time: number; start: number; accent: string; label: string; top?: number }> = ({ time, start, accent, label, top = 965 }) => {
   const t = time - start;
   if (t < 0 || t > 2.6) return null;
   const a = easeOut(t / 0.25) * clamp((2.6 - t) / 0.25);
   const tap = Math.max(0, Math.sin(t * 9)) * (t > 0.6 ? 1 : 0); // „Antippen“-Puls
   return (
-    <div style={{ position: "absolute", right: 140, top: 965, display: "flex", alignItems: "center", gap: 18, opacity: a, transform: `translateX(${(1 - a) * 80}px)` }}>
+    <div style={{ position: "absolute", right: 140, top, display: "flex", alignItems: "center", gap: 18, opacity: a, transform: `translateX(${(1 - a) * 80}px)` }}>
       <div style={{ background: accent, color: "#fff", fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 36, letterSpacing: 1, padding: "16px 26px", borderRadius: 60, boxShadow: "0 10px 30px #000a", display: "flex", alignItems: "center", gap: 14, transform: `scale(${1 + 0.06 * tap})` }}>
         <span style={{ fontSize: 44 }}>🔔</span>{label}
       </div>
@@ -148,7 +148,8 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
       {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
       {day.hook && <FollowButton time={time} start={Math.max(HOOK_DUR + 3, total * 0.45)} accent={day.accent}
-        label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"} />}
+        label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"}
+        top={seg.scene === "map" ? 1250 : 965} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>
   );
