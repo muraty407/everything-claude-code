@@ -390,7 +390,7 @@ OVERRIDES = {
     ],
     "gammablitz": [
         S("Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum.",
-          "space:grb", c="00:00", ctx="TAG 30 · DAS FINALE"),
+          "space:grb", c="00:00", ctx="WAS WÄRE WENN · UNIVERSUM"),
         S("In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren.",
           "space:grb", c="00:10", big=("SEKUNDEN", "= MILLIARDEN SONNENJAHRE")),
         S("Aus der Nähe könnte er einen großen Teil der Ozonschicht zerstören.",
@@ -399,7 +399,7 @@ OVERRIDES = {
           "city:day", c="MONAT 1", fx="red", you=True),
         S("Manche Forscher vermuten: So etwas könnte vor 440 Millionen Jahren ein Massensterben ausgelöst haben.",
           "underwater:shallow", c="−440 MIO. J.", big=("440 MIO.", "JAHRE HER")),
-        S("Das war Tag dreißig. Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.",
+        S("Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.",
           "space:stars", c="—", card=("DANKE!", "DEIN NÄCHSTES SZENARIO?")),
     ],
 }

@@ -238,7 +238,7 @@ DAYS = [
     # ------------------------------------------------------------------ 30
     V("gammablitz", "Was wäre, wenn ein Gammablitz die Erde trifft?", "#c77dff",
       ("NACH DEM BLITZ", None),
-      ("GAMMA", "BLITZ", "FINALE", "WAS WÄRE WENN", "space:grb"),
+      ("GAMMA", "BLITZ", "UNIVERSUM", "WAS WÄRE WENN", "space:grb"),
       "Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥 #waswärewenn",
       ["gammablitz", "weltall", "physik", "wissen"],
       [

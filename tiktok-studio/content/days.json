@@ -3253,7 +3253,7 @@
   "thumb": {
    "top": "GAMMA",
    "bottom": "BLITZ",
-   "tag": "FINALE",
+   "tag": "UNIVERSUM",
    "kicker": "WAS WÄRE WENN",
    "scene": "space:grb"
   },
@@ -3269,7 +3269,7 @@
     "text": "Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum.",
     "scene": "space:grb",
     "clock": "00:00",
-    "ctx": "TAG 30 · DAS FINALE"
+    "ctx": "WAS WÄRE WENN · UNIVERSUM"
    },
    {
     "text": "In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren.",
@@ -3311,7 +3311,7 @@
     }
    },
    {
-    "text": "Das war Tag dreißig. Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.",
+    "text": "Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.",
     "scene": "space:stars",
     "clock": "—",
     "card": {
@@ -3328,7 +3328,7 @@
   "post_time": "17:00",
   "series": "WAS WÄRE WENN · TAG 30/30",
   "next": null,
-  "word_count": 74,
+  "word_count": 70,
   "hashtags": [
    "#gammablitz",
    "#weltall",

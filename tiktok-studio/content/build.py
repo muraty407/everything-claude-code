@@ -23,6 +23,7 @@ from days_11_20 import DAYS as D2  # noqa: E402
 from days_21_30 import DAYS as D3  # noqa: E402
 from days_b import DAYS_B  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
+import schedule_order  # noqa: E402
 
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 # Posting-Zeiten (Wunsch des Kanals). Nach ~2 Wochen mit Analytics → Follower-Aktivität prüfen.
@@ -95,12 +96,35 @@ def main():
                             nxt=DAYS_B[k]["title"] if k < len(DAYS_B) else None,
                             badge=f"EXTRA {k}/30", brand="ZEITZEUGE", next_label="MORGEN · EXTRA"))
 
-    for name, data in (("days.json", out), ("days_b.json", out_b)):
+    # ---- Neuer Gesamtplan ab 07.11. (schedule.json) – eine Liste, zwei Slots pro Tag
+    pool = {d["slug"]: d for d in out + out_b}
+    slots = []
+    day0 = dt.date.fromisoformat(schedule_order.START)
+    for k, pair in enumerate(schedule_order.ORDER):
+        date = day0 + dt.timedelta(days=k)
+        wk = date.weekday() >= 5
+        for which, slug in zip(("früh", "abends"), pair):
+            if slug:
+                slots.append((date, ("11:00" if wk else "12:00") if which == "früh" else ("18:00" if wk else "17:00"), slug))
+    assert len({s for _, _, s in slots}) == len(slots), "Thema doppelt im Plan"
+    schedule = []
+    for n, (date, time, slug) in enumerate(slots):
+        num = schedule_order.FIRST_EPISODE + n
+        src = {k: v for k, v in pool[slug].items() if k not in ("photo_credits",)}
+        nxt = pool[slots[n + 1][2]]["title"] if n + 1 < len(slots) else None
+        e = enrich(src, day=num, id_=f"f{num:02d}-{slug}", date=date, post_time=time,
+                   series=f"ZEITZEUGE · FOLGE {num}", nxt=nxt, badge=f"FOLGE {num}", brand="ZEITZEUGE",
+                   next_label="ALS NÄCHSTES · FOLGE")
+        e["hook"] = True
+        schedule.append(e)
+
+    for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
 
     # ---- Plan
-    allp = sorted(out + out_b, key=lambda d: (d["date"], d["post_time"]))
+    posted = [d for d in out[:3]] + [d for d in out_b[:2]]  # bereits online
+    allp = sorted(posted, key=lambda d: (d["date"], d["post_time"])) + schedule
     os.makedirs(os.path.join(ROOT, "plan"), exist_ok=True)
     lines = [
         "# Upload-Plan · ZEITZEUGE – „Was wäre wenn“ (2 Videos pro Tag)",
@@ -133,7 +157,7 @@ def main():
         ]
     with open(os.path.join(ROOT, "plan", "30-TAGE-PLAN.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"Slot A: {len(out)} · Slot B: {len(out_b)} · Ø Wörter B: {sum(d['word_count'] for d in out_b) / 30:.0f}")
+    print(f"Plan: {len(posted)} online + {len(schedule)} geplant (Folge {schedule[0]['day']}–{schedule[-1]['day']}, bis {schedule[-1]['date']})")
 
 
 if __name__ == "__main__":

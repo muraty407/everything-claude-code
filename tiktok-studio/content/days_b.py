@@ -591,7 +591,7 @@ DAYS_B = [
     # 30 -----------------------------------------------------------------
     V("alien-signal", "Was wäre, wenn heute ein Signal von Aliens kommt?", "#7c5cff",
       ("NACH DEM SIGNAL", None),
-      ("SIGNAL VON", "ALIENS", "FINALE", "WAS WÄRE WENN", "space:stars"),
+      ("SIGNAL VON", "ALIENS", "SETI", "WAS WÄRE WENN", "space:stars"),
       "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽",
       ["aliens", "weltall", "seti", "wissen"],
       [
