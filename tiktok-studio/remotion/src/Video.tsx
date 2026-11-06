@@ -8,6 +8,27 @@ import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, To
 const OVERLAP = 0.18; // Sekunden Überblendung zwischen Szenen
 const HOOK_DUR = 2.8; // Sekunden, die der Hook-Titel am Anfang steht
 
+// Folgen-Button: erscheint ab ~45 % des Videos für 2,6 s und zeigt auf TikToks echten
+// Folgen-Knopf (Profilbild mit „+“ rechts, ca. y = 1000 px). Nicht am Anfang → schadet sonst der Retention.
+const FollowButton: React.FC<{ time: number; start: number; accent: string; label: string }> = ({ time, start, accent, label }) => {
+  const t = time - start;
+  if (t < 0 || t > 2.6) return null;
+  const a = easeOut(t / 0.25) * clamp((2.6 - t) / 0.25);
+  const tap = Math.max(0, Math.sin(t * 9)) * (t > 0.6 ? 1 : 0); // „Antippen“-Puls
+  return (
+    <div style={{ position: "absolute", right: 140, top: 965, display: "flex", alignItems: "center", gap: 18, opacity: a, transform: `translateX(${(1 - a) * 80}px)` }}>
+      <div style={{ background: accent, color: "#fff", fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 36, letterSpacing: 1, padding: "16px 26px", borderRadius: 60, boxShadow: "0 10px 30px #000a", display: "flex", alignItems: "center", gap: 14, transform: `scale(${1 + 0.06 * tap})` }}>
+        <span style={{ fontSize: 44 }}>🔔</span>{label}
+      </div>
+      <svg width="110" height="90" viewBox="0 0 110 90" style={{ transform: `translateX(${8 * tap}px)` }}>
+        <path d="M5 45 H80" stroke="#000" strokeWidth="22" strokeLinecap="round" />
+        <path d="M5 45 H80" stroke="#fff" strokeWidth="12" strokeLinecap="round" />
+        <path d="M62 15 L100 45 L62 75 Z" fill="#fff" stroke="#000" strokeWidth="6" strokeLinejoin="round" />
+      </svg>
+    </div>
+  );
+};
+
 // Großer Hook-Titel ab Frame 0 (wie das Cover) – entscheidet über die ersten 3 Sekunden
 const HookTitle: React.FC<{ top: string; bottom: string; accent: string; time: number }> = ({ top, bottom, accent, time }) => {
   if (time >= HOOK_DUR) return null;
@@ -126,6 +147,8 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       {!(day.hook && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
       {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
       {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
+      {day.hook && <FollowButton time={time} start={Math.max(HOOK_DUR + 3, total * 0.45)} accent={day.accent}
+        label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>
   );
