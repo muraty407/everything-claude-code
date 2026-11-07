@@ -194,7 +194,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Du bist auf der Titanic
 
-#sonne #weltall #physik #zeitzeuge #geschichte
+#sonne #weltall #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -233,7 +233,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Flight 19 – Teil 1
 
-#schlaf #körper #wissen #zeitzeuge #geschichte
+#schlaf #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -311,7 +311,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Flight 19 – Teil 1
 
-#blitz #gewitter #wissen #zeitzeuge #geschichte
+#blitz #gewitter #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -350,7 +350,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn du in eiskaltes Wasser fällst?
 
-#wasser #körper #wissen #zeitzeuge #geschichte
+#wasser #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -428,7 +428,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du 30 Tage nichts isst?
 
-#eis #überleben #wissen #zeitzeuge #geschichte
+#eis #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -467,7 +467,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Flight 19 – Teil 2
 
-#internet #blackout #deutschland #zeitzeuge #geschichte
+#internet #blackout #deutschland #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -545,7 +545,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
 
-#fasten #körper #wissen #zeitzeuge #geschichte
+#fasten #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -584,7 +584,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
 
-#treibsand #überleben #wissen #zeitzeuge #geschichte
+#treibsand #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -623,7 +623,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn dich eine Lawine verschüttet?
 
-#mars #weltall #nasa #zeitzeuge #geschichte
+#mars #weltall #nasa #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -662,7 +662,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn dich ein Hai angreift?
 
-#auto #überleben #wissen #zeitzeuge #geschichte
+#auto #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -701,7 +701,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
 
-#lawine #ski #berge #zeitzeuge #geschichte
+#lawine #ski #berge #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -740,7 +740,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du in ein Schwarzes Loch fällst?
 
-#blackout #stromausfall #vorsorge #zeitzeuge #geschichte
+#blackout #stromausfall #vorsorge #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -779,7 +779,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn du im Flugzeug die Tür öffnest?
 
-#hai #meer #überleben #zeitzeuge #geschichte
+#hai #meer #überleben #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -818,7 +818,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Gefangen in der Höhle – Teil 1
 
-#schwarzesloch #weltall #physik #zeitzeuge #geschichte
+#schwarzesloch #weltall #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -896,7 +896,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn im Aufzug das Seil reißt?
 
-#flugzeug #fliegen #wissen #zeitzeuge #geschichte
+#flugzeug #fliegen #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -935,7 +935,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Die Höhlenrettung – Teil 2
 
-#everest #berge #körper #zeitzeuge #geschichte
+#everest #berge #körper #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1013,7 +1013,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn du die Luft anhältst?
 
-#aufzug #wissen #technik #zeitzeuge #geschichte
+#aufzug #wissen #technik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1052,7 +1052,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?
 
-#ameise #physik #natur #zeitzeuge #geschichte
+#ameise #physik #natur #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1091,7 +1091,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du in den Marianengraben tauchst?
 
-#erde #physik #wissen #zeitzeuge #geschichte
+#erde #physik #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1130,7 +1130,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert in deinem Gehirn, wenn du verliebt bist?
 
-#körper #rekord #wissen #zeitzeuge #geschichte
+#körper #rekord #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1169,7 +1169,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: 33 Bergleute unter Tage – Teil 1
 
-#marianengraben #ozean #tiefsee #zeitzeuge #geschichte
+#marianengraben #ozean #tiefsee #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1247,7 +1247,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du im Lotto gewinnst?
 
-#liebe #gehirn #wissen #zeitzeuge #geschichte
+#liebe #gehirn #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1286,7 +1286,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: 33 Bergleute unter Tage – Teil 2
 
-#venus #weltall #planeten #zeitzeuge #geschichte
+#venus #weltall #planeten #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1364,7 +1364,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn du zu viel Kaffee trinkst?
 
-#lotto #geld #wissen #zeitzeuge #geschichte
+#lotto #geld #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1403,7 +1403,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn der Mond verschwindet?
 
-#bienen #natur #umwelt #zeitzeuge #geschichte
+#bienen #natur #umwelt #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1442,7 +1442,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du so schnell wärst wie das Licht?
 
-#mond #weltall #gezeiten #zeitzeuge #geschichte
+#mond #weltall #gezeiten #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1481,7 +1481,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Du bist allein im Wald verloren – was zuerst?
 
-#kaffee #körper #wissen #zeitzeuge #geschichte
+#kaffee #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1520,7 +1520,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
 
-#lichtgeschwindigkeit #einstein #physik #zeitzeuge #geschichte
+#lichtgeschwindigkeit #einstein #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1559,7 +1559,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn alle Menschen verschwinden?
 
-#asteroid #dinosaurier #weltall #zeitzeuge #geschichte
+#asteroid #dinosaurier #weltall #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1598,7 +1598,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was tust du, wenn die Erde unter dir bebt?
 
-#überleben #wald #wissen #zeitzeuge #geschichte
+#überleben #wald #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1637,7 +1637,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Du bist Juri Gagarin – Teil 1
 
-#erdeohnemenschen #natur #wissen #zeitzeuge #geschichte
+#erdeohnemenschen #natur #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1715,7 +1715,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert mit dir bei 50 Grad?
 
-#erdbeben #überleben #wissen #zeitzeuge #geschichte
+#erdbeben #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1754,7 +1754,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Du bist Juri Gagarin – Teil 2
 
-#yellowstone #supervulkan #vulkan #zeitzeuge #geschichte
+#yellowstone #supervulkan #vulkan #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1832,7 +1832,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du 30 Tage nur Fast Food isst?
 
-#hitze #körper #wissen #zeitzeuge #geschichte
+#hitze #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1871,7 +1871,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn die Antarktis komplett schmilzt?
 
-#eifel #vulkan #deutschland #zeitzeuge #geschichte
+#eifel #vulkan #deutschland #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1910,7 +1910,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du auf dem Jupiter landen willst?
 
-#antarktis #klima #meeresspiegel #zeitzeuge #geschichte
+#antarktis #klima #meeresspiegel #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1949,7 +1949,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du durch die Erde fällst?
 
-#fastfood #körper #experiment #zeitzeuge #geschichte
+#fastfood #körper #experiment #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -1988,7 +1988,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Shackleton im Eis – Teil 1
 
-#jupiter #weltall #planeten #zeitzeuge #geschichte
+#jupiter #weltall #planeten #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2066,7 +2066,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du auf dem Mond springst?
 
-#physik #erde #wissen #zeitzeuge #geschichte
+#physik #erde #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2105,7 +2105,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Shackleton im Eis – Teil 2
 
-#sonnensturm #polarlichter #weltall #zeitzeuge #geschichte
+#sonnensturm #polarlichter #weltall #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2183,7 +2183,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn du bei minus 60 Grad lebst?
 
-#mond #weltall #physik #zeitzeuge #geschichte
+#mond #weltall #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2222,7 +2222,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn der Golfstrom stoppt?
 
-#aliens #weltall #seti #zeitzeuge #geschichte
+#aliens #weltall #seti #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2261,7 +2261,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was wäre, wenn ein Gammablitz die Erde trifft?
 
-#golfstrom #klima #europa #zeitzeuge #geschichte
+#golfstrom #klima #europa #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2300,7 +2300,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Jemand bricht vor dir zusammen – was tust du?
 
-#kälte #sibirien #wissen #zeitzeuge #geschichte
+#kälte #sibirien #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2339,7 +2339,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Du bist in Prypjat – Tschernobyl 1986
 
-#gammablitz #weltall #physik #zeitzeuge #geschichte
+#gammablitz #weltall #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2417,7 +2417,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was passiert, wenn du aus 27 Metern ins Wasser springst?
 
-#erstehilfe #notfall #wissen #zeitzeuge #geschichte
+#erstehilfe #notfall #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2534,7 +2534,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Was macht ein Jahr im Weltall mit dir?
 
-#klippenspringen #physik #wissen #zeitzeuge #geschichte
+#klippenspringen #physik #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2651,7 +2651,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Das Meer zieht sich zurück – was jetzt?
 
-#weltall #körper #wissen #zeitzeuge #geschichte
+#weltall #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2768,7 +2768,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: 208 Sekunden: Notlandung auf dem Fluss
 
-#tsunami #überleben #wahregeschichte #zeitzeuge #geschichte
+#tsunami #überleben #wahregeschichte #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -2885,7 +2885,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: 9 Tage allein in der Sahara
 
-#flugzeug #wahregeschichte #newyork #zeitzeuge #geschichte
+#flugzeug #wahregeschichte #newyork #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -3002,7 +3002,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Sie fiel 10.000 Meter – und überlebte
 
-#wüste #überleben #wahregeschichte #zeitzeuge #geschichte
+#wüste #überleben #wahregeschichte #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -3119,7 +3119,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Zwei Monate in einer Höhle ohne Uhr
 
-#rekord #wahregeschichte #flugzeug #zeitzeuge #geschichte
+#rekord #wahregeschichte #flugzeug #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -3236,7 +3236,7 @@ Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 Als Nächstes: Er sprang aus 39 Kilometern Höhe
 
-#experiment #wahregeschichte #zeit #zeitzeuge #geschichte
+#experiment #wahregeschichte #zeit #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
@@ -3352,7 +3352,7 @@ Er springt aus dem Rand des Weltalls – und durchbricht ohne Flugzeug die Schal
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
 
-#rekord #wahregeschichte #weltall #zeitzeuge #geschichte
+#rekord #wahregeschichte #weltall #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**

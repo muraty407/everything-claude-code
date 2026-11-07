@@ -57,7 +57,7 @@ def enrich(d, *, day, id_, date, post_time, series, nxt, badge=None, brand=None,
     # TikTok: 5 passende Hashtags statt #fyp/#fürdich (siehe Analyse Tag 1)
     d["hashtags"] = topic + ["#waswärewenn", "#zeitzeuge"]
     # Instagram Reels: 3–5 Hashtags
-    ig_tags = topic + ["#zeitzeuge", "#wissen" if "#geschichte" in topic else "#geschichte"]
+    ig_tags = topic + ["#zeitzeuge", "#wissen" if "#geschichte" in topic else ("#geschichte" if "geschichte" in d["tags"] else "#wissenschaft")]
     d["ig_caption"] = (base + "\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳"
                        + ("\nAls Nächstes: " + nxt if nxt else "") + "\n\n" + " ".join(ig_tags))
     # YouTube Shorts: Titel ≤ 100 Zeichen, Beschreibung mit #shorts
