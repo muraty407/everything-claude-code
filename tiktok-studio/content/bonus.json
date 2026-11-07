@@ -220,7 +220,7 @@
   "weekday": "Sa",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 2",
-  "next": null,
+  "next": "Was wäre, wenn du 30 Tage nichts isst?",
   "word_count": 96,
   "badge": "BONUS 2",
   "brand": "ZEITZEUGE",
@@ -232,8 +232,2724 @@
    "#waswärewenn",
    "#zeitzeuge"
   ],
-  "ig_caption": "Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#eis #überleben #wissen #zeitzeuge #geschichte",
+  "ig_caption": "Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du 30 Tage nichts isst?\n\n#eis #überleben #wissen #zeitzeuge #geschichte",
   "yt_title": "Was passiert, wenn du in eiskaltes Wasser fällst? #shorts",
   "yt_description": "Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?\n\n#eis #überleben #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "ohne-essen",
+  "title": "Was wäre, wenn du 30 Tage nichts isst?",
+  "accent": "#fb8500",
+  "hud": {
+   "label": "OHNE ESSEN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "30 TAGE",
+   "bottom": "NICHTS ESSEN",
+   "tag": "DEIN KÖRPER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "room:day"
+  },
+  "caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️",
+  "tags": [
+   "fasten",
+   "körper",
+   "wissen",
+   "gesundheit"
+  ],
+  "segments": [
+   {
+    "text": "Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht.",
+    "scene": "room:day",
+    "clock": "TAG 1",
+    "ctx": "DEIN KÖRPER · OHNE ESSEN",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn.",
+    "scene": "room:day",
+    "clock": "TAG 3",
+    "card": {
+     "kicker": "UMSCHALTEN",
+     "title": "FETT WIRD ZU ENERGIE"
+    }
+   },
+   {
+    "text": "Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
+    "scene": "room:dark",
+    "clock": "TAG 7",
+    "stat": {
+     "title": "TAG 7",
+     "rows": [
+      [
+       "HUNGER",
+       "LEISER"
+      ],
+      [
+       "KRAFT",
+       "SINKT"
+      ],
+      [
+       "KÄLTE",
+       "STEIGT"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben.",
+    "scene": "room:dark",
+    "clock": "TAG 30",
+    "big": {
+     "value": "WOCHEN",
+     "sub": "OHNE ESSEN – MIT WASSER"
+    }
+   },
+   {
+    "text": "Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage.",
+    "scene": "city:day",
+    "clock": "TAG 382",
+    "big": {
+     "value": "382 TAGE",
+     "sub": "UNTER ÄRZTLICHER AUFSICHT"
+    }
+   },
+   {
+    "text": "Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE OHNE ESSEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 3,
+  "id": "b03-ohne-essen",
+  "date": "2026-11-08",
+  "weekday": "So",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 3",
+  "next": "Was tust du, wenn dein Auto ins Wasser stürzt?",
+  "word_count": 86,
+  "badge": "BONUS 3",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#fasten",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?\n\n#fasten #körper #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du 30 Tage nichts isst? #shorts",
+  "yt_description": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\n#fasten #körper #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "auto-unter-wasser",
+  "title": "Was tust du, wenn dein Auto ins Wasser stürzt?",
+  "accent": "#00b4d8",
+  "hud": {
+   "label": "IM WASSER",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "AUTO",
+   "bottom": "SINKT",
+   "tag": "60 SEKUNDEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "underwater:dark"
+  },
+  "caption": "Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗",
+  "tags": [
+   "auto",
+   "überleben",
+   "wissen",
+   "notfall"
+  ],
+  "segments": [
+   {
+    "text": "Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen.",
+    "scene": "underwater:dark",
+    "clock": "00:00",
+    "ctx": "ÜBERLEBEN · AUTO IM WASSER",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Viele versuchen zuerst die Tür. Aber gegen den Wasserdruck bekommst du sie kaum auf.",
+    "scene": "underwater:dark",
+    "clock": "00:10",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "DIE TÜR"
+    }
+   },
+   {
+    "text": "Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen.",
+    "scene": "underwater:dark",
+    "clock": "00:15",
+    "stat": {
+     "title": "DIE REGEL",
+     "rows": [
+      [
+       "1",
+       "GURT"
+      ],
+      [
+       "2",
+       "FENSTER"
+      ],
+      [
+       "3",
+       "RAUS"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Elektrische Fenster funktionieren oft noch kurz. Wenn nicht: Nothammer auf die Seitenscheibe, nicht auf die Frontscheibe.",
+    "scene": "underwater:dark",
+    "clock": "00:30",
+    "card": {
+     "kicker": "TIPP",
+     "title": "NOTHAMMER – SEITENSCHEIBE"
+    }
+   },
+   {
+    "text": "Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen.",
+    "scene": "underwater:dark",
+    "clock": "01:00",
+    "big": {
+     "value": "1–2 MIN",
+     "sub": "BIS DAS AUTO SINKT"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Hast du einen Nothammer im Auto? Schick das Video jemandem, der viel fährt.",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HAST DU EINEN NOTHAMMER?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 4,
+  "id": "b04-auto-unter-wasser",
+  "date": "2026-11-09",
+  "weekday": "Mo",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 4",
+  "next": "Was wäre, wenn dich ein Hai angreift?",
+  "word_count": 87,
+  "badge": "BONUS 4",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#auto",
+   "#überleben",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn dich ein Hai angreift?\n\n#auto #überleben #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was tust du, wenn dein Auto ins Wasser stürzt? #shorts",
+  "yt_description": "Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗\n\n#auto #überleben #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "hai",
+  "title": "Was wäre, wenn dich ein Hai angreift?",
+  "accent": "#0096c7",
+  "hud": {
+   "label": "IM WASSER",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "HAI",
+   "bottom": "ANGRIFF",
+   "tag": "ÜBERLEBEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "underwater:day"
+  },
+  "caption": "Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈",
+  "tags": [
+   "hai",
+   "meer",
+   "überleben",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf.",
+    "scene": "ocean:day",
+    "clock": "00:00",
+    "ctx": "ÜBERLEBEN · IM MEER",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Erst mal: Haiangriffe sind extrem selten. Weltweit sterben pro Jahr meist weniger als zehn Menschen daran.",
+    "scene": "underwater:day",
+    "clock": "00:05",
+    "big": {
+     "value": "< 10",
+     "sub": "TOTE PRO JAHR WELTWEIT"
+    }
+   },
+   {
+    "text": "Nicht wild strampeln, nicht wegdrehen. Behalte den Hai im Blick und schwimm ruhig Richtung Ufer.",
+    "scene": "underwater:day",
+    "clock": "00:10",
+    "card": {
+     "kicker": "REGEL 1",
+     "title": "RUHIG BLEIBEN"
+    }
+   },
+   {
+    "text": "Greift er an, wehr dich. Ziel auf die Augen und die Kiemen. Das sind seine empfindlichsten Stellen.",
+    "scene": "underwater:day",
+    "clock": "00:20",
+    "card": {
+     "kicker": "REGEL 2",
+     "title": "AUGEN & KIEMEN"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie.",
+    "scene": "underwater:dark",
+    "clock": "—",
+    "big": {
+     "value": "≈ 100 MIO.",
+     "sub": "HAIE PRO JAHR – DURCH MENSCHEN"
+    }
+   },
+   {
+    "text": "Also, wer ist hier eigentlich gefährlicher? Würdest du noch im Meer schwimmen?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU NOCH SCHWIMMEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 5,
+  "id": "b05-hai",
+  "date": "2026-11-10",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 5",
+  "next": "Was passiert, wenn du im Flugzeug die Tür öffnest?",
+  "word_count": 87,
+  "badge": "BONUS 5",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#hai",
+   "#meer",
+   "#überleben",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert, wenn du im Flugzeug die Tür öffnest?\n\n#hai #meer #überleben #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn dich ein Hai angreift? #shorts",
+  "yt_description": "Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈\n\n#hai #meer #überleben #zeitzeuge #shorts"
+ },
+ {
+  "slug": "flugzeugtuer",
+  "title": "Was passiert, wenn du im Flugzeug die Tür öffnest?",
+  "accent": "#e63946",
+  "hud": {
+   "label": "FLUGHÖHE",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "TÜR AUF",
+   "bottom": "IN 11 KM",
+   "tag": "FLUGZEUG",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:earth"
+  },
+  "caption": "Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️",
+  "tags": [
+   "flugzeug",
+   "fliegen",
+   "wissen",
+   "physik"
+  ],
+  "segments": [
+   {
+    "text": "Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türhebel.",
+    "scene": "space:earth",
+    "clock": "11.000 M",
+    "ctx": "REISEFLUG · 11 KM HÖHE",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Keine Panik. Er schafft es nicht. Der Druck in der Kabine presst die Tür mit mehreren Tonnen in ihren Rahmen.",
+    "scene": "space:earth",
+    "clock": "11.000 M",
+    "big": {
+     "value": "TONNEN",
+     "sub": "DRUCK AUF DER TÜR"
+    }
+   },
+   {
+    "text": "Viele Flugzeugtüren müssen sich erst nach innen bewegen. Gegen diesen Druck hat kein Mensch eine Chance.",
+    "scene": "space:earth",
+    "clock": "11.000 M",
+    "card": {
+     "kicker": "TRICK",
+     "title": "DIE TÜR GEHT NACH INNEN"
+    }
+   },
+   {
+    "text": "Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst.",
+    "scene": "space:earth",
+    "clock": "11.000 M",
+    "big": {
+     "value": "15–20 S",
+     "sub": "BIS DU NICHT MEHR KLAR DENKST"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Darum sagt die Crew immer: Erst die eigene Maske aufsetzen, dann anderen helfen.",
+    "scene": "space:earth",
+    "clock": "11.000 M",
+    "card": {
+     "kicker": "REGEL",
+     "title": "ERST DEINE MASKE"
+    }
+   },
+   {
+    "text": "Hörst du bei der Sicherheitsansage eigentlich zu? Sei ehrlich.",
+    "scene": "space:earth",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÖRST DU ZU?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 6,
+  "id": "b06-flugzeugtuer",
+  "date": "2026-11-11",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 6",
+  "next": "Was passiert, wenn im Aufzug das Seil reißt?",
+  "word_count": 99,
+  "badge": "BONUS 6",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#flugzeug",
+   "#fliegen",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert, wenn im Aufzug das Seil reißt?\n\n#flugzeug #fliegen #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert, wenn du im Flugzeug die Tür öffnest? #shorts",
+  "yt_description": "Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️\n\n#flugzeug #fliegen #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "aufzug-seil",
+  "title": "Was passiert, wenn im Aufzug das Seil reißt?",
+  "accent": "#ffb703",
+  "hud": {
+   "label": "IM AUFZUG",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "DAS SEIL",
+   "bottom": "REISST",
+   "tag": "AUFZUG",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:night"
+  },
+  "caption": "Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗",
+  "tags": [
+   "aufzug",
+   "wissen",
+   "technik",
+   "alltag"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerissen.",
+    "scene": "room:dark",
+    "clock": "00:00:00",
+    "ctx": "HOCHHAUS · 20. STOCK",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die gute Nachricht: Ein Aufzug hängt fast nie an nur einem Seil. Meist sind es vier bis acht Stahlseile.",
+    "scene": "city:night",
+    "clock": "00:00:01",
+    "stat": {
+     "title": "DEIN AUFZUG",
+     "rows": [
+      [
+       "STAHLSEILE",
+       "4–8"
+      ],
+      [
+       "JEDES HÄLT",
+       "DIE KABINE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und jedes einzelne Seil kann die Kabine allein tragen.",
+    "scene": "city:night",
+    "clock": "00:00:02",
+    "card": {
+     "kicker": "SICHERHEIT #1",
+     "title": "MEHRERE SEILE"
+    }
+   },
+   {
+    "text": "Reißen trotzdem alle, greift die Fangvorrichtung. Stahlkeile klemmen sich an die Schienen und bremsen dich ab.",
+    "scene": "city:night",
+    "clock": "00:00:03",
+    "card": {
+     "kicker": "SICHERHEIT #2",
+     "title": "FANGVORRICHTUNG"
+    }
+   },
+   {
+    "text": "Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen.",
+    "scene": "city:day",
+    "clock": "1854",
+    "big": {
+     "value": "1854",
+     "sub": "OTIS ÜBERLEBT SEINEN EIGENEN TEST"
+    }
+   },
+   {
+    "text": "Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Hast du Angst im Aufzug?",
+    "scene": "room:dark",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HAST DU ANGST IM AUFZUG?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 7,
+  "id": "b07-aufzug-seil",
+  "date": "2026-11-12",
+  "weekday": "Do",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 7",
+  "next": "Was passiert, wenn du die Luft anhältst?",
+  "word_count": 93,
+  "badge": "BONUS 7",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#aufzug",
+   "#wissen",
+   "#technik",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert, wenn du die Luft anhältst?\n\n#aufzug #wissen #technik #zeitzeuge #geschichte",
+  "yt_title": "Was passiert, wenn im Aufzug das Seil reißt? #shorts",
+  "yt_description": "Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗\n\n#aufzug #wissen #technik #zeitzeuge #shorts"
+ },
+ {
+  "slug": "luft-anhalten",
+  "title": "Was passiert, wenn du die Luft anhältst?",
+  "accent": "#4cc9f0",
+  "hud": {
+   "label": "OHNE ATMEN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "24 MIN",
+   "bottom": "OHNE LUFT",
+   "tag": "REKORD",
+   "kicker": "DEIN KÖRPER",
+   "scene": "underwater:day"
+  },
+  "caption": "Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁",
+  "tags": [
+   "körper",
+   "rekord",
+   "wissen",
+   "tauchen"
+  ],
+  "segments": [
+   {
+    "text": "Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert.",
+    "scene": "underwater:day",
+    "clock": "00:00",
+    "ctx": "DEIN KÖRPER · OHNE ATMEN",
+    "you": true
+   },
+   {
+    "text": "Nach etwa einer Minute brennt es in der Brust. Aber nicht wegen Sauerstoffmangel, sondern wegen Kohlendioxid.",
+    "scene": "underwater:day",
+    "clock": "01:00",
+    "card": {
+     "kicker": "ÜBERRASCHUNG",
+     "title": "ES IST DAS CO₂"
+    }
+   },
+   {
+    "text": "Dein Herz wird langsamer. Das Blut zieht sich aus Armen und Beinen zurück, zu Herz und Gehirn.",
+    "scene": "underwater:dark",
+    "clock": "02:00",
+    "card": {
+     "kicker": "TAUCHREFLEX",
+     "title": "HERZ WIRD LANGSAMER"
+    }
+   },
+   {
+    "text": "Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden.",
+    "scene": "underwater:dark",
+    "clock": "05:00",
+    "big": {
+     "value": "4–6 MIN",
+     "sub": "DANN WIRD ES GEFÄHRLICH"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Der Weltrekord liegt trotzdem bei vierundzwanzig Minuten. Budimir Šobat atmete vorher reinen Sauerstoff ein.",
+    "scene": "underwater:day",
+    "clock": "24:37",
+    "big": {
+     "value": "24:37",
+     "sub": "WELTREKORD · MIT REINEM O₂"
+    }
+   },
+   {
+    "text": "Bitte nie allein unter Wasser üben. Wie lange hast du gerade durchgehalten?",
+    "scene": "underwater:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE HAST DU GESCHAFFT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 8,
+  "id": "b08-luft-anhalten",
+  "date": "2026-11-13",
+  "weekday": "Fr",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 8",
+  "next": "Was passiert in deinem Gehirn, wenn du verliebt bist?",
+  "word_count": 84,
+  "badge": "BONUS 8",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#körper",
+   "#rekord",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert in deinem Gehirn, wenn du verliebt bist?\n\n#körper #rekord #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert, wenn du die Luft anhältst? #shorts",
+  "yt_description": "Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁\n\n#körper #rekord #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "verliebt",
+  "title": "Was passiert in deinem Gehirn, wenn du verliebt bist?",
+  "accent": "#ff006e",
+  "hud": {
+   "label": "VERLIEBT SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "VERLIEBT",
+   "bottom": "IM KOPF",
+   "tag": "DEIN GEHIRN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:dusk"
+  },
+  "caption": "Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️",
+  "tags": [
+   "liebe",
+   "gehirn",
+   "wissen",
+   "psychologie"
+  ],
+  "segments": [
+   {
+    "text": "Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken.",
+    "scene": "city:dusk",
+    "clock": "TAG 1",
+    "ctx": "DEIN GEHIRN · VERLIEBT",
+    "you": true
+   },
+   {
+    "text": "In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken.",
+    "scene": "city:dusk",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "BOTENSTOFF",
+     "title": "DOPAMIN"
+    }
+   },
+   {
+    "text": "Gleichzeitig sinkt bei frisch Verliebten der Serotoninspiegel. Darum kreisen deine Gedanken ständig um diese Person.",
+    "scene": "city:night",
+    "clock": "TAG 7",
+    "card": {
+     "kicker": "BOTENSTOFF",
+     "title": "SEROTONIN SINKT"
+    }
+   },
+   {
+    "text": "Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger.",
+    "scene": "city:night",
+    "clock": "TAG 14",
+    "stat": {
+     "title": "DEIN KÖRPER",
+     "rows": [
+      [
+       "HERZ",
+       "RAST"
+      ],
+      [
+       "HÄNDE",
+       "SCHWITZEN"
+      ],
+      [
+       "HUNGER",
+       "WENIGER"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Später übernimmt Oxytocin, das Bindungshormon. Aus Verliebtheit wird dann Vertrauen.",
+    "scene": "city:day",
+    "clock": "MONATE",
+    "card": {
+     "kicker": "DANACH",
+     "title": "OXYTOCIN · BINDUNG"
+    }
+   },
+   {
+    "text": "Markier jemanden, der gerade verliebt ist.",
+    "scene": "city:dusk",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WER IST GERADE VERLIEBT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 9,
+  "id": "b09-verliebt",
+  "date": "2026-11-14",
+  "weekday": "Sa",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 9",
+  "next": "Was wäre, wenn du im Lotto gewinnst?",
+  "word_count": 75,
+  "badge": "BONUS 9",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#liebe",
+   "#gehirn",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du im Lotto gewinnst?\n\n#liebe #gehirn #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert in deinem Gehirn, wenn du verliebt bist? #shorts",
+  "yt_description": "Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️\n\n#liebe #gehirn #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "lotto",
+  "title": "Was wäre, wenn du im Lotto gewinnst?",
+  "accent": "#ffd60a",
+  "hud": {
+   "label": "NACH DEM GEWINN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "JACKPOT",
+   "bottom": "GEKNACKT",
+   "tag": "LOTTO",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:night"
+  },
+  "caption": "Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰",
+  "tags": [
+   "lotto",
+   "geld",
+   "wissen",
+   "alltag"
+  ],
+  "segments": [
+   {
+    "text": "Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt.",
+    "scene": "room:night",
+    "clock": "TAG 0",
+    "ctx": "SAMSTAG · LOTTOZIEHUNG",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Chance dafür liegt bei etwa eins zu hundertvierzig Millionen.",
+    "scene": "room:night",
+    "clock": "TAG 0",
+    "big": {
+     "value": "1 : 140 MIO.",
+     "sub": "DEINE CHANCE"
+    }
+   },
+   {
+    "text": "Der erste Rat von Experten: Erzähl es niemandem. Und kündige nicht sofort deinen Job.",
+    "scene": "room:day",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "REGEL 1",
+     "title": "ERST MAL SCHWEIGEN"
+    }
+   },
+   {
+    "text": "In Deutschland kannst du anonym bleiben. Die Lottogesellschaften nennen deinen Namen nicht.",
+    "scene": "city:day",
+    "clock": "TAG 2",
+    "card": {
+     "kicker": "GUT ZU WISSEN",
+     "title": "ANONYM BLEIBEN"
+    }
+   },
+   {
+    "text": "Und plötzlich melden sich Verwandte und Freunde, von denen du jahrelang nichts gehört hast.",
+    "scene": "city:day",
+    "clock": "TAG 30",
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Was wäre das Erste, was du dir kaufst? Schreib es in die Kommentare.",
+    "scene": "city:night",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS KAUFST DU ZUERST?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 10,
+  "id": "b10-lotto",
+  "date": "2026-11-15",
+  "weekday": "So",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 10",
+  "next": "Was passiert, wenn du zu viel Kaffee trinkst?",
+  "word_count": 73,
+  "badge": "BONUS 10",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#lotto",
+   "#geld",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert, wenn du zu viel Kaffee trinkst?\n\n#lotto #geld #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du im Lotto gewinnst? #shorts",
+  "yt_description": "Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰\n\n#lotto #geld #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "zu-viel-kaffee",
+  "title": "Was passiert, wenn du zu viel Kaffee trinkst?",
+  "accent": "#6f4518",
+  "hud": {
+   "label": "KOFFEIN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "10 TASSEN",
+   "bottom": "KAFFEE",
+   "tag": "DEIN KÖRPER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "room:day"
+  },
+  "caption": "Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕",
+  "tags": [
+   "kaffee",
+   "körper",
+   "wissen",
+   "gesundheit"
+  ],
+  "segments": [
+   {
+    "text": "Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen.",
+    "scene": "room:day",
+    "clock": "TASSE 10",
+    "ctx": "DEIN KÖRPER · KOFFEIN",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Koffein wirkt nach etwa einer halben Stunde. Es blockiert in deinem Gehirn das Signal für Müdigkeit.",
+    "scene": "room:day",
+    "clock": "TASSE 1",
+    "card": {
+     "kicker": "SO WIRKT ES",
+     "title": "MÜDIGKEIT BLOCKIERT"
+    }
+   },
+   {
+    "text": "Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee.",
+    "scene": "room:day",
+    "clock": "TASSE 4",
+    "big": {
+     "value": "400 MG",
+     "sub": "≈ 4 TASSEN PRO TAG"
+    }
+   },
+   {
+    "text": "Darüber: Zittern, Herzrasen, Unruhe, Schlafprobleme.",
+    "scene": "room:dark",
+    "clock": "TASSE 8",
+    "stat": {
+     "title": "ZU VIEL",
+     "rows": [
+      [
+       "HERZ",
+       "RAST"
+      ],
+      [
+       "HÄNDE",
+       "ZITTERN"
+      ],
+      [
+       "SCHLAF",
+       "WEG"
+      ]
+     ]
+    },
+    "fx": [
+     "glitch"
+    ]
+   },
+   {
+    "text": "Und die Hälfte des Koffeins ist nach etwa fünf Stunden noch in deinem Blut. Der Kaffee um siebzehn Uhr wirkt also noch beim Einschlafen.",
+    "scene": "room:night",
+    "clock": "22:00",
+    "card": {
+     "kicker": "FALLE",
+     "title": "KAFFEE AM NACHMITTAG"
+    }
+   },
+   {
+    "text": "Wie viele Tassen trinkst du am Tag?",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE VIELE TASSEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 11,
+  "id": "b11-zu-viel-kaffee",
+  "date": "2026-11-16",
+  "weekday": "Mo",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 11",
+  "next": "Du bist allein im Wald verloren – was zuerst?",
+  "word_count": 82,
+  "badge": "BONUS 11",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#kaffee",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist allein im Wald verloren – was zuerst?\n\n#kaffee #körper #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert, wenn du zu viel Kaffee trinkst? #shorts",
+  "yt_description": "Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕\n\n#kaffee #körper #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "regel-der-drei",
+  "title": "Du bist allein im Wald verloren – was zuerst?",
+  "accent": "#2d6a4f",
+  "hud": {
+   "label": "VERLOREN SEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "REGEL",
+   "bottom": "DER DREI",
+   "tag": "ÜBERLEBEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:dusk"
+  },
+  "caption": "Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲",
+  "tags": [
+   "überleben",
+   "wald",
+   "wissen",
+   "outdoor"
+  ],
+  "segments": [
+   {
+    "text": "Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad.",
+    "scene": "mountains:dusk,forest",
+    "clock": "17:00",
+    "ctx": "ÜBERLEBEN · IM WALD",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Überlebensexperten nutzen die Regel der Drei. Sie zeigt dir, was wirklich zuerst zählt.",
+    "scene": "mountains:dusk,forest",
+    "clock": "17:05",
+    "stat": {
+     "title": "REGEL DER DREI",
+     "rows": [
+      [
+       "LUFT",
+       "3 MIN"
+      ],
+      [
+       "SCHUTZ",
+       "3 STD"
+      ],
+      [
+       "WASSER",
+       "3 TAGE"
+      ],
+      [
+       "ESSEN",
+       "3 WOCHEN"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Essen ist also das Letzte, worum du dich kümmern musst. Dein größter Feind ist die Kälte.",
+    "scene": "mountains:night,forest",
+    "clock": "17:30",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "ESSEN SUCHEN"
+    }
+   },
+   {
+    "text": "Bau dir Schutz vor Wind und Nässe. Und leg Äste und Laub unter dich, denn der Boden zieht die Wärme aus dir raus.",
+    "scene": "mountains:night,forest",
+    "clock": "18:00",
+    "card": {
+     "kicker": "SCHRITT 1",
+     "title": "SCHUTZ & ISOLATION"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Und dann: Bleib, wo du bist. Wer sich weiter bewegt, ist für Retter viel schwerer zu finden.",
+    "scene": "mountains:night,forest",
+    "clock": "20:00",
+    "card": {
+     "kicker": "SCHRITT 2",
+     "title": "STEHEN BLEIBEN"
+    }
+   },
+   {
+    "text": "Was hättest du zuerst gemacht? Sei ehrlich.",
+    "scene": "mountains:dawn,forest",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS HÄTTEST DU ZUERST GEMACHT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 12,
+  "id": "b12-regel-der-drei",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 12",
+  "next": "Was tust du, wenn die Erde unter dir bebt?",
+  "word_count": 92,
+  "badge": "BONUS 12",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#überleben",
+   "#wald",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was tust du, wenn die Erde unter dir bebt?\n\n#überleben #wald #wissen #zeitzeuge #geschichte",
+  "yt_title": "Du bist allein im Wald verloren – was zuerst? #shorts",
+  "yt_description": "Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲\n\n#überleben #wald #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "erdbeben",
+  "title": "Was tust du, wenn die Erde unter dir bebt?",
+  "accent": "#bc6c25",
+  "hud": {
+   "label": "BEBEN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "ERDBEBEN",
+   "bottom": "IN DEINER STADT",
+   "tag": "ÜBERLEBEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍",
+  "tags": [
+   "erdbeben",
+   "überleben",
+   "wissen",
+   "notfall"
+  ],
+  "segments": [
+   {
+    "text": "Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbeben.",
+    "scene": "room:day",
+    "clock": "00:00",
+    "ctx": "DEINE WOHNUNG · JETZT",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Der größte Fehler: nach draußen rennen. Die meisten Verletzungen passieren durch herabfallende Teile.",
+    "scene": "city:day,quake",
+    "clock": "00:03",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "RAUSRENNEN"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten.",
+    "scene": "room:day",
+    "clock": "00:05",
+    "stat": {
+     "title": "DIE REGEL",
+     "rows": [
+      [
+       "1",
+       "DUCKEN"
+      ],
+      [
+       "2",
+       "DECKUNG"
+      ],
+      [
+       "3",
+       "FESTHALTEN"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Weg von Fenstern und Regalen. Und keinen Aufzug benutzen.",
+    "scene": "room:day",
+    "clock": "00:20",
+    "card": {
+     "kicker": "REGEL 2",
+     "title": "WEG VON FENSTERN"
+    }
+   },
+   {
+    "text": "Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7.",
+    "scene": "map",
+    "clock": "1978",
+    "map": {
+     "label": "ALBSTADT",
+     "sub": "STÄRKE 5,7 · 1978"
+    }
+   },
+   {
+    "text": "Hast du schon mal ein Erdbeben erlebt? Schreib wo.",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "SCHON MAL ERLEBT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 13,
+  "id": "b13-erdbeben",
+  "date": "2026-11-18",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 13",
+  "next": "Was passiert mit dir bei 50 Grad?",
+  "word_count": 74,
+  "badge": "BONUS 13",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#erdbeben",
+   "#überleben",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert mit dir bei 50 Grad?\n\n#erdbeben #überleben #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was tust du, wenn die Erde unter dir bebt? #shorts",
+  "yt_description": "Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍\n\n#erdbeben #überleben #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "hitze-50-grad",
+  "title": "Was passiert mit dir bei 50 Grad?",
+  "accent": "#ff4d00",
+  "hud": {
+   "label": "TEMPERATUR",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "50 °C",
+   "bottom": "IM SCHATTEN",
+   "tag": "DEIN KÖRPER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "50 Grad im Schatten. So lange hält dein Körper das aus 🥵",
+  "tags": [
+   "hitze",
+   "körper",
+   "wissen",
+   "sommer"
+  ],
+  "segments": [
+   {
+    "text": "Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus.",
+    "scene": "city:day,haze",
+    "clock": "50 °C",
+    "ctx": "DEIN KÖRPER · EXTREME HITZE",
+    "fx": [
+     "red"
+    ],
+    "you": true
+   },
+   {
+    "text": "Dein Körper schwitzt bis zu mehreren Litern pro Stunde. Ohne Trinken trocknest du schnell aus.",
+    "scene": "city:day,haze",
+    "clock": "50 °C",
+    "big": {
+     "value": "LITER",
+     "sub": "SCHWEISS PRO STUNDE"
+    }
+   },
+   {
+    "text": "Ab etwa vierzig Grad Körpertemperatur droht ein Hitzschlag. Dein Gehirn gerät dann in Gefahr.",
+    "scene": "city:day,haze",
+    "clock": "50 °C",
+    "card": {
+     "kicker": "GEFAHR",
+     "title": "HITZSCHLAG AB 40 °C"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Das Gefährlichste ist feuchte Hitze. Dann verdunstet dein Schweiß nicht mehr, und du kannst dich nicht abkühlen.",
+    "scene": "city:day,haze",
+    "clock": "50 °C",
+    "card": {
+     "kicker": "TÖDLICH",
+     "title": "FEUCHTE HITZE"
+    }
+   },
+   {
+    "text": "Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913.",
+    "scene": "mars:day",
+    "clock": "56,7 °C",
+    "big": {
+     "value": "56,7 °C",
+     "sub": "DEATH VALLEY · 1913"
+    }
+   },
+   {
+    "text": "Was war die heißeste Temperatur, die du je erlebt hast?",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "DEIN HITZE-REKORD?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 14,
+  "id": "b14-hitze-50-grad",
+  "date": "2026-11-19",
+  "weekday": "Do",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 14",
+  "next": "Was wäre, wenn du 30 Tage nur Fast Food isst?",
+  "word_count": 78,
+  "badge": "BONUS 14",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#hitze",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "50 Grad im Schatten. So lange hält dein Körper das aus 🥵\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du 30 Tage nur Fast Food isst?\n\n#hitze #körper #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert mit dir bei 50 Grad? #shorts",
+  "yt_description": "50 Grad im Schatten. So lange hält dein Körper das aus 🥵\n\n#hitze #körper #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "fastfood",
+  "title": "Was wäre, wenn du 30 Tage nur Fast Food isst?",
+  "accent": "#d00000",
+  "hud": {
+   "label": "TAG",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "30 TAGE",
+   "bottom": "NUR FAST FOOD",
+   "tag": "EXPERIMENT",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:night"
+  },
+  "caption": "Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔",
+  "tags": [
+   "fastfood",
+   "körper",
+   "experiment",
+   "gesundheit"
+  ],
+  "segments": [
+   {
+    "text": "Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abendessen.",
+    "scene": "city:night",
+    "clock": "TAG 1",
+    "ctx": "EXPERIMENT · 30 TAGE",
+    "you": true
+   },
+   {
+    "text": "Genau das hat der Filmemacher Morgan Spurlock 2004 für seinen Film Super Size Me gemacht.",
+    "scene": "city:night",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "WAHRES EXPERIMENT",
+     "title": "SUPER SIZE ME"
+    }
+   },
+   {
+    "text": "Schon nach wenigen Tagen fühlt er sich schlapp und hat Stimmungsschwankungen.",
+    "scene": "room:dark",
+    "clock": "TAG 5",
+    "card": {
+     "kicker": "TAG 5",
+     "title": "MÜDE & GEREIZT"
+    }
+   },
+   {
+    "text": "Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen.",
+    "scene": "room:dark",
+    "clock": "TAG 30",
+    "big": {
+     "value": "+11 KG",
+     "sub": "IN 30 TAGEN"
+    }
+   },
+   {
+    "text": "Danach braucht er über ein Jahr, um das Gewicht wieder loszuwerden.",
+    "scene": "city:day",
+    "clock": "DANACH",
+    "card": {
+     "kicker": "DANACH",
+     "title": "ÜBER 1 JAHR ZUM ABNEHMEN"
+    }
+   },
+   {
+    "text": "Wie oft isst du Fast Food pro Woche? Sei ehrlich.",
+    "scene": "city:night",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE OFT PRO WOCHE?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 15,
+  "id": "b15-fastfood",
+  "date": "2026-11-20",
+  "weekday": "Fr",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 15",
+  "next": "Was wäre, wenn du durch die Erde fällst?",
+  "word_count": 74,
+  "badge": "BONUS 15",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#fastfood",
+   "#körper",
+   "#experiment",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du durch die Erde fällst?\n\n#fastfood #körper #experiment #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du 30 Tage nur Fast Food isst? #shorts",
+  "yt_description": "Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔\n\n#fastfood #körper #experiment #zeitzeuge #shorts"
+ },
+ {
+  "slug": "tunnel-durch-erde",
+  "title": "Was wäre, wenn du durch die Erde fällst?",
+  "accent": "#e85d04",
+  "hud": {
+   "label": "FALLZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "DURCH DIE",
+   "bottom": "ERDE FALLEN",
+   "tag": "PHYSIK",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "earth"
+  },
+  "caption": "Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍",
+  "tags": [
+   "physik",
+   "erde",
+   "wissen",
+   "waswärewenn"
+  ],
+  "segments": [
+   {
+    "text": "Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinein.",
+    "scene": "earth",
+    "clock": "00:00",
+    "ctx": "GEDANKENEXPERIMENT · TUNNEL DURCH DIE ERDE",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Du fällst immer schneller. In der Mitte wärst du mit fast acht Kilometern pro Sekunde unterwegs.",
+    "scene": "earth",
+    "clock": "20:00",
+    "big": {
+     "value": "≈ 8 KM/S",
+     "sub": "IN DER ERDMITTE"
+    }
+   },
+   {
+    "text": "Dort herrschen über fünftausend Grad. So heiß wie die Oberfläche der Sonne.",
+    "scene": "volcano:erupt",
+    "clock": "20:00",
+    "big": {
+     "value": "> 5.000 °C",
+     "sub": "IM ERDKERN"
+    },
+    "fx": [
+     "red",
+     "embers"
+    ]
+   },
+   {
+    "text": "Ohne Luftwiderstand kommst du nach etwa vierzig Minuten auf der anderen Seite an. Und fällst dann wieder zurück.",
+    "scene": "earth",
+    "clock": "40:00",
+    "card": {
+     "kicker": "ANKUNFT",
+     "title": "≈ 40 MINUTEN"
+    }
+   },
+   {
+    "text": "In Wirklichkeit: Das tiefste Loch der Menschheit ist gerade mal zwölf Kilometer tief.",
+    "scene": "mountains:snow",
+    "clock": "—",
+    "big": {
+     "value": "12 KM",
+     "sub": "TIEFSTES LOCH DER WELT"
+    }
+   },
+   {
+    "text": "Wo würdest du rauskommen? Tipp: Von Deutschland aus landest du im Meer bei Neuseeland.",
+    "scene": "map",
+    "clock": "—",
+    "map": {
+     "label": "NEUSEELAND",
+     "sub": "DEIN GEGENPUNKT"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 16,
+  "id": "b16-tunnel-durch-erde",
+  "date": "2026-11-21",
+  "weekday": "Sa",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 16",
+  "next": "Was wäre, wenn du auf dem Mond springst?",
+  "word_count": 87,
+  "badge": "BONUS 16",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#physik",
+   "#erde",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du auf dem Mond springst?\n\n#physik #erde #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du durch die Erde fällst? #shorts",
+  "yt_description": "Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍\n\n#physik #erde #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "mond-springen",
+  "title": "Was wäre, wenn du auf dem Mond springst?",
+  "accent": "#adb5bd",
+  "hud": {
+   "label": "AUF DEM MOND",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "6× HÖHER",
+   "bottom": "SPRINGEN",
+   "tag": "MOND",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:moonsurface"
+  },
+  "caption": "Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕",
+  "tags": [
+   "mond",
+   "weltall",
+   "physik",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst auf dem Mond. Du gehst leicht in die Knie und springst.",
+    "scene": "space:moonsurface",
+    "clock": "00:00",
+    "ctx": "MOND · MEER DER RUHE",
+    "you": true
+   },
+   {
+    "text": "Die Schwerkraft ist hier nur ein Sechstel so stark wie auf der Erde.",
+    "scene": "space:moonsurface",
+    "clock": "00:01",
+    "big": {
+     "value": "1/6",
+     "sub": "DER ERDSCHWERKRAFT"
+    }
+   },
+   {
+    "text": "Wiegst du auf der Erde achtzig Kilo, fühlst du dich hier wie etwa dreizehn.",
+    "scene": "space:moonsurface",
+    "clock": "00:02",
+    "stat": {
+     "title": "DEIN GEWICHT",
+     "rows": [
+      [
+       "ERDE",
+       "80 KG"
+      ],
+      [
+       "MOND",
+       "≈ 13 KG"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Ohne Anzug könntest du ungefähr sechsmal so hoch springen. Und du schwebst viel länger in der Luft.",
+    "scene": "space:moonsurface",
+    "clock": "00:03",
+    "card": {
+     "kicker": "SPRUNG",
+     "title": "≈ 6× SO HOCH"
+    }
+   },
+   {
+    "text": "Die Apollo-Astronauten sind deshalb lieber gehüpft als gelaufen. Mit dem schweren Anzug war das einfacher.",
+    "scene": "space:moonsurface,flag",
+    "clock": "1969",
+    "card": {
+     "kicker": "APOLLO",
+     "title": "HÜPFEN STATT LAUFEN"
+    }
+   },
+   {
+    "text": "Was würdest du als Erstes auf dem Mond machen?",
+    "scene": "space:moonsurface",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WAS MACHST DU ZUERST?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 17,
+  "id": "b17-mond-springen",
+  "date": "2026-11-22",
+  "weekday": "So",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 17",
+  "next": "Was wäre, wenn du bei minus 60 Grad lebst?",
+  "word_count": 81,
+  "badge": "BONUS 17",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#mond",
+   "#weltall",
+   "#physik",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du bei minus 60 Grad lebst?\n\n#mond #weltall #physik #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du auf dem Mond springst? #shorts",
+  "yt_description": "Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕\n\n#mond #weltall #physik #zeitzeuge #shorts"
+ },
+ {
+  "slug": "oimjakon",
+  "title": "Was wäre, wenn du bei minus 60 Grad lebst?",
+  "accent": "#90e0ef",
+  "hud": {
+   "label": "TEMPERATUR",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "−67 °C",
+   "bottom": "KÄLTESTES DORF",
+   "tag": "SIBIRIEN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "mountains:snow"
+  },
+  "caption": "Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶",
+  "tags": [
+   "kälte",
+   "sibirien",
+   "wissen",
+   "reisen"
+  ],
+  "segments": [
+   {
+    "text": "Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren sofort fest.",
+    "scene": "mountains:snow,cold",
+    "clock": "−60 °C",
+    "ctx": "OIMJAKON · SIBIRIEN",
+    "fx": [
+     "snow"
+    ],
+    "you": true
+   },
+   {
+    "text": "Willkommen in Oimjakon, dem kältesten bewohnten Ort der Welt. Hier leben rund fünfhundert Menschen.",
+    "scene": "map",
+    "clock": "−60 °C",
+    "map": {
+     "label": "OIMJAKON",
+     "sub": "SIBIRIEN · RUSSLAND"
+    }
+   },
+   {
+    "text": "Der Kälterekord: minus siebenundsechzig Komma sieben Grad.",
+    "scene": "mountains:snow,cold",
+    "clock": "−67,7 °C",
+    "big": {
+     "value": "−67,7 °C",
+     "sub": "REKORD"
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Autos lassen viele den ganzen Winter laufen. Sonst springt der Motor nicht mehr an.",
+    "scene": "mountains:snow,cold",
+    "clock": "−55 °C",
+    "card": {
+     "kicker": "ALLTAG",
+     "title": "MOTOR LÄUFT DURCH"
+    }
+   },
+   {
+    "text": "Und die Schule fällt erst aus, wenn es kälter als etwa minus fünfzig Grad wird.",
+    "scene": "mountains:snow,cold",
+    "clock": "−50 °C",
+    "card": {
+     "kicker": "ALLTAG",
+     "title": "SCHULFREI AB ≈ −50 °C"
+    }
+   },
+   {
+    "text": "Würdest du hier einen Winter lang leben? Für wie viel Geld?",
+    "scene": "mountains:snow",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "FÜR WIE VIEL GELD?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 18,
+  "id": "b18-oimjakon",
+  "date": "2026-11-23",
+  "weekday": "Mo",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 18",
+  "next": "Jemand bricht vor dir zusammen – was tust du?",
+  "word_count": 77,
+  "badge": "BONUS 18",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#kälte",
+   "#sibirien",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Jemand bricht vor dir zusammen – was tust du?\n\n#kälte #sibirien #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was wäre, wenn du bei minus 60 Grad lebst? #shorts",
+  "yt_description": "Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶\n\n#kälte #sibirien #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "herzstillstand",
+  "title": "Jemand bricht vor dir zusammen – was tust du?",
+  "accent": "#ef233c",
+  "hud": {
+   "label": "OHNE PULS",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "HERZ-",
+   "bottom": "STILLSTAND",
+   "tag": "NOTFALL",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹",
+  "tags": [
+   "erstehilfe",
+   "notfall",
+   "wissen",
+   "leben"
+  ],
+  "segments": [
+   {
+    "text": "Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört zu schlagen.",
+    "scene": "city:day",
+    "clock": "00:00",
+    "ctx": "NOTFALL · MITTEN AUF DER STRASSE",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Jetzt zählt jede Minute. Ohne Wiederbelebung sinkt seine Überlebenschance pro Minute um etwa zehn Prozent.",
+    "scene": "city:day",
+    "clock": "01:00",
+    "big": {
+     "value": "−10 %",
+     "sub": "PRO MINUTE"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Merk dir drei Worte: Prüfen, rufen, drücken.",
+    "scene": "city:day",
+    "clock": "01:10",
+    "stat": {
+     "title": "DIE REGEL",
+     "rows": [
+      [
+       "1",
+       "PRÜFEN"
+      ],
+      [
+       "2",
+       "RUFEN · 112"
+      ],
+      [
+       "3",
+       "DRÜCKEN"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Fest in die Mitte der Brust drücken, fünf bis sechs Zentimeter tief, hundert bis hundertzwanzig Mal pro Minute.",
+    "scene": "city:day",
+    "clock": "01:30",
+    "card": {
+     "kicker": "DRÜCKEN",
+     "title": "100–120 × PRO MINUTE"
+    }
+   },
+   {
+    "text": "Der Takt passt zum Song Stayin' Alive. Und du kannst nichts falsch machen, nur nichts tun ist falsch.",
+    "scene": "city:day",
+    "clock": "02:00",
+    "card": {
+     "kicker": "TAKT",
+     "title": "„STAYIN' ALIVE“"
+    }
+   },
+   {
+    "text": "Hast du schon mal einen Erste-Hilfe-Kurs gemacht? Schick das Video weiter, es kann Leben retten.",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "SCHON MAL EINEN KURS GEMACHT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 19,
+  "id": "b19-herzstillstand",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 19",
+  "next": "Was passiert, wenn du aus 27 Metern ins Wasser springst?",
+  "word_count": 89,
+  "badge": "BONUS 19",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#erstehilfe",
+   "#notfall",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert, wenn du aus 27 Metern ins Wasser springst?\n\n#erstehilfe #notfall #wissen #zeitzeuge #geschichte",
+  "yt_title": "Jemand bricht vor dir zusammen – was tust du? #shorts",
+  "yt_description": "Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹\n\n#erstehilfe #notfall #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "klippensprung",
+  "title": "Was passiert, wenn du aus 27 Metern ins Wasser springst?",
+  "accent": "#00a6fb",
+  "hud": {
+   "label": "FALLZEIT",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "27 METER",
+   "bottom": "SPRUNG",
+   "tag": "KLIPPE",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "ocean:day"
+  },
+  "caption": "27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊",
+  "tags": [
+   "klippenspringen",
+   "physik",
+   "wissen",
+   "sport"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie ein neunstöckiges Haus.",
+    "scene": "ocean:day,island",
+    "clock": "0,0 S",
+    "ctx": "KLIPPENSPRINGEN · 27 METER",
+    "you": true
+   },
+   {
+    "text": "Du springst. Nach knapp drei Sekunden triffst du mit rund fünfundachtzig Kilometern pro Stunde auf.",
+    "scene": "ocean:day,island",
+    "clock": "2,6 S",
+    "big": {
+     "value": "≈ 85 KM/H",
+     "sub": "AUFPRALL"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Bei dieser Geschwindigkeit fühlt sich Wasser fast an wie eine harte Fläche. Ein Bauchklatscher kann dich verletzen.",
+    "scene": "ocean:day",
+    "clock": "2,6 S",
+    "card": {
+     "kicker": "GEFAHR",
+     "title": "WASSER WIRD HART"
+    }
+   },
+   {
+    "text": "Profis tauchen deshalb immer mit den Füßen zuerst ein, Körper ganz gerade.",
+    "scene": "ocean:day",
+    "clock": "2,6 S",
+    "card": {
+     "kicker": "TRICK",
+     "title": "FÜSSE ZUERST"
+    }
+   },
+   {
+    "text": "Unter Wasser warten Taucher, falls der Springer nach dem Aufprall Hilfe braucht.",
+    "scene": "underwater:day",
+    "clock": "3,0 S",
+    "card": {
+     "kicker": "SICHERHEIT",
+     "title": "TAUCHER UNTER WASSER"
+    }
+   },
+   {
+    "text": "Von wie hoch bist du schon mal ins Wasser gesprungen?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "DEIN HÖCHSTER SPRUNG?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 20,
+  "id": "b20-klippensprung",
+  "date": "2026-11-25",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 20",
+  "next": "Was macht ein Jahr im Weltall mit dir?",
+  "word_count": 82,
+  "badge": "BONUS 20",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#klippenspringen",
+   "#physik",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was macht ein Jahr im Weltall mit dir?\n\n#klippenspringen #physik #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was passiert, wenn du aus 27 Metern ins Wasser springst? #shorts",
+  "yt_description": "27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊\n\n#klippenspringen #physik #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "ein-jahr-all",
+  "title": "Was macht ein Jahr im Weltall mit dir?",
+  "accent": "#7209b7",
+  "hud": {
+   "label": "IM ALL",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "340 TAGE",
+   "bottom": "IM ALL",
+   "tag": "DEIN KÖRPER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:earth"
+  },
+  "caption": "Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀",
+  "tags": [
+   "weltall",
+   "körper",
+   "wissen",
+   "nasa"
+  ],
+  "segments": [
+   {
+    "text": "Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich jeden Tag.",
+    "scene": "space:earth,sats",
+    "clock": "TAG 1",
+    "ctx": "ISS · 400 KM ÜBER DIR",
+    "you": true
+   },
+   {
+    "text": "Ohne Schwerkraft verlieren deine Knochen jeden Monat etwa ein bis eineinhalb Prozent ihrer Dichte.",
+    "scene": "space:earth,sats",
+    "clock": "TAG 30",
+    "big": {
+     "value": "1–1,5 %",
+     "sub": "KNOCHENDICHTE PRO MONAT"
+    }
+   },
+   {
+    "text": "Deine Wirbelsäule streckt sich. Du wirst ein paar Zentimeter größer.",
+    "scene": "space:earth,sats",
+    "clock": "TAG 100",
+    "card": {
+     "kicker": "ÜBERRASCHUNG",
+     "title": "DU WIRST GRÖSSER"
+    }
+   },
+   {
+    "text": "Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde.",
+    "scene": "space:earth,sats",
+    "clock": "TAG 340",
+    "stat": {
+     "title": "ZWILLINGS-STUDIE",
+     "rows": [
+      [
+       "SCOTT",
+       "340 TAGE ALL"
+      ],
+      [
+       "MARK",
+       "ERDE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Zurück auf der Erde: Schwindel, Muskelschmerzen, und Laufen fühlt sich an wie neu lernen.",
+    "scene": "city:day",
+    "clock": "ZURÜCK",
+    "card": {
+     "kicker": "DANACH",
+     "title": "LAUFEN NEU LERNEN"
+    }
+   },
+   {
+    "text": "Würdest du ein Jahr ins All fliegen? Ja oder nein?",
+    "scene": "space:earth",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU FLIEGEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 21,
+  "id": "b21-ein-jahr-all",
+  "date": "2026-11-26",
+  "weekday": "Do",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 21",
+  "next": "Das Meer zieht sich zurück – was jetzt?",
+  "word_count": 82,
+  "badge": "BONUS 21",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#weltall",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Das Meer zieht sich zurück – was jetzt?\n\n#weltall #körper #wissen #zeitzeuge #geschichte",
+  "yt_title": "Was macht ein Jahr im Weltall mit dir? #shorts",
+  "yt_description": "Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀\n\n#weltall #körper #wissen #zeitzeuge #shorts"
+ },
+ {
+  "slug": "tsunami",
+  "title": "Das Meer zieht sich zurück – was jetzt?",
+  "accent": "#023e8a",
+  "hud": {
+   "label": "AM STRAND",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "DAS MEER",
+   "bottom": "IST WEG",
+   "tag": "WARNSIGNAL",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "ocean:day"
+  },
+  "caption": "Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊",
+  "tags": [
+   "tsunami",
+   "überleben",
+   "wahregeschichte",
+   "meer"
+  ],
+  "segments": [
+   {
+    "text": "Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück.",
+    "scene": "ocean:day,retreat",
+    "clock": "09:30",
+    "ctx": "THAILAND · 26. DEZEMBER 2004",
+    "you": true
+   },
+   {
+    "text": "Viele laufen neugierig hinterher und sammeln Muscheln. Das ist der größte Fehler.",
+    "scene": "ocean:day,retreat",
+    "clock": "09:32",
+    "card": {
+     "kicker": "FEHLER #1",
+     "title": "HINTERHERLAUFEN"
+    }
+   },
+   {
+    "text": "Denn das ist das Warnsignal für einen Tsunami. Die Welle kommt in wenigen Minuten.",
+    "scene": "ocean:day,wave",
+    "clock": "09:35",
+    "card": {
+     "kicker": "WARNSIGNAL",
+     "title": "DAS MEER VERSCHWINDET"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Die zehnjährige Tilly Smith erkennt das. Sie hatte es kurz vorher im Erdkundeunterricht gelernt.",
+    "scene": "ocean:day",
+    "clock": "09:36",
+    "card": {
+     "kicker": "WAHRE GESCHICHTE",
+     "title": "TILLY SMITH · 10 JAHRE"
+    }
+   },
+   {
+    "text": "Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr.",
+    "scene": "ocean:storm,wave",
+    "clock": "09:45",
+    "big": {
+     "value": "≈ 100",
+     "sub": "MENSCHEN GERETTET"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ES GEWUSST?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 22,
+  "id": "b22-tsunami",
+  "date": "2026-11-27",
+  "weekday": "Fr",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 22",
+  "next": "208 Sekunden: Notlandung auf dem Fluss",
+  "word_count": 78,
+  "badge": "BONUS 22",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#tsunami",
+   "#überleben",
+   "#wahregeschichte",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 208 Sekunden: Notlandung auf dem Fluss\n\n#tsunami #überleben #wahregeschichte #zeitzeuge #geschichte",
+  "yt_title": "Das Meer zieht sich zurück – was jetzt? #shorts",
+  "yt_description": "Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊\n\n#tsunami #überleben #wahregeschichte #zeitzeuge #shorts"
+ },
+ {
+  "slug": "hudson",
+  "title": "208 Sekunden: Notlandung auf dem Fluss",
+  "accent": "#219ebc",
+  "hud": {
+   "label": "NACH DEM VOGELSCHLAG",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "BEIDE",
+   "bottom": "TRIEBWERKE AUS",
+   "tag": "208 SEKUNDEN",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "city:day"
+  },
+  "caption": "Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️",
+  "tags": [
+   "flugzeug",
+   "wahregeschichte",
+   "newyork",
+   "pilot"
+  ],
+  "segments": [
+   {
+    "text": "Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefallen.",
+    "scene": "city:day",
+    "clock": "00:00",
+    "ctx": "NEW YORK · 15. JANUAR 2009",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Ein Schwarm Gänse ist in die Triebwerke geflogen. Hundertfünfundfünfzig Menschen sind an Bord.",
+    "scene": "city:day",
+    "clock": "00:10",
+    "stat": {
+     "title": "FLUG 1549",
+     "rows": [
+      [
+       "TRIEBWERKE",
+       "0 VON 2"
+      ],
+      [
+       "AN BORD",
+       "155"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Kapitän Chesley Sullenberger merkt: Wir schaffen es zu keinem Flughafen.",
+    "scene": "city:day",
+    "clock": "01:00",
+    "card": {
+     "kicker": "ENTSCHEIDUNG",
+     "title": "KEIN FLUGHAFEN"
+    }
+   },
+   {
+    "text": "Wir landen im Hudson.",
+    "scene": "city:day",
+    "clock": "02:30",
+    "quote": {
+     "text": "Wir landen im Hudson.",
+     "who": "Chesley Sullenberger"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben.",
+    "scene": "ocean:day",
+    "clock": "03:28",
+    "big": {
+     "value": "155 / 155",
+     "sub": "ÜBERLEBEN"
+    }
+   },
+   {
+    "text": "Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt?",
+    "scene": "ocean:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU DIE NERVEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 23,
+  "id": "b23-hudson",
+  "date": "2026-11-28",
+  "weekday": "Sa",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 23",
+  "next": "9 Tage allein in der Sahara",
+  "word_count": 65,
+  "badge": "BONUS 23",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#flugzeug",
+   "#wahregeschichte",
+   "#newyork",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 9 Tage allein in der Sahara\n\n#flugzeug #wahregeschichte #newyork #zeitzeuge #geschichte",
+  "yt_title": "208 Sekunden: Notlandung auf dem Fluss #shorts",
+  "yt_description": "Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️\n\n#flugzeug #wahregeschichte #newyork #zeitzeuge #shorts"
+ },
+ {
+  "slug": "wueste",
+  "title": "9 Tage allein in der Sahara",
+  "accent": "#f4a261",
+  "hud": {
+   "label": "IN DER WÜSTE",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "9 TAGE",
+   "bottom": "SAHARA",
+   "tag": "WAHRE GESCHICHTE",
+   "kicker": "ÜBERLEBEN",
+   "scene": "mars:day"
+  },
+  "caption": "Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️",
+  "tags": [
+   "wüste",
+   "überleben",
+   "wahregeschichte",
+   "sahara"
+  ],
+  "segments": [
+   {
+    "text": "Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine Menschen.",
+    "scene": "mars:day",
+    "clock": "TAG 1",
+    "ctx": "SAHARA · 1994",
+    "fx": [
+     "shake",
+     "ash"
+    ],
+    "you": true
+   },
+   {
+    "text": "Das passiert 1994 dem Italiener Mauro Prosperi bei einem Ultramarathon durch die Sahara.",
+    "scene": "mars:day",
+    "clock": "TAG 1",
+    "card": {
+     "kicker": "WAHRE GESCHICHTE",
+     "title": "MAURO PROSPERI"
+    }
+   },
+   {
+    "text": "Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin.",
+    "scene": "mars:day",
+    "clock": "TAG 3",
+    "stat": {
+     "title": "SAHARA",
+     "rows": [
+      [
+       "TAG",
+       "> 40 °C"
+      ],
+      [
+       "NACHT",
+       "EISKALT"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "In einem verlassenen Heiligtum fängt er Fledermäuse und isst sie roh.",
+    "scene": "mars:dusk",
+    "clock": "TAG 5",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien.",
+    "scene": "map",
+    "clock": "TAG 9",
+    "map": {
+     "label": "ALGERIEN",
+     "sub": "FAST 300 KM VOM KURS"
+    }
+   },
+   {
+    "text": "Und weißt du was? Er ist danach wieder bei dem Rennen gestartet. Hättest du das überlebt?",
+    "scene": "mars:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 24,
+  "id": "b24-wueste",
+  "date": "2026-11-29",
+  "weekday": "So",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 24",
+  "next": "Sie fiel 10.000 Meter – und überlebte",
+  "word_count": 87,
+  "badge": "BONUS 24",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#wüste",
+   "#überleben",
+   "#wahregeschichte",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Sie fiel 10.000 Meter – und überlebte\n\n#wüste #überleben #wahregeschichte #zeitzeuge #geschichte",
+  "yt_title": "9 Tage allein in der Sahara #shorts",
+  "yt_description": "Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️\n\n#wüste #überleben #wahregeschichte #zeitzeuge #shorts"
+ },
+ {
+  "slug": "sturz-10000m",
+  "title": "Sie fiel 10.000 Meter – und überlebte",
+  "accent": "#9d4edd",
+  "hud": {
+   "label": "HÖHE",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "10.160 M",
+   "bottom": "FREIER FALL",
+   "tag": "REKORD",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "space:earth"
+  },
+  "caption": "Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳",
+  "tags": [
+   "rekord",
+   "wahregeschichte",
+   "flugzeug",
+   "überleben"
+  ],
+  "segments": [
+   {
+    "text": "Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade auseinander.",
+    "scene": "space:earth",
+    "clock": "10.160 M",
+    "ctx": "TSCHECHOSLOWAKEI · 26. JANUAR 1972",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Das passiert der Stewardess Vesna Vulović. Eine Bombe zerreißt ihr Flugzeug.",
+    "scene": "space:earth",
+    "clock": "10.160 M",
+    "card": {
+     "kicker": "WAHRE GESCHICHTE",
+     "title": "VESNA VULOVIĆ"
+    }
+   },
+   {
+    "text": "Sie wird im Heck eingeklemmt. Und dieses Teil stürzt in einen verschneiten, bewaldeten Hang.",
+    "scene": "mountains:snow,forest",
+    "clock": "0 M",
+    "fx": [
+     "shake",
+     "snow"
+    ]
+   },
+   {
+    "text": "Alle anderen an Bord sterben. Sie überlebt, mit schweren Verletzungen und tagelang im Koma.",
+    "scene": "mountains:snow",
+    "clock": "0 M",
+    "card": {
+     "kicker": "ÜBERLEBT",
+     "title": "ALS EINZIGE"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat.",
+    "scene": "mountains:snow",
+    "clock": "—",
+    "big": {
+     "value": "10.160 M",
+     "sub": "GUINNESS-REKORD"
+    }
+   },
+   {
+    "text": "Glück oder Wunder? Was meinst du?",
+    "scene": "space:earth",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "GLÜCK ODER WUNDER?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 25,
+  "id": "b25-sturz-10000m",
+  "date": "2026-11-30",
+  "weekday": "Mo",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 25",
+  "next": "Zwei Monate in einer Höhle ohne Uhr",
+  "word_count": 74,
+  "badge": "BONUS 25",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#rekord",
+   "#wahregeschichte",
+   "#flugzeug",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Zwei Monate in einer Höhle ohne Uhr\n\n#rekord #wahregeschichte #flugzeug #zeitzeuge #geschichte",
+  "yt_title": "Sie fiel 10.000 Meter – und überlebte #shorts",
+  "yt_description": "Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳\n\n#rekord #wahregeschichte #flugzeug #zeitzeuge #shorts"
+ },
+ {
+  "slug": "hoehle-ohne-zeit",
+  "title": "Zwei Monate in einer Höhle ohne Uhr",
+  "accent": "#577590",
+  "hud": {
+   "label": "UNTER TAGE",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "2 MONATE",
+   "bottom": "OHNE UHR",
+   "tag": "EXPERIMENT",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "mountains:night"
+  },
+  "caption": "Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne Sonne. Am Ende lag er weit daneben 🕳️",
+  "tags": [
+   "experiment",
+   "wahregeschichte",
+   "zeit",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du lebst in einer Höhle. Ohne Uhr, ohne Sonnenlicht. Wie lange bist du schon hier?",
+    "scene": "room:dark",
+    "clock": "??:??",
+    "ctx": "ALPEN · 1962 · UNTER DEM EIS",
+    "you": true
+   },
+   {
+    "text": "Genau das macht 1962 der Franzose Michel Siffre. Er zieht für zwei Monate in eine eisige Höhle.",
+    "scene": "mountains:night,snow",
+    "clock": "??:??",
+    "card": {
+     "kicker": "WAHRES EXPERIMENT",
+     "title": "MICHEL SIFFRE"
+    }
+   },
+   {
+    "text": "Er schläft, wenn er müde ist, und isst, wenn er Hunger hat. Oben schreibt ein Team alles mit.",
+    "scene": "room:dark",
+    "clock": "??:??",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Dann holen sie ihn raus. Er glaubt, es ist der zwanzigste August.",
+    "scene": "mountains:day",
+    "clock": "20.08.?",
+    "card": {
+     "kicker": "SEINE SCHÄTZUNG",
+     "title": "20. AUGUST"
+    }
+   },
+   {
+    "text": "Tatsächlich ist es der vierzehnte September. Ihm fehlen fast vier Wochen.",
+    "scene": "mountains:day",
+    "clock": "14.09.",
+    "big": {
+     "value": "≈ 25 TAGE",
+     "sub": "EINFACH VERLOREN"
+    }
+   },
+   {
+    "text": "Wie lange würdest du ohne Uhr richtig schätzen?",
+    "scene": "room:dark",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE GUT IST DEIN ZEITGEFÜHL?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 26,
+  "id": "b26-hoehle-ohne-zeit",
+  "date": "2026-12-01",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 26",
+  "next": "Er sprang aus 39 Kilometern Höhe",
+  "word_count": 81,
+  "badge": "BONUS 26",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#experiment",
+   "#wahregeschichte",
+   "#zeit",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne Sonne. Am Ende lag er weit daneben 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Er sprang aus 39 Kilometern Höhe\n\n#experiment #wahregeschichte #zeit #zeitzeuge #geschichte",
+  "yt_title": "Zwei Monate in einer Höhle ohne Uhr #shorts",
+  "yt_description": "Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne Sonne. Am Ende lag er weit daneben 🕳️\n\n#experiment #wahregeschichte #zeit #zeitzeuge #shorts"
+ },
+ {
+  "slug": "stratosphaere",
+  "title": "Er sprang aus 39 Kilometern Höhe",
+  "accent": "#3a0ca3",
+  "hud": {
+   "label": "HÖHE",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "39 KM",
+   "bottom": "SPRUNG",
+   "tag": "SCHALLMAUER",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "space:earth"
+  },
+  "caption": "Er springt aus dem Rand des Weltalls – und durchbricht ohne Flugzeug die Schallmauer 🪂",
+  "tags": [
+   "rekord",
+   "wahregeschichte",
+   "weltall",
+   "fallschirm"
+  ],
+  "segments": [
+   {
+    "text": "Du stehst an der offenen Kapsel. Neununddreißig Kilometer unter dir: die Erde.",
+    "scene": "space:earth,capsule",
+    "clock": "39 KM",
+    "ctx": "NEW MEXICO · 14. OKTOBER 2012",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Genau dort steht Felix Baumgartner. Die Luft ist so dünn, dass sein Blut ohne Druckanzug kochen würde.",
+    "scene": "space:earth,capsule",
+    "clock": "39 KM",
+    "card": {
+     "kicker": "WAHRE GESCHICHTE",
+     "title": "FELIX BAUMGARTNER"
+    }
+   },
+   {
+    "text": "Er springt. Nach weniger als einer Minute ist er schneller als der Schall.",
+    "scene": "space:earth",
+    "clock": "34 KM",
+    "big": {
+     "value": "1.357 KM/H",
+     "sub": "SCHNELLER ALS DER SCHALL"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Dann gerät er ins Trudeln. Dreht er sich zu schnell, kann er ohnmächtig werden.",
+    "scene": "space:earth",
+    "clock": "25 KM",
+    "card": {
+     "kicker": "GEFAHR",
+     "title": "TRUDELN"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Er fängt sich wieder. Nach gut vier Minuten freiem Fall öffnet er den Schirm und landet sicher.",
+    "scene": "mountains:day",
+    "clock": "0 KM",
+    "card": {
+     "kicker": "GESCHAFFT",
+     "title": "SICHER GELANDET"
+    }
+   },
+   {
+    "text": "Würdest du springen? Ja oder nein?",
+    "scene": "space:earth",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WÜRDEST DU SPRINGEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 27,
+  "id": "b27-stratosphaere",
+  "date": "2026-12-02",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 27",
+  "next": null,
+  "word_count": 79,
+  "badge": "BONUS 27",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#rekord",
+   "#wahregeschichte",
+   "#weltall",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Er springt aus dem Rand des Weltalls – und durchbricht ohne Flugzeug die Schallmauer 🪂\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#rekord #wahregeschichte #weltall #zeitzeuge #geschichte",
+  "yt_title": "Er sprang aus 39 Kilometern Höhe #shorts",
+  "yt_description": "Er springt aus dem Rand des Weltalls – und durchbricht ohne Flugzeug die Schallmauer 🪂\n\n#rekord #wahregeschichte #weltall #zeitzeuge #shorts"
  }
 ]
