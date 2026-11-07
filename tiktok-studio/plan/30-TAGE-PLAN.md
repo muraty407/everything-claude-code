@@ -87,7 +87,7 @@ Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? �
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn die Sonne verschwindet?
+Als Nächstes: Was wäre, wenn die Sonne verschwindet?
 
 #pompeji #vesuv #geschichte #zeitzeuge #wissen
 ```
@@ -126,7 +126,7 @@ Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du überleben? ⚔�
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du nie mehr schläfst?
+Als Nächstes: Was wäre, wenn du nie mehr schläfst?
 
 #kolosseum #gladiator #rom #zeitzeuge #geschichte
 ```
@@ -165,7 +165,7 @@ Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist auf der Titanic
+Als Nächstes: Du bist auf der Titanic
 
 #sonne #weltall #physik #zeitzeuge #geschichte
 ```
@@ -204,7 +204,7 @@ Die Sonne ist gerade verschwunden. Und du merkst es erst in acht Minuten. Dann w
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Flight 19 – Teil 1
+Als Nächstes: Flight 19 – Teil 1
 
 #schlaf #körper #wissen #zeitzeuge #geschichte
 ```
@@ -243,7 +243,7 @@ Du hast seit vierundzwanzig Stunden nicht geschlafen. Dein Gehirn arbeitet jetzt
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn das Internet 7 Tage ausfällt?
+Als Nächstes: Was wäre, wenn das Internet 7 Tage ausfällt?
 
 #titanic #geschichte #schiff #zeitzeuge #wissen
 ```
@@ -282,7 +282,7 @@ Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn er 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Flight 19 – Teil 1
+Als Nächstes: Flight 19 – Teil 1
 
 #blitz #gewitter #wissen #zeitzeuge #geschichte
 ```
@@ -321,7 +321,7 @@ Ein Blitz hat dich gerade getroffen. Er ist fünfmal heißer als die Oberfläche
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn das Internet 7 Tage ausfällt?
+Als Nächstes: Was wäre, wenn das Internet 7 Tage ausfällt?
 
 #bermudadreieck #flight19 #mystery #zeitzeuge #geschichte
 ```
@@ -360,7 +360,7 @@ Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Flight 19 – Teil 2
+Als Nächstes: Flight 19 – Teil 2
 
 #internet #blackout #deutschland #zeitzeuge #geschichte
 ```
@@ -399,7 +399,7 @@ Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du in Treibsand gerätst?
+Als Nächstes: Was wäre, wenn du in Treibsand gerätst?
 
 #bermudadreieck #flight19 #mystery #zeitzeuge #geschichte
 ```
@@ -438,7 +438,7 @@ Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
+Als Nächstes: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
 
 #treibsand #überleben #wissen #zeitzeuge #geschichte
 ```
@@ -477,7 +477,7 @@ Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn dich eine Lawine verschüttet?
+Als Nächstes: Was wäre, wenn dich eine Lawine verschüttet?
 
 #mars #weltall #nasa #zeitzeuge #geschichte
 ```
@@ -516,7 +516,7 @@ Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
+Als Nächstes: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
 
 #lawine #ski #berge #zeitzeuge #geschichte
 ```
@@ -555,7 +555,7 @@ Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du in ein Schwarzes Loch fällst?
+Als Nächstes: Was wäre, wenn du in ein Schwarzes Loch fällst?
 
 #blackout #stromausfall #vorsorge #zeitzeuge #geschichte
 ```
@@ -594,7 +594,7 @@ Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghet
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Gefangen in der Höhle – Teil 1
+Als Nächstes: Gefangen in der Höhle – Teil 1
 
 #schwarzesloch #weltall #physik #zeitzeuge #geschichte
 ```
@@ -633,7 +633,7 @@ Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was passiert mit dir in der Todeszone am Everest?
+Als Nächstes: Was passiert mit dir in der Todeszone am Everest?
 
 #thailand #höhlenrettung #rettung #zeitzeuge #geschichte
 ```
@@ -672,7 +672,7 @@ Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone a
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Die Höhlenrettung – Teil 2
+Als Nächstes: Die Höhlenrettung – Teil 2
 
 #everest #berge #körper #zeitzeuge #geschichte
 ```
@@ -711,7 +711,7 @@ Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn eine Ameise so groß wäre wie du?
+Als Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?
 
 #thailand #höhlenrettung #rettung #zeitzeuge #geschichte
 ```
@@ -750,7 +750,7 @@ Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn die Erde aufhört, sich zu drehen?
+Als Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?
 
 #ameise #physik #natur #zeitzeuge #geschichte
 ```
@@ -789,7 +789,7 @@ Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du in den Marianengraben tauchst?
+Als Nächstes: Was wäre, wenn du in den Marianengraben tauchst?
 
 #erde #physik #wissen #zeitzeuge #geschichte
 ```
@@ -828,7 +828,7 @@ Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: 33 Bergleute unter Tage – Teil 1
+Als Nächstes: 33 Bergleute unter Tage – Teil 1
 
 #marianengraben #ozean #tiefsee #zeitzeuge #geschichte
 ```
@@ -867,7 +867,7 @@ Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du auf der Venus landest?
+Als Nächstes: Was wäre, wenn du auf der Venus landest?
 
 #chile #bergleute #rettung #zeitzeuge #geschichte
 ```
@@ -906,7 +906,7 @@ Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Wa
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: 33 Bergleute unter Tage – Teil 2
+Als Nächstes: 33 Bergleute unter Tage – Teil 2
 
 #venus #weltall #planeten #zeitzeuge #geschichte
 ```
@@ -945,7 +945,7 @@ Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏�
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn alle Bienen verschwinden?
+Als Nächstes: Was wäre, wenn alle Bienen verschwinden?
 
 #chile #bergleute #rettung #zeitzeuge #geschichte
 ```
@@ -984,7 +984,7 @@ Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest d
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn der Mond verschwindet?
+Als Nächstes: Was wäre, wenn der Mond verschwindet?
 
 #bienen #natur #umwelt #zeitzeuge #geschichte
 ```
@@ -1023,7 +1023,7 @@ Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du so schnell wärst wie das Licht?
+Als Nächstes: Was wäre, wenn du so schnell wärst wie das Licht?
 
 #mond #weltall #gezeiten #zeitzeuge #geschichte
 ```
@@ -1062,7 +1062,7 @@ Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit w
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
+Als Nächstes: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
 
 #lichtgeschwindigkeit #einstein #physik #zeitzeuge #geschichte
 ```
@@ -1101,7 +1101,7 @@ Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn alle Menschen verschwinden?
+Als Nächstes: Was wäre, wenn alle Menschen verschwinden?
 
 #asteroid #dinosaurier #weltall #zeitzeuge #geschichte
 ```
@@ -1140,7 +1140,7 @@ Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist Juri Gagarin – Teil 1
+Als Nächstes: Du bist Juri Gagarin – Teil 1
 
 #erdeohnemenschen #natur #wissen #zeitzeuge #geschichte
 ```
@@ -1179,7 +1179,7 @@ Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurü
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn der Yellowstone ausbricht?
+Als Nächstes: Was wäre, wenn der Yellowstone ausbricht?
 
 #gagarin #weltall #raumfahrt #zeitzeuge #geschichte
 ```
@@ -1218,7 +1218,7 @@ Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist Juri Gagarin – Teil 2
+Als Nächstes: Du bist Juri Gagarin – Teil 2
 
 #yellowstone #supervulkan #vulkan #zeitzeuge #geschichte
 ```
@@ -1257,7 +1257,7 @@ Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn in der Eifel ein Vulkan ausbricht?
+Als Nächstes: Was wäre, wenn in der Eifel ein Vulkan ausbricht?
 
 #gagarin #weltall #raumfahrt #zeitzeuge #geschichte
 ```
@@ -1296,7 +1296,7 @@ Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn die Antarktis komplett schmilzt?
+Als Nächstes: Was wäre, wenn die Antarktis komplett schmilzt?
 
 #eifel #vulkan #deutschland #zeitzeuge #geschichte
 ```
@@ -1335,7 +1335,7 @@ Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschlan
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn du auf dem Jupiter landen willst?
+Als Nächstes: Was wäre, wenn du auf dem Jupiter landen willst?
 
 #antarktis #klima #meeresspiegel #zeitzeuge #geschichte
 ```
@@ -1374,7 +1374,7 @@ Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Shackleton im Eis – Teil 1
+Als Nächstes: Shackleton im Eis – Teil 1
 
 #jupiter #weltall #planeten #zeitzeuge #geschichte
 ```
@@ -1413,7 +1413,7 @@ Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
+Als Nächstes: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
 
 #shackleton #antarktis #endurance #zeitzeuge #geschichte
 ```
@@ -1452,7 +1452,7 @@ Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Shackleton im Eis – Teil 2
+Als Nächstes: Shackleton im Eis – Teil 2
 
 #sonnensturm #polarlichter #weltall #zeitzeuge #geschichte
 ```
@@ -1491,7 +1491,7 @@ Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. �
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn heute ein Signal von Aliens kommt?
+Als Nächstes: Was wäre, wenn heute ein Signal von Aliens kommt?
 
 #shackleton #antarktis #endurance #zeitzeuge #geschichte
 ```
@@ -1530,7 +1530,7 @@ Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passier
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn der Golfstrom stoppt?
+Als Nächstes: Was wäre, wenn der Golfstrom stoppt?
 
 #aliens #weltall #seti #zeitzeuge #geschichte
 ```
@@ -1569,7 +1569,7 @@ Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Was wäre, wenn ein Gammablitz die Erde trifft?
+Als Nächstes: Was wäre, wenn ein Gammablitz die Erde trifft?
 
 #golfstrom #klima #europa #zeitzeuge #geschichte
 ```
@@ -1608,7 +1608,7 @@ Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist in Prypjat – Tschernobyl 1986
+Als Nächstes: Du bist in Prypjat – Tschernobyl 1986
 
 #gammablitz #weltall #physik #zeitzeuge #geschichte
 ```
@@ -1647,7 +1647,7 @@ Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In 
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist auf Apollo 13
+Als Nächstes: Du bist auf Apollo 13
 
 #tschernobyl #prypjat #geschichte #zeitzeuge #wissen
 ```
@@ -1686,7 +1686,7 @@ Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Das U-Boot B-59 – Teil 1
+Als Nächstes: Das U-Boot B-59 – Teil 1
 
 #apollo13 #nasa #weltall #zeitzeuge #geschichte
 ```
@@ -1725,7 +1725,7 @@ Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer v
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du sitzt in der Mondfähre – Apollo 11
+Als Nächstes: Du sitzt in der Mondfähre – Apollo 11
 
 #kubakrise #kalterkrieg #uboot #zeitzeuge #geschichte
 ```
@@ -1764,7 +1764,7 @@ Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeue
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Der Mann, der Nein sagte – Teil 2
+Als Nächstes: Der Mann, der Nein sagte – Teil 2
 
 #mondlandung #apollo11 #nasa #zeitzeuge #geschichte
 ```
@@ -1803,7 +1803,7 @@ Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst d
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist in Hamburg – Sturmflut 1962
+Als Nächstes: Du bist in Hamburg – Sturmflut 1962
 
 #archipow #kubakrise #kalterkrieg #zeitzeuge #geschichte
 ```
@@ -1842,7 +1842,7 @@ Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du e
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist in Ost-Berlin – 9. November 1989
+Als Nächstes: Du bist in Ost-Berlin – 9. November 1989
 
 #hamburg #sturmflut #geschichte #zeitzeuge #wissen
 ```
@@ -1881,7 +1881,7 @@ Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahin
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist an Bord der Hindenburg
+Als Nächstes: Du bist an Bord der Hindenburg
 
 #mauerfall #berlin #ddr #zeitzeuge #geschichte
 ```
@@ -1920,7 +1920,7 @@ Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Ein paar Stun
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Das Grab des Tutanchamun – Teil 1
+Als Nächstes: Das Grab des Tutanchamun – Teil 1
 
 #hindenburg #luftschiff #zeppelin #zeitzeuge #geschichte
 ```
@@ -1959,7 +1959,7 @@ Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Ku
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist am Krakatau 1883
+Als Nächstes: Du bist am Krakatau 1883
 
 #tutanchamun #ägypten #pharao #zeitzeuge #geschichte
 ```
@@ -1998,7 +1998,7 @@ Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet ha
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Der Fluch des Pharao – Teil 2
+Als Nächstes: Der Fluch des Pharao – Teil 2
 
 #krakatau #vulkan #tsunami #zeitzeuge #geschichte
 ```
@@ -2037,7 +2037,7 @@ Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du lebst 1349 – Die Pest kommt
+Als Nächstes: Du lebst 1349 – Die Pest kommt
 
 #tutanchamun #ägypten #fluchdespharao #zeitzeuge #geschichte
 ```
@@ -2076,7 +2076,7 @@ Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot.
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist in Lissabon – Erdbeben 1755
+Als Nächstes: Du bist in Lissabon – Erdbeben 1755
 
 #pest #mittelalter #geschichte #zeitzeuge #wissen
 ```
@@ -2115,7 +2115,7 @@ Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafe
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist in London – Der große Brand 1666
+Als Nächstes: Du bist in London – Der große Brand 1666
 
 #lissabon #erdbeben #tsunami #zeitzeuge #geschichte
 ```
@@ -2154,7 +2154,7 @@ London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tag
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du lebst im Jahr ohne Sommer – 1816
+Als Nächstes: Du lebst im Jahr ohne Sommer – 1816
 
 #london #feuer #geschichte #zeitzeuge #wissen
 ```
@@ -2193,7 +2193,7 @@ London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du baust die Pyramiden
+Als Nächstes: Du baust die Pyramiden
 
 #jahrohnesommer #1816 #tambora #zeitzeuge #geschichte
 ```
@@ -2232,7 +2232,7 @@ Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist beim ersten Motorflug 1903
+Als Nächstes: Du bist beim ersten Motorflug 1903
 
 #pyramiden #ägypten #cheops #zeitzeuge #geschichte
 ```
@@ -2271,7 +2271,7 @@ Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave. Arc
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist bei der Erstbesteigung des Everest
+Als Nächstes: Du bist bei der Erstbesteigung des Everest
 
 #gebrüderwright #luftfahrt #erfindung #zeitzeuge #geschichte
 ```
@@ -2310,7 +2310,7 @@ In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben. D
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Du bist auf der Vasa – 1628
+Als Nächstes: Du bist auf der Vasa – 1628
 
 #everest #berge #hillary #zeitzeuge #geschichte
 ```
@@ -2349,7 +2349,7 @@ Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an B
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Morgen: Die Entdeckung des Penicillins
+Als Nächstes: Die Entdeckung des Penicillins
 
 #vasa #schweden #schiff #zeitzeuge #geschichte
 ```

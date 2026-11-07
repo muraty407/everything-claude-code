@@ -58,7 +58,7 @@ def enrich(d, *, day, id_, date, post_time, series, nxt, badge=None, brand=None,
     # Instagram Reels: 3–5 Hashtags
     ig_tags = topic + ["#zeitzeuge", "#wissen" if "#geschichte" in topic else "#geschichte"]
     d["ig_caption"] = (base + "\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳"
-                       + ("\nMorgen: " + nxt if nxt else "") + "\n\n" + " ".join(ig_tags))
+                       + ("\nAls Nächstes: " + nxt if nxt else "") + "\n\n" + " ".join(ig_tags))
     # YouTube Shorts: Titel ≤ 100 Zeichen, Beschreibung mit #shorts
     d["yt_title"] = (d["title"] + " #shorts")[:100]
     d["yt_description"] = base + "\n\n" + " ".join(topic + ["#zeitzeuge", "#shorts"])
