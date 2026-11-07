@@ -22,6 +22,7 @@ from days_01_10 import DAYS as D1  # noqa: E402
 from days_11_20 import DAYS as D2  # noqa: E402
 from days_21_30 import DAYS as D3  # noqa: E402
 from days_b import DAYS_B  # noqa: E402
+from days_c import DAYS_C  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
 import schedule_order  # noqa: E402
 
@@ -118,13 +119,23 @@ def main():
         e["hook"] = True
         schedule.append(e)
 
-    for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule)):
+    # ---- BONUS-Slot (3. Video am Tag) → bonus.json
+    cpool = {d["slug"]: d for d in DAYS_C}
+    bonus = []
+    for n, (date, time, slug) in enumerate(schedule_order.BONUS, start=1):
+        nxt = cpool[schedule_order.BONUS[n][2]]["title"] if n < len(schedule_order.BONUS) else None
+        e = enrich(dict(cpool[slug], hook=True), day=n, id_=f"b{n:02d}-{slug}", date=dt.date.fromisoformat(date),
+                   post_time=time, series=f"ZEITZEUGE · BONUS {n}", nxt=nxt, badge=f"BONUS {n}", brand="ZEITZEUGE",
+                   next_label="ALS NÄCHSTES · BONUS")
+        bonus.append(e)
+
+    for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
 
     # ---- Plan
     posted = [d for d in out[:3]] + [d for d in out_b[:2]]  # bereits online
-    allp = sorted(posted, key=lambda d: (d["date"], d["post_time"])) + schedule
+    allp = sorted(posted + schedule + bonus, key=lambda d: (d["date"], d["post_time"]))
     os.makedirs(os.path.join(ROOT, "plan"), exist_ok=True)
     lines = [
         "# Upload-Plan · ZEITZEUGE – „Was wäre wenn“ (2 Videos pro Tag)",

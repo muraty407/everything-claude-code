@@ -12,7 +12,9 @@ Format 1080×1920, 30 fps, Stimme: ElevenLabs „Brian“, Untertitel eingebrann
 | Fr 06.11. | 12:00 | EXTRA 2/30 | Was wäre, wenn du nie mehr schläfst? | [mp4](../output/videos/extra02-nie-mehr-schlafen.mp4) | [png](../output/thumbnails/extra02-nie-mehr-schlafen.png) |
 | Fr 06.11. | 17:00 | TAG 3/30 | Du bist auf der Titanic | [mp4](../output/videos/tag03-titanic.mp4) | [png](../output/thumbnails/tag03-titanic.png) |
 | Sa 07.11. | 11:00 | FOLGE 6 | Was wäre, wenn dich ein Blitz trifft? | [mp4](../output/videos/f06-blitzschlag.mp4) | [png](../output/thumbnails/f06-blitzschlag.png) |
+| Sa 07.11. | 15:00 | BONUS 1 | Was wäre, wenn du 3 Tage nichts trinkst? | [mp4](../output/videos/b01-kein-wasser.mp4) | [png](../output/thumbnails/b01-kein-wasser.png) |
 | Sa 07.11. | 18:00 | FOLGE 7 | Flight 19 – Teil 1 | [mp4](../output/videos/f07-flight-19-teil-1.mp4) | [png](../output/thumbnails/f07-flight-19-teil-1.png) |
+| Sa 07.11. | 20:30 | BONUS 2 | Was passiert, wenn du in eiskaltes Wasser fällst? | [mp4](../output/videos/b02-eiswasser.mp4) | [png](../output/thumbnails/b02-eiswasser.png) |
 | So 08.11. | 11:00 | FOLGE 8 | Was wäre, wenn das Internet 7 Tage ausfällt? | [mp4](../output/videos/f08-internet-weg.mp4) | [png](../output/thumbnails/f08-internet-weg.png) |
 | So 08.11. | 18:00 | FOLGE 9 | Flight 19 – Teil 2 | [mp4](../output/videos/f09-flight-19-teil-2.mp4) | [png](../output/thumbnails/f09-flight-19-teil-2.png) |
 | Mo 09.11. | 12:00 | FOLGE 10 | Was wäre, wenn du in Treibsand gerätst? | [mp4](../output/videos/f10-treibsand.mp4) | [png](../output/thumbnails/f10-treibsand.png) |
@@ -303,6 +305,45 @@ Ein Blitz hat dich gerade getroffen. Er ist fünfmal heißer als die Oberfläche
 
 </details>
 
+### BONUS 1 – Was wäre, wenn du 3 Tage nichts trinkst?
+**Posten:** Sa 07.11.2026, 15:00 Uhr
+
+**TikTok:**
+
+```
+Ohne Essen überlebst du Wochen. Ohne Wasser nur ein paar Tage. So reagiert dein Körper 💧
+
+#wasser #körper #wissen #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Ohne Essen überlebst du Wochen. Ohne Wasser nur ein paar Tage. So reagiert dein Körper 💧
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was passiert, wenn du in eiskaltes Wasser fällst?
+
+#wasser #körper #wissen #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn du 3 Tage nichts trinkst? #shorts
+
+Ohne Essen überlebst du Wochen. Ohne Wasser nur ein paar Tage. So reagiert dein Körper 💧
+
+#wasser #körper #wissen #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du hast seit einem ganzen Tag keinen einzigen Schluck getrunken. Und dein Körper schlägt jetzt Alarm. Schon wenn du zwei Prozent deines Körperwassers verlierst, kannst du dich schlechter konzentrieren. Nach einem Tag: Kopfschmerzen, trockener Mund, dein Urin wird dunkel. Dein Blut wird dicker. Nach zwei bis drei Tagen arbeiten deine Nieren kaum noch. Du wirst verwirrt, dein Herz rast. Als grobe Regel gilt: Ohne Wasser überlebst du nur etwa drei Tage. Bei Hitze sogar weniger. Und jetzt ehrlich: Wie viel hast du heute schon getrunken? Schreib es in die Kommentare.
+
+</details>
+
 ### FOLGE 7 – Flight 19 – Teil 1
 **Posten:** Sa 07.11.2026, 18:00 Uhr
 
@@ -339,6 +380,44 @@ Titel: Flight 19 – Teil 1 #shorts
 <details><summary>Sprechertext</summary>
 
 Fünf Militärflugzeuge starten zu einem Trainingsflug. Keines davon kommt zurück. Flight 19. Vierzehn Männer, fünf Bomber, ein Routineflug über dem Atlantik. Nach gut einer Stunde meldet der Staffelführer: Beide Kompasse sind ausgefallen. Er glaubt, sie fliegen über dem Golf von Mexiko. Tatsächlich sind sie über dem offenen Atlantik. Der Sprit wird knapp. Es wird dunkel. Der Funkkontakt bricht ab. Und dann passiert etwas, das alles noch rätselhafter macht. Das siehst du in Teil zwei.
+
+</details>
+
+### BONUS 2 – Was passiert, wenn du in eiskaltes Wasser fällst?
+**Posten:** Sa 07.11.2026, 20:30 Uhr
+
+**TikTok:**
+
+```
+Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?
+
+#eis #überleben #wissen #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+
+#eis #überleben #wissen #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was passiert, wenn du in eiskaltes Wasser fällst? #shorts
+
+Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?
+
+#eis #überleben #wissen #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du brichst durchs Eis. Das Wasser hat null Grad. Und jetzt zählt jede Sekunde. In der ersten Minute kommt der Kälteschock. Du schnappst nach Luft und atmest viel zu schnell. Das Wichtigste: Ruhig bleiben, nicht panisch strampeln. Die Atmung beruhigt sich wieder. Dann hast du etwa zehn Minuten, in denen deine Arme und Beine noch funktionieren. Nutze sie, um rauszukommen. Bis du durch Unterkühlung bewusstlos wirst, dauert es oft bis zu einer Stunde. Das ist die Eins, Zehn, Eins Regel. Kanntest du diese Regel schon? Schick das Video jemandem, der im Winter gern aufs Eis geht.
 
 </details>
 

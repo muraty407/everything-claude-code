@@ -40,3 +40,10 @@ ORDER = [
     ("everest-1953", "vasa"),                       # Do 03.12.
     ("penicillin", None),                           # Fr 04.12.
 ]
+
+# BONUS-Slot (drittes Video, Wunsch 07.11.: 3 pro Tag) – 20:30 Uhr, nur TikTok + YouTube Shorts.
+# (datum, uhrzeit, slug) – am 07.11. zwei Bonus-Uploads (15:00 und 20:30).
+BONUS = [
+    ("2026-11-07", "15:00", "kein-wasser"),
+    ("2026-11-07", "20:30", "eiswasser"),
+]
