@@ -37,7 +37,7 @@ if (args[0] === "--still") {
   for (let i = 0; i < args.length; i += 2) {
     const propsFile = args[i], out = args[i + 1];
     const inputProps = JSON.parse(fs.readFileSync(propsFile, "utf8"));
-    const composition = await selectComposition({ serveUrl, id: "WasWaereWenn", inputProps, browserExecutable });
+    const composition = await selectComposition({ serveUrl, id: inputProps.__comp || "WasWaereWenn", inputProps, browserExecutable });
     const t0 = Date.now();
     await renderMedia({
       composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable,

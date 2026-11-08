@@ -1,0 +1,63 @@
+{
+ "slug": "planeten",
+ "title": "Merging planets until the Sun appears",
+ "spawn": [
+  0.25,
+  0.3,
+  0.25,
+  0.2
+ ],
+ "every": 3,
+ "tiers": [
+  {
+   "key": "asteroid",
+   "name": "Asteroid",
+   "r": 22
+  },
+  {
+   "key": "moon",
+   "name": "Moon",
+   "r": 30
+  },
+  {
+   "key": "mars",
+   "name": "Mars",
+   "r": 40
+  },
+  {
+   "key": "venus",
+   "name": "Venus",
+   "r": 51
+  },
+  {
+   "key": "earth",
+   "name": "Earth",
+   "r": 63
+  },
+  {
+   "key": "neptune",
+   "name": "Neptune",
+   "r": 77
+  },
+  {
+   "key": "uranus",
+   "name": "Uranus",
+   "r": 92
+  },
+  {
+   "key": "saturn",
+   "name": "Saturn",
+   "r": 108
+  },
+  {
+   "key": "jupiter",
+   "name": "Jupiter",
+   "r": 126
+  },
+  {
+   "key": "sun",
+   "name": "Sun",
+   "r": 150
+  }
+ ]
+}
