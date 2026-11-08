@@ -4,6 +4,7 @@ import { FPS, H, Props, W } from "./lib";
 import { WasWaereWenn } from "./Video";
 import { ThumbBG } from "./ThumbBG";
 import { MergeProps, MergeSim } from "./MergeSim";
+import { MetProps, Metronome } from "./Metronome";
 import sample from "./sample.json";
 
 export const Root: React.FC = () => (
@@ -26,6 +27,10 @@ export const Root: React.FC = () => (
     defaultProps={{ fps: 30, duration: 1, topAt: 9999, flask: { cx: 540, cy: 1080, r: 420, neck: 64, neckTop: 170 },
       theme: { slug: "x", tiers: [{ key: "moon", name: "Moon", r: 30 }] }, frames: [[[1, 0, 540, 900, 0]]], events: [] } as MergeProps}
     calculateMetadata={({ props }) => ({ durationInFrames: (props as MergeProps).frames.length })}
+  />
+  <Composition id="Metronome" component={Metronome} width={W} height={H} fps={FPS} durationInFrames={FPS * 10}
+    defaultProps={{ fps: 30, n: 1, frames: [{ a: [0], x: 0, r: 0, d: [0] }] } as MetProps}
+    calculateMetadata={({ props }) => ({ durationInFrames: (props as MetProps).frames.length })}
   />
   </>
 );
