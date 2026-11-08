@@ -1,0 +1,127 @@
+[
+ {
+  "slug": "sonne-verschwindet",
+  "title": "Was wäre, wenn die Sonne verschwindet?",
+  "accent": "#ffb703",
+  "hud": {
+   "label": "BIS DU ES MERKST",
+   "tick": "down"
+  },
+  "thumb": {
+   "top": "DIE SONNE",
+   "bottom": "IST WEG",
+   "tag": "8:20 MIN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "space:sun"
+  },
+  "caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️ #waswärewenn #weltall",
+  "tags": [
+   "sonne",
+   "weltall",
+   "physik",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Noch acht Minuten. Dann wird es auf der Erde dunkel. Für immer.",
+    "scene": "space:sun",
+    "clock": "08:00",
+    "ctx": "JETZT · ÜBERALL AUF DER ERDE",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Denn die Sonne ist gerade verschwunden. Ihr letztes Licht ist noch unterwegs zu uns.",
+    "scene": "space:earth",
+    "clock": "07:52",
+    "big": {
+     "value": "8:20 MIN",
+     "sub": "BRAUCHT IHR LICHT ZU UNS"
+    }
+   },
+   {
+    "text": "Dann wird es schlagartig schwarz. Auch der Mond erlischt – er leuchtet nur durch die Sonne.",
+    "scene": "city:night,blackout",
+    "clock": "00:00",
+    "fx": [
+     "flash",
+     "dark"
+    ],
+    "you": true
+   },
+   {
+    "text": "Die Erde rast jetzt geradeaus ins All. Keine Umlaufbahn mehr.",
+    "scene": "earth:cold",
+    "clock": "00:00",
+    "card": {
+     "kicker": "UMLAUFBAHN",
+     "title": "GERADEAUS INS ALL"
+    }
+   },
+   {
+    "text": "Nach einer Woche: unter minus siebzehn Grad. Nach einem Jahr: minus siebzig.",
+    "scene": "city:night,snow",
+    "clock": "+1 JAHR",
+    "stat": {
+     "title": "TEMPERATUR",
+     "rows": [
+      [
+       "NACH 1 WOCHE",
+       "< −17 °C"
+      ],
+      [
+       "NACH 1 JAHR",
+       "≈ −73 °C"
+      ]
+     ]
+    },
+    "fx": [
+     "snow"
+    ]
+   },
+   {
+    "text": "Überleben könntest du nur tief im Meer – oder in Island, mit Erdwärme.",
+    "scene": "map",
+    "clock": "+1 JAHR",
+    "map": {
+     "label": "ISLAND",
+     "sub": "ERDWÄRME = ÜBERLEBEN"
+    }
+   },
+   {
+    "text": "Zum Glück hält die Sonne noch Milliarden Jahre. Hättest du überlebt? Lass ein Herz da, wenn ja.",
+    "scene": "space:sun",
+    "clock": "08:00",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "HÄTTEST DU ÜBERLEBT?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 1,
+  "id": "v3-sonne-verschwindet",
+  "date": "2026-11-05",
+  "weekday": "Do",
+  "post_time": "17:00",
+  "series": "ZEITZEUGE",
+  "next": null,
+  "word_count": 75,
+  "hashtags": [
+   "#sonne",
+   "#weltall",
+   "#physik",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist auf der Titanic\n\n#sonne #weltall #physik #zeitzeuge #wissenschaft",
+  "yt_title": "Was wäre, wenn die Sonne verschwindet? #shorts",
+  "yt_description": "Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️\n\n#sonne #weltall #physik #zeitzeuge #shorts",
+  "punch": {
+   "word": "8 MINUTEN.",
+   "match": "acht"
+  },
+  "badge": "NEU"
+ }
+]

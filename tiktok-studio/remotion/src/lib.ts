@@ -93,6 +93,7 @@ export type Day = {
   hud: { label: string; tick: "up" | "down" | null };
   thumb: { top: string; bottom: string; tag: string; kicker: string; scene: string };
   hook?: boolean; // v2: großer Hook-Titel in den ersten Sekunden (Retention)
+  punch?: { word: string; match: string }; // v3-Hook: Schlagwort mit Knall statt Titel
   pov?: boolean; // POV-Story: Ich-Perspektive (eigener Arm), Kamera wackelt beim Gehen
   next_label?: string; // z. B. "MORGEN · EXTRA" für Slot B
   segments: Seg[];

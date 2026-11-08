@@ -25,6 +25,13 @@ def mix_audio(day, timeline, voice_wav, out_wav):
             events.append(("boom.wav", ts["start"], 0.9 if ts["i"] == 0 else 0.8))
         if seg.get("card") or seg.get("stat") or seg.get("big"):
             events.append(("pop.wav", ts["start"] + 0.15, 0.45))
+    if day.get("punch"):
+        m = day["punch"]["match"]
+        for ts in timeline["segments"]:
+            hit = [w for w in ts["words"] if "".join(ch for ch in w["w"].lower() if ch.isalpha()) == m]
+            if hit:
+                events.append(("boom.wav", hit[0]["s"], 1.0))
+                break
     if day["hud"].get("tick") == "down":
         t = 1.0
         while t < dur - 1.5:

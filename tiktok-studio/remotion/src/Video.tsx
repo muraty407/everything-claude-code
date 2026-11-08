@@ -49,6 +49,25 @@ const HookTitle: React.FC<{ top: string; bottom: string; accent: string; time: n
   );
 };
 
+// v3-Hook: kein stehender Titel, sondern Sprache ab Frame 0 + ein großes Schlagwort mit Knall
+const punchTime = (props: Props) => {
+  const pu = props.day.punch;
+  if (!pu) return -1;
+  for (const s of props.timeline.segments) for (const w of s.words) if (w.w.toLowerCase().replace(/[^a-zäöüß]/g, "") === pu.match) return w.s;
+  return 1;
+};
+const PunchWord: React.FC<{ text: string; t: number; accent: string }> = ({ text, t, accent }) => {
+  if (t < 0 || t > 1.6) return null;
+  const a = easeOut(t / 0.12) * clamp((1.6 - t) / 0.25);
+  const r = rng(Math.floor(t * 30) + 5);
+  const j = t < 0.4 ? (r() - 0.5) * 18 : 0;
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, top: 560, textAlign: "center", opacity: a, transform: `translate(${j}px, ${j / 2}px) scale(${1.35 - 0.35 * easeOut(t / 0.2)}) rotate(-3deg)` }}>
+      <span style={{ fontFamily: "Anton, sans-serif", fontSize: 230, color: accent, textTransform: "uppercase", WebkitTextStroke: "18px #000", paintOrder: "stroke fill", textShadow: "0 14px 0 #000, 0 0 80px #000" }}>{text}</span>
+    </div>
+  );
+};
+
 const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   const frame = useCurrentFrame(); // lokal in der Sequence
   const { day, timeline } = props;
@@ -62,7 +81,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   const fx = seg.fx ?? [];
 
   // Kamera: Punch-in beim Schnitt + langsamer Push
-  const hookOpen = day.hook && i === 0 && t < HOOK_DUR;
+  const hookOpen = day.hook && !day.punch && i === 0 && t < HOOK_DUR;
   const punch = i === 0 ? (day.hook ? 0.22 * (1 - easeOut(t / 0.9)) : 0) : 0.1 * (1 - easeOut(t / 0.35));
   const push = 1.02 + 0.06 * clamp(t / Math.max(1, dur));
   const panX = Math.sin(seed) * 30 * clamp(t / Math.max(1, dur));
@@ -75,7 +94,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   }
   if (day.pov) { const c = povCam(g); sx += c.x; sy += c.y; }
   const glitch = fx.includes("glitch") && Math.sin(g * 7.3) > 0.82;
-  const ot = day.hook && i === 0 ? t - HOOK_DUR : t; // Overlays im 1. Segment erst nach dem Hook
+  const ot = day.hook && !day.punch && i === 0 ? t - HOOK_DUR : t; // Overlays im 1. Segment erst nach dem Hook
   const fadeIn = i === 0 ? 1 : clamp(t / OVERLAP);
 
   return (
@@ -152,10 +171,12 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       <TopShade />
       <Vignette />
       <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />
-      {!(day.hook && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
+      {!(day.hook && !day.punch && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
       {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
-      {day.hook && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
-      {day.hook && <FollowButton time={time} start={Math.max(HOOK_DUR + 3, total * 0.45)} accent={day.accent}
+      {day.hook && !day.punch && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
+      {day.punch && <PunchWord text={day.punch.word} t={time - punchTime(props)} accent={day.accent} />}
+      {day.punch && time - punchTime(props) >= 0 && time - punchTime(props) < 0.25 && <AbsoluteFill style={{ background: "#fff", opacity: 0.55 * (1 - (time - punchTime(props)) / 0.25) }} />}
+      {day.hook && <FollowButton time={time} start={Math.max(day.punch ? 6 : HOOK_DUR + 3, total * 0.45)} accent={day.accent}
         label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"}
         top={seg.scene === "map" ? 1250 : 965} />}
       <Progress p={time / total} accent={day.accent} />
