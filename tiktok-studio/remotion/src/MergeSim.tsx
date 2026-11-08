@@ -10,7 +10,7 @@ export type MergeProps = {
   duration: number;
   topAt: number;
   flask: { cx: number; cy: number; r: number; neck: number; neckTop: number };
-  theme: { slug: string; tiers: { key: string; name: string; r: number }[] };
+  theme: { slug: string; tiers: { key: string; name: string; r: number; emoji?: string; color?: string }[]; hook?: [string, string]; final?: string; accent?: string };
   frames: [number, number, number, number, number][][];
   events: { f: number; type: string; tier: number; x?: number; y?: number }[];
 };
@@ -171,6 +171,16 @@ const Planet: React.FC<{ k: string; r: number; a: number; id: string; t: number 
   return <circle r={r} fill="#888" />;
 };
 
+// Emoji-Objekte (Noto Color Emoji, OFL) – für alle Themen außer Planeten
+const Emoji: React.FC<{ e: string; r: number; a: number }> = ({ e, r, a }) => (
+  <g transform={`rotate(${(a * 180) / Math.PI})`}>
+    <text x={0} y={r * 0.42} textAnchor="middle" fontSize={r * 2.0} fontFamily="'Noto Color Emoji', sans-serif" style={{ filter: "drop-shadow(0 4px 6px #0008)" }}>{e}</text>
+  </g>
+);
+const Obj: React.FC<{ ti: { key: string; r: number; emoji?: string }; r: number; a: number; id: string; t: number }> = ({ ti, r, a, id, t }) =>
+  ti.emoji ? <Emoji e={ti.emoji} r={r} a={a} /> : <Planet k={ti.key} r={r} a={a} id={id} t={t} />;
+const glow = (ti: { key: string; color?: string }) => ti.color ?? GLOW[ti.key] ?? "#ffffff";
+
 export const MergeSim: React.FC<MergeProps> = (p) => {
   const frame = useCurrentFrame();
   const f = Math.min(frame, p.frames.length - 1);
@@ -230,7 +240,7 @@ export const MergeSim: React.FC<MergeProps> = (p) => {
             const pop = born ? 0.6 + 0.4 * easeOut((f - born.f) / 8) + 0.12 * Math.sin(((f - born.f) / 8) * Math.PI) : 1;
             return (
               <g key={id} transform={`translate(${x} ${y}) scale(${pop})`}>
-                <Planet k={tiers[tier].key} r={tiers[tier].r} a={a} id={String(id)} t={t} />
+                <Obj ti={tiers[tier]} r={tiers[tier].r} a={a} id={String(id)} t={t} />
               </g>
             );
           })}
@@ -239,7 +249,7 @@ export const MergeSim: React.FC<MergeProps> = (p) => {
           {fx.map((e, i) => {
             const k = (f - e.f) / 20;
             const R = tiers[e.tier].r;
-            const col = GLOW[tiers[e.tier].key] ?? "#fff";
+            const col = glow(tiers[e.tier]);
             return (
               <g key={i} transform={`translate(${e.x} ${e.y})`} opacity={1 - k}>
                 <circle r={R * (0.9 + 1.4 * easeOut(k))} fill="none" stroke="#fff" strokeWidth={4 * (1 - k) + 1} />
@@ -262,9 +272,9 @@ export const MergeSim: React.FC<MergeProps> = (p) => {
           const s = Math.min(1, 34 / ti.r);
           return (
             <g key={ti.key} transform={`translate(62 ${y})`}>
-              <circle r={42} fill="#ffffff10" stroke={got ? GLOW[ti.key] : "#ffffff30"} strokeWidth={3} />
+              <circle r={42} fill="#ffffff10" stroke={got ? glow(ti) : "#ffffff30"} strokeWidth={3} />
               {got ? (
-                <g transform={`scale(${s})`}><Planet k={ti.key} r={ti.r} a={0} id={`leg${i}`} t={t} /></g>
+                <g transform={`scale(${s})`}><Obj ti={ti} r={ti.r} a={0} id={`leg${i}`} t={t} /></g>
               ) : (
                 <text y={14} textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={900} fontSize={40} fill="#ffffff55">?</text>
               )}
@@ -277,7 +287,7 @@ export const MergeSim: React.FC<MergeProps> = (p) => {
         <AbsoluteFill style={{ alignItems: "center", paddingTop: 330 }}>
           <div style={{ fontFamily: "Anton, Impact, sans-serif", fontSize: 108, lineHeight: 1.05, textAlign: "center", color: "#fff", WebkitTextStroke: "9px #000", paintOrder: "stroke fill",
             opacity: clamp((3.2 - t) / 0.3), transform: `scale(${0.9 + 0.1 * easeOut(t / 0.25)})`, textShadow: "0 0 40px #000" }}>
-            CAN THIS MAKE<br /><span style={{ color: "#ffd23f" }}>THE SUN?</span>
+            {(p.theme.hook ?? ["CAN THIS MAKE", "THE SUN?"])[0]}<br /><span style={{ color: p.theme.accent ?? "#ffd23f" }}>{(p.theme.hook ?? ["CAN THIS MAKE", "THE SUN?"])[1]}</span>
           </div>
         </AbsoluteFill>
       )}
@@ -285,8 +295,8 @@ export const MergeSim: React.FC<MergeProps> = (p) => {
       {sunT >= 0 && <AbsoluteFill style={{ background: "#fff7d0", opacity: Math.max(0, 0.85 - sunT * 1.6), mixBlendMode: "screen" }} />}
       {sunT >= 0.3 && (
         <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: 300 }}>
-          <div style={{ fontFamily: "Anton, Impact, sans-serif", fontSize: 150, color: "#ffd23f", WebkitTextStroke: "10px #000", paintOrder: "stroke fill", opacity: clamp((sunT - 0.3) / 0.3), transform: `scale(${0.8 + 0.2 * easeOut((sunT - 0.3) / 0.4)})`, textShadow: "0 0 60px #ff9d00" }}>
-            THE SUN!
+          <div style={{ fontFamily: "Anton, Impact, sans-serif", fontSize: Math.min(150, Math.floor(1750 / Math.max(6, (p.theme.final ?? "THE SUN!").length))), textAlign: "center", color: p.theme.accent ?? "#ffd23f", WebkitTextStroke: "10px #000", paintOrder: "stroke fill", opacity: clamp((sunT - 0.3) / 0.3), transform: `scale(${0.8 + 0.2 * easeOut((sunT - 0.3) / 0.4)})`, textShadow: "0 0 60px #ff9d00" }}>
+            {p.theme.final ?? "THE SUN!"}
           </div>
         </AbsoluteFill>
       )}

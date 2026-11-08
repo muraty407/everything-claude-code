@@ -1,0 +1,87 @@
+{
+ "spawn": [
+  0.3,
+  0.3,
+  0.25,
+  0.15
+ ],
+ "every": 16,
+ "gravity": 1.0,
+ "neck": 88,
+ "dropSpeed": 6,
+ "warmupSec": 4,
+ "warmupEvery": 10,
+ "slug": "autos",
+ "title": "Merging vehicles until a rocket appears",
+ "hook": [
+  "CAN THIS BECOME",
+  "A ROCKET?"
+ ],
+ "final": "TO SPACE!",
+ "accent": "#ff4d4d",
+ "tiers": [
+  {
+   "key": "scooter",
+   "name": "scooter",
+   "emoji": "🛴",
+   "color": "#9be7ff",
+   "r": 30
+  },
+  {
+   "key": "moped",
+   "name": "moped",
+   "emoji": "🛵",
+   "color": "#ffd166",
+   "r": 38
+  },
+  {
+   "key": "motorbike",
+   "name": "motorbike",
+   "emoji": "🏍️",
+   "color": "#ef476f",
+   "r": 49
+  },
+  {
+   "key": "car",
+   "name": "car",
+   "emoji": "🚗",
+   "color": "#ff4d4d",
+   "r": 60
+  },
+  {
+   "key": "suv",
+   "name": "suv",
+   "emoji": "🚙",
+   "color": "#4d96ff",
+   "r": 73
+  },
+  {
+   "key": "racecar",
+   "name": "racecar",
+   "emoji": "🏎️",
+   "color": "#ff8c42",
+   "r": 88
+  },
+  {
+   "key": "bus",
+   "name": "bus",
+   "emoji": "🚌",
+   "color": "#ffd23f",
+   "r": 106
+  },
+  {
+   "key": "firetruck",
+   "name": "firetruck",
+   "emoji": "🚒",
+   "color": "#ff3b30",
+   "r": 126
+  },
+  {
+   "key": "rocket",
+   "name": "rocket",
+   "emoji": "🚀",
+   "color": "#c0c0ff",
+   "r": 155
+  }
+ ]
+}

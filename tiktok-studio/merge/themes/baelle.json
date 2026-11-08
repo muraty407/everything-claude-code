@@ -1,0 +1,87 @@
+{
+ "spawn": [
+  0.3,
+  0.3,
+  0.25,
+  0.15
+ ],
+ "every": 16,
+ "gravity": 1.0,
+ "neck": 88,
+ "dropSpeed": 6,
+ "warmupSec": 4,
+ "warmupEvery": 10,
+ "slug": "baelle",
+ "title": "Merging balls until the biggest ball appears",
+ "hook": [
+  "WHICH BALL",
+  "WINS?"
+ ],
+ "final": "BIGGEST BALL!",
+ "accent": "#2ec4b6",
+ "tiers": [
+  {
+   "key": "pingpong",
+   "name": "pingpong",
+   "emoji": "🏓",
+   "color": "#ffffff",
+   "r": 30
+  },
+  {
+   "key": "baseball",
+   "name": "baseball",
+   "emoji": "⚾",
+   "color": "#f1faee",
+   "r": 38
+  },
+  {
+   "key": "tennis",
+   "name": "tennis",
+   "emoji": "🎾",
+   "color": "#c7f464",
+   "r": 49
+  },
+  {
+   "key": "softball",
+   "name": "softball",
+   "emoji": "🥎",
+   "color": "#f9f871",
+   "r": 60
+  },
+  {
+   "key": "volleyball",
+   "name": "volleyball",
+   "emoji": "🏐",
+   "color": "#ffffff",
+   "r": 73
+  },
+  {
+   "key": "rugby",
+   "name": "rugby",
+   "emoji": "🏉",
+   "color": "#a0522d",
+   "r": 88
+  },
+  {
+   "key": "soccer",
+   "name": "soccer",
+   "emoji": "⚽",
+   "color": "#ffffff",
+   "r": 106
+  },
+  {
+   "key": "basketball",
+   "name": "basketball",
+   "emoji": "🏀",
+   "color": "#ff8c42",
+   "r": 126
+  },
+  {
+   "key": "globe",
+   "name": "globe",
+   "emoji": "🌍",
+   "color": "#2ec4b6",
+   "r": 155
+  }
+ ]
+}

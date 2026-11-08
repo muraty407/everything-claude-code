@@ -31,7 +31,13 @@ WORDS = {
     "aura": "Aura!",
     "ate": "Ate!",
     "oh-no": "Oh no!",
+    # Fahrzeug-Videos: eigene Sprüche statt Marken-Slogans
+    "vroom-vroom": "Vroom vroom!",
+    "beep-beep": "Beep beep!",
+    "full-send": "Full send!",
+    "skrrt": "Skrrrt!",
 }
+THEME_WORDS = {"autos": ["vroom-vroom", "beep-beep", "full-send", "skrrt"]}
 
 
 def main():

@@ -1,0 +1,87 @@
+{
+ "spawn": [
+  0.3,
+  0.3,
+  0.25,
+  0.15
+ ],
+ "every": 16,
+ "gravity": 1.0,
+ "neck": 88,
+ "dropSpeed": 6,
+ "warmupSec": 4,
+ "warmupEvery": 10,
+ "slug": "suesses",
+ "title": "Merging sweets until a cake appears",
+ "hook": [
+  "CAN THIS MAKE",
+  "A GIANT CAKE?"
+ ],
+ "final": "CAKE!",
+ "accent": "#ff7eb9",
+ "tiers": [
+  {
+   "key": "candy",
+   "name": "candy",
+   "emoji": "🍬",
+   "color": "#ff7eb9",
+   "r": 30
+  },
+  {
+   "key": "lollipop",
+   "name": "lollipop",
+   "emoji": "🍭",
+   "color": "#ff5ea8",
+   "r": 38
+  },
+  {
+   "key": "cookie",
+   "name": "cookie",
+   "emoji": "🍪",
+   "color": "#d4a373",
+   "r": 49
+  },
+  {
+   "key": "donut",
+   "name": "donut",
+   "emoji": "🍩",
+   "color": "#ffafcc",
+   "r": 60
+  },
+  {
+   "key": "cupcake",
+   "name": "cupcake",
+   "emoji": "🧁",
+   "color": "#ffc8dd",
+   "r": 73
+  },
+  {
+   "key": "icecream",
+   "name": "icecream",
+   "emoji": "🍦",
+   "color": "#fff1e6",
+   "r": 88
+  },
+  {
+   "key": "pie",
+   "name": "pie",
+   "emoji": "🥧",
+   "color": "#e9c46a",
+   "r": 106
+  },
+  {
+   "key": "chocolate",
+   "name": "chocolate",
+   "emoji": "🍫",
+   "color": "#7f4f24",
+   "r": 126
+  },
+  {
+   "key": "cake",
+   "name": "cake",
+   "emoji": "🎂",
+   "color": "#ff7eb9",
+   "r": 155
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "spawn": [
+  0.3,
+  0.3,
+  0.25,
+  0.15
+ ],
+ "every": 16,
+ "gravity": 1.0,
+ "neck": 88,
+ "dropSpeed": 6,
+ "warmupSec": 4,
+ "warmupEvery": 10,
+ "slug": "dinos",
+ "title": "Merging reptiles until a T-Rex appears",
+ "hook": [
+  "CAN THIS MAKE",
+  "A T-REX?"
+ ],
+ "final": "T-REX!",
+ "accent": "#80ed99",
+ "tiers": [
+  {
+   "key": "egg",
+   "name": "egg",
+   "emoji": "🥚",
+   "color": "#fff3e0",
+   "r": 30
+  },
+  {
+   "key": "lizard",
+   "name": "lizard",
+   "emoji": "🦎",
+   "color": "#80ed99",
+   "r": 38
+  },
+  {
+   "key": "snake",
+   "name": "snake",
+   "emoji": "🐍",
+   "color": "#57cc99",
+   "r": 49
+  },
+  {
+   "key": "turtle",
+   "name": "turtle",
+   "emoji": "🐢",
+   "color": "#38a3a5",
+   "r": 60
+  },
+  {
+   "key": "croc",
+   "name": "croc",
+   "emoji": "🐊",
+   "color": "#2d6a4f",
+   "r": 73
+  },
+  {
+   "key": "dragon",
+   "name": "dragon",
+   "emoji": "🐉",
+   "color": "#e63946",
+   "r": 88
+  },
+  {
+   "key": "sauropod",
+   "name": "sauropod",
+   "emoji": "🦕",
+   "color": "#52b788",
+   "r": 106
+  },
+  {
+   "key": "trex",
+   "name": "trex",
+   "emoji": "🦖",
+   "color": "#40916c",
+   "r": 126
+  },
+  {
+   "key": "volcano",
+   "name": "volcano",
+   "emoji": "🌋",
+   "color": "#ff5400",
+   "r": 155
+  }
+ ]
+}

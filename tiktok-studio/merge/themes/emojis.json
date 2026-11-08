@@ -1,0 +1,87 @@
+{
+ "spawn": [
+  0.3,
+  0.3,
+  0.25,
+  0.15
+ ],
+ "every": 16,
+ "gravity": 1.0,
+ "neck": 88,
+ "dropSpeed": 6,
+ "warmupSec": 4,
+ "warmupEvery": 10,
+ "slug": "emojis",
+ "title": "Merging emojis until the king appears",
+ "hook": [
+  "CAN THIS MAKE",
+  "THE KING?"
+ ],
+ "final": "THE KING!",
+ "accent": "#ffd700",
+ "tiers": [
+  {
+   "key": "smile",
+   "name": "smile",
+   "emoji": "🙂",
+   "color": "#ffd93d",
+   "r": 30
+  },
+  {
+   "key": "grin",
+   "name": "grin",
+   "emoji": "😀",
+   "color": "#ffd93d",
+   "r": 38
+  },
+  {
+   "key": "joy",
+   "name": "joy",
+   "emoji": "😂",
+   "color": "#ffd93d",
+   "r": 49
+  },
+  {
+   "key": "rofl",
+   "name": "rofl",
+   "emoji": "🤣",
+   "color": "#ffd93d",
+   "r": 60
+  },
+  {
+   "key": "cool",
+   "name": "cool",
+   "emoji": "😎",
+   "color": "#ffd93d",
+   "r": 73
+  },
+  {
+   "key": "starstruck",
+   "name": "starstruck",
+   "emoji": "🤩",
+   "color": "#ffd93d",
+   "r": 88
+  },
+  {
+   "key": "party",
+   "name": "party",
+   "emoji": "🥳",
+   "color": "#ffd93d",
+   "r": 106
+  },
+  {
+   "key": "money",
+   "name": "money",
+   "emoji": "🤑",
+   "color": "#ffd93d",
+   "r": 126
+  },
+  {
+   "key": "crown",
+   "name": "crown",
+   "emoji": "👑",
+   "color": "#ffd700",
+   "r": 155
+  }
+ ]
+}

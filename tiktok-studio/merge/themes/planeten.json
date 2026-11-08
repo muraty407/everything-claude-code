@@ -60,5 +60,11 @@
  "dropSpeed": 6,
  "voice": "assets/merge/oohlala_laura.wav",
  "warmupSec": 4,
- "warmupEvery": 10
+ "warmupEvery": 10,
+ "hook": [
+  "CAN THIS MAKE",
+  "THE SUN?"
+ ],
+ "final": "THE SUN!",
+ "accent": "#ffd23f"
 }
