@@ -2,58 +2,63 @@
  "slug": "planeten",
  "title": "Merging planets until the Sun appears",
  "spawn": [
-  0.4,
   0.3,
-  0.2,
-  0.1
+  0.3,
+  0.25,
+  0.15
  ],
- "every": 36,
+ "every": 16,
  "tiers": [
+  {
+   "key": "asteroid",
+   "name": "Asteroid",
+   "r": 30
+  },
   {
    "key": "moon",
    "name": "Moon",
-   "r": 40
+   "r": 38
   },
   {
    "key": "mars",
    "name": "Mars",
-   "r": 52
+   "r": 49
   },
   {
    "key": "venus",
    "name": "Venus",
-   "r": 64
+   "r": 60
   },
   {
    "key": "earth",
    "name": "Earth",
-   "r": 78
+   "r": 73
   },
   {
    "key": "neptune",
    "name": "Neptune",
-   "r": 94
+   "r": 88
   },
   {
    "key": "saturn",
    "name": "Saturn",
-   "r": 112
+   "r": 106
   },
   {
    "key": "jupiter",
    "name": "Jupiter",
-   "r": 132
+   "r": 126
   },
   {
    "key": "sun",
    "name": "Sun",
-   "r": 165
+   "r": 155
   }
  ],
- "gravity": 0.8,
+ "gravity": 1.0,
  "neck": 88,
- "dropSpeed": 3,
+ "dropSpeed": 6,
  "voice": "assets/merge/oohlala_laura.wav",
- "warmupSec": 5,
- "warmupEvery": 12
+ "warmupSec": 4,
+ "warmupEvery": 10
 }

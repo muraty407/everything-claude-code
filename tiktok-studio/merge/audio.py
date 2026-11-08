@@ -95,8 +95,10 @@ def main():
                 s = np.zeros(max(len(v), len(b)))
                 s[: len(v)] += 0.55 * v
                 s[: len(b)] += b
+                if busy - tsec > 0.45 and tier < len(sim["theme"]["tiers"]) - 4:
+                    continue  # bei viel Betrieb kleine Fusionen stumm lassen, damit nichts nachhinkt
                 tsec = max(tsec, busy)  # Kaskaden nacheinander statt übereinander
-                busy = tsec + len(s) / SR * 0.75
+                busy = tsec + len(s) / SR * 0.6
             else:
                 s = bell(note(72 + PENTA[min(tier, len(PENTA) - 1)]), 0.9 + tier * 0.08, 0.10 + 0.025 * tier)
         i = int(tsec * SR)

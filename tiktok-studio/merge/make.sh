@@ -14,7 +14,9 @@ fi
 name=$theme-$word
 b=build/merge-$name; mkdir -p $b output/merge
 python3 -c "import json;t=json.load(open('merge/themes/$theme.json'));t['voice']='assets/merge/$word.wav';t['word']='$word';json.dump(t,open('$b/theme.json','w'))"
-node merge/sim.mjs $b/theme.json $b/sim.json ${@:---search 1-40 --min 54 --max 66}
+# jedes Video eigener Seed-Bereich → nie zweimal dieselbe Physik
+n=$(python3 -c "import json,os;print(len(json.load(open('merge/used.json'))) if os.path.exists('merge/used.json') else 0)")
+node merge/sim.mjs $b/theme.json $b/sim.json ${@:---search $((n*100+1))-$((n*100+100)) --min 54 --max 66}
 python3 -c "import json;d=json.load(open('$b/sim.json'));d['__comp']='MergeSim';json.dump(d,open('$b/props.json','w'))"
 (cd remotion && node render.mjs ../$b/props.json ../$b/render.mp4) 2>&1 | grep -v -i "memory\|docker\|calculation" | tail -2
 python3 merge/audio.py $b/sim.json $b/audio.wav
