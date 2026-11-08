@@ -17,16 +17,16 @@ Format 1080×1920, 30 fps, Stimme: ElevenLabs „Brian“, Untertitel eingebrann
 | Sa 07.11. | 20:30 | BONUS 2 | Was passiert, wenn du in eiskaltes Wasser fällst? | [mp4](../output/videos/b02-eiswasser.mp4) | [png](../output/thumbnails/b02-eiswasser.png) |
 | So 08.11. | 11:00 | FOLGE 8 | Was wäre, wenn das Internet 7 Tage ausfällt? | [mp4](../output/videos/f08-internet-weg.mp4) | [png](../output/thumbnails/f08-internet-weg.png) |
 | So 08.11. | 18:00 | FOLGE 9 | Flight 19 – Teil 2 | [mp4](../output/videos/f09-flight-19-teil-2.mp4) | [png](../output/thumbnails/f09-flight-19-teil-2.png) |
-| So 08.11. | 20:30 | BONUS 3 | Was wäre, wenn du 30 Tage nichts isst? | [mp4](../output/videos/b03-ohne-essen.mp4) | [png](../output/thumbnails/b03-ohne-essen.png) |
+| So 08.11. | 20:30 | POV · TEIL 1 | POV: Blackout in Deutschland – Teil 1 | [mp4](../output/videos/p01-blackout-pov-teil-1.mp4) | [png](../output/thumbnails/p01-blackout-pov-teil-1.png) |
 | Mo 09.11. | 12:00 | FOLGE 10 | Was wäre, wenn du in Treibsand gerätst? | [mp4](../output/videos/f10-treibsand.mp4) | [png](../output/thumbnails/f10-treibsand.png) |
 | Mo 09.11. | 17:00 | FOLGE 11 | Was wäre, wenn du ohne Anzug auf dem Mars stehst? | [mp4](../output/videos/f11-mars-ohne-anzug.mp4) | [png](../output/thumbnails/f11-mars-ohne-anzug.png) |
-| Mo 09.11. | 20:30 | POV · TEIL 1 | POV: Blackout in Deutschland – Teil 1 | [mp4](../output/videos/p01-blackout-pov-teil-1.mp4) | [png](../output/thumbnails/p01-blackout-pov-teil-1.png) |
+| Mo 09.11. | 20:30 | POV · TEIL 2 | POV: Blackout in Deutschland – Teil 2 | [mp4](../output/videos/p02-blackout-pov-teil-2.mp4) | [png](../output/thumbnails/p02-blackout-pov-teil-2.png) |
 | Di 10.11. | 12:00 | FOLGE 12 | Was wäre, wenn dich eine Lawine verschüttet? | [mp4](../output/videos/f12-lawine.mp4) | [png](../output/thumbnails/f12-lawine.png) |
 | Di 10.11. | 17:00 | FOLGE 13 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | [mp4](../output/videos/f13-blackout.mp4) | [png](../output/thumbnails/f13-blackout.png) |
-| Di 10.11. | 20:30 | POV · TEIL 2 | POV: Blackout in Deutschland – Teil 2 | [mp4](../output/videos/p02-blackout-pov-teil-2.mp4) | [png](../output/thumbnails/p02-blackout-pov-teil-2.png) |
+| Di 10.11. | 20:30 | POV · TEIL 3 | POV: Blackout in Deutschland – Teil 3 | [mp4](../output/videos/p03-blackout-pov-teil-3.mp4) | [png](../output/thumbnails/p03-blackout-pov-teil-3.png) |
 | Mi 11.11. | 12:00 | FOLGE 14 | Was wäre, wenn du in ein Schwarzes Loch fällst? | [mp4](../output/videos/f14-schwarzes-loch.mp4) | [png](../output/thumbnails/f14-schwarzes-loch.png) |
 | Mi 11.11. | 17:00 | FOLGE 15 | Gefangen in der Höhle – Teil 1 | [mp4](../output/videos/f15-thai-hoehle-teil-1.mp4) | [png](../output/thumbnails/f15-thai-hoehle-teil-1.png) |
-| Mi 11.11. | 20:30 | POV · TEIL 3 | POV: Blackout in Deutschland – Teil 3 | [mp4](../output/videos/p03-blackout-pov-teil-3.mp4) | [png](../output/thumbnails/p03-blackout-pov-teil-3.png) |
+| Mi 11.11. | 20:30 | BONUS 3 | Was wäre, wenn du 30 Tage nichts isst? | [mp4](../output/videos/b03-ohne-essen.mp4) | [png](../output/thumbnails/b03-ohne-essen.png) |
 | Do 12.11. | 12:00 | FOLGE 16 | Was passiert mit dir in der Todeszone am Everest? | [mp4](../output/videos/f16-todeszone-everest.mp4) | [png](../output/thumbnails/f16-todeszone-everest.png) |
 | Do 12.11. | 17:00 | FOLGE 17 | Die Höhlenrettung – Teil 2 | [mp4](../output/videos/f17-thai-hoehle-teil-2.mp4) | [png](../output/thumbnails/f17-thai-hoehle-teil-2.png) |
 | Do 12.11. | 20:30 | BONUS 4 | Was tust du, wenn dein Auto ins Wasser stürzt? | [mp4](../output/videos/b04-auto-unter-wasser.mp4) | [png](../output/thumbnails/b04-auto-unter-wasser.png) |
@@ -528,42 +528,42 @@ Ein Rettungsflugzeug startet, um Flight 19 zu suchen. Und auch das verschwindet.
 
 </details>
 
-### BONUS 3 – Was wäre, wenn du 30 Tage nichts isst?
+### POV · TEIL 1 – POV: Blackout in Deutschland – Teil 1
 **Posten:** So 08.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
+POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
 
-#fasten #körper #wissen #waswärewenn #zeitzeuge
+#pov #blackout #stromausfall #deutschland #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
+POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
+Als Nächstes: POV: Blackout in Deutschland – Teil 2
 
-#fasten #körper #wissen #zeitzeuge #wissenschaft
+#blackout #pov #stromausfall #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du 30 Tage nichts isst? #shorts
+Titel: POV: Blackout in Deutschland – Teil 1 #shorts
 
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
+POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
 
-#fasten #körper #wissen #zeitzeuge #shorts
+#blackout #pov #stromausfall #zeitzeuge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage. Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?
+Siebzehn Uhr zweiundvierzig. Du sitzt in der Straßenbahn. Und plötzlich geht überall das Licht aus. Die Bahn bleibt mitten auf der Kreuzung stehen. Die Ampeln sind aus. Die ganze Straße ist dunkel. Bist du okay? Bei uns ist auch alles aus. Du willst sie anrufen. Aber der Anruf geht nicht durch. Alle versuchen gleichzeitig zu telefonieren. Alter, die ganze Stadt ist dunkel. Sogar die Tankstelle hat zu. Du steigst aus. Bis nach Hause sind es neun Kilometer. Zu Fuß. Es wird Nacht. Keine Straßenlaterne, kein Schaufenster. Nur Scheinwerfer im Stau. Die Handymasten haben Notstrom. Aber nur für ein paar Stunden. Und du hast noch zwölf Prozent Akku. Komm nicht über die Hauptstraße. Da ist Chaos. Also nimmst du die Abkürzung. Am Supermarkt vorbei. Die Scheibe ist eingeschlagen. Drinnen bewegen sich Taschenlampen. Dann ruft jemand deinen Namen. Du drehst dich um. Und erkennst, wer da steht.
 
 </details>
 
@@ -645,13 +645,13 @@ Du stehst ohne Raumanzug auf dem Mars. Du hast fünfzehn Sekunden. Erste Regel: 
 
 </details>
 
-### POV · TEIL 1 – POV: Blackout in Deutschland – Teil 1
+### POV · TEIL 2 – POV: Blackout in Deutschland – Teil 2
 **Posten:** Mo 09.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
+Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
 
 #pov #blackout #stromausfall #deutschland #zeitzeuge
 ```
@@ -659,11 +659,11 @@ POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause 
 **Instagram Reel:**
 
 ```
-POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
+Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: POV: Blackout in Deutschland – Teil 2
+Als Nächstes: POV: Blackout in Deutschland – Teil 3
 
 #blackout #pov #stromausfall #zeitzeuge #wissenschaft
 ```
@@ -671,16 +671,16 @@ Als Nächstes: POV: Blackout in Deutschland – Teil 2
 **YouTube Shorts:**
 
 ```
-Titel: POV: Blackout in Deutschland – Teil 1 #shorts
+Titel: POV: Blackout in Deutschland – Teil 2 #shorts
 
-POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
+Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
 
 #blackout #pov #stromausfall #zeitzeuge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Siebzehn Uhr zweiundvierzig. Du sitzt in der Straßenbahn. Und plötzlich geht überall das Licht aus. Die Bahn bleibt mitten auf der Kreuzung stehen. Die Ampeln sind aus. Die ganze Straße ist dunkel. Bist du okay? Bei uns ist auch alles aus. Du willst sie anrufen. Aber der Anruf geht nicht durch. Alle versuchen gleichzeitig zu telefonieren. Alter, die ganze Stadt ist dunkel. Sogar die Tankstelle hat zu. Du steigst aus. Bis nach Hause sind es neun Kilometer. Zu Fuß. Es wird Nacht. Keine Straßenlaterne, kein Schaufenster. Nur Scheinwerfer im Stau. Die Handymasten haben Notstrom. Aber nur für ein paar Stunden. Und du hast noch zwölf Prozent Akku. Komm nicht über die Hauptstraße. Da ist Chaos. Also nimmst du die Abkürzung. Am Supermarkt vorbei. Die Scheibe ist eingeschlagen. Drinnen bewegen sich Taschenlampen. Dann ruft jemand deinen Namen. Du drehst dich um. Und erkennst, wer da steht.
+Es ist Leon. Mit einer Taschenlampe. Und einem Sixpack Wasser in der Hand. Komm rein. Bezahlen kann eh keiner. Morgen ist hier alles leer. Die Kassen gehen nicht. Kartenzahlung geht nicht. Und Bargeld hat kaum jemand dabei. Du stehst vor der kaputten Scheibe. Und musst dich entscheiden. Wo bist du? Papa holt dich mit dem Auto. Du sagst Leon, er soll mitkommen. Er schüttelt nur den Kopf und verschwindet im Laden. Du schickst Mama deinen Standort. Der Kreis dreht sich. Und dreht sich. Dann wird der Bildschirm schwarz. Akku leer. Du bist allein. Im Dunkeln. Und du weißt nicht, ob die Nachricht angekommen ist. Hinter dir quietschen Reifen. Ein Auto hält direkt neben dir. Die Tür geht auf.
 
 </details>
 
@@ -762,13 +762,13 @@ In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Ampeln aus
 
 </details>
 
-### POV · TEIL 2 – POV: Blackout in Deutschland – Teil 2
+### POV · TEIL 3 – POV: Blackout in Deutschland – Teil 3
 **Posten:** Di 10.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
+Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
 
 #pov #blackout #stromausfall #deutschland #zeitzeuge
 ```
@@ -776,11 +776,10 @@ Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku sti
 **Instagram Reel:**
 
 ```
-Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
+Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: POV: Blackout in Deutschland – Teil 3
 
 #blackout #pov #stromausfall #zeitzeuge #wissenschaft
 ```
@@ -788,16 +787,16 @@ Als Nächstes: POV: Blackout in Deutschland – Teil 3
 **YouTube Shorts:**
 
 ```
-Titel: POV: Blackout in Deutschland – Teil 2 #shorts
+Titel: POV: Blackout in Deutschland – Teil 3 #shorts
 
-Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
+Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
 
 #blackout #pov #stromausfall #zeitzeuge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Es ist Leon. Mit einer Taschenlampe. Und einem Sixpack Wasser in der Hand. Komm rein. Bezahlen kann eh keiner. Morgen ist hier alles leer. Die Kassen gehen nicht. Kartenzahlung geht nicht. Und Bargeld hat kaum jemand dabei. Du stehst vor der kaputten Scheibe. Und musst dich entscheiden. Wo bist du? Papa holt dich mit dem Auto. Du sagst Leon, er soll mitkommen. Er schüttelt nur den Kopf und verschwindet im Laden. Du schickst Mama deinen Standort. Der Kreis dreht sich. Und dreht sich. Dann wird der Bildschirm schwarz. Akku leer. Du bist allein. Im Dunkeln. Und du weißt nicht, ob die Nachricht angekommen ist. Hinter dir quietschen Reifen. Ein Auto hält direkt neben dir. Die Tür geht auf.
+Es ist Papa. Die Nachricht ist angekommen. Gerade noch. Die Fahrt dauert eine Stunde. Ohne Ampeln ist jede Kreuzung ein Risiko. Zu Hause brennen Kerzen. Mama hat das alte Batterieradio aus dem Keller geholt. Der Stromausfall betrifft weite Teile Deutschlands. Mit einer Rückkehr ist frühestens in drei Tagen zu rechnen. Drei Tage. Ohne Kühlschrank, ohne Heizung, ohne Handy. Und in vielen Hochhäusern kommt ohne Strom bald kein Wasser mehr aus dem Hahn. Ihr habt noch zwei Flaschen. Das Bundesamt für Bevölkerungsschutz empfiehlt Vorräte für zehn Tage. Wasser, Essen, Kerzen und ein Radio mit Batterien. Wie viele Tage würdest du zu Hause durchhalten? Und welche POV-Geschichte soll als Nächstes kommen?
 
 </details>
 
@@ -879,41 +878,42 @@ Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein L
 
 </details>
 
-### POV · TEIL 3 – POV: Blackout in Deutschland – Teil 3
+### BONUS 3 – Was wäre, wenn du 30 Tage nichts isst?
 **Posten:** Mi 11.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
 
-#pov #blackout #stromausfall #deutschland #zeitzeuge
+#fasten #körper #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
 
-#blackout #pov #stromausfall #zeitzeuge #wissenschaft
+#fasten #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: POV: Blackout in Deutschland – Teil 3 #shorts
+Titel: Was wäre, wenn du 30 Tage nichts isst? #shorts
 
-Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
 
-#blackout #pov #stromausfall #zeitzeuge #shorts
+#fasten #körper #wissen #zeitzeuge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Es ist Papa. Die Nachricht ist angekommen. Gerade noch. Die Fahrt dauert eine Stunde. Ohne Ampeln ist jede Kreuzung ein Risiko. Zu Hause brennen Kerzen. Mama hat das alte Batterieradio aus dem Keller geholt. Der Stromausfall betrifft weite Teile Deutschlands. Mit einer Rückkehr ist frühestens in drei Tagen zu rechnen. Drei Tage. Ohne Kühlschrank, ohne Heizung, ohne Handy. Und in vielen Hochhäusern kommt ohne Strom bald kein Wasser mehr aus dem Hahn. Ihr habt noch zwei Flaschen. Das Bundesamt für Bevölkerungsschutz empfiehlt Vorräte für zehn Tage. Wasser, Essen, Kerzen und ein Radio mit Batterien. Wie viele Tage würdest du zu Hause durchhalten? Und welche POV-Geschichte soll als Nächstes kommen?
+Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage. Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?
 
 </details>
 

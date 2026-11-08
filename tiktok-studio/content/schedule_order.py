@@ -46,7 +46,7 @@ ORDER = [
 BONUS = [
     ("2026-11-07", "15:00", "kein-wasser"),
     ("2026-11-07", "20:30", "eiswasser"),
-    ("2026-11-08", "20:30", "ohne-essen"),
+    ("2026-11-11", "20:30", "ohne-essen"),
     ("2026-11-12", "20:30", "auto-unter-wasser"),
     ("2026-11-13", "20:30", "hai"),
     ("2026-11-14", "20:30", "flugzeugtuer"),
@@ -75,7 +75,7 @@ BONUS = [
 
 # POV-Story-Test (Wunsch 08.11.): ersetzt drei Tage lang den 20:30-Bonus-Slot
 POV = [
-    ("2026-11-09", "20:30", "blackout-pov-teil-1"),
-    ("2026-11-10", "20:30", "blackout-pov-teil-2"),
-    ("2026-11-11", "20:30", "blackout-pov-teil-3"),
+    ("2026-11-08", "20:30", "blackout-pov-teil-1"),
+    ("2026-11-09", "20:30", "blackout-pov-teil-2"),
+    ("2026-11-10", "20:30", "blackout-pov-teil-3"),
 ]

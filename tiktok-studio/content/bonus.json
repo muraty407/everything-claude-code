@@ -237,121 +237,6 @@
   "yt_description": "Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?\n\n#eis #überleben #wissen #zeitzeuge #shorts"
  },
  {
-  "slug": "ohne-essen",
-  "title": "Was wäre, wenn du 30 Tage nichts isst?",
-  "accent": "#fb8500",
-  "hud": {
-   "label": "OHNE ESSEN",
-   "tick": "up"
-  },
-  "thumb": {
-   "top": "30 TAGE",
-   "bottom": "NICHTS ESSEN",
-   "tag": "DEIN KÖRPER",
-   "kicker": "WAS WÄRE WENN",
-   "scene": "room:day"
-  },
-  "caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️",
-  "tags": [
-   "fasten",
-   "körper",
-   "wissen",
-   "gesundheit"
-  ],
-  "segments": [
-   {
-    "text": "Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht.",
-    "scene": "room:day",
-    "clock": "TAG 1",
-    "ctx": "DEIN KÖRPER · OHNE ESSEN",
-    "fx": [
-     "shake"
-    ],
-    "you": true
-   },
-   {
-    "text": "Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn.",
-    "scene": "room:day",
-    "clock": "TAG 3",
-    "card": {
-     "kicker": "UMSCHALTEN",
-     "title": "FETT WIRD ZU ENERGIE"
-    }
-   },
-   {
-    "text": "Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
-    "scene": "room:dark",
-    "clock": "TAG 7",
-    "stat": {
-     "title": "TAG 7",
-     "rows": [
-      [
-       "HUNGER",
-       "LEISER"
-      ],
-      [
-       "KRAFT",
-       "SINKT"
-      ],
-      [
-       "KÄLTE",
-       "STEIGT"
-      ]
-     ]
-    }
-   },
-   {
-    "text": "Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben.",
-    "scene": "room:dark",
-    "clock": "TAG 30",
-    "big": {
-     "value": "WOCHEN",
-     "sub": "OHNE ESSEN – MIT WASSER"
-    }
-   },
-   {
-    "text": "Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage.",
-    "scene": "city:day",
-    "clock": "TAG 382",
-    "big": {
-     "value": "382 TAGE",
-     "sub": "UNTER ÄRZTLICHER AUFSICHT"
-    }
-   },
-   {
-    "text": "Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?",
-    "scene": "room:day",
-    "clock": "—",
-    "card": {
-     "kicker": "FRAGE",
-     "title": "WIE LANGE OHNE ESSEN?"
-    }
-   }
-  ],
-  "hook": true,
-  "day": 3,
-  "id": "b03-ohne-essen",
-  "date": "2026-11-08",
-  "weekday": "So",
-  "post_time": "20:30",
-  "series": "ZEITZEUGE · BONUS 3",
-  "next": "Was tust du, wenn dein Auto ins Wasser stürzt?",
-  "word_count": 86,
-  "badge": "BONUS 3",
-  "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · BONUS",
-  "hashtags": [
-   "#fasten",
-   "#körper",
-   "#wissen",
-   "#waswärewenn",
-   "#zeitzeuge"
-  ],
-  "ig_caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?\n\n#fasten #körper #wissen #zeitzeuge #wissenschaft",
-  "yt_title": "Was wäre, wenn du 30 Tage nichts isst? #shorts",
-  "yt_description": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\n#fasten #körper #wissen #zeitzeuge #shorts"
- },
- {
   "slug": "blackout-pov-teil-1",
   "title": "POV: Blackout in Deutschland – Teil 1",
   "accent": "#ffbe0b",
@@ -493,8 +378,8 @@
   "pov": true,
   "day": 101,
   "id": "p01-blackout-pov-teil-1",
-  "date": "2026-11-09",
-  "weekday": "Mo",
+  "date": "2026-11-08",
+  "weekday": "So",
   "post_time": "20:30",
   "series": "ZEITZEUGE · POV",
   "next": "POV: Blackout in Deutschland – Teil 2",
@@ -651,8 +536,8 @@
   "pov": true,
   "day": 102,
   "id": "p02-blackout-pov-teil-2",
-  "date": "2026-11-10",
-  "weekday": "Di",
+  "date": "2026-11-09",
+  "weekday": "Mo",
   "post_time": "20:30",
   "series": "ZEITZEUGE · POV",
   "next": "POV: Blackout in Deutschland – Teil 3",
@@ -797,8 +682,8 @@
   "pov": true,
   "day": 103,
   "id": "p03-blackout-pov-teil-3",
-  "date": "2026-11-11",
-  "weekday": "Mi",
+  "date": "2026-11-10",
+  "weekday": "Di",
   "post_time": "20:30",
   "series": "ZEITZEUGE · POV",
   "next": null,
@@ -816,6 +701,121 @@
   "ig_caption": "Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#blackout #pov #stromausfall #zeitzeuge #wissenschaft",
   "yt_title": "POV: Blackout in Deutschland – Teil 3 #shorts",
   "yt_description": "Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️\n\n#blackout #pov #stromausfall #zeitzeuge #shorts"
+ },
+ {
+  "slug": "ohne-essen",
+  "title": "Was wäre, wenn du 30 Tage nichts isst?",
+  "accent": "#fb8500",
+  "hud": {
+   "label": "OHNE ESSEN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "30 TAGE",
+   "bottom": "NICHTS ESSEN",
+   "tag": "DEIN KÖRPER",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "room:day"
+  },
+  "caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️",
+  "tags": [
+   "fasten",
+   "körper",
+   "wissen",
+   "gesundheit"
+  ],
+  "segments": [
+   {
+    "text": "Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht.",
+    "scene": "room:day",
+    "clock": "TAG 1",
+    "ctx": "DEIN KÖRPER · OHNE ESSEN",
+    "fx": [
+     "shake"
+    ],
+    "you": true
+   },
+   {
+    "text": "Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn.",
+    "scene": "room:day",
+    "clock": "TAG 3",
+    "card": {
+     "kicker": "UMSCHALTEN",
+     "title": "FETT WIRD ZU ENERGIE"
+    }
+   },
+   {
+    "text": "Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
+    "scene": "room:dark",
+    "clock": "TAG 7",
+    "stat": {
+     "title": "TAG 7",
+     "rows": [
+      [
+       "HUNGER",
+       "LEISER"
+      ],
+      [
+       "KRAFT",
+       "SINKT"
+      ],
+      [
+       "KÄLTE",
+       "STEIGT"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben.",
+    "scene": "room:dark",
+    "clock": "TAG 30",
+    "big": {
+     "value": "WOCHEN",
+     "sub": "OHNE ESSEN – MIT WASSER"
+    }
+   },
+   {
+    "text": "Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage.",
+    "scene": "city:day",
+    "clock": "TAG 382",
+    "big": {
+     "value": "382 TAGE",
+     "sub": "UNTER ÄRZTLICHER AUFSICHT"
+    }
+   },
+   {
+    "text": "Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?",
+    "scene": "room:day",
+    "clock": "—",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE OHNE ESSEN?"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 3,
+  "id": "b03-ohne-essen",
+  "date": "2026-11-11",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · BONUS 3",
+  "next": "Was tust du, wenn dein Auto ins Wasser stürzt?",
+  "word_count": 86,
+  "badge": "BONUS 3",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · BONUS",
+  "hashtags": [
+   "#fasten",
+   "#körper",
+   "#wissen",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?\n\n#fasten #körper #wissen #zeitzeuge #wissenschaft",
+  "yt_title": "Was wäre, wenn du 30 Tage nichts isst? #shorts",
+  "yt_description": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\n#fasten #körper #wissen #zeitzeuge #shorts"
  },
  {
   "slug": "auto-unter-wasser",
