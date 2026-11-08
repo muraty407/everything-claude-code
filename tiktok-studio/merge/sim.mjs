@@ -30,10 +30,11 @@ function simulate(theme, seed, maxSec = 80) {
   const R = theme.tiers.map((t) => t.r);
   const top = R.length - 1;
   const rand = rng(seed);
-  const engine = Engine.create({ gravity: { x: 0, y: 1.1 } });
+  const engine = Engine.create({ gravity: { x: 0, y: theme.gravity ?? 1.1 } });
   engine.positionIterations = 10;
   engine.velocityIterations = 8;
-  const { cx, cy, r, neck, neckTop } = FLASK;
+  const { cx, cy, r, neckTop } = FLASK;
+  const neck = (FLASK.neck = theme.neck ?? FLASK.neck);
   const walls = [];
   const N = 140, th = 40;
   const neckY = cy - Math.sqrt(r * r - neck * neck); // wo der Hals auf den Kreis trifft
@@ -79,9 +80,9 @@ function simulate(theme, seed, maxSec = 80) {
       if (!blocked) {
         let u = rand(), t = 0;
         while (t < weights.length - 1 && u > weights[t]) { u -= weights[t]; t++; }
-        add(t, cx + (rand() - 0.5) * 20, neckTop - 40, 0, 10);
+        add(t, cx + (rand() - 0.5) * 16, neckTop - 40 - R[t], 0, theme.dropSpeed ?? 10);
         events.push({ f, type: "drop", tier: t });
-        spawnCd = theme.every ?? 5;
+        spawnCd = f < (theme.warmupSec ?? 0) * FPS ? (theme.warmupEvery ?? 10) : (theme.every ?? 5);
       }
     }
     for (let s = 0; s < SUB; s++) {

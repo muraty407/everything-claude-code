@@ -41,6 +41,19 @@ def plop(amp):
     return amp * np.sin(2 * np.pi * np.cumsum(f) / SR) * env(n, 0.002, 0.04)
 
 
+def load_voice(path):
+    with wave.open(path) as w:
+        x = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(float) / 32768
+    return x / max(1e-6, np.max(np.abs(x)))
+
+
+def pitched(x, semis):
+    """Tonhöhe per Resampling ändern (tiefer = langsamer – genau der Effekt: je größer, desto tiefer)."""
+    k = 2 ** (semis / 12)
+    idx = np.arange(0, len(x) - 1, k)
+    return np.interp(idx, np.arange(len(x)), x)
+
+
 def pad(total, rng):
     t = np.arange(total) / SR
     out = np.zeros(total)
@@ -64,13 +77,31 @@ def main():
     total = int((len(sim["frames"]) / fps + 0.5) * SR)
     rng = np.random.default_rng(1)
     mix = pad(total, rng)
+    vpath = sim["theme"].get("voice")
+    voice = load_voice(vpath) if vpath else None
+    ntiers = len(sim["theme"]["tiers"])
+    busy = 0.0
     for e in sim["events"]:
-        i = int(e["f"] / fps * SR)
+        tsec = e["f"] / fps
         if e["type"] == "drop":
-            s = plop(0.10)
+            s = plop(0.08)
         else:
             tier = e["tier"]
-            s = bell(note(72 + PENTA[min(tier, len(PENTA) - 1)]), 0.9 + tier * 0.08, 0.10 + 0.025 * tier)
+            if voice is not None:
+                # „Ooh la la“: kleine Fusion hoch und schnell, große tief und langsam
+                semis = 5 - 17 * (tier - 1) / max(1, ntiers - 2)
+                v = pitched(voice, semis)
+                b = bell(note(72 + PENTA[min(tier, len(PENTA) - 1)] - 12), 0.6, 0.04)
+                s = np.zeros(max(len(v), len(b)))
+                s[: len(v)] += 0.55 * v
+                s[: len(b)] += b
+                tsec = max(tsec, busy)  # Kaskaden nacheinander statt übereinander
+                busy = tsec + len(s) / SR * 0.75
+            else:
+                s = bell(note(72 + PENTA[min(tier, len(PENTA) - 1)]), 0.9 + tier * 0.08, 0.10 + 0.025 * tier)
+        i = int(tsec * SR)
+        if i >= total:
+            continue
         j = min(total, i + len(s))
         mix[i:j] += s[: j - i]
     # Finale: Akkord + Whoosh
