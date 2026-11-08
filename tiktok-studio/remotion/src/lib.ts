@@ -79,6 +79,7 @@ export type Seg = {
   fx?: string[];
   voice?: string;
   you?: boolean;
+  phone?: { from: string; msgs: string[]; battery?: number; net?: string }; // POV: Handy-Nachricht
   img?: string; // Plan B: echtes Foto (Pfad in public/), ersetzt die Grafik-Szene
 };
 
@@ -92,6 +93,7 @@ export type Day = {
   hud: { label: string; tick: "up" | "down" | null };
   thumb: { top: string; bottom: string; tag: string; kicker: string; scene: string };
   hook?: boolean; // v2: großer Hook-Titel in den ersten Sekunden (Retention)
+  pov?: boolean; // POV-Story: Ich-Perspektive (eigener Arm), Kamera wackelt beim Gehen
   next_label?: string; // z. B. "MORGEN · EXTRA" für Slot B
   segments: Seg[];
 };

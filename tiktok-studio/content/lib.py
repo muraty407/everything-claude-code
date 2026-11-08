@@ -15,7 +15,7 @@ voice: None = Erzähler, "second" = zweite Stimme (Zitate)
 
 
 def S(text, scene, c=None, ctx=None, card=None, stat=None, big=None,
-      quote=None, map=None, fx=None, voice=None, you=False):
+      quote=None, map=None, fx=None, voice=None, you=False, phone=None):
     seg = {"text": text, "scene": scene}
     if c is not None:
         seg["clock"] = c
@@ -37,6 +37,12 @@ def S(text, scene, c=None, ctx=None, card=None, stat=None, big=None,
         seg["voice"] = voice
     if you:
         seg["you"] = True
+    if phone:  # (absender, [nachrichten], akku%, netz-hinweis)
+        seg["phone"] = {"from": phone[0], "msgs": list(phone[1])}
+        if len(phone) > 2 and phone[2] is not None:
+            seg["phone"]["battery"] = phone[2]
+        if len(phone) > 3 and phone[3]:
+            seg["phone"]["net"] = phone[3]
     return seg
 
 

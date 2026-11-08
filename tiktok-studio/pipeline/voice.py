@@ -34,10 +34,12 @@ EL_MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
 EL_VOICES = {
     "narrator": os.environ.get("ELEVENLABS_VOICE_ID", "nPczCjzI2devNBz1zQrb"),
     "second": os.environ.get("ELEVENLABS_VOICE_ID_2", "onwK4e9ZLuTAKqWW03F9"),
+    "mama": os.environ.get("ELEVENLABS_VOICE_ID_MAMA", "XrExE9yKIg1WjnnlVkGX"),  # Matilda – POV-Storys
 }
 EL_SETTINGS = {
     "narrator": {"stability": 0.42, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True, "speed": 1.08},
     "second": {"stability": 0.55, "similarity_boost": 0.75, "style": 0.2, "use_speaker_boost": True, "speed": 1.0},
+    "mama": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True, "speed": 1.0},
 }
 EL_CACHE = os.path.join(ROOT, "build", "_tts_cache")
 VITS_DIR = os.path.join(ROOT, "assets/voices/coqui/tts_models--de--thorsten--vits")

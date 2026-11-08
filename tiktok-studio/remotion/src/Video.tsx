@@ -3,6 +3,7 @@ import React, { useMemo } from "react";
 import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { FPS, H, Props, W, clamp, easeOut, hashStr, parseScene, rng } from "./lib";
 import { renderScene, You } from "./scenes";
+import { PhoneBanner, PovArm, povCam } from "./pov";
 import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, TopShade, Vignette, chunkWords } from "./ui";
 
 const OVERLAP = 0.18; // Sekunden Überblendung zwischen Szenen
@@ -72,6 +73,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
     sx = (r() - 0.5) * 36 * k;
     sy = (r() - 0.5) * 36 * k;
   }
+  if (day.pov) { const c = povCam(g); sx += c.x; sy += c.y; }
   const glitch = fx.includes("glitch") && Math.sin(g * 7.3) > 0.82;
   const ot = day.hook && i === 0 ? t - HOOK_DUR : t; // Overlays im 1. Segment erst nach dem Hook
   const fadeIn = i === 0 ? 1 : clamp(t / OVERLAP);
@@ -87,7 +89,7 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
         ) : (
           <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
             {renderScene(preset, { flags, t, g, accent: day.accent, seed, label: seg.map?.label, sub: seg.map?.sub })}
-            {seg.you && <You g={g} accent={day.accent} x={preset === "room" ? 360 : 300} y={1700} s={0.95} />}
+            {seg.you && !day.pov && <You g={g} accent={day.accent} x={preset === "room" ? 360 : 300} y={1700} s={0.95} />}
           </svg>
         )}
       </AbsoluteFill>
@@ -102,7 +104,13 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
       {fx.includes("flash") && <AbsoluteFill style={{ background: "#fff", opacity: Math.max(0, 0.9 - t * 2.2) }} />}
       {hookOpen && <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 40%, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.75) 85%), linear-gradient(${day.accent}33, ${day.accent}33)`, opacity: clamp((HOOK_DUR - t) / 0.3) }} />}
 
+      {day.pov && flags.includes("night") && (
+        // Ich-Perspektive nachts: Handy-Taschenlampe leuchtet die Straße an (wackelt mit)
+        <AbsoluteFill style={{ mixBlendMode: "screen", background: `radial-gradient(ellipse 46% 30% at ${50 + Math.sin(g * 1.3) * 6}% ${66 + Math.sin(g * 2.1) * 3}%, rgba(255,236,190,0.55) 0%, rgba(255,220,160,0.18) 45%, transparent 75%)` }} />
+      )}
+      {day.pov && <PovArm g={g} t={t} phone={seg.phone} accent={day.accent} />}
       {/* Overlays */}
+      {seg.phone && <PhoneBanner phone={seg.phone} t={ot - 0.05} dur={dur} />}
       {seg.stat && <Stat title={seg.stat.title} rows={seg.stat.rows} t={ot - 0.15} accent={day.accent} />}
       {seg.card && <Card kicker={seg.card.kicker} title={seg.card.title} t={ot - 0.1} accent={day.accent} />}
       {seg.big && <Big value={seg.big.value} sub={seg.big.sub} t={ot - 0.05} accent={day.accent} />}

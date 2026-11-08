@@ -23,6 +23,7 @@ from days_11_20 import DAYS as D2  # noqa: E402
 from days_21_30 import DAYS as D3  # noqa: E402
 from days_b import DAYS_B  # noqa: E402
 from days_c import DAYS_C  # noqa: E402
+from pov import POV  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
 import schedule_order  # noqa: E402
 
@@ -129,7 +130,19 @@ def main():
                    next_label="ALS NÄCHSTES · BONUS")
         bonus.append(e)
 
-    for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus)):
+    # ---- POV-Storys → pov.json (Rendern) + zusätzlich in bonus.json (Lieferung 20:30)
+    ppool = {d["slug"]: d for d in POV}
+    pov = []
+    for n, (date, time, slug) in enumerate(schedule_order.POV, start=1):
+        nxt = ppool[schedule_order.POV[n][2]]["title"] if n < len(schedule_order.POV) else None
+        e = enrich(dict(ppool[slug], hook=True, pov=True), day=n, id_=f"p{n:02d}-{slug}", date=dt.date.fromisoformat(date),
+                   post_time=time, series="ZEITZEUGE · POV", nxt=nxt, badge=f"POV · TEIL {n}", brand="ZEITZEUGE",
+                   next_label="MORGEN 20:30 · TEIL")
+        e["hashtags"] = ["#pov", "#blackout", "#stromausfall", "#deutschland", "#zeitzeuge"]
+        pov.append(e)
+    bonus = sorted(bonus + [dict(e, day=100 + e["day"]) for e in pov], key=lambda d: (d["date"], d["post_time"]))
+
+    for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus), ("pov.json", pov)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
 

@@ -352,6 +352,472 @@
   "yt_description": "Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️\n\n#fasten #körper #wissen #zeitzeuge #shorts"
  },
  {
+  "slug": "blackout-pov-teil-1",
+  "title": "POV: Blackout in Deutschland – Teil 1",
+  "accent": "#ffbe0b",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: STROM",
+   "bottom": "WEG",
+   "tag": "TEIL 1",
+   "kicker": "DEUTSCHLAND",
+   "scene": "city:night,blackout"
+  },
+  "caption": "POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦",
+  "tags": [
+   "blackout",
+   "pov",
+   "stromausfall",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Siebzehn Uhr zweiundvierzig. Du sitzt in der Straßenbahn. Und plötzlich geht überall das Licht aus.",
+    "scene": "city:dusk,blackout",
+    "clock": "17:42",
+    "ctx": "POV · BLACKOUT IN DEUTSCHLAND",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Die Bahn bleibt mitten auf der Kreuzung stehen. Die Ampeln sind aus. Die ganze Straße ist dunkel.",
+    "scene": "city:dusk,blackout",
+    "clock": "17:43"
+   },
+   {
+    "text": "Bist du okay? Bei uns ist auch alles aus.",
+    "scene": "room:dark",
+    "clock": "17:46",
+    "voice": "mama",
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Bist du ok? Bei uns ist auch alles aus 😟"
+     ],
+     "battery": 23
+    }
+   },
+   {
+    "text": "Du willst sie anrufen. Aber der Anruf geht nicht durch. Alle versuchen gleichzeitig zu telefonieren.",
+    "scene": "city:dusk,blackout",
+    "clock": "17:50",
+    "card": {
+     "kicker": "NETZ",
+     "title": "ÜBERLASTET"
+    }
+   },
+   {
+    "text": "Alter, die ganze Stadt ist dunkel. Sogar die Tankstelle hat zu.",
+    "scene": "city:dusk,blackout",
+    "clock": "17:58",
+    "voice": "second",
+    "phone": {
+     "from": "Leon",
+     "msgs": [
+      "Alter die ganze Stadt ist dunkel",
+      "Sogar die Tanke hat zu 💀"
+     ],
+     "battery": 19
+    }
+   },
+   {
+    "text": "Du steigst aus. Bis nach Hause sind es neun Kilometer. Zu Fuß.",
+    "scene": "city:dusk,blackout",
+    "clock": "18:05",
+    "big": {
+     "value": "9 KM",
+     "sub": "BIS NACH HAUSE"
+    }
+   },
+   {
+    "text": "Es wird Nacht. Keine Straßenlaterne, kein Schaufenster. Nur Scheinwerfer im Stau.",
+    "scene": "city:night,blackout",
+    "clock": "18:40"
+   },
+   {
+    "text": "Die Handymasten haben Notstrom. Aber nur für ein paar Stunden. Und du hast noch zwölf Prozent Akku.",
+    "scene": "city:night,blackout",
+    "clock": "19:05",
+    "big": {
+     "value": "12 %",
+     "sub": "AKKU – KEIN STROM ZUM LADEN"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Komm nicht über die Hauptstraße. Da ist Chaos.",
+    "scene": "city:night,blackout",
+    "clock": "19:12",
+    "voice": "mama",
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Komm nicht über die Hauptstraße. Da ist Chaos."
+     ],
+     "battery": 12
+    }
+   },
+   {
+    "text": "Also nimmst du die Abkürzung. Am Supermarkt vorbei.",
+    "scene": "city:night,blackout",
+    "clock": "19:20"
+   },
+   {
+    "text": "Die Scheibe ist eingeschlagen. Drinnen bewegen sich Taschenlampen.",
+    "scene": "city:night,blackout",
+    "clock": "19:21",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Dann ruft jemand deinen Namen. Du drehst dich um. Und erkennst, wer da steht.",
+    "scene": "city:night,blackout",
+    "clock": "19:22",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN · 20:30 UHR"
+    },
+    "fx": [
+     "dark"
+    ]
+   }
+  ],
+  "hook": true,
+  "pov": true,
+  "day": 101,
+  "id": "p01-blackout-pov-teil-1",
+  "date": "2026-11-09",
+  "weekday": "Mo",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · POV",
+  "next": "POV: Blackout in Deutschland – Teil 2",
+  "word_count": 145,
+  "badge": "POV · TEIL 1",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN 20:30 · TEIL",
+  "hashtags": [
+   "#pov",
+   "#blackout",
+   "#stromausfall",
+   "#deutschland",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: POV: Blackout in Deutschland – Teil 2\n\n#blackout #pov #stromausfall #zeitzeuge #wissenschaft",
+  "yt_title": "POV: Blackout in Deutschland – Teil 1 #shorts",
+  "yt_description": "POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦\n\n#blackout #pov #stromausfall #zeitzeuge #shorts"
+ },
+ {
+  "slug": "blackout-pov-teil-2",
+  "title": "POV: Blackout in Deutschland – Teil 2",
+  "accent": "#ffbe0b",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: AKKU",
+   "bottom": "3 %",
+   "tag": "TEIL 2",
+   "kicker": "DEUTSCHLAND",
+   "scene": "city:night,blackout"
+  },
+  "caption": "Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦",
+  "tags": [
+   "blackout",
+   "pov",
+   "stromausfall",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Es ist Leon. Mit einer Taschenlampe. Und einem Sixpack Wasser in der Hand.",
+    "scene": "city:night,blackout",
+    "clock": "19:22",
+    "ctx": "POV · BLACKOUT · TEIL 2",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Komm rein. Bezahlen kann eh keiner. Morgen ist hier alles leer.",
+    "scene": "city:night,blackout",
+    "clock": "19:23",
+    "voice": "second"
+   },
+   {
+    "text": "Die Kassen gehen nicht. Kartenzahlung geht nicht. Und Bargeld hat kaum jemand dabei.",
+    "scene": "city:night,blackout",
+    "clock": "19:24",
+    "stat": {
+     "title": "SUPERMARKT",
+     "rows": [
+      [
+       "KASSEN",
+       "AUS"
+      ],
+      [
+       "KARTE",
+       "GEHT NICHT"
+      ],
+      [
+       "KÜHLUNG",
+       "AUS"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Du stehst vor der kaputten Scheibe. Und musst dich entscheiden.",
+    "scene": "city:night,blackout",
+    "clock": "19:25",
+    "card": {
+     "kicker": "DEINE ENTSCHEIDUNG",
+     "title": "REIN ODER WEITER?"
+    }
+   },
+   {
+    "text": "Wo bist du? Papa holt dich mit dem Auto.",
+    "scene": "city:night,blackout",
+    "clock": "19:26",
+    "voice": "mama",
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Wo bist du?",
+      "Papa holt dich mit dem Auto!"
+     ],
+     "battery": 6
+    }
+   },
+   {
+    "text": "Du sagst Leon, er soll mitkommen. Er schüttelt nur den Kopf und verschwindet im Laden.",
+    "scene": "city:night,blackout",
+    "clock": "19:27"
+   },
+   {
+    "text": "Du schickst Mama deinen Standort. Der Kreis dreht sich. Und dreht sich.",
+    "scene": "city:night,blackout",
+    "clock": "19:28",
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "📍 Standort wird gesendet …"
+     ],
+     "battery": 3,
+     "net": "KEIN NETZ"
+    }
+   },
+   {
+    "text": "Dann wird der Bildschirm schwarz. Akku leer.",
+    "scene": "city:night,blackout",
+    "clock": "19:29",
+    "big": {
+     "value": "0 %",
+     "sub": "AKKU LEER"
+    },
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Du bist allein. Im Dunkeln. Und du weißt nicht, ob die Nachricht angekommen ist.",
+    "scene": "city:night,blackout",
+    "clock": "19:40",
+    "fx": [
+     "dark"
+    ]
+   },
+   {
+    "text": "Hinter dir quietschen Reifen. Ein Auto hält direkt neben dir. Die Tür geht auf.",
+    "scene": "city:night,blackout",
+    "clock": "19:51",
+    "card": {
+     "kicker": "TEIL 3",
+     "title": "MORGEN · 20:30 UHR"
+    },
+    "fx": [
+     "shake"
+    ]
+   }
+  ],
+  "hook": true,
+  "pov": true,
+  "day": 102,
+  "id": "p02-blackout-pov-teil-2",
+  "date": "2026-11-10",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · POV",
+  "next": "POV: Blackout in Deutschland – Teil 3",
+  "word_count": 118,
+  "badge": "POV · TEIL 2",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN 20:30 · TEIL",
+  "hashtags": [
+   "#pov",
+   "#blackout",
+   "#stromausfall",
+   "#deutschland",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: POV: Blackout in Deutschland – Teil 3\n\n#blackout #pov #stromausfall #zeitzeuge #wissenschaft",
+  "yt_title": "POV: Blackout in Deutschland – Teil 2 #shorts",
+  "yt_description": "Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦\n\n#blackout #pov #stromausfall #zeitzeuge #shorts"
+ },
+ {
+  "slug": "blackout-pov-teil-3",
+  "title": "POV: Blackout in Deutschland – Teil 3",
+  "accent": "#ffbe0b",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: 3 TAGE",
+   "bottom": "OHNE STROM",
+   "tag": "TEIL 3",
+   "kicker": "DEUTSCHLAND",
+   "scene": "room:night,candle"
+  },
+  "caption": "Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️",
+  "tags": [
+   "blackout",
+   "pov",
+   "stromausfall",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Es ist Papa. Die Nachricht ist angekommen. Gerade noch.",
+    "scene": "city:night,blackout",
+    "clock": "19:51",
+    "ctx": "POV · BLACKOUT · TEIL 3",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Die Fahrt dauert eine Stunde. Ohne Ampeln ist jede Kreuzung ein Risiko.",
+    "scene": "city:night,blackout",
+    "clock": "20:30",
+    "card": {
+     "kicker": "KEINE AMPELN",
+     "title": "JEDE KREUZUNG = RISIKO"
+    }
+   },
+   {
+    "text": "Zu Hause brennen Kerzen. Mama hat das alte Batterieradio aus dem Keller geholt.",
+    "scene": "room:night,candle",
+    "clock": "21:05"
+   },
+   {
+    "text": "Der Stromausfall betrifft weite Teile Deutschlands. Mit einer Rückkehr ist frühestens in drei Tagen zu rechnen.",
+    "scene": "room:night,candle",
+    "clock": "21:10",
+    "quote": {
+     "text": "Mit einer Rückkehr ist frühestens in drei Tagen zu rechnen.",
+     "who": "Radio-Durchsage"
+    },
+    "voice": "second"
+   },
+   {
+    "text": "Drei Tage. Ohne Kühlschrank, ohne Heizung, ohne Handy.",
+    "scene": "room:night,candle",
+    "clock": "21:11",
+    "stat": {
+     "title": "3 TAGE OHNE STROM",
+     "rows": [
+      [
+       "KÜHLSCHRANK",
+       "AUS"
+      ],
+      [
+       "HEIZUNG",
+       "AUS"
+      ],
+      [
+       "HANDY",
+       "LEER"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Und in vielen Hochhäusern kommt ohne Strom bald kein Wasser mehr aus dem Hahn. Ihr habt noch zwei Flaschen.",
+    "scene": "room:night,candle",
+    "clock": "21:15",
+    "big": {
+     "value": "2 FLASCHEN",
+     "sub": "WASSER FÜR 3 TAGE?"
+    },
+    "fx": [
+     "red"
+    ]
+   },
+   {
+    "text": "Das Bundesamt für Bevölkerungsschutz empfiehlt Vorräte für zehn Tage. Wasser, Essen, Kerzen und ein Radio mit Batterien.",
+    "scene": "room:night,candle",
+    "clock": "21:20",
+    "stat": {
+     "title": "VORRAT FÜR 10 TAGE",
+     "rows": [
+      [
+       "WASSER",
+       "2 L / TAG"
+      ],
+      [
+       "ESSEN",
+       "10 TAGE"
+      ],
+      [
+       "RADIO",
+       "BATTERIE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Wie viele Tage würdest du zu Hause durchhalten? Und welche POV-Geschichte soll als Nächstes kommen?",
+    "scene": "room:night,candle",
+    "clock": "21:30",
+    "card": {
+     "kicker": "FRAGE",
+     "title": "WIE LANGE HÄLTST DU DURCH?"
+    }
+   }
+  ],
+  "hook": true,
+  "pov": true,
+  "day": 103,
+  "id": "p03-blackout-pov-teil-3",
+  "date": "2026-11-11",
+  "weekday": "Mi",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · POV",
+  "next": null,
+  "word_count": 109,
+  "badge": "POV · TEIL 3",
+  "brand": "ZEITZEUGE",
+  "next_label": "MORGEN 20:30 · TEIL",
+  "hashtags": [
+   "#pov",
+   "#blackout",
+   "#stromausfall",
+   "#deutschland",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#blackout #pov #stromausfall #zeitzeuge #wissenschaft",
+  "yt_title": "POV: Blackout in Deutschland – Teil 3 #shorts",
+  "yt_description": "Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️\n\n#blackout #pov #stromausfall #zeitzeuge #shorts"
+ },
+ {
   "slug": "auto-unter-wasser",
   "title": "Was tust du, wenn dein Auto ins Wasser stürzt?",
   "accent": "#00b4d8",
@@ -449,8 +915,8 @@
   "hook": true,
   "day": 4,
   "id": "b04-auto-unter-wasser",
-  "date": "2026-11-09",
-  "weekday": "Mo",
+  "date": "2026-11-12",
+  "weekday": "Do",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 4",
   "next": "Was wäre, wenn dich ein Hai angreift?",
@@ -554,8 +1020,8 @@
   "hook": true,
   "day": 5,
   "id": "b05-hai",
-  "date": "2026-11-10",
-  "weekday": "Di",
+  "date": "2026-11-13",
+  "weekday": "Fr",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 5",
   "next": "Was passiert, wenn du im Flugzeug die Tür öffnest?",
@@ -659,8 +1125,8 @@
   "hook": true,
   "day": 6,
   "id": "b06-flugzeugtuer",
-  "date": "2026-11-11",
-  "weekday": "Mi",
+  "date": "2026-11-14",
+  "weekday": "Sa",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 6",
   "next": "Was passiert, wenn im Aufzug das Seil reißt?",
@@ -770,8 +1236,8 @@
   "hook": true,
   "day": 7,
   "id": "b07-aufzug-seil",
-  "date": "2026-11-12",
-  "weekday": "Do",
+  "date": "2026-11-15",
+  "weekday": "So",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 7",
   "next": "Was passiert, wenn du die Luft anhältst?",
@@ -872,8 +1338,8 @@
   "hook": true,
   "day": 8,
   "id": "b08-luft-anhalten",
-  "date": "2026-11-13",
-  "weekday": "Fr",
+  "date": "2026-11-16",
+  "weekday": "Mo",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 8",
   "next": "Was passiert in deinem Gehirn, wenn du verliebt bist?",
@@ -984,8 +1450,8 @@
   "hook": true,
   "day": 9,
   "id": "b09-verliebt",
-  "date": "2026-11-14",
-  "weekday": "Sa",
+  "date": "2026-11-17",
+  "weekday": "Di",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 9",
   "next": "Was wäre, wenn du im Lotto gewinnst?",
@@ -1085,8 +1551,8 @@
   "hook": true,
   "day": 10,
   "id": "b10-lotto",
-  "date": "2026-11-15",
-  "weekday": "So",
+  "date": "2026-11-18",
+  "weekday": "Mi",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 10",
   "next": "Was passiert, wenn du zu viel Kaffee trinkst?",
@@ -1203,8 +1669,8 @@
   "hook": true,
   "day": 11,
   "id": "b11-zu-viel-kaffee",
-  "date": "2026-11-16",
-  "weekday": "Mo",
+  "date": "2026-11-19",
+  "weekday": "Do",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 11",
   "next": "Du bist allein im Wald verloren – was zuerst?",
@@ -1325,8 +1791,8 @@
   "hook": true,
   "day": 12,
   "id": "b12-regel-der-drei",
-  "date": "2026-11-17",
-  "weekday": "Di",
+  "date": "2026-11-20",
+  "weekday": "Fr",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 12",
   "next": "Was tust du, wenn die Erde unter dir bebt?",
@@ -1443,8 +1909,8 @@
   "hook": true,
   "day": 13,
   "id": "b13-erdbeben",
-  "date": "2026-11-18",
-  "weekday": "Mi",
+  "date": "2026-11-21",
+  "weekday": "Sa",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 13",
   "next": "Was passiert mit dir bei 50 Grad?",
@@ -1548,8 +2014,8 @@
   "hook": true,
   "day": 14,
   "id": "b14-hitze-50-grad",
-  "date": "2026-11-19",
-  "weekday": "Do",
+  "date": "2026-11-22",
+  "weekday": "So",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 14",
   "next": "Was wäre, wenn du 30 Tage nur Fast Food isst?",
@@ -1647,8 +2113,8 @@
   "hook": true,
   "day": 15,
   "id": "b15-fastfood",
-  "date": "2026-11-20",
-  "weekday": "Fr",
+  "date": "2026-11-23",
+  "weekday": "Mo",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 15",
   "next": "Was wäre, wenn du durch die Erde fällst?",
@@ -1753,8 +2219,8 @@
   "hook": true,
   "day": 16,
   "id": "b16-tunnel-durch-erde",
-  "date": "2026-11-21",
-  "weekday": "Sa",
+  "date": "2026-11-24",
+  "weekday": "Di",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 16",
   "next": "Was wäre, wenn du auf dem Mond springst?",
@@ -1861,8 +2327,8 @@
   "hook": true,
   "day": 17,
   "id": "b17-mond-springen",
-  "date": "2026-11-22",
-  "weekday": "So",
+  "date": "2026-11-25",
+  "weekday": "Mi",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 17",
   "next": "Was wäre, wenn du bei minus 60 Grad lebst?",
@@ -1966,8 +2432,8 @@
   "hook": true,
   "day": 18,
   "id": "b18-oimjakon",
-  "date": "2026-11-23",
-  "weekday": "Mo",
+  "date": "2026-11-26",
+  "weekday": "Do",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 18",
   "next": "Jemand bricht vor dir zusammen – was tust du?",
@@ -2084,8 +2550,8 @@
   "hook": true,
   "day": 19,
   "id": "b19-herzstillstand",
-  "date": "2026-11-24",
-  "weekday": "Di",
+  "date": "2026-11-27",
+  "weekday": "Fr",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 19",
   "next": "Was passiert, wenn du aus 27 Metern ins Wasser springst?",
@@ -2186,8 +2652,8 @@
   "hook": true,
   "day": 20,
   "id": "b20-klippensprung",
-  "date": "2026-11-25",
-  "weekday": "Mi",
+  "date": "2026-11-28",
+  "weekday": "Sa",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 20",
   "next": "Was macht ein Jahr im Weltall mit dir?",
@@ -2294,8 +2760,8 @@
   "hook": true,
   "day": 21,
   "id": "b21-ein-jahr-all",
-  "date": "2026-11-26",
-  "weekday": "Do",
+  "date": "2026-11-29",
+  "weekday": "So",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 21",
   "next": "Das Meer zieht sich zurück – was jetzt?",
@@ -2399,8 +2865,8 @@
   "hook": true,
   "day": 22,
   "id": "b22-tsunami",
-  "date": "2026-11-27",
-  "weekday": "Fr",
+  "date": "2026-11-30",
+  "weekday": "Mo",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 22",
   "next": "208 Sekunden: Notlandung auf dem Fluss",
@@ -2511,8 +2977,8 @@
   "hook": true,
   "day": 23,
   "id": "b23-hudson",
-  "date": "2026-11-28",
-  "weekday": "Sa",
+  "date": "2026-12-01",
+  "weekday": "Di",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 23",
   "next": "9 Tage allein in der Sahara",
@@ -2622,8 +3088,8 @@
   "hook": true,
   "day": 24,
   "id": "b24-wueste",
-  "date": "2026-11-29",
-  "weekday": "So",
+  "date": "2026-12-02",
+  "weekday": "Mi",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 24",
   "next": "Sie fiel 10.000 Meter – und überlebte",
@@ -2726,8 +3192,8 @@
   "hook": true,
   "day": 25,
   "id": "b25-sturz-10000m",
-  "date": "2026-11-30",
-  "weekday": "Mo",
+  "date": "2026-12-03",
+  "weekday": "Do",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 25",
   "next": "Zwei Monate in einer Höhle ohne Uhr",
@@ -2824,8 +3290,8 @@
   "hook": true,
   "day": 26,
   "id": "b26-hoehle-ohne-zeit",
-  "date": "2026-12-01",
-  "weekday": "Di",
+  "date": "2026-12-04",
+  "weekday": "Fr",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 26",
   "next": "Er sprang aus 39 Kilometern Höhe",
@@ -2932,8 +3398,8 @@
   "hook": true,
   "day": 27,
   "id": "b27-stratosphaere",
-  "date": "2026-12-02",
-  "weekday": "Mi",
+  "date": "2026-12-05",
+  "weekday": "Sa",
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 27",
   "next": null,
