@@ -14,11 +14,11 @@
  "slug": "dinos",
  "title": "Merging reptiles until a T-Rex appears",
  "hook": [
-  "CAN THIS MAKE",
-  "A T-REX?"
+  "WHAT COMES",
+  "AFTER T-REX?"
  ],
- "final": "T-REX!",
- "accent": "#80ed99",
+ "final": "ERUPTION!",
+ "accent": "#ff7b00",
  "tiers": [
   {
    "key": "egg",
