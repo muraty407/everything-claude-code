@@ -27,6 +27,7 @@ from pov import POV  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
 import schedule_order  # noqa: E402
 
+V3_FROM = "2026-11-10"  # ab hier neuer Einstieg (Sprache ab Frame 0 + Schlagwort)
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 # Posting-Zeiten (Wunsch des Kanals). Nach ~2 Wochen mit Analytics → Follower-Aktivität prüfen.
 POST_TIME_A = {0: "17:00", 1: "17:00", 2: "17:00", 3: "17:00", 4: "17:00", 5: "11:00", 6: "11:00"}
@@ -175,6 +176,15 @@ def main():
         e["hashtags"] = ["#pov", "#blackout", "#stromausfall", "#deutschland", "#zeitzeuge"]
         pov.append(e)
     bonus = sorted(bonus + [dict(e, day=100 + e["day"]) for e in pov], key=lambda d: (d["date"], d["post_time"]))
+
+    # ---- v3-Hook für alles, was ab V3_FROM gepostet wird (Test 09.11.: 2,5× Wiedergabezeit)
+    def add_punch(e):
+        if e["date"] >= V3_FROM and not e.get("punch"):
+            first = e["segments"][0]["text"].split()[0]
+            e["punch"] = {"word": f"{e['thumb']['top']} {e['thumb']['bottom']}".strip(),
+                          "match": "".join(ch for ch in first.lower() if ch.isalpha())}
+    for e in schedule + bonus + pov:
+        add_punch(e)
 
     for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus), ("pov.json", pov)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:

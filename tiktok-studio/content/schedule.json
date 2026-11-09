@@ -750,7 +750,11 @@
   "yt_description": "Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴 #mars #weltall #shorts",
   "badge": "FOLGE 11",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "15 SEKUNDEN",
+   "match": "du"
+  }
  },
  {
   "slug": "lawine",
@@ -877,7 +881,11 @@
   "yt_description": "Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️ #lawine #ski #shorts",
   "badge": "FOLGE 12",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "15 MINUTEN",
+   "match": "eine"
+  }
  },
  {
   "slug": "blackout",
@@ -1007,7 +1015,11 @@
   "yt_description": "Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du… #blackout #stromausfall #shorts",
   "badge": "FOLGE 13",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "72 STUNDEN KEIN STROM",
+   "match": "in"
+  }
  },
  {
   "slug": "schwarzes-loch",
@@ -1121,7 +1133,11 @@
   "yt_description": "Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es… #schwarzesloch #weltall #shorts",
   "badge": "FOLGE 14",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DU FÄLLST HINEIN",
+   "match": "du"
+  }
  },
  {
   "slug": "thai-hoehle-teil-1",
@@ -1221,7 +1237,11 @@
   ],
   "ig_caption": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was passiert mit dir in der Todeszone am Everest?\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
   "yt_title": "Gefangen in der Höhle – Teil 1 #shorts",
-  "yt_description": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten… #thailand #höhlenrettung #shorts"
+  "yt_description": "12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten… #thailand #höhlenrettung #shorts",
+  "punch": {
+   "word": "12 JUNGS IN DER HÖHLE",
+   "match": "du"
+  }
  },
  {
   "slug": "todeszone-everest",
@@ -1349,7 +1369,11 @@
   "yt_description": "Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der… #everest #berge #shorts",
   "badge": "FOLGE 16",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "TODES ZONE",
+   "match": "du"
+  }
  },
  {
   "slug": "thai-hoehle-teil-2",
@@ -1446,7 +1470,11 @@
   ],
   "ig_caption": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
   "yt_title": "Die Höhlenrettung – Teil 2 #shorts",
-  "yt_description": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️ #thailand #höhlenrettung #shorts"
+  "yt_description": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️ #thailand #höhlenrettung #shorts",
+  "punch": {
+   "word": "ALLE 13 GERETTET",
+   "match": "kein"
+  }
  },
  {
   "slug": "riesenameise",
@@ -1548,7 +1576,11 @@
   ],
   "ig_caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?\n\n#ameise #physik #natur #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn eine Ameise so groß wäre wie du? #shorts",
-  "yt_description": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #physik #shorts"
+  "yt_description": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #physik #shorts",
+  "punch": {
+   "word": "AMEISE IN MENSCHENGRÖSSE",
+   "match": "eine"
+  }
  },
  {
   "slug": "erde-stoppt",
@@ -1666,7 +1698,11 @@
   "yt_description": "Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍 #erde #physik #shorts",
   "badge": "FOLGE 19",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DIE ERDE STOPPT",
+   "match": "die"
+  }
  },
  {
   "slug": "marianengraben",
@@ -1764,7 +1800,11 @@
   "yt_description": "Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach… #marianengraben #ozean #shorts",
   "badge": "FOLGE 20",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "11 KM TIEFE",
+   "match": "du"
+  }
  },
  {
   "slug": "chile-bergleute-teil-1",
@@ -1861,7 +1901,11 @@
   ],
   "ig_caption": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du auf der Venus landest?\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
   "yt_title": "33 Bergleute unter Tage – Teil 1 #shorts",
-  "yt_description": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben… #chile #bergleute #shorts"
+  "yt_description": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben… #chile #bergleute #shorts",
+  "punch": {
+   "word": "700 METER UNTER TAGE",
+   "match": "du"
+  }
  },
  {
   "slug": "venus-landung",
@@ -1965,7 +2009,11 @@
   ],
   "ig_caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 33 Bergleute unter Tage – Teil 2\n\n#venus #weltall #planeten #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn du auf der Venus landest? #shorts",
-  "yt_description": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… #venus #weltall #shorts"
+  "yt_description": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… #venus #weltall #shorts",
+  "punch": {
+   "word": "465 GRAD",
+   "match": "du"
+  }
  },
  {
   "slug": "chile-bergleute-teil-2",
@@ -2062,7 +2110,11 @@
   ],
   "ig_caption": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn alle Bienen verschwinden?\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
   "yt_title": "33 Bergleute unter Tage – Teil 2 #shorts",
-  "yt_description": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung… #chile #bergleute #shorts"
+  "yt_description": "Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung… #chile #bergleute #shorts",
+  "punch": {
+   "word": "WIR 33 LEBEN",
+   "match": "auf"
+  }
  },
  {
   "slug": "keine-bienen",
@@ -2174,7 +2226,11 @@
   ],
   "ig_caption": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest du am meisten vermissen?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn der Mond verschwindet?\n\n#bienen #natur #umwelt #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn alle Bienen verschwinden? #shorts",
-  "yt_description": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest… #bienen #natur #shorts"
+  "yt_description": "Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest… #bienen #natur #shorts",
+  "punch": {
+   "word": "ALLE BIENEN WEG",
+   "match": "alle"
+  }
  },
  {
   "slug": "mond-verschwindet",
@@ -2282,7 +2338,11 @@
   "yt_description": "Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕 #mond #weltall #shorts",
   "badge": "FOLGE 25",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DER MOND IST WEG",
+   "match": "der"
+  }
  },
  {
   "slug": "lichtgeschwindigkeit",
@@ -2392,7 +2452,11 @@
   ],
   "ig_caption": "Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit wird komisch. ⚡\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn heute ein Dino-Asteroid einschlägt?\n\n#lichtgeschwindigkeit #einstein #physik #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn du so schnell wärst wie das Licht? #shorts",
-  "yt_description": "Was passiert, wenn du fast so schnell fliegst wie das… #lichtgeschwindigkeit #einstein #shorts"
+  "yt_description": "Was passiert, wenn du fast so schnell fliegst wie das… #lichtgeschwindigkeit #einstein #shorts",
+  "punch": {
+   "word": "SCHNELLER ALS LICHT?",
+   "match": "du"
+  }
  },
  {
   "slug": "asteroid",
@@ -2498,7 +2562,11 @@
   "yt_description": "Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️ #asteroid #dinosaurier #shorts",
   "badge": "FOLGE 27",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "10 KM ASTEROID",
+   "match": "ein"
+  }
  },
  {
   "slug": "erde-ohne-menschen",
@@ -2605,7 +2673,11 @@
   "yt_description": "Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns… #erdeohnemenschen #natur #shorts",
   "badge": "FOLGE 28",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "ALLE MENSCHEN WEG",
+   "match": "alle"
+  }
  },
  {
   "slug": "gagarin-teil-1",
@@ -2704,7 +2776,11 @@
   ],
   "ig_caption": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn der Yellowstone ausbricht?\n\n#gagarin #weltall #raumfahrt #zeitzeuge #geschichte",
   "yt_title": "Du bist Juri Gagarin – Teil 1 #shorts",
-  "yt_description": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀 #gagarin #weltall #shorts"
+  "yt_description": "12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀 #gagarin #weltall #shorts",
+  "punch": {
+   "word": "ALS ERSTER INS ALL",
+   "match": "du"
+  }
  },
  {
   "slug": "yellowstone",
@@ -2814,7 +2890,11 @@
   "yt_description": "Der Supervulkan unter Yellowstone bricht aus. Was passiert in… #yellowstone #supervulkan #shorts",
   "badge": "FOLGE 30",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "SUPER VULKAN",
+   "match": "der"
+  }
  },
  {
   "slug": "gagarin-teil-2",
@@ -2913,7 +2993,11 @@
   ],
   "ig_caption": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn in der Eifel ein Vulkan ausbricht?\n\n#gagarin #weltall #raumfahrt #zeitzeuge #geschichte",
   "yt_title": "Du bist Juri Gagarin – Teil 2 #shorts",
-  "yt_description": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀 #gagarin #weltall #shorts"
+  "yt_description": "Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀 #gagarin #weltall #shorts",
+  "punch": {
+   "word": "DAS GEHEIMNIS DER LANDUNG",
+   "match": "gagarin"
+  }
  },
  {
   "slug": "eifel-vulkan",
@@ -3014,7 +3098,11 @@
   ],
   "ig_caption": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn die Antarktis komplett schmilzt?\n\n#eifel #vulkan #deutschland #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn in der Eifel ein Vulkan ausbricht? #shorts",
-  "yt_description": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋 #eifel #vulkan #shorts"
+  "yt_description": "Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋 #eifel #vulkan #shorts",
+  "punch": {
+   "word": "VULKAN IN DEUTSCHLAND",
+   "match": "in"
+  }
  },
  {
   "slug": "antarktis-schmilzt",
@@ -3130,7 +3218,11 @@
   "yt_description": "Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in… #antarktis #klima #shorts",
   "badge": "FOLGE 33",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "+58 METER",
+   "match": "das"
+  }
  },
  {
   "slug": "jupiter-landung",
@@ -3233,7 +3325,11 @@
   ],
   "ig_caption": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem. 🪐\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Shackleton im Eis – Teil 1\n\n#jupiter #weltall #planeten #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn du auf dem Jupiter landen willst? #shorts",
-  "yt_description": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste… #jupiter #weltall #shorts"
+  "yt_description": "Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste… #jupiter #weltall #shorts",
+  "punch": {
+   "word": "KEIN BODEN",
+   "match": "du"
+  }
  },
  {
   "slug": "shackleton-teil-1",
@@ -3348,7 +3444,11 @@
   ],
   "ig_caption": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?\n\n#shackleton #antarktis #endurance #zeitzeuge #geschichte",
   "yt_title": "Shackleton im Eis – Teil 1 #shorts",
-  "yt_description": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der… #shackleton #antarktis #shorts"
+  "yt_description": "1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der… #shackleton #antarktis #shorts",
+  "punch": {
+   "word": "SCHIFF IM EIS ZERDRÜCKT",
+   "match": "dein"
+  }
  },
  {
   "slug": "sonnensturm",
@@ -3461,7 +3561,11 @@
   "yt_description": "1859 sprühten Telegrafen Funken. Was würde ein solcher… #sonnensturm #polarlichter #shorts",
   "badge": "FOLGE 36",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "SONNEN STURM",
+   "match": "ein"
+  }
  },
  {
   "slug": "shackleton-teil-2",
@@ -3562,7 +3666,11 @@
   ],
   "ig_caption": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn heute ein Signal von Aliens kommt?\n\n#shackleton #antarktis #endurance #zeitzeuge #geschichte",
   "yt_title": "Shackleton im Eis – Teil 2 #shorts",
-  "yt_description": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste… #shackleton #antarktis #shorts"
+  "yt_description": "Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste… #shackleton #antarktis #shorts",
+  "punch": {
+   "word": "ALLE 28 ÜBERLEBEN",
+   "match": "ein"
+  }
  },
  {
   "slug": "alien-signal",
@@ -3664,7 +3772,11 @@
   ],
   "ig_caption": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn der Golfstrom stoppt?\n\n#aliens #weltall #seti #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn heute ein Signal von Aliens kommt? #shorts",
-  "yt_description": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was… #aliens #weltall #shorts"
+  "yt_description": "Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was… #aliens #weltall #shorts",
+  "punch": {
+   "word": "SIGNAL VON ALIENS",
+   "match": "ein"
+  }
  },
  {
   "slug": "golfstrom",
@@ -3762,7 +3874,11 @@
   "yt_description": "Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️ #golfstrom #klima #shorts",
   "badge": "FOLGE 39",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "GOLFSTROM STOPPT",
+   "match": "der"
+  }
  },
  {
   "slug": "gammablitz",
@@ -3863,7 +3979,11 @@
   "yt_description": "Die stärkste Explosion im Universum trifft die Erde. Finale der… #gammablitz #weltall #shorts",
   "badge": "FOLGE 40",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "GAMMA BLITZ",
+   "match": "ein"
+  }
  },
  {
   "slug": "tschernobyl",
@@ -3969,7 +4089,11 @@
   "yt_description": "26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein… #tschernobyl #prypjat #shorts",
   "badge": "FOLGE 41",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "NIEMAND WARNT DICH",
+   "match": "drei"
+  }
  },
  {
   "slug": "apollo-13",
@@ -4093,7 +4217,11 @@
   "yt_description": "330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist… #apollo13 #nasa #shorts",
   "badge": "FOLGE 42",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "HOUSTON, PROBLEM",
+   "match": "dein"
+  }
  },
  {
   "slug": "archipow-teil-1",
@@ -4208,7 +4336,11 @@
   ],
   "ig_caption": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du sitzt in der Mondfähre – Apollo 11\n\n#kubakrise #kalterkrieg #uboot #zeitzeuge #geschichte",
   "yt_title": "Das U-Boot B-59 – Teil 1 #shorts",
-  "yt_description": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein… #kubakrise #kalterkrieg #shorts"
+  "yt_description": "1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein… #kubakrise #kalterkrieg #shorts",
+  "punch": {
+   "word": "ATOM- TORPEDO",
+   "match": "du"
+  }
  },
  {
   "slug": "mondlandung",
@@ -4323,7 +4455,11 @@
   "yt_description": "20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff… #mondlandung #apollo11 #shorts",
   "badge": "FOLGE 44",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "25 SEK. TREIBSTOFF",
+   "match": "nur"
+  }
  },
  {
   "slug": "archipow-teil-2",
@@ -4420,7 +4556,11 @@
   ],
   "ig_caption": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist in Hamburg – Sturmflut 1962\n\n#archipow #kubakrise #kalterkrieg #zeitzeuge #geschichte",
   "yt_title": "Der Mann, der Nein sagte – Teil 2 #shorts",
-  "yt_description": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg… #archipow #kubakrise #shorts"
+  "yt_description": "Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg… #archipow #kubakrise #shorts",
+  "punch": {
+   "word": "ER SAGTE NEIN",
+   "match": "ein"
+  }
  },
  {
   "slug": "sturmflut-hamburg",
@@ -4529,7 +4669,11 @@
   "yt_description": "Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht… #hamburg #sturmflut #shorts",
   "badge": "FOLGE 46",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DIE DEICHE BRECHEN",
+   "match": "mitten"
+  }
  },
  {
   "slug": "mauerfall",
@@ -4644,7 +4788,11 @@
   "yt_description": "9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die… #mauerfall #berlin #shorts",
   "badge": "FOLGE 47",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DIE MAUER FÄLLT HEUTE",
+   "match": "heute"
+  }
  },
  {
   "slug": "hindenburg",
@@ -4754,7 +4902,11 @@
   "yt_description": "6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34… #hindenburg #luftschiff #shorts",
   "badge": "FOLGE 48",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "34 SEKUNDEN",
+   "match": "du"
+  }
  },
  {
   "slug": "tutanchamun-teil-1",
@@ -4844,7 +4996,11 @@
   ],
   "ig_caption": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist am Krakatau 1883\n\n#tutanchamun #ägypten #pharao #zeitzeuge #geschichte",
   "yt_title": "Das Grab des Tutanchamun – Teil 1 #shorts",
-  "yt_description": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab… #tutanchamun #ägypten #shorts"
+  "yt_description": "1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab… #tutanchamun #ägypten #shorts",
+  "punch": {
+   "word": "WUNDERBARE DINGE",
+   "match": "du"
+  }
  },
  {
   "slug": "krakatau",
@@ -4952,7 +5108,11 @@
   "yt_description": "27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋 #krakatau #vulkan #shorts",
   "badge": "FOLGE 50",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DER LAUTESTE KNALL",
+   "match": "gleich"
+  }
  },
  {
   "slug": "tutanchamun-teil-2",
@@ -5053,7 +5213,11 @@
   ],
   "ig_caption": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du lebst 1349 – Die Pest kommt\n\n#tutanchamun #ägypten #fluchdespharao #zeitzeuge #geschichte",
   "yt_title": "Der Fluch des Pharao – Teil 2 #shorts",
-  "yt_description": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich… #tutanchamun #ägypten #shorts"
+  "yt_description": "Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich… #tutanchamun #ägypten #shorts",
+  "punch": {
+   "word": "DER FLUCH DES PHARAO",
+   "match": "wenige"
+  }
  },
  {
   "slug": "pest-1349",
@@ -5152,7 +5316,11 @@
   "yt_description": "1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige… #pest #mittelalter #shorts",
   "badge": "FOLGE 52",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "DIE PEST KOMMT",
+   "match": "die"
+  }
  },
  {
   "slug": "lissabon-1755",
@@ -5249,7 +5417,11 @@
   "yt_description": "Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du… #lissabon #erdbeben #shorts",
   "badge": "FOLGE 53",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "ERDBEBEN + TSUNAMI",
+   "match": "lissabon"
+  }
  },
  {
   "slug": "brand-london",
@@ -5370,7 +5542,11 @@
   "yt_description": "London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier… #london #feuer #shorts",
   "badge": "FOLGE 54",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "LONDON BRENNT",
+   "match": "london"
+  }
  },
  {
   "slug": "jahr-ohne-sommer",
@@ -5490,7 +5666,11 @@
   "yt_description": "1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf… #jahrohnesommer #1816 #shorts",
   "badge": "FOLGE 55",
   "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE"
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "punch": {
+   "word": "SCHNEE IM JUNI",
+   "match": "es"
+  }
  },
  {
   "slug": "pyramiden-bau",
@@ -5589,7 +5769,11 @@
   ],
   "ig_caption": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist beim ersten Motorflug 1903\n\n#pyramiden #ägypten #cheops #zeitzeuge #geschichte",
   "yt_title": "Du baust die Pyramiden #shorts",
-  "yt_description": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️ #pyramiden #ägypten #shorts"
+  "yt_description": "Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️ #pyramiden #ägypten #shorts",
+  "punch": {
+   "word": "2,3 MIO. STEINE",
+   "match": "du"
+  }
  },
  {
   "slug": "brueder-wright",
@@ -5687,7 +5871,11 @@
   ],
   "ig_caption": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist bei der Erstbesteigung des Everest\n\n#gebrüderwright #luftfahrt #erfindung #zeitzeuge #geschichte",
   "yt_title": "Du bist beim ersten Motorflug 1903 #shorts",
-  "yt_description": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim… #gebrüderwright #luftfahrt #shorts"
+  "yt_description": "12 Sekunden, die die Welt verändert haben. Du bist dabei beim… #gebrüderwright #luftfahrt #shorts",
+  "punch": {
+   "word": "12 SEKUNDEN",
+   "match": "in"
+  }
  },
  {
   "slug": "everest-1953",
@@ -5795,7 +5983,11 @@
   ],
   "ig_caption": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten Punkt der Erde. 🏔️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Du bist auf der Vasa – 1628\n\n#everest #berge #hillary #zeitzeuge #geschichte",
   "yt_title": "Du bist bei der Erstbesteigung des Everest #shorts",
-  "yt_description": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten… #everest #berge #shorts"
+  "yt_description": "29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten… #everest #berge #shorts",
+  "punch": {
+   "word": "ALS ERSTE GANZ OBEN",
+   "match": "noch"
+  }
  },
  {
   "slug": "vasa",
@@ -5893,7 +6085,11 @@
   ],
   "ig_caption": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Die Entdeckung des Penicillins\n\n#vasa #schweden #schiff #zeitzeuge #geschichte",
   "yt_title": "Du bist auf der Vasa – 1628 #shorts",
-  "yt_description": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist… #vasa #schweden #shorts"
+  "yt_description": "Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist… #vasa #schweden #shorts",
+  "punch": {
+   "word": "NACH 1.300 M GESUNKEN",
+   "match": "das"
+  }
  },
  {
   "slug": "penicillin",
@@ -5991,6 +6187,10 @@
   ],
   "ig_caption": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet Millionen Leben. 🧫\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#penicillin #medizin #fleming #zeitzeuge #geschichte",
   "yt_title": "Die Entdeckung des Penicillins #shorts",
-  "yt_description": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet… #penicillin #medizin #shorts"
+  "yt_description": "Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet… #penicillin #medizin #shorts",
+  "punch": {
+   "word": "SCHIMMEL RETTET LEBEN",
+   "match": "ein"
+  }
  }
 ]

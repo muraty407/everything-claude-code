@@ -63,7 +63,7 @@ const PunchWord: React.FC<{ text: string; t: number; accent: string }> = ({ text
   const j = t < 0.4 ? (r() - 0.5) * 18 : 0;
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top: 560, textAlign: "center", opacity: a, transform: `translate(${j}px, ${j / 2}px) scale(${1.35 - 0.35 * easeOut(t / 0.2)}) rotate(-3deg)` }}>
-      <span style={{ fontFamily: "Anton, sans-serif", fontSize: 230, color: accent, textTransform: "uppercase", WebkitTextStroke: "18px #000", paintOrder: "stroke fill", textShadow: "0 14px 0 #000, 0 0 80px #000" }}>{text}</span>
+      <span style={{ fontFamily: "Anton, sans-serif", fontSize: Math.min(230, Math.floor(1900 / Math.max(4, text.length * 0.92))), whiteSpace: "nowrap", color: accent, textTransform: "uppercase", WebkitTextStroke: "18px #000", paintOrder: "stroke fill", textShadow: "0 14px 0 #000, 0 0 80px #000" }}>{text}</span>
     </div>
   );
 };
