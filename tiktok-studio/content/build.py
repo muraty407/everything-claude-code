@@ -26,6 +26,7 @@ from days_c import DAYS_C  # noqa: E402
 from pov import POV  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
 import schedule_order  # noqa: E402
+import short_ab  # noqa: E402
 
 V3_FROM = "2026-11-10"  # ab hier neuer Einstieg (Sprache ab Frame 0 + Schlagwort)
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
@@ -185,6 +186,15 @@ def main():
                           "match": "".join(ch for ch in first.lower() if ch.isalpha())}
     for e in schedule + bonus + pov:
         add_punch(e)
+    # ---- Kurzfassung ~20 s + A/B-Frage ab short_ab.SHORT_FROM (Ziel: Ø angeschaut > 50 %)
+    for e in schedule + bonus:
+        segs = short_ab.shorten(e)
+        if segs:
+            e["segments"], e["short"] = segs, True
+            e["word_count"] = words(segs)
+            if e["slug"] in short_ab.AB:
+                q, a, b = short_ab.AB[e["slug"]]
+                e["pin"] = f"{q}? A: {a} oder B: {b}? 👇"
 
     for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus), ("pov.json", pov)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:

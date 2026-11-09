@@ -740,15 +740,6 @@
     "you": true
    },
    {
-    "text": "Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn.",
-    "scene": "room:day",
-    "clock": "TAG 3",
-    "card": {
-     "kicker": "UMSCHALTEN",
-     "title": "FETT WIRD ZU ENERGIE"
-    }
-   },
-   {
     "text": "Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
     "scene": "room:dark",
     "clock": "TAG 7",
@@ -780,21 +771,12 @@
     }
    },
    {
-    "text": "Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage.",
-    "scene": "city:day",
-    "clock": "TAG 382",
-    "big": {
-     "value": "382 TAGE",
-     "sub": "UNTER ÄRZTLICHER AUFSICHT"
-    }
-   },
-   {
-    "text": "Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?",
+    "text": "Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.",
     "scene": "room:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WIE LANGE OHNE ESSEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: UNTER 1 TAG · B: ÜBER 1 TAG"
     }
    }
   ],
@@ -806,7 +788,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 3",
   "next": "Was tust du, wenn dein Auto ins Wasser stürzt?",
-  "word_count": 86,
+  "word_count": 64,
   "badge": "BONUS 3",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -823,7 +805,9 @@
   "punch": {
    "word": "30 TAGE NICHTS ESSEN",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Wie lange hast du schon gefastet? A: Unter 1 Tag oder B: Über 1 Tag? 👇"
  },
  {
   "slug": "auto-unter-wasser",
@@ -859,15 +843,6 @@
     "you": true
    },
    {
-    "text": "Viele versuchen zuerst die Tür. Aber gegen den Wasserdruck bekommst du sie kaum auf.",
-    "scene": "underwater:dark",
-    "clock": "00:10",
-    "card": {
-     "kicker": "FEHLER #1",
-     "title": "DIE TÜR"
-    }
-   },
-   {
     "text": "Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen.",
     "scene": "underwater:dark",
     "clock": "00:15",
@@ -890,15 +865,6 @@
     }
    },
    {
-    "text": "Elektrische Fenster funktionieren oft noch kurz. Wenn nicht: Nothammer auf die Seitenscheibe, nicht auf die Frontscheibe.",
-    "scene": "underwater:dark",
-    "clock": "00:30",
-    "card": {
-     "kicker": "TIPP",
-     "title": "NOTHAMMER – SEITENSCHEIBE"
-    }
-   },
-   {
     "text": "Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen.",
     "scene": "underwater:dark",
     "clock": "01:00",
@@ -911,12 +877,12 @@
     ]
    },
    {
-    "text": "Hast du einen Nothammer im Auto? Schick das Video jemandem, der viel fährt.",
+    "text": "Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "city:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HAST DU EINEN NOTHAMMER?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -928,7 +894,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 4",
   "next": "Was wäre, wenn dich ein Hai angreift?",
-  "word_count": 87,
+  "word_count": 59,
   "badge": "BONUS 4",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -945,7 +911,9 @@
   "punch": {
    "word": "AUTO SINKT",
    "match": "dein"
-  }
+  },
+  "short": true,
+  "pin": "Hast du einen Nothammer im Auto? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "hai",
@@ -990,27 +958,6 @@
     }
    },
    {
-    "text": "Nicht wild strampeln, nicht wegdrehen. Behalte den Hai im Blick und schwimm ruhig Richtung Ufer.",
-    "scene": "underwater:day",
-    "clock": "00:10",
-    "card": {
-     "kicker": "REGEL 1",
-     "title": "RUHIG BLEIBEN"
-    }
-   },
-   {
-    "text": "Greift er an, wehr dich. Ziel auf die Augen und die Kiemen. Das sind seine empfindlichsten Stellen.",
-    "scene": "underwater:day",
-    "clock": "00:20",
-    "card": {
-     "kicker": "REGEL 2",
-     "title": "AUGEN & KIEMEN"
-    },
-    "fx": [
-     "shake"
-    ]
-   },
-   {
     "text": "Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie.",
     "scene": "underwater:dark",
     "clock": "—",
@@ -1020,12 +967,12 @@
     }
    },
    {
-    "text": "Also, wer ist hier eigentlich gefährlicher? Würdest du noch im Meer schwimmen?",
+    "text": "Schwimmst du noch im Meer? A: Ja. Oder B: Nie wieder? Schreib A oder B.",
     "scene": "ocean:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WÜRDEST DU NOCH SCHWIMMEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NIE WIEDER"
     }
    }
   ],
@@ -1037,7 +984,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 5",
   "next": "Was passiert, wenn du im Flugzeug die Tür öffnest?",
-  "word_count": 87,
+  "word_count": 58,
   "badge": "BONUS 5",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1054,7 +1001,9 @@
   "punch": {
    "word": "HAI ANGRIFF",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Schwimmst du noch im Meer? A: Ja oder B: Nie wieder? 👇"
  },
  {
   "slug": "flugzeugtuer",
@@ -1099,15 +1048,6 @@
     }
    },
    {
-    "text": "Viele Flugzeugtüren müssen sich erst nach innen bewegen. Gegen diesen Druck hat kein Mensch eine Chance.",
-    "scene": "space:earth",
-    "clock": "11.000 M",
-    "card": {
-     "kicker": "TRICK",
-     "title": "DIE TÜR GEHT NACH INNEN"
-    }
-   },
-   {
     "text": "Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst.",
     "scene": "space:earth",
     "clock": "11.000 M",
@@ -1120,21 +1060,12 @@
     ]
    },
    {
-    "text": "Darum sagt die Crew immer: Erst die eigene Maske aufsetzen, dann anderen helfen.",
-    "scene": "space:earth",
-    "clock": "11.000 M",
-    "card": {
-     "kicker": "REGEL",
-     "title": "ERST DEINE MASKE"
-    }
-   },
-   {
-    "text": "Hörst du bei der Sicherheitsansage eigentlich zu? Sei ehrlich.",
+    "text": "Sei ehrlich. Hörst du der Sicherheitsansage zu? A: Ja. Oder B: Nie? Schreib A oder B.",
     "scene": "space:earth",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HÖRST DU ZU?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NIE"
     }
    }
   ],
@@ -1146,7 +1077,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 6",
   "next": "Was passiert, wenn im Aufzug das Seil reißt?",
-  "word_count": 99,
+  "word_count": 77,
   "badge": "BONUS 6",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1163,7 +1094,9 @@
   "punch": {
    "word": "TÜR AUF IN 11 KM",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Hörst du der Sicherheitsansage zu? A: Ja oder B: Nie? 👇"
  },
  {
   "slug": "aufzug-seil",
@@ -1217,24 +1150,6 @@
     }
    },
    {
-    "text": "Und jedes einzelne Seil kann die Kabine allein tragen.",
-    "scene": "city:night",
-    "clock": "00:00:02",
-    "card": {
-     "kicker": "SICHERHEIT #1",
-     "title": "MEHRERE SEILE"
-    }
-   },
-   {
-    "text": "Reißen trotzdem alle, greift die Fangvorrichtung. Stahlkeile klemmen sich an die Schienen und bremsen dich ab.",
-    "scene": "city:night",
-    "clock": "00:00:03",
-    "card": {
-     "kicker": "SICHERHEIT #2",
-     "title": "FANGVORRICHTUNG"
-    }
-   },
-   {
     "text": "Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen.",
     "scene": "city:day",
     "clock": "1854",
@@ -1244,12 +1159,12 @@
     }
    },
    {
-    "text": "Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Hast du Angst im Aufzug?",
+    "text": "Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Nimmst du den Aufzug? A: Aufzug. Oder B: Treppe? Schreib A oder B.",
     "scene": "room:dark",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HAST DU ANGST IM AUFZUG?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: AUFZUG · B: TREPPE"
     }
    }
   ],
@@ -1261,7 +1176,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 7",
   "next": "Was passiert, wenn du die Luft anhältst?",
-  "word_count": 93,
+  "word_count": 76,
   "badge": "BONUS 7",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1278,7 +1193,9 @@
   "punch": {
    "word": "DAS SEIL REISST",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Nimmst du den Aufzug? A: Aufzug oder B: Treppe? 👇"
  },
  {
   "slug": "luft-anhalten",
@@ -1311,24 +1228,6 @@
     "you": true
    },
    {
-    "text": "Nach etwa einer Minute brennt es in der Brust. Aber nicht wegen Sauerstoffmangel, sondern wegen Kohlendioxid.",
-    "scene": "underwater:day",
-    "clock": "01:00",
-    "card": {
-     "kicker": "ÜBERRASCHUNG",
-     "title": "ES IST DAS CO₂"
-    }
-   },
-   {
-    "text": "Dein Herz wird langsamer. Das Blut zieht sich aus Armen und Beinen zurück, zu Herz und Gehirn.",
-    "scene": "underwater:dark",
-    "clock": "02:00",
-    "card": {
-     "kicker": "TAUCHREFLEX",
-     "title": "HERZ WIRD LANGSAMER"
-    }
-   },
-   {
     "text": "Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden.",
     "scene": "underwater:dark",
     "clock": "05:00",
@@ -1350,12 +1249,12 @@
     }
    },
    {
-    "text": "Bitte nie allein unter Wasser üben. Wie lange hast du gerade durchgehalten?",
+    "text": "Bitte nie allein unter Wasser üben. Wie lange schaffst du? A: Unter 1 Minute. Oder B: Über 1 Minute? Schreib A oder B.",
     "scene": "underwater:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WIE LANGE HAST DU GESCHAFFT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: UNTER 1 MINUTE · B: ÜBER 1 MINUTE"
     }
    }
   ],
@@ -1367,7 +1266,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 8",
   "next": "Was passiert in deinem Gehirn, wenn du verliebt bist?",
-  "word_count": 84,
+  "word_count": 62,
   "badge": "BONUS 8",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1384,7 +1283,9 @@
   "punch": {
    "word": "24 MIN OHNE LUFT",
    "match": "halt"
-  }
+  },
+  "short": true,
+  "pin": "Wie lange schaffst du? A: Unter 1 Minute oder B: Über 1 Minute? 👇"
  },
  {
   "slug": "verliebt",
@@ -1426,15 +1327,6 @@
     }
    },
    {
-    "text": "Gleichzeitig sinkt bei frisch Verliebten der Serotoninspiegel. Darum kreisen deine Gedanken ständig um diese Person.",
-    "scene": "city:night",
-    "clock": "TAG 7",
-    "card": {
-     "kicker": "BOTENSTOFF",
-     "title": "SEROTONIN SINKT"
-    }
-   },
-   {
     "text": "Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger.",
     "scene": "city:night",
     "clock": "TAG 14",
@@ -1457,21 +1349,12 @@
     }
    },
    {
-    "text": "Später übernimmt Oxytocin, das Bindungshormon. Aus Verliebtheit wird dann Vertrauen.",
-    "scene": "city:day",
-    "clock": "MONATE",
-    "card": {
-     "kicker": "DANACH",
-     "title": "OXYTOCIN · BINDUNG"
-    }
-   },
-   {
-    "text": "Markier jemanden, der gerade verliebt ist.",
+    "text": "Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "city:dusk",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WER IST GERADE VERLIEBT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -1483,7 +1366,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 9",
   "next": "Was wäre, wenn du im Lotto gewinnst?",
-  "word_count": 75,
+  "word_count": 57,
   "badge": "BONUS 9",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1500,7 +1383,9 @@
   "punch": {
    "word": "VERLIEBT IM KOPF",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Bist du gerade verliebt? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "lotto",
@@ -1554,29 +1439,12 @@
     }
    },
    {
-    "text": "In Deutschland kannst du anonym bleiben. Die Lottogesellschaften nennen deinen Namen nicht.",
-    "scene": "city:day",
-    "clock": "TAG 2",
-    "card": {
-     "kicker": "GUT ZU WISSEN",
-     "title": "ANONYM BLEIBEN"
-    }
-   },
-   {
-    "text": "Und plötzlich melden sich Verwandte und Freunde, von denen du jahrelang nichts gehört hast.",
-    "scene": "city:day",
-    "clock": "TAG 30",
-    "fx": [
-     "glitch"
-    ]
-   },
-   {
-    "text": "Was wäre das Erste, was du dir kaufst? Schreib es in die Kommentare.",
+    "text": "Was machst du zuerst? A: Job kündigen. Oder B: Niemandem sagen? Schreib A oder B.",
     "scene": "city:night",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WAS KAUFST DU ZUERST?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JOB KÜNDIGEN · B: NIEMANDEM SAGEN"
     }
    }
   ],
@@ -1588,7 +1456,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 10",
   "next": "Was passiert, wenn du zu viel Kaffee trinkst?",
-  "word_count": 73,
+  "word_count": 49,
   "badge": "BONUS 10",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1605,7 +1473,9 @@
   "punch": {
    "word": "JACKPOT GEKNACKT",
    "match": "sechs"
-  }
+  },
+  "short": true,
+  "pin": "Was machst du zuerst? A: Job kündigen oder B: Niemandem sagen? 👇"
  },
  {
   "slug": "zu-viel-kaffee",
@@ -1639,15 +1509,6 @@
      "shake"
     ],
     "you": true
-   },
-   {
-    "text": "Koffein wirkt nach etwa einer halben Stunde. Es blockiert in deinem Gehirn das Signal für Müdigkeit.",
-    "scene": "room:day",
-    "clock": "TASSE 1",
-    "card": {
-     "kicker": "SO WIRKT ES",
-     "title": "MÜDIGKEIT BLOCKIERT"
-    }
    },
    {
     "text": "Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee.",
@@ -1684,21 +1545,12 @@
     ]
    },
    {
-    "text": "Und die Hälfte des Koffeins ist nach etwa fünf Stunden noch in deinem Blut. Der Kaffee um siebzehn Uhr wirkt also noch beim Einschlafen.",
-    "scene": "room:night",
-    "clock": "22:00",
-    "card": {
-     "kicker": "FALLE",
-     "title": "KAFFEE AM NACHMITTAG"
-    }
-   },
-   {
-    "text": "Wie viele Tassen trinkst du am Tag?",
+    "text": "Wie viele Tassen trinkst du? A: Unter 4. Oder B: Über 4? Schreib A oder B.",
     "scene": "room:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WIE VIELE TASSEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: UNTER 4 · B: ÜBER 4"
     }
    }
   ],
@@ -1710,7 +1562,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 11",
   "next": "Du bist allein im Wald verloren – was zuerst?",
-  "word_count": 82,
+  "word_count": 51,
   "badge": "BONUS 11",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1727,7 +1579,9 @@
   "punch": {
    "word": "10 TASSEN KAFFEE",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Wie viele Tassen trinkst du? A: Unter 4 oder B: Über 4? 👇"
  },
  {
   "slug": "regel-der-drei",
@@ -1798,33 +1652,12 @@
     }
    },
    {
-    "text": "Bau dir Schutz vor Wind und Nässe. Und leg Äste und Laub unter dich, denn der Boden zieht die Wärme aus dir raus.",
-    "scene": "mountains:night,forest",
-    "clock": "18:00",
-    "card": {
-     "kicker": "SCHRITT 1",
-     "title": "SCHUTZ & ISOLATION"
-    },
-    "fx": [
-     "snow"
-    ]
-   },
-   {
-    "text": "Und dann: Bleib, wo du bist. Wer sich weiter bewegt, ist für Retter viel schwerer zu finden.",
-    "scene": "mountains:night,forest",
-    "clock": "20:00",
-    "card": {
-     "kicker": "SCHRITT 2",
-     "title": "STEHEN BLEIBEN"
-    }
-   },
-   {
-    "text": "Was hättest du zuerst gemacht? Sei ehrlich.",
+    "text": "Sei ehrlich. Was suchst du zuerst? A: Essen. Oder B: Schutz? Schreib A oder B.",
     "scene": "mountains:dawn,forest",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WAS HÄTTEST DU ZUERST GEMACHT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: ESSEN · B: SCHUTZ"
     }
    }
   ],
@@ -1836,7 +1669,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 12",
   "next": "Was tust du, wenn die Erde unter dir bebt?",
-  "word_count": 92,
+  "word_count": 60,
   "badge": "BONUS 12",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1853,7 +1686,9 @@
   "punch": {
    "word": "REGEL DER DREI",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Was suchst du zuerst? A: Essen oder B: Schutz? 👇"
  },
  {
   "slug": "erdbeben",
@@ -1889,18 +1724,6 @@
     "you": true
    },
    {
-    "text": "Der größte Fehler: nach draußen rennen. Die meisten Verletzungen passieren durch herabfallende Teile.",
-    "scene": "city:day,quake",
-    "clock": "00:03",
-    "card": {
-     "kicker": "FEHLER #1",
-     "title": "RAUSRENNEN"
-    },
-    "fx": [
-     "shake"
-    ]
-   },
-   {
     "text": "Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten.",
     "scene": "room:day",
     "clock": "00:05",
@@ -1923,15 +1746,6 @@
     }
    },
    {
-    "text": "Weg von Fenstern und Regalen. Und keinen Aufzug benutzen.",
-    "scene": "room:day",
-    "clock": "00:20",
-    "card": {
-     "kicker": "REGEL 2",
-     "title": "WEG VON FENSTERN"
-    }
-   },
-   {
     "text": "Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7.",
     "scene": "map",
     "clock": "1978",
@@ -1941,12 +1755,12 @@
     }
    },
    {
-    "text": "Hast du schon mal ein Erdbeben erlebt? Schreib wo.",
+    "text": "Was machst du? A: Rausrennen. Oder B: Unter den Tisch? Schreib A oder B.",
     "scene": "city:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "SCHON MAL ERLEBT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: RAUSRENNEN · B: UNTER DEN TISCH"
     }
    }
   ],
@@ -1958,7 +1772,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 13",
   "next": "Was passiert mit dir bei 50 Grad?",
-  "word_count": 74,
+  "word_count": 57,
   "badge": "BONUS 13",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1975,7 +1789,9 @@
   "punch": {
    "word": "ERDBEBEN IN DEINER STADT",
    "match": "plötzlich"
-  }
+  },
+  "short": true,
+  "pin": "Was machst du? A: Rausrennen oder B: Unter den Tisch? 👇"
  },
  {
   "slug": "hitze-50-grad",
@@ -2020,27 +1836,6 @@
     }
    },
    {
-    "text": "Ab etwa vierzig Grad Körpertemperatur droht ein Hitzschlag. Dein Gehirn gerät dann in Gefahr.",
-    "scene": "city:day,haze",
-    "clock": "50 °C",
-    "card": {
-     "kicker": "GEFAHR",
-     "title": "HITZSCHLAG AB 40 °C"
-    },
-    "fx": [
-     "red"
-    ]
-   },
-   {
-    "text": "Das Gefährlichste ist feuchte Hitze. Dann verdunstet dein Schweiß nicht mehr, und du kannst dich nicht abkühlen.",
-    "scene": "city:day,haze",
-    "clock": "50 °C",
-    "card": {
-     "kicker": "TÖDLICH",
-     "title": "FEUCHTE HITZE"
-    }
-   },
-   {
     "text": "Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913.",
     "scene": "mars:day",
     "clock": "56,7 °C",
@@ -2050,12 +1845,12 @@
     }
    },
    {
-    "text": "Was war die heißeste Temperatur, die du je erlebt hast?",
+    "text": "Was ist schlimmer? A: 50 Grad. Oder B: Minus 30 Grad? Schreib A oder B.",
     "scene": "city:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "DEIN HITZE-REKORD?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: 50 GRAD · B: MINUS 30 GRAD"
     }
    }
   ],
@@ -2067,7 +1862,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 14",
   "next": "Was wäre, wenn du 30 Tage nur Fast Food isst?",
-  "word_count": 78,
+  "word_count": 52,
   "badge": "BONUS 14",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2084,7 +1879,9 @@
   "punch": {
    "word": "50 °C IM SCHATTEN",
    "match": "draußen"
-  }
+  },
+  "short": true,
+  "pin": "Was ist schlimmer? A: 50 Grad oder B: Minus 30 Grad? 👇"
  },
  {
   "slug": "fastfood",
@@ -2126,15 +1923,6 @@
     }
    },
    {
-    "text": "Schon nach wenigen Tagen fühlt er sich schlapp und hat Stimmungsschwankungen.",
-    "scene": "room:dark",
-    "clock": "TAG 5",
-    "card": {
-     "kicker": "TAG 5",
-     "title": "MÜDE & GEREIZT"
-    }
-   },
-   {
     "text": "Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen.",
     "scene": "room:dark",
     "clock": "TAG 30",
@@ -2144,21 +1932,12 @@
     }
    },
    {
-    "text": "Danach braucht er über ein Jahr, um das Gewicht wieder loszuwerden.",
-    "scene": "city:day",
-    "clock": "DANACH",
-    "card": {
-     "kicker": "DANACH",
-     "title": "ÜBER 1 JAHR ZUM ABNEHMEN"
-    }
-   },
-   {
-    "text": "Wie oft isst du Fast Food pro Woche? Sei ehrlich.",
+    "text": "Sei ehrlich. Wie oft isst du Fast Food? A: Selten. Oder B: Jede Woche? Schreib A oder B.",
     "scene": "city:night",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WIE OFT PRO WOCHE?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: SELTEN · B: JEDE WOCHE"
     }
    }
   ],
@@ -2170,7 +1949,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 15",
   "next": "Was wäre, wenn du durch die Erde fällst?",
-  "word_count": 74,
+  "word_count": 60,
   "badge": "BONUS 15",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2187,7 +1966,9 @@
   "punch": {
    "word": "30 TAGE NUR FAST FOOD",
    "match": "ab"
-  }
+  },
+  "short": true,
+  "pin": "Wie oft isst du Fast Food? A: Selten oder B: Jede Woche? 👇"
  },
  {
   "slug": "tunnel-durch-erde",
@@ -2245,30 +2026,12 @@
     ]
    },
    {
-    "text": "Ohne Luftwiderstand kommst du nach etwa vierzig Minuten auf der anderen Seite an. Und fällst dann wieder zurück.",
-    "scene": "earth",
-    "clock": "40:00",
-    "card": {
-     "kicker": "ANKUNFT",
-     "title": "≈ 40 MINUTEN"
-    }
-   },
-   {
-    "text": "In Wirklichkeit: Das tiefste Loch der Menschheit ist gerade mal zwölf Kilometer tief.",
-    "scene": "mountains:snow",
-    "clock": "—",
-    "big": {
-     "value": "12 KM",
-     "sub": "TIEFSTES LOCH DER WELT"
-    }
-   },
-   {
-    "text": "Wo würdest du rauskommen? Tipp: Von Deutschland aus landest du im Meer bei Neuseeland.",
+    "text": "Tipp: Von Deutschland aus landest du im Meer bei Neuseeland. Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "map",
     "clock": "—",
-    "map": {
-     "label": "NEUSEELAND",
-     "sub": "DEIN GEGENPUNKT"
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -2280,7 +2043,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 16",
   "next": "Was wäre, wenn du auf dem Mond springst?",
-  "word_count": 87,
+  "word_count": 64,
   "badge": "BONUS 16",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2297,7 +2060,9 @@
   "punch": {
    "word": "DURCH DIE ERDE FALLEN",
    "match": "jemand"
-  }
+  },
+  "short": true,
+  "pin": "Würdest du springen? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "mond-springen",
@@ -2357,30 +2122,12 @@
     }
    },
    {
-    "text": "Ohne Anzug könntest du ungefähr sechsmal so hoch springen. Und du schwebst viel länger in der Luft.",
-    "scene": "space:moonsurface",
-    "clock": "00:03",
-    "card": {
-     "kicker": "SPRUNG",
-     "title": "≈ 6× SO HOCH"
-    }
-   },
-   {
-    "text": "Die Apollo-Astronauten sind deshalb lieber gehüpft als gelaufen. Mit dem schweren Anzug war das einfacher.",
-    "scene": "space:moonsurface,flag",
-    "clock": "1969",
-    "card": {
-     "kicker": "APOLLO",
-     "title": "HÜPFEN STATT LAUFEN"
-    }
-   },
-   {
-    "text": "Was würdest du als Erstes auf dem Mond machen?",
+    "text": "Was machst du auf dem Mond? A: Springen. Oder B: Foto von der Erde? Schreib A oder B.",
     "scene": "space:moonsurface",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WAS MACHST DU ZUERST?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: SPRINGEN · B: FOTO VON DER ERDE"
     }
    }
   ],
@@ -2392,7 +2139,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 17",
   "next": "Was wäre, wenn du bei minus 60 Grad lebst?",
-  "word_count": 81,
+  "word_count": 58,
   "badge": "BONUS 17",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2409,7 +2156,9 @@
   "punch": {
    "word": "6× HÖHER SPRINGEN",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Was machst du auf dem Mond? A: Springen oder B: Foto von der Erde? 👇"
  },
  {
   "slug": "oimjakon",
@@ -2466,30 +2215,12 @@
     ]
    },
    {
-    "text": "Autos lassen viele den ganzen Winter laufen. Sonst springt der Motor nicht mehr an.",
-    "scene": "mountains:snow,cold",
-    "clock": "−55 °C",
-    "card": {
-     "kicker": "ALLTAG",
-     "title": "MOTOR LÄUFT DURCH"
-    }
-   },
-   {
-    "text": "Und die Schule fällt erst aus, wenn es kälter als etwa minus fünfzig Grad wird.",
-    "scene": "mountains:snow,cold",
-    "clock": "−50 °C",
-    "card": {
-     "kicker": "ALLTAG",
-     "title": "SCHULFREI AB ≈ −50 °C"
-    }
-   },
-   {
-    "text": "Würdest du hier einen Winter lang leben? Für wie viel Geld?",
+    "text": "Würdest du dort leben? A: Für Geld ja. Oder B: Niemals? Schreib A oder B.",
     "scene": "mountains:snow",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "FÜR WIE VIEL GELD?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: FÜR GELD JA · B: NIEMALS"
     }
    }
   ],
@@ -2501,7 +2232,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 18",
   "next": "Jemand bricht vor dir zusammen – was tust du?",
-  "word_count": 77,
+  "word_count": 52,
   "badge": "BONUS 18",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2518,7 +2249,9 @@
   "punch": {
    "word": "−67 °C KÄLTESTES DORF",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Würdest du dort leben? A: Für Geld ja oder B: Niemals? 👇"
  },
  {
   "slug": "herzstillstand",
@@ -2588,30 +2321,12 @@
     }
    },
    {
-    "text": "Fest in die Mitte der Brust drücken, fünf bis sechs Zentimeter tief, hundert bis hundertzwanzig Mal pro Minute.",
-    "scene": "city:day",
-    "clock": "01:30",
-    "card": {
-     "kicker": "DRÜCKEN",
-     "title": "100–120 × PRO MINUTE"
-    }
-   },
-   {
-    "text": "Der Takt passt zum Song Stayin' Alive. Und du kannst nichts falsch machen, nur nichts tun ist falsch.",
-    "scene": "city:day",
-    "clock": "02:00",
-    "card": {
-     "kicker": "TAKT",
-     "title": "„STAYIN' ALIVE“"
-    }
-   },
-   {
-    "text": "Hast du schon mal einen Erste-Hilfe-Kurs gemacht? Schick das Video weiter, es kann Leben retten.",
+    "text": "Kannst du Erste Hilfe? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "city:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "SCHON MAL EINEN KURS GEMACHT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -2623,7 +2338,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 19",
   "next": "Was passiert, wenn du aus 27 Metern ins Wasser springst?",
-  "word_count": 89,
+  "word_count": 51,
   "badge": "BONUS 19",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2640,7 +2355,9 @@
   "punch": {
    "word": "HERZ- STILLSTAND",
    "match": "vor"
-  }
+  },
+  "short": true,
+  "pin": "Kannst du Erste Hilfe? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "klippensprung",
@@ -2694,30 +2411,12 @@
     }
    },
    {
-    "text": "Profis tauchen deshalb immer mit den Füßen zuerst ein, Körper ganz gerade.",
-    "scene": "ocean:day",
-    "clock": "2,6 S",
-    "card": {
-     "kicker": "TRICK",
-     "title": "FÜSSE ZUERST"
-    }
-   },
-   {
-    "text": "Unter Wasser warten Taucher, falls der Springer nach dem Aufprall Hilfe braucht.",
-    "scene": "underwater:day",
-    "clock": "3,0 S",
-    "card": {
-     "kicker": "SICHERHEIT",
-     "title": "TAUCHER UNTER WASSER"
-    }
-   },
-   {
-    "text": "Von wie hoch bist du schon mal ins Wasser gesprungen?",
+    "text": "Würdest du springen? A: Ja. Oder B: Niemals? Schreib A oder B.",
     "scene": "ocean:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "DEIN HÖCHSTER SPRUNG?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NIEMALS"
     }
    }
   ],
@@ -2729,7 +2428,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 20",
   "next": "Was macht ein Jahr im Weltall mit dir?",
-  "word_count": 82,
+  "word_count": 60,
   "badge": "BONUS 20",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2746,7 +2445,9 @@
   "punch": {
    "word": "27 METER SPRUNG",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Würdest du springen? A: Ja oder B: Niemals? 👇"
  },
  {
   "slug": "ein-jahr-all",
@@ -2788,15 +2489,6 @@
     }
    },
    {
-    "text": "Deine Wirbelsäule streckt sich. Du wirst ein paar Zentimeter größer.",
-    "scene": "space:earth,sats",
-    "clock": "TAG 100",
-    "card": {
-     "kicker": "ÜBERRASCHUNG",
-     "title": "DU WIRST GRÖSSER"
-    }
-   },
-   {
     "text": "Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde.",
     "scene": "space:earth,sats",
     "clock": "TAG 340",
@@ -2815,21 +2507,12 @@
     }
    },
    {
-    "text": "Zurück auf der Erde: Schwindel, Muskelschmerzen, und Laufen fühlt sich an wie neu lernen.",
-    "scene": "city:day",
-    "clock": "ZURÜCK",
-    "card": {
-     "kicker": "DANACH",
-     "title": "LAUFEN NEU LERNEN"
-    }
-   },
-   {
-    "text": "Würdest du ein Jahr ins All fliegen? Ja oder nein?",
+    "text": "Würdest du ein Jahr ins All? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "space:earth",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WÜRDEST DU FLIEGEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -2841,7 +2524,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 21",
   "next": "Das Meer zieht sich zurück – was jetzt?",
-  "word_count": 82,
+  "word_count": 63,
   "badge": "BONUS 21",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2858,7 +2541,9 @@
   "punch": {
    "word": "340 TAGE IM ALL",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Würdest du ein Jahr ins All? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "tsunami",
@@ -2900,27 +2585,6 @@
     }
    },
    {
-    "text": "Denn das ist das Warnsignal für einen Tsunami. Die Welle kommt in wenigen Minuten.",
-    "scene": "ocean:day,wave",
-    "clock": "09:35",
-    "card": {
-     "kicker": "WARNSIGNAL",
-     "title": "DAS MEER VERSCHWINDET"
-    },
-    "fx": [
-     "shake"
-    ]
-   },
-   {
-    "text": "Die zehnjährige Tilly Smith erkennt das. Sie hatte es kurz vorher im Erdkundeunterricht gelernt.",
-    "scene": "ocean:day",
-    "clock": "09:36",
-    "card": {
-     "kicker": "WAHRE GESCHICHTE",
-     "title": "TILLY SMITH · 10 JAHRE"
-    }
-   },
-   {
     "text": "Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr.",
     "scene": "ocean:storm,wave",
     "clock": "09:45",
@@ -2933,12 +2597,12 @@
     ]
    },
    {
-    "text": "Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst?",
+    "text": "Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "ocean:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HÄTTEST DU ES GEWUSST?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -2950,7 +2614,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 22",
   "next": "208 Sekunden: Notlandung auf dem Fluss",
-  "word_count": 78,
+  "word_count": 59,
   "badge": "BONUS 22",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2967,7 +2631,9 @@
   "punch": {
    "word": "DAS MEER IST WEG",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Hättest du es gewusst? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "hudson",
@@ -3021,25 +2687,6 @@
     }
    },
    {
-    "text": "Kapitän Chesley Sullenberger merkt: Wir schaffen es zu keinem Flughafen.",
-    "scene": "city:day",
-    "clock": "01:00",
-    "card": {
-     "kicker": "ENTSCHEIDUNG",
-     "title": "KEIN FLUGHAFEN"
-    }
-   },
-   {
-    "text": "Wir landen im Hudson.",
-    "scene": "city:day",
-    "clock": "02:30",
-    "quote": {
-     "text": "Wir landen im Hudson.",
-     "who": "Chesley Sullenberger"
-    },
-    "voice": "second"
-   },
-   {
     "text": "Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben.",
     "scene": "ocean:day",
     "clock": "03:28",
@@ -3049,12 +2696,12 @@
     }
    },
    {
-    "text": "Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt?",
+    "text": "Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "ocean:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HÄTTEST DU DIE NERVEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -3066,7 +2713,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 23",
   "next": "9 Tage allein in der Sahara",
-  "word_count": 65,
+  "word_count": 60,
   "badge": "BONUS 23",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -3083,7 +2730,9 @@
   "punch": {
    "word": "BEIDE TRIEBWERKE AUS",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Hättest du die Nerven gehabt? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "wueste",
@@ -3120,15 +2769,6 @@
     "you": true
    },
    {
-    "text": "Das passiert 1994 dem Italiener Mauro Prosperi bei einem Ultramarathon durch die Sahara.",
-    "scene": "mars:day",
-    "clock": "TAG 1",
-    "card": {
-     "kicker": "WAHRE GESCHICHTE",
-     "title": "MAURO PROSPERI"
-    }
-   },
-   {
     "text": "Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin.",
     "scene": "mars:day",
     "clock": "TAG 3",
@@ -3147,14 +2787,6 @@
     }
    },
    {
-    "text": "In einem verlassenen Heiligtum fängt er Fledermäuse und isst sie roh.",
-    "scene": "mars:dusk",
-    "clock": "TAG 5",
-    "fx": [
-     "dark"
-    ]
-   },
-   {
     "text": "Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien.",
     "scene": "map",
     "clock": "TAG 9",
@@ -3164,12 +2796,12 @@
     }
    },
    {
-    "text": "Und weißt du was? Er ist danach wieder bei dem Rennen gestartet. Hättest du das überlebt?",
+    "text": "Er ist danach wieder bei dem Rennen gestartet. Hättest du überlebt? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "mars:day",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "HÄTTEST DU ÜBERLEBT?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -3181,7 +2813,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 24",
   "next": "Sie fiel 10.000 Meter – und überlebte",
-  "word_count": 87,
+  "word_count": 67,
   "badge": "BONUS 24",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -3198,7 +2830,9 @@
   "punch": {
    "word": "9 TAGE SAHARA",
    "match": "ein"
-  }
+  },
+  "short": true,
+  "pin": "Hättest du überlebt? A: Ja oder B: Nein? 👇"
  },
  {
   "slug": "sturz-10000m",
@@ -3242,27 +2876,6 @@
     }
    },
    {
-    "text": "Sie wird im Heck eingeklemmt. Und dieses Teil stürzt in einen verschneiten, bewaldeten Hang.",
-    "scene": "mountains:snow,forest",
-    "clock": "0 M",
-    "fx": [
-     "shake",
-     "snow"
-    ]
-   },
-   {
-    "text": "Alle anderen an Bord sterben. Sie überlebt, mit schweren Verletzungen und tagelang im Koma.",
-    "scene": "mountains:snow",
-    "clock": "0 M",
-    "card": {
-     "kicker": "ÜBERLEBT",
-     "title": "ALS EINZIGE"
-    },
-    "fx": [
-     "dark"
-    ]
-   },
-   {
     "text": "Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat.",
     "scene": "mountains:snow",
     "clock": "—",
@@ -3272,12 +2885,12 @@
     }
    },
    {
-    "text": "Glück oder Wunder? Was meinst du?",
+    "text": "Glück oder Wunder? A: Glück. Oder B: Wunder? Schreib A oder B.",
     "scene": "space:earth",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "GLÜCK ODER WUNDER?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: GLÜCK · B: WUNDER"
     }
    }
   ],
@@ -3289,7 +2902,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 25",
   "next": "Zwei Monate in einer Höhle ohne Uhr",
-  "word_count": 74,
+  "word_count": 52,
   "badge": "BONUS 25",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -3306,7 +2919,9 @@
   "punch": {
    "word": "10.160 M FREIER FALL",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Glück oder Wunder? A: Glück oder B: Wunder? 👇"
  },
  {
   "slug": "hoehle-ohne-zeit",
@@ -3348,23 +2963,6 @@
     }
    },
    {
-    "text": "Er schläft, wenn er müde ist, und isst, wenn er Hunger hat. Oben schreibt ein Team alles mit.",
-    "scene": "room:dark",
-    "clock": "??:??",
-    "fx": [
-     "dark"
-    ]
-   },
-   {
-    "text": "Dann holen sie ihn raus. Er glaubt, es ist der zwanzigste August.",
-    "scene": "mountains:day",
-    "clock": "20.08.?",
-    "card": {
-     "kicker": "SEINE SCHÄTZUNG",
-     "title": "20. AUGUST"
-    }
-   },
-   {
     "text": "Tatsächlich ist es der vierzehnte September. Ihm fehlen fast vier Wochen.",
     "scene": "mountains:day",
     "clock": "14.09.",
@@ -3374,12 +2972,12 @@
     }
    },
    {
-    "text": "Wie lange würdest du ohne Uhr richtig schätzen?",
+    "text": "Wie gut ist dein Zeitgefühl? A: Sehr gut. Oder B: Schlecht? Schreib A oder B.",
     "scene": "room:dark",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WIE GUT IST DEIN ZEITGEFÜHL?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: SEHR GUT · B: SCHLECHT"
     }
    }
   ],
@@ -3391,7 +2989,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 26",
   "next": "Er sprang aus 39 Kilometern Höhe",
-  "word_count": 81,
+  "word_count": 58,
   "badge": "BONUS 26",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -3408,7 +3006,9 @@
   "punch": {
    "word": "2 MONATE OHNE UHR",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Wie gut ist dein Zeitgefühl? A: Sehr gut oder B: Schlecht? 👇"
  },
  {
   "slug": "stratosphaere",
@@ -3465,33 +3065,12 @@
     ]
    },
    {
-    "text": "Dann gerät er ins Trudeln. Dreht er sich zu schnell, kann er ohnmächtig werden.",
-    "scene": "space:earth",
-    "clock": "25 KM",
-    "card": {
-     "kicker": "GEFAHR",
-     "title": "TRUDELN"
-    },
-    "fx": [
-     "red"
-    ]
-   },
-   {
-    "text": "Er fängt sich wieder. Nach gut vier Minuten freiem Fall öffnet er den Schirm und landet sicher.",
-    "scene": "mountains:day",
-    "clock": "0 KM",
-    "card": {
-     "kicker": "GESCHAFFT",
-     "title": "SICHER GELANDET"
-    }
-   },
-   {
-    "text": "Würdest du springen? Ja oder nein?",
+    "text": "Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.",
     "scene": "space:earth",
     "clock": "—",
     "card": {
-     "kicker": "FRAGE",
-     "title": "WÜRDEST DU SPRINGEN?"
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: NEIN"
     }
    }
   ],
@@ -3503,7 +3082,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 27",
   "next": null,
-  "word_count": 79,
+  "word_count": 54,
   "badge": "BONUS 27",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -3520,6 +3099,8 @@
   "punch": {
    "word": "39 KM SPRUNG",
    "match": "du"
-  }
+  },
+  "short": true,
+  "pin": "Würdest du springen? A: Ja oder B: Nein? 👇"
  }
 ]

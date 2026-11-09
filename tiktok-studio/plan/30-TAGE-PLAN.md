@@ -798,7 +798,7 @@ Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du… #blackout #stromau
 
 <details><summary>Sprechertext</summary>
 
-In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Ampeln aus, Bahnen stehen, Menschen stecken in Aufzügen fest. Nach ein paar Stunden fällt auch das Handynetz aus. Die Funkmasten haben keinen Strom mehr. Kein Wasser in Hochhäusern, kein Sprit an Tankstellen, keine Kasse im Supermarkt. Wer jetzt Kerzen, Taschenlampe, Batterieradio und Wasser hat, ist klar im Vorteil. Stunde zweiundsiebzig: Das Licht ist zurück. Wärst du vorbereitet gewesen?
+In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Kein Wasser in Hochhäusern, kein Sprit an Tankstellen, keine Kasse im Supermarkt. Wer jetzt Kerzen, Taschenlampe, Batterieradio und Wasser hat, ist klar im Vorteil. Stunde zweiundsiebzig: Das Licht ist zurück. Was hättest du gemacht? A: Vorräte holen. Oder B: Zuhause bleiben? Schreib A oder B.
 
 </details>
 
@@ -835,7 +835,7 @@ Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es… #schwarzeslo
 
 <details><summary>Sprechertext</summary>
 
-Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei einem kleinen Schwarzen Loch wirst du lang gezogen wie eine Nudel. Physiker nennen das wirklich Spaghettifizierung. Bei einem riesigen, wie im Zentrum unserer Milchstraße, merkst du am Rand erstmal nichts. Für jemanden, der zuschaut, wirst du immer langsamer und scheinst für immer einzufrieren. Du fällst weiter, über den Ereignishorizont. Ab hier entkommt nicht einmal Licht. Was dahinter passiert, weiß niemand. Würdest du reinschauen?
+Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei einem kleinen Schwarzen Loch wirst du lang gezogen wie eine Nudel. Physiker nennen das wirklich Spaghettifizierung. Bei einem riesigen, wie im Zentrum unserer Milchstraße, merkst du am Rand erstmal nichts. Was dahinter passiert, weiß niemand. Was wäre dir lieber? A: Schwarzes Loch. Oder B: Sonne? Schreib A oder B.
 
 </details>
 
@@ -872,7 +872,7 @@ Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert… #f
 
 <details><summary>Sprechertext</summary>
 
-Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Nach zwei bis drei Tagen schaltet er um. Deine Leber macht aus Fett jetzt Ketonkörper. Davon lebt dein Gehirn. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Der Rekord: Der Schotte Angus Barbieri fastete ab 1965 unter ärztlicher Aufsicht dreihundertzweiundachtzig Tage. Bitte nicht nachmachen. Wie lange hast du schon mal nichts gegessen?
+Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.
 
 </details>
 
@@ -909,7 +909,7 @@ Titel: Gefangen in der Höhle – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein Licht wird schwächer. Zwölf Jungs aus einem Fußballteam und ihr Trainer gehen nach dem Training in die Höhle. Monsunregen flutet die Gänge. Der Rückweg ist abgeschnitten. Sie ziehen sich auf einen Felsen zurück, kilometerweit im Berg. Ohne Essen. Nach neun Tagen tauchen zwei britische Höhlentaucher auf. Mit einer Taschenlampe. Gefunden, aber noch lange nicht gerettet. Wie man sie herausholt, siehst du in Teil zwei.
+Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein Licht wird schwächer. Zwölf Jungs aus einem Fußballteam und ihr Trainer gehen nach dem Training in die Höhle. Monsunregen flutet die Gänge. Der Rückweg ist abgeschnitten. Sie ziehen sich auf einen Felsen zurück, kilometerweit im Berg. Ohne Essen. Gefunden, aber noch lange nicht gerettet. Wie man sie herausholt, siehst du in Teil zwei.
 
 </details>
 
@@ -946,7 +946,7 @@ Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der… #everest
 
 <details><summary>Sprechertext</summary>
 
-Du bist in der Todeszone am Mount Everest. Ab hier stirbt dein Körper langsam. Jeder Atemzug hat nur etwa ein Drittel des Sauerstoffs wie am Meer. Dein Herz rast, dein Blut wird dicker, und du denkst immer langsamer. Manche Bergsteiger halluzinieren. Sie sehen Menschen, die gar nicht da sind. Regel Nummer eins: Halte deine Umkehrzeit ein. Auch kurz vor dem Gipfel. 8849 Meter. Du hast nur Minuten für das Foto. Würdest du es versuchen?
+Du bist in der Todeszone am Mount Everest. Ab hier stirbt dein Körper langsam. Jeder Atemzug hat nur etwa ein Drittel des Sauerstoffs wie am Meer. Dein Herz rast, dein Blut wird dicker, und du denkst immer langsamer. 8849 Meter. Du hast nur Minuten für das Foto. Würdest du hochsteigen? A: Mit Sauerstoff. Oder B: Niemals? Schreib A oder B.
 
 </details>
 
@@ -983,7 +983,7 @@ Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3… #auto #üb
 
 <details><summary>Sprechertext</summary>
 
-Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Viele versuchen zuerst die Tür. Aber gegen den Wasserdruck bekommst du sie kaum auf. Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen. Elektrische Fenster funktionieren oft noch kurz. Wenn nicht: Nothammer auf die Seitenscheibe, nicht auf die Frontscheibe. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? Schick das Video jemandem, der viel fährt.
+Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1020,7 +1020,7 @@ Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️ #thailand #hö
 
 <details><summary>Sprechertext</summary>
 
-Kein einziger der Jungs kann tauchen. Und der Weg nach draußen ist kilometerlang unter Wasser. Ein früherer Marinetaucher, Saman Kunan, bringt Sauerstoff in die Höhle. Auf dem Rückweg stirbt er. Die Retter entscheiden sich für einen riskanten Plan: Die Jungs werden ruhiggestellt und von Tauchern hinausgezogen. In drei Tagen holen sie alle dreizehn heraus. Alle lebend. Die ganze Welt hat mitgefiebert. Die Rettung gilt als eine der schwierigsten aller Zeiten. Hättest du dich als Retter in diese Höhle getraut?
+Kein einziger der Jungs kann tauchen. Und der Weg nach draußen ist kilometerlang unter Wasser. Ein früherer Marinetaucher, Saman Kunan, bringt Sauerstoff in die Höhle. Auf dem Rückweg stirbt er. In drei Tagen holen sie alle dreizehn heraus. Alle lebend. Hättest du getaucht? A: Ja, sofort. Oder B: Nein, warten? Schreib A oder B.
 
 </details>
 
@@ -1057,7 +1057,7 @@ Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #ph
 
 <details><summary>Sprechertext</summary>
 
-Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben. Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen. Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer. Ihre Beine wären viel zu dünn. Ihr Panzer würde unter dem eigenen Gewicht brechen. Und sie würde ersticken. Ameisen atmen durch winzige Röhrchen, die für so einen Körper nicht reichen. Welches Tier wäre in Menschengröße am gruseligsten?
+Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben. Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen. Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer. Wer gewinnt? A: Du. Oder B: Die Riesenameise? Schreib A oder B.
 
 </details>
 
@@ -1094,7 +1094,7 @@ Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
 
 <details><summary>Sprechertext</summary>
 
-Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf. Erst mal: Haiangriffe sind extrem selten. Weltweit sterben pro Jahr meist weniger als zehn Menschen daran. Nicht wild strampeln, nicht wegdrehen. Behalte den Hai im Blick und schwimm ruhig Richtung Ufer. Greift er an, wehr dich. Ziel auf die Augen und die Kiemen. Das sind seine empfindlichsten Stellen. Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie. Also, wer ist hier eigentlich gefährlicher? Würdest du noch im Meer schwimmen?
+Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf. Erst mal: Haiangriffe sind extrem selten. Weltweit sterben pro Jahr meist weniger als zehn Menschen daran. Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie. Schwimmst du noch im Meer? A: Ja. Oder B: Nie wieder? Schreib A oder B.
 
 </details>
 
@@ -1131,7 +1131,7 @@ Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍 #erde #phy
 
 <details><summary>Sprechertext</summary>
 
-Die Erde hat gerade aufgehört, sich zu drehen. Aber du nicht. Am Äquator fliegst du mit 1670 Kilometern pro Stunde weiter. Menschen, Autos, Häuser fliegen mit. Selbst in Deutschland wären es noch über tausend Kilometer pro Stunde. Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen. Und ein Tag dauert jetzt ein ganzes Jahr: sechs Monate hell, sechs Monate dunkel. Zum Glück ist ein plötzlicher Stopp praktisch unmöglich. Welches Szenario soll als Nächstes kommen?
+Die Erde hat gerade aufgehört, sich zu drehen. Aber du nicht. Am Äquator fliegst du mit 1670 Kilometern pro Stunde weiter. Menschen, Autos, Häuser fliegen mit. Selbst in Deutschland wären es noch über tausend Kilometer pro Stunde. Zum Glück ist ein plötzlicher Stopp praktisch unmöglich. Wo wärst du lieber? A: Am Äquator. Oder B: Am Nordpol? Schreib A oder B.
 
 </details>
 
@@ -1168,7 +1168,7 @@ Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach… #mariane
 
 <details><summary>Sprechertext</summary>
 
-Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend Meter: totale Dunkelheit. Hier leuchten nur noch Tiere selbst. 3800 Meter: Hier liegt das Wrack der Titanic. Knapp elftausend Meter: Der Druck ist über tausendmal so hoch wie an der Oberfläche. Und trotzdem lebt hier unten etwas. Man fand hier sogar schon eine Plastiktüte. Würdest du mit runtertauchen?
+Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend Meter: totale Dunkelheit. Hier leuchten nur noch Tiere selbst. Knapp elftausend Meter: Der Druck ist über tausendmal so hoch wie an der Oberfläche. Würdest du runtertauchen? A: Ja. Oder B: Auf keinen Fall? Schreib A oder B.
 
 </details>
 
@@ -1205,7 +1205,7 @@ Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht… #flugze
 
 <details><summary>Sprechertext</summary>
 
-Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türhebel. Keine Panik. Er schafft es nicht. Der Druck in der Kabine presst die Tür mit mehreren Tonnen in ihren Rahmen. Viele Flugzeugtüren müssen sich erst nach innen bewegen. Gegen diesen Druck hat kein Mensch eine Chance. Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst. Darum sagt die Crew immer: Erst die eigene Maske aufsetzen, dann anderen helfen. Hörst du bei der Sicherheitsansage eigentlich zu? Sei ehrlich.
+Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türhebel. Keine Panik. Er schafft es nicht. Der Druck in der Kabine presst die Tür mit mehreren Tonnen in ihren Rahmen. Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst. Sei ehrlich. Hörst du der Sicherheitsansage zu? A: Ja. Oder B: Nie? Schreib A oder B.
 
 </details>
 
@@ -1242,7 +1242,7 @@ Titel: 33 Bergleute unter Tage – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du bist siebenhundert Meter unter der Erde eingeschlossen. Und oben glaubt fast niemand, dass du noch lebst. Ein Einsturz schließt dreiunddreißig Bergleute in einem Schutzraum ein. Die Vorräte reichen eigentlich nur für wenige Tage. Sie teilen alles streng auf. Oben bohren Retter Suchlöcher in die Tiefe. Tag für Tag. Ohne Lebenszeichen. Nach siebzehn Tagen kommt ein Bohrer wieder hoch. Daran hängt ein Zettel. Was auf dem Zettel steht, siehst du in Teil zwei.
+Du bist siebenhundert Meter unter der Erde eingeschlossen. Und oben glaubt fast niemand, dass du noch lebst. Ein Einsturz schließt dreiunddreißig Bergleute in einem Schutzraum ein. Die Vorräte reichen eigentlich nur für wenige Tage. Sie teilen alles streng auf. Oben bohren Retter Suchlöcher in die Tiefe. Tag für Tag. Ohne Lebenszeichen. Was auf dem Zettel steht, siehst du in Teil zwei.
 
 </details>
 
@@ -1279,7 +1279,7 @@ Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… 
 
 <details><summary>Sprechertext</summary>
 
-Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen. Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen. Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer. Und die Wolken bestehen aus Schwefelsäure. Die sowjetische Sonde Venera dreizehn hielt 1982 nur gut zwei Stunden durch. Dann war sie zerstört. Würdest du lieber zum Mars oder zur Venus fliegen?
+Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen. Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen. Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer. Was ist schlimmer? A: Venus. Oder B: Mars? Schreib A oder B.
 
 </details>
 
@@ -1316,7 +1316,7 @@ Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? �
 
 <details><summary>Sprechertext</summary>
 
-Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerissen. Die gute Nachricht: Ein Aufzug hängt fast nie an nur einem Seil. Meist sind es vier bis acht Stahlseile. Und jedes einzelne Seil kann die Kabine allein tragen. Reißen trotzdem alle, greift die Fangvorrichtung. Stahlkeile klemmen sich an die Schienen und bremsen dich ab. Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen. Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Hast du Angst im Aufzug?
+Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerissen. Die gute Nachricht: Ein Aufzug hängt fast nie an nur einem Seil. Meist sind es vier bis acht Stahlseile. Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen. Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Nimmst du den Aufzug? A: Aufzug. Oder B: Treppe? Schreib A oder B.
 
 </details>
 
@@ -1353,7 +1353,7 @@ Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung… #c
 
 <details><summary>Sprechertext</summary>
 
-Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Durch ein schmales Loch bekommen sie Essen, Wasser und Briefe von ihren Familien. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Über eine Milliarde Menschen sehen live zu, wie alle dreiunddreißig gerettet werden. Hättest du neunundsechzig Tage unter der Erde durchgehalten?
+Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Wie lange hättest du durchgehalten? A: Unter 30 Tage. Oder B: Alle 69 Tage? Schreib A oder B.
 
 </details>
 
@@ -1390,7 +1390,7 @@ Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest�
 
 <details><summary>Sprechertext</summary>
 
-Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen. Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer. Reis, Weizen und Mais würden bleiben. Sie werden vom Wind bestäubt. In Teilen Chinas bestäuben Menschen Obstbäume schon heute von Hand. Mit Pinseln. Was würdest du am meisten vermissen?
+Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen. Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer. Worauf verzichtest du zuerst? A: Äpfel. Oder B: Kaffee? Schreib A oder B.
 
 </details>
 
@@ -1427,7 +1427,7 @@ Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem… #körper 
 
 <details><summary>Sprechertext</summary>
 
-Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert. Nach etwa einer Minute brennt es in der Brust. Aber nicht wegen Sauerstoffmangel, sondern wegen Kohlendioxid. Dein Herz wird langsamer. Das Blut zieht sich aus Armen und Beinen zurück, zu Herz und Gehirn. Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden. Der Weltrekord liegt trotzdem bei vierundzwanzig Minuten. Budimir Šobat atmete vorher reinen Sauerstoff ein. Bitte nie allein unter Wasser üben. Wie lange hast du gerade durchgehalten?
+Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert. Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden. Der Weltrekord liegt trotzdem bei vierundzwanzig Minuten. Budimir Šobat atmete vorher reinen Sauerstoff ein. Bitte nie allein unter Wasser üben. Wie lange schaffst du? A: Unter 1 Minute. Oder B: Über 1 Minute? Schreib A oder B.
 
 </details>
 
@@ -1464,7 +1464,7 @@ Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕 #mond #weltal
 
 <details><summary>Sprechertext</summary>
 
-Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Für viele Küstentiere ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Übrigens entfernt sich der Mond wirklich von uns. Etwa 3,8 Zentimeter pro Jahr. Keine Sorge, das dauert Milliarden Jahre. Würdest du den Mond vermissen?
+Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Keine Sorge, das dauert Milliarden Jahre. Was würdest du mehr vermissen? A: Den Mond. Oder B: Die Sterne? Schreib A oder B.
 
 </details>
 
@@ -1501,7 +1501,7 @@ Was passiert, wenn du fast so schnell fliegst wie das… #lichtgeschwindigkeit #
 
 <details><summary>Sprechertext</summary>
 
-Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen. Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde. Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben. Das hat Einstein vorhergesagt. Und Atomuhren in Flugzeugen haben es bestätigt. Ganz auf Lichtgeschwindigkeit kommst du aber nie. Dafür bräuchtest du unendlich viel Energie. Würdest du so eine Reise machen, wenn bei deiner Rückkehr alle älter sind als du?
+Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen. Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde. Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben. Würdest du einsteigen? A: Ja, sofort. Oder B: Zu gefährlich? Schreib A oder B.
 
 </details>
 
@@ -1538,7 +1538,7 @@ Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in… #l
 
 <details><summary>Sprechertext</summary>
 
-Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken. Gleichzeitig sinkt bei frisch Verliebten der Serotoninspiegel. Darum kreisen deine Gedanken ständig um diese Person. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Später übernimmt Oxytocin, das Bindungshormon. Aus Verliebtheit wird dann Vertrauen. Markier jemanden, der gerade verliebt ist.
+Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1575,7 +1575,7 @@ Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️ #aster
 
 <details><summary>Sprechertext</summary>
 
-Ein zehn Kilometer großer Asteroid rast auf die Erde zu. Einschlag in einer Minute. Er fliegt mit etwa zwanzig Kilometern pro Sekunde. Von Frankfurt nach München in fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund 180 Kilometer breit. Glühende Trümmer setzen Wälder in Brand. Dann verdunkelt Ruß den Himmel, vielleicht für Jahre. So starben damals etwa drei Viertel aller Arten. Auch die Dinosaurier. Die gute Nachricht: 2022 hat die NASA gezeigt, dass man Asteroiden ablenken kann. Wusstest du das?
+Ein zehn Kilometer großer Asteroid rast auf die Erde zu. Einschlag in einer Minute. Er fliegt mit etwa zwanzig Kilometern pro Sekunde. Von Frankfurt nach München in fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund 180 Kilometer breit. Die gute Nachricht: 2022 hat die NASA gezeigt, dass man Asteroiden ablenken kann. Wo versteckst du dich? A: Im Keller. Oder B: Im Bunker? Schreib A oder B.
 
 </details>
 
@@ -1612,7 +1612,7 @@ Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns… #erdeohnemens
 
 <details><summary>Sprechertext</summary>
 
-Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Nach zwanzig Jahren erobern Wälder die Städte zurück. Nach hundert Jahren stürzen Stahlbrücken ein. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was bleibt am längsten von uns?
+Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was hält am längsten? A: Pyramiden. Oder B: Plastik? Schreib A oder B.
 
 </details>
 
@@ -1649,7 +1649,7 @@ Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu… #lo
 
 <details><summary>Sprechertext</summary>
 
-Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt. Die Chance dafür liegt bei etwa eins zu hundertvierzig Millionen. Der erste Rat von Experten: Erzähl es niemandem. Und kündige nicht sofort deinen Job. In Deutschland kannst du anonym bleiben. Die Lottogesellschaften nennen deinen Namen nicht. Und plötzlich melden sich Verwandte und Freunde, von denen du jahrelang nichts gehört hast. Was wäre das Erste, was du dir kaufst? Schreib es in die Kommentare.
+Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt. Die Chance dafür liegt bei etwa eins zu hundertvierzig Millionen. Der erste Rat von Experten: Erzähl es niemandem. Und kündige nicht sofort deinen Job. Was machst du zuerst? A: Job kündigen. Oder B: Niemandem sagen? Schreib A oder B.
 
 </details>
 
@@ -1686,7 +1686,7 @@ Titel: Du bist Juri Gagarin – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du bist gleich der erste Mensch im Weltall. Und niemand weiß, ob du zurückkommst. Juri Gagarin, siebenundzwanzig Jahre alt, sitzt in der winzigen Kapsel Wostok eins. Beim Start ruft er nur ein Wort: Pojechali! Los geht's! Minuten später sieht er als erster Mensch die Erde von oben. Er umrundet sie einmal. Aber die Landung wird ganz anders als geplant. Das siehst du in Teil zwei.
+Du bist gleich der erste Mensch im Weltall. Und niemand weiß, ob du zurückkommst. Juri Gagarin, siebenundzwanzig Jahre alt, sitzt in der winzigen Kapsel Wostok eins. Pojechali! Los geht's! Minuten später sieht er als erster Mensch die Erde von oben. Er umrundet sie einmal. Aber die Landung wird ganz anders als geplant. Das siehst du in Teil zwei.
 
 </details>
 
@@ -1723,7 +1723,7 @@ Der Supervulkan unter Yellowstone bricht aus. Was passiert in… #yellowstone #s
 
 <details><summary>Sprechertext</summary>
 
-Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Die Explosion ist etwa tausendmal stärker als der Ausbruch des Mount St. Helens 1980. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Asche regnet über große Teile der USA. Dächer stürzen ein, Felder werden unbrauchbar. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Würdest du Yellowstone trotzdem besuchen?
+Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Wohin flüchtest du? A: Europa. Oder B: Südamerika? Schreib A oder B.
 
 </details>
 
@@ -1760,7 +1760,7 @@ Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕ #k
 
 <details><summary>Sprechertext</summary>
 
-Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen. Koffein wirkt nach etwa einer halben Stunde. Es blockiert in deinem Gehirn das Signal für Müdigkeit. Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee. Darüber: Zittern, Herzrasen, Unruhe, Schlafprobleme. Und die Hälfte des Koffeins ist nach etwa fünf Stunden noch in deinem Blut. Der Kaffee um siebzehn Uhr wirkt also noch beim Einschlafen. Wie viele Tassen trinkst du am Tag?
+Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen. Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee. Darüber: Zittern, Herzrasen, Unruhe, Schlafprobleme. Wie viele Tassen trinkst du? A: Unter 4. Oder B: Über 4? Schreib A oder B.
 
 </details>
 
@@ -1797,7 +1797,7 @@ Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀 #gagari
 
 <details><summary>Sprechertext</summary>
 
-Gagarin landet nicht in seiner Kapsel. Er springt in sieben Kilometern Höhe heraus. Die Kapsel ist zu hart für eine Landung mit Menschen. Also wird er per Schleudersitz ausgeworfen. Er schwebt am Fallschirm auf ein Feld. Eine Bäuerin und ihre Enkelin sehen ihn im orangen Anzug kommen. Er sagt zu ihnen: Keine Angst, ich bin Sowjetbürger. Dass er nicht in der Kapsel landete, hält die Sowjetunion jahrelang geheim. Hättest du dich in diese Kapsel gesetzt?
+Gagarin landet nicht in seiner Kapsel. Er springt in sieben Kilometern Höhe heraus. Die Kapsel ist zu hart für eine Landung mit Menschen. Also wird er per Schleudersitz ausgeworfen. Er sagt zu ihnen: Keine Angst, ich bin Sowjetbürger. Wärst du mitgeflogen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1834,7 +1834,7 @@ Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋 #e
 
 <details><summary>Sprechertext</summary>
 
-In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See. Seine Asche fand man bis nach Schweden und Italien. Passiert so etwas heute, würde Asche auf Köln, Koblenz und Bonn regnen. Flughäfen müssten schließen. Forscher beobachten die Eifel genau. Ein Ausbruch in naher Zukunft gilt aber als unwahrscheinlich. Wusstest du, dass Deutschland Vulkane hat?
+In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See. Seine Asche fand man bis nach Schweden und Italien. Wusstest du, dass die Eifel aktiv ist? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1871,7 +1871,7 @@ Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein… #üb
 
 <details><summary>Sprechertext</summary>
 
-Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad. Überlebensexperten nutzen die Regel der Drei. Sie zeigt dir, was wirklich zuerst zählt. Essen ist also das Letzte, worum du dich kümmern musst. Dein größter Feind ist die Kälte. Bau dir Schutz vor Wind und Nässe. Und leg Äste und Laub unter dich, denn der Boden zieht die Wärme aus dir raus. Und dann: Bleib, wo du bist. Wer sich weiter bewegt, ist für Retter viel schwerer zu finden. Was hättest du zuerst gemacht? Sei ehrlich.
+Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad. Überlebensexperten nutzen die Regel der Drei. Sie zeigt dir, was wirklich zuerst zählt. Essen ist also das Letzte, worum du dich kümmern musst. Dein größter Feind ist die Kälte. Sei ehrlich. Was suchst du zuerst? A: Essen. Oder B: Schutz? Schreib A oder B.
 
 </details>
 
@@ -1908,7 +1908,7 @@ Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in… #antark
 
 <details><summary>Sprechertext</summary>
 
-Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai: weitgehend verschwunden. Zum Glück würde das selbst bei starker Erwärmung Jahrhunderte bis Jahrtausende dauern. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
+Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Wohnst du sicher? A: Ja, hoch genug. Oder B: Nein, an der Küste? Schreib A oder B.
 
 </details>
 
@@ -1945,7 +1945,7 @@ Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste… #jup
 
 <details><summary>Sprechertext</summary>
 
-Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken. Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde. Je tiefer du sinkst, desto heißer und dichter wird es. Irgendwann zerquetscht dich der Druck. Und in Jupiters Großem Roten Fleck tobt ein Sturm, größer als die ganze Erde. Seit Jahrhunderten. Welchen Planeten soll ich als Nächstes besuchen?
+Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken. Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde. Was ist schlimmer? A: Jupiter. Oder B: Venus? Schreib A oder B.
 
 </details>
 
@@ -1982,7 +1982,7 @@ Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du… #erdbebe
 
 <details><summary>Sprechertext</summary>
 
-Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbeben. Der größte Fehler: nach draußen rennen. Die meisten Verletzungen passieren durch herabfallende Teile. Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten. Weg von Fenstern und Regalen. Und keinen Aufzug benutzen. Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7. Hast du schon mal ein Erdbeben erlebt? Schreib wo.
+Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbeben. Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten. Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7. Was machst du? A: Rausrennen. Oder B: Unter den Tisch? Schreib A oder B.
 
 </details>
 
@@ -2019,7 +2019,7 @@ Titel: Shackleton im Eis – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner weiß, wo du bist. Ernest Shackleton will die Antarktis zu Fuß durchqueren. Mit achtundzwanzig Männern auf der Endurance. Doch das Packeis schließt das Schiff ein. Monatelang treibt es fest im Eis. Dann bricht das Eis die Endurance auseinander. Sie sinkt. Achtundzwanzig Männer, drei Rettungsboote und keine Funkverbindung zur Welt. Wie sie überleben, ist eine der unglaublichsten Rettungen der Geschichte. Teil zwei kommt morgen.
+Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner weiß, wo du bist. Ernest Shackleton will die Antarktis zu Fuß durchqueren. Mit achtundzwanzig Männern auf der Endurance. Doch das Packeis schließt das Schiff ein. Monatelang treibt es fest im Eis. Achtundzwanzig Männer, drei Rettungsboote und keine Funkverbindung zur Welt. Wie sie überleben, ist eine der unglaublichsten Rettungen der Geschichte. Teil zwei kommt morgen.
 
 </details>
 
@@ -2056,7 +2056,7 @@ Titel: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? #shorts
 
 <details><summary>Sprechertext</summary>
 
-Ein Sonnensturm wie im Jahr 1859 rast gerade auf die Erde zu. Damals sah man Polarlichter bis in die Karibik. Telegrafen sprühten Funken. Heute fallen zuerst Satelliten aus. GPS spinnt, Flugzeuge werden umgeleitet. Starke Ströme können Transformatoren zerstören. Teile der Welt sind wochenlang ohne Strom. 2012 hat uns ein ähnlich starker Sturm um etwa neun Tage verfehlt. Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?
+Ein Sonnensturm wie im Jahr 1859 rast gerade auf die Erde zu. Starke Ströme können Transformatoren zerstören. Teile der Welt sind wochenlang ohne Strom. 2012 hat uns ein ähnlich starker Sturm um etwa neun Tage verfehlt. Was fehlt dir zuerst? A: Handy. Oder B: Strom? Schreib A oder B.
 
 </details>
 
@@ -2093,7 +2093,7 @@ Titel: Was passiert mit dir bei 50 Grad? #shorts
 
 <details><summary>Sprechertext</summary>
 
-Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus. Dein Körper schwitzt bis zu mehreren Litern pro Stunde. Ohne Trinken trocknest du schnell aus. Ab etwa vierzig Grad Körpertemperatur droht ein Hitzschlag. Dein Gehirn gerät dann in Gefahr. Das Gefährlichste ist feuchte Hitze. Dann verdunstet dein Schweiß nicht mehr, und du kannst dich nicht abkühlen. Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913. Was war die heißeste Temperatur, die du je erlebt hast?
+Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus. Dein Körper schwitzt bis zu mehreren Litern pro Stunde. Ohne Trinken trocknest du schnell aus. Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913. Was ist schlimmer? A: 50 Grad. Oder B: Minus 30 Grad? Schreib A oder B.
 
 </details>
 
@@ -2130,7 +2130,7 @@ Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste… #shackleton #
 
 <details><summary>Sprechertext</summary>
 
-Ein kleines Rettungsboot, sechs Männer und das wildeste Meer der Welt. Das ist ihre einzige Chance. Shackleton segelt rund 1300 Kilometer nach Südgeorgien, um Hilfe zu holen. Dann müssen sie noch zu Fuß über die Berge der Insel bis zu einer Walfangstation. Erst Monate später holt er die restlichen Männer von der Eisinsel. Und alle leben. 2022 finden Forscher die Endurance. In dreitausend Metern Tiefe, fast perfekt erhalten. Hättest du so eine Reise überlebt?
+Ein kleines Rettungsboot, sechs Männer und das wildeste Meer der Welt. Das ist ihre einzige Chance. Shackleton segelt rund 1300 Kilometer nach Südgeorgien, um Hilfe zu holen. Erst Monate später holt er die restlichen Männer von der Eisinsel. Und alle leben. Hättest du überlebt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2167,7 +2167,7 @@ Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was… #ali
 
 <details><summary>Sprechertext</summary>
 
-Ein Radioteleskop hat gerade ein eindeutiges Signal von Außerirdischen empfangen. Zuerst würden Forscher weltweit prüfen, ob es wirklich kein Fehler ist. Das kann Tage dauern. Das Verrückte: Kommt das Signal von einem Stern hundert Lichtjahre entfernt, ist es hundert Jahre alt. Eine Antwort würde wieder hundert Jahre brauchen. Ein Gespräch dauert also Jahrhunderte. Bis heute wurde kein solches Signal sicher bestätigt. Was sollte die Menschheit als Erstes zurückschicken?
+Ein Radioteleskop hat gerade ein eindeutiges Signal von Außerirdischen empfangen. Zuerst würden Forscher weltweit prüfen, ob es wirklich kein Fehler ist. Das kann Tage dauern. Das Verrückte: Kommt das Signal von einem Stern hundert Lichtjahre entfernt, ist es hundert Jahre alt. Sollen wir antworten? A: Ja. Oder B: Nein, lieber still sein? Schreib A oder B.
 
 </details>
 
@@ -2204,7 +2204,7 @@ Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔 #fa
 
 <details><summary>Sprechertext</summary>
 
-Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abendessen. Genau das hat der Filmemacher Morgan Spurlock 2004 für seinen Film Super Size Me gemacht. Schon nach wenigen Tagen fühlt er sich schlapp und hat Stimmungsschwankungen. Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen. Danach braucht er über ein Jahr, um das Gewicht wieder loszuwerden. Wie oft isst du Fast Food pro Woche? Sei ehrlich.
+Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abendessen. Genau das hat der Filmemacher Morgan Spurlock 2004 für seinen Film Super Size Me gemacht. Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen. Sei ehrlich. Wie oft isst du Fast Food? A: Selten. Oder B: Jede Woche? Schreib A oder B.
 
 </details>
 
@@ -2241,7 +2241,7 @@ Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️ #
 
 <details><summary>Sprechertext</summary>
 
-Der Golfstrom ist gerade stehen geblieben. Europas Heizung ist aus. Diese Strömung bringt warmes Wasser aus der Karibik bis vor Europa. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Fällt sie aus, könnten unsere Winter deutlich kälter und stürmischer werden. Laut Studien hat sich die Strömung bereits abgeschwächt. Ob sie kippt, ist umstritten. Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?
+Der Golfstrom ist gerade stehen geblieben. Europas Heizung ist aus. Diese Strömung bringt warmes Wasser aus der Karibik bis vor Europa. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Wohin ziehst du? A: Nach Süden. Oder B: Bleibe hier? Schreib A oder B.
 
 </details>
 
@@ -2278,7 +2278,7 @@ Die stärkste Explosion im Universum trifft die Erde. Finale der… #gammablitz 
 
 <details><summary>Sprechertext</summary>
 
-Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren. Aus der Nähe könnte er einen großen Teil der Ozonschicht zerstören. Ungefilterte UV-Strahlung trifft dann Pflanzen, Plankton und uns. Manche Forscher vermuten: So etwas könnte vor 440 Millionen Jahren ein Massensterben ausgelöst haben. Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.
+Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren. Manche Forscher vermuten: So etwas könnte vor 440 Millionen Jahren ein Massensterben ausgelöst haben. Was macht dir mehr Angst? A: Gammablitz. Oder B: Asteroid? Schreib A oder B.
 
 </details>
 
@@ -2315,7 +2315,7 @@ Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und… #
 
 <details><summary>Sprechertext</summary>
 
-Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinein. Du fällst immer schneller. In der Mitte wärst du mit fast acht Kilometern pro Sekunde unterwegs. Dort herrschen über fünftausend Grad. So heiß wie die Oberfläche der Sonne. Ohne Luftwiderstand kommst du nach etwa vierzig Minuten auf der anderen Seite an. Und fällst dann wieder zurück. In Wirklichkeit: Das tiefste Loch der Menschheit ist gerade mal zwölf Kilometer tief. Wo würdest du rauskommen? Tipp: Von Deutschland aus landest du im Meer bei Neuseeland.
+Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinein. Du fällst immer schneller. In der Mitte wärst du mit fast acht Kilometern pro Sekunde unterwegs. Dort herrschen über fünftausend Grad. So heiß wie die Oberfläche der Sonne. Tipp: Von Deutschland aus landest du im Meer bei Neuseeland. Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2352,7 +2352,7 @@ Titel: Du bist in Prypjat – Tschernobyl 1986 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich. Am Morgen geht das Leben weiter. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: drinnen bleiben, Fenster zu, Lüftung aus. Erst nach anderthalb Tagen kommt die Evakuierung. Über tausend Busse. Mitnehmen nur für drei Tage. Sie kommen nie zurück. Prypjat ist bis heute eine Geisterstadt. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
+Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich. Am Morgen geht das Leben weiter. Kinder gehen zur Schule. Paare feiern Hochzeit. Erst nach anderthalb Tagen kommt die Evakuierung. Über tausend Busse. Mitnehmen nur für drei Tage. Würdest du Tschernobyl besuchen? A: Ja. Oder B: Nie im Leben? Schreib A oder B.
 
 </details>
 
@@ -2389,7 +2389,7 @@ Titel: Du bist auf Apollo 13 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer von der Erde entfernt. Houston, wir hatten hier ein Problem. Strom, Wasser und Atemluft werden knapp. Die Mondlandung ist abgesagt. Die drei retten sich in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen vier. Als das Kohlendioxid steigt, bauen sie einen Filter aus Klebeband, Plastiktüten und Pappe. Vier Tage später landen alle drei sicher im Pazifik. Hättest du die Nerven behalten?
+Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer von der Erde entfernt. Strom, Wasser und Atemluft werden knapp. Die Mondlandung ist abgesagt. Die drei retten sich in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen vier. Vier Tage später landen alle drei sicher im Pazifik. Hättest du die Nerven gehabt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2426,7 +2426,7 @@ Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕 #m
 
 <details><summary>Sprechertext</summary>
 
-Du stehst auf dem Mond. Du gehst leicht in die Knie und springst. Die Schwerkraft ist hier nur ein Sechstel so stark wie auf der Erde. Wiegst du auf der Erde achtzig Kilo, fühlst du dich hier wie etwa dreizehn. Ohne Anzug könntest du ungefähr sechsmal so hoch springen. Und du schwebst viel länger in der Luft. Die Apollo-Astronauten sind deshalb lieber gehüpft als gelaufen. Mit dem schweren Anzug war das einfacher. Was würdest du als Erstes auf dem Mond machen?
+Du stehst auf dem Mond. Du gehst leicht in die Knie und springst. Die Schwerkraft ist hier nur ein Sechstel so stark wie auf der Erde. Wiegst du auf der Erde achtzig Kilo, fühlst du dich hier wie etwa dreizehn. Was machst du auf dem Mond? A: Springen. Oder B: Foto von der Erde? Schreib A oder B.
 
 </details>
 
@@ -2463,7 +2463,7 @@ Titel: Das U-Boot B-59 – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeuern. Oktober 1962. Die Welt steht kurz vor einem Atomkrieg. Die USA blockieren Kuba. Das sowjetische U-Boot B-59 hat seit Tagen keinen Funkkontakt nach Moskau. Amerikanische Schiffe werfen Übungs-Wasserbomben, um es zum Auftauchen zu zwingen. Drinnen ist es fast fünfzig Grad heiß. Der Kapitän glaubt, der Krieg hat begonnen. Für den Abschuss braucht er die Zustimmung von drei Offizieren. Alles hängt jetzt am dritten Mann. Was er sagt, siehst du in Teil zwei.
+Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeuern. Oktober 1962. Die Welt steht kurz vor einem Atomkrieg. Die USA blockieren Kuba. Das sowjetische U-Boot B-59 hat seit Tagen keinen Funkkontakt nach Moskau. Der Kapitän glaubt, der Krieg hat begonnen. Für den Abschuss braucht er die Zustimmung von drei Offizieren. Alles hängt jetzt am dritten Mann. Was er sagt, siehst du in Teil zwei.
 
 </details>
 
@@ -2500,7 +2500,7 @@ Titel: Du sitzt in der Mondfähre – Apollo 11 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Nur noch etwa dreißig Sekunden Treibstoff. Und ihr seid noch nicht gelandet. Zwölf Minuten vorher: Alarm. Zwölf-null-zwei. Der Bordcomputer ist überlastet. Houston entscheidet in Sekunden: weiterfliegen. Dann steuert der Autopilot auf ein Feld voller Felsbrocken. Armstrong übernimmt per Hand. Houston, hier Basis Tranquility. Der Adler ist gelandet. Hättest du die Nerven gehabt, das Ding per Hand zu landen?
+Nur noch etwa dreißig Sekunden Treibstoff. Und ihr seid noch nicht gelandet. Zwölf Minuten vorher: Alarm. Zwölf-null-zwei. Der Bordcomputer ist überlastet. Dann steuert der Autopilot auf ein Feld voller Felsbrocken. Armstrong übernimmt per Hand. Wärst du mitgeflogen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2537,7 +2537,7 @@ Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen… #kä
 
 <details><summary>Sprechertext</summary>
 
-Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren sofort fest. Willkommen in Oimjakon, dem kältesten bewohnten Ort der Welt. Hier leben rund fünfhundert Menschen. Der Kälterekord: minus siebenundsechzig Komma sieben Grad. Autos lassen viele den ganzen Winter laufen. Sonst springt der Motor nicht mehr an. Und die Schule fällt erst aus, wenn es kälter als etwa minus fünfzig Grad wird. Würdest du hier einen Winter lang leben? Für wie viel Geld?
+Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren sofort fest. Willkommen in Oimjakon, dem kältesten bewohnten Ort der Welt. Hier leben rund fünfhundert Menschen. Der Kälterekord: minus siebenundsechzig Komma sieben Grad. Würdest du dort leben? A: Für Geld ja. Oder B: Niemals? Schreib A oder B.
 
 </details>
 
@@ -2574,7 +2574,7 @@ Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg… #archi
 
 <details><summary>Sprechertext</summary>
 
-Ein einziges Nein von diesem Mann hat vielleicht die Welt gerettet. Der dritte Offizier heißt Wassili Archipow. Er weigert sich, dem Abschuss zuzustimmen. Er überzeugt den Kapitän, aufzutauchen und auf Befehle aus Moskau zu warten. Einen Tag später endet die Kuba-Krise. Der Atomkrieg bleibt aus. Erst Jahrzehnte später wird bekannt, wie knapp es war. Viele kennen seinen Namen bis heute nicht. Hättest du in diesem Moment Nein gesagt?
+Ein einziges Nein von diesem Mann hat vielleicht die Welt gerettet. Der dritte Offizier heißt Wassili Archipow. Er weigert sich, dem Abschuss zuzustimmen. Erst Jahrzehnte später wird bekannt, wie knapp es war. Viele kennen seinen Namen bis heute nicht. Hättest du so entschieden wie er? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2611,7 +2611,7 @@ Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht… #hamburg #s
 
 <details><summary>Sprechertext</summary>
 
-Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahinter. Ein Orkan drückt das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter. Die Deiche brechen an über sechzig Stellen. Das Wasser kommt in Minuten. Regel Nummer eins: nach oben. Niemals in den Keller. Helmut Schmidt holt Hubschrauber von Bundeswehr und NATO. Tausende werden von den Dächern gerettet. In Hamburg sterben 315 Menschen. Hättest du es rechtzeitig aufs Dach geschafft?
+Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahinter. Ein Orkan drückt das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter. Die Deiche brechen an über sechzig Stellen. In Hamburg sterben 315 Menschen. Was rettest du zuerst? A: Familie. Oder B: Papiere und Handy? Schreib A oder B.
 
 </details>
 
@@ -2648,7 +2648,7 @@ Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte… #erstehilfe
 
 <details><summary>Sprechertext</summary>
 
-Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört zu schlagen. Jetzt zählt jede Minute. Ohne Wiederbelebung sinkt seine Überlebenschance pro Minute um etwa zehn Prozent. Merk dir drei Worte: Prüfen, rufen, drücken. Fest in die Mitte der Brust drücken, fünf bis sechs Zentimeter tief, hundert bis hundertzwanzig Mal pro Minute. Der Takt passt zum Song Stayin' Alive. Und du kannst nichts falsch machen, nur nichts tun ist falsch. Hast du schon mal einen Erste-Hilfe-Kurs gemacht? Schick das Video weiter, es kann Leben retten.
+Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört zu schlagen. Jetzt zählt jede Minute. Ohne Wiederbelebung sinkt seine Überlebenschance pro Minute um etwa zehn Prozent. Merk dir drei Worte: Prüfen, rufen, drücken. Kannst du Erste Hilfe? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2685,7 +2685,7 @@ Titel: Du bist in Ost-Berlin – 9. November 1989 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Ein paar Stunden vorher verkündet Günter Schabowski im Fernsehen: Privatreisen sind ab sofort möglich. Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zur Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Gegen halb zwölf öffnet der Offizier Harald Jäger den Schlagbaum. Achtundzwanzig Jahre Teilung enden in einer Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
+Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Tausende strömen zur Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Gegen halb zwölf öffnet der Offizier Harald Jäger den Schlagbaum. Achtundzwanzig Jahre Teilung enden in einer Nacht. Wo wärst du gewesen? A: An der Mauer. Oder B: Zu Hause vorm TV? Schreib A oder B.
 
 </details>
 
@@ -2722,7 +2722,7 @@ Titel: Du bist an Bord der Hindenburg #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Kurz vorher: Die Hindenburg, über 245 Meter lang, ist mit hochentzündlichem Wasserstoff gefüllt. 19:25 Uhr, kurz vor der Landung, sieht jemand eine Flamme am Heck. Ein Radioreporter schreit live ins Mikrofon: Oh, die Menschheit! Von 97 Menschen an Bord überleben 62. Viele springen kurz vor dem Boden. Wärst du gesprungen?
+Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Kurz vorher: Die Hindenburg, über 245 Meter lang, ist mit hochentzündlichem Wasserstoff gefüllt. Oh, die Menschheit! Von 97 Menschen an Bord überleben 62. Viele springen kurz vor dem Boden. Würdest du heute Zeppelin fliegen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2759,7 +2759,7 @@ Titel: Was passiert, wenn du aus 27 Metern ins Wasser springst? #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie ein neunstöckiges Haus. Du springst. Nach knapp drei Sekunden triffst du mit rund fünfundachtzig Kilometern pro Stunde auf. Bei dieser Geschwindigkeit fühlt sich Wasser fast an wie eine harte Fläche. Ein Bauchklatscher kann dich verletzen. Profis tauchen deshalb immer mit den Füßen zuerst ein, Körper ganz gerade. Unter Wasser warten Taucher, falls der Springer nach dem Aufprall Hilfe braucht. Von wie hoch bist du schon mal ins Wasser gesprungen?
+Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie ein neunstöckiges Haus. Du springst. Nach knapp drei Sekunden triffst du mit rund fünfundachtzig Kilometern pro Stunde auf. Bei dieser Geschwindigkeit fühlt sich Wasser fast an wie eine harte Fläche. Ein Bauchklatscher kann dich verletzen. Würdest du springen? A: Ja. Oder B: Niemals? Schreib A oder B.
 
 </details>
 
@@ -2796,7 +2796,7 @@ Titel: Das Grab des Tutanchamun – Teil 1 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet hat. Howard Carter sucht seit Jahren nach Tutanchamun. Das Geld seines Förderers ist fast aufgebraucht. Am vierten November 1922 finden Arbeiter eine Stufe im Sand. Dann eine Treppe. Carter bohrt ein Loch in die versiegelte Tür und hält eine Kerze hinein. Jemand fragt: Können Sie etwas sehen? Carter antwortet: Ja, wunderbare Dinge. Was er dort findet und was danach passiert, siehst du in Teil zwei.
+Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet hat. Howard Carter sucht seit Jahren nach Tutanchamun. Das Geld seines Förderers ist fast aufgebraucht. Am vierten November 1922 finden Arbeiter eine Stufe im Sand. Dann eine Treppe. Carter bohrt ein Loch in die versiegelte Tür und hält eine Kerze hinein. Ja, wunderbare Dinge. Was er dort findet und was danach passiert, siehst du in Teil zwei.
 
 </details>
 
@@ -2833,7 +2833,7 @@ Titel: Du bist am Krakatau 1883 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Gleich hörst du das lauteste Geräusch der Geschichte. 10:02 Uhr. Krakatau explodiert. Den Knall hört man noch fast fünftausend Kilometer entfernt. Die Druckwelle umrundet die Erde mehrmals. Dann kommen Tsunamis, bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Regel Nummer eins: Zieht sich das Meer plötzlich zurück, sofort weg vom Strand. Danach glühen die Sonnenuntergänge weltweit rot. Hättest du überlebt?
+Gleich hörst du das lauteste Geräusch der Geschichte. 10:02 Uhr. Krakatau explodiert. Den Knall hört man noch fast fünftausend Kilometer entfernt. Dann kommen Tsunamis, bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Danach glühen die Sonnenuntergänge weltweit rot. Was ist lauter? A: Krakatau. Oder B: Ein Düsenjet? Schreib A oder B.
 
 </details>
 
@@ -2870,7 +2870,7 @@ Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf… #we
 
 <details><summary>Sprechertext</summary>
 
-Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich jeden Tag. Ohne Schwerkraft verlieren deine Knochen jeden Monat etwa ein bis eineinhalb Prozent ihrer Dichte. Deine Wirbelsäule streckt sich. Du wirst ein paar Zentimeter größer. Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde. Zurück auf der Erde: Schwindel, Muskelschmerzen, und Laufen fühlt sich an wie neu lernen. Würdest du ein Jahr ins All fliegen? Ja oder nein?
+Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich jeden Tag. Ohne Schwerkraft verlieren deine Knochen jeden Monat etwa ein bis eineinhalb Prozent ihrer Dichte. Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde. Würdest du ein Jahr ins All? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2907,7 +2907,7 @@ Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich… #tuta
 
 <details><summary>Sprechertext</summary>
 
-Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot. Der Fluch des Pharao beginnt. Im Grab liegen über fünftausend Gegenstände. Und die berühmte goldene Totenmaske. Lord Carnarvon stirbt 1923 an einer Blutvergiftung nach einem infizierten Insektenstich. Die Zeitungen schreiben: der Fluch. Doch Howard Carter, der das Grab als Erster betrat, lebte noch sechzehn Jahre. Historiker sind sich einig: Den Fluch haben Journalisten erfunden, um Zeitungen zu verkaufen. Hättest du das Grab trotzdem betreten?
+Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot. Der Fluch des Pharao beginnt. Im Grab liegen über fünftausend Gegenstände. Und die berühmte goldene Totenmaske. Doch Howard Carter, der das Grab als Erster betrat, lebte noch sechzehn Jahre. Glaubst du an den Fluch? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2944,7 +2944,7 @@ Titel: Du lebst 1349 – Die Pest kommt #shorts
 
 <details><summary>Sprechertext</summary>
 
-Die Pest hat gerade deine Stadt erreicht. Wir schreiben das Jahr 1349. Fieber, Schüttelfrost, dunkle Beulen am Hals. Viele sterben in wenigen Tagen. Niemand kennt die Ursache. Man glaubt an giftige Luft oder eine Strafe Gottes. In vielen Städten werden Jüdinnen und Juden zu Unrecht beschuldigt und ermordet. In wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa. Viele hätten Abstand und Quarantäne gerettet. Hättest du überlebt?
+Die Pest hat gerade deine Stadt erreicht. Wir schreiben das Jahr 1349. Fieber, Schüttelfrost, dunkle Beulen am Hals. Viele sterben in wenigen Tagen. In wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa. Viele hätten Abstand und Quarantäne gerettet. Was hättest du gemacht? A: Fliehen. Oder B: Bleiben? Schreib A oder B.
 
 </details>
 
@@ -2981,7 +2981,7 @@ Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges… #tsunami #
 
 <details><summary>Sprechertext</summary>
 
-Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück. Viele laufen neugierig hinterher und sammeln Muscheln. Das ist der größte Fehler. Denn das ist das Warnsignal für einen Tsunami. Die Welle kommt in wenigen Minuten. Die zehnjährige Tilly Smith erkennt das. Sie hatte es kurz vorher im Erdkundeunterricht gelernt. Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr. Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst?
+Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück. Viele laufen neugierig hinterher und sammeln Muscheln. Das ist der größte Fehler. Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr. Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3018,7 +3018,7 @@ Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du… #liss
 
 <details><summary>Sprechertext</summary>
 
-Lissabon bebt. Und in vierzig Minuten kommt auch noch der Tsunami. Es ist Allerheiligen. Die Kirchen sind voll, umgestürzte Kerzen setzen alles in Brand. Viele fliehen zum Hafen, auf den offenen Platz am Wasser. Dann zieht sich das Meer zurück. Manche gehen sogar neugierig hin. Um 10:20 Uhr rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Regel Nummer eins: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
+Lissabon bebt. Und in vierzig Minuten kommt auch noch der Tsunami. Es ist Allerheiligen. Die Kirchen sind voll, umgestürzte Kerzen setzen alles in Brand. Dann zieht sich das Meer zurück. Manche gehen sogar neugierig hin. Regel Nummer eins: weg vom Wasser, hoch hinauf. Wohin rennst du? A: Zum Hafen. Oder B: Auf den Hügel? Schreib A oder B.
 
 </details>
 
@@ -3055,7 +3055,7 @@ London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier… 
 
 <details><summary>Sprechertext</summary>
 
-London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind aus Holz, dicht an dicht, mit Pech abgedichtet. Der Sommer war extrem trocken. Der Bürgermeister schaut sich das Feuer an und sagt nur: Pah! Das könnte eine Frau auspinkeln. Dann dreht der Wind. Vier Tage lang brennt London. 13.200 Häuser werden zerstört. Hättest du dein Haus gerettet, oder wärst du zur Themse geflohen?
+London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind aus Holz, dicht an dicht, mit Pech abgedichtet. Der Sommer war extrem trocken. Dann dreht der Wind. Vier Tage lang brennt London. 13.200 Häuser werden zerstört. Was rettest du zuerst? A: Geld. Oder B: Haustier? Schreib A oder B.
 
 </details>
 
@@ -3092,7 +3092,7 @@ Beide Triebwerke fallen aus – über New York. Der Pilot hat 208… #flugzeug #
 
 <details><summary>Sprechertext</summary>
 
-Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefallen. Ein Schwarm Gänse ist in die Triebwerke geflogen. Hundertfünfundfünfzig Menschen sind an Bord. Kapitän Chesley Sullenberger merkt: Wir schaffen es zu keinem Flughafen. Wir landen im Hudson. Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben. Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt?
+Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefallen. Ein Schwarm Gänse ist in die Triebwerke geflogen. Hundertfünfundfünfzig Menschen sind an Bord. Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben. Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3129,7 +3129,7 @@ Titel: Du lebst im Jahr ohne Sommer – 1816 #shorts
 
 <details><summary>Sprechertext</summary>
 
-Es ist Juni. Und es schneit. Willkommen im Jahr ohne Sommer. Schuld ist ein Vulkan am anderen Ende der Welt: der Tambora in Indonesien. Seine Asche schwächt weltweit das Sonnenlicht. Die Ernte verfault auf den Feldern. Brot wird unbezahlbar. Menschen hungern, Tausende wandern aus. Weil auch Pferde verhungern, erfindet Karl Drais 1817 das Laufrad. So glauben es manche Historiker. Hättest du diesen Winter überstanden?
+Es ist Juni. Und es schneit. Willkommen im Jahr ohne Sommer. Seine Asche schwächt weltweit das Sonnenlicht. Die Ernte verfault auf den Feldern. Brot wird unbezahlbar. Menschen hungern, Tausende wandern aus. Was fehlt dir mehr? A: Sommer. Oder B: Sonne? Schreib A oder B.
 
 </details>
 
@@ -3166,7 +3166,7 @@ Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️ #
 
 <details><summary>Sprechertext</summary>
 
-Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave. Archäologen haben die Dörfer der Arbeiter gefunden. Sie bekamen Essen, Bier und medizinische Versorgung. Die Cheops-Pyramide besteht aus rund 2,3 Millionen Steinblöcken. Der Bau dauert etwa zwanzig Jahre. Das wären rechnerisch mehrere Blöcke pro Stunde, Tag und Nacht. Fast viertausend Jahre lang war sie das höchste Bauwerk der Welt. Hättest du mitgebaut?
+Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave. Die Cheops-Pyramide besteht aus rund 2,3 Millionen Steinblöcken. Der Bau dauert etwa zwanzig Jahre. Das wären rechnerisch mehrere Blöcke pro Stunde, Tag und Nacht. Wer hat sie gebaut? A: Bezahlte Arbeiter. Oder B: Sklaven? Schreib A oder B.
 
 </details>
 
@@ -3203,7 +3203,7 @@ Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan… #w�
 
 <details><summary>Sprechertext</summary>
 
-Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine Menschen. Das passiert 1994 dem Italiener Mauro Prosperi bei einem Ultramarathon durch die Sahara. Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin. In einem verlassenen Heiligtum fängt er Fledermäuse und isst sie roh. Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien. Und weißt du was? Er ist danach wieder bei dem Rennen gestartet. Hättest du das überlebt?
+Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine Menschen. Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin. Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien. Er ist danach wieder bei dem Rennen gestartet. Hättest du überlebt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3240,7 +3240,7 @@ Titel: Du bist beim ersten Motorflug 1903 #shorts
 
 <details><summary>Sprechertext</summary>
 
-In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben. Die Brüder Orville und Wilbur Wright sind Fahrradmechaniker. Kein Studium, keine Fabrik. Orville liegt auf dem Flügel. Der Motor knattert. Und das Flugzeug hebt ab. Zwölf Sekunden, rund siebenunddreißig Meter. Kürzer als die Spannweite eines heutigen Jumbojets. Nur sechsundsechzig Jahre später landen Menschen auf dem Mond. Was glaubst du: Welche Erfindung kommt als Nächstes so überraschend?
+In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben. Zwölf Sekunden, rund siebenunddreißig Meter. Kürzer als die Spannweite eines heutigen Jumbojets. Nur sechsundsechzig Jahre später landen Menschen auf dem Mond. Wärst du mitgeflogen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3277,7 +3277,7 @@ Titel: Du bist bei der Erstbesteigung des Everest #shorts
 
 <details><summary>Sprechertext</summary>
 
-Noch nie hat ein Mensch hier oben gestanden. Und du bist gleich als Erster da. Edmund Hillary aus Neuseeland und der Sherpa Tenzing Norgay kämpfen sich die letzten Meter hoch. Kurz vor dem Gipfel versperrt eine steile Felsstufe den Weg. Hillary klettert durch einen schmalen Riss. 11:30 Uhr. Sie stehen auf dem höchsten Punkt der Erde. Sie bleiben nur etwa fünfzehn Minuten. Der Sauerstoff reicht nicht für mehr. Wer war deiner Meinung nach wirklich zuerst oben? Hillary oder Tenzing?
+Noch nie hat ein Mensch hier oben gestanden. Und du bist gleich als Erster da. 11:30 Uhr. Sie stehen auf dem höchsten Punkt der Erde. Sie bleiben nur etwa fünfzehn Minuten. Der Sauerstoff reicht nicht für mehr. Wer war zuerst oben? A: Hillary. Oder B: Norgay? Schreib A oder B.
 
 </details>
 
@@ -3314,7 +3314,7 @@ Eine Stewardess fällt über 10 Kilometer in die Tiefe – und… #rekord #wahre
 
 <details><summary>Sprechertext</summary>
 
-Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade auseinander. Das passiert der Stewardess Vesna Vulović. Eine Bombe zerreißt ihr Flugzeug. Sie wird im Heck eingeklemmt. Und dieses Teil stürzt in einen verschneiten, bewaldeten Hang. Alle anderen an Bord sterben. Sie überlebt, mit schweren Verletzungen und tagelang im Koma. Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat. Glück oder Wunder? Was meinst du?
+Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade auseinander. Das passiert der Stewardess Vesna Vulović. Eine Bombe zerreißt ihr Flugzeug. Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat. Glück oder Wunder? A: Glück. Oder B: Wunder? Schreib A oder B.
 
 </details>
 
@@ -3351,7 +3351,7 @@ Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist… #
 
 <details><summary>Sprechertext</summary>
 
-Das prächtigste Kriegsschiff Schwedens legt gerade ab. In wenigen Minuten wird es sinken. Die Vasa ist riesig, mit vierundsechzig Kanonen und Hunderten Holzfiguren. Doch sie ist zu hoch und zu schwer gebaut. Eine Windböe bringt sie in Schieflage. Wasser strömt durch die offenen Kanonenluken. Nach rund 1300 Metern sinkt sie im Hafen. 1961 wird das Wrack gehoben, zu großen Teilen original erhalten. Heute steht es in einem Museum. Was ist der peinlichste Fehlstart, den du kennst?
+Das prächtigste Kriegsschiff Schwedens legt gerade ab. In wenigen Minuten wird es sinken. Die Vasa ist riesig, mit vierundsechzig Kanonen und Hunderten Holzfiguren. Wasser strömt durch die offenen Kanonenluken. Nach rund 1300 Metern sinkt sie im Hafen. Hättest du gewarnt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3387,7 +3387,7 @@ Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet… #penicillin
 
 <details><summary>Sprechertext</summary>
 
-Ein Forscher kommt aus dem Urlaub zurück. Sein Labor ist unordentlich. Und genau das rettet Millionen Leben. Alexander Fleming hatte Schalen mit Bakterien stehen lassen. Auf einer wächst Schimmel. Und rund um den Schimmel sind die Bakterien verschwunden. Er nennt den Stoff Penicillin. Es ist das erste Antibiotikum der Welt. Erst im Zweiten Weltkrieg wird es in großen Mengen hergestellt. Seitdem rettet es unzählige Leben. Welcher glückliche Zufall hat dein Leben verändert?
+Ein Forscher kommt aus dem Urlaub zurück. Sein Labor ist unordentlich. Und genau das rettet Millionen Leben. Alexander Fleming hatte Schalen mit Bakterien stehen lassen. Auf einer wächst Schimmel. Er nennt den Stoff Penicillin. Es ist das erste Antibiotikum der Welt. Glück oder Genie? A: Glück. Oder B: Genie? Schreib A oder B.
 
 </details>
 
@@ -3424,7 +3424,7 @@ Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne… #experiment #wa
 
 <details><summary>Sprechertext</summary>
 
-Du lebst in einer Höhle. Ohne Uhr, ohne Sonnenlicht. Wie lange bist du schon hier? Genau das macht 1962 der Franzose Michel Siffre. Er zieht für zwei Monate in eine eisige Höhle. Er schläft, wenn er müde ist, und isst, wenn er Hunger hat. Oben schreibt ein Team alles mit. Dann holen sie ihn raus. Er glaubt, es ist der zwanzigste August. Tatsächlich ist es der vierzehnte September. Ihm fehlen fast vier Wochen. Wie lange würdest du ohne Uhr richtig schätzen?
+Du lebst in einer Höhle. Ohne Uhr, ohne Sonnenlicht. Wie lange bist du schon hier? Genau das macht 1962 der Franzose Michel Siffre. Er zieht für zwei Monate in eine eisige Höhle. Tatsächlich ist es der vierzehnte September. Ihm fehlen fast vier Wochen. Wie gut ist dein Zeitgefühl? A: Sehr gut. Oder B: Schlecht? Schreib A oder B.
 
 </details>
 
@@ -3460,6 +3460,6 @@ Er springt aus dem Rand des Weltalls – und durchbricht ohne… #rekord #wahreg
 
 <details><summary>Sprechertext</summary>
 
-Du stehst an der offenen Kapsel. Neununddreißig Kilometer unter dir: die Erde. Genau dort steht Felix Baumgartner. Die Luft ist so dünn, dass sein Blut ohne Druckanzug kochen würde. Er springt. Nach weniger als einer Minute ist er schneller als der Schall. Dann gerät er ins Trudeln. Dreht er sich zu schnell, kann er ohnmächtig werden. Er fängt sich wieder. Nach gut vier Minuten freiem Fall öffnet er den Schirm und landet sicher. Würdest du springen? Ja oder nein?
+Du stehst an der offenen Kapsel. Neununddreißig Kilometer unter dir: die Erde. Genau dort steht Felix Baumgartner. Die Luft ist so dünn, dass sein Blut ohne Druckanzug kochen würde. Er springt. Nach weniger als einer Minute ist er schneller als der Schall. Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
