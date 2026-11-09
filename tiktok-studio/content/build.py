@@ -120,6 +120,32 @@ def main():
         e["hook"] = True
         schedule.append(e)
 
+    # ---- Neu-Uploads einschieben (v3-Remakes): spätere Folgen rücken je einen Slot weiter
+    def slot_times(d0):
+        d = d0
+        while True:
+            wk = d.weekday() >= 5
+            yield d, ("11:00" if wk else "12:00")
+            yield d, ("18:00" if wk else "17:00")
+            d += dt.timedelta(days=1)
+    remakes = {d["id"]: d for d in json.load(open(os.path.join(HERE, "remake.json"), encoding="utf-8"))} if os.path.exists(os.path.join(HERE, "remake.json")) else {}
+    for date_s, time_s, rid, cap, tags in getattr(schedule_order, "INSERTS", []):
+        k = next((i for i, e in enumerate(schedule) if (e["date"], e["post_time"]) >= (date_s, time_s)), len(schedule))
+        r = enrich({kk: v for kk, v in remakes[rid].items() if kk not in ("photo_credits",)}, day=remakes[rid]["day"], id_=rid,
+                   date=dt.date.fromisoformat(date_s), post_time=time_s, series="ZEITZEUGE", nxt=schedule[k]["title"] if k < len(schedule) else None,
+                   badge="NEU · v3")
+        r["caption"] = cap + " " + " ".join(tags)
+        r["hashtags"] = tags
+        r["yt_title"] = (cap.split(" ☀️")[0] + " #shorts")[:100]
+        r["yt_description"] = cap + "\n\n" + " ".join(tags[:3] + ["#zeitzeuge", "#shorts"])
+        times = slot_times(dt.date.fromisoformat(date_s))
+        next(times) if time_s in ("17:00", "18:00") else None
+        nt = next(times)  # Slot des Remakes
+        for e in schedule[k:]:
+            d2, t2 = next(times)
+            e["date"], e["post_time"], e["weekday"] = d2.isoformat(), t2, WOCHENTAGE[d2.weekday()]
+        schedule.insert(k, r)
+
     # ---- BONUS-Slot (3. Video am Tag) → bonus.json
     cpool = {d["slug"]: d for d in DAYS_C}
     bonus = []

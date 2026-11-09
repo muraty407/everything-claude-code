@@ -79,3 +79,10 @@ POV = [
     ("2026-11-09", "20:30", "blackout-pov-teil-2"),
     ("2026-11-10", "20:30", "blackout-pov-teil-3"),
 ]
+
+# Neu-Uploads (v3-Hook-Test) – werden in den Plan eingeschoben, alle späteren Folgen rücken einen Slot weiter.
+INSERTS = [
+    ("2026-11-09", "12:00", "v3-sonne-verschwindet",
+     "Noch 8 Minuten – dann ist es für immer dunkel. ☀️ Hättest du überlebt? ❤️",
+     ["#sonne", "#weltall", "#physik", "#waswärewenn", "#zeitzeuge"]),
+]

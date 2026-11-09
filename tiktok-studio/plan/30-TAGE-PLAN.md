@@ -18,82 +18,83 @@ Format 1080×1920, 30 fps, Stimme: ElevenLabs „Brian“, Untertitel eingebrann
 | So 08.11. | 11:00 | FOLGE 8 | Was wäre, wenn das Internet 7 Tage ausfällt? | [mp4](../output/videos/f08-internet-weg.mp4) | [png](../output/thumbnails/f08-internet-weg.png) |
 | So 08.11. | 18:00 | FOLGE 9 | Flight 19 – Teil 2 | [mp4](../output/videos/f09-flight-19-teil-2.mp4) | [png](../output/thumbnails/f09-flight-19-teil-2.png) |
 | So 08.11. | 20:30 | POV · TEIL 1 | POV: Blackout in Deutschland – Teil 1 | [mp4](../output/videos/p01-blackout-pov-teil-1.mp4) | [png](../output/thumbnails/p01-blackout-pov-teil-1.png) |
-| Mo 09.11. | 12:00 | FOLGE 10 | Was wäre, wenn du in Treibsand gerätst? | [mp4](../output/videos/f10-treibsand.mp4) | [png](../output/thumbnails/f10-treibsand.png) |
-| Mo 09.11. | 17:00 | FOLGE 11 | Was wäre, wenn du ohne Anzug auf dem Mars stehst? | [mp4](../output/videos/f11-mars-ohne-anzug.mp4) | [png](../output/thumbnails/f11-mars-ohne-anzug.png) |
+| Mo 09.11. | 12:00 | NEU · v3 | Was wäre, wenn die Sonne verschwindet? | [mp4](../output/videos/v3-sonne-verschwindet.mp4) | [png](../output/thumbnails/v3-sonne-verschwindet.png) |
+| Mo 09.11. | 17:00 | FOLGE 10 | Was wäre, wenn du in Treibsand gerätst? | [mp4](../output/videos/f10-treibsand.mp4) | [png](../output/thumbnails/f10-treibsand.png) |
 | Mo 09.11. | 20:30 | POV · TEIL 2 | POV: Blackout in Deutschland – Teil 2 | [mp4](../output/videos/p02-blackout-pov-teil-2.mp4) | [png](../output/thumbnails/p02-blackout-pov-teil-2.png) |
-| Di 10.11. | 12:00 | FOLGE 12 | Was wäre, wenn dich eine Lawine verschüttet? | [mp4](../output/videos/f12-lawine.mp4) | [png](../output/thumbnails/f12-lawine.png) |
-| Di 10.11. | 17:00 | FOLGE 13 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | [mp4](../output/videos/f13-blackout.mp4) | [png](../output/thumbnails/f13-blackout.png) |
+| Di 10.11. | 12:00 | FOLGE 11 | Was wäre, wenn du ohne Anzug auf dem Mars stehst? | [mp4](../output/videos/f11-mars-ohne-anzug.mp4) | [png](../output/thumbnails/f11-mars-ohne-anzug.png) |
+| Di 10.11. | 17:00 | FOLGE 12 | Was wäre, wenn dich eine Lawine verschüttet? | [mp4](../output/videos/f12-lawine.mp4) | [png](../output/thumbnails/f12-lawine.png) |
 | Di 10.11. | 20:30 | POV · TEIL 3 | POV: Blackout in Deutschland – Teil 3 | [mp4](../output/videos/p03-blackout-pov-teil-3.mp4) | [png](../output/thumbnails/p03-blackout-pov-teil-3.png) |
-| Mi 11.11. | 12:00 | FOLGE 14 | Was wäre, wenn du in ein Schwarzes Loch fällst? | [mp4](../output/videos/f14-schwarzes-loch.mp4) | [png](../output/thumbnails/f14-schwarzes-loch.png) |
-| Mi 11.11. | 17:00 | FOLGE 15 | Gefangen in der Höhle – Teil 1 | [mp4](../output/videos/f15-thai-hoehle-teil-1.mp4) | [png](../output/thumbnails/f15-thai-hoehle-teil-1.png) |
+| Mi 11.11. | 12:00 | FOLGE 13 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | [mp4](../output/videos/f13-blackout.mp4) | [png](../output/thumbnails/f13-blackout.png) |
+| Mi 11.11. | 17:00 | FOLGE 14 | Was wäre, wenn du in ein Schwarzes Loch fällst? | [mp4](../output/videos/f14-schwarzes-loch.mp4) | [png](../output/thumbnails/f14-schwarzes-loch.png) |
 | Mi 11.11. | 20:30 | BONUS 3 | Was wäre, wenn du 30 Tage nichts isst? | [mp4](../output/videos/b03-ohne-essen.mp4) | [png](../output/thumbnails/b03-ohne-essen.png) |
-| Do 12.11. | 12:00 | FOLGE 16 | Was passiert mit dir in der Todeszone am Everest? | [mp4](../output/videos/f16-todeszone-everest.mp4) | [png](../output/thumbnails/f16-todeszone-everest.png) |
-| Do 12.11. | 17:00 | FOLGE 17 | Die Höhlenrettung – Teil 2 | [mp4](../output/videos/f17-thai-hoehle-teil-2.mp4) | [png](../output/thumbnails/f17-thai-hoehle-teil-2.png) |
+| Do 12.11. | 12:00 | FOLGE 15 | Gefangen in der Höhle – Teil 1 | [mp4](../output/videos/f15-thai-hoehle-teil-1.mp4) | [png](../output/thumbnails/f15-thai-hoehle-teil-1.png) |
+| Do 12.11. | 17:00 | FOLGE 16 | Was passiert mit dir in der Todeszone am Everest? | [mp4](../output/videos/f16-todeszone-everest.mp4) | [png](../output/thumbnails/f16-todeszone-everest.png) |
 | Do 12.11. | 20:30 | BONUS 4 | Was tust du, wenn dein Auto ins Wasser stürzt? | [mp4](../output/videos/b04-auto-unter-wasser.mp4) | [png](../output/thumbnails/b04-auto-unter-wasser.png) |
-| Fr 13.11. | 12:00 | FOLGE 18 | Was wäre, wenn eine Ameise so groß wäre wie du? | [mp4](../output/videos/f18-riesenameise.mp4) | [png](../output/thumbnails/f18-riesenameise.png) |
-| Fr 13.11. | 17:00 | FOLGE 19 | Was wäre, wenn die Erde aufhört, sich zu drehen? | [mp4](../output/videos/f19-erde-stoppt.mp4) | [png](../output/thumbnails/f19-erde-stoppt.png) |
+| Fr 13.11. | 12:00 | FOLGE 17 | Die Höhlenrettung – Teil 2 | [mp4](../output/videos/f17-thai-hoehle-teil-2.mp4) | [png](../output/thumbnails/f17-thai-hoehle-teil-2.png) |
+| Fr 13.11. | 17:00 | FOLGE 18 | Was wäre, wenn eine Ameise so groß wäre wie du? | [mp4](../output/videos/f18-riesenameise.mp4) | [png](../output/thumbnails/f18-riesenameise.png) |
 | Fr 13.11. | 20:30 | BONUS 5 | Was wäre, wenn dich ein Hai angreift? | [mp4](../output/videos/b05-hai.mp4) | [png](../output/thumbnails/b05-hai.png) |
-| Sa 14.11. | 11:00 | FOLGE 20 | Was wäre, wenn du in den Marianengraben tauchst? | [mp4](../output/videos/f20-marianengraben.mp4) | [png](../output/thumbnails/f20-marianengraben.png) |
-| Sa 14.11. | 18:00 | FOLGE 21 | 33 Bergleute unter Tage – Teil 1 | [mp4](../output/videos/f21-chile-bergleute-teil-1.mp4) | [png](../output/thumbnails/f21-chile-bergleute-teil-1.png) |
+| Sa 14.11. | 11:00 | FOLGE 19 | Was wäre, wenn die Erde aufhört, sich zu drehen? | [mp4](../output/videos/f19-erde-stoppt.mp4) | [png](../output/thumbnails/f19-erde-stoppt.png) |
+| Sa 14.11. | 18:00 | FOLGE 20 | Was wäre, wenn du in den Marianengraben tauchst? | [mp4](../output/videos/f20-marianengraben.mp4) | [png](../output/thumbnails/f20-marianengraben.png) |
 | Sa 14.11. | 20:30 | BONUS 6 | Was passiert, wenn du im Flugzeug die Tür öffnest? | [mp4](../output/videos/b06-flugzeugtuer.mp4) | [png](../output/thumbnails/b06-flugzeugtuer.png) |
-| So 15.11. | 11:00 | FOLGE 22 | Was wäre, wenn du auf der Venus landest? | [mp4](../output/videos/f22-venus-landung.mp4) | [png](../output/thumbnails/f22-venus-landung.png) |
-| So 15.11. | 18:00 | FOLGE 23 | 33 Bergleute unter Tage – Teil 2 | [mp4](../output/videos/f23-chile-bergleute-teil-2.mp4) | [png](../output/thumbnails/f23-chile-bergleute-teil-2.png) |
+| So 15.11. | 11:00 | FOLGE 21 | 33 Bergleute unter Tage – Teil 1 | [mp4](../output/videos/f21-chile-bergleute-teil-1.mp4) | [png](../output/thumbnails/f21-chile-bergleute-teil-1.png) |
+| So 15.11. | 18:00 | FOLGE 22 | Was wäre, wenn du auf der Venus landest? | [mp4](../output/videos/f22-venus-landung.mp4) | [png](../output/thumbnails/f22-venus-landung.png) |
 | So 15.11. | 20:30 | BONUS 7 | Was passiert, wenn im Aufzug das Seil reißt? | [mp4](../output/videos/b07-aufzug-seil.mp4) | [png](../output/thumbnails/b07-aufzug-seil.png) |
-| Mo 16.11. | 12:00 | FOLGE 24 | Was wäre, wenn alle Bienen verschwinden? | [mp4](../output/videos/f24-keine-bienen.mp4) | [png](../output/thumbnails/f24-keine-bienen.png) |
-| Mo 16.11. | 17:00 | FOLGE 25 | Was wäre, wenn der Mond verschwindet? | [mp4](../output/videos/f25-mond-verschwindet.mp4) | [png](../output/thumbnails/f25-mond-verschwindet.png) |
+| Mo 16.11. | 12:00 | FOLGE 23 | 33 Bergleute unter Tage – Teil 2 | [mp4](../output/videos/f23-chile-bergleute-teil-2.mp4) | [png](../output/thumbnails/f23-chile-bergleute-teil-2.png) |
+| Mo 16.11. | 17:00 | FOLGE 24 | Was wäre, wenn alle Bienen verschwinden? | [mp4](../output/videos/f24-keine-bienen.mp4) | [png](../output/thumbnails/f24-keine-bienen.png) |
 | Mo 16.11. | 20:30 | BONUS 8 | Was passiert, wenn du die Luft anhältst? | [mp4](../output/videos/b08-luft-anhalten.mp4) | [png](../output/thumbnails/b08-luft-anhalten.png) |
-| Di 17.11. | 12:00 | FOLGE 26 | Was wäre, wenn du so schnell wärst wie das Licht? | [mp4](../output/videos/f26-lichtgeschwindigkeit.mp4) | [png](../output/thumbnails/f26-lichtgeschwindigkeit.png) |
-| Di 17.11. | 17:00 | FOLGE 27 | Was wäre, wenn heute ein Dino-Asteroid einschlägt? | [mp4](../output/videos/f27-asteroid.mp4) | [png](../output/thumbnails/f27-asteroid.png) |
+| Di 17.11. | 12:00 | FOLGE 25 | Was wäre, wenn der Mond verschwindet? | [mp4](../output/videos/f25-mond-verschwindet.mp4) | [png](../output/thumbnails/f25-mond-verschwindet.png) |
+| Di 17.11. | 17:00 | FOLGE 26 | Was wäre, wenn du so schnell wärst wie das Licht? | [mp4](../output/videos/f26-lichtgeschwindigkeit.mp4) | [png](../output/thumbnails/f26-lichtgeschwindigkeit.png) |
 | Di 17.11. | 20:30 | BONUS 9 | Was passiert in deinem Gehirn, wenn du verliebt bist? | [mp4](../output/videos/b09-verliebt.mp4) | [png](../output/thumbnails/b09-verliebt.png) |
-| Mi 18.11. | 12:00 | FOLGE 28 | Was wäre, wenn alle Menschen verschwinden? | [mp4](../output/videos/f28-erde-ohne-menschen.mp4) | [png](../output/thumbnails/f28-erde-ohne-menschen.png) |
-| Mi 18.11. | 17:00 | FOLGE 29 | Du bist Juri Gagarin – Teil 1 | [mp4](../output/videos/f29-gagarin-teil-1.mp4) | [png](../output/thumbnails/f29-gagarin-teil-1.png) |
+| Mi 18.11. | 12:00 | FOLGE 27 | Was wäre, wenn heute ein Dino-Asteroid einschlägt? | [mp4](../output/videos/f27-asteroid.mp4) | [png](../output/thumbnails/f27-asteroid.png) |
+| Mi 18.11. | 17:00 | FOLGE 28 | Was wäre, wenn alle Menschen verschwinden? | [mp4](../output/videos/f28-erde-ohne-menschen.mp4) | [png](../output/thumbnails/f28-erde-ohne-menschen.png) |
 | Mi 18.11. | 20:30 | BONUS 10 | Was wäre, wenn du im Lotto gewinnst? | [mp4](../output/videos/b10-lotto.mp4) | [png](../output/thumbnails/b10-lotto.png) |
-| Do 19.11. | 12:00 | FOLGE 30 | Was wäre, wenn der Yellowstone ausbricht? | [mp4](../output/videos/f30-yellowstone.mp4) | [png](../output/thumbnails/f30-yellowstone.png) |
-| Do 19.11. | 17:00 | FOLGE 31 | Du bist Juri Gagarin – Teil 2 | [mp4](../output/videos/f31-gagarin-teil-2.mp4) | [png](../output/thumbnails/f31-gagarin-teil-2.png) |
+| Do 19.11. | 12:00 | FOLGE 29 | Du bist Juri Gagarin – Teil 1 | [mp4](../output/videos/f29-gagarin-teil-1.mp4) | [png](../output/thumbnails/f29-gagarin-teil-1.png) |
+| Do 19.11. | 17:00 | FOLGE 30 | Was wäre, wenn der Yellowstone ausbricht? | [mp4](../output/videos/f30-yellowstone.mp4) | [png](../output/thumbnails/f30-yellowstone.png) |
 | Do 19.11. | 20:30 | BONUS 11 | Was passiert, wenn du zu viel Kaffee trinkst? | [mp4](../output/videos/b11-zu-viel-kaffee.mp4) | [png](../output/thumbnails/b11-zu-viel-kaffee.png) |
-| Fr 20.11. | 12:00 | FOLGE 32 | Was wäre, wenn in der Eifel ein Vulkan ausbricht? | [mp4](../output/videos/f32-eifel-vulkan.mp4) | [png](../output/thumbnails/f32-eifel-vulkan.png) |
-| Fr 20.11. | 17:00 | FOLGE 33 | Was wäre, wenn die Antarktis komplett schmilzt? | [mp4](../output/videos/f33-antarktis-schmilzt.mp4) | [png](../output/thumbnails/f33-antarktis-schmilzt.png) |
+| Fr 20.11. | 12:00 | FOLGE 31 | Du bist Juri Gagarin – Teil 2 | [mp4](../output/videos/f31-gagarin-teil-2.mp4) | [png](../output/thumbnails/f31-gagarin-teil-2.png) |
+| Fr 20.11. | 17:00 | FOLGE 32 | Was wäre, wenn in der Eifel ein Vulkan ausbricht? | [mp4](../output/videos/f32-eifel-vulkan.mp4) | [png](../output/thumbnails/f32-eifel-vulkan.png) |
 | Fr 20.11. | 20:30 | BONUS 12 | Du bist allein im Wald verloren – was zuerst? | [mp4](../output/videos/b12-regel-der-drei.mp4) | [png](../output/thumbnails/b12-regel-der-drei.png) |
-| Sa 21.11. | 11:00 | FOLGE 34 | Was wäre, wenn du auf dem Jupiter landen willst? | [mp4](../output/videos/f34-jupiter-landung.mp4) | [png](../output/thumbnails/f34-jupiter-landung.png) |
-| Sa 21.11. | 18:00 | FOLGE 35 | Shackleton im Eis – Teil 1 | [mp4](../output/videos/f35-shackleton-teil-1.mp4) | [png](../output/thumbnails/f35-shackleton-teil-1.png) |
+| Sa 21.11. | 11:00 | FOLGE 33 | Was wäre, wenn die Antarktis komplett schmilzt? | [mp4](../output/videos/f33-antarktis-schmilzt.mp4) | [png](../output/thumbnails/f33-antarktis-schmilzt.png) |
+| Sa 21.11. | 18:00 | FOLGE 34 | Was wäre, wenn du auf dem Jupiter landen willst? | [mp4](../output/videos/f34-jupiter-landung.mp4) | [png](../output/thumbnails/f34-jupiter-landung.png) |
 | Sa 21.11. | 20:30 | BONUS 13 | Was tust du, wenn die Erde unter dir bebt? | [mp4](../output/videos/b13-erdbeben.mp4) | [png](../output/thumbnails/b13-erdbeben.png) |
-| So 22.11. | 11:00 | FOLGE 36 | Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? | [mp4](../output/videos/f36-sonnensturm.mp4) | [png](../output/thumbnails/f36-sonnensturm.png) |
-| So 22.11. | 18:00 | FOLGE 37 | Shackleton im Eis – Teil 2 | [mp4](../output/videos/f37-shackleton-teil-2.mp4) | [png](../output/thumbnails/f37-shackleton-teil-2.png) |
+| So 22.11. | 11:00 | FOLGE 35 | Shackleton im Eis – Teil 1 | [mp4](../output/videos/f35-shackleton-teil-1.mp4) | [png](../output/thumbnails/f35-shackleton-teil-1.png) |
+| So 22.11. | 18:00 | FOLGE 36 | Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? | [mp4](../output/videos/f36-sonnensturm.mp4) | [png](../output/thumbnails/f36-sonnensturm.png) |
 | So 22.11. | 20:30 | BONUS 14 | Was passiert mit dir bei 50 Grad? | [mp4](../output/videos/b14-hitze-50-grad.mp4) | [png](../output/thumbnails/b14-hitze-50-grad.png) |
-| Mo 23.11. | 12:00 | FOLGE 38 | Was wäre, wenn heute ein Signal von Aliens kommt? | [mp4](../output/videos/f38-alien-signal.mp4) | [png](../output/thumbnails/f38-alien-signal.png) |
-| Mo 23.11. | 17:00 | FOLGE 39 | Was wäre, wenn der Golfstrom stoppt? | [mp4](../output/videos/f39-golfstrom.mp4) | [png](../output/thumbnails/f39-golfstrom.png) |
+| Mo 23.11. | 12:00 | FOLGE 37 | Shackleton im Eis – Teil 2 | [mp4](../output/videos/f37-shackleton-teil-2.mp4) | [png](../output/thumbnails/f37-shackleton-teil-2.png) |
+| Mo 23.11. | 17:00 | FOLGE 38 | Was wäre, wenn heute ein Signal von Aliens kommt? | [mp4](../output/videos/f38-alien-signal.mp4) | [png](../output/thumbnails/f38-alien-signal.png) |
 | Mo 23.11. | 20:30 | BONUS 15 | Was wäre, wenn du 30 Tage nur Fast Food isst? | [mp4](../output/videos/b15-fastfood.mp4) | [png](../output/thumbnails/b15-fastfood.png) |
-| Di 24.11. | 12:00 | FOLGE 40 | Was wäre, wenn ein Gammablitz die Erde trifft? | [mp4](../output/videos/f40-gammablitz.mp4) | [png](../output/thumbnails/f40-gammablitz.png) |
-| Di 24.11. | 17:00 | FOLGE 41 | Du bist in Prypjat – Tschernobyl 1986 | [mp4](../output/videos/f41-tschernobyl.mp4) | [png](../output/thumbnails/f41-tschernobyl.png) |
+| Di 24.11. | 12:00 | FOLGE 39 | Was wäre, wenn der Golfstrom stoppt? | [mp4](../output/videos/f39-golfstrom.mp4) | [png](../output/thumbnails/f39-golfstrom.png) |
+| Di 24.11. | 17:00 | FOLGE 40 | Was wäre, wenn ein Gammablitz die Erde trifft? | [mp4](../output/videos/f40-gammablitz.mp4) | [png](../output/thumbnails/f40-gammablitz.png) |
 | Di 24.11. | 20:30 | BONUS 16 | Was wäre, wenn du durch die Erde fällst? | [mp4](../output/videos/b16-tunnel-durch-erde.mp4) | [png](../output/thumbnails/b16-tunnel-durch-erde.png) |
-| Mi 25.11. | 12:00 | FOLGE 42 | Du bist auf Apollo 13 | [mp4](../output/videos/f42-apollo-13.mp4) | [png](../output/thumbnails/f42-apollo-13.png) |
-| Mi 25.11. | 17:00 | FOLGE 43 | Das U-Boot B-59 – Teil 1 | [mp4](../output/videos/f43-archipow-teil-1.mp4) | [png](../output/thumbnails/f43-archipow-teil-1.png) |
+| Mi 25.11. | 12:00 | FOLGE 41 | Du bist in Prypjat – Tschernobyl 1986 | [mp4](../output/videos/f41-tschernobyl.mp4) | [png](../output/thumbnails/f41-tschernobyl.png) |
+| Mi 25.11. | 17:00 | FOLGE 42 | Du bist auf Apollo 13 | [mp4](../output/videos/f42-apollo-13.mp4) | [png](../output/thumbnails/f42-apollo-13.png) |
 | Mi 25.11. | 20:30 | BONUS 17 | Was wäre, wenn du auf dem Mond springst? | [mp4](../output/videos/b17-mond-springen.mp4) | [png](../output/thumbnails/b17-mond-springen.png) |
-| Do 26.11. | 12:00 | FOLGE 44 | Du sitzt in der Mondfähre – Apollo 11 | [mp4](../output/videos/f44-mondlandung.mp4) | [png](../output/thumbnails/f44-mondlandung.png) |
-| Do 26.11. | 17:00 | FOLGE 45 | Der Mann, der Nein sagte – Teil 2 | [mp4](../output/videos/f45-archipow-teil-2.mp4) | [png](../output/thumbnails/f45-archipow-teil-2.png) |
+| Do 26.11. | 12:00 | FOLGE 43 | Das U-Boot B-59 – Teil 1 | [mp4](../output/videos/f43-archipow-teil-1.mp4) | [png](../output/thumbnails/f43-archipow-teil-1.png) |
+| Do 26.11. | 17:00 | FOLGE 44 | Du sitzt in der Mondfähre – Apollo 11 | [mp4](../output/videos/f44-mondlandung.mp4) | [png](../output/thumbnails/f44-mondlandung.png) |
 | Do 26.11. | 20:30 | BONUS 18 | Was wäre, wenn du bei minus 60 Grad lebst? | [mp4](../output/videos/b18-oimjakon.mp4) | [png](../output/thumbnails/b18-oimjakon.png) |
-| Fr 27.11. | 12:00 | FOLGE 46 | Du bist in Hamburg – Sturmflut 1962 | [mp4](../output/videos/f46-sturmflut-hamburg.mp4) | [png](../output/thumbnails/f46-sturmflut-hamburg.png) |
-| Fr 27.11. | 17:00 | FOLGE 47 | Du bist in Ost-Berlin – 9. November 1989 | [mp4](../output/videos/f47-mauerfall.mp4) | [png](../output/thumbnails/f47-mauerfall.png) |
+| Fr 27.11. | 12:00 | FOLGE 45 | Der Mann, der Nein sagte – Teil 2 | [mp4](../output/videos/f45-archipow-teil-2.mp4) | [png](../output/thumbnails/f45-archipow-teil-2.png) |
+| Fr 27.11. | 17:00 | FOLGE 46 | Du bist in Hamburg – Sturmflut 1962 | [mp4](../output/videos/f46-sturmflut-hamburg.mp4) | [png](../output/thumbnails/f46-sturmflut-hamburg.png) |
 | Fr 27.11. | 20:30 | BONUS 19 | Jemand bricht vor dir zusammen – was tust du? | [mp4](../output/videos/b19-herzstillstand.mp4) | [png](../output/thumbnails/b19-herzstillstand.png) |
-| Sa 28.11. | 11:00 | FOLGE 48 | Du bist an Bord der Hindenburg | [mp4](../output/videos/f48-hindenburg.mp4) | [png](../output/thumbnails/f48-hindenburg.png) |
-| Sa 28.11. | 18:00 | FOLGE 49 | Das Grab des Tutanchamun – Teil 1 | [mp4](../output/videos/f49-tutanchamun-teil-1.mp4) | [png](../output/thumbnails/f49-tutanchamun-teil-1.png) |
+| Sa 28.11. | 11:00 | FOLGE 47 | Du bist in Ost-Berlin – 9. November 1989 | [mp4](../output/videos/f47-mauerfall.mp4) | [png](../output/thumbnails/f47-mauerfall.png) |
+| Sa 28.11. | 18:00 | FOLGE 48 | Du bist an Bord der Hindenburg | [mp4](../output/videos/f48-hindenburg.mp4) | [png](../output/thumbnails/f48-hindenburg.png) |
 | Sa 28.11. | 20:30 | BONUS 20 | Was passiert, wenn du aus 27 Metern ins Wasser springst? | [mp4](../output/videos/b20-klippensprung.mp4) | [png](../output/thumbnails/b20-klippensprung.png) |
-| So 29.11. | 11:00 | FOLGE 50 | Du bist am Krakatau 1883 | [mp4](../output/videos/f50-krakatau.mp4) | [png](../output/thumbnails/f50-krakatau.png) |
-| So 29.11. | 18:00 | FOLGE 51 | Der Fluch des Pharao – Teil 2 | [mp4](../output/videos/f51-tutanchamun-teil-2.mp4) | [png](../output/thumbnails/f51-tutanchamun-teil-2.png) |
+| So 29.11. | 11:00 | FOLGE 49 | Das Grab des Tutanchamun – Teil 1 | [mp4](../output/videos/f49-tutanchamun-teil-1.mp4) | [png](../output/thumbnails/f49-tutanchamun-teil-1.png) |
+| So 29.11. | 18:00 | FOLGE 50 | Du bist am Krakatau 1883 | [mp4](../output/videos/f50-krakatau.mp4) | [png](../output/thumbnails/f50-krakatau.png) |
 | So 29.11. | 20:30 | BONUS 21 | Was macht ein Jahr im Weltall mit dir? | [mp4](../output/videos/b21-ein-jahr-all.mp4) | [png](../output/thumbnails/b21-ein-jahr-all.png) |
-| Mo 30.11. | 12:00 | FOLGE 52 | Du lebst 1349 – Die Pest kommt | [mp4](../output/videos/f52-pest-1349.mp4) | [png](../output/thumbnails/f52-pest-1349.png) |
-| Mo 30.11. | 17:00 | FOLGE 53 | Du bist in Lissabon – Erdbeben 1755 | [mp4](../output/videos/f53-lissabon-1755.mp4) | [png](../output/thumbnails/f53-lissabon-1755.png) |
+| Mo 30.11. | 12:00 | FOLGE 51 | Der Fluch des Pharao – Teil 2 | [mp4](../output/videos/f51-tutanchamun-teil-2.mp4) | [png](../output/thumbnails/f51-tutanchamun-teil-2.png) |
+| Mo 30.11. | 17:00 | FOLGE 52 | Du lebst 1349 – Die Pest kommt | [mp4](../output/videos/f52-pest-1349.mp4) | [png](../output/thumbnails/f52-pest-1349.png) |
 | Mo 30.11. | 20:30 | BONUS 22 | Das Meer zieht sich zurück – was jetzt? | [mp4](../output/videos/b22-tsunami.mp4) | [png](../output/thumbnails/b22-tsunami.png) |
-| Di 01.12. | 12:00 | FOLGE 54 | Du bist in London – Der große Brand 1666 | [mp4](../output/videos/f54-brand-london.mp4) | [png](../output/thumbnails/f54-brand-london.png) |
-| Di 01.12. | 17:00 | FOLGE 55 | Du lebst im Jahr ohne Sommer – 1816 | [mp4](../output/videos/f55-jahr-ohne-sommer.mp4) | [png](../output/thumbnails/f55-jahr-ohne-sommer.png) |
+| Di 01.12. | 12:00 | FOLGE 53 | Du bist in Lissabon – Erdbeben 1755 | [mp4](../output/videos/f53-lissabon-1755.mp4) | [png](../output/thumbnails/f53-lissabon-1755.png) |
+| Di 01.12. | 17:00 | FOLGE 54 | Du bist in London – Der große Brand 1666 | [mp4](../output/videos/f54-brand-london.mp4) | [png](../output/thumbnails/f54-brand-london.png) |
 | Di 01.12. | 20:30 | BONUS 23 | 208 Sekunden: Notlandung auf dem Fluss | [mp4](../output/videos/b23-hudson.mp4) | [png](../output/thumbnails/b23-hudson.png) |
-| Mi 02.12. | 12:00 | FOLGE 56 | Du baust die Pyramiden | [mp4](../output/videos/f56-pyramiden-bau.mp4) | [png](../output/thumbnails/f56-pyramiden-bau.png) |
-| Mi 02.12. | 17:00 | FOLGE 57 | Du bist beim ersten Motorflug 1903 | [mp4](../output/videos/f57-brueder-wright.mp4) | [png](../output/thumbnails/f57-brueder-wright.png) |
+| Mi 02.12. | 12:00 | FOLGE 55 | Du lebst im Jahr ohne Sommer – 1816 | [mp4](../output/videos/f55-jahr-ohne-sommer.mp4) | [png](../output/thumbnails/f55-jahr-ohne-sommer.png) |
+| Mi 02.12. | 17:00 | FOLGE 56 | Du baust die Pyramiden | [mp4](../output/videos/f56-pyramiden-bau.mp4) | [png](../output/thumbnails/f56-pyramiden-bau.png) |
 | Mi 02.12. | 20:30 | BONUS 24 | 9 Tage allein in der Sahara | [mp4](../output/videos/b24-wueste.mp4) | [png](../output/thumbnails/b24-wueste.png) |
-| Do 03.12. | 12:00 | FOLGE 58 | Du bist bei der Erstbesteigung des Everest | [mp4](../output/videos/f58-everest-1953.mp4) | [png](../output/thumbnails/f58-everest-1953.png) |
-| Do 03.12. | 17:00 | FOLGE 59 | Du bist auf der Vasa – 1628 | [mp4](../output/videos/f59-vasa.mp4) | [png](../output/thumbnails/f59-vasa.png) |
+| Do 03.12. | 12:00 | FOLGE 57 | Du bist beim ersten Motorflug 1903 | [mp4](../output/videos/f57-brueder-wright.mp4) | [png](../output/thumbnails/f57-brueder-wright.png) |
+| Do 03.12. | 17:00 | FOLGE 58 | Du bist bei der Erstbesteigung des Everest | [mp4](../output/videos/f58-everest-1953.mp4) | [png](../output/thumbnails/f58-everest-1953.png) |
 | Do 03.12. | 20:30 | BONUS 25 | Sie fiel 10.000 Meter – und überlebte | [mp4](../output/videos/b25-sturz-10000m.mp4) | [png](../output/thumbnails/b25-sturz-10000m.png) |
-| Fr 04.12. | 12:00 | FOLGE 60 | Die Entdeckung des Penicillins | [mp4](../output/videos/f60-penicillin.mp4) | [png](../output/thumbnails/f60-penicillin.png) |
+| Fr 04.12. | 12:00 | FOLGE 59 | Du bist auf der Vasa – 1628 | [mp4](../output/videos/f59-vasa.mp4) | [png](../output/thumbnails/f59-vasa.png) |
+| Fr 04.12. | 17:00 | FOLGE 60 | Die Entdeckung des Penicillins | [mp4](../output/videos/f60-penicillin.mp4) | [png](../output/thumbnails/f60-penicillin.png) |
 | Fr 04.12. | 20:30 | BONUS 26 | Zwei Monate in einer Höhle ohne Uhr | [mp4](../output/videos/b26-hoehle-ohne-zeit.mp4) | [png](../output/thumbnails/b26-hoehle-ohne-zeit.png) |
 | Sa 05.12. | 20:30 | BONUS 27 | Er sprang aus 39 Kilometern Höhe | [mp4](../output/videos/b27-stratosphaere.mp4) | [png](../output/thumbnails/b27-stratosphaere.png) |
 
@@ -567,8 +568,47 @@ Siebzehn Uhr zweiundvierzig. Du sitzt in der Straßenbahn. Und plötzlich geht �
 
 </details>
 
-### FOLGE 10 – Was wäre, wenn du in Treibsand gerätst?
+### NEU · v3 – Was wäre, wenn die Sonne verschwindet?
 **Posten:** Mo 09.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Noch 8 Minuten – dann ist es für immer dunkel. ☀️ Hättest du überlebt? ❤️
+
+#sonne #weltall #physik #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du in Treibsand gerätst?
+
+#sonne #weltall #physik #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Noch 8 Minuten – dann ist es für immer dunkel. #shorts
+
+Noch 8 Minuten – dann ist es für immer dunkel. ☀️ Hättest du überlebt? ❤️
+
+#sonne #weltall #physik #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Noch acht Minuten. Dann wird es auf der Erde dunkel. Für immer. Denn die Sonne ist gerade verschwunden. Ihr letztes Licht ist noch unterwegs zu uns. Dann wird es schlagartig schwarz. Auch der Mond erlischt – er leuchtet nur durch die Sonne. Die Erde rast jetzt geradeaus ins All. Keine Umlaufbahn mehr. Nach einer Woche: unter minus siebzehn Grad. Nach einem Jahr: minus siebzig. Überleben könntest du nur tief im Meer – oder in Island, mit Erdwärme. Zum Glück hält die Sonne noch Milliarden Jahre. Hättest du überlebt? Lass ein Herz da, wenn ja.
+
+</details>
+
+### FOLGE 10 – Was wäre, wenn du in Treibsand gerätst?
+**Posten:** Mo 09.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -603,45 +643,6 @@ Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?
 <details><summary>Sprechertext</summary>
 
 Du steckst im Treibsand. Und jede Bewegung zieht dich tiefer. Die gute Nachricht: Ganz untergehen kannst du nicht. Treibsand ist dichter als dein Körper. Meistens sinkst du nur bis zur Hüfte ein. Das Problem: Ziehen bringt nichts. Um ein Bein zu befreien, bräuchte man enorme Kraft. Regel Nummer eins: Leg dich zurück, verteil dein Gewicht und wackle langsam mit den Beinen. Gefährlich wird es vor allem, wenn die Flut kommt. Wusstest du das?
-
-</details>
-
-### FOLGE 11 – Was wäre, wenn du ohne Anzug auf dem Mars stehst?
-**Posten:** Mo 09.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
-
-#mars #weltall #nasa #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn dich eine Lawine verschüttet?
-
-#mars #weltall #nasa #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn du ohne Anzug auf dem Mars stehst? #shorts
-
-Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
-
-#mars #weltall #nasa #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du stehst ohne Raumanzug auf dem Mars. Du hast fünfzehn Sekunden. Erste Regel: Atme aus! Sonst können deine Lungen reißen. Der Luftdruck ist so niedrig, dass Speichel und Tränen zu sprudeln beginnen. Deine Haut schwillt an, aber du platzt nicht. Das ist ein Filmmythos. Nach fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr. Holt dich jemand innerhalb von ein, zwei Minuten zurück, könntest du überleben. Würdest du zum Mars fliegen?
 
 </details>
 
@@ -684,8 +685,47 @@ Es ist Leon. Mit einer Taschenlampe. Und einem Sixpack Wasser in der Hand. Komm 
 
 </details>
 
-### FOLGE 12 – Was wäre, wenn dich eine Lawine verschüttet?
+### FOLGE 11 – Was wäre, wenn du ohne Anzug auf dem Mars stehst?
 **Posten:** Di 10.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
+
+#mars #weltall #nasa #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn dich eine Lawine verschüttet?
+
+#mars #weltall #nasa #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn du ohne Anzug auf dem Mars stehst? #shorts
+
+Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
+
+#mars #weltall #nasa #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du stehst ohne Raumanzug auf dem Mars. Du hast fünfzehn Sekunden. Erste Regel: Atme aus! Sonst können deine Lungen reißen. Der Luftdruck ist so niedrig, dass Speichel und Tränen zu sprudeln beginnen. Deine Haut schwillt an, aber du platzt nicht. Das ist ein Filmmythos. Nach fünfzehn Sekunden wirst du ohnmächtig. Dein Blut bekommt keinen Sauerstoff mehr. Holt dich jemand innerhalb von ein, zwei Minuten zurück, könntest du überleben. Würdest du zum Mars fliegen?
+
+</details>
+
+### FOLGE 12 – Was wäre, wenn dich eine Lawine verschüttet?
+**Posten:** Di 10.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -720,45 +760,6 @@ Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
 <details><summary>Sprechertext</summary>
 
 Eine Lawine hat dich gerade verschüttet. Ab jetzt zählt jede Minute. Solange du rutschst: kämpf dich nach oben. Und Hände vors Gesicht, für eine Atemhöhle. Wenn sie stoppt, wird der Schnee hart wie Beton. Du kannst dich kaum bewegen. In den ersten fünfzehn Minuten überleben rund neun von zehn. Danach sinkt die Chance dramatisch. Deshalb: nie ohne Lawinenpiepser, Sonde und Schaufel. Und nie allein. Würdest du abseits der Piste fahren?
-
-</details>
-
-### FOLGE 13 – Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
-**Posten:** Di 10.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
-
-#blackout #stromausfall #vorsorge #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du in ein Schwarzes Loch fällst?
-
-#blackout #stromausfall #vorsorge #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? #shorts
-
-Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
-
-#blackout #stromausfall #vorsorge #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Ampeln aus, Bahnen stehen, Menschen stecken in Aufzügen fest. Nach ein paar Stunden fällt auch das Handynetz aus. Die Funkmasten haben keinen Strom mehr. Kein Wasser in Hochhäusern, kein Sprit an Tankstellen, keine Kasse im Supermarkt. Wer jetzt Kerzen, Taschenlampe, Batterieradio und Wasser hat, ist klar im Vorteil. Stunde zweiundsiebzig: Das Licht ist zurück. Wärst du vorbereitet gewesen?
 
 </details>
 
@@ -800,8 +801,47 @@ Es ist Papa. Die Nachricht ist angekommen. Gerade noch. Die Fahrt dauert eine St
 
 </details>
 
-### FOLGE 14 – Was wäre, wenn du in ein Schwarzes Loch fällst?
+### FOLGE 13 – Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
 **Posten:** Mi 11.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
+
+#blackout #stromausfall #vorsorge #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du in ein Schwarzes Loch fällst?
+
+#blackout #stromausfall #vorsorge #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? #shorts
+
+Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
+
+#blackout #stromausfall #vorsorge #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+In ganz Deutschland ist gerade der Strom ausgefallen. Für drei Tage. Ampeln aus, Bahnen stehen, Menschen stecken in Aufzügen fest. Nach ein paar Stunden fällt auch das Handynetz aus. Die Funkmasten haben keinen Strom mehr. Kein Wasser in Hochhäusern, kein Sprit an Tankstellen, keine Kasse im Supermarkt. Wer jetzt Kerzen, Taschenlampe, Batterieradio und Wasser hat, ist klar im Vorteil. Stunde zweiundsiebzig: Das Licht ist zurück. Wärst du vorbereitet gewesen?
+
+</details>
+
+### FOLGE 14 – Was wäre, wenn du in ein Schwarzes Loch fällst?
+**Posten:** Mi 11.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -836,45 +876,6 @@ Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghet
 <details><summary>Sprechertext</summary>
 
 Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei einem kleinen Schwarzen Loch wirst du lang gezogen wie eine Nudel. Physiker nennen das wirklich Spaghettifizierung. Bei einem riesigen, wie im Zentrum unserer Milchstraße, merkst du am Rand erstmal nichts. Für jemanden, der zuschaut, wirst du immer langsamer und scheinst für immer einzufrieren. Du fällst weiter, über den Ereignishorizont. Ab hier entkommt nicht einmal Licht. Was dahinter passiert, weiß niemand. Würdest du reinschauen?
-
-</details>
-
-### FOLGE 15 – Gefangen in der Höhle – Teil 1
-**Posten:** Mi 11.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
-
-#thailand #höhlenrettung #rettung #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert mit dir in der Todeszone am Everest?
-
-#thailand #höhlenrettung #rettung #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Gefangen in der Höhle – Teil 1 #shorts
-
-12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
-
-#thailand #höhlenrettung #rettung #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein Licht wird schwächer. Zwölf Jungs aus einem Fußballteam und ihr Trainer gehen nach dem Training in die Höhle. Monsunregen flutet die Gänge. Der Rückweg ist abgeschnitten. Sie ziehen sich auf einen Felsen zurück, kilometerweit im Berg. Ohne Essen. Nach neun Tagen tauchen zwei britische Höhlentaucher auf. Mit einer Taschenlampe. Gefunden, aber noch lange nicht gerettet. Wie man sie herausholt, siehst du in Teil zwei.
 
 </details>
 
@@ -917,8 +918,47 @@ Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeiche
 
 </details>
 
-### FOLGE 16 – Was passiert mit dir in der Todeszone am Everest?
+### FOLGE 15 – Gefangen in der Höhle – Teil 1
 **Posten:** Do 12.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
+
+#thailand #höhlenrettung #rettung #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was passiert mit dir in der Todeszone am Everest?
+
+#thailand #höhlenrettung #rettung #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Gefangen in der Höhle – Teil 1 #shorts
+
+12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
+
+#thailand #höhlenrettung #rettung #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du bist in einer Höhle eingeschlossen. Hinter dir steigt das Wasser. Und dein Licht wird schwächer. Zwölf Jungs aus einem Fußballteam und ihr Trainer gehen nach dem Training in die Höhle. Monsunregen flutet die Gänge. Der Rückweg ist abgeschnitten. Sie ziehen sich auf einen Felsen zurück, kilometerweit im Berg. Ohne Essen. Nach neun Tagen tauchen zwei britische Höhlentaucher auf. Mit einer Taschenlampe. Gefunden, aber noch lange nicht gerettet. Wie man sie herausholt, siehst du in Teil zwei.
+
+</details>
+
+### FOLGE 16 – Was passiert mit dir in der Todeszone am Everest?
+**Posten:** Do 12.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -953,45 +993,6 @@ Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone a
 <details><summary>Sprechertext</summary>
 
 Du bist in der Todeszone am Mount Everest. Ab hier stirbt dein Körper langsam. Jeder Atemzug hat nur etwa ein Drittel des Sauerstoffs wie am Meer. Dein Herz rast, dein Blut wird dicker, und du denkst immer langsamer. Manche Bergsteiger halluzinieren. Sie sehen Menschen, die gar nicht da sind. Regel Nummer eins: Halte deine Umkehrzeit ein. Auch kurz vor dem Gipfel. 8849 Meter. Du hast nur Minuten für das Foto. Würdest du es versuchen?
-
-</details>
-
-### FOLGE 17 – Die Höhlenrettung – Teil 2
-**Posten:** Do 12.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
-
-#thailand #höhlenrettung #rettung #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?
-
-#thailand #höhlenrettung #rettung #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Die Höhlenrettung – Teil 2 #shorts
-
-Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
-
-#thailand #höhlenrettung #rettung #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Kein einziger der Jungs kann tauchen. Und der Weg nach draußen ist kilometerlang unter Wasser. Ein früherer Marinetaucher, Saman Kunan, bringt Sauerstoff in die Höhle. Auf dem Rückweg stirbt er. Die Retter entscheiden sich für einen riskanten Plan: Die Jungs werden ruhiggestellt und von Tauchern hinausgezogen. In drei Tagen holen sie alle dreizehn heraus. Alle lebend. Die ganze Welt hat mitgefiebert. Die Rettung gilt als eine der schwierigsten aller Zeiten. Hättest du dich als Retter in diese Höhle getraut?
 
 </details>
 
@@ -1034,8 +1035,47 @@ Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an
 
 </details>
 
-### FOLGE 18 – Was wäre, wenn eine Ameise so groß wäre wie du?
+### FOLGE 17 – Die Höhlenrettung – Teil 2
 **Posten:** Fr 13.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
+
+#thailand #höhlenrettung #rettung #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?
+
+#thailand #höhlenrettung #rettung #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Die Höhlenrettung – Teil 2 #shorts
+
+Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
+
+#thailand #höhlenrettung #rettung #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Kein einziger der Jungs kann tauchen. Und der Weg nach draußen ist kilometerlang unter Wasser. Ein früherer Marinetaucher, Saman Kunan, bringt Sauerstoff in die Höhle. Auf dem Rückweg stirbt er. Die Retter entscheiden sich für einen riskanten Plan: Die Jungs werden ruhiggestellt und von Tauchern hinausgezogen. In drei Tagen holen sie alle dreizehn heraus. Alle lebend. Die ganze Welt hat mitgefiebert. Die Rettung gilt als eine der schwierigsten aller Zeiten. Hättest du dich als Retter in diese Höhle getraut?
+
+</details>
+
+### FOLGE 18 – Was wäre, wenn eine Ameise so groß wäre wie du?
+**Posten:** Fr 13.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1070,45 +1110,6 @@ Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜
 <details><summary>Sprechertext</summary>
 
 Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben. Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen. Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer. Ihre Beine wären viel zu dünn. Ihr Panzer würde unter dem eigenen Gewicht brechen. Und sie würde ersticken. Ameisen atmen durch winzige Röhrchen, die für so einen Körper nicht reichen. Welches Tier wäre in Menschengröße am gruseligsten?
-
-</details>
-
-### FOLGE 19 – Was wäre, wenn die Erde aufhört, sich zu drehen?
-**Posten:** Fr 13.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
-
-#erde #physik #wissen #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du in den Marianengraben tauchst?
-
-#erde #physik #wissen #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn die Erde aufhört, sich zu drehen? #shorts
-
-Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
-
-#erde #physik #wissen #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Die Erde hat gerade aufgehört, sich zu drehen. Aber du nicht. Am Äquator fliegst du mit 1670 Kilometern pro Stunde weiter. Menschen, Autos, Häuser fliegen mit. Selbst in Deutschland wären es noch über tausend Kilometer pro Stunde. Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen. Und ein Tag dauert jetzt ein ganzes Jahr: sechs Monate hell, sechs Monate dunkel. Zum Glück ist ein plötzlicher Stopp praktisch unmöglich. Welches Szenario soll als Nächstes kommen?
 
 </details>
 
@@ -1151,8 +1152,47 @@ Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf. Erst mal:
 
 </details>
 
-### FOLGE 20 – Was wäre, wenn du in den Marianengraben tauchst?
+### FOLGE 19 – Was wäre, wenn die Erde aufhört, sich zu drehen?
 **Posten:** Sa 14.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
+
+#erde #physik #wissen #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du in den Marianengraben tauchst?
+
+#erde #physik #wissen #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn die Erde aufhört, sich zu drehen? #shorts
+
+Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
+
+#erde #physik #wissen #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Die Erde hat gerade aufgehört, sich zu drehen. Aber du nicht. Am Äquator fliegst du mit 1670 Kilometern pro Stunde weiter. Menschen, Autos, Häuser fliegen mit. Selbst in Deutschland wären es noch über tausend Kilometer pro Stunde. Dazu kommen Winde mit Überschallgeschwindigkeit, die fast alles von der Oberfläche fegen. Und ein Tag dauert jetzt ein ganzes Jahr: sechs Monate hell, sechs Monate dunkel. Zum Glück ist ein plötzlicher Stopp praktisch unmöglich. Welches Szenario soll als Nächstes kommen?
+
+</details>
+
+### FOLGE 20 – Was wäre, wenn du in den Marianengraben tauchst?
+**Posten:** Sa 14.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -1187,45 +1227,6 @@ Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
 <details><summary>Sprechertext</summary>
 
 Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend Meter: totale Dunkelheit. Hier leuchten nur noch Tiere selbst. 3800 Meter: Hier liegt das Wrack der Titanic. Knapp elftausend Meter: Der Druck ist über tausendmal so hoch wie an der Oberfläche. Und trotzdem lebt hier unten etwas. Man fand hier sogar schon eine Plastiktüte. Würdest du mit runtertauchen?
-
-</details>
-
-### FOLGE 21 – 33 Bergleute unter Tage – Teil 1
-**Posten:** Sa 14.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
-
-#chile #bergleute #rettung #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du auf der Venus landest?
-
-#chile #bergleute #rettung #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: 33 Bergleute unter Tage – Teil 1 #shorts
-
-33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
-
-#chile #bergleute #rettung #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du bist siebenhundert Meter unter der Erde eingeschlossen. Und oben glaubt fast niemand, dass du noch lebst. Ein Einsturz schließt dreiunddreißig Bergleute in einem Schutzraum ein. Die Vorräte reichen eigentlich nur für wenige Tage. Sie teilen alles streng auf. Oben bohren Retter Suchlöcher in die Tiefe. Tag für Tag. Ohne Lebenszeichen. Nach siebzehn Tagen kommt ein Bohrer wieder hoch. Daran hängt ein Zettel. Was auf dem Zettel steht, siehst du in Teil zwei.
 
 </details>
 
@@ -1268,8 +1269,47 @@ Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türheb
 
 </details>
 
-### FOLGE 22 – Was wäre, wenn du auf der Venus landest?
+### FOLGE 21 – 33 Bergleute unter Tage – Teil 1
 **Posten:** So 15.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
+
+#chile #bergleute #rettung #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du auf der Venus landest?
+
+#chile #bergleute #rettung #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: 33 Bergleute unter Tage – Teil 1 #shorts
+
+33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
+
+#chile #bergleute #rettung #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du bist siebenhundert Meter unter der Erde eingeschlossen. Und oben glaubt fast niemand, dass du noch lebst. Ein Einsturz schließt dreiunddreißig Bergleute in einem Schutzraum ein. Die Vorräte reichen eigentlich nur für wenige Tage. Sie teilen alles streng auf. Oben bohren Retter Suchlöcher in die Tiefe. Tag für Tag. Ohne Lebenszeichen. Nach siebzehn Tagen kommt ein Bohrer wieder hoch. Daran hängt ein Zettel. Was auf dem Zettel steht, siehst du in Teil zwei.
+
+</details>
+
+### FOLGE 22 – Was wäre, wenn du auf der Venus landest?
+**Posten:** So 15.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -1304,45 +1344,6 @@ Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Wa
 <details><summary>Sprechertext</summary>
 
 Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen. Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen. Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer. Und die Wolken bestehen aus Schwefelsäure. Die sowjetische Sonde Venera dreizehn hielt 1982 nur gut zwei Stunden durch. Dann war sie zerstört. Würdest du lieber zum Mars oder zur Venus fliegen?
-
-</details>
-
-### FOLGE 23 – 33 Bergleute unter Tage – Teil 2
-**Posten:** So 15.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
-
-#chile #bergleute #rettung #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn alle Bienen verschwinden?
-
-#chile #bergleute #rettung #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: 33 Bergleute unter Tage – Teil 2 #shorts
-
-Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
-
-#chile #bergleute #rettung #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Durch ein schmales Loch bekommen sie Essen, Wasser und Briefe von ihren Familien. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Über eine Milliarde Menschen sehen live zu, wie alle dreiunddreißig gerettet werden. Hättest du neunundsechzig Tage unter der Erde durchgehalten?
 
 </details>
 
@@ -1385,8 +1386,47 @@ Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerisse
 
 </details>
 
-### FOLGE 24 – Was wäre, wenn alle Bienen verschwinden?
+### FOLGE 23 – 33 Bergleute unter Tage – Teil 2
 **Posten:** Mo 16.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
+
+#chile #bergleute #rettung #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn alle Bienen verschwinden?
+
+#chile #bergleute #rettung #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: 33 Bergleute unter Tage – Teil 2 #shorts
+
+Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
+
+#chile #bergleute #rettung #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Durch ein schmales Loch bekommen sie Essen, Wasser und Briefe von ihren Familien. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Über eine Milliarde Menschen sehen live zu, wie alle dreiunddreißig gerettet werden. Hättest du neunundsechzig Tage unter der Erde durchgehalten?
+
+</details>
+
+### FOLGE 24 – Was wäre, wenn alle Bienen verschwinden?
+**Posten:** Mo 16.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1421,45 +1461,6 @@ Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest d
 <details><summary>Sprechertext</summary>
 
 Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen. Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer. Reis, Weizen und Mais würden bleiben. Sie werden vom Wind bestäubt. In Teilen Chinas bestäuben Menschen Obstbäume schon heute von Hand. Mit Pinseln. Was würdest du am meisten vermissen?
-
-</details>
-
-### FOLGE 25 – Was wäre, wenn der Mond verschwindet?
-**Posten:** Mo 16.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
-
-#mond #weltall #gezeiten #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du so schnell wärst wie das Licht?
-
-#mond #weltall #gezeiten #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn der Mond verschwindet? #shorts
-
-Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
-
-#mond #weltall #gezeiten #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Für viele Küstentiere ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Übrigens entfernt sich der Mond wirklich von uns. Etwa 3,8 Zentimeter pro Jahr. Keine Sorge, das dauert Milliarden Jahre. Würdest du den Mond vermissen?
 
 </details>
 
@@ -1502,8 +1503,47 @@ Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert. Nac
 
 </details>
 
-### FOLGE 26 – Was wäre, wenn du so schnell wärst wie das Licht?
+### FOLGE 25 – Was wäre, wenn der Mond verschwindet?
 **Posten:** Di 17.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
+
+#mond #weltall #gezeiten #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du so schnell wärst wie das Licht?
+
+#mond #weltall #gezeiten #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn der Mond verschwindet? #shorts
+
+Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
+
+#mond #weltall #gezeiten #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Für viele Küstentiere ist das eine Katastrophe. Ihr ganzer Rhythmus hängt an den Gezeiten. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Übrigens entfernt sich der Mond wirklich von uns. Etwa 3,8 Zentimeter pro Jahr. Keine Sorge, das dauert Milliarden Jahre. Würdest du den Mond vermissen?
+
+</details>
+
+### FOLGE 26 – Was wäre, wenn du so schnell wärst wie das Licht?
+**Posten:** Di 17.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1538,45 +1578,6 @@ Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit w
 <details><summary>Sprechertext</summary>
 
 Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen. Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde. Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben. Das hat Einstein vorhergesagt. Und Atomuhren in Flugzeugen haben es bestätigt. Ganz auf Lichtgeschwindigkeit kommst du aber nie. Dafür bräuchtest du unendlich viel Energie. Würdest du so eine Reise machen, wenn bei deiner Rückkehr alle älter sind als du?
-
-</details>
-
-### FOLGE 27 – Was wäre, wenn heute ein Dino-Asteroid einschlägt?
-**Posten:** Di 17.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
-
-#asteroid #dinosaurier #weltall #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn alle Menschen verschwinden?
-
-#asteroid #dinosaurier #weltall #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn heute ein Dino-Asteroid einschlägt? #shorts
-
-Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
-
-#asteroid #dinosaurier #weltall #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Ein zehn Kilometer großer Asteroid rast auf die Erde zu. Einschlag in einer Minute. Er fliegt mit etwa zwanzig Kilometern pro Sekunde. Von Frankfurt nach München in fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund 180 Kilometer breit. Glühende Trümmer setzen Wälder in Brand. Dann verdunkelt Ruß den Himmel, vielleicht für Jahre. So starben damals etwa drei Viertel aller Arten. Auch die Dinosaurier. Die gute Nachricht: 2022 hat die NASA gezeigt, dass man Asteroiden ablenken kann. Wusstest du das?
 
 </details>
 
@@ -1619,8 +1620,47 @@ Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes meh
 
 </details>
 
-### FOLGE 28 – Was wäre, wenn alle Menschen verschwinden?
+### FOLGE 27 – Was wäre, wenn heute ein Dino-Asteroid einschlägt?
 **Posten:** Mi 18.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
+
+#asteroid #dinosaurier #weltall #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn alle Menschen verschwinden?
+
+#asteroid #dinosaurier #weltall #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn heute ein Dino-Asteroid einschlägt? #shorts
+
+Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
+
+#asteroid #dinosaurier #weltall #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Ein zehn Kilometer großer Asteroid rast auf die Erde zu. Einschlag in einer Minute. Er fliegt mit etwa zwanzig Kilometern pro Sekunde. Von Frankfurt nach München in fünfzehn Sekunden. Beim Aufprall entsteht ein Krater, rund 180 Kilometer breit. Glühende Trümmer setzen Wälder in Brand. Dann verdunkelt Ruß den Himmel, vielleicht für Jahre. So starben damals etwa drei Viertel aller Arten. Auch die Dinosaurier. Die gute Nachricht: 2022 hat die NASA gezeigt, dass man Asteroiden ablenken kann. Wusstest du das?
+
+</details>
+
+### FOLGE 28 – Was wäre, wenn alle Menschen verschwinden?
+**Posten:** Mi 18.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1655,45 +1695,6 @@ Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
 <details><summary>Sprechertext</summary>
 
 Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Nach zwanzig Jahren erobern Wälder die Städte zurück. Nach hundert Jahren stürzen Stahlbrücken ein. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was bleibt am längsten von uns?
-
-</details>
-
-### FOLGE 29 – Du bist Juri Gagarin – Teil 1
-**Posten:** Mi 18.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
-
-#gagarin #weltall #raumfahrt #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn der Yellowstone ausbricht?
-
-#gagarin #weltall #raumfahrt #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist Juri Gagarin – Teil 1 #shorts
-
-12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
-
-#gagarin #weltall #raumfahrt #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du bist gleich der erste Mensch im Weltall. Und niemand weiß, ob du zurückkommst. Juri Gagarin, siebenundzwanzig Jahre alt, sitzt in der winzigen Kapsel Wostok eins. Beim Start ruft er nur ein Wort: Pojechali! Los geht's! Minuten später sieht er als erster Mensch die Erde von oben. Er umrundet sie einmal. Aber die Landung wird ganz anders als geplant. Das siehst du in Teil zwei.
 
 </details>
 
@@ -1736,8 +1737,47 @@ Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt. Die Chance d
 
 </details>
 
-### FOLGE 30 – Was wäre, wenn der Yellowstone ausbricht?
+### FOLGE 29 – Du bist Juri Gagarin – Teil 1
 **Posten:** Do 19.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
+
+#gagarin #weltall #raumfahrt #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn der Yellowstone ausbricht?
+
+#gagarin #weltall #raumfahrt #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist Juri Gagarin – Teil 1 #shorts
+
+12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
+
+#gagarin #weltall #raumfahrt #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du bist gleich der erste Mensch im Weltall. Und niemand weiß, ob du zurückkommst. Juri Gagarin, siebenundzwanzig Jahre alt, sitzt in der winzigen Kapsel Wostok eins. Beim Start ruft er nur ein Wort: Pojechali! Los geht's! Minuten später sieht er als erster Mensch die Erde von oben. Er umrundet sie einmal. Aber die Landung wird ganz anders als geplant. Das siehst du in Teil zwei.
+
+</details>
+
+### FOLGE 30 – Was wäre, wenn der Yellowstone ausbricht?
+**Posten:** Do 19.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1772,45 +1812,6 @@ Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
 <details><summary>Sprechertext</summary>
 
 Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Die Explosion ist etwa tausendmal stärker als der Ausbruch des Mount St. Helens 1980. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Asche regnet über große Teile der USA. Dächer stürzen ein, Felder werden unbrauchbar. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Würdest du Yellowstone trotzdem besuchen?
-
-</details>
-
-### FOLGE 31 – Du bist Juri Gagarin – Teil 2
-**Posten:** Do 19.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
-
-#gagarin #weltall #raumfahrt #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn in der Eifel ein Vulkan ausbricht?
-
-#gagarin #weltall #raumfahrt #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist Juri Gagarin – Teil 2 #shorts
-
-Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
-
-#gagarin #weltall #raumfahrt #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Gagarin landet nicht in seiner Kapsel. Er springt in sieben Kilometern Höhe heraus. Die Kapsel ist zu hart für eine Landung mit Menschen. Also wird er per Schleudersitz ausgeworfen. Er schwebt am Fallschirm auf ein Feld. Eine Bäuerin und ihre Enkelin sehen ihn im orangen Anzug kommen. Er sagt zu ihnen: Keine Angst, ich bin Sowjetbürger. Dass er nicht in der Kapsel landete, hält die Sowjetunion jahrelang geheim. Hättest du dich in diese Kapsel gesetzt?
 
 </details>
 
@@ -1853,8 +1854,47 @@ Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen. Koffei
 
 </details>
 
-### FOLGE 32 – Was wäre, wenn in der Eifel ein Vulkan ausbricht?
+### FOLGE 31 – Du bist Juri Gagarin – Teil 2
 **Posten:** Fr 20.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
+
+#gagarin #weltall #raumfahrt #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn in der Eifel ein Vulkan ausbricht?
+
+#gagarin #weltall #raumfahrt #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist Juri Gagarin – Teil 2 #shorts
+
+Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
+
+#gagarin #weltall #raumfahrt #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Gagarin landet nicht in seiner Kapsel. Er springt in sieben Kilometern Höhe heraus. Die Kapsel ist zu hart für eine Landung mit Menschen. Also wird er per Schleudersitz ausgeworfen. Er schwebt am Fallschirm auf ein Feld. Eine Bäuerin und ihre Enkelin sehen ihn im orangen Anzug kommen. Er sagt zu ihnen: Keine Angst, ich bin Sowjetbürger. Dass er nicht in der Kapsel landete, hält die Sowjetunion jahrelang geheim. Hättest du dich in diese Kapsel gesetzt?
+
+</details>
+
+### FOLGE 32 – Was wäre, wenn in der Eifel ein Vulkan ausbricht?
+**Posten:** Fr 20.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -1889,45 +1929,6 @@ Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋
 <details><summary>Sprechertext</summary>
 
 In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See. Seine Asche fand man bis nach Schweden und Italien. Passiert so etwas heute, würde Asche auf Köln, Koblenz und Bonn regnen. Flughäfen müssten schließen. Forscher beobachten die Eifel genau. Ein Ausbruch in naher Zukunft gilt aber als unwahrscheinlich. Wusstest du, dass Deutschland Vulkane hat?
-
-</details>
-
-### FOLGE 33 – Was wäre, wenn die Antarktis komplett schmilzt?
-**Posten:** Fr 20.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
-
-#antarktis #klima #meeresspiegel #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du auf dem Jupiter landen willst?
-
-#antarktis #klima #meeresspiegel #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn die Antarktis komplett schmilzt? #shorts
-
-Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
-
-#antarktis #klima #meeresspiegel #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai: weitgehend verschwunden. Zum Glück würde das selbst bei starker Erwärmung Jahrhunderte bis Jahrtausende dauern. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
 
 </details>
 
@@ -1970,8 +1971,47 @@ Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad. Ü
 
 </details>
 
-### FOLGE 34 – Was wäre, wenn du auf dem Jupiter landen willst?
+### FOLGE 33 – Was wäre, wenn die Antarktis komplett schmilzt?
 **Posten:** Sa 21.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
+
+#antarktis #klima #meeresspiegel #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn du auf dem Jupiter landen willst?
+
+#antarktis #klima #meeresspiegel #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn die Antarktis komplett schmilzt? #shorts
+
+Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
+
+#antarktis #klima #meeresspiegel #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Venedig, Amsterdam, New York, Shanghai: weitgehend verschwunden. Zum Glück würde das selbst bei starker Erwärmung Jahrhunderte bis Jahrtausende dauern. Wie hoch liegt dein Wohnort über dem Meer? Schreib es in die Kommentare.
+
+</details>
+
+### FOLGE 34 – Was wäre, wenn du auf dem Jupiter landen willst?
+**Posten:** Sa 21.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -2006,45 +2046,6 @@ Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem
 <details><summary>Sprechertext</summary>
 
 Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken. Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde. Je tiefer du sinkst, desto heißer und dichter wird es. Irgendwann zerquetscht dich der Druck. Und in Jupiters Großem Roten Fleck tobt ein Sturm, größer als die ganze Erde. Seit Jahrhunderten. Welchen Planeten soll ich als Nächstes besuchen?
-
-</details>
-
-### FOLGE 35 – Shackleton im Eis – Teil 1
-**Posten:** Sa 21.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
-
-#shackleton #antarktis #endurance #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
-
-#shackleton #antarktis #endurance #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Shackleton im Eis – Teil 1 #shorts
-
-1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
-
-#shackleton #antarktis #endurance #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner weiß, wo du bist. Ernest Shackleton will die Antarktis zu Fuß durchqueren. Mit achtundzwanzig Männern auf der Endurance. Doch das Packeis schließt das Schiff ein. Monatelang treibt es fest im Eis. Dann bricht das Eis die Endurance auseinander. Sie sinkt. Achtundzwanzig Männer, drei Rettungsboote und keine Funkverbindung zur Welt. Wie sie überleben, ist eine der unglaublichsten Rettungen der Geschichte. Teil zwei kommt morgen.
 
 </details>
 
@@ -2087,8 +2088,47 @@ Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbebe
 
 </details>
 
-### FOLGE 36 – Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
+### FOLGE 35 – Shackleton im Eis – Teil 1
 **Posten:** So 22.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
+
+#shackleton #antarktis #endurance #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
+
+#shackleton #antarktis #endurance #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Shackleton im Eis – Teil 1 #shorts
+
+1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
+
+#shackleton #antarktis #endurance #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Dein Schiff wird gerade vom Eis zerdrückt. Mitten in der Antarktis. Und keiner weiß, wo du bist. Ernest Shackleton will die Antarktis zu Fuß durchqueren. Mit achtundzwanzig Männern auf der Endurance. Doch das Packeis schließt das Schiff ein. Monatelang treibt es fest im Eis. Dann bricht das Eis die Endurance auseinander. Sie sinkt. Achtundzwanzig Männer, drei Rettungsboote und keine Funkverbindung zur Welt. Wie sie überleben, ist eine der unglaublichsten Rettungen der Geschichte. Teil zwei kommt morgen.
+
+</details>
+
+### FOLGE 36 – Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
+**Posten:** So 22.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -2123,45 +2163,6 @@ Titel: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? #shorts
 <details><summary>Sprechertext</summary>
 
 Ein Sonnensturm wie im Jahr 1859 rast gerade auf die Erde zu. Damals sah man Polarlichter bis in die Karibik. Telegrafen sprühten Funken. Heute fallen zuerst Satelliten aus. GPS spinnt, Flugzeuge werden umgeleitet. Starke Ströme können Transformatoren zerstören. Teile der Welt sind wochenlang ohne Strom. 2012 hat uns ein ähnlich starker Sturm um etwa neun Tage verfehlt. Würdest du dich auf die Polarlichter freuen – oder schnell Vorräte kaufen?
-
-</details>
-
-### FOLGE 37 – Shackleton im Eis – Teil 2
-**Posten:** So 22.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
-
-#shackleton #antarktis #endurance #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn heute ein Signal von Aliens kommt?
-
-#shackleton #antarktis #endurance #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Shackleton im Eis – Teil 2 #shorts
-
-Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
-
-#shackleton #antarktis #endurance #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Ein kleines Rettungsboot, sechs Männer und das wildeste Meer der Welt. Das ist ihre einzige Chance. Shackleton segelt rund 1300 Kilometer nach Südgeorgien, um Hilfe zu holen. Dann müssen sie noch zu Fuß über die Berge der Insel bis zu einer Walfangstation. Erst Monate später holt er die restlichen Männer von der Eisinsel. Und alle leben. 2022 finden Forscher die Endurance. In dreitausend Metern Tiefe, fast perfekt erhalten. Hättest du so eine Reise überlebt?
 
 </details>
 
@@ -2204,8 +2205,47 @@ Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus. Dein Körper s
 
 </details>
 
-### FOLGE 38 – Was wäre, wenn heute ein Signal von Aliens kommt?
+### FOLGE 37 – Shackleton im Eis – Teil 2
 **Posten:** Mo 23.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
+
+#shackleton #antarktis #endurance #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn heute ein Signal von Aliens kommt?
+
+#shackleton #antarktis #endurance #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Shackleton im Eis – Teil 2 #shorts
+
+Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
+
+#shackleton #antarktis #endurance #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Ein kleines Rettungsboot, sechs Männer und das wildeste Meer der Welt. Das ist ihre einzige Chance. Shackleton segelt rund 1300 Kilometer nach Südgeorgien, um Hilfe zu holen. Dann müssen sie noch zu Fuß über die Berge der Insel bis zu einer Walfangstation. Erst Monate später holt er die restlichen Männer von der Eisinsel. Und alle leben. 2022 finden Forscher die Endurance. In dreitausend Metern Tiefe, fast perfekt erhalten. Hättest du so eine Reise überlebt?
+
+</details>
+
+### FOLGE 38 – Was wäre, wenn heute ein Signal von Aliens kommt?
+**Posten:** Mo 23.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -2240,45 +2280,6 @@ Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passier
 <details><summary>Sprechertext</summary>
 
 Ein Radioteleskop hat gerade ein eindeutiges Signal von Außerirdischen empfangen. Zuerst würden Forscher weltweit prüfen, ob es wirklich kein Fehler ist. Das kann Tage dauern. Das Verrückte: Kommt das Signal von einem Stern hundert Lichtjahre entfernt, ist es hundert Jahre alt. Eine Antwort würde wieder hundert Jahre brauchen. Ein Gespräch dauert also Jahrhunderte. Bis heute wurde kein solches Signal sicher bestätigt. Was sollte die Menschheit als Erstes zurückschicken?
-
-</details>
-
-### FOLGE 39 – Was wäre, wenn der Golfstrom stoppt?
-**Posten:** Mo 23.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
-
-#golfstrom #klima #europa #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn ein Gammablitz die Erde trifft?
-
-#golfstrom #klima #europa #zeitzeuge #wissenschaft
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Was wäre, wenn der Golfstrom stoppt? #shorts
-
-Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
-
-#golfstrom #klima #europa #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Der Golfstrom ist gerade stehen geblieben. Europas Heizung ist aus. Diese Strömung bringt warmes Wasser aus der Karibik bis vor Europa. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Fällt sie aus, könnten unsere Winter deutlich kälter und stürmischer werden. Laut Studien hat sich die Strömung bereits abgeschwächt. Ob sie kippt, ist umstritten. Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?
 
 </details>
 
@@ -2321,8 +2322,47 @@ Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abe
 
 </details>
 
-### FOLGE 40 – Was wäre, wenn ein Gammablitz die Erde trifft?
+### FOLGE 39 – Was wäre, wenn der Golfstrom stoppt?
 **Posten:** Di 24.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
+
+#golfstrom #klima #europa #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Was wäre, wenn ein Gammablitz die Erde trifft?
+
+#golfstrom #klima #europa #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Was wäre, wenn der Golfstrom stoppt? #shorts
+
+Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
+
+#golfstrom #klima #europa #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Der Golfstrom ist gerade stehen geblieben. Europas Heizung ist aus. Diese Strömung bringt warmes Wasser aus der Karibik bis vor Europa. Deshalb ist es bei uns viel milder als in Kanada auf gleicher Höhe. Fällt sie aus, könnten unsere Winter deutlich kälter und stürmischer werden. Laut Studien hat sich die Strömung bereits abgeschwächt. Ob sie kippt, ist umstritten. Würdest du lieber Winter wie in Kanada – oder Sommer wie in Spanien?
+
+</details>
+
+### FOLGE 40 – Was wäre, wenn ein Gammablitz die Erde trifft?
+**Posten:** Di 24.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -2357,45 +2397,6 @@ Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 
 <details><summary>Sprechertext</summary>
 
 Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In Sekunden setzt er so viel Energie frei wie unsere Sonne in Milliarden Jahren. Aus der Nähe könnte er einen großen Teil der Ozonschicht zerstören. Ungefilterte UV-Strahlung trifft dann Pflanzen, Plankton und uns. Manche Forscher vermuten: So etwas könnte vor 440 Millionen Jahren ein Massensterben ausgelöst haben. Welches Szenario soll ich als Nächstes machen? Schreib es in die Kommentare.
-
-</details>
-
-### FOLGE 41 – Du bist in Prypjat – Tschernobyl 1986
-**Posten:** Di 24.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
-
-#tschernobyl #prypjat #geschichte #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist auf Apollo 13
-
-#tschernobyl #prypjat #geschichte #zeitzeuge #wissen
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist in Prypjat – Tschernobyl 1986 #shorts
-
-26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
-
-#tschernobyl #prypjat #geschichte #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich. Am Morgen geht das Leben weiter. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: drinnen bleiben, Fenster zu, Lüftung aus. Erst nach anderthalb Tagen kommt die Evakuierung. Über tausend Busse. Mitnehmen nur für drei Tage. Sie kommen nie zurück. Prypjat ist bis heute eine Geisterstadt. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
 
 </details>
 
@@ -2438,8 +2439,47 @@ Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinei
 
 </details>
 
-### FOLGE 42 – Du bist auf Apollo 13
+### FOLGE 41 – Du bist in Prypjat – Tschernobyl 1986
 **Posten:** Mi 25.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
+
+#tschernobyl #prypjat #geschichte #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist auf Apollo 13
+
+#tschernobyl #prypjat #geschichte #zeitzeuge #wissen
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist in Prypjat – Tschernobyl 1986 #shorts
+
+26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
+
+#tschernobyl #prypjat #geschichte #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Drei Kilometer von dir ist gerade ein Reaktor explodiert. Und niemand warnt dich. Am Morgen geht das Leben weiter. Kinder gehen zur Schule. Paare feiern Hochzeit. Regel Nummer eins bei radioaktivem Niederschlag: drinnen bleiben, Fenster zu, Lüftung aus. Erst nach anderthalb Tagen kommt die Evakuierung. Über tausend Busse. Mitnehmen nur für drei Tage. Sie kommen nie zurück. Prypjat ist bis heute eine Geisterstadt. Hättest du die Gefahr erkannt? Schreib es in die Kommentare.
+
+</details>
+
+### FOLGE 42 – Du bist auf Apollo 13
+**Posten:** Mi 25.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -2474,45 +2514,6 @@ Titel: Du bist auf Apollo 13 #shorts
 <details><summary>Sprechertext</summary>
 
 Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer von der Erde entfernt. Houston, wir hatten hier ein Problem. Strom, Wasser und Atemluft werden knapp. Die Mondlandung ist abgesagt. Die drei retten sich in die Mondfähre. Gebaut für zwei Männer und zwei Tage. Sie brauchen vier. Als das Kohlendioxid steigt, bauen sie einen Filter aus Klebeband, Plastiktüten und Pappe. Vier Tage später landen alle drei sicher im Pazifik. Hättest du die Nerven behalten?
-
-</details>
-
-### FOLGE 43 – Das U-Boot B-59 – Teil 1
-**Posten:** Mi 25.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
-
-#kubakrise #kalterkrieg #uboot #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du sitzt in der Mondfähre – Apollo 11
-
-#kubakrise #kalterkrieg #uboot #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Das U-Boot B-59 – Teil 1 #shorts
-
-1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
-
-#kubakrise #kalterkrieg #uboot #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeuern. Oktober 1962. Die Welt steht kurz vor einem Atomkrieg. Die USA blockieren Kuba. Das sowjetische U-Boot B-59 hat seit Tagen keinen Funkkontakt nach Moskau. Amerikanische Schiffe werfen Übungs-Wasserbomben, um es zum Auftauchen zu zwingen. Drinnen ist es fast fünfzig Grad heiß. Der Kapitän glaubt, der Krieg hat begonnen. Für den Abschuss braucht er die Zustimmung von drei Offizieren. Alles hängt jetzt am dritten Mann. Was er sagt, siehst du in Teil zwei.
 
 </details>
 
@@ -2555,8 +2556,47 @@ Du stehst auf dem Mond. Du gehst leicht in die Knie und springst. Die Schwerkraf
 
 </details>
 
-### FOLGE 44 – Du sitzt in der Mondfähre – Apollo 11
+### FOLGE 43 – Das U-Boot B-59 – Teil 1
 **Posten:** Do 26.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
+
+#kubakrise #kalterkrieg #uboot #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du sitzt in der Mondfähre – Apollo 11
+
+#kubakrise #kalterkrieg #uboot #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Das U-Boot B-59 – Teil 1 #shorts
+
+1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
+
+#kubakrise #kalterkrieg #uboot #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du bist in einem U-Boot mit einem Atomtorpedo. Und dein Kapitän will ihn abfeuern. Oktober 1962. Die Welt steht kurz vor einem Atomkrieg. Die USA blockieren Kuba. Das sowjetische U-Boot B-59 hat seit Tagen keinen Funkkontakt nach Moskau. Amerikanische Schiffe werfen Übungs-Wasserbomben, um es zum Auftauchen zu zwingen. Drinnen ist es fast fünfzig Grad heiß. Der Kapitän glaubt, der Krieg hat begonnen. Für den Abschuss braucht er die Zustimmung von drei Offizieren. Alles hängt jetzt am dritten Mann. Was er sagt, siehst du in Teil zwei.
+
+</details>
+
+### FOLGE 44 – Du sitzt in der Mondfähre – Apollo 11
+**Posten:** Do 26.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -2591,45 +2631,6 @@ Titel: Du sitzt in der Mondfähre – Apollo 11 #shorts
 <details><summary>Sprechertext</summary>
 
 Nur noch etwa dreißig Sekunden Treibstoff. Und ihr seid noch nicht gelandet. Zwölf Minuten vorher: Alarm. Zwölf-null-zwei. Der Bordcomputer ist überlastet. Houston entscheidet in Sekunden: weiterfliegen. Dann steuert der Autopilot auf ein Feld voller Felsbrocken. Armstrong übernimmt per Hand. Houston, hier Basis Tranquility. Der Adler ist gelandet. Hättest du die Nerven gehabt, das Ding per Hand zu landen?
-
-</details>
-
-### FOLGE 45 – Der Mann, der Nein sagte – Teil 2
-**Posten:** Do 26.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
-
-#archipow #kubakrise #kalterkrieg #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist in Hamburg – Sturmflut 1962
-
-#archipow #kubakrise #kalterkrieg #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Der Mann, der Nein sagte – Teil 2 #shorts
-
-Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
-
-#archipow #kubakrise #kalterkrieg #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Ein einziges Nein von diesem Mann hat vielleicht die Welt gerettet. Der dritte Offizier heißt Wassili Archipow. Er weigert sich, dem Abschuss zuzustimmen. Er überzeugt den Kapitän, aufzutauchen und auf Befehle aus Moskau zu warten. Einen Tag später endet die Kuba-Krise. Der Atomkrieg bleibt aus. Erst Jahrzehnte später wird bekannt, wie knapp es war. Viele kennen seinen Namen bis heute nicht. Hättest du in diesem Moment Nein gesagt?
 
 </details>
 
@@ -2672,8 +2673,47 @@ Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren s
 
 </details>
 
-### FOLGE 46 – Du bist in Hamburg – Sturmflut 1962
+### FOLGE 45 – Der Mann, der Nein sagte – Teil 2
 **Posten:** Fr 27.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
+
+#archipow #kubakrise #kalterkrieg #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist in Hamburg – Sturmflut 1962
+
+#archipow #kubakrise #kalterkrieg #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Der Mann, der Nein sagte – Teil 2 #shorts
+
+Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
+
+#archipow #kubakrise #kalterkrieg #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Ein einziges Nein von diesem Mann hat vielleicht die Welt gerettet. Der dritte Offizier heißt Wassili Archipow. Er weigert sich, dem Abschuss zuzustimmen. Er überzeugt den Kapitän, aufzutauchen und auf Befehle aus Moskau zu warten. Einen Tag später endet die Kuba-Krise. Der Atomkrieg bleibt aus. Erst Jahrzehnte später wird bekannt, wie knapp es war. Viele kennen seinen Namen bis heute nicht. Hättest du in diesem Moment Nein gesagt?
+
+</details>
+
+### FOLGE 46 – Du bist in Hamburg – Sturmflut 1962
+**Posten:** Fr 27.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -2708,45 +2748,6 @@ Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du e
 <details><summary>Sprechertext</summary>
 
 Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahinter. Ein Orkan drückt das Wasser der Nordsee die Elbe hinauf. Der Pegel steigt auf 5,70 Meter. Die Deiche brechen an über sechzig Stellen. Das Wasser kommt in Minuten. Regel Nummer eins: nach oben. Niemals in den Keller. Helmut Schmidt holt Hubschrauber von Bundeswehr und NATO. Tausende werden von den Dächern gerettet. In Hamburg sterben 315 Menschen. Hättest du es rechtzeitig aufs Dach geschafft?
-
-</details>
-
-### FOLGE 47 – Du bist in Ost-Berlin – 9. November 1989
-**Posten:** Fr 27.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
-
-#mauerfall #berlin #ddr #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist an Bord der Hindenburg
-
-#mauerfall #berlin #ddr #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist in Ost-Berlin – 9. November 1989 #shorts
-
-9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
-
-#mauerfall #berlin #ddr #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Ein paar Stunden vorher verkündet Günter Schabowski im Fernsehen: Privatreisen sind ab sofort möglich. Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zur Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Gegen halb zwölf öffnet der Offizier Harald Jäger den Schlagbaum. Achtundzwanzig Jahre Teilung enden in einer Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
 
 </details>
 
@@ -2789,8 +2790,47 @@ Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört 
 
 </details>
 
-### FOLGE 48 – Du bist an Bord der Hindenburg
+### FOLGE 47 – Du bist in Ost-Berlin – 9. November 1989
 **Posten:** Sa 28.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
+
+#mauerfall #berlin #ddr #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist an Bord der Hindenburg
+
+#mauerfall #berlin #ddr #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist in Ost-Berlin – 9. November 1989 #shorts
+
+9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
+
+#mauerfall #berlin #ddr #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Heute Nacht fällt die Berliner Mauer. Und du stehst direkt davor. Ein paar Stunden vorher verkündet Günter Schabowski im Fernsehen: Privatreisen sind ab sofort möglich. Das tritt nach meiner Kenntnis … ist das sofort, unverzüglich. Tausende strömen zur Bornholmer Straße. Die Grenzsoldaten haben keinen Befehl. Gegen halb zwölf öffnet der Offizier Harald Jäger den Schlagbaum. Achtundzwanzig Jahre Teilung enden in einer Nacht. Wo wärst du in dieser Nacht gewesen? Schreib es in die Kommentare.
+
+</details>
+
+### FOLGE 48 – Du bist an Bord der Hindenburg
+**Posten:** Sa 28.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -2825,45 +2865,6 @@ Titel: Du bist an Bord der Hindenburg #shorts
 <details><summary>Sprechertext</summary>
 
 Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Kurz vorher: Die Hindenburg, über 245 Meter lang, ist mit hochentzündlichem Wasserstoff gefüllt. 19:25 Uhr, kurz vor der Landung, sieht jemand eine Flamme am Heck. Ein Radioreporter schreit live ins Mikrofon: Oh, die Menschheit! Von 97 Menschen an Bord überleben 62. Viele springen kurz vor dem Boden. Wärst du gesprungen?
-
-</details>
-
-### FOLGE 49 – Das Grab des Tutanchamun – Teil 1
-**Posten:** Sa 28.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
-
-#tutanchamun #ägypten #pharao #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist am Krakatau 1883
-
-#tutanchamun #ägypten #pharao #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Das Grab des Tutanchamun – Teil 1 #shorts
-
-1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
-
-#tutanchamun #ägypten #pharao #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet hat. Howard Carter sucht seit Jahren nach Tutanchamun. Das Geld seines Förderers ist fast aufgebraucht. Am vierten November 1922 finden Arbeiter eine Stufe im Sand. Dann eine Treppe. Carter bohrt ein Loch in die versiegelte Tür und hält eine Kerze hinein. Jemand fragt: Können Sie etwas sehen? Carter antwortet: Ja, wunderbare Dinge. Was er dort findet und was danach passiert, siehst du in Teil zwei.
 
 </details>
 
@@ -2906,8 +2907,47 @@ Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie e
 
 </details>
 
-### FOLGE 50 – Du bist am Krakatau 1883
+### FOLGE 49 – Das Grab des Tutanchamun – Teil 1
 **Posten:** So 29.11.2026, 11:00 Uhr
+
+**TikTok:**
+
+```
+1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
+
+#tutanchamun #ägypten #pharao #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist am Krakatau 1883
+
+#tutanchamun #ägypten #pharao #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Das Grab des Tutanchamun – Teil 1 #shorts
+
+1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
+
+#tutanchamun #ägypten #pharao #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du stehst vor einem Grab, das seit über dreitausend Jahren niemand geöffnet hat. Howard Carter sucht seit Jahren nach Tutanchamun. Das Geld seines Förderers ist fast aufgebraucht. Am vierten November 1922 finden Arbeiter eine Stufe im Sand. Dann eine Treppe. Carter bohrt ein Loch in die versiegelte Tür und hält eine Kerze hinein. Jemand fragt: Können Sie etwas sehen? Carter antwortet: Ja, wunderbare Dinge. Was er dort findet und was danach passiert, siehst du in Teil zwei.
+
+</details>
+
+### FOLGE 50 – Du bist am Krakatau 1883
+**Posten:** So 29.11.2026, 18:00 Uhr
 
 **TikTok:**
 
@@ -2942,45 +2982,6 @@ Titel: Du bist am Krakatau 1883 #shorts
 <details><summary>Sprechertext</summary>
 
 Gleich hörst du das lauteste Geräusch der Geschichte. 10:02 Uhr. Krakatau explodiert. Den Knall hört man noch fast fünftausend Kilometer entfernt. Die Druckwelle umrundet die Erde mehrmals. Dann kommen Tsunamis, bis zu dreißig Meter hoch. Über 36.000 Menschen sterben. Regel Nummer eins: Zieht sich das Meer plötzlich zurück, sofort weg vom Strand. Danach glühen die Sonnenuntergänge weltweit rot. Hättest du überlebt?
-
-</details>
-
-### FOLGE 51 – Der Fluch des Pharao – Teil 2
-**Posten:** So 29.11.2026, 18:00 Uhr
-
-**TikTok:**
-
-```
-Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
-
-#tutanchamun #ägypten #fluchdespharao #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du lebst 1349 – Die Pest kommt
-
-#tutanchamun #ägypten #fluchdespharao #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Der Fluch des Pharao – Teil 2 #shorts
-
-Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
-
-#tutanchamun #ägypten #fluchdespharao #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot. Der Fluch des Pharao beginnt. Im Grab liegen über fünftausend Gegenstände. Und die berühmte goldene Totenmaske. Lord Carnarvon stirbt 1923 an einer Blutvergiftung nach einem infizierten Insektenstich. Die Zeitungen schreiben: der Fluch. Doch Howard Carter, der das Grab als Erster betrat, lebte noch sechzehn Jahre. Historiker sind sich einig: Den Fluch haben Journalisten erfunden, um Zeitungen zu verkaufen. Hättest du das Grab trotzdem betreten?
 
 </details>
 
@@ -3023,8 +3024,47 @@ Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich j
 
 </details>
 
-### FOLGE 52 – Du lebst 1349 – Die Pest kommt
+### FOLGE 51 – Der Fluch des Pharao – Teil 2
 **Posten:** Mo 30.11.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
+
+#tutanchamun #ägypten #fluchdespharao #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du lebst 1349 – Die Pest kommt
+
+#tutanchamun #ägypten #fluchdespharao #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Der Fluch des Pharao – Teil 2 #shorts
+
+Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
+
+#tutanchamun #ägypten #fluchdespharao #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Wenige Monate nach der Öffnung des Grabes ist der Geldgeber der Expedition tot. Der Fluch des Pharao beginnt. Im Grab liegen über fünftausend Gegenstände. Und die berühmte goldene Totenmaske. Lord Carnarvon stirbt 1923 an einer Blutvergiftung nach einem infizierten Insektenstich. Die Zeitungen schreiben: der Fluch. Doch Howard Carter, der das Grab als Erster betrat, lebte noch sechzehn Jahre. Historiker sind sich einig: Den Fluch haben Journalisten erfunden, um Zeitungen zu verkaufen. Hättest du das Grab trotzdem betreten?
+
+</details>
+
+### FOLGE 52 – Du lebst 1349 – Die Pest kommt
+**Posten:** Mo 30.11.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -3059,45 +3099,6 @@ Titel: Du lebst 1349 – Die Pest kommt #shorts
 <details><summary>Sprechertext</summary>
 
 Die Pest hat gerade deine Stadt erreicht. Wir schreiben das Jahr 1349. Fieber, Schüttelfrost, dunkle Beulen am Hals. Viele sterben in wenigen Tagen. Niemand kennt die Ursache. Man glaubt an giftige Luft oder eine Strafe Gottes. In vielen Städten werden Jüdinnen und Juden zu Unrecht beschuldigt und ermordet. In wenigen Jahren stirbt etwa ein Drittel der Menschen in Europa. Viele hätten Abstand und Quarantäne gerettet. Hättest du überlebt?
-
-</details>
-
-### FOLGE 53 – Du bist in Lissabon – Erdbeben 1755
-**Posten:** Mo 30.11.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
-
-#lissabon #erdbeben #tsunami #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist in London – Der große Brand 1666
-
-#lissabon #erdbeben #tsunami #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist in Lissabon – Erdbeben 1755 #shorts
-
-Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
-
-#lissabon #erdbeben #tsunami #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Lissabon bebt. Und in vierzig Minuten kommt auch noch der Tsunami. Es ist Allerheiligen. Die Kirchen sind voll, umgestürzte Kerzen setzen alles in Brand. Viele fliehen zum Hafen, auf den offenen Platz am Wasser. Dann zieht sich das Meer zurück. Manche gehen sogar neugierig hin. Um 10:20 Uhr rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Regel Nummer eins: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
 
 </details>
 
@@ -3140,8 +3141,47 @@ Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück. 
 
 </details>
 
-### FOLGE 54 – Du bist in London – Der große Brand 1666
+### FOLGE 53 – Du bist in Lissabon – Erdbeben 1755
 **Posten:** Di 01.12.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
+
+#lissabon #erdbeben #tsunami #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist in London – Der große Brand 1666
+
+#lissabon #erdbeben #tsunami #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist in Lissabon – Erdbeben 1755 #shorts
+
+Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
+
+#lissabon #erdbeben #tsunami #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Lissabon bebt. Und in vierzig Minuten kommt auch noch der Tsunami. Es ist Allerheiligen. Die Kirchen sind voll, umgestürzte Kerzen setzen alles in Brand. Viele fliehen zum Hafen, auf den offenen Platz am Wasser. Dann zieht sich das Meer zurück. Manche gehen sogar neugierig hin. Um 10:20 Uhr rollt der Tsunami in die Stadt. Danach brennt Lissabon fünf Tage lang. Regel Nummer eins: weg vom Wasser, hoch hinauf. Wärst du zum Hafen gelaufen?
+
+</details>
+
+### FOLGE 54 – Du bist in London – Der große Brand 1666
+**Posten:** Di 01.12.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -3176,45 +3216,6 @@ London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tag
 <details><summary>Sprechertext</summary>
 
 London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind aus Holz, dicht an dicht, mit Pech abgedichtet. Der Sommer war extrem trocken. Der Bürgermeister schaut sich das Feuer an und sagt nur: Pah! Das könnte eine Frau auspinkeln. Dann dreht der Wind. Vier Tage lang brennt London. 13.200 Häuser werden zerstört. Hättest du dein Haus gerettet, oder wärst du zur Themse geflohen?
-
-</details>
-
-### FOLGE 55 – Du lebst im Jahr ohne Sommer – 1816
-**Posten:** Di 01.12.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
-
-#jahrohnesommer #1816 #tambora #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du baust die Pyramiden
-
-#jahrohnesommer #1816 #tambora #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du lebst im Jahr ohne Sommer – 1816 #shorts
-
-1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
-
-#jahrohnesommer #1816 #tambora #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Es ist Juni. Und es schneit. Willkommen im Jahr ohne Sommer. Schuld ist ein Vulkan am anderen Ende der Welt: der Tambora in Indonesien. Seine Asche schwächt weltweit das Sonnenlicht. Die Ernte verfault auf den Feldern. Brot wird unbezahlbar. Menschen hungern, Tausende wandern aus. Weil auch Pferde verhungern, erfindet Karl Drais 1817 das Laufrad. So glauben es manche Historiker. Hättest du diesen Winter überstanden?
 
 </details>
 
@@ -3257,8 +3258,47 @@ Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefalle
 
 </details>
 
-### FOLGE 56 – Du baust die Pyramiden
+### FOLGE 55 – Du lebst im Jahr ohne Sommer – 1816
 **Posten:** Mi 02.12.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
+
+#jahrohnesommer #1816 #tambora #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du baust die Pyramiden
+
+#jahrohnesommer #1816 #tambora #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du lebst im Jahr ohne Sommer – 1816 #shorts
+
+1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
+
+#jahrohnesommer #1816 #tambora #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Es ist Juni. Und es schneit. Willkommen im Jahr ohne Sommer. Schuld ist ein Vulkan am anderen Ende der Welt: der Tambora in Indonesien. Seine Asche schwächt weltweit das Sonnenlicht. Die Ernte verfault auf den Feldern. Brot wird unbezahlbar. Menschen hungern, Tausende wandern aus. Weil auch Pferde verhungern, erfindet Karl Drais 1817 das Laufrad. So glauben es manche Historiker. Hättest du diesen Winter überstanden?
+
+</details>
+
+### FOLGE 56 – Du baust die Pyramiden
+**Posten:** Mi 02.12.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -3293,45 +3333,6 @@ Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️
 <details><summary>Sprechertext</summary>
 
 Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave. Archäologen haben die Dörfer der Arbeiter gefunden. Sie bekamen Essen, Bier und medizinische Versorgung. Die Cheops-Pyramide besteht aus rund 2,3 Millionen Steinblöcken. Der Bau dauert etwa zwanzig Jahre. Das wären rechnerisch mehrere Blöcke pro Stunde, Tag und Nacht. Fast viertausend Jahre lang war sie das höchste Bauwerk der Welt. Hättest du mitgebaut?
-
-</details>
-
-### FOLGE 57 – Du bist beim ersten Motorflug 1903
-**Posten:** Mi 02.12.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
-
-#gebrüderwright #luftfahrt #erfindung #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist bei der Erstbesteigung des Everest
-
-#gebrüderwright #luftfahrt #erfindung #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist beim ersten Motorflug 1903 #shorts
-
-12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
-
-#gebrüderwright #luftfahrt #erfindung #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben. Die Brüder Orville und Wilbur Wright sind Fahrradmechaniker. Kein Studium, keine Fabrik. Orville liegt auf dem Flügel. Der Motor knattert. Und das Flugzeug hebt ab. Zwölf Sekunden, rund siebenunddreißig Meter. Kürzer als die Spannweite eines heutigen Jumbojets. Nur sechsundsechzig Jahre später landen Menschen auf dem Mond. Was glaubst du: Welche Erfindung kommt als Nächstes so überraschend?
 
 </details>
 
@@ -3374,8 +3375,47 @@ Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine 
 
 </details>
 
-### FOLGE 58 – Du bist bei der Erstbesteigung des Everest
+### FOLGE 57 – Du bist beim ersten Motorflug 1903
 **Posten:** Do 03.12.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
+
+#gebrüderwright #luftfahrt #erfindung #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Du bist bei der Erstbesteigung des Everest
+
+#gebrüderwright #luftfahrt #erfindung #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist beim ersten Motorflug 1903 #shorts
+
+12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
+
+#gebrüderwright #luftfahrt #erfindung #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+In zwölf Sekunden verändert sich die Welt für immer. Und du stehst daneben. Die Brüder Orville und Wilbur Wright sind Fahrradmechaniker. Kein Studium, keine Fabrik. Orville liegt auf dem Flügel. Der Motor knattert. Und das Flugzeug hebt ab. Zwölf Sekunden, rund siebenunddreißig Meter. Kürzer als die Spannweite eines heutigen Jumbojets. Nur sechsundsechzig Jahre später landen Menschen auf dem Mond. Was glaubst du: Welche Erfindung kommt als Nächstes so überraschend?
+
+</details>
+
+### FOLGE 58 – Du bist bei der Erstbesteigung des Everest
+**Posten:** Do 03.12.2026, 17:00 Uhr
 
 **TikTok:**
 
@@ -3410,45 +3450,6 @@ Titel: Du bist bei der Erstbesteigung des Everest #shorts
 <details><summary>Sprechertext</summary>
 
 Noch nie hat ein Mensch hier oben gestanden. Und du bist gleich als Erster da. Edmund Hillary aus Neuseeland und der Sherpa Tenzing Norgay kämpfen sich die letzten Meter hoch. Kurz vor dem Gipfel versperrt eine steile Felsstufe den Weg. Hillary klettert durch einen schmalen Riss. 11:30 Uhr. Sie stehen auf dem höchsten Punkt der Erde. Sie bleiben nur etwa fünfzehn Minuten. Der Sauerstoff reicht nicht für mehr. Wer war deiner Meinung nach wirklich zuerst oben? Hillary oder Tenzing?
-
-</details>
-
-### FOLGE 59 – Du bist auf der Vasa – 1628
-**Posten:** Do 03.12.2026, 17:00 Uhr
-
-**TikTok:**
-
-```
-Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
-
-#vasa #schweden #schiff #waswärewenn #zeitzeuge
-```
-
-**Instagram Reel:**
-
-```
-Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
-
-Schreib deine Antwort in die Kommentare 👇
-Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Die Entdeckung des Penicillins
-
-#vasa #schweden #schiff #zeitzeuge #geschichte
-```
-
-**YouTube Shorts:**
-
-```
-Titel: Du bist auf der Vasa – 1628 #shorts
-
-Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
-
-#vasa #schweden #schiff #zeitzeuge #shorts
-```
-
-<details><summary>Sprechertext</summary>
-
-Das prächtigste Kriegsschiff Schwedens legt gerade ab. In wenigen Minuten wird es sinken. Die Vasa ist riesig, mit vierundsechzig Kanonen und Hunderten Holzfiguren. Doch sie ist zu hoch und zu schwer gebaut. Eine Windböe bringt sie in Schieflage. Wasser strömt durch die offenen Kanonenluken. Nach rund 1300 Metern sinkt sie im Hafen. 1961 wird das Wrack gehoben, zu großen Teilen original erhalten. Heute steht es in einem Museum. Was ist der peinlichste Fehlstart, den du kennst?
 
 </details>
 
@@ -3491,8 +3492,47 @@ Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade aus
 
 </details>
 
-### FOLGE 60 – Die Entdeckung des Penicillins
+### FOLGE 59 – Du bist auf der Vasa – 1628
 **Posten:** Fr 04.12.2026, 12:00 Uhr
+
+**TikTok:**
+
+```
+Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
+
+#vasa #schweden #schiff #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Die Entdeckung des Penicillins
+
+#vasa #schweden #schiff #zeitzeuge #geschichte
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Du bist auf der Vasa – 1628 #shorts
+
+Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
+
+#vasa #schweden #schiff #zeitzeuge #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Das prächtigste Kriegsschiff Schwedens legt gerade ab. In wenigen Minuten wird es sinken. Die Vasa ist riesig, mit vierundsechzig Kanonen und Hunderten Holzfiguren. Doch sie ist zu hoch und zu schwer gebaut. Eine Windböe bringt sie in Schieflage. Wasser strömt durch die offenen Kanonenluken. Nach rund 1300 Metern sinkt sie im Hafen. 1961 wird das Wrack gehoben, zu großen Teilen original erhalten. Heute steht es in einem Museum. Was ist der peinlichste Fehlstart, den du kennst?
+
+</details>
+
+### FOLGE 60 – Die Entdeckung des Penicillins
+**Posten:** Fr 04.12.2026, 17:00 Uhr
 
 **TikTok:**
 
