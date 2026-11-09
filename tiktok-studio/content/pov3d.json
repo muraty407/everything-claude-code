@@ -1,0 +1,346 @@
+[
+ {
+  "slug": "feuer-pov-teil-1",
+  "title": "POV: Feueralarm – keine Übung · Teil 1",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: FEUER-",
+   "bottom": "ALARM",
+   "tag": "TEIL 1",
+   "kicker": "KEINE ÜBUNG",
+   "scene": "city:day"
+  },
+  "caption": "POV: Mitten in Mathe riecht es nach Rauch – und diesmal ist es keine Übung. Teil 1 🔥",
+  "tags": [
+   "pov",
+   "feueralarm",
+   "schule",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Neun Uhr siebenundvierzig. Mathe. Und plötzlich riecht es nach Rauch.",
+    "scene": "3d",
+    "clock": "09:47",
+    "ctx": "GESAMTSCHULE · RAUM 114 · DI 09:47",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       0.05,
+       0.25
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0,
+      0.05
+     ],
+     "alarm": false,
+     "scared": 0,
+     "look": 0,
+     "dark": false
+    }
+   },
+   {
+    "text": "Leute … riecht ihr das auch?",
+    "scene": "3d",
+    "clock": "09:47",
+    "voice": "second",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       0.35,
+       0.45
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0,
+      0
+     ],
+     "alarm": false,
+     "scared": 0.2,
+     "look": 0.7,
+     "dark": false
+    }
+   },
+   {
+    "text": "Dann geht der Alarm los. Und diesmal sagt niemand, dass es eine Übung ist.",
+    "scene": "3d",
+    "clock": "09:48",
+    "fx": [
+     "shake"
+    ],
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       0.1,
+       -0.55
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.1,
+      0.25
+     ],
+     "alarm": true,
+     "scared": 0.6,
+     "look": -0.9,
+     "dark": false
+    }
+   },
+   {
+    "text": "Feueralarm bei euch? Ich hab's im Radio gehört! Geht's dir gut?",
+    "scene": "3d",
+    "clock": "09:48",
+    "voice": "mama",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       -0.3,
+       -0.35
+      ],
+      "pitch": -0.35
+     },
+     "smoke": [
+      0.25,
+      0.35
+     ],
+     "alarm": true,
+     "scared": 0.8,
+     "look": -0.9,
+     "dark": false
+    },
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Feueralarm bei euch??",
+      "Geht's dir gut? 😰"
+     ],
+     "battery": 64
+    }
+   },
+   {
+    "text": "Alle raus! Taschen liegen lassen! Ruhig bleiben!",
+    "scene": "3d",
+    "clock": "09:48",
+    "voice": "second",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       -0.45,
+       -0.7
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.35,
+      0.45
+     ],
+     "alarm": true,
+     "scared": 1,
+     "look": -0.9,
+     "dark": false
+    }
+   },
+   {
+    "text": "Im Flur siehst du kaum noch etwas. Der Rauch kommt von der Treppe.",
+    "scene": "3d",
+    "clock": "09:49",
+    "ctx": "FLUR · 2. STOCK",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       1.6,
+       0.5
+      ],
+      "yaw": [
+       0.02,
+       -0.04
+      ],
+      "pitch": -0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -4
+      ]
+     },
+     "smoke": [
+      0.35,
+      0.6
+     ],
+     "alarm": true,
+     "run": true,
+     "dark": false
+    }
+   },
+   {
+    "text": "In der Klassengruppe schreibt jemand: Treppe A ist voller Rauch.",
+    "scene": "3d",
+    "clock": "09:49",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       1.6,
+       -3.5
+      ],
+      "yaw": [
+       0.02,
+       -0.04
+      ],
+      "pitch": -0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -1.5
+      ]
+     },
+     "smoke": [
+      0.6,
+      0.7
+     ],
+     "alarm": true,
+     "run": true,
+     "dark": false
+    },
+    "phone": {
+     "from": "Klasse 10b",
+     "msgs": [
+      "Tyler: wo seid ihr??",
+      "Lena: TREPPE A IST VOLL RAUCH"
+     ],
+     "battery": 61
+    }
+   },
+   {
+    "text": "Und genau dahin läuft gerade die halbe Schule.",
+    "scene": "3d",
+    "clock": "09:49",
+    "fx": [
+     "shake"
+    ],
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       1.6,
+       -5
+      ],
+      "yaw": [
+       0.02,
+       -0.04
+      ],
+      "pitch": -0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -3
+      ]
+     },
+     "smoke": [
+      0.7,
+      0.85
+     ],
+     "alarm": true,
+     "run": true,
+     "dark": false
+    }
+   },
+   {
+    "text": "Dann gehen die Lichter aus.",
+    "scene": "3d",
+    "clock": "09:50",
+    "card": {
+     "kicker": "TEIL 2",
+     "title": "MORGEN · 20:30 UHR"
+    },
+    "fx": [
+     "dark"
+    ],
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       1.6,
+       -8
+      ],
+      "yaw": [
+       0.02,
+       -0.04
+      ],
+      "pitch": -0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -0.5
+      ]
+     },
+     "smoke": [
+      0.85,
+      0.9
+     ],
+     "alarm": true,
+     "run": true,
+     "dark": true
+    }
+   }
+  ],
+  "day": 1,
+  "id": "p3d01-feuer-pov-teil-1",
+  "hook": true,
+  "pov": true,
+  "series": "ZEITZEUGE · POV",
+  "badge": "POV · TEIL 1",
+  "next": null,
+  "punch": {
+   "word": "RAUCH.",
+   "match": "rauch"
+  },
+  "date": "2026-11-12",
+  "post_time": "20:30"
+ }
+]

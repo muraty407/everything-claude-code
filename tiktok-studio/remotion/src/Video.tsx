@@ -4,6 +4,7 @@ import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from "remoti
 import { FPS, H, Props, W, clamp, easeOut, hashStr, parseScene, rng } from "./lib";
 import { renderScene, You } from "./scenes";
 import { PhoneBanner, PovArm, povCam } from "./pov";
+import { World3D } from "./three/World";
 import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, TopShade, Vignette, chunkWords } from "./ui";
 
 const OVERLAP = 0.18; // Sekunden Überblendung zwischen Szenen
@@ -100,7 +101,9 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
       <AbsoluteFill style={{ transform: `translate(${sx + panX + (glitch ? 14 : 0)}px, ${sy}px) scale(${push + punch})`, filter: glitch ? "hue-rotate(40deg) saturate(1.6)" : undefined }}>
-        {seg.img ? (
+        {seg.s3d ? (
+          <World3D sc={seg.s3d} t={t} dur={dur} width={W} height={H} shake={fx.includes("shake") ? Math.max(0, 1 - t / 1.2) : 0} />
+        ) : seg.img ? (
           // Plan B: echtes Foto mit Ken-Burns-Schwenk (Richtung wechselt pro Segment)
           <Img src={staticFile(seg.img)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, objectFit: "cover",
             objectPosition: `${i % 2 ? 70 - 40 * clamp(t / Math.max(1, dur)) : 30 + 40 * clamp(t / Math.max(1, dur))}% 50%`,

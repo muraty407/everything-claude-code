@@ -15,7 +15,7 @@ voice: None = Erzähler, "second" = zweite Stimme (Zitate)
 
 
 def S(text, scene, c=None, ctx=None, card=None, stat=None, big=None,
-      quote=None, map=None, fx=None, voice=None, you=False, phone=None):
+      quote=None, map=None, fx=None, voice=None, you=False, phone=None, s3d=None):
     seg = {"text": text, "scene": scene}
     if c is not None:
         seg["clock"] = c
@@ -37,6 +37,8 @@ def S(text, scene, c=None, ctx=None, card=None, stat=None, big=None,
         seg["voice"] = voice
     if you:
         seg["you"] = True
+    if s3d:  # 3D-POV-Szene (remotion/src/three/World.tsx)
+        seg["s3d"] = s3d
     if phone:  # (absender, [nachrichten], akku%, netz-hinweis)
         seg["phone"] = {"from": phone[0], "msgs": list(phone[1])}
         if len(phone) > 2 and phone[2] is not None:

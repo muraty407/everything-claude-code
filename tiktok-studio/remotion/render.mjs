@@ -21,6 +21,7 @@ const browserExecutable =
     }
   })();
 
+const chromiumOptions = { gl: process.env.REMOTION_GL || "swangle" };
 const args = process.argv.slice(2);
 const serveUrl = await bundle({ entryPoint: path.join(here, "src/index.ts"), publicDir: path.join(here, "public") });
 
@@ -29,18 +30,18 @@ if (args[0] === "--still") {
   const comp = args[1];
   for (let i = 2; i < args.length; i += 2) {
     const inputProps = JSON.parse(fs.readFileSync(args[i], "utf8"));
-    const composition = await selectComposition({ serveUrl, id: comp, inputProps, browserExecutable });
-    await renderStill({ composition, serveUrl, output: args[i + 1], inputProps, frame: 0, browserExecutable, imageFormat: "png" });
+    const composition = await selectComposition({ serveUrl, id: comp, inputProps, browserExecutable, chromiumOptions });
+    await renderStill({ composition, serveUrl, output: args[i + 1], inputProps, frame: 0, browserExecutable, imageFormat: "png", chromiumOptions });
     console.log("still", args[i + 1]);
   }
 } else {
   for (let i = 0; i < args.length; i += 2) {
     const propsFile = args[i], out = args[i + 1];
     const inputProps = JSON.parse(fs.readFileSync(propsFile, "utf8"));
-    const composition = await selectComposition({ serveUrl, id: inputProps.__comp || "WasWaereWenn", inputProps, browserExecutable });
+    const composition = await selectComposition({ serveUrl, id: inputProps.__comp || "WasWaereWenn", inputProps, browserExecutable, chromiumOptions });
     const t0 = Date.now();
     await renderMedia({
-      composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable,
+      composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable, chromiumOptions,
       crf: 10, x264Preset: "slow", muted: true, concurrency: 4, imageFormat: "png", // nahezu verlustfreies Zwischenformat
     });
     console.log(`\n${out} fertig in ${((Date.now() - t0) / 1000).toFixed(0)}s`);

@@ -80,6 +80,7 @@ export type Seg = {
   voice?: string;
   you?: boolean;
   phone?: { from: string; msgs: string[]; battery?: number; net?: string }; // POV: Handy-Nachricht
+  s3d?: any; // 3D-POV-Szene (src/three/World.tsx)
   img?: string; // Plan B: echtes Foto (Pfad in public/), ersetzt die Grafik-Szene
 };
 
