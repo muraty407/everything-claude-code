@@ -56,8 +56,8 @@ def main():
                 "date": (start + dt.timedelta(days=d)).isoformat(), "post_time": time,
                 "caption": f"{cap} (Part {part[theme]}) 🔊 “{WORDS[word].strip('!')}”",
                 "hashtags": hashtags,
-                "yt_title": f"{cap.split(' ')[0]} {' '.join(cap.split(' ')[1:]).split('…')[0]} #shorts"[:100],
-                "yt_description": cap + "\n\n" + " ".join(hashtags + ["#shorts"]),
+                "yt_title": (cap.split("…")[0].strip() + " #shorts")[:100],
+                "yt_description": (cap + " " + " ".join(hashtags[:2] + ["#shorts"]))[:100],
                 "ig_caption": cap + "\n\nFollow for a new merge every day 🔁\n\n" + " ".join(hashtags),
                 "pin": pin,
             })

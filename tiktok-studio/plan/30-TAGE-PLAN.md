@@ -128,9 +128,7 @@ Als Nächstes: Was wäre, wenn die Sonne verschwindet?
 ```
 Titel: Du bist in Pompeji #shorts
 
-Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht ergriffen? 🌋
-
-#pompeji #vesuv #geschichte #zeitzeuge #shorts
+Du bist in Pompeji im Jahr 79. Hättest du rechtzeitig die Flucht… #pompeji #vesuv #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -167,9 +165,7 @@ Als Nächstes: Was wäre, wenn du nie mehr schläfst?
 ```
 Titel: Du bist Gladiator im Kolosseum #shorts
 
-Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du überleben? ⚔️
-
-#kolosseum #gladiator #rom #zeitzeuge #shorts
+Du stehst im Kolosseum, 50.000 Menschen schauen zu. Würdest du… #kolosseum #gladiator #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -206,9 +202,7 @@ Als Nächstes: Du bist auf der Titanic
 ```
 Titel: Was wäre, wenn die Sonne verschwindet? #shorts
 
-Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest du überleben? ☀️
-
-#sonne #weltall #physik #zeitzeuge #shorts
+Die Sonne verschwindet – und du merkst es erst 8 Minuten später. Würdest… #sonne #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -245,9 +239,7 @@ Als Nächstes: Flight 19 – Teil 1
 ```
 Titel: Was wäre, wenn du nie mehr schläfst? #shorts
 
-11 Tage ohne Schlaf – so sieht das in deinem Körper aus. 😵 Wie lange hast du schon mal durchgemacht?
-
-#schlaf #körper #wissen #zeitzeuge #shorts
+11 Tage ohne Schlaf – so sieht das in deinem Körper aus. 😵 Wie lange hast… #schlaf #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -284,9 +276,7 @@ Als Nächstes: Was wäre, wenn das Internet 7 Tage ausfällt?
 ```
 Titel: Du bist auf der Titanic #shorts
 
-14. April 1912, 23:40 Uhr. Du bist auf der Titanic. Bekommst du einen Platz im Boot? 🚢
-
-#titanic #geschichte #schiff #zeitzeuge #shorts
+14. April 1912, 23:40 Uhr. Du bist auf der Titanic. Bekommst du einen… #titanic #geschichte #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -323,9 +313,7 @@ Als Nächstes: Flight 19 – Teil 1
 ```
 Titel: Was wäre, wenn dich ein Blitz trifft? #shorts
 
-Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn er dich trifft? ⚡
-
-#blitz #gewitter #wissen #zeitzeuge #shorts
+Ein Blitz ist fünfmal heißer als die Sonnenoberfläche. Was passiert, wenn… #blitz #gewitter #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -362,9 +350,7 @@ Als Nächstes: Was passiert, wenn du in eiskaltes Wasser fällst?
 ```
 Titel: Was wäre, wenn du 3 Tage nichts trinkst? #shorts
 
-Ohne Essen überlebst du Wochen. Ohne Wasser nur ein paar Tage. So reagiert dein Körper 💧
-
-#wasser #körper #wissen #zeitzeuge #shorts
+Ohne Essen überlebst du Wochen. Ohne Wasser nur ein paar Tage. So reagiert… #wasser #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -401,9 +387,7 @@ Als Nächstes: Was wäre, wenn das Internet 7 Tage ausfällt?
 ```
 Titel: Flight 19 – Teil 1 #shorts
 
-5 Militärflugzeuge starten zum Training – und keines kommt zurück. Teil 1 ✈️
-
-#bermudadreieck #flight19 #mystery #zeitzeuge #shorts
+5 Militärflugzeuge starten zum Training – und keines kommt… #bermudadreieck #flight19 #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -440,9 +424,7 @@ Als Nächstes: Was wäre, wenn du 30 Tage nichts isst?
 ```
 Titel: Was passiert, wenn du in eiskaltes Wasser fällst? #shorts
 
-Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊 Kanntest du die 1-10-1-Regel?
-
-#eis #überleben #wissen #zeitzeuge #shorts
+Du brichst durchs Eis. Diese 3 Zahlen entscheiden, ob du überlebst 🧊… #eis #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -479,9 +461,7 @@ Als Nächstes: Flight 19 – Teil 2
 ```
 Titel: Was wäre, wenn das Internet 7 Tage ausfällt? #shorts
 
-Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵
-
-#internet #blackout #deutschland #zeitzeuge #shorts
+Weltweit kein Internet – 7 Tage lang. Wie lange hältst du durch? 📵 #internet #blackout #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -518,9 +498,7 @@ Als Nächstes: Was wäre, wenn du in Treibsand gerätst?
 ```
 Titel: Flight 19 – Teil 2 #shorts
 
-Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️
-
-#bermudadreieck #flight19 #mystery #zeitzeuge #shorts
+Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder… #bermudadreieck #flight19 #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -557,9 +535,7 @@ Als Nächstes: POV: Blackout in Deutschland – Teil 2
 ```
 Titel: POV: Blackout in Deutschland – Teil 1 #shorts
 
-POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu Hause weg. Teil 1 🔦
-
-#blackout #pov #stromausfall #zeitzeuge #shorts
+POV: In ganz Deutschland fällt der Strom aus – und du bist 9 km von zu… #blackout #pov #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -596,9 +572,7 @@ Als Nächstes: Was wäre, wenn du in Treibsand gerätst?
 ```
 Titel: Noch 8 Minuten – dann ist es für immer dunkel. #shorts
 
-Noch 8 Minuten – dann ist es für immer dunkel. ☀️ Hättest du überlebt? ❤️
-
-#sonne #weltall #physik #zeitzeuge #shorts
+Noch 8 Minuten – dann ist es für immer dunkel. ☀️ Hättest du überlebt? ❤️ #sonne #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -635,9 +609,7 @@ Als Nächstes: Was wäre, wenn du ohne Anzug auf dem Mars stehst?
 ```
 Titel: Was wäre, wenn du in Treibsand gerätst? #shorts
 
-Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest du das?
-
-#treibsand #überleben #wissen #zeitzeuge #shorts
+Du steckst im Treibsand – und so kommst du wieder raus. 😬 Wusstest… #treibsand #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -674,9 +646,7 @@ Als Nächstes: POV: Blackout in Deutschland – Teil 3
 ```
 Titel: POV: Blackout in Deutschland – Teil 2 #shorts
 
-Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein Akku stirbt. Was hättest du gemacht? 🔦
-
-#blackout #pov #stromausfall #zeitzeuge #shorts
+Teil 2: Dein Kumpel will, dass du in den Supermarkt mitkommst. Und dein… #blackout #pov #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -713,9 +683,7 @@ Als Nächstes: Was wäre, wenn dich eine Lawine verschüttet?
 ```
 Titel: Was wäre, wenn du ohne Anzug auf dem Mars stehst? #shorts
 
-Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴
-
-#mars #weltall #nasa #zeitzeuge #shorts
+Du stehst ohne Raumanzug auf dem Mars. Du hast 15 Sekunden. 🔴 #mars #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -752,9 +720,7 @@ Als Nächstes: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt?
 ```
 Titel: Was wäre, wenn dich eine Lawine verschüttet? #shorts
 
-Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️
-
-#lawine #ski #berge #zeitzeuge #shorts
+Eine Lawine verschüttet dich. Ab jetzt zählt jede Minute. ❄️ #lawine #ski #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -790,9 +756,7 @@ Folge für jeden Tag ein neues Szenario ⏳
 ```
 Titel: POV: Blackout in Deutschland – Teil 3 #shorts
 
-Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio. Wie lange würdest du durchhalten? 🕯️
-
-#blackout #pov #stromausfall #zeitzeuge #shorts
+Teil 3 (Finale): Du bist zu Hause – aber dann kommt die Durchsage im Radio… #blackout #pov #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -829,9 +793,7 @@ Als Nächstes: Was wäre, wenn du in ein Schwarzes Loch fällst?
 ```
 Titel: Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? #shorts
 
-Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du vorbereitet? 🔦
-
-#blackout #stromausfall #vorsorge #zeitzeuge #shorts
+Ganz Deutschland ohne Strom – 72 Stunden lang. Wärst du… #blackout #stromausfall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -868,9 +830,7 @@ Als Nächstes: Gefangen in der Höhle – Teil 1
 ```
 Titel: Was wäre, wenn du in ein Schwarzes Loch fällst? #shorts
 
-Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es hat mit Spaghetti zu tun. 🕳️
-
-#schwarzesloch #weltall #physik #zeitzeuge #shorts
+Was passiert, wenn du in ein Schwarzes Loch fällst? Spoiler: Es… #schwarzesloch #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -907,9 +867,7 @@ Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
 ```
 Titel: Was wäre, wenn du 30 Tage nichts isst? #shorts
 
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
-
-#fasten #körper #wissen #zeitzeuge #shorts
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert… #fasten #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -946,9 +904,7 @@ Als Nächstes: Was passiert mit dir in der Todeszone am Everest?
 ```
 Titel: Gefangen in der Höhle – Teil 1 #shorts
 
-12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten Höhle. Teil 1 🕳️
-
-#thailand #höhlenrettung #rettung #zeitzeuge #shorts
+12 Jungs und ihr Trainer, eingeschlossen in einer gefluteten… #thailand #höhlenrettung #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -985,9 +941,7 @@ Als Nächstes: Die Höhlenrettung – Teil 2
 ```
 Titel: Was passiert mit dir in der Todeszone am Everest? #shorts
 
-Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der Todeszone am Mount Everest. 🏔️
-
-#everest #berge #körper #zeitzeuge #shorts
+Ab 8.000 Metern stirbt dein Körper – langsam. Das passiert in der… #everest #berge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1024,9 +978,7 @@ Als Nächstes: Was wäre, wenn dich ein Hai angreift?
 ```
 Titel: Was tust du, wenn dein Auto ins Wasser stürzt? #shorts
 
-Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗
-
-#auto #überleben #wissen #zeitzeuge #shorts
+Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3… #auto #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1063,9 +1015,7 @@ Als Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?
 ```
 Titel: Die Höhlenrettung – Teil 2 #shorts
 
-Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️
-
-#thailand #höhlenrettung #rettung #zeitzeuge #shorts
+Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️ #thailand #höhlenrettung #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1102,9 +1052,7 @@ Als Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?
 ```
 Titel: Was wäre, wenn eine Ameise so groß wäre wie du? #shorts
 
-Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜
-
-#ameise #physik #natur #zeitzeuge #shorts
+Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #physik #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1141,9 +1089,7 @@ Als Nächstes: Was passiert, wenn du im Flugzeug die Tür öffnest?
 ```
 Titel: Was wäre, wenn dich ein Hai angreift? #shorts
 
-Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
-
-#hai #meer #überleben #zeitzeuge #shorts
+Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈 #hai #meer #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1180,9 +1126,7 @@ Als Nächstes: Was wäre, wenn du in den Marianengraben tauchst?
 ```
 Titel: Was wäre, wenn die Erde aufhört, sich zu drehen? #shorts
 
-Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍
-
-#erde #physik #wissen #zeitzeuge #shorts
+Die Erde hört plötzlich auf, sich zu drehen – aber du nicht. 🌍 #erde #physik #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1219,9 +1163,7 @@ Als Nächstes: 33 Bergleute unter Tage – Teil 1
 ```
 Titel: Was wäre, wenn du in den Marianengraben tauchst? #shorts
 
-Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊
-
-#marianengraben #ozean #tiefsee #zeitzeuge #shorts
+Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach… #marianengraben #ozean #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1258,9 +1200,7 @@ Als Nächstes: Was passiert, wenn im Aufzug das Seil reißt?
 ```
 Titel: Was passiert, wenn du im Flugzeug die Tür öffnest? #shorts
 
-Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️
-
-#flugzeug #fliegen #wissen #zeitzeuge #shorts
+Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht… #flugzeug #fliegen #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1297,9 +1237,7 @@ Als Nächstes: Was wäre, wenn du auf der Venus landest?
 ```
 Titel: 33 Bergleute unter Tage – Teil 1 #shorts
 
-33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️
-
-#chile #bergleute #rettung #zeitzeuge #shorts
+33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben… #chile #bergleute #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1336,9 +1274,7 @@ Als Nächstes: 33 Bergleute unter Tage – Teil 2
 ```
 Titel: Was wäre, wenn du auf der Venus landest? #shorts
 
-Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥
-
-#venus #weltall #planeten #zeitzeuge #shorts
+Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… #venus #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1375,9 +1311,7 @@ Als Nächstes: Was passiert, wenn du die Luft anhältst?
 ```
 Titel: Was passiert, wenn im Aufzug das Seil reißt? #shorts
 
-Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗
-
-#aufzug #wissen #technik #zeitzeuge #shorts
+Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗 #aufzug #wissen #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1414,9 +1348,7 @@ Als Nächstes: Was wäre, wenn alle Bienen verschwinden?
 ```
 Titel: 33 Bergleute unter Tage – Teil 2 #shorts
 
-Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung. ⛏️
-
-#chile #bergleute #rettung #zeitzeuge #shorts
+Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung… #chile #bergleute #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1453,9 +1385,7 @@ Als Nächstes: Was wäre, wenn der Mond verschwindet?
 ```
 Titel: Was wäre, wenn alle Bienen verschwinden? #shorts
 
-Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest du am meisten vermissen?
-
-#bienen #natur #umwelt #zeitzeuge #shorts
+Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest… #bienen #natur #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1492,9 +1422,7 @@ Als Nächstes: Was passiert in deinem Gehirn, wenn du verliebt bist?
 ```
 Titel: Was passiert, wenn du die Luft anhältst? #shorts
 
-Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁
-
-#körper #rekord #wissen #zeitzeuge #shorts
+Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem… #körper #rekord #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1531,9 +1459,7 @@ Als Nächstes: Was wäre, wenn du so schnell wärst wie das Licht?
 ```
 Titel: Was wäre, wenn der Mond verschwindet? #shorts
 
-Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕
-
-#mond #weltall #gezeiten #zeitzeuge #shorts
+Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕 #mond #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1570,9 +1496,7 @@ Als Nächstes: Was wäre, wenn heute ein Dino-Asteroid einschlägt?
 ```
 Titel: Was wäre, wenn du so schnell wärst wie das Licht? #shorts
 
-Was passiert, wenn du fast so schnell fliegst wie das Licht? Spoiler: Die Zeit wird komisch. ⚡
-
-#lichtgeschwindigkeit #einstein #physik #zeitzeuge #shorts
+Was passiert, wenn du fast so schnell fliegst wie das… #lichtgeschwindigkeit #einstein #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1609,9 +1533,7 @@ Als Nächstes: Was wäre, wenn du im Lotto gewinnst?
 ```
 Titel: Was passiert in deinem Gehirn, wenn du verliebt bist? #shorts
 
-Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️
-
-#liebe #gehirn #wissen #zeitzeuge #shorts
+Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in… #liebe #gehirn #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1648,9 +1570,7 @@ Als Nächstes: Was wäre, wenn alle Menschen verschwinden?
 ```
 Titel: Was wäre, wenn heute ein Dino-Asteroid einschlägt? #shorts
 
-Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️
-
-#asteroid #dinosaurier #weltall #zeitzeuge #shorts
+Ein Asteroid so groß wie der Dino-Killer – heute. Was passiert? ☄️ #asteroid #dinosaurier #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1687,9 +1607,7 @@ Als Nächstes: Du bist Juri Gagarin – Teil 1
 ```
 Titel: Was wäre, wenn alle Menschen verschwinden? #shorts
 
-Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns übrig? 🌿
-
-#erdeohnemenschen #natur #wissen #zeitzeuge #shorts
+Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns… #erdeohnemenschen #natur #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1726,9 +1644,7 @@ Als Nächstes: Was passiert, wenn du zu viel Kaffee trinkst?
 ```
 Titel: Was wäre, wenn du im Lotto gewinnst? #shorts
 
-Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰
-
-#lotto #geld #wissen #zeitzeuge #shorts
+Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu… #lotto #geld #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1765,9 +1681,7 @@ Als Nächstes: Was wäre, wenn der Yellowstone ausbricht?
 ```
 Titel: Du bist Juri Gagarin – Teil 1 #shorts
 
-12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀
-
-#gagarin #weltall #raumfahrt #zeitzeuge #shorts
+12. April 1961: Du bist der erste Mensch im Weltall. Teil 1 🚀 #gagarin #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1804,9 +1718,7 @@ Als Nächstes: Du bist Juri Gagarin – Teil 2
 ```
 Titel: Was wäre, wenn der Yellowstone ausbricht? #shorts
 
-Der Supervulkan unter Yellowstone bricht aus. Was passiert in Deutschland? 🌋
-
-#yellowstone #supervulkan #vulkan #zeitzeuge #shorts
+Der Supervulkan unter Yellowstone bricht aus. Was passiert in… #yellowstone #supervulkan #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1843,9 +1755,7 @@ Als Nächstes: Du bist allein im Wald verloren – was zuerst?
 ```
 Titel: Was passiert, wenn du zu viel Kaffee trinkst? #shorts
 
-Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕
-
-#kaffee #körper #wissen #zeitzeuge #shorts
+Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕ #kaffee #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1882,9 +1792,7 @@ Als Nächstes: Was wäre, wenn in der Eifel ein Vulkan ausbricht?
 ```
 Titel: Du bist Juri Gagarin – Teil 2 #shorts
 
-Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀
-
-#gagarin #weltall #raumfahrt #zeitzeuge #shorts
+Teil 2: Wie Gagarin wirklich landete – und warum es geheim blieb. 🚀 #gagarin #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1921,9 +1829,7 @@ Als Nächstes: Was wäre, wenn die Antarktis komplett schmilzt?
 ```
 Titel: Was wäre, wenn in der Eifel ein Vulkan ausbricht? #shorts
 
-Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋
-
-#eifel #vulkan #deutschland #zeitzeuge #shorts
+Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋 #eifel #vulkan #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1960,9 +1866,7 @@ Als Nächstes: Was tust du, wenn die Erde unter dir bebt?
 ```
 Titel: Du bist allein im Wald verloren – was zuerst? #shorts
 
-Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲
-
-#überleben #wald #wissen #zeitzeuge #shorts
+Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein… #überleben #wald #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -1999,9 +1903,7 @@ Als Nächstes: Was wäre, wenn du auf dem Jupiter landen willst?
 ```
 Titel: Was wäre, wenn die Antarktis komplett schmilzt? #shorts
 
-Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in Deutschland? 🧊
-
-#antarktis #klima #meeresspiegel #zeitzeuge #shorts
+Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in… #antarktis #klima #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2038,9 +1940,7 @@ Als Nächstes: Shackleton im Eis – Teil 1
 ```
 Titel: Was wäre, wenn du auf dem Jupiter landen willst? #shorts
 
-Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste Problem. 🪐
-
-#jupiter #weltall #planeten #zeitzeuge #shorts
+Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste… #jupiter #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2077,9 +1977,7 @@ Als Nächstes: Was passiert mit dir bei 50 Grad?
 ```
 Titel: Was tust du, wenn die Erde unter dir bebt? #shorts
 
-Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍
-
-#erdbeben #überleben #wissen #zeitzeuge #shorts
+Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du… #erdbeben #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2116,9 +2014,7 @@ Als Nächstes: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?
 ```
 Titel: Shackleton im Eis – Teil 1 #shorts
 
-1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der Antarktis. Teil 1 🧊
-
-#shackleton #antarktis #endurance #zeitzeuge #shorts
+1915: Dein Schiff wird vom Packeis zerdrückt – mitten in der… #shackleton #antarktis #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2155,9 +2051,7 @@ Als Nächstes: Shackleton im Eis – Teil 2
 ```
 Titel: Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? #shorts
 
-1859 sprühten Telegrafen Funken. Was würde ein solcher Sonnensturm heute anrichten? ☀️⚡
-
-#sonnensturm #polarlichter #weltall #zeitzeuge #shorts
+1859 sprühten Telegrafen Funken. Was würde ein solcher… #sonnensturm #polarlichter #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2194,9 +2088,7 @@ Als Nächstes: Was wäre, wenn du 30 Tage nur Fast Food isst?
 ```
 Titel: Was passiert mit dir bei 50 Grad? #shorts
 
-50 Grad im Schatten. So lange hält dein Körper das aus 🥵
-
-#hitze #körper #wissen #zeitzeuge #shorts
+50 Grad im Schatten. So lange hält dein Körper das aus 🥵 #hitze #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2233,9 +2125,7 @@ Als Nächstes: Was wäre, wenn heute ein Signal von Aliens kommt?
 ```
 Titel: Shackleton im Eis – Teil 2 #shorts
 
-Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste Meer der Welt. 🧊
-
-#shackleton #antarktis #endurance #zeitzeuge #shorts
+Teil 2: 1300 Kilometer in einem kleinen Boot durch das wildeste… #shackleton #antarktis #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2272,9 +2162,7 @@ Als Nächstes: Was wäre, wenn der Golfstrom stoppt?
 ```
 Titel: Was wäre, wenn heute ein Signal von Aliens kommt? #shorts
 
-Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was passiert dann? 👽
-
-#aliens #weltall #seti #zeitzeuge #shorts
+Ein Radioteleskop empfängt heute ein eindeutiges Signal von Aliens. Was… #aliens #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2311,9 +2199,7 @@ Als Nächstes: Was wäre, wenn du durch die Erde fällst?
 ```
 Titel: Was wäre, wenn du 30 Tage nur Fast Food isst? #shorts
 
-Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔
-
-#fastfood #körper #experiment #zeitzeuge #shorts
+Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔 #fastfood #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2350,9 +2236,7 @@ Als Nächstes: Was wäre, wenn ein Gammablitz die Erde trifft?
 ```
 Titel: Was wäre, wenn der Golfstrom stoppt? #shorts
 
-Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️
-
-#golfstrom #klima #europa #zeitzeuge #shorts
+Der Golfstrom ist Europas Heizung. Was passiert, wenn er ausfällt? 🌊❄️ #golfstrom #klima #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2389,9 +2273,7 @@ Als Nächstes: Du bist in Prypjat – Tschernobyl 1986
 ```
 Titel: Was wäre, wenn ein Gammablitz die Erde trifft? #shorts
 
-Die stärkste Explosion im Universum trifft die Erde. Finale der 30-Tage-Reihe! 💥
-
-#gammablitz #weltall #physik #zeitzeuge #shorts
+Die stärkste Explosion im Universum trifft die Erde. Finale der… #gammablitz #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2428,9 +2310,7 @@ Als Nächstes: Was wäre, wenn du auf dem Mond springst?
 ```
 Titel: Was wäre, wenn du durch die Erde fällst? #shorts
 
-Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍
-
-#physik #erde #wissen #zeitzeuge #shorts
+Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und… #physik #erde #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2467,9 +2347,7 @@ Als Nächstes: Du bist auf Apollo 13
 ```
 Titel: Du bist in Prypjat – Tschernobyl 1986 #shorts
 
-26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein Reaktor – und niemand sagt dir etwas. ☢️
-
-#tschernobyl #prypjat #geschichte #zeitzeuge #shorts
+26. April 1986, 01:23 Uhr. Drei Kilometer von dir explodiert ein… #tschernobyl #prypjat #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2506,9 +2384,7 @@ Als Nächstes: Das U-Boot B-59 – Teil 1
 ```
 Titel: Du bist auf Apollo 13 #shorts
 
-330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist auf Apollo 13. 🚀
-
-#apollo13 #nasa #weltall #zeitzeuge #shorts
+330.000 km von der Erde entfernt explodiert dein Sauerstofftank. Du bist… #apollo13 #nasa #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2545,9 +2421,7 @@ Als Nächstes: Was wäre, wenn du bei minus 60 Grad lebst?
 ```
 Titel: Was wäre, wenn du auf dem Mond springst? #shorts
 
-Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕
-
-#mond #weltall #physik #zeitzeuge #shorts
+Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕 #mond #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2584,9 +2458,7 @@ Als Nächstes: Du sitzt in der Mondfähre – Apollo 11
 ```
 Titel: Das U-Boot B-59 – Teil 1 #shorts
 
-1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein Befehl bis zum Dritten Weltkrieg. Teil 1
-
-#kubakrise #kalterkrieg #uboot #zeitzeuge #shorts
+1962: Ein sowjetisches U-Boot, ein Atomtorpedo und nur noch ein… #kubakrise #kalterkrieg #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2623,9 +2495,7 @@ Als Nächstes: Der Mann, der Nein sagte – Teil 2
 ```
 Titel: Du sitzt in der Mondfähre – Apollo 11 #shorts
 
-20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff. Du sitzt in der Mondfähre. 🌕
-
-#mondlandung #apollo11 #nasa #zeitzeuge #shorts
+20. Juli 1969: Alarm, Felsbrocken und nur noch Sekunden Treibstoff… #mondlandung #apollo11 #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2662,9 +2532,7 @@ Als Nächstes: Jemand bricht vor dir zusammen – was tust du?
 ```
 Titel: Was wäre, wenn du bei minus 60 Grad lebst? #shorts
 
-Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶
-
-#kälte #sibirien #wissen #zeitzeuge #shorts
+Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen… #kälte #sibirien #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2701,9 +2569,7 @@ Als Nächstes: Du bist in Hamburg – Sturmflut 1962
 ```
 Titel: Der Mann, der Nein sagte – Teil 2 #shorts
 
-Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg. Kennst du seinen Namen?
-
-#archipow #kubakrise #kalterkrieg #zeitzeuge #shorts
+Teil 2: Ein Mann sagt Nein – und verhindert vielleicht den Atomkrieg… #archipow #kubakrise #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2740,9 +2606,7 @@ Als Nächstes: Du bist in Ost-Berlin – 9. November 1989
 ```
 Titel: Du bist in Hamburg – Sturmflut 1962 #shorts
 
-Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht. Schaffst du es aufs Dach? 🌊
-
-#hamburg #sturmflut #geschichte #zeitzeuge #shorts
+Hamburg, 16. Februar 1962. Die Deiche brechen mitten in der Nacht… #hamburg #sturmflut #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2779,9 +2643,7 @@ Als Nächstes: Was passiert, wenn du aus 27 Metern ins Wasser springst?
 ```
 Titel: Jemand bricht vor dir zusammen – was tust du? #shorts
 
-Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹
-
-#erstehilfe #notfall #wissen #zeitzeuge #shorts
+Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte… #erstehilfe #notfall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2818,9 +2680,7 @@ Als Nächstes: Du bist an Bord der Hindenburg
 ```
 Titel: Du bist in Ost-Berlin – 9. November 1989 #shorts
 
-9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die Mauer. Wo wärst du gewesen? 🧱
-
-#mauerfall #berlin #ddr #zeitzeuge #shorts
+9. November 1989: Du bist in Ost-Berlin – und heute Nacht fällt die… #mauerfall #berlin #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2857,9 +2717,7 @@ Als Nächstes: Das Grab des Tutanchamun – Teil 1
 ```
 Titel: Du bist an Bord der Hindenburg #shorts
 
-6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34 Sekunden. 🎈🔥
-
-#hindenburg #luftschiff #zeppelin #zeitzeuge #shorts
+6. Mai 1937: Du bist an Bord der Hindenburg – und hast 34… #hindenburg #luftschiff #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2896,9 +2754,7 @@ Als Nächstes: Was macht ein Jahr im Weltall mit dir?
 ```
 Titel: Was passiert, wenn du aus 27 Metern ins Wasser springst? #shorts
 
-27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊
-
-#klippenspringen #physik #wissen #zeitzeuge #shorts
+27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton… #klippenspringen #physik #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2935,9 +2791,7 @@ Als Nächstes: Du bist am Krakatau 1883
 ```
 Titel: Das Grab des Tutanchamun – Teil 1 #shorts
 
-1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab des Tutanchamun. Teil 1 🏺
-
-#tutanchamun #ägypten #pharao #zeitzeuge #shorts
+1922: Du öffnest als erster Mensch seit über 3000 Jahren das Grab… #tutanchamun #ägypten #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -2974,9 +2828,7 @@ Als Nächstes: Der Fluch des Pharao – Teil 2
 ```
 Titel: Du bist am Krakatau 1883 #shorts
 
-27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋
-
-#krakatau #vulkan #tsunami #zeitzeuge #shorts
+27. August 1883: Du hörst das lauteste Geräusch der Geschichte. 🌋 #krakatau #vulkan #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3013,9 +2865,7 @@ Als Nächstes: Das Meer zieht sich zurück – was jetzt?
 ```
 Titel: Was macht ein Jahr im Weltall mit dir? #shorts
 
-Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀
-
-#weltall #körper #wissen #zeitzeuge #shorts
+Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf… #weltall #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3052,9 +2902,7 @@ Als Nächstes: Du lebst 1349 – Die Pest kommt
 ```
 Titel: Der Fluch des Pharao – Teil 2 #shorts
 
-Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich dahinter? 🏺
-
-#tutanchamun #ägypten #fluchdespharao #zeitzeuge #shorts
+Teil 2: Gold, Schätze – und der berühmte Fluch. Was steckt wirklich… #tutanchamun #ägypten #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3091,9 +2939,7 @@ Als Nächstes: Du bist in Lissabon – Erdbeben 1755
 ```
 Titel: Du lebst 1349 – Die Pest kommt #shorts
 
-1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige Wochen später ist sie in deiner Stadt. 🐀
-
-#pest #mittelalter #geschichte #zeitzeuge #shorts
+1349: Händler bringen Nachrichten von einer neuen Krankheit. Wenige… #pest #mittelalter #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3130,9 +2976,7 @@ Als Nächstes: 208 Sekunden: Notlandung auf dem Fluss
 ```
 Titel: Das Meer zieht sich zurück – was jetzt? #shorts
 
-Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊
-
-#tsunami #überleben #wahregeschichte #zeitzeuge #shorts
+Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges… #tsunami #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3169,9 +3013,7 @@ Als Nächstes: Du bist in London – Der große Brand 1666
 ```
 Titel: Du bist in Lissabon – Erdbeben 1755 #shorts
 
-Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du zum Hafen gelaufen? 🌊
-
-#lissabon #erdbeben #tsunami #zeitzeuge #shorts
+Allerheiligen 1755: Erdbeben, Feuer und Tsunami an einem Tag. Wärst du… #lissabon #erdbeben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3208,9 +3050,7 @@ Als Nächstes: Du lebst im Jahr ohne Sommer – 1816
 ```
 Titel: Du bist in London – Der große Brand 1666 #shorts
 
-London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier Tage später ist die Stadt weg. 🔥
-
-#london #feuer #geschichte #zeitzeuge #shorts
+London, 2. September 1666. Ein kleines Feuer in einer Bäckerei – und vier… #london #feuer #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3247,9 +3087,7 @@ Als Nächstes: 9 Tage allein in der Sahara
 ```
 Titel: 208 Sekunden: Notlandung auf dem Fluss #shorts
 
-Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️
-
-#flugzeug #wahregeschichte #newyork #zeitzeuge #shorts
+Beide Triebwerke fallen aus – über New York. Der Pilot hat 208… #flugzeug #wahregeschichte #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3286,9 +3124,7 @@ Als Nächstes: Du baust die Pyramiden
 ```
 Titel: Du lebst im Jahr ohne Sommer – 1816 #shorts
 
-1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf der anderen Seite der Welt. ❄️
-
-#jahrohnesommer #1816 #tambora #zeitzeuge #shorts
+1816 gab es in Deutschland keinen Sommer. Schuld war ein Vulkan auf… #jahrohnesommer #1816 #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3325,9 +3161,7 @@ Als Nächstes: Du bist beim ersten Motorflug 1903
 ```
 Titel: Du baust die Pyramiden #shorts
 
-Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️
-
-#pyramiden #ägypten #cheops #zeitzeuge #shorts
+Du arbeitest an der Cheops-Pyramide – und nein, du bist kein Sklave. 🏜️ #pyramiden #ägypten #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3364,9 +3198,7 @@ Als Nächstes: Sie fiel 10.000 Meter – und überlebte
 ```
 Titel: 9 Tage allein in der Sahara #shorts
 
-Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️
-
-#wüste #überleben #wahregeschichte #zeitzeuge #shorts
+Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan… #wüste #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3403,9 +3235,7 @@ Als Nächstes: Du bist bei der Erstbesteigung des Everest
 ```
 Titel: Du bist beim ersten Motorflug 1903 #shorts
 
-12 Sekunden, die die Welt verändert haben. Du bist dabei beim ersten Motorflug. ✈️
-
-#gebrüderwright #luftfahrt #erfindung #zeitzeuge #shorts
+12 Sekunden, die die Welt verändert haben. Du bist dabei beim… #gebrüderwright #luftfahrt #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3442,9 +3272,7 @@ Als Nächstes: Du bist auf der Vasa – 1628
 ```
 Titel: Du bist bei der Erstbesteigung des Everest #shorts
 
-29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten Punkt der Erde. 🏔️
-
-#everest #berge #hillary #zeitzeuge #shorts
+29. Mai 1953, 11:30 Uhr: Zwei Menschen stehen als Erste auf dem höchsten… #everest #berge #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3481,9 +3309,7 @@ Als Nächstes: Zwei Monate in einer Höhle ohne Uhr
 ```
 Titel: Sie fiel 10.000 Meter – und überlebte #shorts
 
-Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳
-
-#rekord #wahregeschichte #flugzeug #zeitzeuge #shorts
+Eine Stewardess fällt über 10 Kilometer in die Tiefe – und… #rekord #wahregeschichte #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3520,9 +3346,7 @@ Als Nächstes: Die Entdeckung des Penicillins
 ```
 Titel: Du bist auf der Vasa – 1628 #shorts
 
-Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist an Bord. ⚓
-
-#vasa #schweden #schiff #zeitzeuge #shorts
+Das prächtigste Kriegsschiff Schwedens sinkt nach nur 1300 Metern. Du bist… #vasa #schweden #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3558,9 +3382,7 @@ Folge für jeden Tag ein neues Szenario ⏳
 ```
 Titel: Die Entdeckung des Penicillins #shorts
 
-Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet Millionen Leben. 🧫
-
-#penicillin #medizin #fleming #zeitzeuge #shorts
+Ein Forscher vergisst vor dem Urlaub, aufzuräumen – und rettet… #penicillin #medizin #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3597,9 +3419,7 @@ Als Nächstes: Er sprang aus 39 Kilometern Höhe
 ```
 Titel: Zwei Monate in einer Höhle ohne Uhr #shorts
 
-Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne Sonne. Am Ende lag er weit daneben 🕳️
-
-#experiment #wahregeschichte #zeit #zeitzeuge #shorts
+Ein Forscher lebt 2 Monate in einer Höhle – ohne Uhr, ohne… #experiment #wahregeschichte #shorts
 ```
 
 <details><summary>Sprechertext</summary>
@@ -3635,9 +3455,7 @@ Folge für jeden Tag ein neues Szenario ⏳
 ```
 Titel: Er sprang aus 39 Kilometern Höhe #shorts
 
-Er springt aus dem Rand des Weltalls – und durchbricht ohne Flugzeug die Schallmauer 🪂
-
-#rekord #wahregeschichte #weltall #zeitzeuge #shorts
+Er springt aus dem Rand des Weltalls – und durchbricht ohne… #rekord #wahregeschichte #shorts
 ```
 
 <details><summary>Sprechertext</summary>

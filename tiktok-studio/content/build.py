@@ -37,6 +37,14 @@ def words(seg_list):
     return sum(len(s["text"].split()) for s in seg_list)
 
 
+def fit100(text, tail):
+    """YouTube-Texte immer ≤ 100 Zeichen (Wunsch des Nutzers): Text kürzen, Hashtags hinten behalten."""
+    room = 100 - len(tail) - 1
+    if len(text) > room:
+        text = text[: room - 1].rsplit(" ", 1)[0].rstrip(" ,.–-") + "…"
+    return f"{text} {tail}"
+
+
 def enrich(d, *, day, id_, date, post_time, series, nxt, badge=None, brand=None, next_label=None):
     d = dict(d)
     d.update(day=day, id=id_, date=date.isoformat(), weekday=WOCHENTAGE[date.weekday()],
@@ -62,8 +70,8 @@ def enrich(d, *, day, id_, date, post_time, series, nxt, badge=None, brand=None,
     d["ig_caption"] = (base + "\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳"
                        + ("\nAls Nächstes: " + nxt if nxt else "") + "\n\n" + " ".join(ig_tags))
     # YouTube Shorts: Titel ≤ 100 Zeichen, Beschreibung mit #shorts
-    d["yt_title"] = (d["title"] + " #shorts")[:100]
-    d["yt_description"] = base + "\n\n" + " ".join(topic + ["#zeitzeuge", "#shorts"])
+    d["yt_title"] = fit100(d["title"], "#shorts")
+    d["yt_description"] = fit100(base, " ".join(topic[:2] + ["#shorts"]))
     return d
 
 
@@ -136,8 +144,8 @@ def main():
                    badge="NEU · v3")
         r["caption"] = cap + " " + " ".join(tags)
         r["hashtags"] = tags
-        r["yt_title"] = (cap.split(" ☀️")[0] + " #shorts")[:100]
-        r["yt_description"] = cap + "\n\n" + " ".join(tags[:3] + ["#zeitzeuge", "#shorts"])
+        r["yt_title"] = fit100(cap.split(" ☀️")[0], "#shorts")
+        r["yt_description"] = fit100(cap, " ".join(tags[:2] + ["#shorts"]))
         times = slot_times(dt.date.fromisoformat(date_s))
         next(times) if time_s in ("17:00", "18:00") else None
         nt = next(times)  # Slot des Remakes
