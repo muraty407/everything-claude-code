@@ -154,7 +154,11 @@ const HeadCam: React.FC<{ pos: V3; yaw: number; pitch: number; t: number; walk: 
 };
 
 export type Scene3D = {
-  room: "classroom" | "hallway" | "stairs";
+  room: "classroom" | "hallway" | "stairs" | "bathroom" | "yard";
+  torch?: boolean; // Handy-Taschenlampe
+  ladder?: boolean; // Drehleiter am Fenster + Blaulicht
+  door?: string; // Schild an der Tür am Flurende
+  count?: number; // Schulhof: Anzahl Schüler in der Reihe
   smoke?: [number, number]; // Rauchmenge von → bis (0..1)
   alarm?: boolean;
   dark?: boolean;
@@ -225,6 +229,15 @@ const Classroom: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }
           </group>
         );
       })}
+      {sc.ladder && (
+        <group position={[-5.25, -1.0, -1.5]}>
+          <TBox p={[0, 1.6, 0]} s={[0.12, 4.4, 0.12]} c="#c0c0c0" r={[0, 0, -0.35]} />
+          <TBox p={[0, 1.6, 0.7]} s={[0.12, 4.4, 0.12]} c="#c0c0c0" r={[0, 0, -0.35]} />
+          {Array.from({ length: 9 }, (_, i) => <TBox key={i} p={[-0.62 + i * 0.16, -0.1 + i * 0.44, 0.35]} s={[0.06, 0.06, 0.7]} c="#d0d0d0" line={0.01} />)}
+          <Person p={[0.55, 1.25, 1.0]} ry={-Math.PI / 2} seed={31} t={t} />
+        </group>
+      )}
+      {sc.ladder && <pointLight position={[-6.5, 1.5, -1.5]} color="#3060ff" intensity={Math.sin(t * 7) > 0 ? 25 : 0} distance={10} />}
       {/* Lehrerin an der Tafel */}
       <Person p={[-1.6, 0, -5.1]} ry={Math.PI + (sc.scared ? -0.9 : 0.2)} seed={11} t={t} scared={sc.scared ?? 0} />
       <Smoke t={t} amount={lerp(sc.smoke?.[0] ?? 0, sc.smoke?.[1] ?? 0, k)} area={[2.5, 4.9, -5.5, -3.5]} y={2.7} seed={4} />
@@ -258,6 +271,7 @@ const Hallway: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) 
       {/* Notausgang am Ende */}
       <TBox p={[0, 1.1, -len + 0.08]} s={[1.6, 2.2, 0.06]} c="#6e7b86" />
       <TBox p={[0, 2.5, -len + 0.1]} s={[0.9, 0.3, 0.05]} c="#2ecc71" e="#2ecc71" />
+      {sc.door && <TBox p={[0, 2.0, -len + 0.12]} s={[1.0, 0.25, 0.04]} c="#f1c40f" e="#8a6d00" />}
       {/* Alarmleuchten */}
       {sc.alarm && Array.from({ length: 5 }, (_, i) => (
         <TBox key={`al${i}`} p={[1.78, 2.6, -4 - i * 6]} s={[0.08, 0.2, 0.2]} c="#ff2a2a" e={Math.sin(t * 9 + i) > 0 ? "#ff2a2a" : "#550000"} />
@@ -267,6 +281,69 @@ const Hallway: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) 
         <Person key={`r${i}`} p={[-0.9 + (i % 3) * 0.8, 0, -5 - i * 1.6 - t * 2.4]} ry={Math.PI} seed={20 + i} t={t} run={1} />
       ))}
       <Smoke t={t} amount={lerp(sc.smoke?.[0] ?? 0, sc.smoke?.[1] ?? 0, k)} area={[-1.6, 1.6, -len + 2, -4]} y={2.6} seed={9} />
+    </group>
+  );
+};
+
+const Bathroom: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) => (
+  <group>
+    <TBox p={[0, -0.05, -3]} s={[5, 0.1, 8]} c="#cfd8dc" noLine />
+    {Array.from({ length: 9 }, (_, i) => <TBox key={`t${i}`} p={[-2.5 + i * 0.6, 0.002, -3]} s={[0.02, 0.005, 8]} c="#9fb0b8" noLine />)}
+    <TBox p={[0, 3.05, -3]} s={[5, 0.1, 8]} c="#e8eef0" noLine />
+    <TBox p={[2.55, 1.5, -3]} s={[0.1, 3.2, 8]} c="#b8dce8" />
+    <TBox p={[-2.55, 1.5, -3]} s={[0.1, 3.2, 8]} c="#b8dce8" />
+    <TBox p={[0, 1.5, -7]} s={[5, 3.2, 0.1]} c="#b8dce8" />
+    {/* Kabinen rechts */}
+    {[0, 1, 2].map((i) => (
+      <group key={`k${i}`}>
+        <TBox p={[1.6, 1.0, -2 - i * 1.5]} s={[0.05, 2.0, 1.4]} c="#e67e22" r={[0, i === 1 ? 0.6 : 0, 0]} />
+        <TBox p={[2.0, 1.0, -1.3 - i * 1.5]} s={[1.0, 2.0, 0.05]} c="#d35400" />
+      </group>
+    ))}
+    {/* Waschbecken + Spiegel links */}
+    {[0, 1, 2].map((i) => (
+      <group key={`w${i}`}>
+        <TBox p={[-2.2, 0.85, -2 - i * 1.4]} s={[0.6, 0.15, 0.7]} c="#ffffff" />
+        <TBox p={[-2.48, 1.6, -2 - i * 1.4]} s={[0.04, 0.8, 0.6]} c="#d6eaf8" e="#203040" />
+      </group>
+    ))}
+    {/* Lena sitzt am Boden unter den Waschbecken */}
+    <Person p={[-1.9, -0.4, -4.6]} ry={-Math.PI / 2 + 0.4} seed={8} seated t={t} scared={1} look={0.3} />
+    <Smoke t={t} amount={lerp(sc.smoke?.[0] ?? 0, sc.smoke?.[1] ?? 0, k)} area={[-2, 2, -6.5, -1]} y={2.7} seed={13} />
+  </group>
+);
+
+const Yard: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) => {
+  const n = sc.count ?? 28;
+  return (
+    <group>
+      <TBox p={[0, -0.05, -15]} s={[60, 0.1, 60]} c="#8d9196" noLine />
+      {Array.from({ length: 6 }, (_, i) => <TBox key={`m${i}`} p={[-10 + i * 4, 0.003, -8]} s={[0.12, 0.005, 6]} c="#f5f5f5" noLine />)}
+      {/* Schulgebäude mit Rauch */}
+      <TBox p={[0, 4, -26]} s={[34, 8, 6]} c="#d9b38c" />
+      {Array.from({ length: 2 }, (_, r) => Array.from({ length: 10 }, (_, i) => (
+        <TBox key={`sw${r}${i}`} p={[-15 + i * 3.3, 2.2 + r * 3, -22.9]} s={[1.8, 1.6, 0.05]} c="#9fd3f5" e={r === 1 && i === 4 ? "#ff6a00" : "#2a4a66"} />
+      )))}
+      <Smoke t={t} amount={0.9} area={[-4, 4, -27, -23]} y={9} seed={21} />
+      {/* Feuerwehr */}
+      {[-9, 7].map((x, j) => (
+        <group key={`fw${j}`} position={[x, 0, -16]} rotation={[0, j ? -0.3 : 0.3, 0]}>
+          <TBox p={[0, 1.3, 0]} s={[2.6, 2.2, 7]} c="#c0392b" />
+          <TBox p={[0, 1.4, 3.6]} s={[2.5, 1.8, 0.1]} c="#9fd3f5" e="#203040" />
+          <TBox p={[0, 2.6, -1]} s={[0.5, 0.3, 5]} c="#bdc3c7" />
+          <TBox p={[-0.8, 2.5, 3.3]} s={[0.4, 0.2, 0.3]} c="#3060ff" e={Math.sin(t * 8 + j) > 0 ? "#3060ff" : "#0a1030"} />
+          <TBox p={[0.8, 2.5, 3.3]} s={[0.4, 0.2, 0.3]} c="#3060ff" e={Math.sin(t * 8 + j) > 0 ? "#0a1030" : "#3060ff"} />
+          {[[-1.2, 2.5], [1.2, 2.5], [-1.2, -2.5], [1.2, -2.5]].map(([wx, wz], i) => (
+            <mesh key={i} position={[wx, 0.45, wz]} rotation={[0, 0, Math.PI / 2]} material={toon("#222")}><cylinderGeometry args={[0.45, 0.45, 0.3, 16]} /></mesh>
+          ))}
+        </group>
+      ))}
+      {/* Schüler in Reihen am Sammelplatz */}
+      {Array.from({ length: n }, (_, i) => (
+        <Person key={`s${i}`} p={[-5.5 + (i % 10) * 1.2, 0, -6 - Math.floor(i / 10) * 1.4]} ry={Math.sin(i) * 0.4} seed={i + 3} t={t} look={Math.sin(t + i) * 0.3} />
+      ))}
+      <Person p={[0, 0, -3.2]} ry={Math.PI} seed={11} t={t} />
+      <pointLight position={[0, 3, -12]} color="#3060ff" intensity={Math.sin(t * 8) > 0 ? 30 : 5} distance={25} />
     </group>
   );
 };
@@ -282,14 +359,17 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
   const alarmPulse = sc.alarm ? (Math.sin(t * 9) > 0 ? 1 : 0) : 0;
   return (
     <ThreeCanvas width={width} height={height} style={{ position: "absolute", inset: 0 }} gl={{ antialias: true }}>
-      <color attach="background" args={[sc.dark ? "#1a1c22" : "#dfe6ee"]} />
+      <color attach="background" args={[sc.room === "yard" ? "#9ec9ea" : sc.dark ? "#1a1c22" : "#dfe6ee"]} />
       <fog attach="fog" args={[sc.dark ? "#22252c" : "#b9bcc2", 2 + (1 - smokeAmt) * 30, 9 + (1 - smokeAmt) * 60]} />
-      <ambientLight intensity={sc.dark ? 0.45 : 0.75} />
-      <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.6 : 1.9} />
+      <ambientLight intensity={sc.dark ? 0.22 : 0.75} />
+      <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.3 : 1.9} />
       {sc.alarm && <pointLight position={[0, 2.6, pos[2] - 2]} color="#ff2020" intensity={alarmPulse * 7} distance={9} />}
       <HeadCam pos={pos} yaw={yaw} pitch={sc.cam.pitch ?? -0.12} t={t} walk={sc.cam.walk ?? 0} shake={shake} fov={sc.fov ?? 98} />
       {sc.room === "classroom" && <Classroom t={t} sc={sc} k={k} />}
       {sc.room === "hallway" && <Hallway t={t} sc={sc} k={k} />}
+      {sc.room === "bathroom" && <Bathroom t={t} sc={sc} k={k} />}
+      {sc.room === "yard" && <Yard t={t} sc={sc} k={k} />}
+      {sc.torch && <pointLight position={[pos[0], pos[1] + 0.5, pos[2] - 2.8]} color="#fff4d8" intensity={3} distance={7} decay={2} />}
     </ThreeCanvas>
   );
 };

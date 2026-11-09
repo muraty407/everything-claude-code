@@ -407,5 +407,676 @@
   },
   "date": "2026-11-12",
   "post_time": "20:30"
+ },
+ {
+  "slug": "feuer-pov-teil-2",
+  "title": "POV: Feueralarm – keine Übung · Teil 2",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: LENA",
+   "bottom": "FEHLT",
+   "tag": "TEIL 2",
+   "kicker": "KEINE ÜBUNG",
+   "scene": "city:night"
+  },
+  "caption": "Teil 2: Stockdunkel, überall Rauch – und Lena ist noch irgendwo im Gebäude. Hättest du sie gesucht? 🔥",
+  "tags": [
+   "pov",
+   "feueralarm",
+   "schule",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Stockdunkel. Der Rauch brennt in den Augen. Und Lena ist noch irgendwo hier drin.",
+    "scene": "3d",
+    "clock": "09:50",
+    "ctx": "FLUR · 2. STOCK",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       0.45,
+       -9
+      ],
+      "yaw": [
+       0.03,
+       -0.03
+      ],
+      "pitch": 0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -1.5
+      ]
+     },
+     "smoke": [
+      0.85,
+      0.9
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true
+    }
+   },
+   {
+    "text": "Runter auf den Boden. Rauch steigt nach oben, unten ist noch Luft.",
+    "scene": "3d",
+    "clock": "09:50",
+    "card": {
+     "kicker": "ÜBERLEBENS-TIPP",
+     "title": "UNTEN IST NOCH LUFT"
+    },
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       0.45,
+       -10.5
+      ],
+      "yaw": [
+       0.03,
+       -0.03
+      ],
+      "pitch": 0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -2
+      ]
+     },
+     "smoke": [
+      0.85,
+      0.9
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true
+    }
+   },
+   {
+    "text": "Du kriechst zum Mädchenklo am Ende des Flurs.",
+    "scene": "3d",
+    "clock": "09:51",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       0.45,
+       -12.5
+      ],
+      "yaw": [
+       0.03,
+       -0.03
+      ],
+      "pitch": 0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -4
+      ]
+     },
+     "smoke": [
+      0.85,
+      0.9
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true
+    }
+   },
+   {
+    "text": "Hier! Ich bin hier! Ich hab die Tür nicht aufgekriegt!",
+    "scene": "3d",
+    "clock": "09:51",
+    "fx": [
+     "shake"
+    ],
+    "voice": "girl",
+    "s3d": {
+     "room": "bathroom",
+     "cam": {
+      "pos": [
+       0.2,
+       1.0,
+       -1.0
+      ],
+      "yaw": [
+       0.2,
+       0.55
+      ],
+      "pitch": -0.25
+     },
+     "smoke": [
+      0.5,
+      0.6
+     ],
+     "dark": true,
+     "torch": true
+    }
+   },
+   {
+    "text": "Lena hockt zitternd unter den Waschbecken. Du nimmst ihre Hand.",
+    "scene": "3d",
+    "clock": "09:51",
+    "s3d": {
+     "room": "bathroom",
+     "cam": {
+      "pos": [
+       0.2,
+       1.0,
+       -2.2
+      ],
+      "yaw": [
+       0.55,
+       0.75
+      ],
+      "pitch": -0.4
+     },
+     "smoke": [
+      0.5,
+      0.6
+     ],
+     "dark": true,
+     "torch": true
+    }
+   },
+   {
+    "text": "Bitte antworte!!! Wo bist du???",
+    "scene": "3d",
+    "clock": "09:52",
+    "voice": "mama",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       0.45,
+       -20
+      ],
+      "yaw": [
+       0.03,
+       -0.03
+      ],
+      "pitch": 0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -3
+      ]
+     },
+     "smoke": [
+      0.85,
+      0.9
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true
+    },
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Bitte antworte!!!",
+      "Wo bist du??? 😭"
+     ],
+     "battery": 41
+    }
+   },
+   {
+    "text": "Treppe A ist dicht. Bleibt nur noch Treppe B.",
+    "scene": "3d",
+    "clock": "09:52",
+    "big": {
+     "value": "TREPPE B",
+     "sub": "DIE LETZTE CHANCE"
+    },
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0,
+       0.9,
+       -29
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.5
+      ]
+     },
+     "smoke": [
+      0.6,
+      0.7
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true,
+     "door": "TREPPE B"
+    }
+   },
+   {
+    "text": "Du legst den Handrücken an die Tür. Sie ist heiß.",
+    "scene": "3d",
+    "clock": "09:52",
+    "card": {
+     "kicker": "ÜBERLEBENS-TIPP",
+     "title": "TÜR ERST MIT HANDRÜCKEN PRÜFEN"
+    },
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0,
+       0.9,
+       -31.5
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -0.6
+      ]
+     },
+     "smoke": [
+      0.6,
+      0.7
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true,
+     "door": "TREPPE B"
+    }
+   },
+   {
+    "text": "Und von der anderen Seite hörst du ein lautes Knacken.",
+    "scene": "3d",
+    "clock": "09:53",
+    "card": {
+     "kicker": "TEIL 3",
+     "title": "MORGEN · 20:30 UHR"
+    },
+    "fx": [
+     "shake"
+    ],
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0,
+       0.9,
+       -32.2
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -0.2
+      ]
+     },
+     "smoke": [
+      0.6,
+      0.7
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true,
+     "door": "TREPPE B"
+    }
+   }
+  ],
+  "day": 2,
+  "id": "p3d02-feuer-pov-teil-2",
+  "hook": true,
+  "pov": true,
+  "series": "ZEITZEUGE · POV",
+  "badge": "POV · TEIL 2",
+  "next": null,
+  "punch": {
+   "word": "STOCKDUNKEL.",
+   "match": "stockdunkel"
+  },
+  "date": "2026-11-13",
+  "post_time": "20:30"
+ },
+ {
+  "slug": "feuer-pov-teil-3",
+  "title": "POV: Feueralarm – keine Übung · Teil 3",
+  "accent": "#ff5a1f",
+  "hud": {
+   "label": "UHRZEIT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "POV: NICHT",
+   "bottom": "ÖFFNEN",
+   "tag": "FINALE",
+   "kicker": "KEINE ÜBUNG",
+   "scene": "city:day"
+  },
+  "caption": "Finale: Die Tür ist heiß – und hinter euch der Rauch. Hättest du die Tür geöffnet? A oder B? 🔥",
+  "tags": [
+   "pov",
+   "feueralarm",
+   "schule",
+   "deutschland"
+  ],
+  "segments": [
+   {
+    "text": "Nicht öffnen. Hinter dieser Tür brennt es.",
+    "scene": "3d",
+    "clock": "09:53",
+    "ctx": "TREPPE B · 2. STOCK",
+    "fx": [
+     "shake"
+    ],
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0,
+       0.9,
+       -32.2
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       0.6
+      ]
+     },
+     "smoke": [
+      0.6,
+      0.7
+     ],
+     "alarm": true,
+     "dark": true,
+     "torch": true,
+     "door": "TREPPE B"
+    }
+   },
+   {
+    "text": "Zurück in Raum hundertvierzehn. Tür zu. Jacken in den Spalt.",
+    "scene": "3d",
+    "clock": "09:54",
+    "card": {
+     "kicker": "ÜBERLEBENS-TIPP",
+     "title": "TÜRSPALT ABDICHTEN"
+    },
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       -0.6,
+       -0.2
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.5,
+      0.4
+     ],
+     "alarm": true,
+     "scared": 0,
+     "look": 0,
+     "dark": true
+    }
+   },
+   {
+    "text": "Fenster auf. Winken. Schreien. So laut ihr könnt.",
+    "scene": "3d",
+    "clock": "09:55",
+    "fx": [
+     "shake"
+    ],
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       0.6,
+       1.25
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.4,
+      0.35
+     ],
+     "alarm": true,
+     "scared": 0,
+     "look": 0,
+     "dark": true
+    }
+   },
+   {
+    "text": "Da! Die Feuerwehr!",
+    "scene": "3d",
+    "clock": "09:56",
+    "voice": "girl",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       1.25,
+       1.35
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.35,
+      0.3
+     ],
+     "alarm": true,
+     "scared": 0,
+     "look": 0,
+     "dark": true,
+     "ladder": true
+    }
+   },
+   {
+    "text": "Die Drehleiter fährt direkt an euer Fenster im zweiten Stock.",
+    "scene": "3d",
+    "clock": "09:57",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       1.3,
+       1.45
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.3,
+      0.3
+     ],
+     "alarm": true,
+     "scared": 0,
+     "look": 0,
+     "dark": true,
+     "ladder": true
+    }
+   },
+   {
+    "text": "Einer nach dem anderen! Ganz ruhig, wir haben euch!",
+    "scene": "3d",
+    "clock": "09:57",
+    "voice": "second",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       1.45,
+       1.5
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.3,
+      0.3
+     ],
+     "alarm": true,
+     "scared": 0,
+     "look": 0,
+     "dark": true,
+     "ladder": true
+    }
+   },
+   {
+    "text": "Unten auf dem Schulhof wird gezählt. Achtundzwanzig von achtundzwanzig. Auch Lena.",
+    "scene": "3d",
+    "clock": "10:06",
+    "ctx": "SCHULHOF · SAMMELPLATZ",
+    "big": {
+     "value": "28 / 28",
+     "sub": "ALLE GERETTET"
+    },
+    "s3d": {
+     "room": "yard",
+     "cam": {
+      "pos": [
+       0,
+       1.6,
+       2.5
+      ],
+      "yaw": [
+       0.25,
+       -0.15
+      ],
+      "pitch": 0.05
+     },
+     "smoke": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "text": "Ich bin auf dem Weg. Ich hab dich lieb.",
+    "scene": "3d",
+    "clock": "10:07",
+    "voice": "mama",
+    "s3d": {
+     "room": "yard",
+     "cam": {
+      "pos": [
+       0,
+       1.6,
+       2.5
+      ],
+      "yaw": [
+       -0.1,
+       -0.2
+      ],
+      "pitch": 0.05
+     },
+     "smoke": [
+      0,
+      0
+     ]
+    },
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Ich bin auf dem Weg ❤️",
+      "Ich hab dich lieb"
+     ],
+     "battery": 9
+    }
+   },
+   {
+    "text": "Hättest du die heiße Tür geöffnet? A: Ja. Oder B: Nein? Schreib A oder B.",
+    "scene": "3d",
+    "clock": "10:08",
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: TÜR AUF · B: FENSTER"
+    },
+    "s3d": {
+     "room": "yard",
+     "cam": {
+      "pos": [
+       0,
+       1.6,
+       2.5
+      ],
+      "yaw": [
+       -0.2,
+       0.1
+      ],
+      "pitch": 0.05
+     },
+     "smoke": [
+      0,
+      0
+     ]
+    }
+   }
+  ],
+  "day": 3,
+  "id": "p3d03-feuer-pov-teil-3",
+  "hook": true,
+  "pov": true,
+  "series": "ZEITZEUGE · POV",
+  "badge": "POV · TEIL 3",
+  "next": null,
+  "punch": {
+   "word": "NICHT ÖFFNEN.",
+   "match": "nicht"
+  },
+  "date": "2026-11-14",
+  "post_time": "20:30"
  }
 ]
