@@ -121,7 +121,7 @@ def main():
     out = []
     for n, d in enumerate(POV3D, start=1):
         d = dict(d, day=n, id=f"p3d{n:02d}-{d['slug']}", hook=True, pov=True, series="ZEITZEUGE · POV", badge=f"POV · TEIL {n}",
-                 next=None, punch=[{"word": "RAUCH.", "match": "rauch"}, {"word": "STOCKDUNKEL.", "match": "stockdunkel"}, {"word": "NICHT ÖFFNEN.", "match": "nicht"}][n - 1], date=f"2026-11-{11 + n}", post_time="20:30")
+                 next=None, punch=[{"word": "RAUCH.", "match": "rauch"}, {"word": "STOCKDUNKEL.", "match": "stockdunkel"}, {"word": "NICHT ÖFFNEN.", "match": "nicht"}][n - 1], date=f"2026-11-{10 + n}", post_time="20:30")
         out.append(d)
     json.dump(out, open(os.path.join(HERE, "pov3d.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(out), "3D-POV")

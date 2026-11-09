@@ -26,77 +26,80 @@ Format 1080×1920, 30 fps, Stimme: ElevenLabs „Brian“, Untertitel eingebrann
 | Di 10.11. | 20:30 | POV · TEIL 3 | POV: Blackout in Deutschland – Teil 3 | [mp4](../output/videos/p03-blackout-pov-teil-3.mp4) | [png](../output/thumbnails/p03-blackout-pov-teil-3.png) |
 | Mi 11.11. | 12:00 | FOLGE 13 | Was wäre, wenn in Deutschland 3 Tage der Strom ausfällt? | [mp4](../output/videos/f13-blackout.mp4) | [png](../output/thumbnails/f13-blackout.png) |
 | Mi 11.11. | 17:00 | FOLGE 14 | Was wäre, wenn du in ein Schwarzes Loch fällst? | [mp4](../output/videos/f14-schwarzes-loch.mp4) | [png](../output/thumbnails/f14-schwarzes-loch.png) |
-| Mi 11.11. | 20:30 | BONUS 3 | Was wäre, wenn du 30 Tage nichts isst? | [mp4](../output/videos/b03-ohne-essen.mp4) | [png](../output/thumbnails/b03-ohne-essen.png) |
+| Mi 11.11. | 20:30 | POV · TEIL 1 | POV: Feueralarm – keine Übung · Teil 1 | [mp4](../output/videos/p3d01-feuer-pov-teil-1.mp4) | [png](../output/thumbnails/p3d01-feuer-pov-teil-1.png) |
 | Do 12.11. | 12:00 | FOLGE 15 | Gefangen in der Höhle – Teil 1 | [mp4](../output/videos/f15-thai-hoehle-teil-1.mp4) | [png](../output/thumbnails/f15-thai-hoehle-teil-1.png) |
 | Do 12.11. | 17:00 | FOLGE 16 | Was passiert mit dir in der Todeszone am Everest? | [mp4](../output/videos/f16-todeszone-everest.mp4) | [png](../output/thumbnails/f16-todeszone-everest.png) |
-| Do 12.11. | 20:30 | BONUS 4 | Was tust du, wenn dein Auto ins Wasser stürzt? | [mp4](../output/videos/b04-auto-unter-wasser.mp4) | [png](../output/thumbnails/b04-auto-unter-wasser.png) |
+| Do 12.11. | 20:30 | POV · TEIL 2 | POV: Feueralarm – keine Übung · Teil 2 | [mp4](../output/videos/p3d02-feuer-pov-teil-2.mp4) | [png](../output/thumbnails/p3d02-feuer-pov-teil-2.png) |
 | Fr 13.11. | 12:00 | FOLGE 17 | Die Höhlenrettung – Teil 2 | [mp4](../output/videos/f17-thai-hoehle-teil-2.mp4) | [png](../output/thumbnails/f17-thai-hoehle-teil-2.png) |
 | Fr 13.11. | 17:00 | FOLGE 18 | Was wäre, wenn eine Ameise so groß wäre wie du? | [mp4](../output/videos/f18-riesenameise.mp4) | [png](../output/thumbnails/f18-riesenameise.png) |
-| Fr 13.11. | 20:30 | BONUS 5 | Was wäre, wenn dich ein Hai angreift? | [mp4](../output/videos/b05-hai.mp4) | [png](../output/thumbnails/b05-hai.png) |
+| Fr 13.11. | 20:30 | POV · TEIL 3 | POV: Feueralarm – keine Übung · Teil 3 | [mp4](../output/videos/p3d03-feuer-pov-teil-3.mp4) | [png](../output/thumbnails/p3d03-feuer-pov-teil-3.png) |
 | Sa 14.11. | 11:00 | FOLGE 19 | Was wäre, wenn die Erde aufhört, sich zu drehen? | [mp4](../output/videos/f19-erde-stoppt.mp4) | [png](../output/thumbnails/f19-erde-stoppt.png) |
 | Sa 14.11. | 18:00 | FOLGE 20 | Was wäre, wenn du in den Marianengraben tauchst? | [mp4](../output/videos/f20-marianengraben.mp4) | [png](../output/thumbnails/f20-marianengraben.png) |
-| Sa 14.11. | 20:30 | BONUS 6 | Was passiert, wenn du im Flugzeug die Tür öffnest? | [mp4](../output/videos/b06-flugzeugtuer.mp4) | [png](../output/thumbnails/b06-flugzeugtuer.png) |
+| Sa 14.11. | 20:30 | BONUS 3 | Was wäre, wenn du 30 Tage nichts isst? | [mp4](../output/videos/b03-ohne-essen.mp4) | [png](../output/thumbnails/b03-ohne-essen.png) |
 | So 15.11. | 11:00 | FOLGE 21 | 33 Bergleute unter Tage – Teil 1 | [mp4](../output/videos/f21-chile-bergleute-teil-1.mp4) | [png](../output/thumbnails/f21-chile-bergleute-teil-1.png) |
 | So 15.11. | 18:00 | FOLGE 22 | Was wäre, wenn du auf der Venus landest? | [mp4](../output/videos/f22-venus-landung.mp4) | [png](../output/thumbnails/f22-venus-landung.png) |
-| So 15.11. | 20:30 | BONUS 7 | Was passiert, wenn im Aufzug das Seil reißt? | [mp4](../output/videos/b07-aufzug-seil.mp4) | [png](../output/thumbnails/b07-aufzug-seil.png) |
+| So 15.11. | 20:30 | BONUS 4 | Was tust du, wenn dein Auto ins Wasser stürzt? | [mp4](../output/videos/b04-auto-unter-wasser.mp4) | [png](../output/thumbnails/b04-auto-unter-wasser.png) |
 | Mo 16.11. | 12:00 | FOLGE 23 | 33 Bergleute unter Tage – Teil 2 | [mp4](../output/videos/f23-chile-bergleute-teil-2.mp4) | [png](../output/thumbnails/f23-chile-bergleute-teil-2.png) |
 | Mo 16.11. | 17:00 | FOLGE 24 | Was wäre, wenn alle Bienen verschwinden? | [mp4](../output/videos/f24-keine-bienen.mp4) | [png](../output/thumbnails/f24-keine-bienen.png) |
-| Mo 16.11. | 20:30 | BONUS 8 | Was passiert, wenn du die Luft anhältst? | [mp4](../output/videos/b08-luft-anhalten.mp4) | [png](../output/thumbnails/b08-luft-anhalten.png) |
+| Mo 16.11. | 20:30 | BONUS 5 | Was wäre, wenn dich ein Hai angreift? | [mp4](../output/videos/b05-hai.mp4) | [png](../output/thumbnails/b05-hai.png) |
 | Di 17.11. | 12:00 | FOLGE 25 | Was wäre, wenn der Mond verschwindet? | [mp4](../output/videos/f25-mond-verschwindet.mp4) | [png](../output/thumbnails/f25-mond-verschwindet.png) |
 | Di 17.11. | 17:00 | FOLGE 26 | Was wäre, wenn du so schnell wärst wie das Licht? | [mp4](../output/videos/f26-lichtgeschwindigkeit.mp4) | [png](../output/thumbnails/f26-lichtgeschwindigkeit.png) |
-| Di 17.11. | 20:30 | BONUS 9 | Was passiert in deinem Gehirn, wenn du verliebt bist? | [mp4](../output/videos/b09-verliebt.mp4) | [png](../output/thumbnails/b09-verliebt.png) |
+| Di 17.11. | 20:30 | BONUS 6 | Was passiert, wenn du im Flugzeug die Tür öffnest? | [mp4](../output/videos/b06-flugzeugtuer.mp4) | [png](../output/thumbnails/b06-flugzeugtuer.png) |
 | Mi 18.11. | 12:00 | FOLGE 27 | Was wäre, wenn heute ein Dino-Asteroid einschlägt? | [mp4](../output/videos/f27-asteroid.mp4) | [png](../output/thumbnails/f27-asteroid.png) |
 | Mi 18.11. | 17:00 | FOLGE 28 | Was wäre, wenn alle Menschen verschwinden? | [mp4](../output/videos/f28-erde-ohne-menschen.mp4) | [png](../output/thumbnails/f28-erde-ohne-menschen.png) |
-| Mi 18.11. | 20:30 | BONUS 10 | Was wäre, wenn du im Lotto gewinnst? | [mp4](../output/videos/b10-lotto.mp4) | [png](../output/thumbnails/b10-lotto.png) |
+| Mi 18.11. | 20:30 | BONUS 7 | Was passiert, wenn im Aufzug das Seil reißt? | [mp4](../output/videos/b07-aufzug-seil.mp4) | [png](../output/thumbnails/b07-aufzug-seil.png) |
 | Do 19.11. | 12:00 | FOLGE 29 | Du bist Juri Gagarin – Teil 1 | [mp4](../output/videos/f29-gagarin-teil-1.mp4) | [png](../output/thumbnails/f29-gagarin-teil-1.png) |
 | Do 19.11. | 17:00 | FOLGE 30 | Was wäre, wenn der Yellowstone ausbricht? | [mp4](../output/videos/f30-yellowstone.mp4) | [png](../output/thumbnails/f30-yellowstone.png) |
-| Do 19.11. | 20:30 | BONUS 11 | Was passiert, wenn du zu viel Kaffee trinkst? | [mp4](../output/videos/b11-zu-viel-kaffee.mp4) | [png](../output/thumbnails/b11-zu-viel-kaffee.png) |
+| Do 19.11. | 20:30 | BONUS 8 | Was passiert, wenn du die Luft anhältst? | [mp4](../output/videos/b08-luft-anhalten.mp4) | [png](../output/thumbnails/b08-luft-anhalten.png) |
 | Fr 20.11. | 12:00 | FOLGE 31 | Du bist Juri Gagarin – Teil 2 | [mp4](../output/videos/f31-gagarin-teil-2.mp4) | [png](../output/thumbnails/f31-gagarin-teil-2.png) |
 | Fr 20.11. | 17:00 | FOLGE 32 | Was wäre, wenn in der Eifel ein Vulkan ausbricht? | [mp4](../output/videos/f32-eifel-vulkan.mp4) | [png](../output/thumbnails/f32-eifel-vulkan.png) |
-| Fr 20.11. | 20:30 | BONUS 12 | Du bist allein im Wald verloren – was zuerst? | [mp4](../output/videos/b12-regel-der-drei.mp4) | [png](../output/thumbnails/b12-regel-der-drei.png) |
+| Fr 20.11. | 20:30 | BONUS 9 | Was passiert in deinem Gehirn, wenn du verliebt bist? | [mp4](../output/videos/b09-verliebt.mp4) | [png](../output/thumbnails/b09-verliebt.png) |
 | Sa 21.11. | 11:00 | FOLGE 33 | Was wäre, wenn die Antarktis komplett schmilzt? | [mp4](../output/videos/f33-antarktis-schmilzt.mp4) | [png](../output/thumbnails/f33-antarktis-schmilzt.png) |
 | Sa 21.11. | 18:00 | FOLGE 34 | Was wäre, wenn du auf dem Jupiter landen willst? | [mp4](../output/videos/f34-jupiter-landung.mp4) | [png](../output/thumbnails/f34-jupiter-landung.png) |
-| Sa 21.11. | 20:30 | BONUS 13 | Was tust du, wenn die Erde unter dir bebt? | [mp4](../output/videos/b13-erdbeben.mp4) | [png](../output/thumbnails/b13-erdbeben.png) |
+| Sa 21.11. | 20:30 | BONUS 10 | Was wäre, wenn du im Lotto gewinnst? | [mp4](../output/videos/b10-lotto.mp4) | [png](../output/thumbnails/b10-lotto.png) |
 | So 22.11. | 11:00 | FOLGE 35 | Shackleton im Eis – Teil 1 | [mp4](../output/videos/f35-shackleton-teil-1.mp4) | [png](../output/thumbnails/f35-shackleton-teil-1.png) |
 | So 22.11. | 18:00 | FOLGE 36 | Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft? | [mp4](../output/videos/f36-sonnensturm.mp4) | [png](../output/thumbnails/f36-sonnensturm.png) |
-| So 22.11. | 20:30 | BONUS 14 | Was passiert mit dir bei 50 Grad? | [mp4](../output/videos/b14-hitze-50-grad.mp4) | [png](../output/thumbnails/b14-hitze-50-grad.png) |
+| So 22.11. | 20:30 | BONUS 11 | Was passiert, wenn du zu viel Kaffee trinkst? | [mp4](../output/videos/b11-zu-viel-kaffee.mp4) | [png](../output/thumbnails/b11-zu-viel-kaffee.png) |
 | Mo 23.11. | 12:00 | FOLGE 37 | Shackleton im Eis – Teil 2 | [mp4](../output/videos/f37-shackleton-teil-2.mp4) | [png](../output/thumbnails/f37-shackleton-teil-2.png) |
 | Mo 23.11. | 17:00 | FOLGE 38 | Was wäre, wenn heute ein Signal von Aliens kommt? | [mp4](../output/videos/f38-alien-signal.mp4) | [png](../output/thumbnails/f38-alien-signal.png) |
-| Mo 23.11. | 20:30 | BONUS 15 | Was wäre, wenn du 30 Tage nur Fast Food isst? | [mp4](../output/videos/b15-fastfood.mp4) | [png](../output/thumbnails/b15-fastfood.png) |
+| Mo 23.11. | 20:30 | BONUS 12 | Du bist allein im Wald verloren – was zuerst? | [mp4](../output/videos/b12-regel-der-drei.mp4) | [png](../output/thumbnails/b12-regel-der-drei.png) |
 | Di 24.11. | 12:00 | FOLGE 39 | Was wäre, wenn der Golfstrom stoppt? | [mp4](../output/videos/f39-golfstrom.mp4) | [png](../output/thumbnails/f39-golfstrom.png) |
 | Di 24.11. | 17:00 | FOLGE 40 | Was wäre, wenn ein Gammablitz die Erde trifft? | [mp4](../output/videos/f40-gammablitz.mp4) | [png](../output/thumbnails/f40-gammablitz.png) |
-| Di 24.11. | 20:30 | BONUS 16 | Was wäre, wenn du durch die Erde fällst? | [mp4](../output/videos/b16-tunnel-durch-erde.mp4) | [png](../output/thumbnails/b16-tunnel-durch-erde.png) |
+| Di 24.11. | 20:30 | BONUS 13 | Was tust du, wenn die Erde unter dir bebt? | [mp4](../output/videos/b13-erdbeben.mp4) | [png](../output/thumbnails/b13-erdbeben.png) |
 | Mi 25.11. | 12:00 | FOLGE 41 | Du bist in Prypjat – Tschernobyl 1986 | [mp4](../output/videos/f41-tschernobyl.mp4) | [png](../output/thumbnails/f41-tschernobyl.png) |
 | Mi 25.11. | 17:00 | FOLGE 42 | Du bist auf Apollo 13 | [mp4](../output/videos/f42-apollo-13.mp4) | [png](../output/thumbnails/f42-apollo-13.png) |
-| Mi 25.11. | 20:30 | BONUS 17 | Was wäre, wenn du auf dem Mond springst? | [mp4](../output/videos/b17-mond-springen.mp4) | [png](../output/thumbnails/b17-mond-springen.png) |
+| Mi 25.11. | 20:30 | BONUS 14 | Was passiert mit dir bei 50 Grad? | [mp4](../output/videos/b14-hitze-50-grad.mp4) | [png](../output/thumbnails/b14-hitze-50-grad.png) |
 | Do 26.11. | 12:00 | FOLGE 43 | Das U-Boot B-59 – Teil 1 | [mp4](../output/videos/f43-archipow-teil-1.mp4) | [png](../output/thumbnails/f43-archipow-teil-1.png) |
 | Do 26.11. | 17:00 | FOLGE 44 | Du sitzt in der Mondfähre – Apollo 11 | [mp4](../output/videos/f44-mondlandung.mp4) | [png](../output/thumbnails/f44-mondlandung.png) |
-| Do 26.11. | 20:30 | BONUS 18 | Was wäre, wenn du bei minus 60 Grad lebst? | [mp4](../output/videos/b18-oimjakon.mp4) | [png](../output/thumbnails/b18-oimjakon.png) |
+| Do 26.11. | 20:30 | BONUS 15 | Was wäre, wenn du 30 Tage nur Fast Food isst? | [mp4](../output/videos/b15-fastfood.mp4) | [png](../output/thumbnails/b15-fastfood.png) |
 | Fr 27.11. | 12:00 | FOLGE 45 | Der Mann, der Nein sagte – Teil 2 | [mp4](../output/videos/f45-archipow-teil-2.mp4) | [png](../output/thumbnails/f45-archipow-teil-2.png) |
 | Fr 27.11. | 17:00 | FOLGE 46 | Du bist in Hamburg – Sturmflut 1962 | [mp4](../output/videos/f46-sturmflut-hamburg.mp4) | [png](../output/thumbnails/f46-sturmflut-hamburg.png) |
-| Fr 27.11. | 20:30 | BONUS 19 | Jemand bricht vor dir zusammen – was tust du? | [mp4](../output/videos/b19-herzstillstand.mp4) | [png](../output/thumbnails/b19-herzstillstand.png) |
+| Fr 27.11. | 20:30 | BONUS 16 | Was wäre, wenn du durch die Erde fällst? | [mp4](../output/videos/b16-tunnel-durch-erde.mp4) | [png](../output/thumbnails/b16-tunnel-durch-erde.png) |
 | Sa 28.11. | 11:00 | FOLGE 47 | Du bist in Ost-Berlin – 9. November 1989 | [mp4](../output/videos/f47-mauerfall.mp4) | [png](../output/thumbnails/f47-mauerfall.png) |
 | Sa 28.11. | 18:00 | FOLGE 48 | Du bist an Bord der Hindenburg | [mp4](../output/videos/f48-hindenburg.mp4) | [png](../output/thumbnails/f48-hindenburg.png) |
-| Sa 28.11. | 20:30 | BONUS 20 | Was passiert, wenn du aus 27 Metern ins Wasser springst? | [mp4](../output/videos/b20-klippensprung.mp4) | [png](../output/thumbnails/b20-klippensprung.png) |
+| Sa 28.11. | 20:30 | BONUS 17 | Was wäre, wenn du auf dem Mond springst? | [mp4](../output/videos/b17-mond-springen.mp4) | [png](../output/thumbnails/b17-mond-springen.png) |
 | So 29.11. | 11:00 | FOLGE 49 | Das Grab des Tutanchamun – Teil 1 | [mp4](../output/videos/f49-tutanchamun-teil-1.mp4) | [png](../output/thumbnails/f49-tutanchamun-teil-1.png) |
 | So 29.11. | 18:00 | FOLGE 50 | Du bist am Krakatau 1883 | [mp4](../output/videos/f50-krakatau.mp4) | [png](../output/thumbnails/f50-krakatau.png) |
-| So 29.11. | 20:30 | BONUS 21 | Was macht ein Jahr im Weltall mit dir? | [mp4](../output/videos/b21-ein-jahr-all.mp4) | [png](../output/thumbnails/b21-ein-jahr-all.png) |
+| So 29.11. | 20:30 | BONUS 18 | Was wäre, wenn du bei minus 60 Grad lebst? | [mp4](../output/videos/b18-oimjakon.mp4) | [png](../output/thumbnails/b18-oimjakon.png) |
 | Mo 30.11. | 12:00 | FOLGE 51 | Der Fluch des Pharao – Teil 2 | [mp4](../output/videos/f51-tutanchamun-teil-2.mp4) | [png](../output/thumbnails/f51-tutanchamun-teil-2.png) |
 | Mo 30.11. | 17:00 | FOLGE 52 | Du lebst 1349 – Die Pest kommt | [mp4](../output/videos/f52-pest-1349.mp4) | [png](../output/thumbnails/f52-pest-1349.png) |
-| Mo 30.11. | 20:30 | BONUS 22 | Das Meer zieht sich zurück – was jetzt? | [mp4](../output/videos/b22-tsunami.mp4) | [png](../output/thumbnails/b22-tsunami.png) |
+| Mo 30.11. | 20:30 | BONUS 19 | Jemand bricht vor dir zusammen – was tust du? | [mp4](../output/videos/b19-herzstillstand.mp4) | [png](../output/thumbnails/b19-herzstillstand.png) |
 | Di 01.12. | 12:00 | FOLGE 53 | Du bist in Lissabon – Erdbeben 1755 | [mp4](../output/videos/f53-lissabon-1755.mp4) | [png](../output/thumbnails/f53-lissabon-1755.png) |
 | Di 01.12. | 17:00 | FOLGE 54 | Du bist in London – Der große Brand 1666 | [mp4](../output/videos/f54-brand-london.mp4) | [png](../output/thumbnails/f54-brand-london.png) |
-| Di 01.12. | 20:30 | BONUS 23 | 208 Sekunden: Notlandung auf dem Fluss | [mp4](../output/videos/b23-hudson.mp4) | [png](../output/thumbnails/b23-hudson.png) |
+| Di 01.12. | 20:30 | BONUS 20 | Was passiert, wenn du aus 27 Metern ins Wasser springst? | [mp4](../output/videos/b20-klippensprung.mp4) | [png](../output/thumbnails/b20-klippensprung.png) |
 | Mi 02.12. | 12:00 | FOLGE 55 | Du lebst im Jahr ohne Sommer – 1816 | [mp4](../output/videos/f55-jahr-ohne-sommer.mp4) | [png](../output/thumbnails/f55-jahr-ohne-sommer.png) |
 | Mi 02.12. | 17:00 | FOLGE 56 | Du baust die Pyramiden | [mp4](../output/videos/f56-pyramiden-bau.mp4) | [png](../output/thumbnails/f56-pyramiden-bau.png) |
-| Mi 02.12. | 20:30 | BONUS 24 | 9 Tage allein in der Sahara | [mp4](../output/videos/b24-wueste.mp4) | [png](../output/thumbnails/b24-wueste.png) |
+| Mi 02.12. | 20:30 | BONUS 21 | Was macht ein Jahr im Weltall mit dir? | [mp4](../output/videos/b21-ein-jahr-all.mp4) | [png](../output/thumbnails/b21-ein-jahr-all.png) |
 | Do 03.12. | 12:00 | FOLGE 57 | Du bist beim ersten Motorflug 1903 | [mp4](../output/videos/f57-brueder-wright.mp4) | [png](../output/thumbnails/f57-brueder-wright.png) |
 | Do 03.12. | 17:00 | FOLGE 58 | Du bist bei der Erstbesteigung des Everest | [mp4](../output/videos/f58-everest-1953.mp4) | [png](../output/thumbnails/f58-everest-1953.png) |
-| Do 03.12. | 20:30 | BONUS 25 | Sie fiel 10.000 Meter – und überlebte | [mp4](../output/videos/b25-sturz-10000m.mp4) | [png](../output/thumbnails/b25-sturz-10000m.png) |
+| Do 03.12. | 20:30 | BONUS 22 | Das Meer zieht sich zurück – was jetzt? | [mp4](../output/videos/b22-tsunami.mp4) | [png](../output/thumbnails/b22-tsunami.png) |
 | Fr 04.12. | 12:00 | FOLGE 59 | Du bist auf der Vasa – 1628 | [mp4](../output/videos/f59-vasa.mp4) | [png](../output/thumbnails/f59-vasa.png) |
 | Fr 04.12. | 17:00 | FOLGE 60 | Die Entdeckung des Penicillins | [mp4](../output/videos/f60-penicillin.mp4) | [png](../output/thumbnails/f60-penicillin.png) |
-| Fr 04.12. | 20:30 | BONUS 26 | Zwei Monate in einer Höhle ohne Uhr | [mp4](../output/videos/b26-hoehle-ohne-zeit.mp4) | [png](../output/thumbnails/b26-hoehle-ohne-zeit.png) |
-| Sa 05.12. | 20:30 | BONUS 27 | Er sprang aus 39 Kilometern Höhe | [mp4](../output/videos/b27-stratosphaere.mp4) | [png](../output/thumbnails/b27-stratosphaere.png) |
+| Fr 04.12. | 20:30 | BONUS 23 | 208 Sekunden: Notlandung auf dem Fluss | [mp4](../output/videos/b23-hudson.mp4) | [png](../output/thumbnails/b23-hudson.png) |
+| Sa 05.12. | 20:30 | BONUS 24 | 9 Tage allein in der Sahara | [mp4](../output/videos/b24-wueste.mp4) | [png](../output/thumbnails/b24-wueste.png) |
+| So 06.12. | 20:30 | BONUS 25 | Sie fiel 10.000 Meter – und überlebte | [mp4](../output/videos/b25-sturz-10000m.mp4) | [png](../output/thumbnails/b25-sturz-10000m.png) |
+| Mo 07.12. | 20:30 | BONUS 26 | Zwei Monate in einer Höhle ohne Uhr | [mp4](../output/videos/b26-hoehle-ohne-zeit.mp4) | [png](../output/thumbnails/b26-hoehle-ohne-zeit.png) |
+| Di 08.12. | 20:30 | BONUS 27 | Er sprang aus 39 Kilometern Höhe | [mp4](../output/videos/b27-stratosphaere.mp4) | [png](../output/thumbnails/b27-stratosphaere.png) |
 
 ## Texte zum Kopieren
 
@@ -839,40 +842,39 @@ Du fällst gerade in ein Schwarzes Loch. Und du kannst nicht mehr umkehren. Bei 
 
 </details>
 
-### BONUS 3 – Was wäre, wenn du 30 Tage nichts isst?
+### POV · TEIL 1 – POV: Feueralarm – keine Übung · Teil 1
 **Posten:** Mi 11.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
+POV: Mitten in Mathe riecht es nach Rauch – und diesmal ist es keine Übung. Teil 1 🔥
 
-#fasten #körper #wissen #waswärewenn #zeitzeuge
+#pov #feueralarm #schule #deutschland #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
+POV: Mitten in Mathe riecht es nach Rauch – und diesmal ist es keine Übung. Teil 1 🔥
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
 
-#fasten #körper #wissen #zeitzeuge #wissenschaft
+#pov #feueralarm #schule #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du 30 Tage nichts isst? #shorts
+Titel: POV: Feueralarm – keine Übung · Teil 1 #shorts
 
-Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert… #fasten #körper #shorts
+POV: Mitten in Mathe riecht es nach Rauch – und diesmal ist es keine… #pov #feueralarm #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.
+Neun Uhr siebenundvierzig. Mathe. Und dann riecht es nach Rauch. Leute … riecht ihr das auch? Unter der Tür vorne quillt grauer Rauch herein. Dann der Alarm. Und diesmal sagt niemand: Das ist nur eine Übung. Alle raus! Taschen liegen lassen! Sofort! Feueralarm bei euch?? Geht's dir gut??? Im Flur siehst du deine eigene Hand kaum noch. Dann die Klassengruppe: Treppe A ist voller Rauch. Und: Wo ist Lena? Lena war auf dem Klo. Sie ist nicht bei euch. Und genau zur Treppe A rennt gerade die halbe Schule. Dann gehen die Lichter aus.
 
 </details>
 
@@ -950,40 +952,39 @@ Du bist in der Todeszone am Mount Everest. Ab hier stirbt dein Körper langsam. 
 
 </details>
 
-### BONUS 4 – Was tust du, wenn dein Auto ins Wasser stürzt?
+### POV · TEIL 2 – POV: Feueralarm – keine Übung · Teil 2
 **Posten:** Do 12.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗
+Teil 2: Stockdunkel, überall Rauch – und Lena ist noch irgendwo im Gebäude. Hättest du sie gesucht? 🔥
 
-#auto #überleben #wissen #waswärewenn #zeitzeuge
+#pov #feueralarm #schule #deutschland #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗
+Teil 2: Stockdunkel, überall Rauch – und Lena ist noch irgendwo im Gebäude. Hättest du sie gesucht? 🔥
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn dich ein Hai angreift?
 
-#auto #überleben #wissen #zeitzeuge #wissenschaft
+#pov #feueralarm #schule #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was tust du, wenn dein Auto ins Wasser stürzt? #shorts
+Titel: POV: Feueralarm – keine Übung · Teil 2 #shorts
 
-Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3… #auto #überleben #shorts
+Teil 2: Stockdunkel, überall Rauch – und Lena ist noch irgendwo im… #pov #feueralarm #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.
+Stockdunkel. Der Rauch brennt in den Augen. Und Lena ist noch irgendwo hier drin. Runter auf den Boden. Rauch steigt nach oben, unten ist noch Luft. Du kriechst zum Mädchenklo am Ende des Flurs. Hier! Ich bin hier! Ich hab die Tür nicht aufgekriegt! Lena hockt zitternd unter den Waschbecken. Du nimmst ihre Hand. Bitte antworte!!! Wo bist du??? Treppe A ist dicht. Bleibt nur noch Treppe B. Du legst den Handrücken an die Tür. Sie ist heiß. Und von der anderen Seite hörst du ein lautes Knacken.
 
 </details>
 
@@ -1061,40 +1062,39 @@ Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine M
 
 </details>
 
-### BONUS 5 – Was wäre, wenn dich ein Hai angreift?
+### POV · TEIL 3 – POV: Feueralarm – keine Übung · Teil 3
 **Posten:** Fr 13.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
+Finale: Die Tür ist heiß – und hinter euch der Rauch. Hättest du die Tür geöffnet? A oder B? 🔥
 
-#hai #meer #überleben #waswärewenn #zeitzeuge
+#pov #feueralarm #schule #deutschland #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
+Finale: Die Tür ist heiß – und hinter euch der Rauch. Hättest du die Tür geöffnet? A oder B? 🔥
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert, wenn du im Flugzeug die Tür öffnest?
 
-#hai #meer #überleben #zeitzeuge #wissenschaft
+#pov #feueralarm #schule #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn dich ein Hai angreift? #shorts
+Titel: POV: Feueralarm – keine Übung · Teil 3 #shorts
 
-Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈 #hai #meer #shorts
+Finale: Die Tür ist heiß – und hinter euch der Rauch. Hättest du die Tür… #pov #feueralarm #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf. Erst mal: Haiangriffe sind extrem selten. Weltweit sterben pro Jahr meist weniger als zehn Menschen daran. Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie. Schwimmst du noch im Meer? A: Ja. Oder B: Nie wieder? Schreib A oder B.
+Nicht öffnen. Hinter dieser Tür brennt es. Zurück in Raum hundertvierzehn. Tür zu. Jacken in den Spalt. Fenster auf. Winken. Schreien. So laut ihr könnt. Da! Die Feuerwehr! Die Drehleiter fährt direkt an euer Fenster im zweiten Stock. Einer nach dem anderen! Ganz ruhig, wir haben euch! Unten auf dem Schulhof wird gezählt. Achtundzwanzig von achtundzwanzig. Auch Lena. Ich bin auf dem Weg. Ich hab dich lieb. Hättest du die heiße Tür geöffnet? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1172,40 +1172,40 @@ Du tauchst gerade zum tiefsten Punkt der Erde. Elf Kilometer nach unten. Tausend
 
 </details>
 
-### BONUS 6 – Was passiert, wenn du im Flugzeug die Tür öffnest?
+### BONUS 3 – Was wäre, wenn du 30 Tage nichts isst?
 **Posten:** Sa 14.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
 
-#flugzeug #fliegen #wissen #waswärewenn #zeitzeuge
+#fasten #körper #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert dein Körper ohne Essen 🍽️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert, wenn im Aufzug das Seil reißt?
+Als Nächstes: Was tust du, wenn dein Auto ins Wasser stürzt?
 
-#flugzeug #fliegen #wissen #zeitzeuge #wissenschaft
+#fasten #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert, wenn du im Flugzeug die Tür öffnest? #shorts
+Titel: Was wäre, wenn du 30 Tage nichts isst? #shorts
 
-Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht… #flugzeug #fliegen #shorts
+Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert… #fasten #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türhebel. Keine Panik. Er schafft es nicht. Der Druck in der Kabine presst die Tür mit mehreren Tonnen in ihren Rahmen. Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst. Sei ehrlich. Hörst du der Sicherheitsansage zu? A: Ja. Oder B: Nie? Schreib A oder B.
+Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.
 
 </details>
 
@@ -1283,40 +1283,40 @@ Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizz
 
 </details>
 
-### BONUS 7 – Was passiert, wenn im Aufzug das Seil reißt?
+### BONUS 4 – Was tust du, wenn dein Auto ins Wasser stürzt?
 **Posten:** So 15.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗
+Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗
 
-#aufzug #wissen #technik #waswärewenn #zeitzeuge
+#auto #überleben #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗
+Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3 Schritte retten dich 🚗
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert, wenn du die Luft anhältst?
+Als Nächstes: Was wäre, wenn dich ein Hai angreift?
 
-#aufzug #wissen #technik #zeitzeuge #wissenschaft
+#auto #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert, wenn im Aufzug das Seil reißt? #shorts
+Titel: Was tust du, wenn dein Auto ins Wasser stürzt? #shorts
 
-Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗 #aufzug #wissen #shorts
+Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3… #auto #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerissen. Die gute Nachricht: Ein Aufzug hängt fast nie an nur einem Seil. Meist sind es vier bis acht Stahlseile. Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen. Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Nimmst du den Aufzug? A: Aufzug. Oder B: Treppe? Schreib A oder B.
+Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1394,40 +1394,40 @@ Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem 
 
 </details>
 
-### BONUS 8 – Was passiert, wenn du die Luft anhältst?
+### BONUS 5 – Was wäre, wenn dich ein Hai angreift?
 **Posten:** Mo 16.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁
+Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
 
-#körper #rekord #wissen #waswärewenn #zeitzeuge
+#hai #meer #überleben #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁
+Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert in deinem Gehirn, wenn du verliebt bist?
+Als Nächstes: Was passiert, wenn du im Flugzeug die Tür öffnest?
 
-#körper #rekord #wissen #zeitzeuge #wissenschaft
+#hai #meer #überleben #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert, wenn du die Luft anhältst? #shorts
+Titel: Was wäre, wenn dich ein Hai angreift? #shorts
 
-Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem… #körper #rekord #shorts
+Du schwimmst im Meer – und siehst eine Flosse. Was solltest du jetzt tun? 🦈 #hai #meer #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert. Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden. Der Weltrekord liegt trotzdem bei vierundzwanzig Minuten. Budimir Šobat atmete vorher reinen Sauerstoff ein. Bitte nie allein unter Wasser üben. Wie lange schaffst du? A: Unter 1 Minute. Oder B: Über 1 Minute? Schreib A oder B.
+Du schwimmst im Meer. Und zehn Meter neben dir taucht eine Flosse auf. Erst mal: Haiangriffe sind extrem selten. Weltweit sterben pro Jahr meist weniger als zehn Menschen daran. Und jetzt die andere Seite: Menschen töten jedes Jahr schätzungsweise rund hundert Millionen Haie. Schwimmst du noch im Meer? A: Ja. Oder B: Nie wieder? Schreib A oder B.
 
 </details>
 
@@ -1505,40 +1505,40 @@ Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit 
 
 </details>
 
-### BONUS 9 – Was passiert in deinem Gehirn, wenn du verliebt bist?
+### BONUS 6 – Was passiert, wenn du im Flugzeug die Tür öffnest?
 **Posten:** Di 17.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️
+Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️
 
-#liebe #gehirn #wissen #waswärewenn #zeitzeuge
+#flugzeug #fliegen #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️
+Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht viele ✈️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du im Lotto gewinnst?
+Als Nächstes: Was passiert, wenn im Aufzug das Seil reißt?
 
-#liebe #gehirn #wissen #zeitzeuge #wissenschaft
+#flugzeug #fliegen #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert in deinem Gehirn, wenn du verliebt bist? #shorts
+Titel: Was passiert, wenn du im Flugzeug die Tür öffnest? #shorts
 
-Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in… #liebe #gehirn #shorts
+Kann man im Flug wirklich die Tür aufmachen? Die Antwort überrascht… #flugzeug #fliegen #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.
+Du sitzt im Flugzeug in elf Kilometern Höhe. Und jemand greift nach dem Türhebel. Keine Panik. Er schafft es nicht. Der Druck in der Kabine presst die Tür mit mehreren Tonnen in ihren Rahmen. Und wenn doch ein Loch entsteht? Dann fallen die Sauerstoffmasken. In dieser Höhe bleiben dir nur etwa fünfzehn bis zwanzig Sekunden, bis du nicht mehr klar denkst. Sei ehrlich. Hörst du der Sicherheitsansage zu? A: Ja. Oder B: Nie? Schreib A oder B.
 
 </details>
 
@@ -1616,40 +1616,40 @@ Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurü
 
 </details>
 
-### BONUS 10 – Was wäre, wenn du im Lotto gewinnst?
+### BONUS 7 – Was passiert, wenn im Aufzug das Seil reißt?
 **Posten:** Mi 18.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰
+Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗
 
-#lotto #geld #wissen #waswärewenn #zeitzeuge
+#aufzug #wissen #technik #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰
+Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert, wenn du zu viel Kaffee trinkst?
+Als Nächstes: Was passiert, wenn du die Luft anhältst?
 
-#lotto #geld #wissen #zeitzeuge #wissenschaft
+#aufzug #wissen #technik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du im Lotto gewinnst? #shorts
+Titel: Was passiert, wenn im Aufzug das Seil reißt? #shorts
 
-Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu… #lotto #geld #shorts
+Du stehst im Aufzug – und plötzlich ein Ruck. Was passiert jetzt wirklich? 🛗 #aufzug #wissen #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt. Die Chance dafür liegt bei etwa eins zu hundertvierzig Millionen. Der erste Rat von Experten: Erzähl es niemandem. Und kündige nicht sofort deinen Job. Was machst du zuerst? A: Job kündigen. Oder B: Niemandem sagen? Schreib A oder B.
+Du stehst im Aufzug im zwanzigsten Stock. Ein lauter Knall. Das Seil ist gerissen. Die gute Nachricht: Ein Aufzug hängt fast nie an nur einem Seil. Meist sind es vier bis acht Stahlseile. Erfunden hat sie Elisha Otis. 1854 ließ er in New York vor Publikum sein eigenes Seil durchschneiden. Er blieb einfach stehen. Und wenn du stecken bleibst: Notruf drücken, nicht rausklettern. Nimmst du den Aufzug? A: Aufzug. Oder B: Treppe? Schreib A oder B.
 
 </details>
 
@@ -1727,40 +1727,40 @@ Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Im Umkreis von rund h
 
 </details>
 
-### BONUS 11 – Was passiert, wenn du zu viel Kaffee trinkst?
+### BONUS 8 – Was passiert, wenn du die Luft anhältst?
 **Posten:** Do 19.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕
+Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁
 
-#kaffee #körper #wissen #waswärewenn #zeitzeuge
+#körper #rekord #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕
+Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem Körper? 🫁
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Du bist allein im Wald verloren – was zuerst?
+Als Nächstes: Was passiert in deinem Gehirn, wenn du verliebt bist?
 
-#kaffee #körper #wissen #zeitzeuge #wissenschaft
+#körper #rekord #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert, wenn du zu viel Kaffee trinkst? #shorts
+Titel: Was passiert, wenn du die Luft anhältst? #shorts
 
-Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕ #kaffee #körper #shorts
+Ein Mann hielt 24 Minuten die Luft an. Was passiert dabei in deinem… #körper #rekord #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen. Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee. Darüber: Zittern, Herzrasen, Unruhe, Schlafprobleme. Wie viele Tassen trinkst du? A: Unter 4. Oder B: Über 4? Schreib A oder B.
+Halt jetzt mal die Luft an. Und hör mir zu, was in deinem Körper passiert. Ohne Sauerstoff drohen nach etwa vier bis sechs Minuten Hirnschäden. Der Weltrekord liegt trotzdem bei vierundzwanzig Minuten. Budimir Šobat atmete vorher reinen Sauerstoff ein. Bitte nie allein unter Wasser üben. Wie lange schaffst du? A: Unter 1 Minute. Oder B: Über 1 Minute? Schreib A oder B.
 
 </details>
 
@@ -1838,40 +1838,40 @@ In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Der letzte große
 
 </details>
 
-### BONUS 12 – Du bist allein im Wald verloren – was zuerst?
+### BONUS 9 – Was passiert in deinem Gehirn, wenn du verliebt bist?
 **Posten:** Fr 20.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲
+Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️
 
-#überleben #wald #wissen #waswärewenn #zeitzeuge
+#liebe #gehirn #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲
+Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in deinem Kopf ❤️
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was tust du, wenn die Erde unter dir bebt?
+Als Nächstes: Was wäre, wenn du im Lotto gewinnst?
 
-#überleben #wald #wissen #zeitzeuge #wissenschaft
+#liebe #gehirn #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Du bist allein im Wald verloren – was zuerst? #shorts
+Titel: Was passiert in deinem Gehirn, wenn du verliebt bist? #shorts
 
-Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein… #überleben #wald #shorts
+Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in… #liebe #gehirn #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad. Überlebensexperten nutzen die Regel der Drei. Sie zeigt dir, was wirklich zuerst zählt. Essen ist also das Letzte, worum du dich kümmern musst. Dein größter Feind ist die Kälte. Sei ehrlich. Was suchst du zuerst? A: Essen. Oder B: Schutz? Schreib A oder B.
+Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1949,40 +1949,40 @@ Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist 
 
 </details>
 
-### BONUS 13 – Was tust du, wenn die Erde unter dir bebt?
+### BONUS 10 – Was wäre, wenn du im Lotto gewinnst?
 **Posten:** Sa 21.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍
+Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰
 
-#erdbeben #überleben #wissen #waswärewenn #zeitzeuge
+#lotto #geld #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍
+Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu etwas Überraschendem 💰
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert mit dir bei 50 Grad?
+Als Nächstes: Was passiert, wenn du zu viel Kaffee trinkst?
 
-#erdbeben #überleben #wissen #zeitzeuge #wissenschaft
+#lotto #geld #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was tust du, wenn die Erde unter dir bebt? #shorts
+Titel: Was wäre, wenn du im Lotto gewinnst? #shorts
 
-Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du… #erdbeben #überleben #shorts
+Du hast den Jackpot geknackt. Was machst du als Erstes? Experten raten zu… #lotto #geld #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbeben. Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten. Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7. Was machst du? A: Rausrennen. Oder B: Unter den Tisch? Schreib A oder B.
+Sechs Richtige plus Superzahl. Du hast gerade den Jackpot geknackt. Die Chance dafür liegt bei etwa eins zu hundertvierzig Millionen. Der erste Rat von Experten: Erzähl es niemandem. Und kündige nicht sofort deinen Job. Was machst du zuerst? A: Job kündigen. Oder B: Niemandem sagen? Schreib A oder B.
 
 </details>
 
@@ -2060,40 +2060,40 @@ Ein Sonnensturm wie im Jahr 1859 rast gerade auf die Erde zu. Starke Ströme kö
 
 </details>
 
-### BONUS 14 – Was passiert mit dir bei 50 Grad?
+### BONUS 11 – Was passiert, wenn du zu viel Kaffee trinkst?
 **Posten:** So 22.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-50 Grad im Schatten. So lange hält dein Körper das aus 🥵
+Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕
 
-#hitze #körper #wissen #waswärewenn #zeitzeuge
+#kaffee #körper #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-50 Grad im Schatten. So lange hält dein Körper das aus 🥵
+Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du 30 Tage nur Fast Food isst?
+Als Nächstes: Du bist allein im Wald verloren – was zuerst?
 
-#hitze #körper #wissen #zeitzeuge #wissenschaft
+#kaffee #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert mit dir bei 50 Grad? #shorts
+Titel: Was passiert, wenn du zu viel Kaffee trinkst? #shorts
 
-50 Grad im Schatten. So lange hält dein Körper das aus 🥵 #hitze #körper #shorts
+Wie viel Kaffee ist zu viel? Die Grenze liegt niedriger, als viele denken ☕ #kaffee #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus. Dein Körper schwitzt bis zu mehreren Litern pro Stunde. Ohne Trinken trocknest du schnell aus. Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913. Was ist schlimmer? A: 50 Grad. Oder B: Minus 30 Grad? Schreib A oder B.
+Du trinkst deinen zehnten Kaffee heute. Und dein Herz fängt an zu rasen. Für Erwachsene gelten bis zu vierhundert Milligramm am Tag als unbedenklich. Das sind ungefähr vier Tassen Filterkaffee. Darüber: Zittern, Herzrasen, Unruhe, Schlafprobleme. Wie viele Tassen trinkst du? A: Unter 4. Oder B: Über 4? Schreib A oder B.
 
 </details>
 
@@ -2171,40 +2171,40 @@ Ein Radioteleskop hat gerade ein eindeutiges Signal von Außerirdischen empfange
 
 </details>
 
-### BONUS 15 – Was wäre, wenn du 30 Tage nur Fast Food isst?
+### BONUS 12 – Du bist allein im Wald verloren – was zuerst?
 **Posten:** Mo 23.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔
+Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲
 
-#fastfood #körper #experiment #waswärewenn #zeitzeuge
+#überleben #wald #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔
+Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein Fehler 🌲
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du durch die Erde fällst?
+Als Nächstes: Was tust du, wenn die Erde unter dir bebt?
 
-#fastfood #körper #experiment #zeitzeuge #wissenschaft
+#überleben #wald #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du 30 Tage nur Fast Food isst? #shorts
+Titel: Du bist allein im Wald verloren – was zuerst? #shorts
 
-Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔 #fastfood #körper #shorts
+Verirrt im Wald, es wird dunkel. Die meisten suchen zuerst Essen – ein… #überleben #wald #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abendessen. Genau das hat der Filmemacher Morgan Spurlock 2004 für seinen Film Super Size Me gemacht. Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen. Sei ehrlich. Wie oft isst du Fast Food? A: Selten. Oder B: Jede Woche? Schreib A oder B.
+Du hast dich im Wald verirrt. Es wird dunkel, und es sind nur noch zwei Grad. Überlebensexperten nutzen die Regel der Drei. Sie zeigt dir, was wirklich zuerst zählt. Essen ist also das Letzte, worum du dich kümmern musst. Dein größter Feind ist die Kälte. Sei ehrlich. Was suchst du zuerst? A: Essen. Oder B: Schutz? Schreib A oder B.
 
 </details>
 
@@ -2282,40 +2282,40 @@ Ein Gammablitz trifft gerade die Erde. Die stärkste Explosion im Universum. In 
 
 </details>
 
-### BONUS 16 – Was wäre, wenn du durch die Erde fällst?
+### BONUS 13 – Was tust du, wenn die Erde unter dir bebt?
 **Posten:** Di 24.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍
+Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍
 
-#physik #erde #wissen #waswärewenn #zeitzeuge
+#erdbeben #überleben #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍
+Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du drin? 🌍
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du auf dem Mond springst?
+Als Nächstes: Was passiert mit dir bei 50 Grad?
 
-#physik #erde #wissen #zeitzeuge #wissenschaft
+#erdbeben #überleben #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du durch die Erde fällst? #shorts
+Titel: Was tust du, wenn die Erde unter dir bebt? #shorts
 
-Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und… #physik #erde #shorts
+Es bebt – und du hast nur Sekunden. Rennst du raus oder bleibst du… #erdbeben #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinein. Du fällst immer schneller. In der Mitte wärst du mit fast acht Kilometern pro Sekunde unterwegs. Dort herrschen über fünftausend Grad. So heiß wie die Oberfläche der Sonne. Tipp: Von Deutschland aus landest du im Meer bei Neuseeland. Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.
+Plötzlich wackelt alles. Die Gläser fallen aus dem Schrank. Es ist ein Erdbeben. Die Regel heißt: Ducken, Deckung, Festhalten. Unter einen stabilen Tisch und dich daran festhalten. Auch in Deutschland bebt die Erde. 1978 erreichte ein Beben bei Albstadt eine Stärke von 5,7. Was machst du? A: Rausrennen. Oder B: Unter den Tisch? Schreib A oder B.
 
 </details>
 
@@ -2393,40 +2393,40 @@ Dein Sauerstofftank ist gerade explodiert. Und du bist über 300.000 Kilometer v
 
 </details>
 
-### BONUS 17 – Was wäre, wenn du auf dem Mond springst?
+### BONUS 14 – Was passiert mit dir bei 50 Grad?
 **Posten:** Mi 25.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕
+50 Grad im Schatten. So lange hält dein Körper das aus 🥵
 
-#mond #weltall #physik #waswärewenn #zeitzeuge
+#hitze #körper #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕
+50 Grad im Schatten. So lange hält dein Körper das aus 🥵
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was wäre, wenn du bei minus 60 Grad lebst?
+Als Nächstes: Was wäre, wenn du 30 Tage nur Fast Food isst?
 
-#mond #weltall #physik #zeitzeuge #wissenschaft
+#hitze #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du auf dem Mond springst? #shorts
+Titel: Was passiert mit dir bei 50 Grad? #shorts
 
-Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕 #mond #weltall #shorts
+50 Grad im Schatten. So lange hält dein Körper das aus 🥵 #hitze #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du stehst auf dem Mond. Du gehst leicht in die Knie und springst. Die Schwerkraft ist hier nur ein Sechstel so stark wie auf der Erde. Wiegst du auf der Erde achtzig Kilo, fühlst du dich hier wie etwa dreizehn. Was machst du auf dem Mond? A: Springen. Oder B: Foto von der Erde? Schreib A oder B.
+Draußen sind fünfzig Grad im Schatten. Und du musst jetzt raus. Dein Körper schwitzt bis zu mehreren Litern pro Stunde. Ohne Trinken trocknest du schnell aus. Der offizielle Hitzerekord: sechsundfünfzig Komma sieben Grad im Death Valley, 1913. Was ist schlimmer? A: 50 Grad. Oder B: Minus 30 Grad? Schreib A oder B.
 
 </details>
 
@@ -2504,40 +2504,40 @@ Nur noch etwa dreißig Sekunden Treibstoff. Und ihr seid noch nicht gelandet. Zw
 
 </details>
 
-### BONUS 18 – Was wäre, wenn du bei minus 60 Grad lebst?
+### BONUS 15 – Was wäre, wenn du 30 Tage nur Fast Food isst?
 **Posten:** Do 26.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶
+Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔
 
-#kälte #sibirien #wissen #waswärewenn #zeitzeuge
+#fastfood #körper #experiment #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶
+Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Jemand bricht vor dir zusammen – was tust du?
+Als Nächstes: Was wäre, wenn du durch die Erde fällst?
 
-#kälte #sibirien #wissen #zeitzeuge #wissenschaft
+#fastfood #körper #experiment #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was wäre, wenn du bei minus 60 Grad lebst? #shorts
+Titel: Was wäre, wenn du 30 Tage nur Fast Food isst? #shorts
 
-Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen… #kälte #sibirien #shorts
+Ein Mann aß 30 Tage nur Fast Food. Das ist mit seinem Körper passiert 🍔 #fastfood #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren sofort fest. Willkommen in Oimjakon, dem kältesten bewohnten Ort der Welt. Hier leben rund fünfhundert Menschen. Der Kälterekord: minus siebenundsechzig Komma sieben Grad. Würdest du dort leben? A: Für Geld ja. Oder B: Niemals? Schreib A oder B.
+Ab heute isst du dreißig Tage lang nur noch Fast Food. Frühstück, Mittag, Abendessen. Genau das hat der Filmemacher Morgan Spurlock 2004 für seinen Film Super Size Me gemacht. Am Ende hat er rund elf Kilo zugenommen. Seine Cholesterinwerte sind deutlich gestiegen. Sei ehrlich. Wie oft isst du Fast Food? A: Selten. Oder B: Jede Woche? Schreib A oder B.
 
 </details>
 
@@ -2615,40 +2615,40 @@ Mitten in der Nacht brechen in Hamburg die Deiche. Und du schläfst direkt dahin
 
 </details>
 
-### BONUS 19 – Jemand bricht vor dir zusammen – was tust du?
+### BONUS 16 – Was wäre, wenn du durch die Erde fällst?
 **Posten:** Fr 27.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹
+Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍
 
-#erstehilfe #notfall #wissen #waswärewenn #zeitzeuge
+#physik #erde #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹
+Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und wie lange dauert das? 🌍
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was passiert, wenn du aus 27 Metern ins Wasser springst?
+Als Nächstes: Was wäre, wenn du auf dem Mond springst?
 
-#erstehilfe #notfall #wissen #zeitzeuge #wissenschaft
+#physik #erde #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Jemand bricht vor dir zusammen – was tust du? #shorts
+Titel: Was wäre, wenn du durch die Erde fällst? #shorts
 
-Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte… #erstehilfe #notfall #shorts
+Ein Tunnel quer durch die Erde – du springst rein. Wo kommst du raus, und… #physik #erde #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört zu schlagen. Jetzt zählt jede Minute. Ohne Wiederbelebung sinkt seine Überlebenschance pro Minute um etwa zehn Prozent. Merk dir drei Worte: Prüfen, rufen, drücken. Kannst du Erste Hilfe? A: Ja. Oder B: Nein? Schreib A oder B.
+Jemand hat einen Tunnel quer durch die ganze Erde gebohrt. Und du springst hinein. Du fällst immer schneller. In der Mitte wärst du mit fast acht Kilometern pro Sekunde unterwegs. Dort herrschen über fünftausend Grad. So heiß wie die Oberfläche der Sonne. Tipp: Von Deutschland aus landest du im Meer bei Neuseeland. Würdest du springen? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -2726,40 +2726,40 @@ Du hast vierunddreißig Sekunden. Dann steht das ganze Luftschiff in Flammen. Ku
 
 </details>
 
-### BONUS 20 – Was passiert, wenn du aus 27 Metern ins Wasser springst?
+### BONUS 17 – Was wäre, wenn du auf dem Mond springst?
 **Posten:** Sa 28.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊
+Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕
 
-#klippenspringen #physik #wissen #waswärewenn #zeitzeuge
+#mond #weltall #physik #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊
+Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Was macht ein Jahr im Weltall mit dir?
+Als Nächstes: Was wäre, wenn du bei minus 60 Grad lebst?
 
-#klippenspringen #physik #wissen #zeitzeuge #wissenschaft
+#mond #weltall #physik #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was passiert, wenn du aus 27 Metern ins Wasser springst? #shorts
+Titel: Was wäre, wenn du auf dem Mond springst? #shorts
 
-27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton… #klippenspringen #physik #shorts
+Auf dem Mond wiegst du nur ein Sechstel. Wie hoch könntest du springen? 🌕 #mond #weltall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie ein neunstöckiges Haus. Du springst. Nach knapp drei Sekunden triffst du mit rund fünfundachtzig Kilometern pro Stunde auf. Bei dieser Geschwindigkeit fühlt sich Wasser fast an wie eine harte Fläche. Ein Bauchklatscher kann dich verletzen. Würdest du springen? A: Ja. Oder B: Niemals? Schreib A oder B.
+Du stehst auf dem Mond. Du gehst leicht in die Knie und springst. Die Schwerkraft ist hier nur ein Sechstel so stark wie auf der Erde. Wiegst du auf der Erde achtzig Kilo, fühlst du dich hier wie etwa dreizehn. Was machst du auf dem Mond? A: Springen. Oder B: Foto von der Erde? Schreib A oder B.
 
 </details>
 
@@ -2837,40 +2837,40 @@ Gleich hörst du das lauteste Geräusch der Geschichte. 10:02 Uhr. Krakatau expl
 
 </details>
 
-### BONUS 21 – Was macht ein Jahr im Weltall mit dir?
+### BONUS 18 – Was wäre, wenn du bei minus 60 Grad lebst?
 **Posten:** So 29.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀
+Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶
 
-#weltall #körper #wissen #waswärewenn #zeitzeuge
+#kälte #sibirien #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀
+Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen bei minus 60 Grad 🥶
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Das Meer zieht sich zurück – was jetzt?
+Als Nächstes: Jemand bricht vor dir zusammen – was tust du?
 
-#weltall #körper #wissen #zeitzeuge #wissenschaft
+#kälte #sibirien #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Was macht ein Jahr im Weltall mit dir? #shorts
+Titel: Was wäre, wenn du bei minus 60 Grad lebst? #shorts
 
-Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf… #weltall #körper #shorts
+Im kältesten Dorf der Welt friert dir die Wimper ein. So leben Menschen… #kälte #sibirien #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich jeden Tag. Ohne Schwerkraft verlieren deine Knochen jeden Monat etwa ein bis eineinhalb Prozent ihrer Dichte. Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde. Würdest du ein Jahr ins All? A: Ja. Oder B: Nein? Schreib A oder B.
+Du trittst vor die Tür. Es sind minus sechzig Grad. Und deine Wimpern frieren sofort fest. Willkommen in Oimjakon, dem kältesten bewohnten Ort der Welt. Hier leben rund fünfhundert Menschen. Der Kälterekord: minus siebenundsechzig Komma sieben Grad. Würdest du dort leben? A: Für Geld ja. Oder B: Niemals? Schreib A oder B.
 
 </details>
 
@@ -2948,40 +2948,40 @@ Die Pest hat gerade deine Stadt erreicht. Wir schreiben das Jahr 1349. Fieber, S
 
 </details>
 
-### BONUS 22 – Das Meer zieht sich zurück – was jetzt?
+### BONUS 19 – Jemand bricht vor dir zusammen – was tust du?
 **Posten:** Mo 30.11.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊
+Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹
 
-#tsunami #überleben #wahregeschichte #waswärewenn #zeitzeuge
+#erstehilfe #notfall #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊
+Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte retten Leben ❤️‍🩹
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: 208 Sekunden: Notlandung auf dem Fluss
+Als Nächstes: Was passiert, wenn du aus 27 Metern ins Wasser springst?
 
-#tsunami #überleben #wahregeschichte #zeitzeuge #wissenschaft
+#erstehilfe #notfall #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Das Meer zieht sich zurück – was jetzt? #shorts
+Titel: Jemand bricht vor dir zusammen – was tust du? #shorts
 
-Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges… #tsunami #überleben #shorts
+Vor dir bricht jemand zusammen. Jede Minute zählt. Diese 3 Worte… #erstehilfe #notfall #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück. Viele laufen neugierig hinterher und sammeln Muscheln. Das ist der größte Fehler. Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr. Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst? A: Ja. Oder B: Nein? Schreib A oder B.
+Vor dir bricht ein Mann zusammen. Er atmet nicht mehr. Sein Herz hat aufgehört zu schlagen. Jetzt zählt jede Minute. Ohne Wiederbelebung sinkt seine Überlebenschance pro Minute um etwa zehn Prozent. Merk dir drei Worte: Prüfen, rufen, drücken. Kannst du Erste Hilfe? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3059,40 +3059,40 @@ London brennt. Und das Feuer hat in einer Bäckerei angefangen. Die Häuser sind
 
 </details>
 
-### BONUS 23 – 208 Sekunden: Notlandung auf dem Fluss
+### BONUS 20 – Was passiert, wenn du aus 27 Metern ins Wasser springst?
 **Posten:** Di 01.12.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️
+27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊
 
-#flugzeug #wahregeschichte #newyork #waswärewenn #zeitzeuge
+#klippenspringen #physik #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️
+27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton ist 🌊
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: 9 Tage allein in der Sahara
+Als Nächstes: Was macht ein Jahr im Weltall mit dir?
 
-#flugzeug #wahregeschichte #newyork #zeitzeuge #wissenschaft
+#klippenspringen #physik #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: 208 Sekunden: Notlandung auf dem Fluss #shorts
+Titel: Was passiert, wenn du aus 27 Metern ins Wasser springst? #shorts
 
-Beide Triebwerke fallen aus – über New York. Der Pilot hat 208… #flugzeug #wahregeschichte #shorts
+27 Meter, 3 Sekunden, 85 km/h. Warum Wasser hier fast wie Beton… #klippenspringen #physik #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefallen. Ein Schwarm Gänse ist in die Triebwerke geflogen. Hundertfünfundfünfzig Menschen sind an Bord. Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben. Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt? A: Ja. Oder B: Nein? Schreib A oder B.
+Du stehst auf einer Klippe, siebenundzwanzig Meter über dem Meer. So hoch wie ein neunstöckiges Haus. Du springst. Nach knapp drei Sekunden triffst du mit rund fünfundachtzig Kilometern pro Stunde auf. Bei dieser Geschwindigkeit fühlt sich Wasser fast an wie eine harte Fläche. Ein Bauchklatscher kann dich verletzen. Würdest du springen? A: Ja. Oder B: Niemals? Schreib A oder B.
 
 </details>
 
@@ -3170,40 +3170,40 @@ Du baust gerade an der größten Pyramide der Welt. Und du bist kein Sklave. Die
 
 </details>
 
-### BONUS 24 – 9 Tage allein in der Sahara
+### BONUS 21 – Was macht ein Jahr im Weltall mit dir?
 **Posten:** Mi 02.12.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️
+Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀
 
-#wüste #überleben #wahregeschichte #waswärewenn #zeitzeuge
+#weltall #körper #wissen #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️
+Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf der Erde. Das hat sich verändert 🚀
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Sie fiel 10.000 Meter – und überlebte
+Als Nächstes: Das Meer zieht sich zurück – was jetzt?
 
-#wüste #überleben #wahregeschichte #zeitzeuge #wissenschaft
+#weltall #körper #wissen #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: 9 Tage allein in der Sahara #shorts
+Titel: Was macht ein Jahr im Weltall mit dir? #shorts
 
-Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan… #wüste #überleben #shorts
+Ein Astronaut war fast ein Jahr im All – sein Zwillingsbruder blieb auf… #weltall #körper #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine Menschen. Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin. Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien. Er ist danach wieder bei dem Rennen gestartet. Hättest du überlebt? A: Ja. Oder B: Nein? Schreib A oder B.
+Du lebst ein ganzes Jahr auf der Raumstation. Und dein Körper verändert sich jeden Tag. Ohne Schwerkraft verlieren deine Knochen jeden Monat etwa ein bis eineinhalb Prozent ihrer Dichte. Genau das hat die NASA getestet. Scott Kelly blieb dreihundertvierzig Tage im All, sein Zwillingsbruder Mark auf der Erde. Würdest du ein Jahr ins All? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3281,40 +3281,40 @@ Noch nie hat ein Mensch hier oben gestanden. Und du bist gleich als Erster da. 1
 
 </details>
 
-### BONUS 25 – Sie fiel 10.000 Meter – und überlebte
+### BONUS 22 – Das Meer zieht sich zurück – was jetzt?
 **Posten:** Do 03.12.2026, 20:30 Uhr
 
 **TikTok:**
 
 ```
-Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳
+Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊
 
-#rekord #wahregeschichte #flugzeug #waswärewenn #zeitzeuge
+#tsunami #überleben #wahregeschichte #waswärewenn #zeitzeuge
 ```
 
 **Instagram Reel:**
 
 ```
-Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳
+Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges Mädchen wusste, was das bedeutet 🌊
 
 Schreib deine Antwort in die Kommentare 👇
 Folge für jeden Tag ein neues Szenario ⏳
-Als Nächstes: Zwei Monate in einer Höhle ohne Uhr
+Als Nächstes: 208 Sekunden: Notlandung auf dem Fluss
 
-#rekord #wahregeschichte #flugzeug #zeitzeuge #wissenschaft
+#tsunami #überleben #wahregeschichte #zeitzeuge #wissenschaft
 ```
 
 **YouTube Shorts:**
 
 ```
-Titel: Sie fiel 10.000 Meter – und überlebte #shorts
+Titel: Das Meer zieht sich zurück – was jetzt? #shorts
 
-Eine Stewardess fällt über 10 Kilometer in die Tiefe – und… #rekord #wahregeschichte #shorts
+Am Strand zieht sich plötzlich das Meer zurück. Ein 10-jähriges… #tsunami #überleben #shorts
 ```
 
 <details><summary>Sprechertext</summary>
 
-Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade auseinander. Das passiert der Stewardess Vesna Vulović. Eine Bombe zerreißt ihr Flugzeug. Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat. Glück oder Wunder? A: Glück. Oder B: Wunder? Schreib A oder B.
+Du liegst am Strand. Und plötzlich zieht sich das Meer hunderte Meter zurück. Viele laufen neugierig hinterher und sammeln Muscheln. Das ist der größte Fehler. Sie warnt ihre Eltern. Der Strand wird geräumt. Rund hundert Menschen überleben dank ihr. Die Regel: Sofort landeinwärts und nach oben. Hättest du es gewusst? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -3391,8 +3391,119 @@ Ein Forscher kommt aus dem Urlaub zurück. Sein Labor ist unordentlich. Und gena
 
 </details>
 
-### BONUS 26 – Zwei Monate in einer Höhle ohne Uhr
+### BONUS 23 – 208 Sekunden: Notlandung auf dem Fluss
 **Posten:** Fr 04.12.2026, 20:30 Uhr
+
+**TikTok:**
+
+```
+Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️
+
+#flugzeug #wahregeschichte #newyork #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Beide Triebwerke fallen aus – über New York. Der Pilot hat 208 Sekunden. 155 Menschen an Bord ✈️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: 9 Tage allein in der Sahara
+
+#flugzeug #wahregeschichte #newyork #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: 208 Sekunden: Notlandung auf dem Fluss #shorts
+
+Beide Triebwerke fallen aus – über New York. Der Pilot hat 208… #flugzeug #wahregeschichte #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du sitzt im Flugzeug über New York. Ein Knall. Beide Triebwerke sind ausgefallen. Ein Schwarm Gänse ist in die Triebwerke geflogen. Hundertfünfundfünfzig Menschen sind an Bord. Er setzt das Flugzeug sanft auf dem eiskalten Fluss auf. Alle hundertfünfundfünfzig überleben. Vom Vogelschlag bis zur Wasserlandung: zweihundertacht Sekunden. Hättest du die Nerven gehabt? A: Ja. Oder B: Nein? Schreib A oder B.
+
+</details>
+
+### BONUS 24 – 9 Tage allein in der Sahara
+**Posten:** Sa 05.12.2026, 20:30 Uhr
+
+**TikTok:**
+
+```
+Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️
+
+#wüste #überleben #wahregeschichte #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan, um zu überleben 🏜️
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Sie fiel 10.000 Meter – und überlebte
+
+#wüste #überleben #wahregeschichte #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: 9 Tage allein in der Sahara #shorts
+
+Ein Sandsturm, ein Läufer, 9 Tage allein in der Wüste. Das hat er getan… #wüste #überleben #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Ein Sandsturm. Als er vorbei ist, siehst du nur noch Sand. Keine Strecke, keine Menschen. Tagsüber über vierzig Grad, nachts eiskalt. Um Wasser zu sparen, trinkt er seinen eigenen Urin. Nach neun Tagen finden ihn Nomaden. Er ist fast dreihundert Kilometer vom Kurs abgekommen, bis nach Algerien. Er ist danach wieder bei dem Rennen gestartet. Hättest du überlebt? A: Ja. Oder B: Nein? Schreib A oder B.
+
+</details>
+
+### BONUS 25 – Sie fiel 10.000 Meter – und überlebte
+**Posten:** So 06.12.2026, 20:30 Uhr
+
+**TikTok:**
+
+```
+Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳
+
+#rekord #wahregeschichte #flugzeug #waswärewenn #zeitzeuge
+```
+
+**Instagram Reel:**
+
+```
+Eine Stewardess fällt über 10 Kilometer in die Tiefe – und überlebt. Wie ist das möglich? 😳
+
+Schreib deine Antwort in die Kommentare 👇
+Folge für jeden Tag ein neues Szenario ⏳
+Als Nächstes: Zwei Monate in einer Höhle ohne Uhr
+
+#rekord #wahregeschichte #flugzeug #zeitzeuge #wissenschaft
+```
+
+**YouTube Shorts:**
+
+```
+Titel: Sie fiel 10.000 Meter – und überlebte #shorts
+
+Eine Stewardess fällt über 10 Kilometer in die Tiefe – und… #rekord #wahregeschichte #shorts
+```
+
+<details><summary>Sprechertext</summary>
+
+Du bist zehntausend Meter hoch. Und das Flugzeug um dich herum bricht gerade auseinander. Das passiert der Stewardess Vesna Vulović. Eine Bombe zerreißt ihr Flugzeug. Bis heute steht sie im Guinness-Buch: höchster Sturz ohne Fallschirm, den ein Mensch überlebt hat. Glück oder Wunder? A: Glück. Oder B: Wunder? Schreib A oder B.
+
+</details>
+
+### BONUS 26 – Zwei Monate in einer Höhle ohne Uhr
+**Posten:** Mo 07.12.2026, 20:30 Uhr
 
 **TikTok:**
 
@@ -3429,7 +3540,7 @@ Du lebst in einer Höhle. Ohne Uhr, ohne Sonnenlicht. Wie lange bist du schon hi
 </details>
 
 ### BONUS 27 – Er sprang aus 39 Kilometern Höhe
-**Posten:** Sa 05.12.2026, 20:30 Uhr
+**Posten:** Di 08.12.2026, 20:30 Uhr
 
 **TikTok:**
 

@@ -177,6 +177,15 @@ def main():
         e["hashtags"] = ["#pov", "#blackout", "#stromausfall", "#deutschland", "#zeitzeuge"]
         pov.append(e)
     bonus = sorted(bonus + [dict(e, day=100 + e["day"]) for e in pov], key=lambda d: (d["date"], d["post_time"]))
+    # 3D-POV (content/pov3d.json, gerendert separat) für die Lieferung um 20:30 einhängen
+    p3 = os.path.join(HERE, "pov3d.json")
+    if os.path.exists(p3):
+        for e, date_s in zip(json.load(open(p3, encoding="utf-8")), getattr(schedule_order, "POV3D_SLOTS", [])):
+            r = enrich({k: v for k, v in e.items()}, day=200 + e["day"], id_=e["id"], date=dt.date.fromisoformat(date_s), post_time="20:30",
+                       series=e["series"], nxt=None, badge=e["badge"], brand="ZEITZEUGE")
+            r["hashtags"] = ["#pov", "#feueralarm", "#schule", "#deutschland", "#zeitzeuge"]
+            bonus.append(r)
+        bonus.sort(key=lambda d: (d["date"], d["post_time"]))
 
     # ---- v3-Hook für alles, was ab V3_FROM gepostet wird (Test 09.11.: 2,5× Wiedergabezeit)
     def add_punch(e):
