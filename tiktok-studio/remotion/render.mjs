@@ -21,7 +21,7 @@ const browserExecutable =
     }
   })();
 
-const chromiumOptions = { gl: process.env.REMOTION_GL || "swangle" };
+const chromiumOptions = process.env.REMOTION_GL ? { gl: process.env.REMOTION_GL } : {}; // 3D-POV: REMOTION_GL=swangle
 const args = process.argv.slice(2);
 const serveUrl = await bundle({ entryPoint: path.join(here, "src/index.ts"), publicDir: path.join(here, "public") });
 

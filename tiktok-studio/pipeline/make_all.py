@@ -65,7 +65,10 @@ def main():
         cmd = ["node", "render.mjs"]
         for d, b, _ in chunk:
             cmd += [os.path.join(b, "props.json"), os.path.join(b, "render.mp4")]
-        subprocess.run(cmd, cwd=os.path.join(ROOT, "remotion"), check=True)
+        env = dict(os.environ)
+        if any(seg.get("s3d") for d, _, _ in chunk for seg in d["segments"]):
+            env.setdefault("REMOTION_GL", "swangle")  # 3D-Szenen brauchen Software-WebGL (kein GPU im Container)
+        subprocess.run(cmd, cwd=os.path.join(ROOT, "remotion"), check=True, env=env)
         for d, b, tl in chunk:
             mix.mix_audio(d, tl, os.path.join(b, "voice.wav"), os.path.join(b, "mix.wav"))
             final = os.path.join(vids, d["id"] + ".mp4")
