@@ -53,7 +53,7 @@ const HookTitle: React.FC<{ top: string; bottom: string; accent: string; time: n
 const punchTime = (props: Props) => {
   const pu = props.day.punch;
   if (!pu) return -1;
-  for (const s of props.timeline.segments) for (const w of s.words) if (w.w.toLowerCase().replace(/[^a-zäöüß]/g, "") === pu.match) return w.s;
+  for (const s of props.timeline.segments) for (const w of s.words) if (w.w.toLowerCase().replace(/[^a-zäöüß]/g, "") === pu.match) return Math.max(0.3, w.s);
   return 1;
 };
 const PunchWord: React.FC<{ text: string; t: number; accent: string }> = ({ text, t, accent }) => {

@@ -30,7 +30,7 @@ def mix_audio(day, timeline, voice_wav, out_wav):
         for ts in timeline["segments"]:
             hit = [w for w in ts["words"] if "".join(ch for ch in w["w"].lower() if ch.isalpha()) == m]
             if hit:
-                events.append(("boom.wav", hit[0]["s"], 1.0))
+                events.append(("boom.wav", max(0.3, hit[0]["s"]), 1.0))
                 break
     if day["hud"].get("tick") == "down":
         t = 1.0
