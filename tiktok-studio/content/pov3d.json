@@ -23,7 +23,7 @@
   ],
   "segments": [
    {
-    "text": "Neun Uhr siebenundvierzig. Mathe. Und plötzlich riecht es nach Rauch.",
+    "text": "Neun Uhr siebenundvierzig. Mathe. Und dann riecht es nach Rauch.",
     "scene": "3d",
     "clock": "09:47",
     "ctx": "GESAMTSCHULE · RAUM 114 · DI 09:47",
@@ -81,7 +81,35 @@
     }
    },
    {
-    "text": "Dann geht der Alarm los. Und diesmal sagt niemand, dass es eine Übung ist.",
+    "text": "Unter der Tür vorne quillt grauer Rauch herein.",
+    "scene": "3d",
+    "clock": "09:47",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       0.0,
+       -0.7
+      ],
+      "pitch": -0.14
+     },
+     "smoke": [
+      0.05,
+      0.3
+     ],
+     "alarm": false,
+     "scared": 0.5,
+     "look": -0.9,
+     "dark": false
+    }
+   },
+   {
+    "text": "Dann der Alarm. Und diesmal sagt niemand: Das ist nur eine Übung.",
     "scene": "3d",
     "clock": "09:48",
     "fx": [
@@ -96,60 +124,23 @@
        1.25
       ],
       "yaw": [
-       0.1,
-       -0.55
+       -0.7,
+       -0.4
       ],
       "pitch": -0.14
      },
      "smoke": [
-      0.1,
-      0.25
-     ],
-     "alarm": true,
-     "scared": 0.6,
-     "look": -0.9,
-     "dark": false
-    }
-   },
-   {
-    "text": "Feueralarm bei euch? Ich hab's im Radio gehört! Geht's dir gut?",
-    "scene": "3d",
-    "clock": "09:48",
-    "voice": "mama",
-    "s3d": {
-     "room": "classroom",
-     "cam": {
-      "pos": [
-       1.0,
-       1.12,
-       1.25
-      ],
-      "yaw": [
-       -0.3,
-       -0.35
-      ],
-      "pitch": -0.35
-     },
-     "smoke": [
-      0.25,
-      0.35
+      0.3,
+      0.4
      ],
      "alarm": true,
      "scared": 0.8,
      "look": -0.9,
      "dark": false
-    },
-    "phone": {
-     "from": "Mama",
-     "msgs": [
-      "Feueralarm bei euch??",
-      "Geht's dir gut? 😰"
-     ],
-     "battery": 64
     }
    },
    {
-    "text": "Alle raus! Taschen liegen lassen! Ruhig bleiben!",
+    "text": "Alle raus! Taschen liegen lassen! Sofort!",
     "scene": "3d",
     "clock": "09:48",
     "voice": "second",
@@ -162,14 +153,14 @@
        1.25
       ],
       "yaw": [
-       -0.45,
-       -0.7
+       -0.4,
+       -0.75
       ],
       "pitch": -0.14
      },
      "smoke": [
-      0.35,
-      0.45
+      0.4,
+      0.5
      ],
      "alarm": true,
      "scared": 1,
@@ -178,7 +169,44 @@
     }
    },
    {
-    "text": "Im Flur siehst du kaum noch etwas. Der Rauch kommt von der Treppe.",
+    "text": "Feueralarm bei euch?? Geht's dir gut???",
+    "scene": "3d",
+    "clock": "09:48",
+    "voice": "mama",
+    "s3d": {
+     "room": "classroom",
+     "cam": {
+      "pos": [
+       1.0,
+       1.12,
+       1.25
+      ],
+      "yaw": [
+       -0.6,
+       -0.65
+      ],
+      "pitch": -0.35
+     },
+     "smoke": [
+      0.5,
+      0.55
+     ],
+     "alarm": true,
+     "scared": 1,
+     "look": -0.9,
+     "dark": false
+    },
+    "phone": {
+     "from": "Mama",
+     "msgs": [
+      "Feueralarm bei euch??",
+      "Geht's dir gut??? 😰"
+     ],
+     "battery": 64
+    }
+   },
+   {
+    "text": "Im Flur siehst du deine eigene Hand kaum noch.",
     "scene": "3d",
     "clock": "09:49",
     "ctx": "FLUR · 2. STOCK",
@@ -203,8 +231,8 @@
       ]
      },
      "smoke": [
-      0.35,
-      0.6
+      0.45,
+      0.65
      ],
      "alarm": true,
      "run": true,
@@ -212,7 +240,7 @@
     }
    },
    {
-    "text": "In der Klassengruppe schreibt jemand: Treppe A ist voller Rauch.",
+    "text": "Dann die Klassengruppe: Treppe A ist voller Rauch. Und: Wo ist Lena?",
     "scene": "3d",
     "clock": "09:49",
     "s3d": {
@@ -236,7 +264,7 @@
       ]
      },
      "smoke": [
-      0.6,
+      0.65,
       0.7
      ],
      "alarm": true,
@@ -246,16 +274,20 @@
     "phone": {
      "from": "Klasse 10b",
      "msgs": [
-      "Tyler: wo seid ihr??",
-      "Lena: TREPPE A IST VOLL RAUCH"
+      "Tyler: TREPPE A IST VOLL RAUCH",
+      "Mia: wo ist Lena???"
      ],
      "battery": 61
     }
    },
    {
-    "text": "Und genau dahin läuft gerade die halbe Schule.",
+    "text": "Lena war auf dem Klo. Sie ist nicht bei euch.",
     "scene": "3d",
     "clock": "09:49",
+    "big": {
+     "value": "LENA",
+     "sub": "FEHLT"
+    },
     "fx": [
      "shake"
     ],
@@ -276,11 +308,44 @@
       "move": [
        0,
        0,
-       -3
+       -1
       ]
      },
      "smoke": [
       0.7,
+      0.8
+     ],
+     "alarm": true,
+     "run": true,
+     "dark": false
+    }
+   },
+   {
+    "text": "Und genau zur Treppe A rennt gerade die halbe Schule.",
+    "scene": "3d",
+    "clock": "09:49",
+    "s3d": {
+     "room": "hallway",
+     "cam": {
+      "pos": [
+       0.3,
+       1.6,
+       -6
+      ],
+      "yaw": [
+       0.02,
+       -0.04
+      ],
+      "pitch": -0.05,
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -3
+      ]
+     },
+     "smoke": [
+      0.8,
       0.85
      ],
      "alarm": true,
@@ -305,7 +370,7 @@
       "pos": [
        0.3,
        1.6,
-       -8
+       -9
       ],
       "yaw": [
        0.02,
