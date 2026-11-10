@@ -205,6 +205,13 @@ def main():
                 q, a, b = short_ab.AB[e["slug"]]
                 e["pin"] = f"{q}? A: {a} oder B: {b}? 👇"
 
+    # ---- Test: Überlebens-Anzeige (sinkt pro Szene, am Ende „?“ → Auflösung = Frage)
+    SURVIVAL = {"todeszone-everest", "marianengraben", "auto-unter-wasser", "venus-landung", "hai", "erde-stoppt"}
+    for e in schedule + bonus:
+        if e["slug"] in SURVIVAL and e["date"] >= "2026-11-11":
+            n = len(e["segments"])
+            e["survival"] = [round(90 - (85 * i / max(1, n - 2))) for i in range(n - 1)] + [None]
+
     for name, data in (("days.json", out), ("days_b.json", out_b), ("schedule.json", schedule), ("bonus.json", bonus), ("pov.json", pov)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)

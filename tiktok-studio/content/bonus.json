@@ -2032,7 +2032,13 @@
    "match": "dein"
   },
   "short": true,
-  "pin": "Hast du einen Nothammer im Auto? A: Ja oder B: Nein? 👇"
+  "pin": "Hast du einen Nothammer im Auto? A: Ja oder B: Nein? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "hai",
@@ -2122,7 +2128,13 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Schwimmst du noch im Meer? A: Ja oder B: Nie wieder? 👇"
+  "pin": "Schwimmst du noch im Meer? A: Ja oder B: Nie wieder? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "flugzeugtuer",

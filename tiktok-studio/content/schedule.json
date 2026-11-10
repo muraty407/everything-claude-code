@@ -1312,7 +1312,13 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Würdest du hochsteigen? A: Mit Sauerstoff oder B: Niemals? 👇"
+  "pin": "Würdest du hochsteigen? A: Mit Sauerstoff oder B: Niemals? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "thai-hoehle-teil-2",
@@ -1581,7 +1587,13 @@
    "match": "die"
   },
   "short": true,
-  "pin": "Wo wärst du lieber? A: Am Äquator oder B: Am Nordpol? 👇"
+  "pin": "Wo wärst du lieber? A: Am Äquator oder B: Am Nordpol? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "marianengraben",
@@ -1671,7 +1683,13 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Würdest du runtertauchen? A: Ja oder B: Auf keinen Fall? 👇"
+  "pin": "Würdest du runtertauchen? A: Ja oder B: Auf keinen Fall? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "chile-bergleute-teil-1",
@@ -1857,7 +1875,13 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Was ist schlimmer? A: Venus oder B: Mars? 👇"
+  "pin": "Was ist schlimmer? A: Venus oder B: Mars? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
  },
  {
   "slug": "chile-bergleute-teil-2",

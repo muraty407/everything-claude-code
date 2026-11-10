@@ -141,6 +141,32 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   );
 };
 
+// Überlebens-Anzeige: sinkt von Szene zu Szene (wie die „?“-Leiste bei Daddyverse → Grund zum Dranbleiben)
+const SurvivalMeter: React.FC<{ values: (number | null)[]; cur: number; local: number; accent: string }> = ({ values, cur, local }) => {
+  const prev = cur > 0 ? values[cur - 1] ?? values[cur] : values[0];
+  const tgt = values[cur];
+  if (tgt === null || tgt === undefined) {
+    return (
+      <div style={{ position: "absolute", left: 60, right: 60, top: 400, textAlign: "center", fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 40, color: "#fff", textShadow: "0 3px 12px #000" }}>
+        DEINE ÜBERLEBENSCHANCE: <span style={{ color: "#ffd23f" }}>?</span>
+      </div>
+    );
+  }
+  const v = (prev ?? tgt) + (tgt - (prev ?? tgt)) * easeOut(clamp(local / 0.8));
+  const col = v > 60 ? "#39d353" : v > 30 ? "#ffb020" : "#ff3b30";
+  const blink = v <= 15 && Math.sin(local * 10) > 0;
+  return (
+    <div style={{ position: "absolute", left: 60, right: 60, top: 395 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 30, color: "#fff", textShadow: "0 2px 8px #000", letterSpacing: 1 }}>
+        <span>DEINE ÜBERLEBENSCHANCE</span><span style={{ color: col }}>{Math.round(v)} %</span>
+      </div>
+      <div style={{ marginTop: 8, height: 26, borderRadius: 13, background: "#000a", border: "3px solid #000", overflow: "hidden" }}>
+        <div style={{ width: `${v}%`, height: "100%", background: col, opacity: blink ? 0.45 : 1, boxShadow: `0 0 20px ${col}` }} />
+      </div>
+    </div>
+  );
+};
+
 export const WasWaereWenn: React.FC<Props> = (props) => {
   const frame = useCurrentFrame();
   const { day, timeline } = props;
@@ -182,6 +208,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       {day.hook && <FollowButton time={time} start={Math.max(day.punch ? 6 : HOOK_DUR + 3, total * 0.45)} accent={day.accent}
         label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"}
         top={seg.scene === "map" ? 1250 : 965} />}
+      {day.survival && time > 0.25 && <SurvivalMeter values={day.survival} cur={cur} local={time - ts.start} accent={day.accent} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>
   );
