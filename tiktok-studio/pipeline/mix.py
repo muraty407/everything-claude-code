@@ -13,42 +13,68 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SFX = os.path.join(ROOT, "assets", "sfx")
 
 
+MUSIC = os.path.join(ROOT, "assets", "music")
+SFX2 = os.path.join(ROOT, "assets", "sfx2")  # aus der Earshot-Bank gerendert (pipeline/earshot.sh sfx render …)
+
+
+def _sfx(name):
+    p = os.path.join(SFX2, name)
+    return p if os.path.exists(p) else os.path.join(SFX, {"whoosh_a.wav": "whoosh.wav", "whoosh_b.wav": "whoosh.wav",
+                                                          "whoosh_c.wav": "whoosh.wav", "hit.wav": "boom.wav",
+                                                          "sub.wav": "boom.wav", "riser.wav": "whoosh.wav"}.get(name, name))
+
+
 def mix_audio(day, timeline, voice_wav, out_wav):
+    """Sprecher (Mitte) + durchgehende Stereo-Musik (unter der Stimme geduckt) + Effekte an den Schnitten (im Stereo verteilt).
+    Mit Earshot geprüft (pipeline/earshot.sh critique): Musik durchgehend hörbar, Stereo-Breite, -14 LUFS."""
     dur = timeline["duration"]
-    inputs = ["-i", voice_wav, "-stream_loop", "-1", "-i", os.path.join(SFX, "bed.wav")]
-    events = []  # (datei, startzeit, lautstärke)
+    tracks = sorted(f for f in os.listdir(MUSIC) if f.endswith(".wav")) if os.path.isdir(MUSIC) else []
+    music = os.path.join(MUSIC, tracks[sum(map(ord, day["id"])) % len(tracks)]) if tracks else os.path.join(SFX, "bed.wav")
+    inputs = ["-i", voice_wav, "-stream_loop", "-1", "-i", music]
+    events = []  # (datei, startzeit, lautstärke, pan −1..1)
+    whooshes = ["whoosh_a.wav", "whoosh_b.wav", "whoosh_c.wav"]
     for seg, ts in zip(day["segments"], timeline["segments"]):
         fx = seg.get("fx", [])
-        if ts["i"] > 0:
-            events.append(("whoosh.wav", max(0, ts["start"] - 0.3), 0.35))
-        if "shake" in fx or "flash" in fx or (ts["i"] == 0 and day.get("hook")):
-            events.append(("boom.wav", ts["start"], 0.9 if ts["i"] == 0 else 0.8))
-        if seg.get("card") or seg.get("stat") or seg.get("big"):
-            events.append(("pop.wav", ts["start"] + 0.15, 0.45))
+        i = ts["i"]
+        if i > 0:
+            w = whooshes[i % 3]
+            events.append((w, max(0, ts["start"] - (0.45 if w == "whoosh_c.wav" else 0.12)), 0.5, 0.6 if i % 2 else -0.6))
+            events.append(("sub.wav", ts["start"], 0.35, 0.0))  # jeder Schnitt bekommt einen weichen Treffer
+        if "shake" in fx or "flash" in fx:
+            events.append(("hit.wav" if i else "boom.wav", ts["start"], 0.8, 0.0))
+        if seg.get("card") or seg.get("stat") or seg.get("big") or seg.get("phone"):
+            events.append(("pop.wav", ts["start"] + 0.15, 0.6, 0.3 if i % 2 else -0.3))
     if day.get("punch"):
         m = day["punch"]["match"]
         for ts in timeline["segments"]:
             hit = [w for w in ts["words"] if "".join(ch for ch in w["w"].lower() if ch.isalpha()) == m]
             if hit:
-                events.append(("boom.wav", max(0.3, hit[0]["s"]), 1.0))
+                t = max(0.3, hit[0]["s"])
+                events.append(("riser.wav", max(0, t - 0.7), 0.5, 0.0))
+                events.append(("boom.wav", t, 1.0, 0.0))
                 break
+    elif day.get("hook"):
+        events.append(("boom.wav", 0.0, 0.9, 0.0))
     if day["hud"].get("tick") == "down":
         t = 1.0
         while t < dur - 1.5:
-            events.append(("tick.wav", t, 0.12))
+            events.append((os.path.join(SFX, "tick.wav"), t, 0.12, 0.4 if int(t) % 2 else -0.4))
             t += 1.0
-    for f, _, _ in events:
-        inputs += ["-i", os.path.join(SFX, f)]
+    for f, *_ in events:
+        inputs += ["-i", f if os.path.isabs(f) else _sfx(f)]
 
     fc = [
         "[0:a]aformat=sample_rates=48000:channel_layouts=stereo,asplit=2[v][vsc]",
-        f"[1:a]atrim=0:{dur:.3f},afade=t=out:st={max(0, dur - 1.5):.3f}:d=1.5,volume=0.22[bed]",
-        "[bed][vsc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=350[bedd]",
+        f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{dur:.3f},afade=t=in:d=0.15,"
+        f"afade=t=out:st={max(0, dur - 1.2):.3f}:d=1.2,volume=0.75[bed]",
+        "[bed][vsc]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=300:makeup=1[bedd]",
     ]
     labels = ["[v]", "[bedd]"]
-    for k, (_, start, vol) in enumerate(events):
+    for k, (_, start, vol, pan) in enumerate(events):
         ms = int(start * 1000)
-        fc.append(f"[{k + 2}:a]adelay={ms}|{ms},volume={vol}[e{k}]")
+        l, r = (1 - pan) / 2 * 2, (1 + pan) / 2 * 2  # pan 0 → 1/1
+        fc.append(f"[{k + 2}:a]aformat=sample_rates=48000:channel_layouts=stereo,pan=stereo|c0={l:.2f}*c0|c1={r:.2f}*c1,"
+                  f"adelay={ms}|{ms},volume={vol}[e{k}]")
         labels.append(f"[e{k}]")
     fc.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=first,"
               "loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000[out]")
