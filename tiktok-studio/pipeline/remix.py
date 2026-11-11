@@ -28,4 +28,7 @@ for d in days:
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-i", os.path.join(b, "mix.wav"), "-map", "0:v", "-map", "1:a",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", "-shortest", tmp], check=True)
     os.replace(tmp, mp4)
+    for f in os.listdir(b):  # Platz sparen: Zwischendateien wieder löschen
+        if f.endswith(".wav"):
+            os.remove(os.path.join(b, f))
     print("✓ Ton neu:", d["id"], flush=True)

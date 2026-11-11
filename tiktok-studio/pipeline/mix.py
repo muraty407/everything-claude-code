@@ -32,6 +32,7 @@ def mix_audio(day, timeline, voice_wav, out_wav):
     music = os.path.join(MUSIC, tracks[sum(map(ord, day["id"])) % len(tracks)]) if tracks else os.path.join(SFX, "bed.wav")
     inputs = ["-i", voice_wav, "-stream_loop", "-1", "-i", music]
     events = []  # (datei, startzeit, lautstärke, pan −1..1)
+    stop = None  # „Stop-down“: Musik setzt kurz vor dem großen Knall aus → der Knall wirkt stärker
     whooshes = ["whoosh_a.wav", "whoosh_b.wav", "whoosh_c.wav"]
     for seg, ts in zip(day["segments"], timeline["segments"]):
         fx = seg.get("fx", [])
@@ -50,8 +51,9 @@ def mix_audio(day, timeline, voice_wav, out_wav):
             hit = [w for w in ts["words"] if "".join(ch for ch in w["w"].lower() if ch.isalpha()) == m]
             if hit:
                 t = max(0.3, hit[0]["s"])
-                events.append(("riser.wav", max(0, t - 0.7), 0.5, 0.0))
+                events.append(("riser.wav", max(0, t - 0.95), 0.5, 0.0))
                 events.append(("boom.wav", t, 1.0, 0.0))
+                stop = (max(0.0, t - 0.3), t)
                 break
     elif day.get("hook"):
         events.append(("boom.wav", 0.0, 0.9, 0.0))
@@ -67,7 +69,8 @@ def mix_audio(day, timeline, voice_wav, out_wav):
         "[0:a]aformat=sample_rates=48000:channel_layouts=stereo,asplit=2[v][vsc]",
         f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{dur:.3f},afade=t=in:d=0.15,"
         f"afade=t=out:st={max(0, dur - 1.2):.3f}:d=1.2,volume=0.75[bed]",
-        "[bed][vsc]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=300:makeup=1[bedd]",
+        "[bed][vsc]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=300:makeup=1"
+        + (f",volume=0:enable='between(t,{stop[0]:.3f},{stop[1]:.3f})'" if stop else "") + "[bedd]",
     ]
     labels = ["[v]", "[bedd]"]
     for k, (_, start, vol, pan) in enumerate(events):
