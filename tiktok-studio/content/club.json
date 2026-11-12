@@ -79,9 +79,26 @@
     }
    },
    {
-    "text": "The bartender is polishing the same glass for three hours.",
+    "text": "We made 36 dollars tonight. Rent and staff cost 620. We are losing money. Fast.",
     "scene": "3d",
-    "clock": "2 INSIDE",
+    "clock": "CASH",
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "2 GUESTS × $18",
+       "+$36"
+      ],
+      [
+       "RENT + STAFF",
+       "−$620"
+      ],
+      [
+       "BALANCE",
+       "−$584"
+      ]
+     ]
+    },
     "voice": "bouncer",
     "s3d": {
      "room": "club",
@@ -103,7 +120,7 @@
     }
    },
    {
-    "text": "At 10 followers, I hire a second bartender.",
+    "text": "At 10 followers, I hire a second bartender. If we can pay for it.",
     "scene": "3d",
     "clock": "2 / 10",
     "stat": {
@@ -186,6 +203,17 @@
   },
   "music": "club/club1.wav",
   "followers": 2,
+  "cash": -584,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    0,
+    0,
+    -584,
+    -584,
+    -584
+   ]
+  },
   "hashtags": [
    "#club",
    "#nightclub",

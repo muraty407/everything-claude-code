@@ -30,19 +30,36 @@ def inside(guests, dj=False, cam="wide"):
     return {"room": "club", "guests": guests, "dj": dj, "bpm": 124, "cam": c}
 
 
-def episode(night, followers, prev, vip):
+ENTRY, DRINKS = 10, 8          # $ pro Gast: Eintritt + Getränke im Schnitt
+RENT, BARTENDER = 500, 120     # $ pro Nacht
+UPGRADE_COST = {10: 300, 25: 400, 50: 1500, 100: 3000, 250: 8000, 500: 15000, 1000: 40000, 5000: 250000}
+
+
+def finances(followers, cash_before):
+    income = followers * (ENTRY + DRINKS)
+    staff = BARTENDER * (2 if followers >= 10 else 1) + (400 if followers >= 50 else 0)
+    costs = RENT + staff
+    return income, costs, cash_before + income - costs
+
+
+def episode(night, followers, prev, vip, cash_before=0):
     nxt = next((m for m in MILESTONES if m[0] > followers), MILESTONES[-1])
     new = max(0, followers - prev)
     dj = followers >= 50
     B = "bouncer"
+    income, costs, cash = finances(followers, cash_before)
+    money_line = S(f"We made {income} dollars tonight. Rent and staff cost {costs}. " + ("We are losing money. Fast." if income < costs else "For once, we're in profit. Don't get used to it."),
+                   "3d", c="CASH", voice=B, stat=("TONIGHT'S MONEY", [(f"{followers} GUESTS × ${ENTRY + DRINKS}", f"+${income}"), ("RENT + STAFF", f"−${costs}"),
+                                                                       ("BALANCE", ("−$" if cash < 0 else "$") + f"{abs(cash):,}")]),
+                   s3d=inside(followers, dj, "bar"))
     if night == 1:
         segs = [
             S(f"Welcome to Club Daddyverse. Every follower gets in. Tonight we have {followers} guests.", "3d", c="NIGHT 1",
               ctx="CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST", voice=B, s3d=door(followers, yaw=(0.05, -0.05))),
             S("Two. That's not a party. That's a meeting.", "3d", c=f"{followers} INSIDE", voice=B,
               big=(str(followers), "GUESTS INSIDE"), s3d=inside(followers, dj, "wide")),
-            S("The bartender is polishing the same glass for three hours.", "3d", c=f"{followers} INSIDE", voice=B, s3d=inside(followers, dj, "bar")),
-            S(f"At {nxt[0]} followers, I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
+            money_line,
+            S(f"At {nxt[0]} followers, I hire {nxt[1].lower()}. If we can pay for it.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("RIGHT NOW", f"{followers}")]), s3d=inside(followers, dj, "floor")),
             S("Follow, and you're in. Comment your name, and you're on the guest list. I check it. Every night.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
@@ -61,6 +78,7 @@ def episode(night, followers, prev, vip):
             segs.append(S(f"On the guest list tonight: {', '.join(names)}. VIP. Don't touch the ropes.", "3d", c="GUEST LIST", voice=B,
                           stat=("GUEST LIST", [(n.upper(), "VIP ✓") for n in names[:4]]), s3d=inside(followers, dj, "floor")))
         segs += [
+            money_line,
             S(f"{nxt[0] - followers} more followers, and I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("MISSING", str(nxt[0] - followers))]), s3d=inside(followers, dj, "bar")),
             S("Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
@@ -73,7 +91,9 @@ def episode(night, followers, prev, vip):
     d.update(day=night, id=f"club{night:02d}", hook=True, series=f"CLUB DADDYVERSE · NIGHT {night}", badge=f"NIGHT {night}", brand="DADDYVERSE",
              next=f"Night {night + 1}: will the club fill up?", next_label="TOMORROW · NIGHT", followLabel="FOLLOW = YOU'RE IN",
              punch={"word": f"{followers} GUESTS", "match": "welcome" if night == 1 else "night"}, music="club/club1.wav",
-             followers=followers, hashtags=["#club", "#nightclub", "#followers", "#series", "#fyp"])
+             followers=followers, cash=cash,
+             money={"label": "CLUB CASH", "values": [cash if i >= segs.index(money_line) else cash_before for i in range(len(segs))]},
+             hashtags=["#club", "#nightclub", "#followers", "#series", "#fyp"])
     return d
 
 
@@ -83,9 +103,11 @@ if __name__ == "__main__":
     ap.add_argument("--followers", type=int, required=True)
     ap.add_argument("--prev", type=int, default=0)
     ap.add_argument("--vip", default="")
+    ap.add_argument("--cash", type=int, default=None, help="Kontostand vor dieser Nacht (Standard: aus der letzten Folge)")
     a = ap.parse_args()
     p = os.path.join(HERE, "club.json")
     eps = [e for e in (json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []) if e["day"] != a.night]
-    eps.append(episode(a.night, a.followers, a.prev, a.vip))
+    before = a.cash if a.cash is not None else next((e["cash"] for e in reversed(sorted(eps, key=lambda e: e["day"])) if e["day"] < a.night), 0)
+    eps.append(episode(a.night, a.followers, a.prev, a.vip, before))
     json.dump(sorted(eps, key=lambda e: e["day"]), open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("club.json: Night", a.night, "·", a.followers, "followers")
+    print("club.json: Night", a.night, "·", a.followers, "followers · cash", eps[-1]["cash"])

@@ -167,6 +167,24 @@ const SurvivalMeter: React.FC<{ values: (number | null)[]; cur: number; local: n
   );
 };
 
+// Geldanzeige (Club-Serie): Kontostand zählt von Szene zu Szene hoch/runter, rot im Minus, grün im Plus
+const MoneyMeter: React.FC<{ values: number[]; cur: number; local: number; label: string }> = ({ values, cur, local, label }) => {
+  const prev = cur > 0 ? values[cur - 1] : values[0];
+  const v = Math.round(prev + (values[cur] - prev) * easeOut(clamp(local / 0.9)));
+  const col = v < 0 ? "#ff3b30" : "#39d353";
+  const moving = values[cur] !== prev && local < 0.9;
+  const txt = (v < 0 ? "−$" : "$") + Math.abs(v).toLocaleString("en-US");
+  return (
+    <div style={{ position: "absolute", left: 56, top: 400, display: "flex", alignItems: "center", gap: 14, background: "#000c", border: `3px solid ${col}`, borderRadius: 14, padding: "8px 18px", transform: `scale(${moving ? 1.06 : 1})`, boxShadow: `0 0 24px ${col}66` }}>
+      <span style={{ fontSize: 34 }}>💰</span>
+      <div>
+        <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: 2, color: "#ffffffbb" }}>{label}</div>
+        <div style={{ fontFamily: "'JetBrains Mono', monospace", fontWeight: 900, fontSize: 46, color: col, lineHeight: 1 }}>{txt}</div>
+      </div>
+    </div>
+  );
+};
+
 export const WasWaereWenn: React.FC<Props> = (props) => {
   const frame = useCurrentFrame();
   const { day, timeline } = props;
@@ -209,6 +227,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
         label={day.followLabel ?? (/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN")}
         top={seg.scene === "map" ? 1250 : 965} />}
       {day.survival && time > 0.25 && <SurvivalMeter values={day.survival} cur={cur} local={time - ts.start} accent={day.accent} />}
+      {day.money && time > 0.25 && <MoneyMeter values={day.money.values} cur={cur} local={time - ts.start} label={day.money.label} />}
       <Progress p={time / total} accent={day.accent} />
     </AbsoluteFill>
   );
