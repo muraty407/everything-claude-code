@@ -1,0 +1,197 @@
+[
+ {
+  "slug": "club-night-1",
+  "title": "Club Daddyverse – Night 1",
+  "accent": "#ff2fd6",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 1",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Every follower gets into my club. Night 1: 2 guests 🪩 Comment your name for the guest list",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "Welcome to Club Daddyverse. Every follower gets in. Tonight we have 2 guests.",
+    "scene": "3d",
+    "clock": "NIGHT 1",
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 2,
+     "cam": {
+      "pos": [
+       0.4,
+       1.55,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.02,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    }
+   },
+   {
+    "text": "Two. That's not a party. That's a meeting.",
+    "scene": "3d",
+    "clock": "2 INSIDE",
+    "big": {
+     "value": "2",
+     "sub": "GUESTS INSIDE"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 124,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     }
+    }
+   },
+   {
+    "text": "The bartender is polishing the same glass for three hours.",
+    "scene": "3d",
+    "clock": "2 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 124,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     }
+    }
+   },
+   {
+    "text": "At 10 followers, I hire a second bartender.",
+    "scene": "3d",
+    "clock": "2 / 10",
+    "stat": {
+     "title": "NEXT UPGRADE",
+     "rows": [
+      [
+       "10 FOLLOWERS",
+       "A SECOND BARTENDER"
+      ],
+      [
+       "RIGHT NOW",
+       "2"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 124,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
+    "text": "Follow, and you're in. Comment your name, and you're on the guest list. I check it. Every night.",
+    "scene": "3d",
+    "clock": "GUEST LIST",
+    "card": {
+     "kicker": "COMMENT YOUR NAME",
+     "title": "GET ON THE GUEST LIST"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 0,
+     "cam": {
+      "pos": [
+       0.4,
+       1.55,
+       4.4
+      ],
+      "yaw": [
+       -0.1,
+       0.1
+      ],
+      "pitch": 0.02,
+      "move": [
+       0,
+       0,
+       -1.0
+      ]
+     }
+    }
+   }
+  ],
+  "day": 1,
+  "id": "club01",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 1",
+  "badge": "NIGHT 1",
+  "brand": "DADDYVERSE",
+  "next": "Night 2: will the club fill up?",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "2 GUESTS",
+   "match": "welcome"
+  },
+  "music": "club/club1.wav",
+  "followers": 2,
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
+ }
+]

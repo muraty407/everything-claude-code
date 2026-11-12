@@ -36,10 +36,12 @@ EL_VOICES = {
     "second": os.environ.get("ELEVENLABS_VOICE_ID_2", "onwK4e9ZLuTAKqWW03F9"),
     "mama": os.environ.get("ELEVENLABS_VOICE_ID_MAMA", "XrExE9yKIg1WjnnlVkGX"),  # Matilda – POV-Storys
     "girl": os.environ.get("ELEVENLABS_VOICE_ID_GIRL", "cgSgspJ2msm6clMCkdW9"),  # Jessica – junge Stimme (Lena)
+    "bouncer": os.environ.get("ELEVENLABS_VOICE_ID_BOUNCER", "pNInz6obpgDQGcFmaJgB"),  # Adam – tief, trocken (Club-Türsteher, englisch)
 }
 EL_SETTINGS = {
     "narrator": {"stability": 0.42, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True, "speed": 1.08},
     "second": {"stability": 0.55, "similarity_boost": 0.75, "style": 0.2, "use_speaker_boost": True, "speed": 1.0},
+    "bouncer": {"stability": 0.6, "similarity_boost": 0.8, "style": 0.25, "use_speaker_boost": True, "speed": 0.95},
     "girl": {"stability": 0.35, "similarity_boost": 0.8, "style": 0.5, "use_speaker_boost": True, "speed": 1.05},
     "mama": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True, "speed": 1.0},
 }

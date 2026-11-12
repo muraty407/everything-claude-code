@@ -206,7 +206,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
       {day.punch && <PunchWord text={day.punch.word} t={time - punchTime(props)} accent={day.accent} />}
       {day.punch && time - punchTime(props) >= 0 && time - punchTime(props) < 0.25 && <AbsoluteFill style={{ background: "#fff", opacity: 0.55 * (1 - (time - punchTime(props)) / 0.25) }} />}
       {day.hook && <FollowButton time={time} start={Math.max(day.punch ? 6 : HOOK_DUR + 3, total * 0.45)} accent={day.accent}
-        label={/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN"}
+        label={day.followLabel ?? (/teil 1/i.test(day.title) ? "FOLGEN FÜR TEIL 2" : "FOLGEN – NICHTS VERPASSEN")}
         top={seg.scene === "map" ? 1250 : 965} />}
       {day.survival && time > 0.25 && <SurvivalMeter values={day.survival} cur={cur} local={time - ts.start} accent={day.accent} />}
       <Progress p={time / total} accent={day.accent} />

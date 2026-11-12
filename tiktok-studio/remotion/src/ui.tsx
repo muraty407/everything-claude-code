@@ -179,7 +179,7 @@ export const EndCard: React.FC<{ next: string | null; t: number; accent: string;
           <div style={{ fontFamily: ANTON, fontSize: 58, color: "#fff", textAlign: "center", maxWidth: 900, textTransform: "uppercase", WebkitTextStroke: "6px #000", paintOrder: "stroke fill" }}>{next}</div>
         </>
       ) : null}
-      <div style={{ marginTop: 6, fontFamily: INTER, fontWeight: 900, fontSize: 34, color: "#fff", background: accent, padding: "12px 30px", borderRadius: 40, boxShadow: "0 8px 20px #0008" }}>FOLGEN FÜR MEHR ➜</div>
+      <div style={{ marginTop: 6, fontFamily: INTER, fontWeight: 900, fontSize: 34, color: "#fff", background: accent, padding: "12px 30px", borderRadius: 40, boxShadow: "0 8px 20px #0008" }}>{label && /NEXT|TOMORROW/.test(label) ? "FOLLOW TO GET IN ➜" : "FOLGEN FÜR MEHR ➜"}</div>
     </div>
   );
 };

@@ -96,6 +96,7 @@ export type Day = {
   hook?: boolean; // v2: großer Hook-Titel in den ersten Sekunden (Retention)
   punch?: { word: string; match: string }; // v3-Hook: Schlagwort mit Knall statt Titel
   survival?: (number | null)[]; // Überlebens-Anzeige pro Segment (null = „?“ am Ende)
+  followLabel?: string;
   pov?: boolean; // POV-Story: Ich-Perspektive (eigener Arm), Kamera wackelt beim Gehen
   next_label?: string; // z. B. "MORGEN · EXTRA" für Slot B
   segments: Seg[];

@@ -46,15 +46,20 @@ const HAIR = ["#2b1d14", "#5b3a1e", "#d9b26a", "#111111", "#8a3b1c", "#3d2b1f"];
 const SHIRT = ["#e8b33a", "#c0392b", "#3a7bd5", "#6aa84f", "#8e44ad", "#e67e22", "#2c3e50", "#d35480", "#1abc9c"];
 
 // Figur (sitzend oder stehend). look = Kopfdrehung zur Seite (rad), t = Zeit für Atmen/Zappeln
-export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0 }) => {
-  const skin = SKIN[seed % SKIN.length], hair = HAIR[(seed * 7) % HAIR.length], shirt = SHIRT[(seed * 5) % SHIRT.length];
+export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number; dance?: number; sc?: number; shirtC?: string }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0, dance = 0, sc = 1, shirtC }) => {
+  const skin = SKIN[seed % SKIN.length], hair = HAIR[(seed * 7) % HAIR.length], shirt = shirtC ?? SHIRT[(seed * 5) % SHIRT.length];
   const pants = seed % 2 ? "#2f3b52" : "#3b3b3b";
   const breathe = Math.sin(t * 2 + seed) * 0.01;
   const fidget = Math.sin(t * (1.3 + (seed % 5) * 0.2) + seed) * 0.08 * (1 + scared * 2);
   const stride = run ? Math.sin(t * 9 + seed) * 0.6 : 0;
   const y0 = seated ? 0.45 : 0.8;
+  // Tanzen: im Takt (dance = Schläge pro Sekunde) wippen, Arme hoch, leicht drehen
+  const beatPh = dance ? t * dance * Math.PI * 2 + (seed % 2) * Math.PI : 0;
+  const hop = dance ? Math.abs(Math.sin(beatPh / 2)) * 0.09 : 0;
+  const armUp = dance ? -2.2 + 0.5 * Math.sin(beatPh + seed) : 0;
+  const twist = dance ? Math.sin(beatPh / 2 + seed) * 0.35 : 0;
   return (
-    <group position={p} rotation={[0, ry, 0]}>
+    <group position={[p[0], p[1] + hop, p[2]]} rotation={[0, ry + twist, 0]} scale={[sc, sc, sc]}>
       {/* Beine */}
       {seated ? (
         <>
@@ -72,8 +77,8 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
       {/* Oberkörper */}
       <group position={[0, y0 + 0.32 + breathe, 0]} rotation={[run ? -0.25 : 0, 0, 0]}>
         <TBox p={[0, 0, 0]} s={[0.42, 0.6, 0.24]} c={shirt} />
-        <TBox p={[-0.27, -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 + fidget : stride * 0.8, 0, 0.05]} />
-        <TBox p={[0.27, -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 - fidget : -stride * 0.8, 0, -0.05]} />
+        <TBox p={[-0.27, dance && seed % 3 ? 0.3 : -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 + fidget : dance && seed % 3 ? armUp : stride * 0.8, 0, 0.05]} />
+        <TBox p={[0.27, dance && seed % 2 ? 0.3 : -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 - fidget : dance && seed % 2 ? armUp : -stride * 0.8, 0, -0.05]} />
         {/* Kopf */}
         <group position={[0, 0.48, 0]} rotation={[0, look + fidget * 0.5, 0]}>
           <TSphere p={[0, 0, 0]} r={0.19} c={skin} sc={[1, 1.12, 1]} />
@@ -154,7 +159,11 @@ const HeadCam: React.FC<{ pos: V3; yaw: number; pitch: number; t: number; walk: 
 };
 
 export type Scene3D = {
-  room: "classroom" | "hallway" | "stairs" | "bathroom" | "yard";
+  room: "classroom" | "hallway" | "stairs" | "bathroom" | "yard" | "club" | "clubdoor";
+  guests?: number; // Club: Gäste auf der Tanzfläche
+  queue?: number; // Club-Eingang: Schlange vor der Tür
+  dj?: boolean;
+  bpm?: number;
   torch?: boolean; // Handy-Taschenlampe
   ladder?: boolean; // Drehleiter am Fenster + Blaulicht
   door?: string; // Schild an der Tür am Flurende
@@ -348,6 +357,98 @@ const Yard: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) => 
   );
 };
 
+const NEON = ["#ff2fd6", "#00e5ff", "#ffe600", "#7a5cff", "#2dff6f", "#ff5a1f"];
+
+const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
+  const bps = (sc.bpm ?? 124) / 60;
+  const beat = Math.floor(t * bps);
+  const n = Math.min(sc.guests ?? 0, 260);
+  const r = mulberry(77);
+  const spots = Array.from({ length: n }, (_, i) => {
+    // von der Mitte nach außen füllen
+    const ring = Math.sqrt(i + 0.5) * 0.62, a = i * 2.39996;
+    return [Math.cos(a) * ring + (r() - 0.5) * 0.2, Math.sin(a) * ring * 0.8 - 2.5 + (r() - 0.5) * 0.2] as [number, number];
+  });
+  return (
+    <group>
+      {/* leuchtende Tanzfläche */}
+      {Array.from({ length: 10 }, (_, i) => Array.from({ length: 8 }, (_, j) => {
+        const c = NEON[(i * 3 + j * 5 + beat) % NEON.length];
+        const on = (i + j + beat) % 3 === 0;
+        return <TBox key={`f${i}-${j}`} p={[-4.5 + i, 0.0, -6 + j]} s={[0.96, 0.06, 0.96]} c={on ? c : "#1b1630"} e={on ? c : undefined} noLine />;
+      }))}
+      <TBox p={[0, -0.06, -2.5]} s={[16, 0.1, 14]} c="#0d0b18" noLine />
+      <TBox p={[0, 4.6, -2.5]} s={[16, 0.1, 14]} c="#0a0814" noLine />
+      <TBox p={[0, 2.3, -9.3]} s={[16, 4.8, 0.2]} c="#1a1233" />
+      <TBox p={[-7.9, 2.3, -2.5]} s={[0.2, 4.8, 14]} c="#161030" />
+      <TBox p={[7.9, 2.3, -2.5]} s={[0.2, 4.8, 14]} c="#161030" />
+      {/* Neon-Streifen */}
+      {[0, 1, 2, 3].map((i) => <TBox key={`n${i}`} p={[-6 + i * 4, 3.6, -9.15]} s={[2.6, 0.12, 0.05]} c={NEON[(i + beat) % 6]} e={NEON[(i + beat) % 6]} noLine />)}
+      {[0, 1, 2].map((i) => <TBox key={`nl${i}`} p={[-7.75, 1.2 + i * 1.1, -2.5]} s={[0.05, 0.1, 9]} c={NEON[(i * 2 + beat) % 6]} e={NEON[(i * 2 + beat) % 6]} noLine />)}
+      {/* Bar links mit Barkeeper + Flaschenregal */}
+      <TBox p={[-6.2, 0.6, -3]} s={[1.0, 1.2, 5]} c="#3a2550" />
+      <TBox p={[-6.2, 1.22, -3]} s={[1.2, 0.08, 5.2]} c="#ff2fd6" e="#7a1466" />
+      <TBox p={[-7.6, 2.2, -3]} s={[0.3, 1.6, 4.6]} c="#22183d" />
+      {Array.from({ length: 9 }, (_, i) => <TBox key={`b${i}`} p={[-7.4, 1.9 + (i % 2) * 0.6, -4.8 + i * 0.45]} s={[0.1, 0.35, 0.1]} c={NEON[i % 6]} e={NEON[i % 6]} line={0.01} />)}
+      <Person p={[-7.0, 0, -3]} ry={-Math.PI / 2} seed={17} t={t} shirtC="#111111" />
+      {/* DJ-Pult hinten (leer, bis es einen DJ gibt) */}
+      <TBox p={[0, 0.7, -8.3]} s={[3.2, 1.4, 1.0]} c="#22183d" />
+      <TBox p={[0, 1.45, -8.3]} s={[3.4, 0.1, 1.2]} c="#00e5ff" e="#0a5a66" />
+      {[-2.6, 2.6].map((x) => <TBox key={x} p={[x, 1.2, -8.6]} s={[1.0, 2.4, 0.8]} c="#111" />)}
+      {[-2.6, 2.6].map((x) => <mesh key={`sp${x}`} position={[x, 1.5, -8.15]} material={toon("#2a2a2a")}><cylinderGeometry args={[0.32 + 0.03 * Math.abs(Math.sin(t * bps * Math.PI)), 0.32, 0.1, 20]} /></mesh>)}
+      {sc.dj && <Person p={[0, 0, -8.9]} ry={0} seed={5} t={t} dance={bps} shirtC="#ffe600" />}
+      {/* Discokugel */}
+      <group position={[0, 3.9, -3]} rotation={[0, t * 0.8, 0]}>
+        <mesh material={toon("#dfe6ee", "#555b66")}><icosahedronGeometry args={[0.45, 1]} /></mesh>
+      </group>
+      <TBox p={[0, 4.35, -3]} s={[0.04, 0.5, 0.04]} c="#888" noLine />
+      {/* wandernde Scheinwerfer */}
+      {[0, 1, 2].map((i) => (
+        <pointLight key={`pl${i}`} position={[Math.sin(t * 0.9 + i * 2.1) * 4, 3.2, -3 + Math.cos(t * 0.7 + i * 2.1) * 3]} color={NEON[(i * 2 + beat) % 6]} intensity={14} distance={9} />
+      ))}
+      {/* Gäste */}
+      {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} />)}
+    </group>
+  );
+};
+
+const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
+  const q = Math.min(sc.queue ?? 0, 14);
+  const flick = Math.sin(t * 23) > -0.9 ? 1 : 0.3;
+  return (
+    <group>
+      <TBox p={[0, -0.05, 2]} s={[30, 0.1, 20]} c="#23252b" noLine />
+      <TBox p={[0, 0.01, 1.2]} s={[30, 0.02, 0.15]} c="#f1c40f" noLine />
+      {/* Fassade */}
+      <TBox p={[0, 4, -3.2]} s={[18, 8, 0.4]} c="#2a2140" />
+      {Array.from({ length: 8 }, (_, i) => <TBox key={`br${i}`} p={[-7.8 + i * 2.2, 5.6, -2.98]} s={[1.4, 1.2, 0.05]} c="#15122a" e={i % 3 === 1 ? "#3a2a10" : undefined} />)}
+      {/* Tür + Neon-Schild */}
+      <TBox p={[0, 1.3, -2.98]} s={[1.7, 2.6, 0.08]} c="#120d22" e="#3d0a36" />
+      <TBox p={[0, 2.75, -2.95]} s={[2.1, 0.12, 0.1]} c="#ff2fd6" e="#ff2fd6" noLine />
+      <TBox p={[-1.02, 1.35, -2.95]} s={[0.12, 2.8, 0.1]} c="#ff2fd6" e="#ff2fd6" noLine />
+      <TBox p={[1.02, 1.35, -2.95]} s={[0.12, 2.8, 0.1]} c="#ff2fd6" e="#ff2fd6" noLine />
+      <TBox p={[0, 3.7, -2.9]} s={[5.2, 1.1, 0.15]} c="#1a1233" />
+      <TBox p={[0, 3.7, -2.8]} s={[4.8, 0.12, 0.05]} c="#00e5ff" e={flick > 0.5 ? "#00e5ff" : "#053a44"} noLine />
+      <pointLight position={[0, 2.4, -1.6]} color="#ff2fd6" intensity={22 * flick} distance={9} />
+      {/* roter Teppich, Absperrband, Laterne */}
+      <TBox p={[0, 0.02, -0.6]} s={[1.8, 0.03, 4.6]} c="#8e1b2e" noLine />
+      {[-1.2, 1.2].map((x) => [0.2, -1.6].map((z) => (
+        <group key={`${x}${z}`}>
+          <TBox p={[x, 0.5, z]} s={[0.08, 1.0, 0.08]} c="#d4af37" line={0.012} />
+          <TSphere p={[x, 1.03, z]} r={0.07} c="#d4af37" />
+        </group>
+      )))}
+      {[-1.2, 1.2].map((x) => <TBox key={`rp${x}`} p={[x, 0.88, -0.7]} s={[0.05, 0.05, 1.8]} c="#b0122a" line={0.01} />)}
+      <TBox p={[4.5, 2.2, -1]} s={[0.12, 4.4, 0.12]} c="#333" />
+      <TBox p={[4.5, 4.4, -1]} s={[0.5, 0.2, 0.5]} c="#ffe9a8" e="#ffe9a8" />
+      <pointLight position={[4.5, 4, -1]} color="#ffd9a0" intensity={10} distance={10} />
+      {/* Türsteher (groß, schwarz) + Schlange */}
+      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#0e0e10" look={Math.sin(t * 0.8) * 0.3} />
+      {Array.from({ length: q }, (_, i) => <Person key={`q${i}`} p={[-0.1 + Math.sin(i) * 0.15, 0, 0.6 + i * 0.85]} ry={Math.PI} seed={i + 40} t={t} look={Math.sin(t + i) * 0.4} />)}
+    </group>
+  );
+};
+
 const lerp = (a: number, b: number, k: number) => a + (b - a) * Math.max(0, Math.min(1, k));
 
 export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: number; height: number; shake?: number }> = ({ sc, t, dur, width, height, shake = 0 }) => {
@@ -359,8 +460,8 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
   const alarmPulse = sc.alarm ? (Math.sin(t * 9) > 0 ? 1 : 0) : 0;
   return (
     <ThreeCanvas width={width} height={height} style={{ position: "absolute", inset: 0 }} gl={{ antialias: true }}>
-      <color attach="background" args={[sc.room === "yard" ? "#9ec9ea" : sc.dark ? "#1a1c22" : "#dfe6ee"]} />
-      <fog attach="fog" args={[sc.dark ? "#22252c" : "#b9bcc2", 2 + (1 - smokeAmt) * 30, 9 + (1 - smokeAmt) * 60]} />
+      <color attach="background" args={[sc.room === "yard" ? "#9ec9ea" : sc.room === "club" ? "#07060f" : sc.room === "clubdoor" ? "#0b1024" : sc.dark ? "#1a1c22" : "#dfe6ee"]} />
+      <fog attach="fog" args={[sc.room.startsWith("club") ? "#0b0a18" : sc.dark ? "#22252c" : "#b9bcc2", 2 + (1 - smokeAmt) * 30, 9 + (1 - smokeAmt) * 60]} />
       <ambientLight intensity={sc.dark ? 0.22 : 0.75} />
       <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.3 : 1.9} />
       {sc.alarm && <pointLight position={[0, 2.6, pos[2] - 2]} color="#ff2020" intensity={alarmPulse * 7} distance={9} />}
@@ -369,6 +470,8 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
       {sc.room === "hallway" && <Hallway t={t} sc={sc} k={k} />}
       {sc.room === "bathroom" && <Bathroom t={t} sc={sc} k={k} />}
       {sc.room === "yard" && <Yard t={t} sc={sc} k={k} />}
+      {sc.room === "club" && <Club t={t} sc={sc} />}
+      {sc.room === "clubdoor" && <ClubDoor t={t} sc={sc} />}
       {sc.torch && <pointLight position={[pos[0], pos[1] + 0.5, pos[2] - 2.8]} color="#fff4d8" intensity={3} distance={7} decay={2} />}
     </ThreeCanvas>
   );

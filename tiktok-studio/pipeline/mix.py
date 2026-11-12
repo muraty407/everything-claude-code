@@ -28,8 +28,10 @@ def mix_audio(day, timeline, voice_wav, out_wav):
     """Sprecher (Mitte) + durchgehende Stereo-Musik (unter der Stimme geduckt) + Effekte an den Schnitten (im Stereo verteilt).
     Mit Earshot geprüft (pipeline/earshot.sh critique): Musik durchgehend hörbar, Stereo-Breite, -14 LUFS."""
     dur = timeline["duration"]
-    tracks = sorted(f for f in os.listdir(MUSIC) if f.endswith(".wav")) if os.path.isdir(MUSIC) else []
+    tracks = sorted(f for f in os.listdir(MUSIC) if f.endswith(".wav") and f.startswith("track")) if os.path.isdir(MUSIC) else []
     music = os.path.join(MUSIC, tracks[sum(map(ord, day["id"])) % len(tracks)]) if tracks else os.path.join(SFX, "bed.wav")
+    if day.get("music") and os.path.exists(os.path.join(MUSIC, day["music"])):
+        music = os.path.join(MUSIC, day["music"])  # z. B. club/club1.wav
     inputs = ["-i", voice_wav, "-stream_loop", "-1", "-i", music]
     events = []  # (datei, startzeit, lautstärke, pan −1..1)
     stop = None  # „Stop-down“: Musik setzt kurz vor dem großen Knall aus → der Knall wirkt stärker
