@@ -175,7 +175,7 @@ const MoneyMeter: React.FC<{ values: number[]; cur: number; local: number; label
   const moving = values[cur] !== prev && local < 0.9;
   const txt = (v < 0 ? "−$" : "$") + Math.abs(v).toLocaleString("en-US");
   return (
-    <div style={{ position: "absolute", left: 56, top: 400, display: "flex", alignItems: "center", gap: 14, background: "#000c", border: `3px solid ${col}`, borderRadius: 14, padding: "8px 18px", transform: `scale(${moving ? 1.06 : 1})`, boxShadow: `0 0 24px ${col}66` }}>
+    <div style={{ position: "absolute", right: 48, top: 322, display: "flex", alignItems: "center", gap: 14, background: "#000c", border: `3px solid ${col}`, borderRadius: 14, padding: "8px 18px", transform: `scale(${moving ? 1.06 : 1})`, boxShadow: `0 0 24px ${col}66` }}>
       <span style={{ fontSize: 34 }}>💰</span>
       <div>
         <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 800, fontSize: 20, letterSpacing: 2, color: "#ffffffbb" }}>{label}</div>

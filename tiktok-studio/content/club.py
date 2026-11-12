@@ -32,7 +32,7 @@ LIKE_REWARDS = ["free champagne for everyone", "I smile. Once.", "the bartender 
 
 
 def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4):
-    return {"room": "clubdoor", "queue": queue, "cam": {"pos": [0.4, 1.55, z], "yaw": list(yaw), "pitch": 0.02, "move": [0, 0, dz]}}
+    return {"room": "clubdoor", "queue": queue, "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
 
 
 def inside(guests, dj=False, cam="wide", bpm=122):

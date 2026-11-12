@@ -422,7 +422,7 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {[[-3, -2.5], [3, -2.5], [0, -6]].map(([x, z], i) => (
         <group key={`ch${i}`} position={[x, 3.7, z]} rotation={[0, t * 0.15 + i, 0]}>
           <TBox p={[0, 0.55, 0]} s={[0.04, 0.7, 0.04]} c={GOLD} noLine />
-          <mesh material={toon(GOLD, GOLD_E)}><torusGeometry args={[0.55, 0.04, 8, 24]} /></mesh>
+          <mesh rotation={[Math.PI / 2, 0, 0]} material={toon(GOLD, GOLD_E)}><torusGeometry args={[0.55, 0.04, 8, 24]} /></mesh>
           {Array.from({ length: 8 }, (_, k) => <TBox key={k} p={[Math.cos(k * 0.785) * 0.55, -0.12, Math.sin(k * 0.785) * 0.55]} s={[0.07, 0.2, 0.07]} c="#fff3d0" e="#ffd98a" noLine />)}
           <pointLight color="#ffd9a0" intensity={9 + 5 * pulse} distance={8} />
         </group>
@@ -469,7 +469,7 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       <pointLight position={[4.5, 4, -1]} color="#ffd9a0" intensity={10} distance={10} />
       {/* Türsteher (groß, schwarz) + Schlange */}
       <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#0e0e10" look={Math.sin(t * 0.8) * 0.3} />
-      {Array.from({ length: q }, (_, i) => <Person key={`q${i}`} p={[-0.1 + Math.sin(i) * 0.15, 0, 0.6 + i * 0.85]} ry={Math.PI} seed={i + 40} t={t} look={Math.sin(t + i) * 0.4} shirtC={SUITS[i % SUITS.length]} />)}
+      {Array.from({ length: q }, (_, i) => <Person key={`q${i}`} p={[-1.75 + Math.sin(i) * 0.12, 0, -1.4 + i * 0.85]} ry={Math.PI} seed={i + 40} t={t} look={Math.sin(t + i) * 0.4} shirtC={SUITS[i % SUITS.length]} />)}
     </group>
   );
 };
@@ -487,7 +487,7 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
     <ThreeCanvas width={width} height={height} style={{ position: "absolute", inset: 0 }} gl={{ antialias: true }}>
       <color attach="background" args={[sc.room === "yard" ? "#9ec9ea" : sc.room === "club" ? "#08070a" : sc.room === "clubdoor" ? "#0a0c14" : sc.dark ? "#1a1c22" : "#dfe6ee"]} />
       <fog attach="fog" args={[sc.room.startsWith("club") ? "#0c0a0c" : sc.dark ? "#22252c" : "#b9bcc2", 2 + (1 - smokeAmt) * 30, 9 + (1 - smokeAmt) * 60]} />
-      <ambientLight intensity={sc.dark ? 0.22 : 0.75} />
+      <ambientLight intensity={sc.room.startsWith("club") ? 0.5 : sc.dark ? 0.22 : 0.75} />
       <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.3 : 1.9} />
       {sc.alarm && <pointLight position={[0, 2.6, pos[2] - 2]} color="#ff2020" intensity={alarmPulse * 7} distance={9} />}
       <HeadCam pos={pos} yaw={yaw} pitch={sc.cam.pitch ?? -0.12} t={t} walk={sc.cam.walk ?? 0} shake={shake} fov={sc.fov ?? 98} />
