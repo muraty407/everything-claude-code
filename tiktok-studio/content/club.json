@@ -23,10 +23,37 @@
   ],
   "segments": [
    {
-    "text": "Welcome to Club Daddyverse. Every follower gets in. Tonight we have 2 guests.",
+    "text": "My nightclub loses 584 dollars a night. Because it has exactly 2 guests.",
     "scene": "3d",
     "clock": "NIGHT 1",
     "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ],
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
+    "text": "Every follower gets in. I'm the bouncer. I decide who stays.",
+    "scene": "3d",
+    "clock": "2 INSIDE",
     "voice": "bouncer",
     "s3d": {
      "room": "clubdoor",
@@ -51,7 +78,7 @@
     }
    },
    {
-    "text": "Two. That's not a party. That's a meeting.",
+    "text": "Two guests. That's not a party. That's a meeting.",
     "scene": "3d",
     "clock": "2 INSIDE",
     "big": {
@@ -79,7 +106,7 @@
     }
    },
    {
-    "text": "We made 36 dollars tonight. Rent and staff cost 620. We are losing money. Fast.",
+    "text": "We made 36 dollars. Rent and staff cost 620. Do the math.",
     "scene": "3d",
     "clock": "CASH",
     "stat": {
@@ -157,7 +184,7 @@
     }
    },
    {
-    "text": "You decide. What do we play tomorrow? A: Deep House. B: Tech House. C: Disco House. Comment your letter. Most votes win.",
+    "text": "You decide. What do we play tomorrow? A: Deep House. B: Tech House. C: Disco House. Comment your letter.",
     "scene": "3d",
     "clock": "YOU DECIDE",
     "stat": {
@@ -198,35 +225,7 @@
     }
    },
    {
-    "text": "And if this video hits 25 likes: free champagne for everyone.",
-    "scene": "3d",
-    "clock": "LIKE GOAL",
-    "big": {
-     "value": "25 ❤",
-     "sub": "LIKE GOAL · FREE CHAMPAGNE FOR EVERYONE"
-    },
-    "voice": "bouncer",
-    "s3d": {
-     "room": "club",
-     "guests": 2,
-     "dj": false,
-     "bpm": 122,
-     "cam": {
-      "pos": [
-       5.2,
-       3.0,
-       3.6
-      ],
-      "yaw": [
-       0.62,
-       0.48
-      ],
-      "pitch": -0.32
-     }
-    }
-   },
-   {
-    "text": "Follow, and you're in. Comment your name, and you're on the guest list.",
+    "text": "25 likes, and there's free champagne for everyone. Follow, and you're in. Comment your name for the guest list.",
     "scene": "3d",
     "clock": "GUEST LIST",
     "card": {
@@ -267,8 +266,8 @@
   "next_label": "TOMORROW · NIGHT",
   "followLabel": "FOLLOW = YOU'RE IN",
   "punch": {
-   "word": "2 GUESTS",
-   "match": "welcome"
+   "word": "−$584 A NIGHT",
+   "match": "loses"
   },
   "music": "club/deep.wav",
   "followers": 2,
@@ -276,8 +275,8 @@
   "money": {
    "label": "CLUB CASH",
    "values": [
-    0,
-    0,
+    -584,
+    -584,
     -584,
     -584,
     -584,

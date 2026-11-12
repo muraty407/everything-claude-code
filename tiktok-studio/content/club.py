@@ -66,38 +66,52 @@ def episode(night, followers, prev, vip, cash_before=0, music="deep", winner="",
         return _inside(g, d, cam, bpm)
     income, costs, cash = finances(followers, cash_before)
     ptitle, pq, popts = POLLS[(night - 1) % len(POLLS)]
-    poll = S(f"You decide. {pq} " + " ".join(f"{k}: {v.title()}." for k, v in popts) + " Comment your letter. Most votes win.", "3d", c="YOU DECIDE", voice=B,
+    poll = S(f"You decide. {pq} " + " ".join(f"{k}: {v.title()}." for k, v in popts) + " Comment your letter.", "3d", c="YOU DECIDE", voice=B,
              stat=(ptitle + " · COMMENT TO VOTE", [(k, v) for k, v in popts]), s3d=inside(followers, dj, "floor"))
     goal = like_goal or max(25, int(round(followers * 2, -1)) or 25)
     reward = LIKE_REWARDS[(night - 1) % len(LIKE_REWARDS)]
     like_seg = S(f"And if this video hits {goal} likes: {reward}.", "3d", c="LIKE GOAL", voice=B, big=(f"{goal} ❤", "LIKE GOAL · " + reward.upper()[:34]),
                  s3d=inside(followers, dj, "wide"))
-    money_line = S(f"We made {income} dollars tonight. Rent and staff cost {costs}. " + ("We are losing money. Fast." if income < costs else "For once, we're in profit. Don't get used to it."),
+    money_line = S(f"We made {income} dollars. Rent and staff cost {costs}. " + ("Do the math." if income < costs else "For once, we're in profit. Don't get used to it."),
                    "3d", c="CASH", voice=B, stat=("TONIGHT'S MONEY", [(f"{followers} GUESTS × ${ENTRY + DRINKS}", f"+${income}"), ("RENT + STAFF", f"−${costs}"),
                                                                        ("BALANCE", ("−$" if cash < 0 else "$") + f"{abs(cash):,}")]),
                    s3d=inside(followers, dj, "bar"))
     if night == 1:
+        loss = costs - income
         segs = [
-            S(f"Welcome to Club Daddyverse. Every follower gets in. Tonight we have {followers} guests.", "3d", c="NIGHT 1",
-              ctx="CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST", voice=B, s3d=door(followers, yaw=(0.05, -0.05))),
-            S("Two. That's not a party. That's a meeting.", "3d", c=f"{followers} INSIDE", voice=B,
+            # Hook: sofort drinnen (hell, Bewegung), Verlust als Schlagzeile – erst danach die Erklärung
+            S(f"My nightclub loses {loss} dollars a night. Because it has exactly {followers} guests.", "3d", c="NIGHT 1",
+              ctx="CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST", voice=B, fx="shake", s3d=inside(followers, dj, "floor")),
+            S("Every follower gets in. I'm the bouncer. I decide who stays.", "3d", c=f"{followers} INSIDE", voice=B,
+              s3d=door(followers, yaw=(0.05, -0.05))),
+            S("Two guests. That's not a party. That's a meeting.", "3d", c=f"{followers} INSIDE", voice=B,
               big=(str(followers), "GUESTS INSIDE"), s3d=inside(followers, dj, "wide")),
             money_line,
             S(f"At {nxt[0]} followers, I hire {nxt[1].lower()}. If we can pay for it.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("RIGHT NOW", f"{followers}")]), s3d=inside(followers, dj, "floor")),
-            poll, like_seg,
-            S("Follow, and you're in. Comment your name, and you're on the guest list.", "3d", c="GUEST LIST", voice=B,
+            poll,
+            S(f"{goal} likes, and there's {reward}. Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
         ]
     else:
         names = [n.strip() for n in vip.split(",") if n.strip()]
-        mood = ("We lost guests. I had to throw them out. They know what they did." if new < 0 else
-                "Nobody new tonight. I'm standing here for nothing." if new == 0 else
-                f"{new} new guests tonight. I let them in. Reluctantly.")
+        mood = ("They know what they did." if new < 0 else "The bartender is talking to himself." if new == 0 else "I let them in. Reluctantly.")
+        # Hook (Regel für alle Folgen): sofort drinnen, die stärkste Zahl des Abends als Schlagzeile, erst dann erklären
+        hit = next((m for m in MILESTONES if prev < m[0] <= followers), None)
+        if hit:
+            head, pw = f"We just hit {hit[0]} followers. So I had to hire {hit[1].lower()}.", f"{hit[0]} FOLLOWERS"
+        elif new < 0:
+            head, pw = f"We lost {-new} guests last night. I threw them out myself.", f"{new} GUESTS"
+        elif new == 0:
+            head, pw = "Nobody new came in last night. Nobody. I stood there for nothing.", "0 NEW GUESTS"
+        elif cash < 0:
+            head, pw = f"{new} new guests walked in. And the club is still {abs(cash):,} dollars in debt.", f"−${abs(cash):,}"
+        else:
+            head, pw = f"{new} new guests walked in. And for the first time, the club is making money.", f"+{new} GUESTS"
         segs = [
-            S(f"Night {night} at Club Daddyverse. {followers} guests inside.", "3d", c=f"NIGHT {night}", ctx="CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
-              voice=B, s3d=door(min(new, 12), yaw=(0.05, -0.05))),
-            S(mood, "3d", c=f"{followers} INSIDE", voice=B, big=(f"+{new}" if new >= 0 else str(new), "SINCE LAST NIGHT"), s3d=inside(followers, dj, "wide")),
+            S(head, "3d", c=f"NIGHT {night}", ctx="CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST", voice=B, fx="shake", s3d=inside(followers, dj, "floor")),
+            S(f"Night {night}. {followers} guests inside. " + mood, "3d", c=f"{followers} INSIDE", voice=B,
+              big=(f"+{new}" if new >= 0 else str(new), "SINCE LAST NIGHT"), s3d=door(min(max(new, 0), 12), yaw=(0.05, -0.05))),
         ]
         if winner:
             segs.append(S(f"You voted. Tonight: {winner}. Don't blame me.", "3d", c="YOUR VOTE", voice=B, card=("YOU VOTED", winner.upper()), s3d=inside(followers, dj, "floor")))
@@ -111,8 +125,8 @@ def episode(night, followers, prev, vip, cash_before=0, music="deep", winner="",
             money_line,
             S(f"{nxt[0] - followers} more followers, and I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("MISSING", str(nxt[0] - followers))]), s3d=inside(followers, dj, "bar")),
-            poll, like_seg,
-            S("Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
+            poll,
+            S(f"{goal} likes, and {reward}. Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
         ]
     d = V(f"club-night-{night}", f"Club Daddyverse – Night {night}", "#d4af37", ("TONIGHT", None),
@@ -121,9 +135,9 @@ def episode(night, followers, prev, vip, cash_before=0, music="deep", winner="",
           ["club", "followers", "nightclub", "series"], segs)
     d.update(day=night, id=f"club{night:02d}", hook=True, series=f"CLUB DADDYVERSE · NIGHT {night}", badge=f"NIGHT {night}", brand="DADDYVERSE",
              next=f"Night {night + 1}: will the club fill up?", next_label="TOMORROW · NIGHT", followLabel="FOLLOW = YOU'RE IN",
-             punch={"word": f"{followers} GUESTS", "match": "welcome" if night == 1 else "night"}, music=track,
+             punch={"word": f"−${costs - income} A NIGHT", "match": "loses"} if night == 1 else {"word": pw, "match": segs[0]["text"].split()[1].lower().strip(".,")}, music=track,
              followers=followers, cash=cash,
-             money={"label": "CLUB CASH", "values": [cash if i >= segs.index(money_line) else cash_before for i in range(len(segs))]},
+             money={"label": "CLUB CASH", "values": [cash if (night == 1 or i >= segs.index(money_line)) else cash_before for i in range(len(segs))]},
              hashtags=["#club", "#nightclub", "#followers", "#series", "#fyp"])
     return d
 
