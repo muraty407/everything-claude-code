@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>html,body{margin:0;background:#000}</style></head><body>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset=".35" stop-color="#e9c14a"/><stop offset=".65" stop-color="#b8862a"/><stop offset="1" stop-color="#f6dc8a"/></linearGradient>
+ <radialGradient id="bg" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#2a1a22"/><stop offset=".6" stop-color="#0d0b10"/><stop offset="1" stop-color="#050506"/></radialGradient>
+ <radialGradient id="ball" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#c9ced6"/><stop offset="1" stop-color="#5b6068"/></radialGradient>
+ <clipPath id="bc"><circle cx="540" cy="318" r="118"/></clipPath>
+ <filter id="glow"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<!-- Lichtstrahlen -->
+<g opacity=".16" fill="#ffd98a">
+ <path d="M540 318 L120 1080 L300 1080 Z"/><path d="M540 318 L460 1080 L620 1080 Z"/><path d="M540 318 L780 1080 L960 1080 Z"/>
+</g>
+<!-- Goldring -->
+<circle cx="540" cy="540" r="470" fill="none" stroke="url(#gold)" stroke-width="42" opacity=".35" filter="url(#glow)"/>
+<circle cx="540" cy="540" r="470" fill="none" stroke="url(#gold)" stroke-width="20"/>
+<circle cx="540" cy="540" r="436" fill="none" stroke="url(#gold)" stroke-width="4" opacity=".7"/>
+<!-- Discokugel -->
+<line x1="540" y1="96" x2="540" y2="204" stroke="url(#gold)" stroke-width="8"/>
+<circle cx="540" cy="318" r="118" fill="url(#ball)"/>
+<g clip-path="url(#bc)" stroke="#2b2f36" stroke-width="3" opacity=".55" fill="none">
+ <path d="M422 260 H658 M422 300 H658 M422 340 H658 M422 380 H658"/>
+ <ellipse cx="540" cy="318" rx="40" ry="118"/><ellipse cx="540" cy="318" rx="84" ry="118"/><line x1="540" y1="200" x2="540" y2="436"/>
+</g>
+<circle cx="540" cy="318" r="118" fill="none" stroke="#111" stroke-width="6"/>
+<g fill="#fff"><path d="M470 250 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z"/><path d="M700 260 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5z" opacity=".9"/><path d="M380 380 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z" opacity=".8"/></g>
+<!-- Monogramm -->
+<text x="540" y="760" text-anchor="middle" font-family="Anton" font-size="330" fill="url(#gold)" stroke="#1a1206" stroke-width="6" letter-spacing="6">DV</text>
+<text x="540" y="850" text-anchor="middle" font-family="Anton" font-size="62" fill="#f3e3b0" letter-spacing="16">DADDYVERSE</text>
+</svg></body></html>
