@@ -89,3 +89,10 @@ INSERTS = [
 
 # 3D-POV „Feueralarm – keine Übung“ (Teil 1–3) im 20:30-Slot, Mi–Fr 11.–13.11. (Bonus rückt 3 Tage weiter)
 POV3D_SLOTS = ["2026-11-11", "2026-11-12", "2026-11-13"]
+
+# Test 13.–16.11. (Wunsch 12.11.): nur 1 Zeitzeuge-Video pro Tag, um zu prüfen, ob die Menge die Reichweite bremst.
+# Fr 12:00 bleibt (Höhle Teil 2 ist angekündigt), Fr 20:30 = Feueralarm Teil 3. Sa/So/Mo je ein Video mit Überlebens-Anzeige.
+TEST_BLOCKED = [("2026-11-13", "17:00"), ("2026-11-14", "11:00"), ("2026-11-15", "11:00"), ("2026-11-16", "12:00")]
+TEST_FRONT = ["erde-stoppt", "marianengraben", "venus-landung"]   # kommen in den Einzel-Slots zuerst
+TEST_FROM = "riesenameise"                                         # ab dieser Folge wird neu verteilt
+BONUS_PAUSE = ("2026-11-14", 3)                                    # Bonus-Slot ab diesem Datum um 3 Tage verschieben

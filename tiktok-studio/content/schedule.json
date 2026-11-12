@@ -408,7 +408,7 @@
   "weekday": "So",
   "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 9",
-  "next": "Was wäre, wenn du in Treibsand gerätst?",
+  "next": "Was wäre, wenn die Sonne verschwindet?",
   "word_count": 63,
   "badge": "FOLGE 9",
   "brand": "ZEITZEUGE",
@@ -420,7 +420,7 @@
    "#waswärewenn",
    "#zeitzeuge"
   ],
-  "ig_caption": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du in Treibsand gerätst?\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #geschichte",
+  "ig_caption": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder Zufall? ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn die Sonne verschwindet?\n\n#bermudadreieck #flight19 #mystery #zeitzeuge #geschichte",
   "yt_title": "Flight 19 – Teil 2 #shorts",
   "yt_description": "Teil 2: Das Rettungsflugzeug verschwindet ebenfalls. Fluch oder… #bermudadreieck #flight19 #shorts"
  },
@@ -1387,7 +1387,7 @@
   "weekday": "Fr",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 17",
-  "next": "Was wäre, wenn eine Ameise so groß wäre wie du?",
+  "next": "Was wäre, wenn die Erde aufhört, sich zu drehen?",
   "word_count": 54,
   "badge": "FOLGE 17",
   "brand": "ZEITZEUGE",
@@ -1399,7 +1399,7 @@
    "#waswärewenn",
    "#zeitzeuge"
   ],
-  "ig_caption": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
+  "ig_caption": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?\n\n#thailand #höhlenrettung #rettung #zeitzeuge #geschichte",
   "yt_title": "Die Höhlenrettung – Teil 2 #shorts",
   "yt_description": "Teil 2: Die gefährlichste Höhlenrettung der Geschichte. 🕳️ #thailand #höhlenrettung #shorts",
   "punch": {
@@ -1408,93 +1408,6 @@
   },
   "short": true,
   "pin": "Hättest du getaucht? A: Ja, sofort oder B: Nein, warten? 👇"
- },
- {
-  "slug": "riesenameise",
-  "title": "Was wäre, wenn eine Ameise so groß wäre wie du?",
-  "accent": "#80ed99",
-  "hud": {
-   "label": "NACH DEM WACHSTUM",
-   "tick": null
-  },
-  "thumb": {
-   "top": "AMEISE IN",
-   "bottom": "MENSCHENGRÖSSE",
-   "tag": "WAS WÄRE WENN",
-   "kicker": "WAS WÄRE WENN",
-   "scene": "city:day"
-  },
-  "caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜",
-  "tags": [
-   "ameise",
-   "physik",
-   "natur",
-   "wissen"
-  ],
-  "segments": [
-   {
-    "text": "Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben.",
-    "scene": "city:day",
-    "clock": "00:00",
-    "ctx": "WAS WÄRE WENN · PHYSIK",
-    "you": true
-   },
-   {
-    "text": "Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen.",
-    "scene": "mountains:day",
-    "clock": "—",
-    "big": {
-     "value": "× 10–50",
-     "sub": "IHR GEWICHT"
-    }
-   },
-   {
-    "text": "Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer.",
-    "scene": "city:day",
-    "clock": "00:01",
-    "big": {
-     "value": "8 MIO.×",
-     "sub": "SCHWERER"
-    }
-   },
-   {
-    "text": "Wer gewinnt? A: Du. Oder B: Die Riesenameise? Schreib A oder B.",
-    "scene": "city:day",
-    "clock": "—",
-    "card": {
-     "kicker": "SCHREIB A ODER B",
-     "title": "A: DU · B: DIE RIESENAMEISE"
-    }
-   }
-  ],
-  "hook": true,
-  "day": 18,
-  "id": "f18-riesenameise",
-  "date": "2026-11-13",
-  "weekday": "Fr",
-  "post_time": "17:00",
-  "series": "ZEITZEUGE · FOLGE 18",
-  "next": "Was wäre, wenn die Erde aufhört, sich zu drehen?",
-  "word_count": 49,
-  "badge": "FOLGE 18",
-  "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE",
-  "hashtags": [
-   "#ameise",
-   "#physik",
-   "#natur",
-   "#waswärewenn",
-   "#zeitzeuge"
-  ],
-  "ig_caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn die Erde aufhört, sich zu drehen?\n\n#ameise #physik #natur #zeitzeuge #wissenschaft",
-  "yt_title": "Was wäre, wenn eine Ameise so groß wäre wie du? #shorts",
-  "yt_description": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #physik #shorts",
-  "punch": {
-   "word": "AMEISE IN MENSCHENGRÖSSE",
-   "match": "eine"
-  },
-  "short": true,
-  "pin": "Wer gewinnt? A: Du oder B: Die Riesenameise? 👇"
  },
  {
   "slug": "erde-stoppt",
@@ -1565,7 +1478,7 @@
   "id": "f19-erde-stoppt",
   "date": "2026-11-14",
   "weekday": "Sa",
-  "post_time": "11:00",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 19",
   "next": "Was wäre, wenn du in den Marianengraben tauchst?",
   "word_count": 60,
@@ -1659,11 +1572,11 @@
   "hook": true,
   "day": 20,
   "id": "f20-marianengraben",
-  "date": "2026-11-14",
-  "weekday": "Sa",
+  "date": "2026-11-15",
+  "weekday": "So",
   "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 20",
-  "next": "33 Bergleute unter Tage – Teil 1",
+  "next": "Was wäre, wenn du auf der Venus landest?",
   "word_count": 50,
   "hashtags": [
    "#marianengraben",
@@ -1672,7 +1585,7 @@
    "#waswärewenn",
    "#zeitzeuge"
   ],
-  "ig_caption": "Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 33 Bergleute unter Tage – Teil 1\n\n#marianengraben #ozean #tiefsee #zeitzeuge #wissenschaft",
+  "ig_caption": "Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach unten. 🌊\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du auf der Venus landest?\n\n#marianengraben #ozean #tiefsee #zeitzeuge #wissenschaft",
   "yt_title": "Was wäre, wenn du in den Marianengraben tauchst? #shorts",
   "yt_description": "Tauch mit mir zum tiefsten Punkt der Erde – fast 11 Kilometer nach… #marianengraben #ozean #shorts",
   "badge": "FOLGE 20",
@@ -1690,6 +1603,191 @@
    5,
    null
   ]
+ },
+ {
+  "slug": "venus-landung",
+  "title": "Was wäre, wenn du auf der Venus landest?",
+  "accent": "#ff7b00",
+  "hud": {
+   "label": "AUF DER VENUS",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "465",
+   "bottom": "GRAD",
+   "tag": "VENUS",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "volcano:super"
+  },
+  "caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥",
+  "tags": [
+   "venus",
+   "weltall",
+   "planeten",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen.",
+    "scene": "volcano:super",
+    "clock": "00:00",
+    "ctx": "VENUS · OBERFLÄCHE",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen.",
+    "scene": "volcano:super",
+    "clock": "00:10",
+    "big": {
+     "value": "465 °C",
+     "sub": "OBERFLÄCHE"
+    }
+   },
+   {
+    "text": "Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer.",
+    "scene": "underwater:abyss",
+    "clock": "00:20",
+    "big": {
+     "value": "90×",
+     "sub": "LUFTDRUCK"
+    },
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Was ist schlimmer? A: Venus. Oder B: Mars? Schreib A oder B.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: VENUS · B: MARS"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 22,
+  "id": "f22-venus-landung",
+  "date": "2026-11-16",
+  "weekday": "Mo",
+  "post_time": "17:00",
+  "series": "ZEITZEUGE · FOLGE 22",
+  "next": "Was wäre, wenn eine Ameise so groß wäre wie du?",
+  "word_count": 56,
+  "badge": "FOLGE 22",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "hashtags": [
+   "#venus",
+   "#weltall",
+   "#planeten",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn eine Ameise so groß wäre wie du?\n\n#venus #weltall #planeten #zeitzeuge #wissenschaft",
+  "yt_title": "Was wäre, wenn du auf der Venus landest? #shorts",
+  "yt_description": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… #venus #weltall #shorts",
+  "punch": {
+   "word": "465 GRAD",
+   "match": "du"
+  },
+  "short": true,
+  "pin": "Was ist schlimmer? A: Venus oder B: Mars? 👇",
+  "survival": [
+   90,
+   48,
+   5,
+   null
+  ]
+ },
+ {
+  "slug": "riesenameise",
+  "title": "Was wäre, wenn eine Ameise so groß wäre wie du?",
+  "accent": "#80ed99",
+  "hud": {
+   "label": "NACH DEM WACHSTUM",
+   "tick": null
+  },
+  "thumb": {
+   "top": "AMEISE IN",
+   "bottom": "MENSCHENGRÖSSE",
+   "tag": "WAS WÄRE WENN",
+   "kicker": "WAS WÄRE WENN",
+   "scene": "city:day"
+  },
+  "caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜",
+  "tags": [
+   "ameise",
+   "physik",
+   "natur",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben.",
+    "scene": "city:day",
+    "clock": "00:00",
+    "ctx": "WAS WÄRE WENN · PHYSIK",
+    "you": true
+   },
+   {
+    "text": "Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen.",
+    "scene": "mountains:day",
+    "clock": "—",
+    "big": {
+     "value": "× 10–50",
+     "sub": "IHR GEWICHT"
+    }
+   },
+   {
+    "text": "Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer.",
+    "scene": "city:day",
+    "clock": "00:01",
+    "big": {
+     "value": "8 MIO.×",
+     "sub": "SCHWERER"
+    }
+   },
+   {
+    "text": "Wer gewinnt? A: Du. Oder B: Die Riesenameise? Schreib A oder B.",
+    "scene": "city:day",
+    "clock": "—",
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: DU · B: DIE RIESENAMEISE"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 18,
+  "id": "f18-riesenameise",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · FOLGE 18",
+  "next": "33 Bergleute unter Tage – Teil 1",
+  "word_count": 49,
+  "badge": "FOLGE 18",
+  "brand": "ZEITZEUGE",
+  "next_label": "ALS NÄCHSTES · FOLGE",
+  "hashtags": [
+   "#ameise",
+   "#physik",
+   "#natur",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 33 Bergleute unter Tage – Teil 1\n\n#ameise #physik #natur #zeitzeuge #wissenschaft",
+  "yt_title": "Was wäre, wenn eine Ameise so groß wäre wie du? #shorts",
+  "yt_description": "Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #physik #shorts",
+  "punch": {
+   "word": "AMEISE IN MENSCHENGRÖSSE",
+   "match": "eine"
+  },
+  "short": true,
+  "pin": "Wer gewinnt? A: Du oder B: Die Riesenameise? 👇"
  },
  {
   "slug": "chile-bergleute-teil-1",
@@ -1760,11 +1858,11 @@
   "hook": true,
   "day": 21,
   "id": "f21-chile-bergleute-teil-1",
-  "date": "2026-11-15",
-  "weekday": "So",
-  "post_time": "11:00",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 21",
-  "next": "Was wäre, wenn du auf der Venus landest?",
+  "next": "33 Bergleute unter Tage – Teil 2",
   "word_count": 61,
   "badge": "FOLGE 21",
   "brand": "ZEITZEUGE",
@@ -1776,7 +1874,7 @@
    "#waswärewenn",
    "#zeitzeuge"
   ],
-  "ig_caption": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: Was wäre, wenn du auf der Venus landest?\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
+  "ig_caption": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben. Teil 1 ⛏️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 33 Bergleute unter Tage – Teil 2\n\n#chile #bergleute #rettung #zeitzeuge #geschichte",
   "yt_title": "33 Bergleute unter Tage – Teil 1 #shorts",
   "yt_description": "33 Bergleute, 700 Meter unter der Erde, und niemand weiß, ob sie leben… #chile #bergleute #shorts",
   "punch": {
@@ -1784,104 +1882,6 @@
    "match": "du"
   },
   "short": true
- },
- {
-  "slug": "venus-landung",
-  "title": "Was wäre, wenn du auf der Venus landest?",
-  "accent": "#ff7b00",
-  "hud": {
-   "label": "AUF DER VENUS",
-   "tick": "up"
-  },
-  "thumb": {
-   "top": "465",
-   "bottom": "GRAD",
-   "tag": "VENUS",
-   "kicker": "WAS WÄRE WENN",
-   "scene": "volcano:super"
-  },
-  "caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥",
-  "tags": [
-   "venus",
-   "weltall",
-   "planeten",
-   "wissen"
-  ],
-  "segments": [
-   {
-    "text": "Du bist gerade auf der Venus gelandet. Und hier ist es heißer als in einem Pizzaofen.",
-    "scene": "volcano:super",
-    "clock": "00:00",
-    "ctx": "VENUS · OBERFLÄCHE",
-    "fx": [
-     "shake"
-    ]
-   },
-   {
-    "text": "Rund vierhundertfünfundsechzig Grad. Heiß genug, um Blei zu schmelzen.",
-    "scene": "volcano:super",
-    "clock": "00:10",
-    "big": {
-     "value": "465 °C",
-     "sub": "OBERFLÄCHE"
-    }
-   },
-   {
-    "text": "Der Druck ist neunzigmal so hoch wie auf der Erde. Als wärst du fast einen Kilometer tief im Meer.",
-    "scene": "underwater:abyss",
-    "clock": "00:20",
-    "big": {
-     "value": "90×",
-     "sub": "LUFTDRUCK"
-    },
-    "fx": [
-     "shake"
-    ]
-   },
-   {
-    "text": "Was ist schlimmer? A: Venus. Oder B: Mars? Schreib A oder B.",
-    "scene": "space:stars",
-    "clock": "—",
-    "card": {
-     "kicker": "SCHREIB A ODER B",
-     "title": "A: VENUS · B: MARS"
-    }
-   }
-  ],
-  "hook": true,
-  "day": 22,
-  "id": "f22-venus-landung",
-  "date": "2026-11-15",
-  "weekday": "So",
-  "post_time": "18:00",
-  "series": "ZEITZEUGE · FOLGE 22",
-  "next": "33 Bergleute unter Tage – Teil 2",
-  "word_count": 56,
-  "badge": "FOLGE 22",
-  "brand": "ZEITZEUGE",
-  "next_label": "ALS NÄCHSTES · FOLGE",
-  "hashtags": [
-   "#venus",
-   "#weltall",
-   "#planeten",
-   "#waswärewenn",
-   "#zeitzeuge"
-  ],
-  "ig_caption": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist. Was passiert, wenn du dort landest? 🔥\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\nAls Nächstes: 33 Bergleute unter Tage – Teil 2\n\n#venus #weltall #planeten #zeitzeuge #wissenschaft",
-  "yt_title": "Was wäre, wenn du auf der Venus landest? #shorts",
-  "yt_description": "Die Venus ist der heißeste Planet – obwohl Merkur näher an der Sonne ist… #venus #weltall #shorts",
-  "punch": {
-   "word": "465 GRAD",
-   "match": "du"
-  },
-  "short": true,
-  "pin": "Was ist schlimmer? A: Venus oder B: Mars? 👇",
-  "survival": [
-   90,
-   48,
-   5,
-   null
-  ]
  },
  {
   "slug": "chile-bergleute-teil-2",
@@ -1946,8 +1946,8 @@
   "hook": true,
   "day": 23,
   "id": "f23-chile-bergleute-teil-2",
-  "date": "2026-11-16",
-  "weekday": "Mo",
+  "date": "2026-11-18",
+  "weekday": "Mi",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 23",
   "next": "Was wäre, wenn alle Bienen verschwinden?",
@@ -2046,8 +2046,8 @@
   "hook": true,
   "day": 24,
   "id": "f24-keine-bienen",
-  "date": "2026-11-16",
-  "weekday": "Mo",
+  "date": "2026-11-18",
+  "weekday": "Mi",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 24",
   "next": "Was wäre, wenn der Mond verschwindet?",
@@ -2142,8 +2142,8 @@
   "hook": true,
   "day": 25,
   "id": "f25-mond-verschwindet",
-  "date": "2026-11-17",
-  "weekday": "Di",
+  "date": "2026-11-19",
+  "weekday": "Do",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 25",
   "next": "Was wäre, wenn du so schnell wärst wie das Licht?",
@@ -2240,8 +2240,8 @@
   "hook": true,
   "day": 26,
   "id": "f26-lichtgeschwindigkeit",
-  "date": "2026-11-17",
-  "weekday": "Di",
+  "date": "2026-11-19",
+  "weekday": "Do",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 26",
   "next": "Was wäre, wenn heute ein Dino-Asteroid einschlägt?",
@@ -2333,8 +2333,8 @@
   "hook": true,
   "day": 27,
   "id": "f27-asteroid",
-  "date": "2026-11-18",
-  "weekday": "Mi",
+  "date": "2026-11-20",
+  "weekday": "Fr",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 27",
   "next": "Was wäre, wenn alle Menschen verschwinden?",
@@ -2432,8 +2432,8 @@
   "hook": true,
   "day": 28,
   "id": "f28-erde-ohne-menschen",
-  "date": "2026-11-18",
-  "weekday": "Mi",
+  "date": "2026-11-20",
+  "weekday": "Fr",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 28",
   "next": "Du bist Juri Gagarin – Teil 1",
@@ -2529,9 +2529,9 @@
   "hook": true,
   "day": 29,
   "id": "f29-gagarin-teil-1",
-  "date": "2026-11-19",
-  "weekday": "Do",
-  "post_time": "12:00",
+  "date": "2026-11-21",
+  "weekday": "Sa",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 29",
   "next": "Was wäre, wenn der Yellowstone ausbricht?",
   "word_count": 58,
@@ -2626,9 +2626,9 @@
   "hook": true,
   "day": 30,
   "id": "f30-yellowstone",
-  "date": "2026-11-19",
-  "weekday": "Do",
-  "post_time": "17:00",
+  "date": "2026-11-21",
+  "weekday": "Sa",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 30",
   "next": "Du bist Juri Gagarin – Teil 2",
   "word_count": 54,
@@ -2716,9 +2716,9 @@
   "hook": true,
   "day": 31,
   "id": "f31-gagarin-teil-2",
-  "date": "2026-11-20",
-  "weekday": "Fr",
-  "post_time": "12:00",
+  "date": "2026-11-22",
+  "weekday": "So",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 31",
   "next": "Was wäre, wenn in der Eifel ein Vulkan ausbricht?",
   "word_count": 50,
@@ -2805,9 +2805,9 @@
   "hook": true,
   "day": 32,
   "id": "f32-eifel-vulkan",
-  "date": "2026-11-20",
-  "weekday": "Fr",
-  "post_time": "17:00",
+  "date": "2026-11-22",
+  "weekday": "So",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 32",
   "next": "Was wäre, wenn die Antarktis komplett schmilzt?",
   "word_count": 50,
@@ -2909,9 +2909,9 @@
   "hook": true,
   "day": 33,
   "id": "f33-antarktis-schmilzt",
-  "date": "2026-11-21",
-  "weekday": "Sa",
-  "post_time": "11:00",
+  "date": "2026-11-23",
+  "weekday": "Mo",
+  "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 33",
   "next": "Was wäre, wenn du auf dem Jupiter landen willst?",
   "word_count": 47,
@@ -3001,9 +3001,9 @@
   "hook": true,
   "day": 34,
   "id": "f34-jupiter-landung",
-  "date": "2026-11-21",
-  "weekday": "Sa",
-  "post_time": "18:00",
+  "date": "2026-11-23",
+  "weekday": "Mo",
+  "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 34",
   "next": "Shackleton im Eis – Teil 1",
   "word_count": 52,
@@ -3113,9 +3113,9 @@
   "hook": true,
   "day": 35,
   "id": "f35-shackleton-teil-1",
-  "date": "2026-11-22",
-  "weekday": "So",
-  "post_time": "11:00",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 35",
   "next": "Was wäre, wenn ein Sonnensturm wie 1859 die Erde trifft?",
   "word_count": 67,
@@ -3214,9 +3214,9 @@
   "hook": true,
   "day": 36,
   "id": "f36-sonnensturm",
-  "date": "2026-11-22",
-  "weekday": "So",
-  "post_time": "18:00",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 36",
   "next": "Shackleton im Eis – Teil 2",
   "word_count": 49,
@@ -3304,8 +3304,8 @@
   "hook": true,
   "day": 37,
   "id": "f37-shackleton-teil-2",
-  "date": "2026-11-23",
-  "weekday": "Mo",
+  "date": "2026-11-25",
+  "weekday": "Mi",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 37",
   "next": "Was wäre, wenn heute ein Signal von Aliens kommt?",
@@ -3393,8 +3393,8 @@
   "hook": true,
   "day": 38,
   "id": "f38-alien-signal",
-  "date": "2026-11-23",
-  "weekday": "Mo",
+  "date": "2026-11-25",
+  "weekday": "Mi",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 38",
   "next": "Was wäre, wenn der Golfstrom stoppt?",
@@ -3479,8 +3479,8 @@
   "hook": true,
   "day": 39,
   "id": "f39-golfstrom",
-  "date": "2026-11-24",
-  "weekday": "Di",
+  "date": "2026-11-26",
+  "weekday": "Do",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 39",
   "next": "Was wäre, wenn ein Gammablitz die Erde trifft?",
@@ -3565,8 +3565,8 @@
   "hook": true,
   "day": 40,
   "id": "f40-gammablitz",
-  "date": "2026-11-24",
-  "weekday": "Di",
+  "date": "2026-11-26",
+  "weekday": "Do",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 40",
   "next": "Du bist in Prypjat – Tschernobyl 1986",
@@ -3663,8 +3663,8 @@
   "hook": true,
   "day": 41,
   "id": "f41-tschernobyl",
-  "date": "2026-11-25",
-  "weekday": "Mi",
+  "date": "2026-11-27",
+  "weekday": "Fr",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 41",
   "next": "Du bist auf Apollo 13",
@@ -3774,8 +3774,8 @@
   "hook": true,
   "day": 42,
   "id": "f42-apollo-13",
-  "date": "2026-11-25",
-  "weekday": "Mi",
+  "date": "2026-11-27",
+  "weekday": "Fr",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 42",
   "next": "Das U-Boot B-59 – Teil 1",
@@ -3886,9 +3886,9 @@
   "hook": true,
   "day": 43,
   "id": "f43-archipow-teil-1",
-  "date": "2026-11-26",
-  "weekday": "Do",
-  "post_time": "12:00",
+  "date": "2026-11-28",
+  "weekday": "Sa",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 43",
   "next": "Du sitzt in der Mondfähre – Apollo 11",
   "word_count": 69,
@@ -3987,9 +3987,9 @@
   "hook": true,
   "day": 44,
   "id": "f44-mondlandung",
-  "date": "2026-11-26",
-  "weekday": "Do",
-  "post_time": "17:00",
+  "date": "2026-11-28",
+  "weekday": "Sa",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 44",
   "next": "Der Mann, der Nein sagte – Teil 2",
   "word_count": 46,
@@ -4076,9 +4076,9 @@
   "hook": true,
   "day": 45,
   "id": "f45-archipow-teil-2",
-  "date": "2026-11-27",
-  "weekday": "Fr",
-  "post_time": "12:00",
+  "date": "2026-11-29",
+  "weekday": "So",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 45",
   "next": "Du bist in Hamburg – Sturmflut 1962",
   "word_count": 54,
@@ -4170,9 +4170,9 @@
   "hook": true,
   "day": 46,
   "id": "f46-sturmflut-hamburg",
-  "date": "2026-11-27",
-  "weekday": "Fr",
-  "post_time": "17:00",
+  "date": "2026-11-29",
+  "weekday": "So",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 46",
   "next": "Du bist in Ost-Berlin – 9. November 1989",
   "word_count": 57,
@@ -4272,9 +4272,9 @@
   "hook": true,
   "day": 47,
   "id": "f47-mauerfall",
-  "date": "2026-11-28",
-  "weekday": "Sa",
-  "post_time": "11:00",
+  "date": "2026-11-30",
+  "weekday": "Mo",
+  "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 47",
   "next": "Du bist an Bord der Hindenburg",
   "word_count": 56,
@@ -4363,9 +4363,9 @@
   "hook": true,
   "day": 48,
   "id": "f48-hindenburg",
-  "date": "2026-11-28",
-  "weekday": "Sa",
-  "post_time": "18:00",
+  "date": "2026-11-30",
+  "weekday": "Mo",
+  "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 48",
   "next": "Das Grab des Tutanchamun – Teil 1",
   "word_count": 54,
@@ -4454,9 +4454,9 @@
   "hook": true,
   "day": 49,
   "id": "f49-tutanchamun-teil-1",
-  "date": "2026-11-29",
-  "weekday": "So",
-  "post_time": "11:00",
+  "date": "2026-12-01",
+  "weekday": "Di",
+  "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 49",
   "next": "Du bist am Krakatau 1883",
   "word_count": 69,
@@ -4549,9 +4549,9 @@
   "hook": true,
   "day": 50,
   "id": "f50-krakatau",
-  "date": "2026-11-29",
-  "weekday": "So",
-  "post_time": "18:00",
+  "date": "2026-12-01",
+  "weekday": "Di",
+  "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 50",
   "next": "Der Fluch des Pharao – Teil 2",
   "word_count": 52,
@@ -4638,8 +4638,8 @@
   "hook": true,
   "day": 51,
   "id": "f51-tutanchamun-teil-2",
-  "date": "2026-11-30",
-  "weekday": "Mo",
+  "date": "2026-12-02",
+  "weekday": "Mi",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 51",
   "next": "Du lebst 1349 – Die Pest kommt",
@@ -4725,8 +4725,8 @@
   "hook": true,
   "day": 52,
   "id": "f52-pest-1349",
-  "date": "2026-11-30",
-  "weekday": "Mo",
+  "date": "2026-12-02",
+  "weekday": "Mi",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 52",
   "next": "Du bist in Lissabon – Erdbeben 1755",
@@ -4814,8 +4814,8 @@
   "hook": true,
   "day": 53,
   "id": "f53-lissabon-1755",
-  "date": "2026-12-01",
-  "weekday": "Di",
+  "date": "2026-12-03",
+  "weekday": "Do",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 53",
   "next": "Du bist in London – Der große Brand 1666",
@@ -4923,8 +4923,8 @@
   "hook": true,
   "day": 54,
   "id": "f54-brand-london",
-  "date": "2026-12-01",
-  "weekday": "Di",
+  "date": "2026-12-03",
+  "weekday": "Do",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 54",
   "next": "Du lebst im Jahr ohne Sommer – 1816",
@@ -5032,8 +5032,8 @@
   "hook": true,
   "day": 55,
   "id": "f55-jahr-ohne-sommer",
-  "date": "2026-12-02",
-  "weekday": "Mi",
+  "date": "2026-12-04",
+  "weekday": "Fr",
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 55",
   "next": "Du baust die Pyramiden",
@@ -5119,8 +5119,8 @@
   "hook": true,
   "day": 56,
   "id": "f56-pyramiden-bau",
-  "date": "2026-12-02",
-  "weekday": "Mi",
+  "date": "2026-12-04",
+  "weekday": "Fr",
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 56",
   "next": "Du bist beim ersten Motorflug 1903",
@@ -5206,9 +5206,9 @@
   "hook": true,
   "day": 57,
   "id": "f57-brueder-wright",
-  "date": "2026-12-03",
-  "weekday": "Do",
-  "post_time": "12:00",
+  "date": "2026-12-05",
+  "weekday": "Sa",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 57",
   "next": "Du bist bei der Erstbesteigung des Everest",
   "word_count": 46,
@@ -5299,9 +5299,9 @@
   "hook": true,
   "day": 58,
   "id": "f58-everest-1953",
-  "date": "2026-12-03",
-  "weekday": "Do",
-  "post_time": "17:00",
+  "date": "2026-12-05",
+  "weekday": "Sa",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 58",
   "next": "Du bist auf der Vasa – 1628",
   "word_count": 50,
@@ -5386,9 +5386,9 @@
   "hook": true,
   "day": 59,
   "id": "f59-vasa",
-  "date": "2026-12-04",
-  "weekday": "Fr",
-  "post_time": "12:00",
+  "date": "2026-12-06",
+  "weekday": "So",
+  "post_time": "11:00",
   "series": "ZEITZEUGE · FOLGE 59",
   "next": "Die Entdeckung des Penicillins",
   "word_count": 49,
@@ -5473,9 +5473,9 @@
   "hook": true,
   "day": 60,
   "id": "f60-penicillin",
-  "date": "2026-12-04",
-  "weekday": "Fr",
-  "post_time": "17:00",
+  "date": "2026-12-06",
+  "weekday": "So",
+  "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 60",
   "next": null,
   "word_count": 53,

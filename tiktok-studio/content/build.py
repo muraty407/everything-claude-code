@@ -156,10 +156,35 @@ def main():
             e["date"], e["post_time"], e["weekday"] = d2.isoformat(), t2, WOCHENTAGE[d2.weekday()]
         schedule.insert(k, r)
 
+    # ---- Test „1 Video pro Tag“: gesperrte Slots überspringen, bestimmte Folgen nach vorn
+    blocked = set(getattr(schedule_order, "TEST_BLOCKED", []))
+    if blocked:
+        k0 = next(i for i, e in enumerate(schedule) if e["slug"] == schedule_order.TEST_FROM)
+        rest = schedule[k0:]
+        front = [e for sl in schedule_order.TEST_FRONT for e in rest if e["slug"] == sl]
+        rest = front + [e for e in rest if e not in front]
+        times = slot_times(dt.date.fromisoformat(min(b[0] for b in blocked)))
+        for e in rest:
+            while True:
+                d2, t2 = next(times)
+                if (d2.isoformat(), t2) not in blocked and (d2.isoformat(), t2) > (schedule[k0 - 1]["date"], schedule[k0 - 1]["post_time"]):
+                    break
+            e["date"], e["post_time"], e["weekday"] = d2.isoformat(), t2, WOCHENTAGE[d2.weekday()]
+        schedule[k0:] = rest
+        for i, e in enumerate(schedule):  # „Als Nächstes“ an die neue Reihenfolge anpassen
+            nxt = schedule[i + 1]["title"] if i + 1 < len(schedule) else None
+            lines = [ln for ln in e["ig_caption"].split("\n") if not ln.startswith("Als Nächstes: ")]
+            if nxt:
+                lines.insert(lines.index("") + 3 if lines.count("") else len(lines), "Als Nächstes: " + nxt)
+            e["next"], e["ig_caption"] = nxt, "\n".join(lines)
+
     # ---- BONUS-Slot (3. Video am Tag) → bonus.json
     cpool = {d["slug"]: d for d in DAYS_C}
     bonus = []
+    bp = getattr(schedule_order, "BONUS_PAUSE", None)
     for n, (date, time, slug) in enumerate(schedule_order.BONUS, start=1):
+        if bp and date >= bp[0]:
+            date = (dt.date.fromisoformat(date) + dt.timedelta(days=bp[1])).isoformat()
         nxt = cpool[schedule_order.BONUS[n][2]]["title"] if n < len(schedule_order.BONUS) else None
         e = enrich(dict(cpool[slug], hook=True), day=n, id_=f"b{n:02d}-{slug}", date=dt.date.fromisoformat(date),
                    post_time=time, series=f"ZEITZEUGE · BONUS {n}", nxt=nxt, badge=f"BONUS {n}", brand="ZEITZEUGE",
