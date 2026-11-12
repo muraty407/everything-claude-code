@@ -121,51 +121,83 @@ VARIANTS = [
     (43, 94, [(0, 3, 7), (5, 8, 12), (3, 7, 10), (10, 14, 17)], 3),    # g-Moll: Gm Cm Bb F
 ]
 
-def club(bpm=124, bars=16, seed=5):
-    """Club-Beat: Four-on-the-floor-Kick, Offbeat-Bass, Clap auf 2 und 4, Hi-Hats, Synth-Stabs (a-Moll)."""
+def club(bpm=122, bars=16, seed=5, style="deep"):
+    """Deep-House-Track: 4/4-Kick, Offbeat-Open-Hi-Hat, Shaker (16tel), runder Sub-Bass, Clap auf 2/4,
+    Piano-/Rhodes-Akkorde mit Septimen (Am7 – Dm7 – G7 – Cmaj7), leichter Sidechain-Pump."""
     rng = np.random.default_rng(seed)
     beat = 60 / bpm
     n = int(bars * 4 * beat * SR)
     L, R = np.zeros(n), np.zeros(n)
+    CL, CR = np.zeros(n), np.zeros(n)  # Akkorde/Bass getrennt → Sidechain-Pump
 
-    def put(x, t0, pan=0.0, g=1.0):
+    def put(bufs, x, t0, pan=0.0, g=1.0):
         i = int(t0 * SR)
         if i >= n:
             return
         j = min(n, i + len(x))
-        L[i:j] += x[: j - i] * g * np.sqrt(0.5 * (1 - pan))
-        R[i:j] += x[: j - i] * g * np.sqrt(0.5 * (1 + pan))
+        bufs[0][i:j] += x[: j - i] * g * np.sqrt(0.5 * (1 - pan))
+        bufs[1][i:j] += x[: j - i] * g * np.sqrt(0.5 * (1 + pan))
 
-    roots = [45, 45, 41, 43]  # Am Am F G
+    chords = [(45, (0, 3, 7, 10)), (50, (0, 3, 7, 10)), (43, (0, 4, 7, 10)), (48, (0, 4, 7, 11))]  # Am7 Dm7 G7 Cmaj7
+    if style == "tech":    # Tech House: dunkler, ein Akkord, treibender
+        chords = [(45, (0, 3, 7)), (45, (0, 3, 7)), (43, (0, 3, 7)), (45, (0, 3, 7))]
+    if style == "disco":   # Disco House: hell, Dur, Oktav-Bass
+        chords = [(48, (0, 4, 7, 11)), (45, (0, 3, 7, 10)), (41, (0, 4, 7, 11)), (43, (0, 4, 7, 10))]
+    stabs = {"deep": (0, 1.5, 3, 3.5), "tech": (0.5, 2.5), "disco": (0, 0.5, 1.5, 2, 3, 3.5)}[style]
+    stab_g = {"deep": 0.075, "tech": 0.05, "disco": 0.085}[style]
     for b in range(bars):
-        root = roots[b % 4]
+        root, ivs = chords[b % 4]
         for q in range(4):
             t0 = (b * 4 + q) * beat
-            m = int(0.3 * SR); t = np.arange(m) / SR
-            put(np.sin(2 * np.pi * np.cumsum(45 + 130 * np.exp(-t * 35)) / SR) * np.exp(-t / 0.11), t0, 0, 0.95)   # Kick
-            m = int(beat / 2 * 0.9 * SR)
-            put(lp(saw(note(root - 12), m), 0.1) * adsr(m, 0.005, 0.1, 0.4, 0.04), t0 + beat / 2, 0, 0.5)           # Offbeat-Bass
-            m = int(0.04 * SR)
-            put(np.diff(rng.standard_normal(m + 1)) * np.exp(-np.arange(m) / SR / 0.01), t0 + beat / 2, 0.4, 0.09)   # Hi-Hat
+            m = int(0.32 * SR); t = np.arange(m) / SR
+            put((L, R), np.sin(2 * np.pi * np.cumsum(46 + 120 * np.exp(-t * 38)) / SR) * np.exp(-t / 0.13), t0, 0, 0.95)      # Kick
+            m = int(0.16 * SR); t = np.arange(m) / SR
+            put((L, R), np.diff(rng.standard_normal(m + 1)) * np.exp(-t / 0.06), t0 + beat / 2, 0.25, 0.085)                  # Open-Hat (Offbeat)
+            for s16 in range(4):                                                                                                # Shaker
+                m = int(0.03 * SR)
+                put((L, R), np.diff(rng.standard_normal(m + 1)) * np.exp(-np.arange(m) / SR / 0.008), t0 + s16 * beat / 4, -0.35, 0.03 + 0.015 * (s16 % 2))
             if q % 2 == 1:
-                m = int(0.12 * SR)
-                put(lp(rng.standard_normal(m), 0.5) * np.exp(-np.arange(m) / SR / 0.03), t0, -0.2, 0.3)             # Clap
-        if b % 2 == 1:
-            for k, st in enumerate((0, 1.5, 3)):                                                                       # Synth-Stabs
-                m = int(0.22 * SR)
-                x = sum(lp(saw(note(root + 12 + iv), m, 0.004 * iv), 0.2) for iv in (0, 3, 7)) * adsr(m, 0.005, 0.08, 0.3, 0.05)
-                put(x, (b * 4 + st) * beat, 0.6 if k % 2 else -0.6, 0.11)
+                m = int(0.14 * SR)
+                put((L, R), lp(rng.standard_normal(m), 0.45) * np.exp(-np.arange(m) / SR / 0.035), t0, -0.1, 0.28)             # Clap
+            # runder Sub-Bass: Offbeat + kurze Vorschlagnote
+            m = int(beat * 0.45 * SR); t = np.arange(m) / SR
+            bass = (np.sin(2 * np.pi * note(root - 12) * t) + 0.3 * np.sin(4 * np.pi * note(root - 12) * t)) * adsr(m, 0.008, 0.15, 0.6, 0.05)
+            put((CL, CR), bass, t0 + beat / 2, 0, 0.5)
+            if style == "disco":   # Oktav-Bass auf dem Schlag
+                put((CL, CR), np.sin(2 * np.pi * note(root) * t) * adsr(m, 0.005, 0.1, 0.4, 0.05), t0, 0, 0.3)
+            if style == "tech":    # rollender 16tel-Bass
+                put((CL, CR), bass * 0.7, t0 + beat * 0.75, 0, 0.4)
+        # Piano-/Rhodes-Akkord: typischer House-Rhythmus (1, 2-und, 4)
+        for st in stabs:
+            m = int(0.5 * SR); t = np.arange(m) / SR
+            x = np.zeros(m)
+            for iv in ivs:
+                f = note(root + 12 + iv)
+                x += (np.sin(2 * np.pi * f * t) + 0.5 * np.sin(4 * np.pi * f * t) * np.exp(-t / 0.08) + 0.2 * np.sin(6 * np.pi * f * t) * np.exp(-t / 0.04)) * np.exp(-t / 0.22)
+            put((CL, CR), x, (b * 4 + st) * beat, 0.45 if int(st * 2) % 2 else -0.45, stab_g)
+    # Sidechain-Pump: Akkorde/Bass ducken sich auf jede Kick
+    tt = (np.arange(n) / SR) % beat
+    pump = 0.35 + 0.65 * np.minimum(1, tt / (beat * 0.6))
+    L += CL * pump; R += CR * pump
+    for ch_, d in ((L, 0.123), (R, 0.157)):
+        k = int(d * SR)
+        ch_[k:] += 0.12 * ch_[:-k].copy()
     peak = max(np.max(np.abs(L)), np.max(np.abs(R)))
     return np.stack([L, R], axis=1) / peak * 0.85
 
 
 if __name__ == "__main__":
     os.makedirs(os.path.join(OUT, "club"), exist_ok=True)
+    for name, bpm, style in (("deep", 122, "deep"), ("tech", 126, "tech"), ("disco", 120, "disco")):
+        x = club(bpm=bpm, style=style)
+        with wave.open(os.path.join(OUT, "club", f"{name}.wav"), "wb") as w:
+            w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
+            w.writeframes((x * 32767).astype(np.int16).tobytes())
     x = club()
     with wave.open(os.path.join(OUT, "club", "club1.wav"), "wb") as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((x * 32767).astype(np.int16).tobytes())
-    print(f"club/club1.wav {len(x) / SR:.0f}s 124 BPM")
+    print(f"club/club1.wav {len(x) / SR:.0f}s 122 BPM (House)")
     os.makedirs(OUT, exist_ok=True)
     for i, (root, bpm, prog, seed) in enumerate(VARIANTS, start=1):
         x = track(root, bpm, prog, seed)

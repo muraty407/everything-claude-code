@@ -19,15 +19,27 @@ MILESTONES = [(10, "A SECOND BARTENDER"), (25, "A SMOKE MACHINE"), (50, "A REAL 
               (500, "SECOND DANCE FLOOR"), (1000, "ROOFTOP BAR"), (5000, "WE BUY THE BUILDING NEXT DOOR")]
 
 
+# Abstimmungen: die Zuschauer entscheiden per Kommentar (A/B/C) – jede Nacht ein anderes Thema.
+POLLS = [
+    ("TOMORROW'S MUSIC", "What do we play tomorrow?", [("A", "DEEP HOUSE"), ("B", "TECH HOUSE"), ("C", "DISCO HOUSE")]),
+    ("DRESS CODE", "Tomorrow's dress code?", [("A", "ALL BLACK"), ("B", "ALL WHITE"), ("C", "GOLD ONLY")]),
+    ("NEXT PURCHASE", "What do I buy with your money?", [("A", "BIGGER CHANDELIER"), ("B", "CHAMPAGNE TOWER"), ("C", "A SECOND BOUNCER")]),
+    ("TOMORROW'S MUSIC", "You're the DJ. What's next?", [("A", "DEEP HOUSE"), ("B", "TECH HOUSE"), ("C", "DISCO HOUSE")]),
+    ("WHO GETS IN FREE", "Who gets in free tomorrow?", [("A", "FIRST 10 COMMENTS"), ("B", "EVERYONE WHO SHARES"), ("C", "NOBODY. PAY.")]),
+]
+MUSIC = {"deep": ("club/deep.wav", 122), "tech": ("club/tech.wav", 126), "disco": ("club/disco.wav", 120)}
+LIKE_REWARDS = ["free champagne for everyone", "I smile. Once.", "the bartender gets a day off", "we open the VIP rope for one night"]
+
+
 def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4):
     return {"room": "clubdoor", "queue": queue, "cam": {"pos": [0.4, 1.55, z], "yaw": list(yaw), "pitch": 0.02, "move": [0, 0, dz]}}
 
 
-def inside(guests, dj=False, cam="wide"):
+def inside(guests, dj=False, cam="wide", bpm=122):
     c = {"wide": {"pos": [5.2, 3.0, 3.6], "yaw": [0.62, 0.48], "pitch": -0.32},
          "floor": {"pos": [0.0, 1.5, 2.6], "yaw": [-0.25, 0.25], "pitch": -0.1},
          "bar": {"pos": [-2.5, 1.6, 1.5], "yaw": [0.9, 0.7], "pitch": -0.08}}[cam]
-    return {"room": "club", "guests": guests, "dj": dj, "bpm": 124, "cam": c}
+    return {"room": "club", "guests": guests, "dj": dj, "bpm": bpm, "cam": c}
 
 
 ENTRY, DRINKS = 10, 8          # $ pro Gast: Eintritt + Getränke im Schnitt
@@ -42,12 +54,24 @@ def finances(followers, cash_before):
     return income, costs, cash_before + income - costs
 
 
-def episode(night, followers, prev, vip, cash_before=0):
+def episode(night, followers, prev, vip, cash_before=0, music="deep", winner="", likes=None, like_goal=None):
     nxt = next((m for m in MILESTONES if m[0] > followers), MILESTONES[-1])
     new = max(0, followers - prev)
     dj = followers >= 50
     B = "bouncer"
+    track, bpm = MUSIC[music]
+    _inside = globals()["inside"]
+
+    def inside(g, d=False, cam="wide"):  # Takt der gewählten Musik an die Lichter geben
+        return _inside(g, d, cam, bpm)
     income, costs, cash = finances(followers, cash_before)
+    ptitle, pq, popts = POLLS[(night - 1) % len(POLLS)]
+    poll = S(f"You decide. {pq} " + " ".join(f"{k}: {v.title()}." for k, v in popts) + " Comment your letter. Most votes win.", "3d", c="YOU DECIDE", voice=B,
+             stat=(ptitle + " · COMMENT TO VOTE", [(k, v) for k, v in popts]), s3d=inside(followers, dj, "floor"))
+    goal = like_goal or max(25, int(round(followers * 2, -1)) or 25)
+    reward = LIKE_REWARDS[(night - 1) % len(LIKE_REWARDS)]
+    like_seg = S(f"And if this video hits {goal} likes: {reward}.", "3d", c="LIKE GOAL", voice=B, big=(f"{goal} ❤", "LIKE GOAL · " + reward.upper()[:34]),
+                 s3d=inside(followers, dj, "wide"))
     money_line = S(f"We made {income} dollars tonight. Rent and staff cost {costs}. " + ("We are losing money. Fast." if income < costs else "For once, we're in profit. Don't get used to it."),
                    "3d", c="CASH", voice=B, stat=("TONIGHT'S MONEY", [(f"{followers} GUESTS × ${ENTRY + DRINKS}", f"+${income}"), ("RENT + STAFF", f"−${costs}"),
                                                                        ("BALANCE", ("−$" if cash < 0 else "$") + f"{abs(cash):,}")]),
@@ -61,7 +85,8 @@ def episode(night, followers, prev, vip, cash_before=0):
             money_line,
             S(f"At {nxt[0]} followers, I hire {nxt[1].lower()}. If we can pay for it.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("RIGHT NOW", f"{followers}")]), s3d=inside(followers, dj, "floor")),
-            S("Follow, and you're in. Comment your name, and you're on the guest list. I check it. Every night.", "3d", c="GUEST LIST", voice=B,
+            poll, like_seg,
+            S("Follow, and you're in. Comment your name, and you're on the guest list.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
         ]
     else:
@@ -74,6 +99,11 @@ def episode(night, followers, prev, vip, cash_before=0):
               voice=B, s3d=door(min(new, 12), yaw=(0.05, -0.05))),
             S(mood, "3d", c=f"{followers} INSIDE", voice=B, big=(f"+{new}" if new >= 0 else str(new), "SINCE LAST NIGHT"), s3d=inside(followers, dj, "wide")),
         ]
+        if winner:
+            segs.append(S(f"You voted. Tonight: {winner}. Don't blame me.", "3d", c="YOUR VOTE", voice=B, card=("YOU VOTED", winner.upper()), s3d=inside(followers, dj, "floor")))
+        if likes is not None:
+            segs.append(S(f"Last night got {likes} likes. " + ("Goal reached. A deal is a deal." if likes >= (like_goal or 0) else "Not enough. No champagne."), "3d",
+                          c="LIKES", voice=B, big=(f"{likes} ❤", "LAST NIGHT"), s3d=inside(followers, dj, "bar")))
         if names:
             segs.append(S(f"On the guest list tonight: {', '.join(names)}. VIP. Don't touch the ropes.", "3d", c="GUEST LIST", voice=B,
                           stat=("GUEST LIST", [(n.upper(), "VIP ✓") for n in names[:4]]), s3d=inside(followers, dj, "floor")))
@@ -81,16 +111,17 @@ def episode(night, followers, prev, vip, cash_before=0):
             money_line,
             S(f"{nxt[0] - followers} more followers, and I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("MISSING", str(nxt[0] - followers))]), s3d=inside(followers, dj, "bar")),
+            poll, like_seg,
             S("Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
         ]
-    d = V(f"club-night-{night}", f"Club Daddyverse – Night {night}", "#ff2fd6", ("TONIGHT", None),
+    d = V(f"club-night-{night}", f"Club Daddyverse – Night {night}", "#d4af37", ("TONIGHT", None),
           ("CLUB", "DADDYVERSE", f"NIGHT {night}", "1 FOLLOWER = 1 GUEST", "city:night"),
           f"Every follower gets into my club. Night {night}: {followers} guests 🪩 Comment your name for the guest list",
           ["club", "followers", "nightclub", "series"], segs)
     d.update(day=night, id=f"club{night:02d}", hook=True, series=f"CLUB DADDYVERSE · NIGHT {night}", badge=f"NIGHT {night}", brand="DADDYVERSE",
              next=f"Night {night + 1}: will the club fill up?", next_label="TOMORROW · NIGHT", followLabel="FOLLOW = YOU'RE IN",
-             punch={"word": f"{followers} GUESTS", "match": "welcome" if night == 1 else "night"}, music="club/club1.wav",
+             punch={"word": f"{followers} GUESTS", "match": "welcome" if night == 1 else "night"}, music=track,
              followers=followers, cash=cash,
              money={"label": "CLUB CASH", "values": [cash if i >= segs.index(money_line) else cash_before for i in range(len(segs))]},
              hashtags=["#club", "#nightclub", "#followers", "#series", "#fyp"])
@@ -103,11 +134,15 @@ if __name__ == "__main__":
     ap.add_argument("--followers", type=int, required=True)
     ap.add_argument("--prev", type=int, default=0)
     ap.add_argument("--vip", default="")
+    ap.add_argument("--music", default="deep", choices=list(MUSIC), help="gewählte Musik (Ergebnis der Abstimmung)")
+    ap.add_argument("--winner", default="", help="Text des Abstimmungs-Siegers von gestern, z. B. 'Tech House'")
+    ap.add_argument("--likes", type=int, default=None, help="Likes des gestrigen Videos")
+    ap.add_argument("--like-goal", type=int, default=None, help="Like-Ziel von gestern (zum Vergleich)")
     ap.add_argument("--cash", type=int, default=None, help="Kontostand vor dieser Nacht (Standard: aus der letzten Folge)")
     a = ap.parse_args()
     p = os.path.join(HERE, "club.json")
     eps = [e for e in (json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []) if e["day"] != a.night]
     before = a.cash if a.cash is not None else next((e["cash"] for e in reversed(sorted(eps, key=lambda e: e["day"])) if e["day"] < a.night), 0)
-    eps.append(episode(a.night, a.followers, a.prev, a.vip, before))
+    eps.append(episode(a.night, a.followers, a.prev, a.vip, before, a.music, a.winner, a.likes, a.like_goal))
     json.dump(sorted(eps, key=lambda e: e["day"]), open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("club.json: Night", a.night, "·", a.followers, "followers · cash", eps[-1]["cash"])

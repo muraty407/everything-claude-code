@@ -2,7 +2,7 @@
  {
   "slug": "club-night-1",
   "title": "Club Daddyverse – Night 1",
-  "accent": "#ff2fd6",
+  "accent": "#d4af37",
   "hud": {
    "label": "TONIGHT",
    "tick": null
@@ -63,7 +63,7 @@
      "room": "club",
      "guests": 2,
      "dj": false,
-     "bpm": 124,
+     "bpm": 122,
      "cam": {
       "pos": [
        5.2,
@@ -104,7 +104,7 @@
      "room": "club",
      "guests": 2,
      "dj": false,
-     "bpm": 124,
+     "bpm": 122,
      "cam": {
       "pos": [
        -2.5,
@@ -141,7 +141,7 @@
      "room": "club",
      "guests": 2,
      "dj": false,
-     "bpm": 124,
+     "bpm": 122,
      "cam": {
       "pos": [
        0.0,
@@ -157,7 +157,76 @@
     }
    },
    {
-    "text": "Follow, and you're in. Comment your name, and you're on the guest list. I check it. Every night.",
+    "text": "You decide. What do we play tomorrow? A: Deep House. B: Tech House. C: Disco House. Comment your letter. Most votes win.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "stat": {
+     "title": "TOMORROW'S MUSIC · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "DEEP HOUSE"
+      ],
+      [
+       "B",
+       "TECH HOUSE"
+      ],
+      [
+       "C",
+       "DISCO HOUSE"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
+    "text": "And if this video hits 25 likes: free champagne for everyone.",
+    "scene": "3d",
+    "clock": "LIKE GOAL",
+    "big": {
+     "value": "25 ❤",
+     "sub": "LIKE GOAL · FREE CHAMPAGNE FOR EVERYONE"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 2,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     }
+    }
+   },
+   {
+    "text": "Follow, and you're in. Comment your name, and you're on the guest list.",
     "scene": "3d",
     "clock": "GUEST LIST",
     "card": {
@@ -201,7 +270,7 @@
    "word": "2 GUESTS",
    "match": "welcome"
   },
-  "music": "club/club1.wav",
+  "music": "club/deep.wav",
   "followers": 2,
   "cash": -584,
   "money": {
@@ -209,6 +278,8 @@
    "values": [
     0,
     0,
+    -584,
+    -584,
     -584,
     -584,
     -584
