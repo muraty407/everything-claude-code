@@ -28,7 +28,7 @@ POLLS = [
     ("WHO GETS IN FREE", "Who gets in free tomorrow?", [("A", "FIRST 10 COMMENTS"), ("B", "EVERYONE WHO SHARES"), ("C", "NOBODY. PAY.")]),
 ]
 MUSIC = {"deep": ("club/deep.wav", 122), "tech": ("club/tech.wav", 126), "disco": ("club/disco.wav", 120)}
-LIKE_REWARDS = ["free champagne for everyone", "I smile. Once.", "the bartender gets a day off", "we open the VIP rope for one night"]
+LIKE_REWARDS = ["free champagne for everyone", "I smile, once", "the bartender gets a day off", "we open the VIP rope for one night"]
 
 
 def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4):
@@ -123,10 +123,10 @@ def episode(night, followers, prev, vip, cash_before=0, music="deep", winner="",
                           stat=("GUEST LIST", [(n.upper(), "VIP ✓") for n in names[:4]]), s3d=inside(followers, dj, "floor")))
         segs += [
             money_line,
-            S(f"{nxt[0] - followers} more followers, and I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
+            S(f"{nxt[0] - followers} more follower{'s' if nxt[0] - followers != 1 else ''}, and I hire {nxt[1].lower()}.", "3d", c=f"{followers} / {nxt[0]}", voice=B,
               stat=("NEXT UPGRADE", [(f"{nxt[0]} FOLLOWERS", nxt[1]), ("MISSING", str(nxt[0] - followers))]), s3d=inside(followers, dj, "bar")),
             poll,
-            S(f"{goal} likes, and {reward}. Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
+            S(f"{goal} likes, and {reward[0].lower() + reward[1:] if not reward.startswith('I ') else reward}. Follow, and you're in. Comment your name for the guest list.", "3d", c="GUEST LIST", voice=B,
               card=("COMMENT YOUR NAME", "GET ON THE GUEST LIST"), s3d=door(0, yaw=(-0.1, 0.1), z=4.4, dz=-1.0)),
         ]
     d = V(f"club-night-{night}", f"Club Daddyverse – Night {night}", "#d4af37", ("TONIGHT", None),
