@@ -375,6 +375,34 @@
     }
    },
    {
+    "text": "You voted. Tonight: Deep House. Don't blame me.",
+    "scene": "3d",
+    "clock": "YOUR VOTE",
+    "card": {
+     "kicker": "YOU VOTED",
+     "title": "DEEP HOUSE"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 11,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
     "text": "We made 198 dollars. Rent and staff cost 740. Do the math.",
     "scene": "3d",
     "clock": "CASH",
@@ -507,6 +535,7 @@
   "money": {
    "label": "CLUB CASH",
    "values": [
+    -584,
     -584,
     -584,
     -1126,
