@@ -291,5 +291,235 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-2",
+  "title": "Club Daddyverse – Night 2",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 2",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Every follower gets into my club. Night 2: 11 guests 🪩 Comment your name for the guest list",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "We just hit 10 followers. So I had to hire a second bartender.",
+    "scene": "3d",
+    "clock": "NIGHT 2",
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ],
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 11,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
+    "text": "Night 2. 11 guests inside. I let them in. Reluctantly.",
+    "scene": "3d",
+    "clock": "11 INSIDE",
+    "big": {
+     "value": "+9",
+     "sub": "SINCE LAST NIGHT"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 9,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    }
+   },
+   {
+    "text": "We made 198 dollars. Rent and staff cost 740. Do the math.",
+    "scene": "3d",
+    "clock": "CASH",
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "11 GUESTS × $18",
+       "+$198"
+      ],
+      [
+       "RENT + STAFF",
+       "−$740"
+      ],
+      [
+       "BALANCE",
+       "−$1,126"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 11,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     }
+    }
+   },
+   {
+    "text": "You decide. Tomorrow's dress code? A: All Black. B: All White. C: Gold Only. Comment your letter.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "stat": {
+     "title": "DRESS CODE · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "ALL BLACK"
+      ],
+      [
+       "B",
+       "ALL WHITE"
+      ],
+      [
+       "C",
+       "GOLD ONLY"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 11,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    }
+   },
+   {
+    "text": "14 more followers, and we get a smoke machine. Follow, and you're in. Comment your name for the guest list.",
+    "scene": "3d",
+    "clock": "GUEST LIST",
+    "card": {
+     "kicker": "COMMENT YOUR NAME",
+     "title": "GET ON THE GUEST LIST"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 0,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       4.4
+      ],
+      "yaw": [
+       -0.1,
+       0.1
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.0
+      ]
+     }
+    }
+   }
+  ],
+  "day": 2,
+  "id": "club02",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 2",
+  "badge": "NIGHT 2",
+  "brand": "DADDYVERSE",
+  "next": "Night 3: will the club fill up?",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "10 FOLLOWERS",
+   "match": "just"
+  },
+  "music": "club/deep.wav",
+  "followers": 11,
+  "cash": -1126,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -584,
+    -584,
+    -1126,
+    -1126,
+    -1126
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

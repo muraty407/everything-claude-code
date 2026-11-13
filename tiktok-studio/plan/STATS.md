@@ -20,3 +20,6 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 - 14.–16.11.: nur 1 Zeitzeuge-Video pro Tag (Sa 18:00, So 18:00, Mo 17:00) – kommt eines deutlich über 300 Aufrufe?
 - Überlebens-Anzeige: Everest (12.11.), Erde stoppt (14.11.), Marianengraben (15.11.), Venus (16.11.), Auto unter Wasser, Hai.
 - Club Daddyverse ab 12.11. (Night 1: 2 Follower, −584 $).
+
+| 13.11. | Daddyverse TikTok | Club Night 1 | 28 h | 752 | 4,4 s | 10 % | 0,5 % | 21 | 2 | 0 | 8 | 1 gespeichert; Follower-Quote 1,1 % (sehr gut), aber fast niemand schaut zu Ende; Kanal: 10 Follower, 144 Likes |
+| 13.11. | Daddyverse YouTube | Club Night 1 | 1 Tag | 61 | – | – | – | – | 1 | – | +1 Abo | erster Short des Kanals |
