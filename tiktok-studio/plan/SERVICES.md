@@ -1,6 +1,6 @@
 # Laufende Dienste für den Nutzer (Stand 13.11.2026)
 
-1. **Tägliche Lieferungen** (geplante Aufgaben in dieser Session): Zeitzeuge 12/17/20:30 (Wochenende 11/18), Daddyverse 15:00 Merge, 18:30 Sync, 22:00 Merge.
+1. **Tägliche Lieferungen** (geplante Aufgaben in dieser Session): Zeitzeuge 12/17/20:30 (Wochenende 11/18). Daddyverse Merge (15:00/22:00) und Sync (18:30) seit 13.11. auf Wunsch des Nutzers pausiert – nur noch Club.
 2. **Club Daddyverse**: täglich 18:45 Push-Erinnerung → Nutzer schickt Follower-Zahl, Abstimmung (A/B/C), Likes, Namen → `content/club.py` → rendern → liefern.
 3. **Kommentar-Service** (auf Zuruf): Nutzer schickt Screenshot der Kommentare → fertige Antworten zum Kopieren.
    - Zeitzeuge: freundlich, kurz, mit Gegenfrage (bringt weitere Kommentare), deutsch, „du“.
