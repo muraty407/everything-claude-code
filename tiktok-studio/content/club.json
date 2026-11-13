@@ -403,6 +403,34 @@
     }
    },
    {
+    "scene": "3d",
+    "clock": "YOUR VOTE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 11,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     }
+    },
+    "text": "Champagne needed 25 likes. You gave me 21. Four short. No champagne.",
+    "big": {
+     "value": "21 / 25 ❤",
+     "sub": "GOAL MISSED · NO CHAMPAGNE"
+    }
+   },
+   {
     "text": "We made 198 dollars. Rent and staff cost 740. Do the math.",
     "scene": "3d",
     "clock": "CASH",
@@ -485,7 +513,7 @@
     }
    },
    {
-    "text": "14 more followers, and we get a smoke machine. Follow, and you're in. Comment your name for the guest list.",
+    "text": "14 more followers, and we get a smoke machine. 25 likes, and the champagne comes out. Follow, and you're in.",
     "scene": "3d",
     "clock": "GUEST LIST",
     "card": {
@@ -535,6 +563,7 @@
   "money": {
    "label": "CLUB CASH",
    "values": [
+    -584,
     -584,
     -584,
     -584,
