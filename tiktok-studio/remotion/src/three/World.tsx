@@ -163,6 +163,7 @@ export type Scene3D = {
   guests?: number; // Club: Gäste auf der Tanzfläche
   queue?: number; // Club-Eingang: Schlange vor der Tür
   dj?: boolean;
+  gold?: boolean; // Club: Dresscode „Gold Only“
   bpm?: number;
   torch?: boolean; // Handy-Taschenlampe
   ladder?: boolean; // Drehleiter am Fenster + Blaulicht
@@ -358,6 +359,7 @@ const Yard: React.FC<{ t: number; sc: Scene3D; k: number }> = ({ t, sc, k }) => 
 };
 
 const GOLD = "#d4af37", GOLD_E = "#7a5c12", MARBLE = "#15151a", VELVET = "#3a0d1c";
+const GOLDS = ["#d4af37", "#c9a227", "#e6c65a", "#b8901f", "#f0d98a"];
 const SUITS = ["#0e0e12", "#f2f2f2", "#7a1027", "#1b2a4a", "#2b2b30", "#c9a227", "#0e0e12", "#e8e2d4"];
 
 // gehobener House-Club: schwarzer Marmor, Gold, warmes Licht, Kronleuchter
@@ -432,7 +434,8 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
         <pointLight key={`pl${i}`} position={[Math.sin(t * 0.6 + i * 3.1) * 3, 3.4, -2.5 + Math.cos(t * 0.5 + i * 3.1) * 2]} color={["#ffcf7a", "#ffffff", "#b3122e"][(i + beat) % 3]} intensity={8 * (0.4 + pulse)} distance={8} />
       ))}
       {/* Gäste in Abendgarderobe */}
-      {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={SUITS[i % SUITS.length]} />)}
+      {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} />)}
+      {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
     </group>
   );
 };

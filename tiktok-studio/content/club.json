@@ -579,5 +579,345 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-3",
+  "title": "Club Daddyverse – Night 3",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 3",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "We hit 25 followers. I bought a smoke machine. Night 3: gold only 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "We just hit 25 followers. So I bought a smoke machine.",
+    "scene": "3d",
+    "clock": "NIGHT 3",
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ],
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   },
+   {
+    "text": "Night 3. 39 guests inside. And you call me Vinnie now. Fine.",
+    "scene": "3d",
+    "clock": "39 INSIDE",
+    "big": {
+     "value": "+28",
+     "sub": "SINCE LAST NIGHT"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 12,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    }
+   },
+   {
+    "text": "You voted gold only. Look at them. Ridiculous.",
+    "scene": "3d",
+    "clock": "YOUR VOTE",
+    "card": {
+     "kicker": "YOU VOTED",
+     "title": "GOLD ONLY"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   },
+   {
+    "text": "27 likes. Goal reached. Champagne is out. A deal is a deal.",
+    "scene": "3d",
+    "clock": "LIKES",
+    "big": {
+     "value": "27 / 25 ❤",
+     "sub": "GOAL REACHED · CHAMPAGNE"
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   },
+   {
+    "text": "On the list tonight: jr kroupi, Henry, Timber, Susie, Axo. Henry and Marz both want the DJ booth. 11 more followers, and they battle for it.",
+    "scene": "3d",
+    "clock": "GUEST LIST",
+    "stat": {
+     "title": "GUEST LIST",
+     "rows": [
+      [
+       "JR KROUPI",
+       "VIP ✓"
+      ],
+      [
+       "HENRY",
+       "VIP ✓"
+      ],
+      [
+       "TIMBER",
+       "VIP ✓"
+      ],
+      [
+       "SUSIE",
+       "VIP ✓"
+      ],
+      [
+       "AXO",
+       "VIP ✓"
+      ],
+      [
+       "DJ AT 50",
+       "HENRY vs MARZ"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   },
+   {
+    "text": "We made 702 dollars. Costs: 740. Still broke.",
+    "scene": "3d",
+    "clock": "CASH",
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "39 GUESTS × $18",
+       "+$702"
+      ],
+      [
+       "RENT + STAFF",
+       "−$740"
+      ],
+      [
+       "BALANCE",
+       "−$1,164"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   },
+   {
+    "text": "You decide. What do I buy? A: Bigger chandelier. B: Champagne tower. C: A second bouncer. Follow, and you're in.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "stat": {
+     "title": "NEXT PURCHASE · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "BIGGER CHANDELIER"
+      ],
+      [
+       "B",
+       "CHAMPAGNE TOWER"
+      ],
+      [
+       "C",
+       "A SECOND BOUNCER"
+      ]
+     ]
+    },
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 39,
+     "dj": false,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "gold": true,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    }
+   }
+  ],
+  "day": 3,
+  "id": "club03",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 3",
+  "badge": "NIGHT 3",
+  "brand": "DADDYVERSE",
+  "next": "Night 4: will the club fill up?",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "25 FOLLOWERS",
+   "match": "just"
+  },
+  "music": "club/deep.wav",
+  "followers": 39,
+  "cash": -1164,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1126,
+    -1126,
+    -1126,
+    -1126,
+    -1126,
+    -1164,
+    -1164
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
