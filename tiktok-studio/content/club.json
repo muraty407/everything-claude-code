@@ -734,7 +734,7 @@
     }
    },
    {
-    "text": "On the list tonight: jr kroupi, Henry, Timber, Susie, Axo. Henry and Marz both want the DJ booth. 11 more followers, and they battle for it.",
+    "text": "On the list tonight: jr kroupi, Henry, Timber, Susie, Axo. You asked for a Hall of Fame for the first 100 guests. Fine. It opens tomorrow.",
     "scene": "3d",
     "clock": "GUEST LIST",
     "stat": {
@@ -761,8 +761,8 @@
        "VIP ✓"
       ],
       [
-       "DJ AT 50",
-       "HENRY vs MARZ"
+       "TOMORROW",
+       "HALL OF FAME · FIRST 100"
       ]
      ]
     },
@@ -792,7 +792,7 @@
     }
    },
    {
-    "text": "We made 702 dollars. Costs: 740. Still broke.",
+    "text": "Henry and Marz both want the DJ booth. 11 more followers, and they battle for it. We made 702 dollars. Costs: 740. Still broke.",
     "scene": "3d",
     "clock": "CASH",
     "stat": {
@@ -890,7 +890,7 @@
   "series": "CLUB DADDYVERSE · NIGHT 3",
   "badge": "NIGHT 3",
   "brand": "DADDYVERSE",
-  "next": "Night 4: will the club fill up?",
+  "next": "Night 4: the Hall of Fame opens",
   "next_label": "TOMORROW · NIGHT",
   "followLabel": "FOLLOW = YOU'RE IN",
   "punch": {
