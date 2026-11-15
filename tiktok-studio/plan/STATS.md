@@ -25,3 +25,5 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 | 13.11. | Daddyverse YouTube | Club Night 1 | 1 Tag | 61 | – | – | – | – | 1 | – | +1 Abo | erster Short des Kanals |
 | 14.11. | Daddyverse TikTok | Club Night 2 (41 s) | 24 h | 744 | 5,8 s | 14 % | 2,17 % | 27 | 6 | 0 | 5 | Umfrage im Kommentar: 12 Stimmen, Gold Only 67 % |
 | 14.11. | Daddyverse YouTube | Kanal | – | Night 1: 1.012 · Night 2: 931 | – | – | – | – | 5+ | – | 24 Abos | YouTube wächst schneller als TikTok; 2 Zuschauer wünschen „Hall of Fame für die ersten 100“ |
+| 15.11. | Daddyverse TikTok | Club Night 3 (53 s) | 24 h | 739 | 5,2 s | – | 1,72 % | 18 | 2 | 1 | 6 | 1 gespeichert; Umfrage 8 Stimmen, Champagne Tower 50 %; Kanal: 21 Follower, 189 Likes |
+| 15.11. | Daddyverse YouTube | Kanal | – | Night 1: 1.033 · Night 2: 1.283 · Night 3: 1.123 | – | – | – | – | 7 (Night 3) | – | 33 Abos | Zuschauer bewerben sich als DJ und Security |

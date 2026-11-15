@@ -919,5 +919,290 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-4",
+  "title": "Club Daddyverse – Night 4",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 4",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "We hit 50 followers. Three of you want the DJ booth. Night 4 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "We just hit 50 followers. The DJ booth is open. And three of you want it.",
+    "scene": "3d",
+    "clock": "NIGHT 4",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 54,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "fame": 54,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 4. 54 guests inside. Henry, Marz and Asky all want to be the DJ. I can only pay one.",
+    "scene": "3d",
+    "clock": "54 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 12,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    },
+    "big": {
+     "value": "+15",
+     "sub": "SINCE LAST NIGHT"
+    }
+   },
+   {
+    "text": "You voted champagne tower. I thought it would make money. It cost 400 dollars. And 18 likes. No free drinks.",
+    "scene": "3d",
+    "clock": "YOUR VOTE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 54,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 54,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "card": {
+     "kicker": "YOU VOTED",
+     "title": "CHAMPAGNE TOWER · −$400"
+    }
+   },
+   {
+    "text": "The Hall of Fame is open. The first 100 guests go on the wall. 46 plates left.",
+    "scene": "3d",
+    "clock": "HALL OF FAME",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 54,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       1.4,
+       1.8,
+       -2.6
+      ],
+      "yaw": [
+       -0.35,
+       -0.55
+      ],
+      "pitch": 0.05
+     },
+     "fame": 54,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "big": {
+     "value": "54 / 100",
+     "sub": "HALL OF FAME · 46 LEFT"
+    }
+   },
+   {
+    "text": "We made 972 dollars. Costs: 1,140. At minus 2,000, the bank closes us.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 54,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 54,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "54 GUESTS × $18",
+       "+$972"
+      ],
+      [
+       "RENT + STAFF + TOWER",
+       "−$1,140"
+      ],
+      [
+       "BALANCE",
+       "−$1,332"
+      ],
+      [
+       "BANK CLOSES US AT",
+       "−$2,000"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. Who is the DJ? A: Henry. B: Marz. C: Asky. Follow, and you're in.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 54,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "fame": 54,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "WHO IS THE DJ? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "HENRY"
+      ],
+      [
+       "B",
+       "MARZ"
+      ],
+      [
+       "C",
+       "ASKY"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 4,
+  "id": "club04",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 4",
+  "badge": "NIGHT 4",
+  "brand": "DADDYVERSE",
+  "next": "Night 5: the new DJ",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "50 FOLLOWERS",
+   "match": "just"
+  },
+  "music": "club/deep.wav",
+  "followers": 54,
+  "cash": -1332,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1164,
+    -1164,
+    -1164,
+    -1164,
+    -1332,
+    -1332
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
