@@ -164,6 +164,7 @@ export type Scene3D = {
   queue?: number; // Club-Eingang: Schlange vor der Tür
   dj?: boolean;
   gold?: boolean; // Club: Dresscode „Gold Only“
+  fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
   bpm?: number;
   torch?: boolean; // Handy-Taschenlampe
   ladder?: boolean; // Drehleiter am Fenster + Blaulicht
@@ -436,6 +437,18 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {/* Gäste in Abendgarderobe */}
       {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} />)}
       {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
+      {sc.fame !== undefined && (
+        <group position={[3.6, 2.1, -6.4]} rotation={[0, -0.5, 0]}>
+          <TBox p={[0, 0, 0]} s={[3.3, 2.5, 0.08]} c="#121116" />
+          <TBox p={[0, 1.32, 0]} s={[3.5, 0.14, 0.12]} c={GOLD} e={GOLD_E} />
+          <TBox p={[0, -1.32, 0]} s={[3.5, 0.14, 0.12]} c={GOLD} e={GOLD_E} />
+          {Array.from({ length: 100 }, (_, i) => {
+            const on = i < (sc.fame ?? 0);
+            return <TBox key={`hf${i}`} p={[-1.35 + (i % 10) * 0.3, 0.95 - Math.floor(i / 10) * 0.21, 0.06]} s={[0.24, 0.13, 0.03]} c={on ? "#e6c65a" : "#2a2830"} e={on ? GOLD_E : undefined} noLine />;
+          })}
+          <pointLight position={[0, 0.4, 1.2]} color="#ffd98a" intensity={6} distance={4} />
+        </group>
+      )}
     </group>
   );
 };
