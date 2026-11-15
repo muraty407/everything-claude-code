@@ -11,3 +11,11 @@
 
 Statistik, die der Nutzer schickt, immer in `plan/STATS.md` nachtragen.
 Ton prüfen: `pipeline/earshot.sh critique <video>`; Sprache transkribieren: `pipeline/listen.py <video>`.
+
+## Erzähl-Regel „Dopamin-Loop“ (vom Nutzer am 15.11. gewünscht, für alle kommenden Skripte)
+Quelle: Storytelling-Video, das der Nutzer geschickt hat. Jedes Skript hat mindestens eine Schleife aus 4 Schritten:
+1. **Einsatz** – eine Figur zum Mitfiebern, etwas steht auf dem Spiel, Zeitdruck (Club: Vinnie, Schulden, Frist; Zeitzeuge: „du“, Überleben, Countdown).
+2. **Große Frage** – nur so viel Kontext, dass eine Frage im Kopf entsteht (nicht sofort beantworten).
+3. **Finte** – alles deutet auf A, dann kommt B (die überraschende Wendung, der eigentliche Fakt).
+4. **Rehook** – sofort die nächste Frage öffnen (Cliffhanger, Abstimmung, „morgen …“).
+Lange Videos: mehrere Schleifen hintereinander. Club-Folgen: höchstens 6 kurze Szenen, Ziel unter 35 Sekunden.
