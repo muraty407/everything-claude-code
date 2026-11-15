@@ -27,6 +27,7 @@ from pov import POV  # noqa: E402
 from v2_overrides import OVERRIDES  # noqa: E402
 import schedule_order  # noqa: E402
 import short_ab  # noqa: E402
+import loop  # noqa: E402
 
 V3_FROM = "2026-11-10"  # ab hier neuer Einstieg (Sprache ab Frame 0 + Schlagwort)
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
@@ -229,6 +230,11 @@ def main():
             if e["slug"] in short_ab.AB:
                 q, a, b = short_ab.AB[e["slug"]]
                 e["pin"] = f"{q}? A: {a} oder B: {b}? 👇"
+
+    # ---- Dopamin-Loop: Finte („Du denkst … Falsch.“) ab loop.LOOP_FROM
+    for e in schedule + bonus:
+        if loop.apply(e):
+            e["word_count"] = words(e["segments"])
 
     # ---- Test: Überlebens-Anzeige (sinkt pro Szene, am Ende „?“ → Auflösung = Frage)
     SURVIVAL = {"todeszone-everest", "marianengraben", "auto-unter-wasser", "venus-landung", "hai", "erde-stoppt"}

@@ -1859,7 +1859,7 @@
     "you": true
    },
    {
-    "text": "Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
+    "text": "Du denkst: Der Hunger wird jeden Tag schlimmer. Falsch. Er wird sogar oft schwächer. Aber du frierst, wirst müde und schwach.",
     "scene": "room:dark",
     "clock": "TAG 7",
     "stat": {
@@ -1907,7 +1907,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 3",
   "next": "Was tust du, wenn dein Auto ins Wasser stürzt?",
-  "word_count": 64,
+  "word_count": 72,
   "badge": "BONUS 3",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -1926,7 +1926,8 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Wie lange hast du schon gefastet? A: Unter 1 Tag oder B: Über 1 Tag? 👇"
+  "pin": "Wie lange hast du schon gefastet? A: Unter 1 Tag oder B: Über 1 Tag? 👇",
+  "loop": true
  },
  {
   "slug": "auto-unter-wasser",
@@ -1962,7 +1963,7 @@
     "you": true
    },
    {
-    "text": "Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen.",
+    "text": "Du denkst: Tür aufdrücken. Falsch. Der Wasserdruck hält sie zu. Die Regel heißt: Gurt, Fenster, raus.",
     "scene": "underwater:dark",
     "clock": "00:15",
     "stat": {
@@ -2013,7 +2014,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 4",
   "next": "Was wäre, wenn dich ein Hai angreift?",
-  "word_count": 59,
+  "word_count": 61,
   "badge": "BONUS 4",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2033,6 +2034,7 @@
   },
   "short": true,
   "pin": "Hast du einen Nothammer im Auto? A: Ja oder B: Nein? 👇",
+  "loop": true,
   "survival": [
    90,
    48,
@@ -2449,7 +2451,7 @@
     "you": true
    },
    {
-    "text": "In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken.",
+    "text": "Du denkst, das ist dein Herz. Falsch. Es ist dein Gehirn. Dort wird jetzt viel Dopamin ausgeschüttet. Dasselbe Belohnungssystem, auf das auch Drogen wirken.",
     "scene": "city:dusk",
     "clock": "TAG 1",
     "card": {
@@ -2497,7 +2499,7 @@
   "post_time": "20:30",
   "series": "ZEITZEUGE · BONUS 9",
   "next": "Was wäre, wenn du im Lotto gewinnst?",
-  "word_count": 57,
+  "word_count": 64,
   "badge": "BONUS 9",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · BONUS",
@@ -2516,7 +2518,8 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Bist du gerade verliebt? A: Ja oder B: Nein? 👇"
+  "pin": "Bist du gerade verliebt? A: Ja oder B: Nein? 👇",
+  "loop": true
  },
  {
   "slug": "lotto",

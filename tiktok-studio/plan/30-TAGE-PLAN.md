@@ -1205,7 +1205,7 @@ Riesenameisen wie im Horrorfilm? Die Physik sagt: keine Chance. 🐜 #ameise #ph
 
 <details><summary>Sprechertext</summary>
 
-Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben. Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen. Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer. Wer gewinnt? A: Du. Oder B: Die Riesenameise? Schreib A oder B.
+Eine Ameise ist gerade so groß geworden wie du. Und sie würde trotzdem keine Minute überleben. Du denkst: Sie ist stärker als du. Eine Ameise trägt ja ein Vielfaches ihres Gewichts. Falsch. Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer. Wer gewinnt? A: Du. Oder B: Die Riesenameise? Schreib A oder B.
 
 </details>
 
@@ -1279,7 +1279,7 @@ Ein Mann hat über ein Jahr nichts gegessen – und überlebt. So reagiert… #f
 
 <details><summary>Sprechertext</summary>
 
-Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Der Hunger wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.
+Du hast seit einem Tag nichts gegessen. Und dein Körper hat seine Zuckerspeicher schon fast leer gemacht. Du denkst: Der Hunger wird jeden Tag schlimmer. Falsch. Er wird sogar oft schwächer. Aber du frierst, wirst müde und schwach. Wer genug trinkt, kann je nach Fettreserven mehrere Wochen ohne Essen überleben. Bitte nicht nachmachen. Wie lange hast du schon gefastet? A: Unter 1 Tag. Oder B: Über 1 Tag? Schreib A oder B.
 
 </details>
 
@@ -1316,7 +1316,7 @@ Teil 2: Der Zettel, der die Welt bewegte – und die spektakuläre Rettung… #c
 
 <details><summary>Sprechertext</summary>
 
-Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Wie lange hättest du durchgehalten? A: Unter 30 Tage. Oder B: Alle 69 Tage? Schreib A oder B.
+Auf dem Zettel steht: Uns geht es gut im Schutzraum, die dreiunddreißig. Ganz Chile jubelt. Alle denken: In ein paar Tagen sind sie draußen. Falsch. Die Rettung durch siebenhundert Meter Fels dauert noch Wochen. Am neunundsechzigsten Tag ist der Rettungsschacht fertig. Eine enge Kapsel holt sie einzeln nach oben. Wie lange hättest du durchgehalten? A: Unter 30 Tage. Oder B: Alle 69 Tage? Schreib A oder B.
 
 </details>
 
@@ -1353,7 +1353,7 @@ Ohne Bienen gäbe es viele deiner Lieblingsessen nicht mehr. 🐝 Was würdest�
 
 <details><summary>Sprechertext</summary>
 
-Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen. Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer. Worauf verzichtest du zuerst? A: Äpfel. Oder B: Kaffee? Schreib A oder B.
+Alle Bienen der Welt sind gerade verschwunden. Und bald fehlt vieles auf deinem Teller. Du denkst: Dann gibt es eben keinen Honig mehr. Falsch. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen. Äpfel, Kirschen, Erdbeeren, Mandeln, Kaffee: Sie würden viel seltener und viel teurer. Worauf verzichtest du zuerst? A: Äpfel. Oder B: Kaffee? Schreib A oder B.
 
 </details>
 
@@ -1390,7 +1390,7 @@ Dein Auto landet im Wasser. Du hast ungefähr eine Minute. Diese 3… #auto #üb
 
 <details><summary>Sprechertext</summary>
 
-Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Die Regel heißt: Gurt, Fenster, raus. Sofort den Gurt lösen und das Seitenfenster öffnen. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.
+Dein Auto kommt von der Straße ab und landet im See. Das Wasser steigt schon an deinen Füßen. Du denkst: Tür aufdrücken. Falsch. Der Wasserdruck hält sie zu. Die Regel heißt: Gurt, Fenster, raus. Denn ein Auto kann schon nach ein bis zwei Minuten komplett untergehen. Hast du einen Nothammer im Auto? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1427,7 +1427,7 @@ Heute Nacht verschwindet der Mond. Was passiert mit der Erde? 🌕 #mond #weltal
 
 <details><summary>Sprechertext</summary>
 
-Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Keine Sorge, das dauert Milliarden Jahre. Was würdest du mehr vermissen? A: Den Mond. Oder B: Die Sterne? Schreib A oder B.
+Der Mond ist gerade verschwunden. Und die Nächte werden pechschwarz. Du denkst: Dann ist es nachts eben dunkler. Das ist das kleinste Problem. Ebbe und Flut schrumpfen auf etwa ein Drittel. Noch gefährlicher: Ohne Mond könnte die Erdachse über Millionen Jahre stark schwanken. Keine Sorge, das dauert Milliarden Jahre. Was würdest du mehr vermissen? A: Den Mond. Oder B: Die Sterne? Schreib A oder B.
 
 </details>
 
@@ -1464,7 +1464,7 @@ Was passiert, wenn du fast so schnell fliegst wie das… #lichtgeschwindigkeit #
 
 <details><summary>Sprechertext</summary>
 
-Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen. Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde. Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben. Würdest du einsteigen? A: Ja, sofort. Oder B: Zu gefährlich? Schreib A oder B.
+Du fliegst gerade fast so schnell wie das Licht. Und für dich vergeht die Zeit langsamer als für alle anderen. Licht ist rund dreihunderttausend Kilometer pro Sekunde schnell. Siebenmal um die Erde in einer Sekunde. Du denkst: Ein Jahr Flug, ein Jahr älter. Falsch. Bei neunundneunzig Prozent vergeht für dich ein Jahr, auf der Erde sind es etwa sieben. Würdest du einsteigen? A: Ja, sofort. Oder B: Zu gefährlich? Schreib A oder B.
 
 </details>
 
@@ -1575,7 +1575,7 @@ Alle Menschen verschwinden auf einen Schlag. Was bleibt von uns… #erdeohnemens
 
 <details><summary>Sprechertext</summary>
 
-Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was hält am längsten? A: Pyramiden. Oder B: Plastik? Schreib A oder B.
+Alle Menschen sind gerade verschwunden. Was passiert mit der Welt, die wir zurücklassen? Nach Stunden gehen die Lichter aus. Nach zwei Tagen laufen U-Bahn-Tunnel voll Wasser. Du denkst: Unsere Städte bleiben für immer. Falsch. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik. Und auf dem Mond unsere Fußabdrücke, vielleicht für Millionen Jahre. Was hält am längsten? A: Pyramiden. Oder B: Plastik? Schreib A oder B.
 
 </details>
 
@@ -1686,7 +1686,7 @@ Der Supervulkan unter Yellowstone bricht aus. Was passiert in… #yellowstone #s
 
 <details><summary>Sprechertext</summary>
 
-Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Wohin flüchtest du? A: Europa. Oder B: Südamerika? Schreib A oder B.
+Der Supervulkan unter Yellowstone ist gerade ausgebrochen. Im Umkreis von rund hundert Kilometern zerstören Glutwolken fast alles. Du denkst: Amerika ist weit weg. Falsch. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten. Die Chance liegt aber nur bei etwa eins zu 730.000 pro Jahr. Wohin flüchtest du? A: Europa. Oder B: Südamerika? Schreib A oder B.
 
 </details>
 
@@ -1797,7 +1797,7 @@ Ja, Deutschland hat Vulkane. Was wäre, wenn die Eifel wieder ausbricht? 🌋 #e
 
 <details><summary>Sprechertext</summary>
 
-In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See. Seine Asche fand man bis nach Schweden und Italien. Wusstest du, dass die Eifel aktiv ist? A: Ja. Oder B: Nein? Schreib A oder B.
+In der Eifel bricht gerade ein Vulkan aus. Ja, in Deutschland. Du denkst: Die Vulkane dort sind längst erloschen. Falsch. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See. Seine Asche fand man bis nach Schweden und Italien. Wusstest du, dass die Eifel aktiv ist? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 
@@ -1871,7 +1871,7 @@ Das ganze Eis der Antarktis schmilzt. Wo verläuft dann die Küste in… #antark
 
 <details><summary>Sprechertext</summary>
 
-Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Wohnst du sicher? A: Ja, hoch genug. Oder B: Nein, an der Küste? Schreib A oder B.
+Das ganze Eis der Antarktis ist geschmolzen. Der Meeresspiegel steigt um 58 Meter. Hamburg, Bremen, Kiel: unter Wasser. Du denkst: Das trifft nur die Küste. Falsch. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer. Wohnst du sicher? A: Ja, hoch genug. Oder B: Nein, an der Küste? Schreib A oder B.
 
 </details>
 
@@ -1908,7 +1908,7 @@ Auf dem Jupiter kannst du nicht landen – und das ist noch das kleinste… #jup
 
 <details><summary>Sprechertext</summary>
 
-Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken. Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde. Was ist schlimmer? A: Jupiter. Oder B: Venus? Schreib A oder B.
+Du willst auf dem Jupiter landen. Das Problem: Er hat keinen Boden. Du denkst: Dann fliege ich eben einfach durch. Falsch. Jupiter ist ein Gasriese. Du sinkst immer tiefer durch dicke Wolken. Die Winde dort sind schneller als jeder Orkan auf der Erde. Über sechshundert Kilometer pro Stunde. Was ist schlimmer? A: Jupiter. Oder B: Venus? Schreib A oder B.
 
 </details>
 
@@ -1945,7 +1945,7 @@ Verliebtsein wirkt im Gehirn fast wie eine Droge. Das passiert wirklich in… #l
 
 <details><summary>Sprechertext</summary>
 
-Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. In deinem Gehirn wird jetzt viel Dopamin ausgeschüttet. Das ist dasselbe Belohnungssystem, auf das auch Drogen wirken. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.
+Du siehst diese eine Person. Dein Herz rast, und du kannst an nichts anderes mehr denken. Du denkst, das ist dein Herz. Falsch. Es ist dein Gehirn. Dort wird jetzt viel Dopamin ausgeschüttet. Dasselbe Belohnungssystem, auf das auch Drogen wirken. Dein Körper macht mit: Schwitzige Hände, Schmetterlinge im Bauch, weniger Hunger. Bist du gerade verliebt? A: Ja. Oder B: Nein? Schreib A oder B.
 
 </details>
 

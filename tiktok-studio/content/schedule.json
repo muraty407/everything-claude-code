@@ -1733,7 +1733,7 @@
     "you": true
    },
    {
-    "text": "Eine normale Ameise kann ein Vielfaches ihres eigenen Gewichts tragen.",
+    "text": "Du denkst: Sie ist stärker als du. Eine Ameise trägt ja ein Vielfaches ihres Gewichts.",
     "scene": "mountains:day",
     "clock": "—",
     "big": {
@@ -1742,7 +1742,7 @@
     }
    },
    {
-    "text": "Aber: Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer.",
+    "text": "Falsch. Wird sie zweihundertmal größer, wird sie acht Millionen Mal schwerer.",
     "scene": "city:day",
     "clock": "00:01",
     "big": {
@@ -1768,7 +1768,7 @@
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 18",
   "next": "33 Bergleute unter Tage – Teil 1",
-  "word_count": 49,
+  "word_count": 54,
   "badge": "FOLGE 18",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -1787,7 +1787,8 @@
    "match": "eine"
   },
   "short": true,
-  "pin": "Wer gewinnt? A: Du oder B: Die Riesenameise? 👇"
+  "pin": "Wer gewinnt? A: Du oder B: Die Riesenameise? 👇",
+  "loop": true
  },
  {
   "slug": "chile-bergleute-teil-1",
@@ -1916,7 +1917,7 @@
     ]
    },
    {
-    "text": "Ganz Chile jubelt. Doch die Rettung durch siebenhundert Meter Fels dauert noch Wochen.",
+    "text": "Ganz Chile jubelt. Alle denken: In ein paar Tagen sind sie draußen. Falsch. Die Rettung durch siebenhundert Meter Fels dauert noch Wochen.",
     "scene": "mountains:day",
     "clock": "TAG 17",
     "card": {
@@ -1951,7 +1952,7 @@
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 23",
   "next": "Was wäre, wenn alle Bienen verschwinden?",
-  "word_count": 58,
+  "word_count": 67,
   "badge": "FOLGE 23",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -1970,7 +1971,8 @@
    "match": "auf"
   },
   "short": true,
-  "pin": "Wie lange hättest du durchgehalten? A: Unter 30 Tage oder B: Alle 69 Tage? 👇"
+  "pin": "Wie lange hättest du durchgehalten? A: Unter 30 Tage oder B: Alle 69 Tage? 👇",
+  "loop": true
  },
  {
   "slug": "keine-bienen",
@@ -2003,7 +2005,7 @@
     "you": true
    },
    {
-    "text": "Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen.",
+    "text": "Du denkst: Dann gibt es eben keinen Honig mehr. Falsch. Bienen und andere Bestäuber helfen bei rund drei Vierteln der wichtigsten Nutzpflanzen.",
     "scene": "mountains:day",
     "clock": "TAG 1",
     "big": {
@@ -2051,7 +2053,7 @@
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 24",
   "next": "Was wäre, wenn der Mond verschwindet?",
-  "word_count": 51,
+  "word_count": 61,
   "badge": "FOLGE 24",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -2070,7 +2072,8 @@
    "match": "alle"
   },
   "short": true,
-  "pin": "Worauf verzichtest du zuerst? A: Äpfel oder B: Kaffee? 👇"
+  "pin": "Worauf verzichtest du zuerst? A: Äpfel oder B: Kaffee? 👇",
+  "loop": true
  },
  {
   "slug": "mond-verschwindet",
@@ -2103,7 +2106,7 @@
     "you": true
    },
    {
-    "text": "Ebbe und Flut schrumpfen auf etwa ein Drittel. Nur noch die Sonne zieht am Meer.",
+    "text": "Du denkst: Dann ist es nachts eben dunkler. Das ist das kleinste Problem. Ebbe und Flut schrumpfen auf etwa ein Drittel.",
     "scene": "ocean:night",
     "clock": "TAG 1",
     "big": {
@@ -2147,7 +2150,7 @@
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 25",
   "next": "Was wäre, wenn du so schnell wärst wie das Licht?",
-  "word_count": 59,
+  "word_count": 65,
   "hashtags": [
    "#mond",
    "#weltall",
@@ -2166,7 +2169,8 @@
    "match": "der"
   },
   "short": true,
-  "pin": "Was würdest du mehr vermissen? A: Den Mond oder B: Die Sterne? 👇"
+  "pin": "Was würdest du mehr vermissen? A: Den Mond oder B: Die Sterne? 👇",
+  "loop": true
  },
  {
   "slug": "lichtgeschwindigkeit",
@@ -2210,7 +2214,7 @@
     }
    },
    {
-    "text": "Bei neunundneunzig Prozent davon vergeht für dich ein Jahr, auf der Erde sind es etwa sieben.",
+    "text": "Du denkst: Ein Jahr Flug, ein Jahr älter. Falsch. Bei neunundneunzig Prozent vergeht für dich ein Jahr, auf der Erde sind es etwa sieben.",
     "scene": "space:stars",
     "clock": "1 JAHR",
     "stat": {
@@ -2245,7 +2249,7 @@
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 26",
   "next": "Was wäre, wenn heute ein Dino-Asteroid einschlägt?",
-  "word_count": 65,
+  "word_count": 73,
   "badge": "FOLGE 26",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -2264,7 +2268,8 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Würdest du einsteigen? A: Ja, sofort oder B: Zu gefährlich? 👇"
+  "pin": "Würdest du einsteigen? A: Ja, sofort oder B: Zu gefährlich? 👇",
+  "loop": true
  },
  {
   "slug": "asteroid",
@@ -2398,7 +2403,7 @@
     }
    },
    {
-    "text": "Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik.",
+    "text": "Du denkst: Unsere Städte bleiben für immer. Falsch. Nach zehntausend Jahren bleiben: Pyramiden, Teile der Chinesischen Mauer und jede Menge Plastik.",
     "scene": "dark",
     "clock": "JAHR 10.000",
     "stat": {
@@ -2437,7 +2442,7 @@
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 28",
   "next": "Du bist Juri Gagarin – Teil 1",
-  "word_count": 62,
+  "word_count": 70,
   "hashtags": [
    "#erdeohnemenschen",
    "#natur",
@@ -2456,7 +2461,8 @@
    "match": "alle"
   },
   "short": true,
-  "pin": "Was hält am längsten? A: Pyramiden oder B: Plastik? 👇"
+  "pin": "Was hält am längsten? A: Pyramiden oder B: Plastik? 👇",
+  "loop": true
  },
  {
   "slug": "gagarin-teil-1",
@@ -2596,7 +2602,7 @@
     }
    },
    {
-    "text": "Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten.",
+    "text": "Du denkst: Amerika ist weit weg. Falsch. Schwefel kühlt die ganze Erde ab. Auch bei uns: kalte Sommer, schlechte Ernten.",
     "scene": "earth:haze",
     "clock": "JAHR 1",
     "stat": {
@@ -2631,7 +2637,7 @@
   "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 30",
   "next": "Du bist Juri Gagarin – Teil 2",
-  "word_count": 54,
+  "word_count": 61,
   "hashtags": [
    "#yellowstone",
    "#supervulkan",
@@ -2650,7 +2656,8 @@
    "match": "der"
   },
   "short": true,
-  "pin": "Wohin flüchtest du? A: Europa oder B: Südamerika? 👇"
+  "pin": "Wohin flüchtest du? A: Europa oder B: Südamerika? 👇",
+  "loop": true
  },
  {
   "slug": "gagarin-teil-2",
@@ -2775,7 +2782,7 @@
     ]
    },
    {
-    "text": "Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See.",
+    "text": "Du denkst: Die Vulkane dort sind längst erloschen. Falsch. Der letzte große Ausbruch war vor rund dreizehntausend Jahren. Daraus entstand der Laacher See.",
     "scene": "map",
     "clock": "VOR 13.000 J.",
     "map": {
@@ -2810,7 +2817,7 @@
   "post_time": "18:00",
   "series": "ZEITZEUGE · FOLGE 32",
   "next": "Was wäre, wenn die Antarktis komplett schmilzt?",
-  "word_count": 50,
+  "word_count": 59,
   "badge": "FOLGE 32",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -2829,7 +2836,8 @@
    "match": "in"
   },
   "short": true,
-  "pin": "Wusstest du, dass die Eifel aktiv ist? A: Ja oder B: Nein? 👇"
+  "pin": "Wusstest du, dass die Eifel aktiv ist? A: Ja oder B: Nein? 👇",
+  "loop": true
  },
  {
   "slug": "antarktis-schmilzt",
@@ -2888,7 +2896,7 @@
     "you": true
    },
    {
-    "text": "Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer.",
+    "text": "Du denkst: Das trifft nur die Küste. Falsch. Die Nordsee reicht weit nach Niedersachsen hinein. Münster läge fast am Meer.",
     "scene": "map",
     "clock": "+58 M",
     "map": {
@@ -2914,7 +2922,7 @@
   "post_time": "12:00",
   "series": "ZEITZEUGE · FOLGE 33",
   "next": "Was wäre, wenn du auf dem Jupiter landen willst?",
-  "word_count": 47,
+  "word_count": 55,
   "hashtags": [
    "#antarktis",
    "#klima",
@@ -2933,7 +2941,8 @@
    "match": "das"
   },
   "short": true,
-  "pin": "Wohnst du sicher? A: Ja, hoch genug oder B: Nein, an der Küste? 👇"
+  "pin": "Wohnst du sicher? A: Ja, hoch genug oder B: Nein, an der Küste? 👇",
+  "loop": true
  },
  {
   "slug": "jupiter-landung",
@@ -2968,7 +2977,7 @@
     ]
    },
    {
-    "text": "Jupiter ist ein Gasriese. Du sinkst einfach immer tiefer durch dicke Wolken.",
+    "text": "Du denkst: Dann fliege ich eben einfach durch. Falsch. Jupiter ist ein Gasriese. Du sinkst immer tiefer durch dicke Wolken.",
     "scene": "earth:haze",
     "clock": "00:30",
     "card": {
@@ -3006,7 +3015,7 @@
   "post_time": "17:00",
   "series": "ZEITZEUGE · FOLGE 34",
   "next": "Shackleton im Eis – Teil 1",
-  "word_count": 52,
+  "word_count": 60,
   "badge": "FOLGE 34",
   "brand": "ZEITZEUGE",
   "next_label": "ALS NÄCHSTES · FOLGE",
@@ -3025,7 +3034,8 @@
    "match": "du"
   },
   "short": true,
-  "pin": "Was ist schlimmer? A: Jupiter oder B: Venus? 👇"
+  "pin": "Was ist schlimmer? A: Jupiter oder B: Venus? 👇",
+  "loop": true
  },
  {
   "slug": "shackleton-teil-1",
