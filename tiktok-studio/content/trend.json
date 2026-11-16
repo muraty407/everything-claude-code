@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "voyager-lichttag",
+  "title": "Voyager 1 ist jetzt einen Lichttag entfernt",
+  "accent": "#4cc9f0",
+  "hud": {
+   "label": "ENTFERNUNG",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "1 LICHTTAG",
+   "bottom": "ENTFERNT",
+   "tag": "VOYAGER 1",
+   "kicker": "HEUTE",
+   "scene": "space:stars"
+  },
+  "caption": "Dieses Signal ist 24 Stunden unterwegs – von einer Maschine aus dem Jahr 1977. 🛰️ Sollen Außerirdische sie finden?",
+  "tags": [
+   "voyager",
+   "weltall",
+   "nasa",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Dieses Funksignal ist seit vierundzwanzig Stunden unterwegs. Und es kommt von einer Maschine aus dem Jahr 1977.",
+    "scene": "space:stars",
+    "clock": "24:00:00",
+    "ctx": "VOYAGER 1 · NOVEMBER 2026",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Voyager eins ist jetzt einen ganzen Lichttag von der Erde entfernt. Das sind rund sechsundzwanzig Milliarden Kilometer.",
+    "scene": "space:earth",
+    "clock": "26 MRD. KM",
+    "big": {
+     "value": "26 MRD. KM",
+     "sub": "WEITER WEG ALS ALLES, WAS MENSCHEN JE GEBAUT HABEN"
+    }
+   },
+   {
+    "text": "Du denkst, nach fast fünfzig Jahren ist sie längst tot. Falsch. Sie funkt immer noch. Ihr Sender hat nur etwa zwanzig Watt.",
+    "scene": "space:stars",
+    "clock": "49 JAHRE",
+    "stat": {
+     "title": "VOYAGER 1",
+     "rows": [
+      [
+       "START",
+       "1977"
+      ],
+      [
+       "SENDER",
+       "≈ 20 WATT"
+      ],
+      [
+       "STATUS",
+       "FUNKT NOCH"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "An Bord ist eine goldene Schallplatte. Mit Grüßen in fünfundfünfzig Sprachen. Sollen Außerirdische sie finden? A: Ja. Oder B: Lieber nicht? Schreib A oder B.",
+    "scene": "space:stars",
+    "clock": "—",
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: LIEBER NICHT"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 1,
+  "id": "t01-voyager-lichttag",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "12:00",
+  "series": "ZEITZEUGE · AKTUELL",
+  "next": "",
+  "word_count": 81,
+  "badge": "AKTUELL",
+  "brand": "ZEITZEUGE",
+  "hashtags": [
+   "#voyager",
+   "#weltall",
+   "#nasa",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Dieses Signal ist 24 Stunden unterwegs – von einer Maschine aus dem Jahr 1977. 🛰️ Sollen Außerirdische sie finden?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#voyager #weltall #nasa #zeitzeuge #wissenschaft",
+  "yt_title": "Voyager 1 ist jetzt einen Lichttag entfernt #shorts",
+  "yt_description": "Dieses Signal ist 24 Stunden unterwegs – von einer Maschine aus dem Jahr… #voyager #weltall #shorts",
+  "punch": {
+   "word": "1 LICHTTAG ENTFERNT",
+   "match": "dieses"
+  },
+  "short": true,
+  "loop": true,
+  "trend": true
+ },
+ {
+  "slug": "leoniden-sturm",
+  "title": "Heute Nacht: Sternschnuppen – 1833 dachten Menschen an den Weltuntergang",
+  "accent": "#ffd166",
+  "hud": {
+   "label": "STERNSCHNUPPEN",
+   "tick": "up"
+  },
+  "thumb": {
+   "top": "STERNSCHNUPPEN",
+   "bottom": "STURM",
+   "tag": "HEUTE NACHT",
+   "kicker": "LEONIDEN",
+   "scene": "space:stars"
+  },
+  "caption": "Heute Nacht fallen die Leoniden. 1833 fielen so viele, dass Menschen an den Weltuntergang glaubten. 🌠 Schaust du hoch?",
+  "tags": [
+   "sternschnuppen",
+   "leoniden",
+   "weltall",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Heute Nacht fallen Sternschnuppen über Deutschland. 1833 fielen so viele, dass Menschen dachten, die Welt geht unter.",
+    "scene": "city:night",
+    "clock": "HEUTE NACHT",
+    "ctx": "LEONIDEN · 17. NOVEMBER",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "In einer Novembernacht 1833 sahen Menschen in Nordamerika zehntausende Sternschnuppen pro Stunde.",
+    "scene": "space:stars",
+    "clock": "1833",
+    "big": {
+     "value": "1833",
+     "sub": "ZEHNTAUSENDE STERNSCHNUPPEN PRO STUNDE"
+    }
+   },
+   {
+    "text": "Du denkst, das sind große Steine. Falsch. Die meisten sind kleiner als ein Sandkorn. Aber sie treffen die Luft mit siebzig Kilometern pro Sekunde.",
+    "scene": "space:earth",
+    "clock": "70 KM/S",
+    "stat": {
+     "title": "LEONIDEN",
+     "rows": [
+      [
+       "GRÖSSE",
+       "WIE EIN SANDKORN"
+      ],
+      [
+       "TEMPO",
+       "70 KM PRO SEKUNDE"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Heute Nacht sind es nur etwa zehn bis fünfzehn pro Stunde. Am besten nach Mitternacht. Schaust du hoch? A: Ja. Oder B: Zu kalt? Schreib A oder B.",
+    "scene": "city:night",
+    "clock": "—",
+    "card": {
+     "kicker": "SCHREIB A ODER B",
+     "title": "A: JA · B: ZU KALT"
+    }
+   }
+  ],
+  "hook": true,
+  "day": 2,
+  "id": "t02-leoniden-sturm",
+  "date": "2026-11-17",
+  "weekday": "Di",
+  "post_time": "20:30",
+  "series": "ZEITZEUGE · AKTUELL",
+  "next": "",
+  "word_count": 81,
+  "badge": "AKTUELL",
+  "brand": "ZEITZEUGE",
+  "hashtags": [
+   "#sternschnuppen",
+   "#leoniden",
+   "#weltall",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Heute Nacht fallen die Leoniden. 1833 fielen so viele, dass Menschen an den Weltuntergang glaubten. 🌠 Schaust du hoch?\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#sternschnuppen #leoniden #weltall #zeitzeuge #wissenschaft",
+  "yt_title": "Heute Nacht: Sternschnuppen – 1833 dachten Menschen an den Weltuntergang #shorts",
+  "yt_description": "Heute Nacht fallen die Leoniden. 1833 fielen so viele, dass… #sternschnuppen #leoniden #shorts",
+  "punch": {
+   "word": "STERNSCHNUPPEN STURM",
+   "match": "heute"
+  },
+  "short": true,
+  "loop": true,
+  "trend": true
+ }
+]
