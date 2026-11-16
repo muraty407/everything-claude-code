@@ -1204,5 +1204,256 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-5",
+  "title": "Club Daddyverse – Night 5",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 5",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "You voted. Henry is the new DJ. First profit ever. Night 5 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "You voted. The new DJ is Henry. Marz lost by three votes.",
+    "scene": "3d",
+    "clock": "NIGHT 5",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 73,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.9,
+       -4.6
+      ],
+      "yaw": [
+       -0.12,
+       0.12
+      ],
+      "pitch": 0.02
+     },
+     "fame": 73,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 5. 73 guests. Marz offered free champagne for the job. Too late. I'm keeping the champagne.",
+    "scene": "3d",
+    "clock": "73 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 12,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    },
+    "big": {
+     "value": "73 / 100",
+     "sub": "HALL OF FAME · 27 PLATES LEFT"
+    }
+   },
+   {
+    "text": "45 likes. Goal reached. Free drinks for everyone. That cost me 300 dollars.",
+    "scene": "3d",
+    "clock": "LIKES",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 73,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 73,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "big": {
+     "value": "45 / 30 ❤",
+     "sub": "GOAL REACHED · FREE DRINKS · −$300"
+    }
+   },
+   {
+    "text": "I thought that ruins us. Wrong. First profit ever. 74 dollars. The bank still closes us at minus 2,000.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 73,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 73,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "73 GUESTS × $18",
+       "+$1,314"
+      ],
+      [
+       "RENT + STAFF + DJ + DRINKS",
+       "−$1,240"
+      ],
+      [
+       "FIRST PROFIT",
+       "+$74"
+      ],
+      [
+       "BALANCE",
+       "−$1,258"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. Who is my second bouncer? A: Janette. B: Burger. C: Nobody. Follow, and you're in.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 73,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "fame": 73,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "SECOND BOUNCER · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "JANETTE"
+      ],
+      [
+       "B",
+       "BURGER"
+      ],
+      [
+       "C",
+       "NOBODY · VINNIE WORKS ALONE"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 5,
+  "id": "club05",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 5",
+  "badge": "NIGHT 5",
+  "brand": "DADDYVERSE",
+  "next": "Night 6: the second bouncer",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "DJ HENRY",
+   "match": "you"
+  },
+  "music": "club/deep.wav",
+  "followers": 73,
+  "cash": -1258,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1332,
+    -1332,
+    -1332,
+    -1258,
+    -1258
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
