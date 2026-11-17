@@ -31,14 +31,20 @@ MUSIC = {"deep": ("club/deep.wav", 122), "tech": ("club/tech.wav", 126), "disco"
 LIKE_REWARDS = ["free champagne for everyone", "I smile, once", "the bartender gets a day off", "we open the VIP rope for one night"]
 
 
-def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4, bouncers=2):
-    return {"room": "clubdoor", "queue": queue, "bouncers": bouncers,
-            "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
+def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4, bouncers=2, enter=False):
+    """enter=True: Kamera geht über den roten Teppich zur Tür, die Tür schwingt auf (danach inside(..., "walkin"))."""
+    d = {"room": "clubdoor", "queue": queue, "bouncers": bouncers, "sign": "DADDYVERSE",
+         "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
+    if enter:
+        d["enter"] = True
+        d["cam"] = {"pos": [0.1, 1.7, 6.2], "yaw": [0, 0], "pitch": [0.12, 0.0], "walk": 1, "move": [0, 0, -8.6]}
+    return d
 
 
 # Kameras über Kopfhöhe, damit die Gäste nicht das Bild verdecken (seit 17.11., mehr Details in der Szene)
 CAMS = {
     "top": {"pos": [0, 4.1, 2.4], "yaw": [-0.06, 0.06], "pitch": -0.62},       # volle Tanzfläche von oben (Einstieg)
+    "walkin": {"pos": [0, 1.8, 4.4], "yaw": [0, 0], "pitch": [0.0, -0.3], "walk": 1, "move": [0, 1.2, -3.4]},  # direkt nach door(enter=True)
     "fly": {"pos": [0, 4.2, 3.8], "yaw": [0, 0], "pitch": [-0.75, -0.3], "move": [0, -1.4, -4.2]},  # Flug von oben in die Menge (Einstieg)
     "orbit": {"pos": [0, 2.9, 0], "yaw": [0, 0], "pitch": -0.28, "orbit": [0, -3.2, 6.2, -0.5, 0.5]},  # Kreisfahrt um die Tanzfläche
     "floor": {"pos": [0, 2.5, 3.9], "yaw": [-0.1, 0.1], "pitch": -0.2},
@@ -53,7 +59,7 @@ def inside(guests, dj, cam="floor", bpm=122, fame=None, tower=True, smoke=True, 
     """fx: Liste aus confetti, money, co2, sparks, strobe (Wow-Effekte, sparsam einsetzen: Einstieg + ein Höhepunkt)."""
     d = {"room": "club", "guests": guests, "dj": dj, "bpm": bpm, "cam": dict(CAMS[cam]), "tower": tower,
          "fame": guests if fame is None else fame, "laser": guests >= 100 if laser is None else laser}
-    if cam in ("top", "fly"):
+    if cam in ("top", "fly", "walkin"):
         d["fov"] = 100
     if fx:
         d["fx3d"] = list(fx)

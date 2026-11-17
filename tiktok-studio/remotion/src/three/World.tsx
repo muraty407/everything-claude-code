@@ -218,6 +218,8 @@ export type Scene3D = {
   fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
   tower?: boolean; // Club: Champagner-Turm an der Bar
   bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
+  enter?: boolean; // Club-Eingang: Tür schwingt auf, während die Kamera hineingeht
+  sign?: string; // Club-Eingang: Leuchtschrift über der Tür
   laser?: boolean; // Club: Lasershow (ab 100 Followern)
   fx3d?: string[]; // Club-Effekte: confetti, money, co2, sparks, strobe, wave
   bpm?: number;
@@ -652,7 +654,32 @@ const ClubFx: React.FC<{ t: number; fx: string[]; beat: number; pulse: number; b
   );
 };
 
-const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
+// Leuchtschrift: Text wird einmal auf eine Canvas gezeichnet und als Textur verwendet
+const signCache = new Map<string, THREE.CanvasTexture>();
+const signTexture = (text: string, color: string) => {
+  const key = text + color;
+  if (!signCache.has(key)) {
+    const c = document.createElement("canvas");
+    c.width = 2048; c.height = 384;
+    const g = c.getContext("2d")!;
+    g.clearRect(0, 0, c.width, c.height);
+    g.font = "900 250px Anton, Impact, 'Arial Black', 'DejaVu Sans', sans-serif";
+    g.textAlign = "center"; g.textBaseline = "middle";
+    const w = g.measureText(text).width, sx = Math.min(1, 1900 / w);
+    g.save(); g.translate(c.width / 2, c.height / 2 + 10); g.scale(sx, 1);
+    g.shadowColor = color; g.shadowBlur = 60; g.fillStyle = color; g.fillText(text, 0, 0);
+    g.shadowBlur = 22; g.fillStyle = "#fff8e6"; g.fillText(text, 0, 0);
+    g.restore();
+    const tex = new THREE.CanvasTexture(c);
+    tex.anisotropy = 4; tex.needsUpdate = true;
+    signCache.set(key, tex);
+  }
+  return signCache.get(key)!;
+};
+
+const ClubDoor: React.FC<{ t: number; sc: Scene3D; k?: number }> = ({ t, sc, k = 0 }) => {
+  const open = sc.enter ? easeInOut((k - 0.25) / 0.45) : 0; // Tür schwingt auf, wenn die Kamera näher kommt
+  const glow = 0.6 + 0.4 * Math.pow(1 - ((t * 122) / 60) % 1, 3);
   const q = Math.min(sc.queue ?? 0, 14);
   const flick = Math.sin(t * 23) > -0.9 ? 1 : 0.3;
   return (
@@ -663,12 +690,30 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       <TBox p={[0, 4, -3.2]} s={[18, 8, 0.4]} c="#141418" />
       {Array.from({ length: 8 }, (_, i) => <TBox key={`br${i}`} p={[-7.8 + i * 2.2, 5.6, -2.98]} s={[1.4, 1.2, 0.05]} c="#15122a" e={i % 3 === 1 ? "#3a2a10" : undefined} />)}
       {/* Tür + Neon-Schild */}
-      <TBox p={[0, 1.3, -2.98]} s={[1.7, 2.6, 0.08]} c="#0a0a0c" e="#2a1e06" />
+      <TBox p={[0, 1.3, -3.6]} s={[1.9, 2.7, 0.05]} c="#ffb86b" e={open > 0.02 ? "#ff7a3c" : "#1a0f04"} noLine />
+      {open > 0.02 && [0, 1, 2, 3, 4].map((i) => <TBox key={`in${i}`} p={[-0.7 + i * 0.35, 0.8 + 0.5 * Math.abs(Math.sin(t * 6 + i)), -3.5]} s={[0.22, 1.4, 0.04]} c={i % 2 ? "#ff5c8a" : "#ffd98a"} e={i % 2 ? "#ff3b6a" : "#e0a030"} noLine />)}
+      {open > 0.02 && <pointLight position={[0, 1.5, -2.2]} color="#ffb060" intensity={30 * open * glow} distance={9} />}
+      {([-1, 1] as const).map((sd) => (
+        <group key={`leaf${sd}`} position={[sd * 0.85, 1.3, -2.98]} rotation={[0, sd * open * 1.45, 0]}>
+          <TBox p={[-sd * 0.425, 0, 0]} s={[0.85, 2.6, 0.08]} c="#0a0a0c" e="#2a1e06" />
+          <TBox p={[-sd * 0.425, 0, 0.05]} s={[0.6, 2.2, 0.02]} c="#15151a" noLine />
+          <TBox p={[-sd * 0.74, 0, 0.07]} s={[0.05, 0.6, 0.05]} c={GOLD} e={GOLD_E} noLine />
+        </group>
+      ))}
       <TBox p={[0, 2.75, -2.95]} s={[2.1, 0.12, 0.1]} c={GOLD} e="#c9962a" noLine />
       <TBox p={[-1.02, 1.35, -2.95]} s={[0.12, 2.8, 0.1]} c={GOLD} e="#c9962a" noLine />
       <TBox p={[1.02, 1.35, -2.95]} s={[0.12, 2.8, 0.1]} c={GOLD} e="#c9962a" noLine />
-      <TBox p={[0, 3.7, -2.9]} s={[5.2, 1.1, 0.15]} c="#0c0c10" />
-      <TBox p={[0, 3.7, -2.8]} s={[4.8, 0.12, 0.05]} c="#ffe9b8" e={flick > 0.5 ? "#ffcf7a" : "#5a4010"} noLine />
+      <TBox p={[0, 3.72, -2.9]} s={[5.5, 1.3, 0.15]} c="#0c0c10" />
+      {sc.sign ? (
+        <>
+          <mesh position={[0, 3.72, -2.8]}><planeGeometry args={[5.0, 0.94]} /><meshBasicMaterial map={signTexture(sc.sign, "#ffcf5a")} transparent opacity={flick > 0.5 ? 1 : 0.55} depthWrite={false} /></mesh>
+          <TBox p={[0, 4.3, -2.82]} s={[5.3, 0.06, 0.06]} c="#ffe9b8" e="#ffcf7a" noLine />
+          <TBox p={[0, 3.14, -2.82]} s={[5.3, 0.06, 0.06]} c="#ffe9b8" e="#ffcf7a" noLine />
+          <pointLight position={[0, 3.7, -1.9]} color="#ffcf7a" intensity={10 * flick} distance={6} />
+        </>
+      ) : (
+        <TBox p={[0, 3.7, -2.8]} s={[4.8, 0.12, 0.05]} c="#ffe9b8" e={flick > 0.5 ? "#ffcf7a" : "#5a4010"} noLine />
+      )}
       <pointLight position={[0, 2.4, -1.6]} color="#ffcf7a" intensity={22 * flick} distance={9} />
       {/* roter Teppich, Absperrband, Laterne */}
       <TBox p={[0, 0.02, -0.6]} s={[1.8, 0.03, 4.6]} c="#8e1b2e" noLine />
@@ -740,7 +785,7 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
       {sc.room === "bathroom" && <Bathroom t={t} sc={sc} k={k} />}
       {sc.room === "yard" && <Yard t={t} sc={sc} k={k} />}
       {sc.room === "club" && <Club t={t} sc={sc} />}
-      {sc.room === "clubdoor" && <ClubDoor t={t} sc={sc} />}
+      {sc.room === "clubdoor" && <ClubDoor t={t} sc={sc} k={k} />}
       {sc.torch && <pointLight position={[pos[0], pos[1] + 0.5, pos[2] - 2.8]} color="#fff4d8" intensity={3} distance={7} decay={2} />}
     </ThreeCanvas>
     </div>
