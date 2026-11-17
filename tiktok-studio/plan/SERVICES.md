@@ -25,3 +25,9 @@ TikTok hat am 17.11. den Umfrage-Kommentar „What do I do with Marz? Ban him / 
 - Keine Abstimmung, in der über einen namentlich genannten Zuschauer negativ entschieden wird (ban, kick, fire, punish …).
 - Abstimmungen über Personen nur positiv (wer bekommt den Job) oder über Dinge (Kauf, Musik, Dresscode).
 - In Umfrage-Kommentaren keine Namen zusammen mit negativen Wörtern; im Zweifel nur „A / B / C“ als Optionen.
+
+## Stand 17.11. abends – Entscheidung des Nutzers
+- **Schwerpunkt: Club Daddyverse.** Zeitzeuge auf TikTok pausiert, nur noch 1 Video pro Tag auf YouTube Shorts (Mo–Fr 17:00, Sa/So 18:00; Teil 2 folgt immer am Tag nach Teil 1). Die Lieferungen 12:00, Sa/So 11:00 und 20:30 sind deaktiviert (nicht gelöscht).
+- **Ziele Daddyverse bis 1.12.:** 300 Follower zusammen (TikTok + YouTube; Stand 17.11.: 80), eine Folge über 3.000 Aufrufe, Ø Wiedergabe auf TikTok über 10 Sekunden. Zwei von drei erreicht = weitermachen.
+- **Ab Night 7 in jeder Folge:** (1) starkes Bild in der ersten Sekunde (volle Tanzfläche von oben, wachsende Schlange), (2) ein Satz am Anfang, der die Idee für neue Zuschauer erklärt, (3) Anlass zum Teilen („Tag a friend …“). Höchstens 5 Szenen.
+- Offene Bewerber: Timber, Escapo (Security), ANS (Barkeeper). Marz-Abstimmung in Night 7 freundlich auflösen.
