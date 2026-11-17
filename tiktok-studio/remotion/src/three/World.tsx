@@ -46,7 +46,7 @@ const HAIR = ["#2b1d14", "#5b3a1e", "#d9b26a", "#111111", "#8a3b1c", "#3d2b1f"];
 const SHIRT = ["#e8b33a", "#c0392b", "#3a7bd5", "#6aa84f", "#8e44ad", "#e67e22", "#2c3e50", "#d35480", "#1abc9c"];
 
 // Figur (sitzend oder stehend). look = Kopfdrehung zur Seite (rad), t = Zeit für Atmen/Zappeln
-export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number; dance?: number; sc?: number; shirtC?: string; fancy?: boolean }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0, dance = 0, sc = 1, shirtC, fancy }) => {
+export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number; dance?: number; sc?: number; shirtC?: string; fancy?: boolean; gesture?: number; nod?: number }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0, dance = 0, sc = 1, shirtC, fancy, gesture = 0, nod = 0 }) => {
   const skin = SKIN[seed % SKIN.length], hair = HAIR[(seed * 7) % HAIR.length], shirt = shirtC ?? SHIRT[(seed * 5) % SHIRT.length];
   const dress = !!fancy && seed % 3 === 0; // Abendkleid statt Anzug
   const pants = fancy ? (dress ? skin : "#101014") : seed % 2 ? "#2f3b52" : "#3b3b3b";
@@ -110,7 +110,7 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
           const pump = style === 4 ? -2.6 + 0.9 * Math.abs(Math.sin(beatPh)) : style === 2 ? -2.9 + 0.25 * Math.sin(beatPh) : armUp;
           const rot = seated ? 0.6 + sd * -fidget : up ? pump : dance ? Math.sin(beatPh / 2 + sd) * 0.5 : sd * -stride * 0.8;
           return (
-            <group key={sd} position={[sd * 0.27, up ? 0.3 : -0.02, seated ? -0.12 : 0]} rotation={[rot, 0, sd * -0.05]}>
+            <group key={sd} position={[sd * (0.27 + (sd > 0 ? 0.2 * gesture : 0)), (up ? 0.3 : -0.02) + (sd > 0 ? 0.2 * gesture : 0), seated ? -0.12 : 0]} rotation={[sd > 0 && gesture ? -0.55 * gesture : rot, 0, sd > 0 && gesture ? 1.25 * gesture + Math.sin(t * 5) * 0.06 * gesture : sd * -0.05]}>
               <TBox p={[0, 0, 0]} s={[0.11, 0.52, 0.12]} c={dress ? skin : shirt} />
               {fancy && <mesh position={[0, -0.3, 0]} material={toon(skin)}><sphereGeometry args={[0.065, 10, 8]} /></mesh>}
               {fancy && up && sd > 0 && seed % 4 === 1 && <TBox p={[0, -0.4, 0]} s={[0.09, 0.16, 0.02]} c="#eaf4ff" e="#bfe0ff" noLine />}
@@ -119,7 +119,7 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
           );
         })}
         {/* Kopf */}
-        <group position={[0, 0.48, 0]} rotation={[0, look + fidget * 0.5, 0]}>
+        <group position={[0, 0.48, 0]} rotation={[-0.32 * nod, look + fidget * 0.5, 0]}>
           <TSphere p={[0, 0, 0]} r={0.19} c={skin} sc={[1, 1.12, 1]} />
           <TSphere p={[0, 0.07, 0.02]} r={0.195} c={hair} sc={[1.04, 0.85, 1.05]} />
           {fancy && dress && <TBox p={[0, -0.12, 0.13]} s={[0.34, 0.42, 0.12]} c={hair} />}
@@ -680,6 +680,7 @@ const signTexture = (text: string, color: string) => {
 const ClubDoor: React.FC<{ t: number; sc: Scene3D; k?: number }> = ({ t, sc, k = 0 }) => {
   const open = sc.enter ? easeInOut((k - 0.25) / 0.45) : 0; // Tür schwingt auf, wenn die Kamera näher kommt
   const glow = 0.6 + 0.4 * Math.pow(1 - ((t * 122) / 60) % 1, 3);
+  const welcome = sc.enter ? easeInOut((k - 0.12) / 0.22) : 0; // Türsteher bittet herein, bevor die Tür aufgeht
   const q = Math.min(sc.queue ?? 0, 14);
   const flick = Math.sin(t * 23) > -0.9 ? 1 : 0.3;
   return (
@@ -730,9 +731,8 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D; k?: number }> = ({ t, sc, k =
       <pointLight position={[-2.6, 2.6, 0.6]} color="#ffe2b0" intensity={14} distance={9} />
       <pointLight position={[0, 1.2, 2.5]} color="#fff0d0" intensity={8} distance={8} />
       {/* Türsteher (groß, schwarz) + Schlange */}
-      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#23232b" look={Math.sin(t * 0.8) * 0.3} fancy />
-      {(sc.bouncers ?? 1) >= 2 && <Person p={[-2.75, 0, -2.3]} ry={0.5} seed={11} t={t} sc={1.22} shirtC="#23232b" look={Math.sin(t * 0.6 + 2) * 0.3} fancy />}
-      {[-2.75, 1.55].map((x) => <TBox key={`ear${x}`} p={[x + 0.2, 1.93, -2.25]} s={[0.03, 0.06, 0.03]} c="#f4f1ea" noLine />)}
+      <Person p={[1.55, 0, -2.2]} ry={Math.PI + 0.45 - 0.35 * welcome} seed={3} t={t} sc={1.28} shirtC="#23232b" look={sc.enter ? 0.25 * welcome : Math.sin(t * 0.8) * 0.3} fancy gesture={welcome} nod={sc.enter ? Math.max(0, Math.sin((k - 0.2) * 14)) * (k > 0.2 && k < 0.65 ? 1 : 0) : 0} />
+      {(sc.bouncers ?? 1) >= 2 && <Person p={[-2.75, 0, -2.3]} ry={Math.PI - 0.45} seed={11} t={t} sc={1.22} shirtC="#23232b" look={sc.enter ? 0 : Math.sin(t * 0.6 + 2) * 0.3} fancy nod={sc.enter ? Math.max(0, Math.sin((k - 0.3) * 12)) * (k > 0.3 && k < 0.56 ? 1 : 0) : 0} />}
       {/* Vordach, Pflanzen, Wandlampen, Pfützen-Spiegelung */}
       <TBox p={[0, 3.05, -2.2]} s={[3.2, 0.14, 1.6]} c="#5a0f1e" />
       <TBox p={[0, 2.96, -1.42]} s={[3.2, 0.2, 0.06]} c={GOLD} e="#c9962a" noLine />
