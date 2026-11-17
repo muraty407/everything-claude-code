@@ -10,32 +10,32 @@ Ein Video pro Tag, 70–90 Sekunden, immer 18:30 Uhr (Wochenende 11:00 Uhr). Lie
 | 2 | Di | 18:30 | Mary Celeste (Skript 2) | Rätsel-Story | 2 |
 | 3 | Mi | 18:30 | Voynich-Manuskript (Skript 3) | Rätsel-Story | 3 |
 | 4 | Do | 18:30 | Teil 2 zum bisher stärksten Video | Teil 2 / Antwort auf Top-Kommentar | 26 oder 30 |
-| 5 | Fr | 18:30 | Wow!-Signal (Skript 5) | Rätsel-Story | 4 |
-| 6 | Sa | 11:00 | Kaspar Hauser (Skript 6) | Rätsel-Story | 5 |
+| 5 | Fr | 18:30 | Wow!-Signal (Skript 5) | Rätsel-Story | 5 und 17 |
+| 6 | Sa | 11:00 | Kaspar Hauser (Skript 6) | Rätsel-Story | 6 |
 | 7 | So | 11:00 | 3 Theorien zum stärksten Fall der Woche | „3 Theorien“-Video zum besten Fall der Woche | 30 |
-| 8 | Mo | 18:30 | Flannan-Inseln (Skript 7) | Rätsel-Story | 6 |
-| 9 | Di | 18:30 | Roanoke (Skript 8) | Rätsel-Story | 7 |
-| 10 | Mi | 18:30 | D. B. Cooper (Skript 4) – Jahrestag 24.11. | Rätsel-Story | 8 |
+| 8 | Mo | 18:30 | Flannan-Inseln (Skript 7) | Rätsel-Story | 7 und 24 |
+| 9 | Di | 18:30 | Roanoke (Skript 8) | Rätsel-Story | 8 |
+| 10 | Mi | 18:30 | D. B. Cooper (Skript 4) – Jahrestag 24.11. | Rätsel-Story | 4 und 28 |
 | 11 | Do | 18:30 | Teil 2 zum bisher stärksten Video | Teil 2 / Antwort auf Top-Kommentar | 26 oder 30 |
-| 12 | Fr | 18:30 | MH370 (Skript 9) | Rätsel-Story | 9 |
-| 13 | Sa | 11:00 | Tunguska (Skript 10) | Rätsel-Story | 10 |
+| 12 | Fr | 18:30 | MH370 (Skript 9) | Rätsel-Story | 9 und 20 |
+| 13 | Sa | 11:00 | Tunguska (Skript 10) | Rätsel-Story | 10 und 29 |
 | 14 | So | 11:00 | 3 Theorien zum stärksten Fall der Woche | „3 Theorien“-Video zum besten Fall der Woche | 30 |
-| 15 | Mo | 18:30 | NEU: Die Bleimasken-Männer / anderes Rätsel aus Hook 12 | Rätsel-Story | 11 |
-| 16 | Di | 18:30 | NEU: Der Mann von Somerton | Rätsel-Story | 12 |
-| 17 | Mi | 18:30 | NEU: Das Bermuda-Dreieck – was wirklich stimmt | Rätsel-Story | 13 |
+| 15 | Mo | 18:30 | NEU: Die Bleimasken-Männer / anderes Rätsel aus Hook 12 | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 16 | Di | 18:30 | NEU: Der Mann von Somerton | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 17 | Mi | 18:30 | NEU: Das Bermuda-Dreieck – was wirklich stimmt | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
 | 18 | Do | 18:30 | Teil 2 zum bisher stärksten Video | Teil 2 / Antwort auf Top-Kommentar | 26 oder 30 |
-| 19 | Fr | 18:30 | NEU: Die Nazca-Linien | Rätsel-Story | 14 |
-| 20 | Sa | 11:00 | NEU: Oak Island – das Geldloch | Rätsel-Story | 15 |
+| 19 | Fr | 18:30 | NEU: Die Nazca-Linien | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 20 | Sa | 11:00 | NEU: Oak Island – das Geldloch | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
 | 21 | So | 11:00 | 3 Theorien zum stärksten Fall der Woche | „3 Theorien“-Video zum besten Fall der Woche | 30 |
-| 22 | Mo | 18:30 | NEU: Der Antikythera-Mechanismus | Rätsel-Story | 16 |
-| 23 | Di | 18:30 | NEU: Das Taos-Brummen | Rätsel-Story | 17 |
-| 24 | Mi | 18:30 | NEU: Amelia Earhart | Rätsel-Story | 18 |
+| 22 | Mo | 18:30 | NEU: Der Antikythera-Mechanismus | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 23 | Di | 18:30 | NEU: Das Taos-Brummen | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 24 | Mi | 18:30 | NEU: Amelia Earhart | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
 | 25 | Do | 18:30 | Teil 2 zum bisher stärksten Video | Teil 2 / Antwort auf Top-Kommentar | 26 oder 30 |
-| 26 | Fr | 18:30 | NEU: Das Bernsteinzimmer | Rätsel-Story | 19 |
-| 27 | Sa | 11:00 | NEU: Stonehenge – woher kamen die Steine? | Rätsel-Story | 20 |
+| 26 | Fr | 18:30 | NEU: Das Bernsteinzimmer | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
+| 27 | Sa | 11:00 | NEU: Stonehenge – woher kamen die Steine? | Rätsel-Story | 11–16, 18, 19, 21–23, 25, 27 (passenden wählen) |
 | 28 | So | 11:00 | 3 Theorien zum stärksten Fall der Woche | „3 Theorien“-Video zum besten Fall der Woche | 30 |
-| 29 | Mo | 18:30 | Djatlow-Pass (Skript 1) | Rätsel-Story | 21 |
-| 30 | Di | 18:30 | Mary Celeste (Skript 2) | Rätsel-Story | 22 |
+| 29 | Mo | 18:30 | Djatlow-Pass (Skript 1) | Rätsel-Story | 1 |
+| 30 | Di | 18:30 | Mary Celeste (Skript 2) | Rätsel-Story | 2 |
 
 ## Prüfpunkte
 | Wann | Was prüfen | Wenn nicht erreicht |
