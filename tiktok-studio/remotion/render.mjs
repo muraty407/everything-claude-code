@@ -43,6 +43,7 @@ if (args[0] === "--still") {
     await renderMedia({
       composition, serveUrl, codec: "h264", outputLocation: out, inputProps, browserExecutable, chromiumOptions,
       crf: 10, x264Preset: "slow", muted: true, concurrency: 4, imageFormat: "png", // nahezu verlustfreies Zwischenformat
+      ...(process.env.FRAMES ? { frameRange: process.env.FRAMES.split("-").map(Number) } : {}), // Test: nur ein Ausschnitt, z. B. FRAMES=0-240
     });
     console.log(`\n${out} fertig in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
   }

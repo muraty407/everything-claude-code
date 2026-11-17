@@ -60,12 +60,16 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
   const beatPh = dance ? t * dance * Math.PI * 2 + (seed % 2) * Math.PI : 0;
   const hop = dance ? Math.abs(Math.sin(beatPh / 2)) * 0.09 : 0;
   const armUp = dance ? -2.2 + 0.5 * Math.sin(beatPh + seed) : 0;
-  const twist = dance ? Math.sin(beatPh / 2 + seed) * 0.35 : 0;
+  const style = dance ? seed % 5 : -1; // 0 hüpfen, 1 wiegen, 2 springen, 3 drehen, 4 Faust
+  const twist = dance ? (style === 3 ? t * 2.2 + seed : Math.sin(beatPh / 2 + seed) * 0.35) : 0;
+  const swayX = style === 1 ? Math.sin(beatPh / 2) * 0.12 : 0;
+  const jump = style === 2 ? Math.pow(Math.abs(Math.sin(beatPh / 2)), 0.6) * 0.22 : 0;
+  const lean = style === 4 ? Math.sin(beatPh) * 0.12 : 0;
   return (
-    <group position={[p[0], p[1] + hop, p[2]]} rotation={[0, ry + twist, 0]} scale={[sc, sc, sc]}>
+    <group position={[p[0] + swayX, p[1] + hop + jump, p[2]]} rotation={[lean, ry + twist, 0]} scale={[sc, sc, sc]}>
       {fancy && (
         <>
-          <mesh position={[0, 0.012 - hop / sc, 0]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[0.34, 16]} /><meshBasicMaterial color="#000" transparent opacity={0.38} depthWrite={false} /></mesh>
+          <mesh position={[0, 0.012 - (hop + jump) / sc, 0]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[0.34, 16]} /><meshBasicMaterial color="#000" transparent opacity={0.38} depthWrite={false} /></mesh>
           <TBox p={[-0.1, 0.04, -0.05]} s={[0.17, 0.08, 0.28]} c={dress ? "#d4af37" : "#060606"} noLine />
           <TBox p={[0.1, 0.04, -0.05]} s={[0.17, 0.08, 0.28]} c={dress ? "#d4af37" : "#060606"} noLine />
         </>
@@ -102,8 +106,9 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
         )}
         {fancy && <TBox p={[0, 0.33, 0]} s={[0.12, 0.08, 0.12]} c={skin} noLine />}
         {([-1, 1] as const).map((sd) => {
-          const up = !!dance && (sd < 0 ? seed % 3 !== 0 : seed % 2 !== 0);
-          const rot = seated ? 0.6 + sd * -fidget : up ? armUp : sd * -stride * 0.8;
+          const up = !!dance && (style === 2 || (style === 4 ? sd > 0 : sd < 0 ? seed % 3 !== 0 : seed % 2 !== 0));
+          const pump = style === 4 ? -2.6 + 0.9 * Math.abs(Math.sin(beatPh)) : style === 2 ? -2.9 + 0.25 * Math.sin(beatPh) : armUp;
+          const rot = seated ? 0.6 + sd * -fidget : up ? pump : dance ? Math.sin(beatPh / 2 + sd) * 0.5 : sd * -stride * 0.8;
           return (
             <group key={sd} position={[sd * 0.27, up ? 0.3 : -0.02, seated ? -0.12 : 0]} rotation={[rot, 0, sd * -0.05]}>
               <TBox p={[0, 0, 0]} s={[0.11, 0.52, 0.12]} c={dress ? skin : shirt} />
@@ -213,6 +218,7 @@ export type Scene3D = {
   tower?: boolean; // Club: Champagner-Turm an der Bar
   bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
   laser?: boolean; // Club: Lasershow (ab 100 Followern)
+  fx3d?: string[]; // Club-Effekte: confetti, money, co2, sparks, strobe, wave
   bpm?: number;
   torch?: boolean; // Handy-Taschenlampe
   ladder?: boolean; // Drehleiter am Fenster + Blaulicht
@@ -221,7 +227,7 @@ export type Scene3D = {
   smoke?: [number, number]; // Rauchmenge von → bis (0..1)
   alarm?: boolean;
   dark?: boolean;
-  cam: { pos: V3; yaw: [number, number]; pitch?: number; walk?: number; move?: V3 };
+  cam: { pos: V3; yaw: [number, number]; pitch?: number | [number, number]; walk?: number; move?: V3; orbit?: [number, number, number, number, number] }; // orbit: [Mitte x, Mitte z, Radius, Startwinkel, Endwinkel]
   scared?: number; // Mitschüler werden unruhig / drehen sich um
   look?: number; // Köpfe der Mitschüler drehen sich (rad)
   run?: boolean; // Mitschüler laufen weg (Flur)
@@ -580,6 +586,7 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {/* Gäste in Abendgarderobe */}
       {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} fancy />)}
       {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
+      <ClubFx t={t} fx={sc.fx3d ?? []} beat={beat} pulse={pulse} bps={bps} />
       {sc.fame !== undefined && (
         <group position={[3.6, 2.1, -6.4]} rotation={[0, -0.5, 0]}>
           <TBox p={[0, 0, 0]} s={[3.3, 2.5, 0.08]} c="#121116" />
@@ -592,6 +599,56 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
           <pointLight position={[0, 0.4, 1.2]} color="#ffd98a" intensity={6} distance={4} />
         </group>
       )}
+    </group>
+  );
+};
+
+// Wow-Effekte: Konfetti, Geldregen, CO2-Säulen, Funkenfontänen, Stroboskop
+const ClubFx: React.FC<{ t: number; fx: string[]; beat: number; pulse: number; bps: number }> = ({ t, fx, beat, pulse, bps }) => {
+  const parts = useMemo(() => { const r = mulberry(911); return Array.from({ length: 220 }, () => [r(), r(), r(), r(), r()]); }, []);
+  const has = (k: string) => fx.includes(k);
+  const bar = (t * bps) % 4; // Position im 4er-Takt
+  const jet = Math.max(0, 1 - bar / 1.2); // CO2-Stoß auf der Eins, klingt ab
+  return (
+    <group>
+      {(has("confetti") || has("money")) && parts.map(([a, b, c, d, e], i) => {
+        const money = has("money") && (!has("confetti") || i % 2 === 0);
+        const fall = 0.9 + c * 1.1, y = 4.4 - ((t * fall + a * 5) % 4.5);
+        const x = -5 + b * 10 + Math.sin(t * 1.3 + i) * 0.35, z = -7.5 + d * 8.5 + Math.cos(t * 1.1 + i) * 0.3;
+        const col = money ? "#3fbf6b" : ["#f3d57a", "#ffffff", "#d4af37", "#ff4d6d", "#ffe9a8"][i % 5];
+        return (
+          <mesh key={`cf${i}`} position={[x, y, z]} rotation={[t * (2 + e * 4) + i, t * (1.5 + a * 3), i]}>
+            <boxGeometry args={money ? [0.2, 0.1, 0.006] : [0.09, 0.05, 0.006]} />
+            <meshBasicMaterial color={col} side={THREE.DoubleSide} />
+          </mesh>
+        );
+      })}
+      {has("co2") && [-3.3, -1.7, 1.7, 3.3].map((x, i) => (
+        <group key={`co${i}`} position={[x, 0.1, -7.4]}>
+          <TBox p={[0, 0.12, 0]} s={[0.26, 0.24, 0.26]} c="#1c1c22" line={0.012} />
+          {Array.from({ length: 7 }, (_, k) => (
+            <mesh key={k} position={[Math.sin(k * 2.1 + t * 3) * 0.08 * k, 0.4 + k * 0.5 * jet, 0]}>
+              <sphereGeometry args={[(0.16 + k * 0.07) * (0.3 + jet), 10, 8]} />
+              <meshBasicMaterial color="#f4f8ff" transparent opacity={0.55 * jet} depthWrite={false} />
+            </mesh>
+          ))}
+        </group>
+      ))}
+      {has("sparks") && [-2.3, 2.3].map((x, i) => (
+        <group key={`sp${i}`} position={[x, 1.5, -8.0]}>
+          {Array.from({ length: 34 }, (_, k) => {
+            const ph = (t * 1.6 + k / 34) % 1, a = k * 2.399, sp = 0.25 + (k % 5) * 0.09;
+            return (
+              <mesh key={k} position={[Math.cos(a) * sp * ph, ph * 2.6 - ph * ph * 1.5, Math.sin(a) * sp * ph]}>
+                <boxGeometry args={[0.03, 0.09, 0.03]} />
+                <meshBasicMaterial color={k % 3 ? "#ffd98a" : "#ffffff"} transparent opacity={1 - ph} blending={THREE.AdditiveBlending} depthWrite={false} />
+              </mesh>
+            );
+          })}
+          <pointLight position={[0, 0.8, 0.3]} color="#ffcf7a" intensity={10} distance={5} />
+        </group>
+      ))}
+      {has("strobe") && <pointLight position={[0, 4.2, -3]} color="#ffffff" intensity={beat % 2 === 0 ? 60 * pulse : 0} distance={18} />}
     </group>
   );
 };
@@ -652,7 +709,17 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
   const k = dur > 0 ? t / dur : 0;
   const yaw = lerp(sc.cam.yaw[0], sc.cam.yaw[1], easeInOut(k));
   const move = sc.cam.move ?? [0, 0, 0];
-  const pos: V3 = [sc.cam.pos[0] + move[0] * k, sc.cam.pos[1] + move[1] * k, sc.cam.pos[2] + move[2] * k];
+  const ke = easeInOut(k);
+  let pos: V3 = [sc.cam.pos[0] + move[0] * ke, sc.cam.pos[1] + move[1] * ke, sc.cam.pos[2] + move[2] * ke];
+  let yawNow = yaw;
+  if (sc.cam.orbit) {
+    const [cx, cz, rad, a0, a1] = sc.cam.orbit;
+    const a = a0 + (a1 - a0) * ke;
+    pos = [cx + Math.sin(a) * rad, pos[1], cz + Math.cos(a) * rad];
+    yawNow = a; // Kamera schaut immer zur Mitte
+  }
+  const pitchNow = Array.isArray(sc.cam.pitch) ? lerp(sc.cam.pitch[0], sc.cam.pitch[1], ke) : sc.cam.pitch ?? -0.12;
+  const clubBeat = sc.room === "club" ? Math.pow(1 - ((t * (sc.bpm ?? 122)) / 60) % 1, 3) : 0;
   const smokeAmt = lerp(sc.smoke?.[0] ?? 0, sc.smoke?.[1] ?? 0, k);
   const alarmPulse = sc.alarm ? (Math.sin(t * 9) > 0 ? 1 : 0) : 0;
   return (
@@ -662,7 +729,7 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
       <ambientLight intensity={sc.room.startsWith("club") ? 0.5 : sc.dark ? 0.22 : 0.75} />
       <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.3 : 1.9} />
       {sc.alarm && <pointLight position={[0, 2.6, pos[2] - 2]} color="#ff2020" intensity={alarmPulse * 7} distance={9} />}
-      <HeadCam pos={pos} yaw={yaw} pitch={sc.cam.pitch ?? -0.12} t={t} walk={sc.cam.walk ?? 0} shake={shake} fov={sc.fov ?? 98} />
+      <HeadCam pos={pos} yaw={yawNow} pitch={pitchNow} t={t} walk={sc.cam.walk ?? 0} shake={shake + clubBeat * 0.05} fov={(sc.fov ?? 98) - clubBeat * 2.5} />
       {sc.room === "classroom" && <Classroom t={t} sc={sc} k={k} />}
       {sc.room === "hallway" && <Hallway t={t} sc={sc} k={k} />}
       {sc.room === "bathroom" && <Bathroom t={t} sc={sc} k={k} />}
