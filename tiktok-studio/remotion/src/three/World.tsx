@@ -113,6 +113,7 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
             <group key={sd} position={[sd * 0.27, up ? 0.3 : -0.02, seated ? -0.12 : 0]} rotation={[rot, 0, sd * -0.05]}>
               <TBox p={[0, 0, 0]} s={[0.11, 0.52, 0.12]} c={dress ? skin : shirt} />
               {fancy && <mesh position={[0, -0.3, 0]} material={toon(skin)}><sphereGeometry args={[0.065, 10, 8]} /></mesh>}
+              {fancy && up && sd > 0 && seed % 4 === 1 && <TBox p={[0, -0.4, 0]} s={[0.09, 0.16, 0.02]} c="#eaf4ff" e="#bfe0ff" noLine />}
               {fancy && !dress && <TBox p={[0, -0.235, 0]} s={[0.12, 0.04, 0.13]} c={light ? "#15151a" : "#f4f1ea"} noLine />}
             </group>
           );
@@ -435,8 +436,10 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {Array.from({ length: 9 }, (_, i) => <TBox key={`gx${i}`} p={[-8 + i * 2, 0.0, -2.5]} s={[0.03, 0.01, 14]} c={GOLD} e={GOLD_E} noLine />)}
       {Array.from({ length: 8 }, (_, j) => <TBox key={`gz${j}`} p={[0, 0.0, -9 + j * 2]} s={[16, 0.01, 0.03]} c={GOLD} e={GOLD_E} noLine />)}
       {Array.from({ length: 6 }, (_, i) => Array.from({ length: 5 }, (_, j) => {
-        const on = (i + j + beat) % 4 === 0;
-        return <TBox key={`f${i}-${j}`} p={[-2.5 + i, 0.01, -4.5 + j]} s={[0.94, 0.04, 0.94]} c={on ? "#ffd98a" : "#1d1c22"} e={on ? "#c9962a" : undefined} noLine />;
+        const ring = Math.round(Math.hypot(i - 2.5, j - 2));
+        const on = (ring + beat) % 3 === 0 || (i + j + beat) % 5 === 0;
+        const pal = [["#ffd98a", "#c9962a"], ["#ff5c8a", "#b3123f"], ["#fff6dc", "#b9a36a"], ["#ffb347", "#b86a10"]][(ring + Math.floor(beat / 4)) % 4];
+        return <TBox key={`f${i}-${j}`} p={[-2.5 + i, 0.01, -4.5 + j]} s={[0.94, 0.04, 0.94]} c={on ? pal[0] : "#1d1c22"} e={on ? pal[1] : undefined} noLine />;
       }))}
       <TBox p={[0, 4.6, -2.5]} s={[16, 0.1, 14]} c="#0b0b0e" noLine />
       {/* Wände: dunkler Samt mit Goldleisten */}
@@ -678,10 +681,13 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {[-1.2, 1.2].map((x) => <TBox key={`rp${x}`} p={[x, 0.88, -0.7]} s={[0.05, 0.05, 1.8]} c="#b0122a" line={0.01} />)}
       <TBox p={[4.5, 2.2, -1]} s={[0.12, 4.4, 0.12]} c="#333" />
       <TBox p={[4.5, 4.4, -1]} s={[0.5, 0.2, 0.5]} c="#ffe9a8" e="#ffe9a8" />
-      <pointLight position={[4.5, 4, -1]} color="#ffd9a0" intensity={10} distance={10} />
+      <pointLight position={[4.5, 4, -1]} color="#ffd9a0" intensity={16} distance={12} />
+      <pointLight position={[-2.6, 2.6, 0.6]} color="#ffe2b0" intensity={14} distance={9} />
+      <pointLight position={[0, 1.2, 2.5]} color="#fff0d0" intensity={8} distance={8} />
       {/* Türsteher (groß, schwarz) + Schlange */}
-      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#0e0e10" look={Math.sin(t * 0.8) * 0.3} fancy />
-      {(sc.bouncers ?? 1) >= 2 && <Person p={[-2.75, 0, -2.3]} ry={0.5} seed={11} t={t} sc={1.22} shirtC="#0e0e10" look={Math.sin(t * 0.6 + 2) * 0.3} fancy />}
+      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#23232b" look={Math.sin(t * 0.8) * 0.3} fancy />
+      {(sc.bouncers ?? 1) >= 2 && <Person p={[-2.75, 0, -2.3]} ry={0.5} seed={11} t={t} sc={1.22} shirtC="#23232b" look={Math.sin(t * 0.6 + 2) * 0.3} fancy />}
+      {[-2.75, 1.55].map((x) => <TBox key={`ear${x}`} p={[x + 0.2, 1.93, -2.25]} s={[0.03, 0.06, 0.03]} c="#f4f1ea" noLine />)}
       {/* Vordach, Pflanzen, Wandlampen, Pfützen-Spiegelung */}
       <TBox p={[0, 3.05, -2.2]} s={[3.2, 0.14, 1.6]} c="#5a0f1e" />
       <TBox p={[0, 2.96, -1.42]} s={[3.2, 0.2, 0.06]} c={GOLD} e="#c9962a" noLine />
