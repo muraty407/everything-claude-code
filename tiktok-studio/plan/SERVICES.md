@@ -19,3 +19,9 @@ Quelle: Storytelling-Video, das der Nutzer geschickt hat. Jedes Skript hat minde
 3. **Finte** – alles deutet auf A, dann kommt B (die überraschende Wendung, der eigentliche Fakt).
 4. **Rehook** – sofort die nächste Frage öffnen (Cliffhanger, Abstimmung, „morgen …“).
 Lange Videos: mehrere Schleifen hintereinander. Club-Folgen: höchstens 6 kurze Szenen, Ziel unter 35 Sekunden.
+
+## Regel für Club-Abstimmungen (seit 17.11.)
+TikTok hat am 17.11. den Umfrage-Kommentar „What do I do with Marz? Ban him / Make him supervisor / Charge him Rent“ als „Belästigung und Mobbing“ entfernt.
+- Keine Abstimmung, in der über einen namentlich genannten Zuschauer negativ entschieden wird (ban, kick, fire, punish …).
+- Abstimmungen über Personen nur positiv (wer bekommt den Job) oder über Dinge (Kauf, Musik, Dresscode).
+- In Umfrage-Kommentaren keine Namen zusammen mit negativen Wörtern; im Zweifel nur „A / B / C“ als Optionen.
