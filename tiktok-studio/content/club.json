@@ -1455,5 +1455,260 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-6",
+  "title": "Club Daddyverse – Night 6",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 6",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Burger is my second bouncer. Marz gave away free champagne. We lost money. Night 6 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "You voted. Burger is my second bouncer. 84 percent. Don't make me regret it.",
+    "scene": "3d",
+    "clock": "NIGHT 6",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 7,
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 6. 80 guests. 39 likes. Not enough. The VIP rope stays closed.",
+    "scene": "3d",
+    "clock": "80 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "fame": 80,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "big": {
+     "value": "39 / 50 ❤",
+     "sub": "GOAL MISSED · VIP ROPE STAYS CLOSED"
+    }
+   },
+   {
+    "text": "Marz lost the DJ vote. He brought his champagne anyway. And gave it away. For free. In my club.",
+    "scene": "3d",
+    "clock": "MARZ",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 80,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "card": {
+     "kicker": "MARZ",
+     "title": "FREE CHAMPAGNE FOR EVERYONE"
+    }
+   },
+   {
+    "text": "I thought, nice guy. Wrong. My bar sold nothing. We lost 290 dollars. 452 from the bank closing us.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -2.5,
+       1.6,
+       1.5
+      ],
+      "yaw": [
+       0.9,
+       0.7
+      ],
+      "pitch": -0.08
+     },
+     "fame": 80,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "80 GUESTS × $10 DOOR",
+       "+$800"
+      ],
+      [
+       "BAR SALES",
+       "$0"
+      ],
+      [
+       "RENT + STAFF + DJ + BURGER",
+       "−$1,090"
+      ],
+      [
+       "BALANCE",
+       "−$1,548"
+      ],
+      [
+       "BANK CLOSES US AT",
+       "−$2,000"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. What do I do with Marz? A: Ban him. B: Make him supervisor. C: Charge him rent. Follow, and you're in.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0.0,
+       1.5,
+       2.6
+      ],
+      "yaw": [
+       -0.25,
+       0.25
+      ],
+      "pitch": -0.1
+     },
+     "fame": 80,
+     "smoke": [
+      0.25,
+      0.25
+     ]
+    },
+    "stat": {
+     "title": "WHAT ABOUT MARZ? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "BAN HIM"
+      ],
+      [
+       "B",
+       "MAKE HIM SUPERVISOR"
+      ],
+      [
+       "C",
+       "CHARGE HIM RENT"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 6,
+  "id": "club06",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 6",
+  "badge": "NIGHT 6",
+  "brand": "DADDYVERSE",
+  "next": "Night 7: what happens to Marz",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "BOUNCER BURGER",
+   "match": "you"
+  },
+  "music": "club/deep.wav",
+  "followers": 80,
+  "cash": -1548,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1258,
+    -1258,
+    -1258,
+    -1548,
+    -1548
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

@@ -29,3 +29,5 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 | 15.11. | Daddyverse YouTube | Kanal | – | Night 1: 1.033 · Night 2: 1.283 · Night 3: 1.123 | – | – | – | – | 7 (Night 3) | – | 33 Abos | Zuschauer bewerben sich als DJ und Security |
 | 16.11. | Daddyverse TikTok | Club Night 4 (40 s) | 23 h | 710 | 4,6 s | – | 3,02 % | 35 | 5 | 0 | 7 | 1 gespeichert; DJ-Umfrage 9 Stimmen: Henry 78 %, Marz 22 %, Asky 0 %; Kanal: 28 Follower, 224 Likes |
 | 16.11. | Daddyverse YouTube | Club Night 4 | 23 h | 744 | – | – | – | 10 | 10 | – | +10 Abos | Kanal: 45 Abos; Night 1: 1.037 · Night 2: 1.286 · Night 3: 1.262; DJ-Stimmen in Kommentaren: Marz 3, Asky 3, Henry 1 |
+| 17.11. | Daddyverse TikTok | Club Night 5 (36 s) | 24 h | 735 | 6,4 s | – | 3,92 % | 31 | 5 | 0 | 3 | Türsteher-Umfrage 13 Stimmen: Burger 84 %; Kanal: 32 Follower, 266 Likes; Night 2 ist nachträglich auf 1.306 Aufrufe gestiegen |
+| 17.11. | Daddyverse YouTube | Club Night 5 | 1 Tag | 702 | – | – | – | 8 | 10 | – | +1 Abo | Kanal: 48 Abos; Night 4: 815; YouTube-Wachstum deutlich langsamer als an den Vortagen |
