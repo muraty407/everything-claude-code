@@ -39,6 +39,8 @@ def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4, bouncers=2):
 # Kameras über Kopfhöhe, damit die Gäste nicht das Bild verdecken (seit 17.11., mehr Details in der Szene)
 CAMS = {
     "top": {"pos": [0, 4.1, 2.4], "yaw": [-0.06, 0.06], "pitch": -0.62},       # volle Tanzfläche von oben (Einstieg)
+    "fly": {"pos": [0, 4.2, 3.8], "yaw": [0, 0], "pitch": [-0.75, -0.3], "move": [0, -1.4, -4.2]},  # Flug von oben in die Menge (Einstieg)
+    "orbit": {"pos": [0, 2.9, 0], "yaw": [0, 0], "pitch": -0.28, "orbit": [0, -3.2, 6.2, -0.5, 0.5]},  # Kreisfahrt um die Tanzfläche
     "floor": {"pos": [0, 2.5, 3.9], "yaw": [-0.1, 0.1], "pitch": -0.2},
     "wide": {"pos": [5.2, 3.0, 3.6], "yaw": [0.62, 0.48], "pitch": -0.32},                # aus der Ecke über den ganzen Raum
     "bar": {"pos": [-3.4, 2.3, 1.6], "yaw": [0.7, 0.8], "pitch": -0.25},
@@ -47,11 +49,14 @@ CAMS = {
 }
 
 
-def inside(guests, dj, cam="floor", bpm=122, fame=None, tower=True, smoke=True, laser=None, gold=False):
+def inside(guests, dj, cam="floor", bpm=122, fame=None, tower=True, smoke=True, laser=None, gold=False, fx=None):
+    """fx: Liste aus confetti, money, co2, sparks, strobe (Wow-Effekte, sparsam einsetzen: Einstieg + ein Höhepunkt)."""
     d = {"room": "club", "guests": guests, "dj": dj, "bpm": bpm, "cam": dict(CAMS[cam]), "tower": tower,
          "fame": guests if fame is None else fame, "laser": guests >= 100 if laser is None else laser}
-    if cam == "top":
+    if cam in ("top", "fly"):
         d["fov"] = 100
+    if fx:
+        d["fx3d"] = list(fx)
     if smoke and guests >= 25:
         d["smoke"] = [0.2, 0.2]
     if gold:

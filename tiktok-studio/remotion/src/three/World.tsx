@@ -36,8 +36,8 @@ export const TBox: React.FC<{ p: V3; s: V3; c: string; r?: V3; e?: string; line?
 );
 const TSphere: React.FC<{ p: V3; r: number; c: string; sc?: V3 }> = ({ p, r, c, sc }) => (
   <group position={p} scale={sc ?? [1, 1, 1]}>
-    <mesh material={toon(c)}><sphereGeometry args={[r, 20, 14]} /></mesh>
-    <mesh material={outlineMat}><sphereGeometry args={[r * 1.07, 20, 14]} /></mesh>
+    <mesh material={toon(c)}><sphereGeometry args={[r, 12, 9]} /></mesh>
+    <mesh material={outlineMat}><sphereGeometry args={[r * 1.07, 12, 9]} /></mesh>
   </group>
 );
 
@@ -449,7 +449,7 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {[-5, 0, 5].map((x) => (
         <group key={`wl${x}`}>
           <TBox p={[x, 3.0, -9.1]} s={[0.25, 0.5, 0.15]} c="#ffe9b8" e="#ffcf7a" />
-          <pointLight position={[x, 3.0, -8.4]} color="#ffcf7a" intensity={7} distance={6} />
+          {x === 0 && <pointLight position={[x, 3.0, -8.4]} color="#ffcf7a" intensity={12} distance={9} />}
         </group>
       ))}
       {/* Marmor-Bar mit Goldkante, Barkeeper im schwarzen Hemd, beleuchtetes Flaschenregal */}
@@ -473,7 +473,6 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
         <group key={`bl${z}`}>
           <TBox p={[-6.2, 3.6, z]} s={[0.02, 2.0, 0.02]} c={GOLD} noLine />
           <mesh position={[-6.2, 2.55, z]} material={toon("#fff3d0", "#ffd98a")}><coneGeometry args={[0.2, 0.26, 14]} /></mesh>
-          <pointLight position={[-6.2, 2.3, z]} color="#ffd9a0" intensity={3} distance={3.5} />
         </group>
       ))}
       {/* Champagner-Turm (Night 4 gekauft) */}
@@ -482,7 +481,6 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
           {[4, 3, 2, 1].map((n, lvl) => Array.from({ length: n * n }, (_, k) => (
             <mesh key={`tw${lvl}-${k}`} position={[((k % n) - (n - 1) / 2) * 0.11, 0.06 + lvl * 0.12, (Math.floor(k / n) - (n - 1) / 2) * 0.11]} material={toon("#fbe7a6", "#c79a2a")}><cylinderGeometry args={[0.05, 0.025, 0.11, 8]} /></mesh>
           )))}
-          <pointLight position={[0, 0.5, 0.4]} color="#ffe2a0" intensity={4} distance={2.5} />
         </group>
       )}
       {[-4.4, -2.9, -1.6].map((z) => <group key={`st${z}`}><TBox p={[-5.3, 0.4, z]} s={[0.06, 0.8, 0.06]} c={GOLD} line={0.01} /><TBox p={[-5.3, 0.82, z]} s={[0.4, 0.08, 0.4]} c={VELVET} /></group>)}
@@ -596,7 +594,6 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
             const on = i < (sc.fame ?? 0);
             return <TBox key={`hf${i}`} p={[-1.35 + (i % 10) * 0.3, 0.95 - Math.floor(i / 10) * 0.21, 0.06]} s={[0.24, 0.13, 0.03]} c={on ? "#e6c65a" : "#2a2830"} e={on ? GOLD_E : undefined} noLine />;
           })}
-          <pointLight position={[0, 0.4, 1.2]} color="#ffd98a" intensity={6} distance={4} />
         </group>
       )}
     </group>
@@ -605,7 +602,7 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
 
 // Wow-Effekte: Konfetti, Geldregen, CO2-Säulen, Funkenfontänen, Stroboskop
 const ClubFx: React.FC<{ t: number; fx: string[]; beat: number; pulse: number; bps: number }> = ({ t, fx, beat, pulse, bps }) => {
-  const parts = useMemo(() => { const r = mulberry(911); return Array.from({ length: 220 }, () => [r(), r(), r(), r(), r()]); }, []);
+  const parts = useMemo(() => { const r = mulberry(911); return Array.from({ length: 150 }, () => [r(), r(), r(), r(), r()]); }, []);
   const has = (k: string) => fx.includes(k);
   const bar = (t * bps) % 4; // Position im 4er-Takt
   const jet = Math.max(0, 1 - bar / 1.2); // CO2-Stoß auf der Eins, klingt ab
@@ -645,7 +642,6 @@ const ClubFx: React.FC<{ t: number; fx: string[]; beat: number; pulse: number; b
               </mesh>
             );
           })}
-          <pointLight position={[0, 0.8, 0.3]} color="#ffcf7a" intensity={10} distance={5} />
         </group>
       ))}
       {has("strobe") && <pointLight position={[0, 4.2, -3]} color="#ffffff" intensity={beat % 2 === 0 ? 60 * pulse : 0} distance={18} />}
@@ -721,12 +717,15 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
   const pitchNow = Array.isArray(sc.cam.pitch) ? lerp(sc.cam.pitch[0], sc.cam.pitch[1], ke) : sc.cam.pitch ?? -0.12;
   const clubBeat = sc.room === "club" ? Math.pow(1 - ((t * (sc.bpm ?? 122)) / 60) % 1, 3) : 0;
   const smokeAmt = lerp(sc.smoke?.[0] ?? 0, sc.smoke?.[1] ?? 0, k);
+  const rs = sc.room === "club" ? Number(process.env.REMOTION_CLUB_SCALE ?? 0.75) : 1;
   const alarmPulse = sc.alarm ? (Math.sin(t * 9) > 0 ? 1 : 0) : 0;
   return (
-    <ThreeCanvas width={width} height={height} style={{ position: "absolute", inset: 0 }} gl={{ antialias: true }}>
+    // Club: Software-Rendering ist bei vielen Gästen langsam → 3D mit 75 % Auflösung rechnen und auf volle Größe skalieren
+    <div style={{ position: "absolute", left: 0, top: 0, width: Math.round(width * rs), height: Math.round(height * rs), transform: `scale(${1 / rs})`, transformOrigin: "0 0" }}>
+    <ThreeCanvas width={Math.round(width * rs)} height={Math.round(height * rs)} style={{ position: "absolute", inset: 0 }} gl={{ antialias: true }}>
       <color attach="background" args={[sc.room === "yard" ? "#9ec9ea" : sc.room === "club" ? "#08070a" : sc.room === "clubdoor" ? "#0a0c14" : sc.dark ? "#1a1c22" : "#dfe6ee"]} />
       <fog attach="fog" args={[sc.room.startsWith("club") ? "#0c0a0c" : sc.dark ? "#22252c" : "#b9bcc2", 2 + (1 - smokeAmt) * 30, 9 + (1 - smokeAmt) * 60]} />
-      <ambientLight intensity={sc.room.startsWith("club") ? 0.5 : sc.dark ? 0.22 : 0.75} />
+      <ambientLight intensity={sc.room.startsWith("club") ? 0.62 : sc.dark ? 0.22 : 0.75} />
       <directionalLight position={[-6, 5, 2]} intensity={sc.dark ? 0.3 : 1.9} />
       {sc.alarm && <pointLight position={[0, 2.6, pos[2] - 2]} color="#ff2020" intensity={alarmPulse * 7} distance={9} />}
       <HeadCam pos={pos} yaw={yawNow} pitch={pitchNow} t={t} walk={sc.cam.walk ?? 0} shake={shake + clubBeat * 0.05} fov={(sc.fov ?? 98) - clubBeat * 2.5} />
@@ -738,6 +737,7 @@ export const World3D: React.FC<{ sc: Scene3D; t: number; dur: number; width: num
       {sc.room === "clubdoor" && <ClubDoor t={t} sc={sc} />}
       {sc.torch && <pointLight position={[pos[0], pos[1] + 0.5, pos[2] - 2.8]} color="#fff4d8" intensity={3} distance={7} decay={2} />}
     </ThreeCanvas>
+    </div>
   );
 };
 
