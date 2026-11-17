@@ -46,9 +46,12 @@ const HAIR = ["#2b1d14", "#5b3a1e", "#d9b26a", "#111111", "#8a3b1c", "#3d2b1f"];
 const SHIRT = ["#e8b33a", "#c0392b", "#3a7bd5", "#6aa84f", "#8e44ad", "#e67e22", "#2c3e50", "#d35480", "#1abc9c"];
 
 // Figur (sitzend oder stehend). look = Kopfdrehung zur Seite (rad), t = Zeit für Atmen/Zappeln
-export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number; dance?: number; sc?: number; shirtC?: string }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0, dance = 0, sc = 1, shirtC }) => {
+export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boolean; look?: number; t: number; scared?: number; run?: number; dance?: number; sc?: number; shirtC?: string; fancy?: boolean }> = ({ p, ry = 0, seed, seated, look = 0, t, scared = 0, run = 0, dance = 0, sc = 1, shirtC, fancy }) => {
   const skin = SKIN[seed % SKIN.length], hair = HAIR[(seed * 7) % HAIR.length], shirt = shirtC ?? SHIRT[(seed * 5) % SHIRT.length];
-  const pants = seed % 2 ? "#2f3b52" : "#3b3b3b";
+  const dress = !!fancy && seed % 3 === 0; // Abendkleid statt Anzug
+  const pants = fancy ? (dress ? skin : "#101014") : seed % 2 ? "#2f3b52" : "#3b3b3b";
+  const light = shirt === "#f2f2f2" || shirt === "#e8e2d4";
+  const TIES = ["#7a1027", "#d4af37", "#101014", "#1b2a4a"];
   const breathe = Math.sin(t * 2 + seed) * 0.01;
   const fidget = Math.sin(t * (1.3 + (seed % 5) * 0.2) + seed) * 0.08 * (1 + scared * 2);
   const stride = run ? Math.sin(t * 9 + seed) * 0.6 : 0;
@@ -60,6 +63,13 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
   const twist = dance ? Math.sin(beatPh / 2 + seed) * 0.35 : 0;
   return (
     <group position={[p[0], p[1] + hop, p[2]]} rotation={[0, ry + twist, 0]} scale={[sc, sc, sc]}>
+      {fancy && (
+        <>
+          <mesh position={[0, 0.012 - hop / sc, 0]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[0.34, 16]} /><meshBasicMaterial color="#000" transparent opacity={0.38} depthWrite={false} /></mesh>
+          <TBox p={[-0.1, 0.04, -0.05]} s={[0.17, 0.08, 0.28]} c={dress ? "#d4af37" : "#060606"} noLine />
+          <TBox p={[0.1, 0.04, -0.05]} s={[0.17, 0.08, 0.28]} c={dress ? "#d4af37" : "#060606"} noLine />
+        </>
+      )}
       {/* Beine */}
       {seated ? (
         <>
@@ -77,14 +87,49 @@ export const Person: React.FC<{ p: V3; ry?: number; seed: number; seated?: boole
       {/* Oberkörper */}
       <group position={[0, y0 + 0.32 + breathe, 0]} rotation={[run ? -0.25 : 0, 0, 0]}>
         <TBox p={[0, 0, 0]} s={[0.42, 0.6, 0.24]} c={shirt} />
-        <TBox p={[-0.27, dance && seed % 3 ? 0.3 : -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 + fidget : dance && seed % 3 ? armUp : stride * 0.8, 0, 0.05]} />
-        <TBox p={[0.27, dance && seed % 2 ? 0.3 : -0.02, seated ? -0.12 : 0]} s={[0.11, 0.52, 0.12]} c={shirt} r={[seated ? 0.6 - fidget : dance && seed % 2 ? armUp : -stride * 0.8, 0, -0.05]} />
+        {fancy && !dress && (
+          <>
+            <TBox p={[0, 0.06, -0.123]} s={[0.13, 0.46, 0.012]} c={light ? "#15151a" : "#f4f1ea"} noLine />
+            <TBox p={[0, 0.03, -0.131]} s={[0.05, 0.36, 0.012]} c={TIES[seed % TIES.length]} noLine />
+            <TBox p={[0, 0.27, -0.128]} s={[0.2, 0.06, 0.02]} c={light ? "#15151a" : "#f4f1ea"} noLine />
+          </>
+        )}
+        {fancy && dress && (
+          <>
+            <TBox p={[0, -0.5, 0]} s={[0.5, 0.52, 0.34]} c={shirt} />
+            <TBox p={[0, 0.2, -0.123]} s={[0.26, 0.03, 0.012]} c="#f0d98a" noLine />
+          </>
+        )}
+        {fancy && <TBox p={[0, 0.33, 0]} s={[0.12, 0.08, 0.12]} c={skin} noLine />}
+        {([-1, 1] as const).map((sd) => {
+          const up = !!dance && (sd < 0 ? seed % 3 !== 0 : seed % 2 !== 0);
+          const rot = seated ? 0.6 + sd * -fidget : up ? armUp : sd * -stride * 0.8;
+          return (
+            <group key={sd} position={[sd * 0.27, up ? 0.3 : -0.02, seated ? -0.12 : 0]} rotation={[rot, 0, sd * -0.05]}>
+              <TBox p={[0, 0, 0]} s={[0.11, 0.52, 0.12]} c={dress ? skin : shirt} />
+              {fancy && <mesh position={[0, -0.3, 0]} material={toon(skin)}><sphereGeometry args={[0.065, 10, 8]} /></mesh>}
+              {fancy && !dress && <TBox p={[0, -0.235, 0]} s={[0.12, 0.04, 0.13]} c={light ? "#15151a" : "#f4f1ea"} noLine />}
+            </group>
+          );
+        })}
         {/* Kopf */}
         <group position={[0, 0.48, 0]} rotation={[0, look + fidget * 0.5, 0]}>
           <TSphere p={[0, 0, 0]} r={0.19} c={skin} sc={[1, 1.12, 1]} />
           <TSphere p={[0, 0.07, 0.02]} r={0.195} c={hair} sc={[1.04, 0.85, 1.05]} />
-          <mesh position={[-0.065, 0.0, -0.18]} material={toon("#111")}><sphereGeometry args={[0.022 + scared * 0.01, 8, 8]} /></mesh>
-          <mesh position={[0.065, 0.0, -0.18]} material={toon("#111")}><sphereGeometry args={[0.022 + scared * 0.01, 8, 8]} /></mesh>
+          {fancy && dress && <TBox p={[0, -0.12, 0.13]} s={[0.34, 0.42, 0.12]} c={hair} />}
+          {fancy && seed % 5 === 1 && <TSphere p={[0, 0.2, 0.08]} r={0.1} c={hair} />}
+          {fancy && (
+            <>
+              <mesh position={[-0.065, 0.0, -0.172]} material={toon("#fff")}><sphereGeometry args={[0.034, 8, 8]} /></mesh>
+              <mesh position={[0.065, 0.0, -0.172]} material={toon("#fff")}><sphereGeometry args={[0.034, 8, 8]} /></mesh>
+              <TBox p={[0, -0.085, -0.178]} s={[0.075, 0.018, 0.012]} c={dress ? "#b3122e" : "#5a2a22"} noLine />
+              <TBox p={[-0.065, 0.055, -0.182]} s={[0.07, 0.014, 0.012]} c={hair} noLine />
+              <TBox p={[0.065, 0.055, -0.182]} s={[0.07, 0.014, 0.012]} c={hair} noLine />
+              {seed % 6 === 2 && <TBox p={[0, 0.0, -0.195]} s={[0.26, 0.05, 0.012]} c="#0a0a0a" noLine />}
+            </>
+          )}
+          <mesh position={[-0.065, 0.0, -0.195]} material={toon("#111")}><sphereGeometry args={[0.022 + scared * 0.01, 8, 8]} /></mesh>
+          <mesh position={[0.065, 0.0, -0.195]} material={toon("#111")}><sphereGeometry args={[0.022 + scared * 0.01, 8, 8]} /></mesh>
         </group>
       </group>
     </group>
@@ -165,6 +210,9 @@ export type Scene3D = {
   dj?: boolean;
   gold?: boolean; // Club: Dresscode „Gold Only“
   fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
+  tower?: boolean; // Club: Champagner-Turm an der Bar
+  bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
+  laser?: boolean; // Club: Lasershow (ab 100 Followern)
   bpm?: number;
   torch?: boolean; // Handy-Taschenlampe
   ladder?: boolean; // Drehleiter am Fenster + Blaulicht
@@ -404,7 +452,33 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       <TBox p={[-7.6, 2.3, -3]} s={[0.3, 1.9, 4.6]} c="#0c0c10" />
       <TBox p={[-7.42, 2.3, -3]} s={[0.04, 1.7, 4.4]} c="#ffe2a8" e="#b8842a" noLine />
       {Array.from({ length: 12 }, (_, i) => <TBox key={`b${i}`} p={[-7.36, 1.8 + (i % 3) * 0.5, -4.9 + i * 0.35]} s={[0.09, 0.34, 0.09]} c={["#2d5a3a", "#6b3b1a", "#e8e2d4", "#7a1027"][i % 4]} line={0.01} />)}
-      <Person p={[-7.0, 0, -3]} ry={-Math.PI / 2} seed={17} t={t} shirtC="#0e0e12" />
+      <Person p={[-7.0, 0, -3]} ry={-Math.PI / 2} seed={17} t={t} shirtC="#0e0e12" fancy />
+      {(sc.guests ?? 0) >= 10 && <Person p={[-7.0, 0, -4.6]} ry={-Math.PI / 2} seed={22} t={t} shirtC="#f2f2f2" fancy />}
+      {/* Flaschenhälse, Gläser auf der Bar, Barlampen */}
+      {Array.from({ length: 12 }, (_, i) => <TBox key={`bn${i}`} p={[-7.36, 2.03 + (i % 3) * 0.5, -4.9 + i * 0.35]} s={[0.04, 0.12, 0.04]} c="#e8e2d4" noLine />)}
+      {Array.from({ length: 9 }, (_, i) => (
+        <group key={`gl${i}`} position={[-6.0 + (i % 2) * 0.22, 1.27, -5.1 + i * 0.5]}>
+          <mesh position={[0, 0.02, 0]} material={toon("#e8e2d4")}><cylinderGeometry args={[0.035, 0.035, 0.012, 10]} /></mesh>
+          <mesh position={[0, 0.08, 0]} material={toon("#e8e2d4")}><cylinderGeometry args={[0.008, 0.008, 0.11, 6]} /></mesh>
+          <mesh position={[0, 0.18, 0]} material={toon(i % 3 === 0 ? "#f3d57a" : "#fff6dc", i % 3 === 0 ? "#b98a1e" : "#6d6652")}><cylinderGeometry args={[0.05, 0.02, 0.1, 10]} /></mesh>
+        </group>
+      ))}
+      {[-4.6, -3, -1.4].map((z) => (
+        <group key={`bl${z}`}>
+          <TBox p={[-6.2, 3.6, z]} s={[0.02, 2.0, 0.02]} c={GOLD} noLine />
+          <mesh position={[-6.2, 2.55, z]} material={toon("#fff3d0", "#ffd98a")}><coneGeometry args={[0.2, 0.26, 14]} /></mesh>
+          <pointLight position={[-6.2, 2.3, z]} color="#ffd9a0" intensity={3} distance={3.5} />
+        </group>
+      ))}
+      {/* Champagner-Turm (Night 4 gekauft) */}
+      {sc.tower && (
+        <group position={[-5.95, 1.27, -0.9]}>
+          {[4, 3, 2, 1].map((n, lvl) => Array.from({ length: n * n }, (_, k) => (
+            <mesh key={`tw${lvl}-${k}`} position={[((k % n) - (n - 1) / 2) * 0.11, 0.06 + lvl * 0.12, (Math.floor(k / n) - (n - 1) / 2) * 0.11]} material={toon("#fbe7a6", "#c79a2a")}><cylinderGeometry args={[0.05, 0.025, 0.11, 8]} /></mesh>
+          )))}
+          <pointLight position={[0, 0.5, 0.4]} color="#ffe2a0" intensity={4} distance={2.5} />
+        </group>
+      )}
       {[-4.4, -2.9, -1.6].map((z) => <group key={`st${z}`}><TBox p={[-5.3, 0.4, z]} s={[0.06, 0.8, 0.06]} c={GOLD} line={0.01} /><TBox p={[-5.3, 0.82, z]} s={[0.4, 0.08, 0.4]} c={VELVET} /></group>)}
       {/* VIP-Sofas rechts (Samt) mit Tischchen */}
       {[-6, -3.2].map((z) => (
@@ -420,7 +494,25 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       <TBox p={[0, 1.45, -8.3]} s={[3.4, 0.08, 1.2]} c={GOLD} e={GOLD_E} />
       {[-2.6, 2.6].map((x) => <TBox key={x} p={[x, 1.2, -8.6]} s={[1.0, 2.4, 0.8]} c="#0c0c10" />)}
       {[-2.6, 2.6].map((x) => <mesh key={`sp${x}`} position={[x, 1.5, -8.15]} rotation={[Math.PI / 2, 0, 0]} material={toon("#1c1c20")}><cylinderGeometry args={[0.3 + 0.05 * pulse, 0.3 + 0.05 * pulse, 0.1, 24]} /></mesh>)}
-      {sc.dj && <Person p={[0, 0, -8.9]} ry={0} seed={5} t={t} dance={bps} shirtC="#f2f2f2" />}
+      {/* Plattenteller, Mixer, Laptop */}
+      {[-0.95, 0.95].map((x) => (
+        <group key={`deck${x}`} position={[x, 1.52, -8.3]} rotation={[0, t * 3.4, 0]}>
+          <mesh material={toon("#0a0a0c")}><cylinderGeometry args={[0.3, 0.3, 0.05, 24]} /></mesh>
+          <TBox p={[0.14, 0.03, 0]} s={[0.26, 0.012, 0.03]} c="#f4f1ea" noLine />
+          <mesh position={[0, 0.03, 0]} material={toon(GOLD, GOLD_E)}><cylinderGeometry args={[0.07, 0.07, 0.02, 12]} /></mesh>
+        </group>
+      ))}
+      <TBox p={[0, 1.53, -8.3]} s={[0.5, 0.08, 0.6]} c="#1c1c22" line={0.012} />
+      {Array.from({ length: 6 }, (_, i) => <TBox key={`kn${i}`} p={[-0.15 + (i % 3) * 0.15, 1.58, -8.42 + Math.floor(i / 3) * 0.22]} s={[0.05, 0.03, 0.05]} c={(i + beat) % 3 === 0 ? "#ff3b5c" : "#ffd98a"} e={(i + beat) % 3 === 0 ? "#ff3b5c" : "#c9962a"} noLine />)}
+      {sc.dj && <TBox p={[0, 1.75, -8.72]} s={[0.5, 0.34, 0.03]} c="#cfe6ff" e="#7fb2ff" r={[0.25, 0, 0]} line={0.012} />}
+      {/* LED-Wand hinter dem DJ: Equalizer im Takt */}
+      <TBox p={[0, 2.75, -9.16]} s={[5.4, 2.3, 0.06]} c="#07070a" />
+      {Array.from({ length: 18 }, (_, i) => {
+        const h = 0.25 + 1.7 * Math.abs(Math.sin(t * (2.2 + (i % 5) * 0.55) + i * 1.3)) * (0.45 + 0.55 * pulse);
+        const hot = h > 1.25;
+        return <TBox key={`eq${i}`} p={[-2.47 + i * 0.29, 1.72 + h / 2, -9.11]} s={[0.2, h, 0.04]} c={hot ? "#ff3b5c" : "#ffd98a"} e={hot ? "#ff3b5c" : "#d9a23a"} noLine />;
+      })}
+      {sc.dj && <Person p={[0, 0, -8.9]} ry={0} seed={5} t={t} dance={bps} shirtC="#f2f2f2" fancy />}
       {/* Kronleuchter */}
       {[[-3, -2.5], [3, -2.5], [0, -6]].map(([x, z], i) => (
         <group key={`ch${i}`} position={[x, 3.7, z]} rotation={[0, t * 0.15 + i, 0]}>
@@ -430,12 +522,63 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
           <pointLight color="#ffd9a0" intensity={9 + 5 * pulse} distance={8} />
         </group>
       ))}
+      {/* Discokugel mit Lichtpunkten, Traverse mit Scheinwerfern und Lichtkegeln */}
+      <group position={[0, 3.75, -3.2]}>
+        <TBox p={[0, 0.6, 0]} s={[0.03, 0.6, 0.03]} c="#888" noLine />
+        <mesh rotation={[0, t * 0.9, 0]}><icosahedronGeometry args={[0.42, 2]} /><meshStandardMaterial color="#e9eef5" metalness={0.85} roughness={0.2} flatShading emissive="#6f7684" emissiveIntensity={0.55 + 0.3 * pulse} /></mesh>
+        <pointLight color="#ffffff" intensity={5 + 5 * pulse} distance={7} />
+      </group>
+      {Array.from({ length: 26 }, (_, i) => {
+        const a = t * 0.9 + i * 0.6283, rr = 1.6 + (i % 5) * 0.75;
+        return <mesh key={`dot${i}`} position={[Math.cos(a) * rr, 0.045, -3.2 + Math.sin(a) * rr * 0.9]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[0.07 + (i % 3) * 0.02, 8]} /><meshBasicMaterial color="#fff6dc" transparent opacity={0.75} depthWrite={false} /></mesh>;
+      })}
+      <TBox p={[0, 4.3, -5.2]} s={[9, 0.1, 0.1]} c="#2a2a30" line={0.012} />
+      <TBox p={[0, 4.3, -1.0]} s={[9, 0.1, 0.1]} c="#2a2a30" line={0.012} />
+      {[-3.6, -1.2, 1.2, 3.6].map((x, i) => {
+        const sw = Math.sin(t * 0.9 + i * 1.7) * 0.45, tl = Math.cos(t * 0.7 + i) * 0.3;
+        const col = ["#ffd98a", "#ff4d6d", "#ffffff", "#ffb347"][(i + beat) % 4];
+        return (
+          <group key={`mh${i}`} position={[x, 4.2, i % 2 ? -1.0 : -5.2]} rotation={[tl, 0, sw]}>
+            <TBox p={[0, -0.1, 0]} s={[0.24, 0.3, 0.24]} c="#15151a" line={0.012} />
+            <mesh position={[0, -2.35, 0]}><coneGeometry args={[1.05, 4.2, 20, 1, true]} /><meshBasicMaterial color={col} transparent opacity={0.05 + 0.07 * pulse} depthWrite={false} side={THREE.DoubleSide} blending={THREE.AdditiveBlending} /></mesh>
+          </group>
+        );
+      })}
+      {sc.laser && Array.from({ length: 10 }, (_, i) => (
+        <mesh key={`lz${i}`} position={[0, 2.6, -8.6]} rotation={[0.25 + 0.1 * Math.sin(t * 2 + i), 0, -0.9 + i * 0.2 + 0.25 * Math.sin(t * 1.7 + i)]}>
+          <boxGeometry args={[0.02, 14, 0.02]} /><meshBasicMaterial color={i % 2 ? "#39ff88" : "#ff2bd6"} transparent opacity={0.75} blending={THREE.AdditiveBlending} depthWrite={false} />
+        </mesh>
+      ))}
+      {/* Samtkordel vor dem VIP-Bereich, Flaschenkühler, Gäste auf den Sofas, Pflanzen, Wandspiegel */}
+      {[-7.1, -4.6, -2.1].map((z) => <group key={`vp${z}`}><TBox p={[5.2, 0.5, z]} s={[0.07, 1.0, 0.07]} c={GOLD} line={0.012} /><TSphere p={[5.2, 1.04, z]} r={0.07} c={GOLD} /></group>)}
+      {[-5.85, -3.35].map((z) => <TBox key={`vr${z}`} p={[5.2, 0.86, z]} s={[0.05, 0.05, 2.4]} c="#b0122a" line={0.01} />)}
+      {[-6, -3.2].map((z, i) => (
+        <group key={`vt${z}`}>
+          <mesh position={[5.9, 0.53, z]} material={toon("#c9ced6")}><cylinderGeometry args={[0.12, 0.09, 0.2, 12]} /></mesh>
+          <TBox p={[5.9, 0.72, z]} s={[0.06, 0.3, 0.06]} c="#2d5a3a" r={[0.2, 0, 0.2]} line={0.01} />
+          <Person p={[6.85, 0.18, z - 0.45]} ry={Math.PI / 2} seed={60 + i} t={t} seated shirtC={SUITS[(i + 2) % SUITS.length]} fancy />
+          <Person p={[6.85, 0.18, z + 0.5]} ry={Math.PI / 2} seed={63 + i * 3} t={t} seated shirtC={GOLDS[i]} fancy />
+        </group>
+      ))}
+      {[[-7.2, 0.6], [7.2, 0.6], [7.2, -8.6]].map(([x, z], i) => (
+        <group key={`plant${i}`} position={[x, 0, z]}>
+          <mesh position={[0, 0.3, 0]} material={toon(GOLD, GOLD_E)}><cylinderGeometry args={[0.26, 0.2, 0.6, 12]} /></mesh>
+          <TSphere p={[0, 1.0, 0]} r={0.42} c="#1f5b34" sc={[1, 1.3, 1]} />
+          <TSphere p={[0.2, 1.45, 0.1]} r={0.26} c="#2a7a45" />
+        </group>
+      ))}
+      {[-6.5, -4.2].map((z) => (
+        <group key={`mir${z}`}>
+          <TBox p={[7.76, 2.6, z]} s={[0.05, 1.5, 1.1]} c={GOLD} e={GOLD_E} />
+          <TBox p={[7.72, 2.6, z]} s={[0.04, 1.3, 0.9]} c="#2a2f3a" e="#1a2030" noLine />
+        </group>
+      ))}
       {/* dezente Spots im Takt (Gold / Weiß / tiefes Rot) */}
       {[0, 1].map((i) => (
         <pointLight key={`pl${i}`} position={[Math.sin(t * 0.6 + i * 3.1) * 3, 3.4, -2.5 + Math.cos(t * 0.5 + i * 3.1) * 2]} color={["#ffcf7a", "#ffffff", "#b3122e"][(i + beat) % 3]} intensity={8 * (0.4 + pulse)} distance={8} />
       ))}
       {/* Gäste in Abendgarderobe */}
-      {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} />)}
+      {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} fancy />)}
       {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
       {sc.fame !== undefined && (
         <group position={[3.6, 2.1, -6.4]} rotation={[0, -0.5, 0]}>
@@ -484,8 +627,21 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       <TBox p={[4.5, 4.4, -1]} s={[0.5, 0.2, 0.5]} c="#ffe9a8" e="#ffe9a8" />
       <pointLight position={[4.5, 4, -1]} color="#ffd9a0" intensity={10} distance={10} />
       {/* Türsteher (groß, schwarz) + Schlange */}
-      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#0e0e10" look={Math.sin(t * 0.8) * 0.3} />
-      {Array.from({ length: q }, (_, i) => <Person key={`q${i}`} p={[-1.75 + Math.sin(i) * 0.12, 0, -1.4 + i * 0.85]} ry={Math.PI} seed={i + 40} t={t} look={Math.sin(t + i) * 0.4} shirtC={SUITS[i % SUITS.length]} />)}
+      <Person p={[1.55, 0, -2.2]} ry={-0.5} seed={3} t={t} sc={1.28} shirtC="#0e0e10" look={Math.sin(t * 0.8) * 0.3} fancy />
+      {(sc.bouncers ?? 1) >= 2 && <Person p={[-2.75, 0, -2.3]} ry={0.5} seed={11} t={t} sc={1.22} shirtC="#0e0e10" look={Math.sin(t * 0.6 + 2) * 0.3} fancy />}
+      {/* Vordach, Pflanzen, Wandlampen, Pfützen-Spiegelung */}
+      <TBox p={[0, 3.05, -2.2]} s={[3.2, 0.14, 1.6]} c="#5a0f1e" />
+      <TBox p={[0, 2.96, -1.42]} s={[3.2, 0.2, 0.06]} c={GOLD} e="#c9962a" noLine />
+      {[-1.7, 1.7].map((x) => (
+        <group key={`dp${x}`} position={[x * 1.35, 0, -2.6]}>
+          <mesh position={[0, 0.3, 0]} material={toon(GOLD, GOLD_E)}><cylinderGeometry args={[0.24, 0.18, 0.6, 12]} /></mesh>
+          <TSphere p={[0, 0.95, 0]} r={0.36} c="#1f5b34" sc={[1, 1.5, 1]} />
+        </group>
+      ))}
+      {[-3.4, 3.4].map((x) => <group key={`wl${x}`}><TBox p={[x, 2.4, -2.95]} s={[0.22, 0.5, 0.12]} c="#ffe9b8" e="#ffcf7a" /><pointLight position={[x, 2.4, -2.3]} color="#ffcf7a" intensity={6} distance={5} /></group>)}
+      {Array.from({ length: 8 }, (_, i) => <TBox key={`wn${i}`} p={[-7.8 + i * 2.2, 5.6, -2.94]} s={[0.06, 1.2, 0.03]} c="#0c0c10" noLine />)}
+      <mesh position={[0.3, 0.012, 1.0]} rotation={[-Math.PI / 2, 0, 0]}><circleGeometry args={[1.5, 24]} /><meshBasicMaterial color="#ffcf7a" transparent opacity={0.1} depthWrite={false} /></mesh>
+      {Array.from({ length: q }, (_, i) => <Person key={`q${i}`} p={[-1.75 + Math.sin(i) * 0.12, 0, -1.4 + i * 0.85]} ry={Math.PI} seed={i + 40} t={t} look={Math.sin(t + i) * 0.4} shirtC={SUITS[i % SUITS.length]} fancy />)}
     </group>
   );
 };

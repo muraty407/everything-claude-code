@@ -31,15 +31,32 @@ MUSIC = {"deep": ("club/deep.wav", 122), "tech": ("club/tech.wav", 126), "disco"
 LIKE_REWARDS = ["free champagne for everyone", "I smile, once", "the bartender gets a day off", "we open the VIP rope for one night"]
 
 
-def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4):
-    return {"room": "clubdoor", "queue": queue, "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
+def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4, bouncers=2):
+    return {"room": "clubdoor", "queue": queue, "bouncers": bouncers,
+            "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
 
 
-def inside(guests, dj=False, cam="wide", bpm=122):
-    c = {"wide": {"pos": [5.2, 3.0, 3.6], "yaw": [0.62, 0.48], "pitch": -0.32},
-         "floor": {"pos": [0.0, 1.5, 2.6], "yaw": [-0.25, 0.25], "pitch": -0.1},
-         "bar": {"pos": [-2.5, 1.6, 1.5], "yaw": [0.9, 0.7], "pitch": -0.08}}[cam]
-    return {"room": "club", "guests": guests, "dj": dj, "bpm": bpm, "cam": c}
+# Kameras über Kopfhöhe, damit die Gäste nicht das Bild verdecken (seit 17.11., mehr Details in der Szene)
+CAMS = {
+    "top": {"pos": [0, 4.1, 2.4], "yaw": [-0.06, 0.06], "pitch": -0.62},       # volle Tanzfläche von oben (Einstieg)
+    "floor": {"pos": [0, 2.5, 3.9], "yaw": [-0.1, 0.1], "pitch": -0.2},
+    "wide": {"pos": [5.2, 3.0, 3.6], "yaw": [0.62, 0.48], "pitch": -0.32},                # aus der Ecke über den ganzen Raum
+    "bar": {"pos": [-3.4, 2.3, 1.6], "yaw": [0.7, 0.8], "pitch": -0.25},
+    "dj": {"pos": [0, 2.6, -4.2], "yaw": [-0.08, 0.08], "pitch": -0.12},
+    "fame": {"pos": [1.6, 2.6, -2.6], "yaw": [-0.45, -0.55], "pitch": -0.1},
+}
+
+
+def inside(guests, dj, cam="floor", bpm=122, fame=None, tower=True, smoke=True, laser=None, gold=False):
+    d = {"room": "club", "guests": guests, "dj": dj, "bpm": bpm, "cam": dict(CAMS[cam]), "tower": tower,
+         "fame": guests if fame is None else fame, "laser": guests >= 100 if laser is None else laser}
+    if cam == "top":
+        d["fov"] = 100
+    if smoke and guests >= 25:
+        d["smoke"] = [0.2, 0.2]
+    if gold:
+        d["gold"] = True
+    return d
 
 
 ENTRY, DRINKS = 10, 8          # $ pro Gast: Eintritt + Getränke im Schnitt

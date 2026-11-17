@@ -31,7 +31,7 @@ if (args[0] === "--still") {
   for (let i = 2; i < args.length; i += 2) {
     const inputProps = JSON.parse(fs.readFileSync(args[i], "utf8"));
     const composition = await selectComposition({ serveUrl, id: comp, inputProps, browserExecutable, chromiumOptions });
-    await renderStill({ composition, serveUrl, output: args[i + 1], inputProps, frame: 0, browserExecutable, imageFormat: "png", chromiumOptions });
+    await renderStill({ composition, serveUrl, output: args[i + 1], inputProps, frame: Number(process.env.STILL_FRAME || 0), browserExecutable, imageFormat: "png", chromiumOptions });
     console.log("still", args[i + 1]);
   }
 } else {
