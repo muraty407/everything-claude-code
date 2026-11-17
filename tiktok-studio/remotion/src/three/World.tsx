@@ -690,8 +690,8 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D; k?: number }> = ({ t, sc, k =
       <TBox p={[0, 4, -3.2]} s={[18, 8, 0.4]} c="#141418" />
       {Array.from({ length: 8 }, (_, i) => <TBox key={`br${i}`} p={[-7.8 + i * 2.2, 5.6, -2.98]} s={[1.4, 1.2, 0.05]} c="#15122a" e={i % 3 === 1 ? "#3a2a10" : undefined} />)}
       {/* Tür + Neon-Schild */}
-      <TBox p={[0, 1.3, -3.6]} s={[1.9, 2.7, 0.05]} c="#ffb86b" e={open > 0.02 ? "#ff7a3c" : "#1a0f04"} noLine />
-      {open > 0.02 && [0, 1, 2, 3, 4].map((i) => <TBox key={`in${i}`} p={[-0.7 + i * 0.35, 0.8 + 0.5 * Math.abs(Math.sin(t * 6 + i)), -3.5]} s={[0.22, 1.4, 0.04]} c={i % 2 ? "#ff5c8a" : "#ffd98a"} e={i % 2 ? "#ff3b6a" : "#e0a030"} noLine />)}
+      <mesh position={[0, 1.3, -2.97]}><planeGeometry args={[1.7, 2.6]} /><meshBasicMaterial color={open > 0.02 ? "#ffbe5c" : "#1a0f04"} fog={false} /></mesh>
+      {open > 0.02 && [0, 1, 2, 3, 4].map((i) => <TBox key={`in${i}`} p={[-0.7 + i * 0.35, 0.75 + 0.45 * Math.abs(Math.sin(t * 6 + i)), -2.958]} s={[0.22, 1.3, 0.01]} c={i % 2 ? "#ff5c8a" : "#fff1c8"} e={i % 2 ? "#ff3b6a" : "#ffd27a"} noLine />)}
       {open > 0.02 && <pointLight position={[0, 1.5, -2.2]} color="#ffb060" intensity={30 * open * glow} distance={9} />}
       {([-1, 1] as const).map((sd) => (
         <group key={`leaf${sd}`} position={[sd * 0.85, 1.3, -2.98]} rotation={[0, sd * open * 1.45, 0]}>
@@ -706,7 +706,7 @@ const ClubDoor: React.FC<{ t: number; sc: Scene3D; k?: number }> = ({ t, sc, k =
       <TBox p={[0, 3.72, -2.9]} s={[5.5, 1.3, 0.15]} c="#0c0c10" />
       {sc.sign ? (
         <>
-          <mesh position={[0, 3.72, -2.8]}><planeGeometry args={[5.0, 0.94]} /><meshBasicMaterial map={signTexture(sc.sign, "#ffcf5a")} transparent opacity={flick > 0.5 ? 1 : 0.55} depthWrite={false} /></mesh>
+          <mesh position={[0, 3.72, -2.7]}><planeGeometry args={[5.2, 0.975]} /><meshBasicMaterial map={signTexture(sc.sign, "#ffcf5a")} transparent opacity={flick > 0.5 ? 1 : 0.6} depthWrite={false} fog={false} /></mesh>
           <TBox p={[0, 4.3, -2.82]} s={[5.3, 0.06, 0.06]} c="#ffe9b8" e="#ffcf7a" noLine />
           <TBox p={[0, 3.14, -2.82]} s={[5.3, 0.06, 0.06]} c="#ffe9b8" e="#ffcf7a" noLine />
           <pointLight position={[0, 3.7, -1.9]} color="#ffcf7a" intensity={10 * flick} distance={6} />

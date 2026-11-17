@@ -37,7 +37,7 @@ def door(queue, yaw=(0.0, 0.0), z=5.6, dz=-1.4, bouncers=2, enter=False):
          "cam": {"pos": [0.2, 1.7, z], "yaw": list(yaw), "pitch": 0.0, "move": [0, 0, dz]}}
     if enter:
         d["enter"] = True
-        d["cam"] = {"pos": [0.1, 1.7, 6.2], "yaw": [0, 0], "pitch": [0.12, 0.0], "walk": 1, "move": [0, 0, -8.6]}
+        d["cam"] = {"pos": [0.1, 1.7, 6.2], "yaw": [0, 0], "pitch": [0.12, 0.0], "walk": 1, "move": [0, 0, -8.35]}
     return d
 
 
