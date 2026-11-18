@@ -1710,5 +1710,299 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-7",
+  "title": "Club Daddyverse – Night 7",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 7",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "This club has one rule: every follower gets in. Night 7 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "This club has one rule. Every follower gets in. Come in.",
+    "scene": "3d",
+    "clock": "NIGHT 7",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 10,
+     "bouncers": 2,
+     "sign": "DADDYVERSE",
+     "cam": {
+      "pos": [
+       0.1,
+       1.7,
+       4.9
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.2,
+       0.0
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -7.05
+      ]
+     },
+     "enter": true
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST"
+   },
+   {
+    "text": "Night 7. 80 guests. You voted. Marz pays rent for his free champagne.",
+    "scene": "3d",
+    "clock": "80 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       1.8,
+       4.4
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.0,
+       -0.3
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       1.2,
+       -3.4
+      ]
+     },
+     "tower": true,
+     "fame": 80,
+     "laser": false,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "confetti"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "YOU VOTED",
+     "title": "MARZ PAYS RENT"
+    }
+   },
+   {
+    "text": "I thought he would leave. Wrong. He paid. 100 dollars a night. Our first paying VIP.",
+    "scene": "3d",
+    "clock": "MARZ",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 80,
+     "laser": false,
+     "fx3d": [
+      "money"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$100",
+     "sub": "MARZ · FIRST PAYING VIP"
+    }
+   },
+   {
+    "text": "We made 450 dollars tonight. 17 likes, so the VIP rope stays closed. 902 from the bank closing us.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 80,
+     "laser": false,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "80 GUESTS × $18",
+       "+$1,440"
+      ],
+      [
+       "MARZ RENT",
+       "+$100"
+      ],
+      [
+       "RENT + STAFF + DJ + BURGER",
+       "−$1,090"
+      ],
+      [
+       "BALANCE",
+       "−$1,098"
+      ],
+      [
+       "BANK CLOSES US AT",
+       "−$2,000"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. Burger wants a house rule. A: No free drinks. B: Dress code every night. C: No phones on the dance floor. Tag a friend. They get in too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 80,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 80,
+     "laser": false,
+     "fx3d": [
+      "co2"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "NEW HOUSE RULE · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "NO FREE DRINKS"
+      ],
+      [
+       "B",
+       "DRESS CODE EVERY NIGHT"
+      ],
+      [
+       "C",
+       "NO PHONES ON THE DANCE FLOOR"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 7,
+  "id": "club07",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 7",
+  "badge": "NIGHT 7",
+  "brand": "DADDYVERSE",
+  "next": "Night 8: the new house rule",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "COME IN",
+   "match": "this"
+  },
+  "music": "club/deep.wav",
+  "followers": 80,
+  "cash": -1098,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1548,
+    -1548,
+    -1448,
+    -1098,
+    -1098
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
