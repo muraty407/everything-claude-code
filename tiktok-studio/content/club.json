@@ -2004,5 +2004,299 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-8",
+  "title": "Club Daddyverse – Night 8",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 8",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "A guest wants to open his own club. Next door. Night 8 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "Every follower gets into my club. Now one guest wants to open his own. Next door.",
+    "scene": "3d",
+    "clock": "NIGHT 8",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 12,
+     "bouncers": 2,
+     "sign": "DADDYVERSE",
+     "cam": {
+      "pos": [
+       0.1,
+       1.7,
+       4.9
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.2,
+       0.0
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -7.05
+      ]
+     },
+     "enter": true
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST"
+   },
+   {
+    "text": "Night 8. 90 guests. Marz paid his rent. Then he said: fine, I open a club next to yours. With free food.",
+    "scene": "3d",
+    "clock": "90 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 90,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       1.8,
+       4.4
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.0,
+       -0.3
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       1.2,
+       -3.4
+      ]
+     },
+     "tower": true,
+     "fame": 90,
+     "laser": false,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "confetti"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "MARZ",
+     "title": "A CLUB NEXT DOOR · FREE FOOD"
+    }
+   },
+   {
+    "text": "I thought that kills us. Wrong. You voted no free drinks. The bar made 630 dollars. Best night ever.",
+    "scene": "3d",
+    "clock": "YOUR VOTE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 90,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 90,
+     "laser": false,
+     "fx3d": [
+      "money"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$630",
+     "sub": "NO FREE DRINKS · BEST NIGHT EVER"
+    }
+   },
+   {
+    "text": "Cash: minus 468. 33 likes, so the VIP rope stays closed. And jr kroupi: yes, you are in.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 90,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 90,
+     "laser": false,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "90 GUESTS × $18",
+       "+$1,620"
+      ],
+      [
+       "MARZ RENT",
+       "+$100"
+      ],
+      [
+       "RENT + STAFF + DJ + BURGER",
+       "−$1,090"
+      ],
+      [
+       "BALANCE",
+       "−$468"
+      ],
+      [
+       "LIKES",
+       "33 / 50"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. How do we beat the club next door? A: Laser show. B: Bigger sound system. C: Free entry for one night. Tag a friend. They get in too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 90,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 90,
+     "laser": false,
+     "fx3d": [
+      "co2"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "BEAT THE CLUB NEXT DOOR · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "LASER SHOW"
+      ],
+      [
+       "B",
+       "BIGGER SOUND SYSTEM"
+      ],
+      [
+       "C",
+       "FREE ENTRY FOR ONE NIGHT"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 8,
+  "id": "club08",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 8",
+  "badge": "NIGHT 8",
+  "brand": "DADDYVERSE",
+  "next": "Night 9: the club next door",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "A CLUB NEXT DOOR",
+   "match": "every"
+  },
+  "music": "club/deep.wav",
+  "followers": 90,
+  "cash": -468,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -1098,
+    -1098,
+    -468,
+    -468,
+    -468
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
