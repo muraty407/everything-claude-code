@@ -31,3 +31,4 @@ TikTok hat am 17.11. den Umfrage-Kommentar „What do I do with Marz? Ban him / 
 - **Ziele Daddyverse bis 1.12.:** 300 Follower zusammen (TikTok + YouTube; Stand 17.11.: 80), eine Folge über 3.000 Aufrufe, Ø Wiedergabe auf TikTok über 10 Sekunden. Zwei von drei erreicht = weitermachen.
 - **Ab Night 7 in jeder Folge:** (1) starkes Bild in der ersten Sekunde (volle Tanzfläche von oben, wachsende Schlange), (2) ein Satz am Anfang, der die Idee für neue Zuschauer erklärt, (3) Anlass zum Teilen („Tag a friend …“). Höchstens 5 Szenen.
 - Offene Bewerber: Timber, Escapo (Security), ANS (Barkeeper). Marz-Abstimmung in Night 7 freundlich auflösen.
+- Night 9 (geplant): Barkeeper-Wahl zwischen „Ezra“ (nottz_ezra) und „Headphones“ (TikTok-Nutzer mit Emoji-Namen 🏔🎧, Name vom Nutzer freigegeben: „wie du willst“), dazu ANS von früher. Marz baut laut eigenem Kommentar einen Club nebenan (Rivalen-Geschichte, freundlich halten).
