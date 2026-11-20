@@ -2361,13 +2361,13 @@
     ]
    },
    {
-    "text": "Night 9. 99 guests. The door made zero dollars.",
+    "text": "Night 9. 100 guests. The door made zero dollars.",
     "scene": "3d",
-    "clock": "99 INSIDE",
+    "clock": "100 INSIDE",
     "voice": "bouncer",
     "s3d": {
      "room": "club",
-     "guests": 99,
+     "guests": 100,
      "dj": true,
      "bpm": 122,
      "cam": {
@@ -2392,7 +2392,7 @@
       ]
      },
      "tower": true,
-     "fame": 99,
+     "fame": 100,
      "laser": false,
      "fov": 100,
      "fx3d": [
@@ -2416,7 +2416,7 @@
     "voice": "bouncer",
     "s3d": {
      "room": "club",
-     "guests": 99,
+     "guests": 100,
      "dj": true,
      "bpm": 122,
      "cam": {
@@ -2439,7 +2439,7 @@
       ]
      },
      "tower": true,
-     "fame": 99,
+     "fame": 100,
      "laser": false,
      "fx3d": [
       "money",
@@ -2462,7 +2462,7 @@
     "voice": "bouncer",
     "s3d": {
      "room": "club",
-     "guests": 99,
+     "guests": 100,
      "dj": true,
      "bpm": 122,
      "cam": {
@@ -2478,7 +2478,7 @@
       "pitch": -0.25
      },
      "tower": true,
-     "fame": 99,
+     "fame": 100,
      "laser": false,
      "smoke": [
       0.2,
@@ -2512,13 +2512,62 @@
     }
    },
    {
-    "text": "You decide. Who runs my bar? A: Ezra. B: Headphones. C: ANS. And at 100 followers, the lasers turn on. We need one.",
+    "text": "And you did it. 100 followers. Lasers on. The wall is full.",
+    "scene": "3d",
+    "clock": "100 FOLLOWERS",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 100,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "sparks"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "100 / 100",
+     "sub": "HALL OF FAME FULL · LASERS ON"
+    }
+   },
+   {
+    "text": "You decide. Who runs my bar? A: Ezra. B: Headphones. C: ANS. Tag a friend. They get in too.",
     "scene": "3d",
     "clock": "YOU DECIDE",
     "voice": "bouncer",
     "s3d": {
      "room": "club",
-     "guests": 99,
+     "guests": 100,
      "dj": true,
      "bpm": 122,
      "cam": {
@@ -2534,8 +2583,8 @@
       "pitch": -0.32
      },
      "tower": true,
-     "fame": 99,
-     "laser": false,
+     "fame": 100,
+     "laser": true,
      "fx3d": [
       "co2"
      ],
@@ -2558,10 +2607,6 @@
       [
        "C",
        "ANS"
-      ],
-      [
-       "LASERS AT",
-       "100 FOLLOWERS · 99 NOW"
       ]
      ]
     }
@@ -2581,13 +2626,14 @@
    "match": "tonight"
   },
   "music": "club/deep.wav",
-  "followers": 99,
+  "followers": 100,
   "cash": -58,
   "money": {
    "label": "CLUB CASH",
    "values": [
     -468,
     -468,
+    -58,
     -58,
     -58,
     -58
