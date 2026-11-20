@@ -2298,5 +2298,307 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-9",
+  "title": "Club Daddyverse – Night 9",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 9",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Tonight nobody pays at my door. It saves the club or ends it. Night 9 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "Tonight, nobody pays at my door. It saves this club. Or it ends it. Watch the cash.",
+    "scene": "3d",
+    "clock": "NIGHT 9",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 14,
+     "bouncers": 2,
+     "sign": "DADDYVERSE",
+     "cam": {
+      "pos": [
+       0.1,
+       1.7,
+       4.9
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.2,
+       0.0
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -7.05
+      ]
+     },
+     "enter": true
+    },
+    "ctx": "FREE ENTRY · YOU VOTED FOR IT",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 9. 99 guests. The door made zero dollars.",
+    "scene": "3d",
+    "clock": "99 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 99,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       1.8,
+       4.4
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.0,
+       -0.3
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       1.2,
+       -3.4
+      ]
+     },
+     "tower": true,
+     "fame": 99,
+     "laser": false,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "$0",
+     "sub": "AT THE DOOR TONIGHT"
+    }
+   },
+   {
+    "text": "I thought we are done. Wrong. Free door, full bar. Muffinman called it. The bar made 1,400 dollars.",
+    "scene": "3d",
+    "clock": "THE BAR",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 99,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 99,
+     "laser": false,
+     "fx3d": [
+      "money",
+      "confetti"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$1,400",
+     "sub": "FREE DOOR · FULL BAR"
+    }
+   },
+   {
+    "text": "Cash: minus 58. One night from zero debt. And next door, Marz promises a famous guest tomorrow.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 99,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 99,
+     "laser": false,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "DOOR",
+       "$0"
+      ],
+      [
+       "BAR",
+       "+$1,400"
+      ],
+      [
+       "MARZ RENT",
+       "+$100"
+      ],
+      [
+       "RENT + STAFF + DJ + BURGER",
+       "−$1,090"
+      ],
+      [
+       "BALANCE",
+       "−$58"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. Who runs my bar? A: Ezra. B: Headphones. C: ANS. And at 100 followers, the lasers turn on. We need one.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 99,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 99,
+     "laser": false,
+     "fx3d": [
+      "co2"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "WHO RUNS THE BAR? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "EZRA"
+      ],
+      [
+       "B",
+       "HEADPHONES"
+      ],
+      [
+       "C",
+       "ANS"
+      ],
+      [
+       "LASERS AT",
+       "100 FOLLOWERS · 99 NOW"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 9,
+  "id": "club09",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 9",
+  "badge": "NIGHT 9",
+  "brand": "DADDYVERSE",
+  "next": "Night 10: the lasers",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "NOBODY PAYS TONIGHT",
+   "match": "tonight"
+  },
+  "music": "club/deep.wav",
+  "followers": 99,
+  "cash": -58,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -468,
+    -468,
+    -58,
+    -58,
+    -58
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
