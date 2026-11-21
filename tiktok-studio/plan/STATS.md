@@ -37,3 +37,5 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 | 19.11. | Daddyverse YouTube | Club Night 7 | 22 h | 508 | – | – | – | 6 | 4 | – | +2 Abos | Kanal: 50 Abos; Kurve steigt noch; Night 6: 1.055 |
 | 20.11. | Daddyverse TikTok | Club Night 8 (44 s) | 23 h | 632 | – | – | – | 16 | 2 | – | – | Umfrage 10 Stimmen: Free entry 50 %, Laser 30 %, Sound 20 %; Follower-Zahl nicht mitgeschickt (Vortag 40) |
 | 20.11. | Daddyverse YouTube | Club Night 8 | 23 h | 1.088 | – | – | – | 8 | 7 | – | +5 Abos | Kanal: 59 Abos (+9 seit gestern); Night 7 nachträglich auf 1.119 gestiegen, Night 6: 1.078 |
+| 21.11. | Daddyverse TikTok | Club Night 9 (46 s, neuer Hook) | 23 h | 200 | 9,2 s | – | 1,77 % | 5 | 1 | 0 | 1 | Nur ein Drittel der üblichen Aufrufe, aber beste Ø Wiedergabe bisher (vorher 4,4–6,4 s). Im Text stand erstmals „New nights drop first on YT“ – möglicher Grund für die geringe Ausspielung (nicht belegt). Umfrage nur 2 Stimmen (Headphones). Kanal: 41 Follower, 334 Likes |
+| 21.11. | Daddyverse YouTube | Club Night 9 | 23 h | 676 | – | – | – | – | 2 | – | +2 Abos | Kanal: 61 Abos; Night 8: 1.211 · Night 7: 1.129 |

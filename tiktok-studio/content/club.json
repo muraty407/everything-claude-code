@@ -2646,5 +2646,313 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-10",
+  "title": "Club Daddyverse – Night 10",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 10",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Tonight half my guests walked out. To the club next door. Night 10 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "Tonight, half my guests walked out. They went to the club next door. Watch the cash.",
+    "scene": "3d",
+    "clock": "NIGHT 10",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 2,
+     "bouncers": 2,
+     "sign": "DADDYVERSE",
+     "cam": {
+      "pos": [
+       0.1,
+       1.7,
+       4.9
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.2,
+       0.0
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       0,
+       -7.05
+      ]
+     },
+     "enter": true
+    },
+    "ctx": "THE CLUB NEXT DOOR OPENED",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 10. 102 followers. 51 on my floor. Next door: free food, and a famous guest.",
+    "scene": "3d",
+    "clock": "51 INSIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 51,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       1.8,
+       4.4
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       0.0,
+       -0.3
+      ],
+      "walk": 1,
+      "move": [
+       0,
+       1.2,
+       -3.4
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": false,
+     "fov": 100,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "51 / 102",
+     "sub": "HALF OF THEM LEFT"
+    }
+   },
+   {
+    "text": "I thought that's it. Wrong. By midnight, the free food was gone. They all came back. Thirsty.",
+    "scene": "3d",
+    "clock": "MIDNIGHT",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 102,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money",
+      "confetti"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "102 / 102",
+     "sub": "THEY ALL CAME BACK"
+    }
+   },
+   {
+    "text": "And for the first time ever, this club is not in debt. Plus 668 dollars.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 102,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "sparks"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "102 GUESTS × $18",
+       "+$1,836"
+      ],
+      [
+       "MARZ RENT",
+       "+$100"
+      ],
+      [
+       "RENT + STAFF + DJ + BAR",
+       "−$1,210"
+      ],
+      [
+       "BALANCE",
+       "+$668"
+      ],
+      [
+       "FIRST TIME",
+       "OUT OF DEBT"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "Headphones runs my bar now. You decide what I build with the profit. A: A kitchen. B: A rooftop. C: A VIP lounge. Tag a friend. They get in too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 102,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "WHAT DO I BUILD? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "A KITCHEN"
+      ],
+      [
+       "B",
+       "A ROOFTOP"
+      ],
+      [
+       "C",
+       "A VIP LOUNGE"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 10,
+  "id": "club10",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 10",
+  "badge": "NIGHT 10",
+  "brand": "DADDYVERSE",
+  "next": "Night 11: what we build",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "HALF MY GUESTS LEFT",
+   "match": "tonight"
+  },
+  "music": "club/deep.wav",
+  "followers": 102,
+  "cash": 668,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    -58,
+    -58,
+    -58,
+    668,
+    668
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

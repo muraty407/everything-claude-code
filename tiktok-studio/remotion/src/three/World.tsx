@@ -555,7 +555,7 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       })}
       {sc.laser && Array.from({ length: 10 }, (_, i) => (
         <mesh key={`lz${i}`} position={[0, 2.6, -8.6]} rotation={[0.25 + 0.1 * Math.sin(t * 2 + i), 0, -0.9 + i * 0.2 + 0.25 * Math.sin(t * 1.7 + i)]}>
-          <boxGeometry args={[0.02, 14, 0.02]} /><meshBasicMaterial color={i % 2 ? "#39ff88" : "#ff2bd6"} transparent opacity={0.75} blending={THREE.AdditiveBlending} depthWrite={false} />
+          <boxGeometry args={[0.05, 14, 0.05]} /><meshBasicMaterial color={i % 2 ? "#39ff88" : "#ff2bd6"} transparent opacity={0.9} fog={false} blending={THREE.AdditiveBlending} depthWrite={false} />
         </mesh>
       ))}
       {/* Samtkordel vor dem VIP-Bereich, Flaschenkühler, Gäste auf den Sofas, Pflanzen, Wandspiegel */}
