@@ -41,3 +41,24 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 | 21.11. | Daddyverse YouTube | Club Night 9 | 23 h | 676 | – | – | – | – | 2 | – | +2 Abos | Kanal: 61 Abos; Night 8: 1.211 · Night 7: 1.129 |
 | 22.11. | Daddyverse TikTok | Club Night 10 (39 s, ohne YT-Hinweis) | 23 h | 186 | 10,3 s | 27 % | 4,48 % | 7 | 0 | 0 | 1 | Wieder nur ~190 Aufrufe → der YT-Hinweis war NICHT der Grund für den Einbruch. Beste Wiedergabe und bester „ganz angeschaut“-Wert bisher. Die meisten steigen bei 0:01 aus (dunkles Eingangsbild). Erste Stunde: Spitze 114 statt früher ~200. Umfrage 3 Stimmen, alle VIP Lounge (eine vom Nutzer). Kanal: 42 Follower, 341 Likes |
 | 22.11. | Daddyverse YouTube | Club Night 10 | 23 h | 1.302 | – | – | – | 16 | 9 | – | – | Bester Short des Kanals. Kanal: 62 Abos. Night 9: 1.160 · Night 8: 1.223. Stimmen in Kommentaren: A (Kitchen) 3, C (VIP Lounge) 1 |
+
+## Zeitzeuge YouTube – Studio-Zahlen vom 22.11. (Screenshots des Nutzers)
+- 28 Tage: 33.883 Aufrufe, 90,0 Stunden Wiedergabezeit, +35 Abos.
+- 7 Tage (15.–21.11.): 9.331 Shorts-Aufrufe; 41,2 % bis zum Ende angesehen, 58,8 % weggewischt.
+- Meistgesehen in 28 Tagen: Titanic 1.633 · Erde stoppt 1.478 · Nie mehr schlafen 1.462 · Ohne Anzug auf dem Mars 1.441.
+
+| Video (7 Tage) | Aufrufe | Bis zum Ende angesehen | Fassung |
+|---|---|---|---|
+| Alle Menschen verschwinden | 1.276 | 46,9 % | mit Finte |
+| Sternschnuppen (Trend) | 1.158 | 37,4 % | mit Finte |
+| Voyager (Trend) | 1.152 | 48,1 % | mit Finte |
+| Lichtgeschwindigkeit | 1.117 | 39,1 % | mit Finte |
+| Chile Teil 1 | 1.089 | 31,9 % | alt |
+| Chile Teil 2 | 1.024 | 50,7 % | mit Finte |
+| Marianengraben | 986 | 34,8 % | alt |
+| Venus | 901 | 30,4 % | alt |
+| Erde stoppt | 351 (in 7 T) | 51,3 % | alt |
+| Feueralarm Teil 3 | 94 (in 7 T) | 56,9 % | 3D-POV |
+| Yellowstone (21.11.) | 15 | – | mit Finte – auffällig wenig, prüfen |
+
+Eigene Auswertung: Videos mit Finte im Schnitt ca. 44 % bis zum Ende, alte Fassungen ca. 37 % (kleine Stichprobe). Zeitzeuge bringt auf YouTube pro Video etwa so viele Aufrufe wie Daddyverse, bei deutlich besserer Wiedergabe.
