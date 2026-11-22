@@ -62,3 +62,12 @@ Zielwerte TikTok (Erfahrungswerte): Ø angeschaut > 50 %, ganz angeschaut > 15�
 | Yellowstone (21.11.) | 15 | – | mit Finte – auffällig wenig, prüfen |
 
 Eigene Auswertung: Videos mit Finte im Schnitt ca. 44 % bis zum Ende, alte Fassungen ca. 37 % (kleine Stichprobe). Zeitzeuge bringt auf YouTube pro Video etwa so viele Aufrufe wie Daddyverse, bei deutlich besserer Wiedergabe.
+
+## Daddyverse YouTube – Studio-Zahlen vom 22.11. (Screenshots des Nutzers)
+- 28 Tage (Kanal besteht seit ca. 12.11.): 11.030 Aufrufe, 38,4 Stunden Wiedergabezeit, +62 Abos.
+- 56,0 % bis zum Ende angesehen, 44,0 % weggewischt (Zeitzeuge: 41,2 %).
+- 94,1 % der Aufrufe aus dem Shorts-Feed; 97,7 % der Wiedergabezeit von Nutzern ohne Abo.
+- Top-Shorts: Night 10 1.297 · Night 2 1.291 · Night 3 1.263 · Night 8 1.207 · Night 9 1.159.
+- Zuschauer: 82,5 % männlich; Alter 25–34: 29,7 %, 13–17: 28,5 %, 35–44: 18,6 %, 18–24: 13,4 %, 45–54: 9,8 %.
+- Region: Deutschland 21,9 %, USA 9,9 %, UK 6,3 % (Rest verteilt). Geräte: Handy 46,1 %, TV 26,3 %, Computer 16,8 %, Tablet 10,6 %.
+- Vergleich Abos pro 1.000 Aufrufe: Daddyverse ca. 5,6 · Zeitzeuge ca. 1,0.
