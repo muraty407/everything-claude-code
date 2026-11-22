@@ -2954,5 +2954,289 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-11",
+  "title": "Club Daddyverse – Night 11",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 11",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "Your vote ended in a tie. I can only pay for one. Night 11 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "Your vote ended in a tie. Three for a kitchen. Three for a VIP lounge. I can only pay for one.",
+    "scene": "3d",
+    "clock": "NIGHT 11",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 104,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 11. 104 guests. Headphones ran my bar for the first time. Best night ever. Plus 762 dollars.",
+    "scene": "3d",
+    "clock": "THE BAR",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 104,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$762",
+     "sub": "HEADPHONES · FIRST NIGHT AT THE BAR"
+    }
+   },
+   {
+    "text": "Cash: 1,430. A kitchen costs a thousand. A lounge costs a thousand. Do the math.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 104,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "WHAT I CAN AFFORD",
+     "rows": [
+      [
+       "CLUB CASH",
+       "$1,430"
+      ],
+      [
+       "A KITCHEN",
+       "$1,000"
+      ],
+      [
+       "A VIP LOUNGE",
+       "$1,000"
+      ],
+      [
+       "BOTH",
+       "NOT YET"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "And Marz stood at my door tonight. He looked at the line. He just said: hey.",
+    "scene": "3d",
+    "clock": "THE DOOR",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "clubdoor",
+     "queue": 6,
+     "bouncers": 2,
+     "sign": "DADDYVERSE",
+     "cam": {
+      "pos": [
+       0.2,
+       1.7,
+       5.6
+      ],
+      "yaw": [
+       0.05,
+       -0.05
+      ],
+      "pitch": 0.0,
+      "move": [
+       0,
+       0,
+       -1.4
+      ]
+     }
+    },
+    "card": {
+     "kicker": "MARZ",
+     "title": "“HEY”"
+    }
+   },
+   {
+    "text": "You break the tie. A: Kitchen. B: VIP lounge. Tag a friend. They vote too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 104,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "BREAK THE TIE · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "KITCHEN"
+      ],
+      [
+       "B",
+       "VIP LOUNGE"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 11,
+  "id": "club11",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 11",
+  "badge": "NIGHT 11",
+  "brand": "DADDYVERSE",
+  "next": "Night 12: what we build",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "IT'S A TIE",
+   "match": "your"
+  },
+  "music": "club/deep.wav",
+  "followers": 104,
+  "cash": 1430,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    668,
+    1430,
+    1430,
+    1430,
+    1430
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
