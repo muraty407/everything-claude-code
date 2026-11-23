@@ -1,0 +1,107 @@
+[
+ {
+  "slug": "ratten-von-hanoi",
+  "title": "Diese Ratte hat keinen Schwanz – und genau deshalb lebt sie noch",
+  "accent": "#ffd98a",
+  "hud": {
+   "label": "HANOI 1902",
+   "tick": null
+  },
+  "thumb": {
+   "top": "OHNE",
+   "bottom": "SCHWANZ",
+   "tag": "HANOI 1902",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "city:night"
+  },
+  "caption": "Diese Ratte hat keinen Schwanz. Und genau deshalb lebt sie noch. Eine wahre Geschichte aus Hanoi, 1902. 🐀",
+  "tags": [
+   "geschichte",
+   "psychologie",
+   "wahregeschichte",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Diese Ratte hat keinen Schwanz. Und genau deshalb lebt sie noch.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "rat-notail"
+    }
+   },
+   {
+    "text": "Hanoi, 1902. Die Stadt gehört den Franzosen. Und unter ihren Villen leben unzählige Ratten.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "city",
+     "label": "HANOI · 1902"
+    }
+   },
+   {
+    "text": "Die Verwaltung hat eine Idee. Ein Cent für jeden Rattenschwanz.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "bounty"
+    }
+   },
+   {
+    "text": "Die Menschen liefern. Tausende Schwänze. Die Franzosen zahlen. Und sind zufrieden.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "pile"
+    }
+   },
+   {
+    "text": "Dann sieht ein Beamter etwas Seltsames. Ratten. Lebendig. Ohne Schwanz.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "spot"
+    }
+   },
+   {
+    "text": "Die Jäger schneiden nur den Schwanz ab. Und lassen die Ratte wieder frei. Damit sie Junge bekommt. Mit neuen Schwänzen.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "release"
+    }
+   },
+   {
+    "text": "Vor der Stadt entstehen sogar Rattenfarmen. Die Prämie wird gestrichen. Die Ratten bleiben.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "farm"
+    }
+   },
+   {
+    "text": "Bezahle Menschen für ein Problem. Und sie sorgen dafür, dass es bleibt.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "moral"
+    }
+   }
+  ],
+  "day": 1,
+  "id": "fb01-ratten-von-hanoi",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "17:00",
+  "series": "ZEITZEUGE",
+  "next": "",
+  "word_count": 101,
+  "badge": "WAHRE GESCHICHTE",
+  "brand": "ZEITZEUGE",
+  "hashtags": [
+   "#geschichte",
+   "#psychologie",
+   "#wahregeschichte",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Diese Ratte hat keinen Schwanz. Und genau deshalb lebt sie noch. Eine wahre Geschichte aus Hanoi, 1902. 🐀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#geschichte #psychologie #wahregeschichte #zeitzeuge #wissen",
+  "yt_title": "Diese Ratte hat keinen Schwanz – und genau deshalb lebt sie noch #shorts",
+  "yt_description": "Diese Ratte hat keinen Schwanz. Und genau deshalb lebt sie noch… #geschichte #psychologie #shorts",
+  "fable": true,
+  "short": true,
+  "pin": "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
+ }
+]

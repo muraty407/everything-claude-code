@@ -81,6 +81,7 @@ export type Seg = {
   you?: boolean;
   phone?: { from: string; msgs: string[]; battery?: number; net?: string }; // POV: Handy-Nachricht
   s3d?: any; // 3D-POV-Szene (src/three/World.tsx)
+  fab?: { kind: string; label?: string }; // Fabel-Stil (src/fable.tsx)
   img?: string; // Plan B: echtes Foto (Pfad in public/), ersetzt die Grafik-Szene
 };
 
@@ -98,6 +99,7 @@ export type Day = {
   survival?: (number | null)[]; // Überlebens-Anzeige pro Segment (null = „?“ am Ende)
   money?: { values: number[]; label: string }; // Kontostand pro Segment (Club-Serie)
   followLabel?: string;
+  fable?: boolean; // Fabel-Stil: keine Anzeigen, Ein-Wort-Untertitel
   pov?: boolean; // POV-Story: Ich-Perspektive (eigener Arm), Kamera wackelt beim Gehen
   next_label?: string; // z. B. "MORGEN · EXTRA" für Slot B
   segments: Seg[];

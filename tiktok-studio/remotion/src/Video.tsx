@@ -5,6 +5,7 @@ import { FPS, H, Props, W, clamp, easeOut, hashStr, parseScene, rng } from "./li
 import { renderScene, You } from "./scenes";
 import { PhoneBanner, PovArm, povCam } from "./pov";
 import { World3D } from "./three/World";
+import { FableScene, OneWord } from "./fable";
 import { Big, Captions, Card, EndCard, Hud, Particles, Progress, Quote, Stat, TopShade, Vignette, chunkWords } from "./ui";
 
 const OVERLAP = 0.18; // Sekunden Überblendung zwischen Szenen
@@ -84,8 +85,8 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   // Kamera: Punch-in beim Schnitt + langsamer Push
   const hookOpen = day.hook && !day.punch && i === 0 && t < HOOK_DUR;
   const punch = i === 0 ? (day.hook ? 0.22 * (1 - easeOut(t / 0.9)) : 0) : 0.1 * (1 - easeOut(t / 0.35));
-  const push = 1.02 + 0.06 * clamp(t / Math.max(1, dur));
-  const panX = Math.sin(seed) * 30 * clamp(t / Math.max(1, dur));
+  const push = seg.fab ? 1 : 1.02 + 0.06 * clamp(t / Math.max(1, dur));
+  const panX = seg.fab ? 0 : Math.sin(seed) * 30 * clamp(t / Math.max(1, dur));
   let sx = 0, sy = 0;
   if (fx.includes("shake") || hookOpen) {
     const k = hookOpen ? Math.max(0.35, 1 - t / 1.2) : Math.max(0.15, 1 - t / 1.6);
@@ -101,7 +102,9 @@ const SegmentView: React.FC<{ props: Props; i: number }> = ({ props, i }) => {
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
       <AbsoluteFill style={{ transform: `translate(${sx + panX + (glitch ? 14 : 0)}px, ${sy}px) scale(${push + punch})`, filter: glitch ? "hue-rotate(40deg) saturate(1.6)" : undefined }}>
-        {seg.s3d ? (
+        {seg.fab ? (
+          <FableScene fab={seg.fab} t={t} dur={dur} />
+        ) : seg.s3d ? (
           <World3D sc={seg.s3d} t={t} dur={dur} width={W} height={H} shake={fx.includes("shake") ? Math.max(0, 1 - t / 1.2) : 0} />
         ) : seg.img ? (
           // Plan B: echtes Foto mit Ken-Burns-Schwenk (Richtung wechselt pro Segment)
@@ -215,11 +218,12 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
           </Sequence>
         );
       })}
-      <TopShade />
+      {!day.fable && <TopShade />}
       <Vignette />
-      <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />
-      {!(day.hook && !day.punch && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
-      {time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
+      {day.fable && <OneWord words={timeline.segments.flatMap((s) => s.words)} time={time} />}
+      {!day.fable && <Hud label={day.hud.label} clock={clock} tick={day.hud.tick} local={time - ts.start} ctx={ctx} accent={day.accent} series={day.series} appear={time} />}
+      {!day.fable && !(day.hook && !day.punch && time < HOOK_DUR) && <Captions chunks={chunks} time={time} accent={day.accent} y={seg.card || seg.quote || seg.big ? 1180 : 1090} />}
+      {!day.fable && time > last.speech_end + 0.1 && <EndCard next={day.next} t={time - last.speech_end - 0.1} accent={day.accent} day={day.day} label={day.next_label} />}
       {day.hook && !day.punch && <HookTitle top={day.thumb.top} bottom={day.thumb.bottom} accent={day.accent} time={time} />}
       {day.punch && <PunchWord text={day.punch.word} t={time - punchTime(props)} accent={day.accent} />}
       {day.punch && time - punchTime(props) >= 0 && time - punchTime(props) < 0.25 && <AbsoluteFill style={{ background: "#fff", opacity: 0.55 * (1 - (time - punchTime(props)) / 0.25) }} />}
@@ -228,7 +232,7 @@ export const WasWaereWenn: React.FC<Props> = (props) => {
         top={seg.scene === "map" ? 1250 : 965} />}
       {day.survival && time > 0.25 && <SurvivalMeter values={day.survival} cur={cur} local={time - ts.start} accent={day.accent} />}
       {day.money && time > 0.25 && <MoneyMeter values={day.money.values} cur={cur} local={time - ts.start} label={day.money.label} />}
-      <Progress p={time / total} accent={day.accent} />
+      {!day.fable && <Progress p={time / total} accent={day.accent} />}
     </AbsoluteFill>
   );
 };
