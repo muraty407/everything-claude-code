@@ -121,7 +121,7 @@ export const Card: React.FC<{ kicker: string; title: string; t: number; accent: 
 export const Stat: React.FC<{ title: string; rows: [string, string][]; t: number; accent: string }> = ({ title, rows, t, accent }) => {
   const a = easeOut(t / 0.3);
   return (
-    <div style={{ position: "absolute", left: 56, top: 500, opacity: a, transform: `translateX(${(1 - a) * -60}px)` }}>
+    <div style={{ position: "absolute", left: 56, top: rows.length > 4 ? 400 : 500, opacity: a, transform: `translateX(${(1 - a) * -60}px)` }}>
       <div style={{ background: "#11141ae8", borderRadius: 18, overflow: "hidden", minWidth: 560, boxShadow: "0 16px 40px #0009", border: "3px solid #ffffff1a" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "18px 26px", background: "#ffffff10" }}>
           <div style={{ width: 22, height: 22, borderRadius: 4, background: accent }} />
