@@ -3238,5 +3238,300 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-12",
+  "title": "Club Daddyverse – Night 12",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 12",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "You broke the tie. I built a kitchen. My cook knows one dish. Night 12 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "You broke the tie. I built a kitchen. A thousand dollars. And my new cook only knows one dish.",
+    "scene": "3d",
+    "clock": "NIGHT 12",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 109,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 12. 109 guests. Kitchen beat the VIP lounge, 12 votes to 9. Alf is my cook. His whole menu: burgers.",
+    "scene": "3d",
+    "clock": "THE KITCHEN",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 109,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       3.0,
+       2.3,
+       2.2
+      ],
+      "yaw": [
+       -0.95,
+       -0.8
+      ],
+      "pitch": -0.22
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "KITCHEN 12 · VIP LOUNGE 9",
+     "title": "MENU: BURGERS"
+    }
+   },
+   {
+    "text": "I thought, nobody eats burgers in a suit. Wrong. Sold out by midnight. 327 burgers.",
+    "scene": "3d",
+    "clock": "MIDNIGHT",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 109,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "327",
+     "sub": "BURGERS · SOLD OUT BY MIDNIGHT"
+    }
+   },
+   {
+    "text": "Cash: 2,537. Best night this club ever had. Now Junkrats wants the kitchen too.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 109,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "KITCHEN BUILT",
+       "−$1,000"
+      ],
+      [
+       "109 GUESTS × $18",
+       "+$1,962"
+      ],
+      [
+       "BURGERS",
+       "+$1,355"
+      ],
+      [
+       "RENT + STAFF",
+       "−$1,210"
+      ],
+      [
+       "CLUB CASH",
+       "$2,537"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. Who is my head chef? A: Alf. B: Junkrats. Tag a friend. They vote too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 109,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "HEAD CHEF · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "ALF"
+      ],
+      [
+       "B",
+       "JUNKRATS"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 12,
+  "id": "club12",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 12",
+  "badge": "NIGHT 12",
+  "brand": "DADDYVERSE",
+  "next": "Night 13: the head chef",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "I BUILT A KITCHEN",
+   "match": "you"
+  },
+  "music": "club/deep.wav",
+  "followers": 109,
+  "cash": 2537,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    430,
+    430,
+    2537,
+    2537,
+    2537
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

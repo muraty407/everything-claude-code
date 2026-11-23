@@ -71,3 +71,5 @@ Eigene Auswertung: Videos mit Finte im Schnitt ca. 44 % bis zum Ende, alte Fassu
 - Zuschauer: 82,5 % männlich; Alter 25–34: 29,7 %, 13–17: 28,5 %, 35–44: 18,6 %, 18–24: 13,4 %, 45–54: 9,8 %.
 - Region: Deutschland 21,9 %, USA 9,9 %, UK 6,3 % (Rest verteilt). Geräte: Handy 46,1 %, TV 26,3 %, Computer 16,8 %, Tablet 10,6 %.
 - Vergleich Abos pro 1.000 Aufrufe: Daddyverse ca. 5,6 · Zeitzeuge ca. 1,0.
+| 23.11. | Daddyverse TikTok | Club Night 11 (34 s, Start im Club, zuerst auf TikTok) | 23 h | 204 | 11,1 s | – | 12,34 % | 6 | 2 | 0 | 2 | „Ganz angeschaut“ fast verdreifacht (4,48 → 12,34 %), Aufrufe aber weiter ~200 → weder Eingangsbild noch Post-Reihenfolge erklären den Einbruch. 96,6 % aus „Für dich“. Stichwahl 18 Stimmen: VIP Lounge 56 %, Kitchen 44 % (eine VIP-Stimme vom Nutzer) |
+| 23.11. | Daddyverse YouTube | Club Night 11 | 23 h | 915 | – | – | – | 4 | 7 | – | +3 Abos | Kommentare: 4× Kitchen (the_Zzzocker, MikeTate, Jxnkr4tz, harleycharest). Jxnkr4tz („Junkrats“) will Koch werden |

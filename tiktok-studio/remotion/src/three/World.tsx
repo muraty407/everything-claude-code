@@ -217,6 +217,7 @@ export type Scene3D = {
   gold?: boolean; // Club: Dresscode „Gold Only“
   fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
   tower?: boolean; // Club: Champagner-Turm an der Bar
+  kitchen?: number; // Club: offene Küche rechts vorn; Wert = Zahl der Köche (ab Night 12)
   bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
   enter?: boolean; // Club-Eingang: Tür schwingt auf, während die Kamera hineingeht
   sign?: string; // Club-Eingang: Leuchtschrift über der Tür
@@ -590,6 +591,34 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} fancy />)}
       {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
       <ClubFx t={t} fx={sc.fx3d ?? []} beat={beat} pulse={pulse} bps={bps} />
+      {sc.kitchen !== undefined && (
+        <group position={[6.6, 0, 0.2]}>
+          {/* offene Küche: Tresen, Grillplatte mit Flammen, Abzugshaube, Burger auf dem Pass, Köche mit Mütze */}
+          <TBox p={[0, 0.55, 0]} s={[1.1, 1.1, 3.4]} c="#c9ced6" />
+          <TBox p={[0, 1.13, 0]} s={[1.25, 0.07, 3.6]} c={GOLD} e={GOLD_E} />
+          <TBox p={[0.1, 1.2, -0.7]} s={[0.8, 0.06, 1.1]} c="#1c1c22" line={0.012} />
+          {Array.from({ length: 5 }, (_, i) => {
+            const h = 0.18 + 0.22 * Math.abs(Math.sin(t * 9 + i * 1.7));
+            return <TBox key={`fl${i}`} p={[-0.15 + (i % 2) * 0.3, 1.25 + h / 2, -1.1 + i * 0.2]} s={[0.12, h, 0.12]} c={i % 2 ? "#ffb347" : "#ff5c2a"} e={i % 2 ? "#ff9d1e" : "#ff3b12"} noLine />;
+          })}
+          <TBox p={[0.2, 3.0, -0.7]} s={[1.2, 0.5, 1.6]} c="#8d949e" />
+          <TBox p={[0.2, 3.9, -0.7]} s={[0.4, 1.4, 0.4]} c="#6f7680" />
+          {[0.5, 0.9, 1.3].map((z) => (
+            <group key={`bg${z}`} position={[-0.25, 1.2, z]}>
+              <mesh material={toon("#d9a35a")}><cylinderGeometry args={[0.11, 0.11, 0.05, 12]} /></mesh>
+              <mesh position={[0, 0.045, 0]} material={toon("#5a2e16")}><cylinderGeometry args={[0.115, 0.115, 0.04, 12]} /></mesh>
+              <mesh position={[0, 0.1, 0]} material={toon("#e0b06a")}><sphereGeometry args={[0.11, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>
+            </group>
+          ))}
+          {Array.from({ length: sc.kitchen }, (_, i) => (
+            <group key={`ck${i}`} position={[0.75, 0, -0.9 + i * 1.3]}>
+              <Person p={[0, 0, 0]} ry={Math.PI / 2} seed={71 + i * 4} t={t} shirtC="#f2f2f2" fancy />
+              <TBox p={[0, 1.95, 0]} s={[0.26, 0.26, 0.26]} c="#ffffff" />
+            </group>
+          ))}
+          <pointLight position={[-0.6, 2.2, -0.4]} color="#ffb060" intensity={9} distance={5} />
+        </group>
+      )}
       {sc.fame !== undefined && (
         <group position={[3.6, 2.1, -6.4]} rotation={[0, -0.5, 0]}>
           <TBox p={[0, 0, 0]} s={[3.3, 2.5, 0.08]} c="#121116" />

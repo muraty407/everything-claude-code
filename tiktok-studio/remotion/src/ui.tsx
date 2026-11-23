@@ -125,14 +125,14 @@ export const Stat: React.FC<{ title: string; rows: [string, string][]; t: number
       <div style={{ background: "#11141ae8", borderRadius: 18, overflow: "hidden", minWidth: 560, boxShadow: "0 16px 40px #0009", border: "3px solid #ffffff1a" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "18px 26px", background: "#ffffff10" }}>
           <div style={{ width: 22, height: 22, borderRadius: 4, background: accent }} />
-          <div style={{ fontFamily: INTER, fontWeight: 900, fontSize: 30, letterSpacing: 2, color: "#fff" }}>{title}</div>
+          <div style={{ fontFamily: INTER, fontWeight: 900, fontSize: 34, letterSpacing: 2, color: "#fff" }}>{title}</div>
         </div>
         {rows.map(([k, v], i) => {
           const ra = easeOut((t - 0.15 - i * 0.12) / 0.25);
           return (
             <div key={i} style={{ display: "flex", justifyContent: "space-between", gap: 40, padding: "16px 26px", borderTop: "2px solid #ffffff12", opacity: ra, transform: `translateY(${(1 - ra) * 14}px)` }}>
-              <span style={{ fontFamily: INTER, fontWeight: 800, fontSize: 32, color: "#c9d1dc", letterSpacing: 1 }}>{k}</span>
-              <span style={{ fontFamily: ANTON, fontSize: 44, color: i === rows.length - 1 ? accent : "#fff" }}>{v}</span>
+              <span style={{ fontFamily: INTER, fontWeight: 800, fontSize: 36, color: "#e3e8ef", letterSpacing: 1 }}>{k}</span>
+              <span style={{ fontFamily: ANTON, fontSize: 50, color: i === rows.length - 1 ? accent : "#fff" }}>{v}</span>
             </div>
           );
         })}
