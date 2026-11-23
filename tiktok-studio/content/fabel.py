@@ -47,7 +47,7 @@ def main():
     for n, (date, time, v) in enumerate(FABELN, 1):
         e = build.enrich(v, day=n, id_=f"fb{n:02d}-{v['slug']}", date=dt.date.fromisoformat(date), post_time=time,
                          series="ZEITZEUGE", nxt="", badge="WAHRE GESCHICHTE", brand="ZEITZEUGE")
-        e.update(fable=True, short=True)
+        e.update(fable=True, short=True, music="fabel/dark1.wav")
         e["pin"] = "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
         out.append(e)
     json.dump(out, open(os.path.join(HERE, "fabel.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
