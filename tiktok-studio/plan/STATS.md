@@ -75,3 +75,4 @@ Eigene Auswertung: Videos mit Finte im Schnitt ca. 44 % bis zum Ende, alte Fassu
 | 23.11. | Daddyverse YouTube | Club Night 11 | 23 h | 915 | – | – | – | 4 | 7 | – | +3 Abos | Kommentare: 4× Kitchen (the_Zzzocker, MikeTate, Jxnkr4tz, harleycharest). Jxnkr4tz („Junkrats“) will Koch werden |
 - 23.11.: Follower laut Nutzer TikTok 45, YouTube 65 = 110 (Night 12 wurde mit geschätzten 109 gerendert; Night 13 mit --prev 110 rechnen).
 - 23.11. 23:30: Zeitzeuge YouTube „Riesenameise“ (mit Finte, 20 s) nach 10 Std.: 2.575 Aufrufe, 30 Likes, 1 Kommentar, +2 Abos – erster Short des Kanals über 2.000; die Kurve stieg zuletzt noch.
+| 24.11. | TikTok (Konto nicht genannt) | Fabel-Stil: Ratten von Hanoi (41 s) | 3 h (nachts gepostet, ca. 00:15) | 300 | 9,2 s | 22 % | 10,16 % | 6 | 0 | 1 | 0 | erster Test im neuen Stil; Kurve nach 3 h noch bei ca. 95 Aufrufen pro Stunde |
