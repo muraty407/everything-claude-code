@@ -50,7 +50,7 @@ CAMS = {
     "floor": {"pos": [0, 2.5, 3.9], "yaw": [-0.1, 0.1], "pitch": -0.2},
     "wide": {"pos": [5.2, 3.0, 3.6], "yaw": [0.62, 0.48], "pitch": -0.32},                # aus der Ecke über den ganzen Raum
     "bar": {"pos": [-3.4, 2.3, 1.6], "yaw": [0.7, 0.8], "pitch": -0.25},
-    "kitchen": {"pos": [3.0, 2.3, 2.2], "yaw": [-0.95, -0.8], "pitch": -0.22},          # offene Küche rechts vorn
+    "kitchen": {"pos": [3.4, 3.3, 2.6], "yaw": [-0.9, -0.8], "pitch": -0.5},          # offene Küche rechts vorn
     "dj": {"pos": [0, 2.6, -4.2], "yaw": [-0.08, 0.08], "pitch": -0.12},
     "fame": {"pos": [1.6, 2.6, -2.6], "yaw": [-0.45, -0.55], "pitch": -0.1},
 }

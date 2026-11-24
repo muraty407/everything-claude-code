@@ -3533,5 +3533,300 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-13",
+  "title": "Club Daddyverse – Night 13",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 13",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "My head chef won 6 to 0. The loser showed up anyway. With a fryer. Night 13 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "My head chef won six to zero. The loser showed up anyway. With a fryer.",
+    "scene": "3d",
+    "clock": "NIGHT 13",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 13. 111 guests. Alf is head chef. Junkrats is second chef. He only makes fish and chips.",
+    "scene": "3d",
+    "clock": "THE KITCHEN",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       3.4,
+       3.3,
+       2.6
+      ],
+      "yaw": [
+       -0.9,
+       -0.8
+      ],
+      "pitch": -0.5
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "ALF 6 · JUNKRATS 0",
+     "title": "BURGERS + FISH AND CHIPS"
+    }
+   },
+   {
+    "text": "I thought, two cooks, double the cost. Wrong. The fish sold out before the burgers.",
+    "scene": "3d",
+    "clock": "MIDNIGHT",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$1,800",
+     "sub": "KITCHEN · BEST NIGHT EVER"
+    }
+   },
+   {
+    "text": "Cash: 5,005. That pays for the VIP lounge. It opens tomorrow.",
+    "scene": "3d",
+    "clock": "CASH",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -3.4,
+       2.3,
+       1.6
+      ],
+      "yaw": [
+       0.7,
+       0.8
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "TONIGHT'S MONEY",
+     "rows": [
+      [
+       "111 GUESTS × $18",
+       "+$1,998"
+      ],
+      [
+       "KITCHEN",
+       "+$1,800"
+      ],
+      [
+       "RENT + STAFF",
+       "−$1,330"
+      ],
+      [
+       "CLUB CASH",
+       "$5,005"
+      ]
+     ]
+    }
+   },
+   {
+    "text": "You decide. What goes on the menu next? A: Pizza. B: Tacos. C: Dessert. Tag a friend. They vote too.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "kitchen": 2,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "NEXT ON THE MENU · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "PIZZA"
+      ],
+      [
+       "B",
+       "TACOS"
+      ],
+      [
+       "C",
+       "DESSERT"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 13,
+  "id": "club13",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 13",
+  "badge": "NIGHT 13",
+  "brand": "DADDYVERSE",
+  "next": "Night 14: the VIP lounge",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "SIX TO ZERO",
+   "match": "my"
+  },
+  "music": "club/deep.wav",
+  "followers": 111,
+  "cash": 5005,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    2537,
+    2537,
+    5005,
+    5005,
+    5005
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
