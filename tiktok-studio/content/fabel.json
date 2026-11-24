@@ -104,5 +104,111 @@
   "short": true,
   "music": "fabel/dark1.wav",
   "pin": "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
+ },
+ {
+  "slug": "loecher-im-flugzeug",
+  "title": "Dieses Flugzeug ist voller Einschusslöcher – und genau deshalb kommt es zurück",
+  "accent": "#ffd98a",
+  "hud": {
+   "label": "1943",
+   "tick": null
+  },
+  "thumb": {
+   "top": "DIE LÖCHER",
+   "bottom": "IM FLUGZEUG",
+   "tag": "1943",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "space:earth"
+  },
+  "caption": "Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb kommt es zurück. Eine wahre Geschichte von 1943. ✈️",
+  "tags": [
+   "geschichte",
+   "psychologie",
+   "wahregeschichte",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb kommt es zurück.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "plane-fly"
+    }
+   },
+   {
+    "text": "1943. Amerikanische Bomber kehren aus dem Krieg zurück. Zerschossen.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "return",
+     "label": "1943"
+    }
+   },
+   {
+    "text": "Die Offiziere zählen die Löcher. Die meisten sind an den Flügeln und am Rumpf.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "count"
+    }
+   },
+   {
+    "text": "Der Plan ist klar. Genau dort mehr Panzerung.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "armor"
+    }
+   },
+   {
+    "text": "Ein Mathematiker sagt: Nein. Abraham Wald.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "wald"
+    }
+   },
+   {
+    "text": "Ihr seht nur die Flugzeuge, die zurückgekommen sind. Die anderen wurden woanders getroffen. Am Motor.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "lost"
+    }
+   },
+   {
+    "text": "Wo die Löcher fehlen, muss die Panzerung hin.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "fix"
+    }
+   },
+   {
+    "text": "Schau nicht nur auf die, die es geschafft haben. Schau auf die, die fehlen.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "missing"
+    }
+   }
+  ],
+  "day": 2,
+  "id": "fb02-loecher-im-flugzeug",
+  "date": "2026-11-24",
+  "weekday": "Di",
+  "post_time": "17:00",
+  "series": "ZEITZEUGE",
+  "next": "",
+  "word_count": 85,
+  "badge": "WAHRE GESCHICHTE",
+  "brand": "ZEITZEUGE",
+  "hashtags": [
+   "#geschichte",
+   "#psychologie",
+   "#wahregeschichte",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb kommt es zurück. Eine wahre Geschichte von 1943. ✈️\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#geschichte #psychologie #wahregeschichte #zeitzeuge #wissen",
+  "yt_title": "Dieses Flugzeug ist voller Einschusslöcher – und genau deshalb kommt es zurück #shorts",
+  "yt_description": "Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb… #geschichte #psychologie #shorts",
+  "fable": true,
+  "short": true,
+  "music": "fabel/dark1.wav",
+  "pin": "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
  }
 ]

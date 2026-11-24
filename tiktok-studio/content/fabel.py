@@ -39,6 +39,23 @@ FABELN = [
            F("Vor der Stadt entstehen sogar Rattenfarmen. Die Prämie wird gestrichen. Die Ratten bleiben.", "farm"),
            F("Bezahle Menschen für ein Problem. Und sie sorgen dafür, dass es bleibt.", "moral"),
        ])),
+    # Quellen: https://en.wikipedia.org/wiki/Abraham_Wald · https://en.wikipedia.org/wiki/Survivorship_bias
+    ("2026-11-24", "17:00",
+     V("loecher-im-flugzeug", "Dieses Flugzeug ist voller Einschusslöcher – und genau deshalb kommt es zurück", "#ffd98a",
+       ("1943", None),
+       ("DIE LÖCHER", "IM FLUGZEUG", "1943", "WAHRE GESCHICHTE", "space:earth"),
+       "Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb kommt es zurück. Eine wahre Geschichte von 1943. ✈️",
+       ["geschichte", "psychologie", "wahregeschichte", "wissen"],
+       [
+           F("Dieses Flugzeug ist voller Einschusslöcher. Und genau deshalb kommt es zurück.", "plane-fly"),
+           F("1943. Amerikanische Bomber kehren aus dem Krieg zurück. Zerschossen.", "return", "1943"),
+           F("Die Offiziere zählen die Löcher. Die meisten sind an den Flügeln und am Rumpf.", "count"),
+           F("Der Plan ist klar. Genau dort mehr Panzerung.", "armor"),
+           F("Ein Mathematiker sagt: Nein. Abraham Wald.", "wald"),
+           F("Ihr seht nur die Flugzeuge, die zurückgekommen sind. Die anderen wurden woanders getroffen. Am Motor.", "lost"),
+           F("Wo die Löcher fehlen, muss die Panzerung hin.", "fix"),
+           F("Schau nicht nur auf die, die es geschafft haben. Schau auf die, die fehlen.", "missing"),
+       ])),
 ]
 
 
