@@ -3828,5 +3828,288 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-14",
+  "title": "Club Daddyverse – Night 14",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 14",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "I spent $4,000 on a VIP lounge. First night, nobody was allowed in. Night 14 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "I spent four thousand dollars on a VIP lounge. On the first night, nobody was allowed in. My own rule.",
+    "scene": "3d",
+    "clock": "NIGHT 14",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 14. 111 guests. Fifty likes open the VIP rope. Last night got nine. So the lounge stayed empty. Until midnight.",
+    "scene": "3d",
+    "clock": "VIP LOUNGE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       1.4,
+       3.2,
+       -1.6
+      ],
+      "yaw": [
+       -0.95,
+       -0.85
+      ],
+      "pitch": -0.35
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "lounge": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "9 / 50 LIKES",
+     "title": "VIP ROPE CLOSED"
+    }
+   },
+   {
+    "text": "I thought, four thousand wasted. Wrong. Marz walked in from next door. He paid five hundred for one sofa.",
+    "scene": "3d",
+    "clock": "MIDNIGHT",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$500",
+     "sub": "MARZ · ONE SOFA · ONE NIGHT"
+    }
+   },
+   {
+    "text": "And your menu vote: dessert won by one. Rafay makes it. Ezra, you are still on my list.",
+    "scene": "3d",
+    "clock": "THE KITCHEN",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       3.4,
+       3.3,
+       2.6
+      ],
+      "yaw": [
+       -0.9,
+       -0.8
+      ],
+      "pitch": -0.5
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "lounge": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "DESSERT 3 · PIZZA 2 · TACOS 1",
+     "title": "RAFAY MAKES DESSERT"
+    }
+   },
+   {
+    "text": "Cash: 2,073. You decide. Who gets the VIP lounge tomorrow? A: The first ten guests. B: The top voters. C: Whoever pays most. Tag a friend.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 111,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "WHO GETS THE VIP LOUNGE? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "THE FIRST TEN GUESTS"
+      ],
+      [
+       "B",
+       "THE TOP VOTERS"
+      ],
+      [
+       "C",
+       "WHOEVER PAYS MOST"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 14,
+  "id": "club14",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 14",
+  "badge": "NIGHT 14",
+  "brand": "DADDYVERSE",
+  "next": "Night 15: who gets the lounge",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "NOBODY ALLOWED IN",
+   "match": "i"
+  },
+  "music": "club/deep.wav",
+  "followers": 111,
+  "cash": 2073,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    1005,
+    1005,
+    1505,
+    2073,
+    2073
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

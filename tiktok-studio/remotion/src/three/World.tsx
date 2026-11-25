@@ -217,6 +217,7 @@ export type Scene3D = {
   gold?: boolean; // Club: Dresscode „Gold Only“
   fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
   tower?: boolean; // Club: Champagner-Turm an der Bar
+  lounge?: boolean; // Club: erhöhte VIP-Lounge rechts hinten (ab Night 14)
   kitchen?: number; // Club: offene Küche rechts vorn; Wert = Zahl der Köche (ab Night 12)
   bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
   enter?: boolean; // Club-Eingang: Tür schwingt auf, während die Kamera hineingeht
@@ -591,6 +592,25 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
       {spots.map(([x, z], i) => <Person key={`g${i}`} p={[x, 0.03, z]} ry={(i * 1.7) % 6.28} seed={i + 40} t={t} dance={bps} shirtC={sc.gold ? GOLDS[i % GOLDS.length] : SUITS[i % SUITS.length]} fancy />)}
       {sc.smoke && <Smoke t={t} amount={sc.smoke[1]} area={[-3.5, 3.5, -5.5, 0]} y={0.7} seed={21} />}
       <ClubFx t={t} fx={sc.fx3d ?? []} beat={beat} pulse={pulse} bps={bps} />
+      {sc.lounge && (
+        <group position={[5.6, 0, -4.6]}>
+          {/* VIP-Lounge: goldenes Podest, Samtsofa, Tisch mit Champagner, Kordel, Leuchtschild */}
+          <TBox p={[0, 0.2, 0]} s={[4.2, 0.4, 5.4]} c="#1a1014" />
+          <TBox p={[-2.12, 0.42, 0]} s={[0.08, 0.08, 5.4]} c={GOLD} e={GOLD_E} noLine />
+          <TBox p={[0, 0.42, 2.72]} s={[4.2, 0.08, 0.08]} c={GOLD} e={GOLD_E} noLine />
+          <TBox p={[1.3, 0.75, 0]} s={[1.0, 0.6, 4.4]} c="#5a0f1e" />
+          <TBox p={[1.8, 1.3, 0]} s={[0.3, 1.1, 4.4]} c="#5a0f1e" />
+          <TBox p={[-0.2, 0.75, 0]} s={[1.0, 0.08, 1.6]} c={GOLD} e={GOLD_E} />
+          <TBox p={[-0.2, 0.55, 0]} s={[0.12, 0.34, 0.12]} c="#101014" line={0.01} />
+          {[-0.4, 0, 0.4].map((z, i) => <TBox key={`vb${i}`} p={[-0.2, 1.0, z]} s={[0.1, 0.42, 0.1]} c={i === 1 ? "#f3d57a" : "#2d5a3a"} e={i === 1 ? "#b98a1e" : undefined} line={0.01} />)}
+          {[-1.6, -0.5, 0.6, 1.7].map((z, i) => <Person key={`vg${i}`} p={[1.15, 0.5, z]} ry={-Math.PI / 2} seed={80 + i * 3} t={t} seated shirtC={GOLDS[i % GOLDS.length]} fancy />)}
+          {[-2.4, 0, 2.4].map((z) => <group key={`lp${z}`}><TBox p={[-2.0, 0.9, z]} s={[0.07, 1.0, 0.07]} c={GOLD} line={0.012} /><TSphere p={[-2.0, 1.44, z]} r={0.07} c={GOLD} /></group>)}
+          {[-1.2, 1.2].map((z) => <TBox key={`lr${z}`} p={[-2.0, 1.26, z]} s={[0.05, 0.05, 2.3]} c="#b0122a" line={0.01} />)}
+          <TBox p={[1.9, 3.1, 0]} s={[0.08, 0.7, 2.6]} c="#0c0c10" />
+          <mesh position={[1.84, 3.1, 0]} rotation={[0, -Math.PI / 2, 0]}><planeGeometry args={[2.4, 0.56]} /><meshBasicMaterial map={signTexture("VIP", "#ffcf5a")} transparent depthWrite={false} fog={false} /></mesh>
+          <pointLight position={[-0.4, 2.6, 0]} color="#ffcf7a" intensity={10} distance={6} />
+        </group>
+      )}
       {sc.kitchen !== undefined && (
         <group position={[6.6, 0, 0.2]}>
           {/* offene Küche: Tresen, Grillplatte mit Flammen, Abzugshaube, Burger auf dem Pass, Köche mit Mütze */}
