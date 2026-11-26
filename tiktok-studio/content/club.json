@@ -4111,5 +4111,294 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-15",
+  "title": "Club Daddyverse – Night 15",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 15",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "The man who opened a club next to mine just asked me for a job. Night 15 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "The man who opened a club next to mine just asked me for a job. And he paid to get it.",
+    "scene": "3d",
+    "clock": "NIGHT 15",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 113,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 15. 113 guests. Marz paid for a stage. So I made him the band manager.",
+    "scene": "3d",
+    "clock": "THE STAGE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 113,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       -1.6,
+       2.6,
+       -3.6
+      ],
+      "yaw": [
+       0.6,
+       0.7
+      ],
+      "pitch": -0.2
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "MARZ PAID FOR IT",
+     "title": "LIVE BAND · MANAGER: MARZ"
+    }
+   },
+   {
+    "text": "And Ezra asked four nights in a row. Tonight he runs the VIP bar. He spilled the first bottle.",
+    "scene": "3d",
+    "clock": "VIP LOUNGE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 113,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       2.6,
+       2.6,
+       -4.6
+      ],
+      "yaw": [
+       -1.45,
+       -1.35
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "ASKED 4 NIGHTS IN A ROW",
+     "title": "EZRA · VIP BARTENDER"
+    }
+   },
+   {
+    "text": "I thought a band scares people away. Wrong. Nobody left before three a.m. Cash: 4,107.",
+    "scene": "3d",
+    "clock": "THREE A.M.",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 113,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$2,034",
+     "sub": "LIVE BAND · NOBODY LEFT"
+    }
+   },
+   {
+    "text": "Your VIP vote ended two to two. So you decide again. A: The top voters. B: Whoever pays most. Tag a friend.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 113,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "WHO GETS THE VIP LOUNGE? · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "THE TOP VOTERS"
+      ],
+      [
+       "B",
+       "WHOEVER PAYS MOST"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 15,
+  "id": "club15",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 15",
+  "badge": "NIGHT 15",
+  "brand": "DADDYVERSE",
+  "next": "Night 16: who gets the lounge",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "HE ASKED ME FOR A JOB",
+   "match": "the"
+  },
+  "music": "club/deep.wav",
+  "followers": 113,
+  "cash": 4107,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    2073,
+    2073,
+    2073,
+    4107,
+    4107
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]

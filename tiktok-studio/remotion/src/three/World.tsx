@@ -217,6 +217,8 @@ export type Scene3D = {
   gold?: boolean; // Club: Dresscode „Gold Only“
   fame?: number; // Club: Hall of Fame – Zahl der goldenen Namensschilder (von 100)
   tower?: boolean; // Club: Champagner-Turm an der Bar
+  loungeBar?: boolean; // Club: kleine Bar mit Barkeeper in der VIP-Lounge (ab Night 15)
+  stage?: boolean; // Club: Bühne mit Band links hinten (ab Night 15)
   lounge?: boolean; // Club: erhöhte VIP-Lounge rechts hinten (ab Night 14)
   kitchen?: number; // Club: offene Küche rechts vorn; Wert = Zahl der Köche (ab Night 12)
   bouncers?: number; // Club-Eingang: Zahl der Türsteher (1 oder 2)
@@ -609,6 +611,29 @@ const Club: React.FC<{ t: number; sc: Scene3D }> = ({ t, sc }) => {
           <TBox p={[1.9, 3.1, 0]} s={[0.08, 0.7, 2.6]} c="#0c0c10" />
           <mesh position={[1.84, 3.1, 0]} rotation={[0, -Math.PI / 2, 0]}><planeGeometry args={[2.4, 0.56]} /><meshBasicMaterial map={signTexture("VIP", "#ffcf5a")} transparent depthWrite={false} fog={false} /></mesh>
           <pointLight position={[-0.4, 2.6, 0]} color="#ffcf7a" intensity={10} distance={6} />
+          {sc.loungeBar && (
+            <group position={[-0.9, 0.4, -2.0]}>
+              <TBox p={[0, 0.5, 0]} s={[1.6, 1.0, 0.5]} c="#101014" />
+              <TBox p={[0, 1.03, 0]} s={[1.75, 0.07, 0.62]} c={GOLD} e={GOLD_E} />
+              {[-0.5, -0.15, 0.2, 0.55].map((x, i) => <TBox key={`lb${i}`} p={[x, 1.26, -0.05]} s={[0.09, 0.36, 0.09]} c={["#2d5a3a", "#f3d57a", "#7a1027", "#e8e2d4"][i]} line={0.01} />)}
+              <Person p={[0, 0, -0.55]} ry={0} seed={29} t={t} shirtC="#f2f2f2" fancy />
+            </group>
+          )}
+        </group>
+      )}
+      {sc.stage && (
+        <group position={[-4.4, 0, -7.4]}>
+          {/* Bühne mit Band: Podest, Schlagzeug, zwei Musiker, Scheinwerfer */}
+          <TBox p={[0, 0.3, 0]} s={[4.0, 0.6, 2.4]} c="#1a1014" />
+          <TBox p={[0, 0.62, 1.2]} s={[4.0, 0.06, 0.08]} c={GOLD} e={GOLD_E} noLine />
+          <mesh position={[0.9, 1.05, -0.4]} material={toon("#b3122e")}><cylinderGeometry args={[0.42, 0.42, 0.5, 16]} /></mesh>
+          <mesh position={[0.3, 1.2, -0.1]} material={toon("#e8e2d4")}><cylinderGeometry args={[0.24, 0.24, 0.3, 14]} /></mesh>
+          <mesh position={[1.5, 1.55, -0.2]} rotation={[0.2, 0, Math.sin(t * 8) * 0.08]} material={toon(GOLD, GOLD_E)}><cylinderGeometry args={[0.3, 0.3, 0.03, 16]} /></mesh>
+          <Person p={[0.9, 0.6, -1.0]} ry={0} seed={91} t={t} dance={bps} shirtC="#0e0e12" fancy />
+          <Person p={[-0.9, 0.6, 0.2]} ry={0.3} seed={94} t={t} dance={bps} shirtC="#7a1027" fancy />
+          <TBox p={[-0.6, 1.5, 0.45]} s={[0.12, 0.9, 0.08]} c="#d9a35a" r={[0, 0, 0.9]} line={0.012} />
+          <TBox p={[-1.7, 1.1, 0.6]} s={[0.05, 1.5, 0.05]} c="#888" noLine /><TSphere p={[-1.7, 1.9, 0.6]} r={0.08} c="#333" />
+          <pointLight position={[0, 2.6, 1.0]} color="#ff9d6a" intensity={12} distance={6} />
         </group>
       )}
       {sc.kitchen !== undefined && (
