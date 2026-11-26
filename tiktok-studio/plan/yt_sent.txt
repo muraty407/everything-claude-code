@@ -10,3 +10,4 @@ f24-keine-bienen
 b04-auto-unter-wasser
 f25-mond-verschwindet
 b05-hai
+f27-asteroid
