@@ -210,5 +210,111 @@
   "short": true,
   "music": "fabel/dark1.wav",
   "pin": "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
+ },
+ {
+  "slug": "fuenf-raketen",
+  "title": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm – und meldet es nicht",
+  "accent": "#ffd98a",
+  "hud": {
+   "label": "1983",
+   "tick": null
+  },
+  "thumb": {
+   "top": "FÜNF",
+   "bottom": "RAKETEN",
+   "tag": "1983",
+   "kicker": "WAHRE GESCHICHTE",
+   "scene": "control:alarm"
+  },
+  "caption": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er meldet es nicht. Eine wahre Geschichte von 1983. 🚀",
+  "tags": [
+   "geschichte",
+   "psychologie",
+   "wahregeschichte",
+   "wissen"
+  ],
+  "segments": [
+   {
+    "text": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er meldet es nicht.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "alarm"
+    }
+   },
+   {
+    "text": "September 1983. Ein Bunker bei Moskau. Stanislaw Petrow hat Nachtschicht.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "bunker",
+     "label": "1983"
+    }
+   },
+   {
+    "text": "Kurz nach Mitternacht heult die Sirene. Der Computer meldet: eine Rakete aus den USA. Dann fünf.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "five"
+    }
+   },
+   {
+    "text": "Seine Aufgabe: sofort melden. Dann folgt der Gegenschlag.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "phone"
+    }
+   },
+   {
+    "text": "Petrow zögert. Wer einen Atomkrieg beginnt, schickt nicht fünf Raketen. Sondern Hunderte.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "logic"
+    }
+   },
+   {
+    "text": "Er meldet: Fehlalarm. Und wartet. Nichts schlägt ein.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "wait"
+    }
+   },
+   {
+    "text": "Der Satellit hatte Sonnenlicht auf Wolken für Raketen gehalten.",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "sun"
+    }
+   },
+   {
+    "text": "Ein Mann hat dem Computer nicht geglaubt. Hättest du es gemeldet?",
+    "scene": "space:stars",
+    "fab": {
+     "kind": "saved"
+    }
+   }
+  ],
+  "day": 3,
+  "id": "fb03-fuenf-raketen",
+  "date": "2026-11-27",
+  "weekday": "Fr",
+  "post_time": "18:00",
+  "series": "ZEITZEUGE",
+  "next": "",
+  "word_count": 87,
+  "badge": "WAHRE GESCHICHTE",
+  "brand": "ZEITZEUGE",
+  "hashtags": [
+   "#geschichte",
+   "#psychologie",
+   "#wahregeschichte",
+   "#waswärewenn",
+   "#zeitzeuge"
+  ],
+  "ig_caption": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er meldet es nicht. Eine wahre Geschichte von 1983. 🚀\n\nSchreib deine Antwort in die Kommentare 👇\nFolge für jeden Tag ein neues Szenario ⏳\n\n#geschichte #psychologie #wahregeschichte #zeitzeuge #wissen",
+  "yt_title": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm – und meldet es nicht #shorts",
+  "yt_description": "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er… #geschichte #psychologie #shorts",
+  "fable": true,
+  "short": true,
+  "music": "fabel/dark1.wav",
+  "pin": "Kennst du so ein Beispiel aus deinem Alltag? Schreib es in die Kommentare 👇"
  }
 ]

@@ -229,6 +229,38 @@ const Man: React.FC<{ x: number; y: number; s?: number; t: number; coat: string;
   </g>
 );
 
+
+// ---------- Bausteine für „Fünf Raketen“ (Stanislaw Petrow, 1983) ----------
+const Missile: React.FC<{ x: number; y: number; s?: number; rot?: number; c?: string }> = ({ x, y, s = 1, rot = 0, c = "#e23b2e" }) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s})`}>
+    <path d="M0 -46 Q16 -20 14 24 L-14 24 Q-16 -20 0 -46 Z" fill={c} />
+    <path d="M-14 10 L-28 30 L-14 26 Z M14 10 L28 30 L14 26 Z" fill={c} />
+    <path d="M-8 26 L0 50 L8 26 Z" fill="#ffd23f" />
+  </g>
+);
+
+// Kontrollraum: großer Bildschirm, Pulte, roter Alarm
+const ControlRoom: React.FC<{ t: number; alarm?: boolean; n?: number; clear?: boolean; children?: React.ReactNode }> = ({ t, alarm, n = 0, clear, children }) => {
+  const blink = alarm ? 0.5 + 0.5 * Math.sin(t * 9) : 0;
+  return (
+    <g>
+      <rect width={W} height={H} fill="#0c1018" />
+      <rect x={90} y={420} width={900} height={600} rx={22} fill="#06090f" stroke={alarm ? "#e23b2e" : "#2f4a3a"} strokeWidth={10} />
+      {Array.from({ length: 9 }, (_, i) => <line key={i} x1={90} y1={480 + i * 60} x2={990} y2={480 + i * 60} stroke="#39ff8f" strokeWidth={2} opacity={0.08} />)}
+      <path d="M150 900 Q330 620 540 700 Q760 780 930 560" fill="none" stroke="#39ff8f" strokeWidth={4} opacity={0.35} strokeDasharray="14 12" />
+      {clear && <text x={540} y={760} textAnchor="middle" fontFamily="Anton, sans-serif" fontSize={110} fill="#39ff8f" opacity={0.85}>— — —</text>}
+      {Array.from({ length: n }, (_, i) => <g key={i} opacity={0.7 + 0.3 * Math.sin(t * 8 + i)}><Missile x={250 + i * 145} y={lerp(900, 640, ((t * 0.25 + i * 0.13) % 1))} s={1.5} rot={25} /></g>)}
+      {alarm && <rect x={300} y={440} width={480} height={86} rx={12} fill="#e23b2e" opacity={0.35 + 0.65 * blink} />}
+      {alarm && <text x={540} y={504} textAnchor="middle" fontFamily="Anton, sans-serif" fontSize={64} fill="#fff" opacity={0.6 + 0.4 * blink}>START</text>}
+      <rect x={0} y={1420} width={W} height={H} fill="#141a26" />
+      <rect x={60} y={1340} width={960} height={110} rx={16} fill="#1d2636" />
+      {Array.from({ length: 14 }, (_, i) => <circle key={i} cx={120 + i * 65} cy={1395} r={12} fill={alarm && i % 3 === 0 ? "#e23b2e" : i % 4 === 1 ? "#ffd23f" : "#39ff8f"} opacity={0.4 + 0.5 * Math.abs(Math.sin(t * 3 + i))} />)}
+      {children}
+      {alarm && <rect width={W} height={H} fill="#e23b2e" opacity={0.1 * blink} />}
+    </g>
+  );
+};
+
 // ---------- Szenen ----------
 export const FableScene: React.FC<{ fab: Fab; t: number; dur: number }> = ({ fab, t, dur }) => {
   const k = dur > 0 ? clamp(t / dur) : 0;
@@ -445,6 +477,82 @@ export const FableScene: React.FC<{ fab: Fab; t: number; dur: number }> = ({ fab
       );
       break;
     }
+    case "alarm": // Hook: fünf Raketen auf dem Schirm, der Offizier sitzt davor und rührt sich nicht
+      body = <ControlRoom t={t} alarm n={5}><Man x={540} y={1900} s={1.15} t={t} coat="#4a5a3a" cap /></ControlRoom>;
+      break;
+    case "bunker": // 1983: Bunker bei Nacht im Schnee, Radarschüssel dreht sich
+      body = (
+        <g>
+          <Night t={t} moon={[820, 320]} />
+          <path d={`M0 1260 L220 1120 L460 1230 L720 1090 L${W} 1220 L${W} ${H} L0 ${H} Z`} fill="#121a2c" />
+          <rect x={0} y={1420} width={W} height={H} fill="#dfe6f2" />
+          <path d="M260 1430 Q540 1200 820 1430 Z" fill="#2a3246" /><rect x={470} y={1340} width={140} height={90} fill="#0c1018" /><rect x={500} y={1360} width={80} height={70} fill="#ffcf7a" opacity={0.8} />
+          <rect x={690} y={1150} width={14} height={190} fill="#6b7386" />
+          <g transform={`translate(697 1150) scale(${Math.cos(t * 1.2)} 1)`}><path d="M-90 -40 Q0 40 90 -40 Z" fill="#aab3c6" /><line x1={0} y1={-10} x2={0} y2={-70} stroke="#aab3c6" strokeWidth={6} /></g>
+          {Array.from({ length: 40 }, (_, i) => <circle key={i} cx={(i * 137 + t * 30) % W} cy={(i * 211 + t * (90 + (i % 5) * 20)) % H} r={3 + (i % 3)} fill="#fff" opacity={0.7} />)}
+          {fab.label && <Label text={fab.label} t={t - 0.2} y={520} />}
+        </g>
+      );
+      break;
+    case "five": // die Sirene heult: erst eine Rakete, dann fünf
+      body = <ControlRoom t={t} alarm={t > 0.8} n={t < 0.8 ? 0 : t < 3.6 ? 1 : Math.min(5, 1 + Math.floor((t - 3.6) / 0.35))}><Man x={300} y={1900} s={0.95} t={t} coat="#4a5a3a" cap shake={t > 1 && t < 2} /></ControlRoom>;
+      break;
+    case "phone": { // seine Aufgabe: melden – der Hörer liegt bereit, die Uhr läuft
+      const sec = Math.floor(t * 4);
+      body = (
+        <ControlRoom t={t} alarm n={5}>
+          <Man x={300} y={1900} s={0.95} t={t} coat="#4a5a3a" cap arm={lerp(0, 70, ease((t - 0.6) / 0.8))} />
+          <g transform="translate(760 1560)"><rect x={-150} y={-60} width={300} height={170} rx={24} fill="#b3122e" /><rect x={-170} y={-110} width={340} height={56} rx={28} fill="#7a0c1e" transform={`rotate(${Math.sin(t * 14) * 3})`} /><circle cx={0} cy={30} r={46} fill="#1a0b0b" /><circle cx={0} cy={30} r={12} fill="#b3122e" /></g>
+          <text x={760} y={1300} textAnchor="middle" fontFamily="'DejaVu Sans Mono', monospace" fontWeight={700} fontSize={90} fill="#ffd23f">00:{String(sec % 60).padStart(2, "0")}</text>
+        </ControlRoom>
+      );
+      break;
+    }
+    case "logic": { // fünf Raketen? Wer angreift, schickt Hunderte
+      const m = Math.floor(lerp(0, 120, ease((t - 2.2) / 1.6)));
+      body = (
+        <g>
+          <rect width={W} height={H} fill="#0c1018" />
+          {[0, 1, 2, 3, 4].map((i) => <Missile key={i} x={260 + i * 140} y={620} s={1.8} c="#e23b2e" />)}
+          <text x={540} y={800} textAnchor="middle" fontFamily="Anton, sans-serif" fontSize={120} fill="#fff">5</text>
+          <line x1={120} y1={900} x2={960} y2={900} stroke="#ffffff" strokeWidth={4} opacity={0.2} />
+          {Array.from({ length: m }, (_, i) => <Missile key={`h${i}`} x={110 + (i % 15) * 61} y={1010 + Math.floor(i / 15) * 86} s={0.75} c="#8a93a6" />)}
+          <Man x={540} y={1960} s={0.6} t={t} coat="#4a5a3a" cap />
+        </g>
+      );
+      break;
+    }
+    case "wait": // er meldet Fehlalarm – und wartet. Der Schirm bleibt leer, draußen bleibt es still
+      body = (
+        <ControlRoom t={t} clear={t > 1.2} alarm={t < 1.2} n={t < 1.2 ? 5 : 0}>
+          <Man x={300} y={1900} s={0.95} t={t} coat="#4a5a3a" cap />
+          <g transform="translate(780 1250)"><circle r={120} fill="#0c1018" stroke="#dfe6f5" strokeWidth={10} /><line x1={0} y1={0} x2={0} y2={-84} stroke="#dfe6f5" strokeWidth={8} strokeLinecap="round" transform={`rotate(${t * 60})`} /><line x1={0} y1={0} x2={50} y2={0} stroke="#ffd23f" strokeWidth={8} strokeLinecap="round" /></g>
+        </ControlRoom>
+      );
+      break;
+    case "sun": // der Grund: Sonnenlicht auf Wolken, vom Satelliten für Raketen gehalten
+      body = (
+        <g>
+          <Night t={t} moon={[-300, -300]} />
+          <circle cx={900} cy={380} r={140} fill="#ffe9a8" /><circle cx={900} cy={380} r={260} fill="#ffe9a8" opacity={0.15} />
+          <g transform={`translate(${lerp(200, 300, k)} 620) rotate(-18)`}><rect x={-50} y={-34} width={100} height={68} rx={10} fill="#aab3c6" /><rect x={-190} y={-22} width={130} height={44} fill="#3a5a9a" /><rect x={60} y={-22} width={130} height={44} fill="#3a5a9a" /><circle cx={0} cy={44} r={16} fill="#dfe6f5" /></g>
+          <path d={`M900 380 L${lerp(420, 520, k)} 1150 L${lerp(280, 380, k)} 660`} fill="none" stroke="#ffe9a8" strokeWidth={10} opacity={0.5 + 0.4 * Math.sin(t * 6)} strokeDasharray="30 18" />
+          {[[240, 1180, 1.3], [620, 1260, 1.6], [900, 1160, 1.1]].map(([cx, cy, sc], i) => <g key={i} transform={`translate(${cx} ${cy}) scale(${sc})`}><ellipse rx={170} ry={50} fill="#dfe6f2" /><ellipse cx={80} cy={-34} rx={110} ry={44} fill="#fff" /><ellipse cx={-70} cy={-22} rx={90} ry={36} fill="#f4f7fb" /></g>)}
+          <circle cx={lerp(420, 520, k)} cy={1150} r={30 + 16 * Math.sin(t * 6)} fill="#fff" opacity={0.9} />
+          <path d={`M0 1500 Q540 1380 ${W} 1500 L${W} ${H} L0 ${H} Z`} fill="#18305a" />
+        </g>
+      );
+      break;
+    case "saved": // Lehre: die Stadt steht noch, der Mann geht nach Hause
+      body = (
+        <g>
+          <Night t={t} moon={[540, 420]} />
+          <City y={1420} t={t} />
+          <rect x={0} y={1420} width={W} height={H} fill="#0b101c" />
+          <Man x={lerp(700, 560, k)} y={1900} s={0.9} t={t} coat="#101622" cap flip />
+        </g>
+      );
+      break;
     default: { // "moral": eine Ratte als Silhouette vor dem Mond, die Stadt klein darunter
       body = (
         <g>

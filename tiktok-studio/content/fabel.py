@@ -56,6 +56,23 @@ FABELN = [
            F("Wo die Löcher fehlen, muss die Panzerung hin.", "fix"),
            F("Schau nicht nur auf die, die es geschafft haben. Schau auf die, die fehlen.", "missing"),
        ])),
+    # Quellen: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident · https://en.wikipedia.org/wiki/Stanislav_Petrov
+    ("2026-11-27", "18:00",
+     V("fuenf-raketen", "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm – und meldet es nicht", "#ffd98a",
+       ("1983", None),
+       ("FÜNF", "RAKETEN", "1983", "WAHRE GESCHICHTE", "control:alarm"),
+       "Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er meldet es nicht. Eine wahre Geschichte von 1983. 🚀",
+       ["geschichte", "psychologie", "wahregeschichte", "wissen"],
+       [
+           F("Dieser Mann sieht fünf Atomraketen auf seinem Bildschirm. Und er meldet es nicht.", "alarm"),
+           F("September 1983. Ein Bunker bei Moskau. Stanislaw Petrow hat Nachtschicht.", "bunker", "1983"),
+           F("Kurz nach Mitternacht heult die Sirene. Der Computer meldet: eine Rakete aus den USA. Dann fünf.", "five"),
+           F("Seine Aufgabe: sofort melden. Dann folgt der Gegenschlag.", "phone"),
+           F("Petrow zögert. Wer einen Atomkrieg beginnt, schickt nicht fünf Raketen. Sondern Hunderte.", "logic"),
+           F("Er meldet: Fehlalarm. Und wartet. Nichts schlägt ein.", "wait"),
+           F("Der Satellit hatte Sonnenlicht auf Wolken für Raketen gehalten.", "sun"),
+           F("Ein Mann hat dem Computer nicht geglaubt. Hättest du es gemeldet?", "saved"),
+       ])),
 ]
 
 
