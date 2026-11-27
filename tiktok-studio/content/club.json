@@ -4400,5 +4400,258 @@
    "#series",
    "#fyp"
   ]
+ },
+ {
+  "slug": "club-night-16",
+  "title": "Club Daddyverse – Night 16",
+  "accent": "#d4af37",
+  "hud": {
+   "label": "TONIGHT",
+   "tick": null
+  },
+  "thumb": {
+   "top": "CLUB",
+   "bottom": "DADDYVERSE",
+   "tag": "NIGHT 16",
+   "kicker": "1 FOLLOWER = 1 GUEST",
+   "scene": "city:night"
+  },
+  "caption": "You voted 5 to 0. My best sofa goes to guests who never paid a dollar. Night 16 🪩",
+  "tags": [
+   "club",
+   "followers",
+   "nightclub",
+   "series"
+  ],
+  "segments": [
+   {
+    "text": "You voted five to nothing. Tonight my best sofa goes to guests who never paid a single dollar.",
+    "scene": "3d",
+    "clock": "NIGHT 16",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 117,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       4.2,
+       3.8
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": [
+       -0.75,
+       -0.3
+      ],
+      "move": [
+       0,
+       -1.4,
+       -4.2
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fov": 100,
+     "fx3d": [
+      "co2",
+      "strobe",
+      "confetti"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "ctx": "CLUB DADDYVERSE · 1 FOLLOWER = 1 GUEST",
+    "fx": [
+     "shake"
+    ]
+   },
+   {
+    "text": "Night 16. 117 guests. The VIP lounge belongs to the top voters. Ezra pours. Marz plays drums. And a French horn.",
+    "scene": "3d",
+    "clock": "VIP LOUNGE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 30,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       2.6,
+       2.6,
+       -4.6
+      ],
+      "yaw": [
+       -1.45,
+       -1.35
+      ],
+      "pitch": -0.25
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": false,
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "card": {
+     "kicker": "THE TOP VOTERS 5 · PAYS MOST 0",
+     "title": "VIP: THE TOP VOTERS"
+    }
+   },
+   {
+    "text": "I thought free seats cost me money. Wrong. They ordered all night. Cash: 6,213.",
+    "scene": "3d",
+    "clock": "THE BAR",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 117,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       0,
+       2.9,
+       0
+      ],
+      "yaw": [
+       0,
+       0
+      ],
+      "pitch": -0.28,
+      "orbit": [
+       0,
+       -3.2,
+       6.2,
+       -0.5,
+       0.5
+      ]
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "money"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "big": {
+     "value": "+$2,106",
+     "sub": "VIP LOUNGE · THEY ORDERED ALL NIGHT"
+    }
+   },
+   {
+    "text": "You decide. What is the VIP password? A: Vinnie. B: Burgers. C: Champagne. Tag a friend. They need it.",
+    "scene": "3d",
+    "clock": "YOU DECIDE",
+    "voice": "bouncer",
+    "s3d": {
+     "room": "club",
+     "guests": 117,
+     "dj": true,
+     "bpm": 122,
+     "cam": {
+      "pos": [
+       5.2,
+       3.0,
+       3.6
+      ],
+      "yaw": [
+       0.62,
+       0.48
+      ],
+      "pitch": -0.32
+     },
+     "tower": true,
+     "fame": 100,
+     "laser": true,
+     "fx3d": [
+      "co2"
+     ],
+     "kitchen": 2,
+     "lounge": true,
+     "loungeBar": true,
+     "stage": true,
+     "smoke": [
+      0.2,
+      0.2
+     ]
+    },
+    "stat": {
+     "title": "THE VIP PASSWORD · COMMENT TO VOTE",
+     "rows": [
+      [
+       "A",
+       "VINNIE"
+      ],
+      [
+       "B",
+       "BURGERS"
+      ],
+      [
+       "C",
+       "CHAMPAGNE"
+      ]
+     ]
+    }
+   }
+  ],
+  "day": 16,
+  "id": "club16",
+  "hook": true,
+  "series": "CLUB DADDYVERSE · NIGHT 16",
+  "badge": "NIGHT 16",
+  "brand": "DADDYVERSE",
+  "next": "Night 17: the VIP password",
+  "next_label": "TOMORROW · NIGHT",
+  "followLabel": "FOLLOW = YOU'RE IN",
+  "punch": {
+   "word": "FIVE TO NOTHING",
+   "match": "you"
+  },
+  "music": "club/deep.wav",
+  "followers": 117,
+  "cash": 6213,
+  "money": {
+   "label": "CLUB CASH",
+   "values": [
+    4107,
+    4107,
+    6213,
+    6213
+   ]
+  },
+  "hashtags": [
+   "#club",
+   "#nightclub",
+   "#followers",
+   "#series",
+   "#fyp"
+  ]
  }
 ]
