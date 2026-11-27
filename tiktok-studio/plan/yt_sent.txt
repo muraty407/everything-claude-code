@@ -13,3 +13,4 @@ b05-hai
 f27-asteroid
 b06-flugzeugtuer
 f29-gagarin-teil-1
+b07-aufzug-seil
