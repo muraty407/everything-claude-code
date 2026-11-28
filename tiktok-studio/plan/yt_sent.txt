@@ -14,3 +14,4 @@ f27-asteroid
 b06-flugzeugtuer
 f29-gagarin-teil-1
 b07-aufzug-seil
+f31-gagarin-teil-2
